@@ -1,0 +1,502 @@
+{
+  "category": "Design, UX & Visual Communication",
+  "sub_categories": [
+    {
+      "name": "UI/UX & Product Design",
+      "description": "Designing high-quality interfaces and experiences — taste-driven/anti-generic UI, product/UX design, prototyping and design-agent workflows (Stitch, superdesign).",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "liquid-glass-design",
+          "skill_path": "skills/liquid-glass-design"
+        },
+        {
+          "owner": "alchaincyf",
+          "repo": "huashu-design",
+          "name": "huashu-design",
+          "skill_path": ""
+        },
+        {
+          "owner": "anthropics",
+          "repo": "claude-code",
+          "name": "frontend-design",
+          "skill_path": "plugins/frontend-design/skills/frontend-design"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "claude-plugins-official",
+          "name": "frontend-design",
+          "skill_path": "plugins/frontend-design/skills/frontend-design"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "skills",
+          "name": "canvas-design",
+          "skill_path": "skills/canvas-design"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "skills",
+          "name": "frontend-design",
+          "skill_path": "skills/frontend-design"
+        },
+        {
+          "owner": "benjitaylor",
+          "repo": "agentation",
+          "name": "agentation",
+          "skill_path": "skills/agentation"
+        },
+        {
+          "owner": "benjitaylor",
+          "repo": "agentation",
+          "name": "agentation-self-driving",
+          "skill_path": "skills/agentation-self-driving"
+        },
+        {
+          "owner": "borghei",
+          "repo": "claude-skills",
+          "name": "product-designer",
+          "skill_path": "product-team/product-designer"
+        },
+        {
+          "owner": "cyxzdev",
+          "repo": "uncodixfy",
+          "name": "uncodixfy",
+          "skill_path": ""
+        },
+        {
+          "owner": "dammyjay93",
+          "repo": "interface-design",
+          "name": "interface-design",
+          "skill_path": ".claude/skills/interface-design"
+        },
+        {
+          "owner": "daniel-dan-conrad",
+          "repo": "ui-designer-skill",
+          "name": "ui-designer",
+          "skill_path": ""
+        },
+        {
+          "owner": "emilkowalski",
+          "repo": "skill",
+          "name": "emil-design-eng",
+          "skill_path": "skills/emil-design-eng"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "web-design-reviewer",
+          "skill_path": "skills/web-design-reviewer"
+        },
+        {
+          "owner": "google-labs-code",
+          "repo": "stitch-skills",
+          "name": "enhance-prompt",
+          "skill_path": "plugins/stitch-utilities/skills/enhance-prompt"
+        },
+        {
+          "owner": "google-labs-code",
+          "repo": "stitch-skills",
+          "name": "stitch-loop",
+          "skill_path": "plugins/stitch-utilities/skills/stitch-loop"
+        },
+        {
+          "owner": "jakubkrehel",
+          "repo": "make-interfaces-feel-better",
+          "name": "make-interfaces-feel-better",
+          "skill_path": "skills/make-interfaces-feel-better"
+        },
+        {
+          "owner": "kimny1143",
+          "repo": "claude-code-template",
+          "name": "ui-ux-pro-max",
+          "skill_path": ".claude/skills/ui-ux-pro-max"
+        },
+        {
+          "owner": "leonxlnx",
+          "repo": "taste-skill",
+          "name": "design-taste-frontend",
+          "skill_path": "skills/taste-skill"
+        },
+        {
+          "owner": "leonxlnx",
+          "repo": "taste-skill",
+          "name": "design-taste-frontend-v1",
+          "skill_path": "skills/taste-skill-v1"
+        },
+        {
+          "owner": "leonxlnx",
+          "repo": "taste-skill",
+          "name": "gpt-taste",
+          "skill_path": "skills/gpt-tasteskill"
+        },
+        {
+          "owner": "leonxlnx",
+          "repo": "taste-skill",
+          "name": "high-end-visual-design",
+          "skill_path": "skills/soft-skill"
+        },
+        {
+          "owner": "leonxlnx",
+          "repo": "taste-skill",
+          "name": "image-to-code",
+          "skill_path": "skills/image-to-code-skill"
+        },
+        {
+          "owner": "leonxlnx",
+          "repo": "taste-skill",
+          "name": "imagegen-frontend-mobile",
+          "skill_path": "skills/imagegen-frontend-mobile"
+        },
+        {
+          "owner": "leonxlnx",
+          "repo": "taste-skill",
+          "name": "imagegen-frontend-web",
+          "skill_path": "skills/imagegen-frontend-web"
+        },
+        {
+          "owner": "leonxlnx",
+          "repo": "taste-skill",
+          "name": "industrial-brutalist-ui",
+          "skill_path": "skills/brutalist-skill"
+        },
+        {
+          "owner": "leonxlnx",
+          "repo": "taste-skill",
+          "name": "minimalist-ui",
+          "skill_path": "skills/minimalist-skill"
+        },
+        {
+          "owner": "leonxlnx",
+          "repo": "taste-skill",
+          "name": "redesign-existing-projects",
+          "skill_path": "skills/redesign-skill"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "prototype",
+          "skill_path": "skills/engineering/prototype"
+        },
+        {
+          "owner": "nextlevelbuilder",
+          "repo": "ui-ux-pro-max-skill",
+          "name": "ckm:design",
+          "skill_path": ".claude/skills/design"
+        },
+        {
+          "owner": "nextlevelbuilder",
+          "repo": "ui-ux-pro-max-skill",
+          "name": "ui-ux-pro-max",
+          "skill_path": ".claude/skills/ui-ux-pro-max"
+        },
+        {
+          "owner": "nutlope",
+          "repo": "hallmark",
+          "name": "hallmark",
+          "skill_path": "skills/hallmark"
+        },
+        {
+          "owner": "pbakaus",
+          "repo": "impeccable",
+          "name": "impeccable",
+          "skill_path": ".agents/skills/impeccable"
+        },
+        {
+          "owner": "skills-shell",
+          "repo": "skills",
+          "name": "landing-page-design",
+          "skill_path": "guides/design/landing-page-design"
+        },
+        {
+          "owner": "sleekdotdesign",
+          "repo": "agent-skills",
+          "name": "sleek-design-mobile-apps",
+          "skill_path": "skills/design-mobile-apps"
+        },
+        {
+          "owner": "superdesigndev",
+          "repo": "superdesign-skill",
+          "name": "superdesign",
+          "skill_path": "skills/superdesign"
+        },
+        {
+          "owner": "tw93",
+          "repo": "waza",
+          "name": "design",
+          "skill_path": "skills/design"
+        },
+        {
+          "owner": "wondelai",
+          "repo": "skills",
+          "name": "refactoring-ui",
+          "skill_path": "refactoring-ui"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "brand-landingpage",
+          "skill_path": "plugins/brand-landingpage/skills/brand-landingpage"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "interaction-design",
+          "skill_path": "plugins/ui-design/skills/interaction-design"
+        }
+      ]
+    },
+    {
+      "name": "Design Systems & Tokens",
+      "description": "Building and extracting design systems: design tokens, component specifications, theming and DESIGN.md style guides.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "design-system",
+          "skill_path": "skills/design-system"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "skills",
+          "name": "theme-factory",
+          "skill_path": "skills/theme-factory"
+        },
+        {
+          "owner": "arvindrk",
+          "repo": "extract-design-system",
+          "name": "extract-design-system",
+          "skill_path": "skills/extract-design-system"
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "firecrawl-workflows",
+          "name": "firecrawl-website-design-clone",
+          "skill_path": "skills/firecrawl-website-design-clone"
+        },
+        {
+          "owner": "google-labs-code",
+          "repo": "stitch-skills",
+          "name": "design-md",
+          "skill_path": "plugins/stitch-utilities/skills/design-md"
+        },
+        {
+          "owner": "google-labs-code",
+          "repo": "stitch-skills",
+          "name": "taste-design",
+          "skill_path": "plugins/stitch-utilities/skills/taste-design"
+        },
+        {
+          "owner": "leonxlnx",
+          "repo": "taste-skill",
+          "name": "stitch-design-taste",
+          "skill_path": "skills/stitch-skill"
+        },
+        {
+          "owner": "nextlevelbuilder",
+          "repo": "ui-ux-pro-max-skill",
+          "name": "ckm:design-system",
+          "skill_path": ".claude/skills/design-system"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "design-system-patterns",
+          "skill_path": "plugins/ui-design/skills/design-system-patterns"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "visual-design-foundations",
+          "skill_path": "plugins/ui-design/skills/visual-design-foundations"
+        }
+      ]
+    },
+    {
+      "name": "Branding & Identity",
+      "description": "Visual identity work: brand guidelines, logos, brand kits, color/typography systems and brand-consistent assets.",
+      "skills": [
+        {
+          "owner": "anthropics",
+          "repo": "skills",
+          "name": "brand-guidelines",
+          "skill_path": "skills/brand-guidelines"
+        },
+        {
+          "owner": "leonxlnx",
+          "repo": "taste-skill",
+          "name": "brandkit",
+          "skill_path": "skills/brandkit"
+        },
+        {
+          "owner": "nextlevelbuilder",
+          "repo": "ui-ux-pro-max-skill",
+          "name": "ckm:banner-design",
+          "skill_path": ".claude/skills/banner-design"
+        },
+        {
+          "owner": "nextlevelbuilder",
+          "repo": "ui-ux-pro-max-skill",
+          "name": "ckm:brand",
+          "skill_path": ".claude/skills/brand"
+        },
+        {
+          "owner": "rknall",
+          "repo": "claude-skills",
+          "name": "SVG Logo Designer",
+          "skill_path": "svg-logo-designer"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "domain-name-brainstormer",
+          "skill_path": "dist/plugins/domain-name-brainstormer/skills/domain-name-brainstormer"
+        },
+        {
+          "owner": "warpdotdev",
+          "repo": "common-skills",
+          "name": "brandalf",
+          "skill_path": ".agents/skills/brandalf"
+        }
+      ]
+    },
+    {
+      "name": "Diagrams & Visualization Docs",
+      "description": "Creating technical and conceptual diagrams — Mermaid, draw.io, Excalidraw, PlantUML, C4, flowcharts, mind maps and whiteboards.",
+      "skills": [
+        {
+          "owner": "bahayonghang",
+          "repo": "drawio-skills",
+          "name": "drawio",
+          "skill_path": "skills/drawio"
+        },
+        {
+          "owner": "coleam00",
+          "repo": "excalidraw-diagram-skill",
+          "name": "excalidraw-diagram",
+          "skill_path": ""
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "azure-resource-visualizer",
+          "skill_path": "skills/azure-resource-visualizer"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "excalidraw-diagram-generator",
+          "skill_path": "skills/excalidraw-diagram-generator"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "legacy-circuit-mockups",
+          "skill_path": "skills/legacy-circuit-mockups"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "plantuml-ascii",
+          "skill_path": "skills/plantuml-ascii"
+        },
+        {
+          "owner": "jimliu",
+          "repo": "baoyu-skills",
+          "name": "baoyu-diagram",
+          "skill_path": "skills/baoyu-diagram"
+        },
+        {
+          "owner": "kepano",
+          "repo": "obsidian-skills",
+          "name": "json-canvas",
+          "skill_path": "skills/json-canvas"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "azure-resource-visualizer",
+          "skill_path": ".github/plugins/azure-skills/skills/azure-resource-visualizer"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "c4-architecture",
+          "skill_path": "dist/plugins/c4-architecture/skills/c4-architecture"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "mermaid-diagrams",
+          "skill_path": "dist/plugins/mermaid-diagrams/skills/mermaid-diagrams"
+        },
+        {
+          "owner": "spillwavesolutions",
+          "repo": "design-doc-mermaid",
+          "name": "design-doc-mermaid",
+          "skill_path": ""
+        },
+        {
+          "owner": "yizhiyanhua-ai",
+          "repo": "fireworks-tech-graph",
+          "name": "fireworks-tech-graph",
+          "skill_path": ""
+        }
+      ]
+    },
+    {
+      "name": "Data Visualization & Dashboards",
+      "description": "Turning data into charts and interactive dashboards — chart-type selection, BI-style dashboards and publication-quality figures.",
+      "skills": [
+        {
+          "owner": "anthropics",
+          "repo": "knowledge-work-plugins",
+          "name": "build-dashboard",
+          "skill_path": "data/skills/build-dashboard"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "knowledge-work-plugins",
+          "name": "data-visualization",
+          "skill_path": "data/skills/data-visualization"
+        },
+        {
+          "owner": "antvis",
+          "repo": "chart-visualization-skills",
+          "name": "chart-visualization",
+          "skill_path": "skills/chart-visualization"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "kpi-dashboard-design",
+          "skill_path": "plugins/business-analytics/skills/kpi-dashboard-design"
+        }
+      ]
+    },
+    {
+      "name": "Design Tool Integration",
+      "description": "Working through design tools and their APIs/MCP — Figma and Penpot — to read or produce designs.",
+      "skills": [
+        {
+          "owner": "figma",
+          "repo": "mcp-server-guide",
+          "name": "figma-use",
+          "skill_path": "skills/figma-use"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "penpot-uiux-design",
+          "skill_path": "skills/penpot-uiux-design"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Design skills that do not fit the above subcategories.",
+      "skills": []
+    }
+  ]
+}

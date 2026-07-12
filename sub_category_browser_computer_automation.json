@@ -1,0 +1,166 @@
+{
+  "category": "Browser & Computer Automation",
+  "sub_categories": [
+    {
+      "name": "Browser Automation",
+      "description": "Automating real web browsers for navigation, form-filling, clicking, screenshots and data extraction (agent-browser, browser-use, Playwright, Chrome DevTools, opencli).",
+      "skills": [
+        {
+          "owner": "antibrow",
+          "repo": "anti-detect-browser-skills",
+          "name": "anti-detect-browser",
+          "skill_path": "anti-detect-browser"
+        },
+        {
+          "owner": "bitsky-tech",
+          "repo": "bridgic-browser",
+          "name": "bridgic-browser",
+          "skill_path": "skills/bridgic-browser"
+        },
+        {
+          "owner": "browser-act",
+          "repo": "skills",
+          "name": "browser-act",
+          "skill_path": "browser-act"
+        },
+        {
+          "owner": "browser-use",
+          "repo": "browser-use",
+          "name": "browser-use",
+          "skill_path": "skills/browser-use"
+        },
+        {
+          "owner": "browserbase",
+          "repo": "skills",
+          "name": "browser",
+          "skill_path": "skills/browser"
+        },
+        {
+          "owner": "chromedevtools",
+          "repo": "chrome-devtools-mcp",
+          "name": "chrome-devtools",
+          "skill_path": "skills/chrome-devtools"
+        },
+        {
+          "owner": "eze-is",
+          "repo": "web-access",
+          "name": "web-access",
+          "skill_path": ""
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "cli",
+          "name": "firecrawl-interact",
+          "skill_path": "skills/firecrawl-interact"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "chrome-devtools",
+          "skill_path": "skills/chrome-devtools"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "playwright-automation-fill-in-form",
+          "skill_path": "skills/playwright-automation-fill-in-form"
+        },
+        {
+          "owner": "jackwener",
+          "repo": "opencli",
+          "name": "opencli-autofix",
+          "skill_path": "skills/opencli-autofix"
+        },
+        {
+          "owner": "jackwener",
+          "repo": "opencli",
+          "name": "opencli-browser",
+          "skill_path": "skills/opencli-browser"
+        },
+        {
+          "owner": "jackwener",
+          "repo": "opencli",
+          "name": "opencli-usage",
+          "skill_path": "skills/opencli-usage"
+        },
+        {
+          "owner": "remorses",
+          "repo": "playwriter",
+          "name": "playwriter",
+          "skill_path": "skills/playwriter"
+        },
+        {
+          "owner": "sickn33",
+          "repo": "antigravity-awesome-skills",
+          "name": "browser-automation",
+          "skill_path": "plugins/antigravity-awesome-skills/skills/browser-automation"
+        },
+        {
+          "owner": "skills-shell",
+          "repo": "skills",
+          "name": "agent-browser",
+          "skill_path": "tools/utilities/agent-browser"
+        },
+        {
+          "owner": "vercel-labs",
+          "repo": "agent-browser",
+          "name": "agent-browser",
+          "skill_path": "skills/agent-browser"
+        },
+        {
+          "owner": "web-infra-dev",
+          "repo": "midscene-skills",
+          "name": "browser-automation",
+          "skill_path": "skills/browser"
+        },
+        {
+          "owner": "xixu-me",
+          "repo": "skills",
+          "name": "use-my-browser",
+          "skill_path": "skills/use-my-browser"
+        }
+      ]
+    },
+    {
+      "name": "App & Device Automation",
+      "description": "Automating desktop apps, OS-level control, and mobile devices — tapping/typing/scrolling, screenshots, and controlling creative/office software.",
+      "skills": [
+        {
+          "owner": "callstackincubator",
+          "repo": "agent-device",
+          "name": "agent-device",
+          "skill_path": "skills/agent-device"
+        },
+        {
+          "owner": "openai",
+          "repo": "skills",
+          "name": "screenshot",
+          "skill_path": "skills/.curated/screenshot"
+        },
+        {
+          "owner": "patrickporto",
+          "repo": "desktop-agent",
+          "name": "Desktop Control",
+          "skill_path": ""
+        },
+        {
+          "owner": "sfkislev",
+          "repo": "flue",
+          "name": "flue",
+          "skill_path": "skills"
+        },
+        {
+          "owner": "steipete",
+          "repo": "clawdis",
+          "name": "tmux",
+          "skill_path": "skills/tmux"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Automation skills that do not fit the above subcategories.",
+      "skills": []
+    }
+  ]
+}

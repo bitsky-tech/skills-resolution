@@ -1,0 +1,803 @@
+{
+  "category": "Coding-Agent Tooling & Skill Engineering",
+  "sub_categories": [
+    {
+      "name": "Skills, Commands & Plugins Authoring",
+      "description": "Creating and packaging agent capabilities: SKILL.md authoring, slash commands, hooks, plugins, CLAUDE.md/AGENTS.md and skill marketplaces/discovery.",
+      "skills": [
+        {
+          "owner": "addyosmani",
+          "repo": "agent-skills",
+          "name": "using-agent-skills",
+          "skill_path": "skills/using-agent-skills"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "configure-ecc",
+          "skill_path": "skills/configure-ecc"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "rules-distill",
+          "skill_path": "skills/rules-distill"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "skill-comply",
+          "skill_path": "skills/skill-comply"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "skills",
+          "name": "find-skills",
+          "skill_path": "find-skills"
+        },
+        {
+          "owner": "alchaincyf",
+          "repo": "darwin-skill",
+          "name": "darwin-skill",
+          "skill_path": ""
+        },
+        {
+          "owner": "alchaincyf",
+          "repo": "nuwa-skill",
+          "name": "huashu-nuwa",
+          "skill_path": ""
+        },
+        {
+          "owner": "anthropics",
+          "repo": "claude-code",
+          "name": "Agent Development",
+          "skill_path": "plugins/plugin-dev/skills/agent-development"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "claude-code",
+          "name": "Command Development",
+          "skill_path": "plugins/plugin-dev/skills/command-development"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "claude-code",
+          "name": "Hook Development",
+          "skill_path": "plugins/plugin-dev/skills/hook-development"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "claude-code",
+          "name": "MCP Integration",
+          "skill_path": "plugins/plugin-dev/skills/mcp-integration"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "claude-code",
+          "name": "Plugin Settings",
+          "skill_path": "plugins/plugin-dev/skills/plugin-settings"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "claude-code",
+          "name": "Plugin Structure",
+          "skill_path": "plugins/plugin-dev/skills/plugin-structure"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "claude-code",
+          "name": "Skill Development",
+          "skill_path": "plugins/plugin-dev/skills/skill-development"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "claude-code",
+          "name": "Writing Hookify Rules",
+          "skill_path": "plugins/hookify/skills/writing-rules"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "claude-plugins-official",
+          "name": "agent-development",
+          "skill_path": "plugins/plugin-dev/skills/agent-development"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "claude-plugins-official",
+          "name": "claude-automation-recommender",
+          "skill_path": "plugins/claude-code-setup/skills/claude-automation-recommender"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "claude-plugins-official",
+          "name": "claude-md-improver",
+          "skill_path": "plugins/claude-md-management/skills/claude-md-improver"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "claude-plugins-official",
+          "name": "skill-creator",
+          "skill_path": "plugins/skill-creator/skills/skill-creator"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "skills",
+          "name": "skill-creator",
+          "skill_path": "skills/skill-creator"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "skills",
+          "name": "template-skill",
+          "skill_path": "template"
+        },
+        {
+          "owner": "browser-act",
+          "repo": "skills",
+          "name": "browser-act-skill-forge",
+          "skill_path": "browser-act-skill-forge"
+        },
+        {
+          "owner": "callstackincubator",
+          "repo": "agent-skills",
+          "name": "validate-skills",
+          "skill_path": ".claude/skills/validate-skills"
+        },
+        {
+          "owner": "dontbesilent2025",
+          "repo": "dbskill",
+          "name": "dbs-agent-migration",
+          "skill_path": "skills/dbs-agent-migration"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "copilot-instructions-blueprint-generator",
+          "skill_path": "skills/copilot-instructions-blueprint-generator"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "create-agentsmd",
+          "skill_path": "skills/create-agentsmd"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "generate-custom-instructions-from-codebase",
+          "skill_path": "skills/generate-custom-instructions-from-codebase"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "github-copilot-starter",
+          "skill_path": "skills/github-copilot-starter"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "microsoft-skill-creator",
+          "skill_path": "skills/microsoft-skill-creator"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "suggest-awesome-github-copilot-agents",
+          "skill_path": "plugins/awesome-copilot/skills/suggest-awesome-github-copilot-agents"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "suggest-awesome-github-copilot-instructions",
+          "skill_path": "plugins/awesome-copilot/skills/suggest-awesome-github-copilot-instructions"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "suggest-awesome-github-copilot-skills",
+          "skill_path": "plugins/awesome-copilot/skills/suggest-awesome-github-copilot-skills"
+        },
+        {
+          "owner": "jackwener",
+          "repo": "opencli",
+          "name": "opencli-adapter-author",
+          "skill_path": "skills/opencli-adapter-author"
+        },
+        {
+          "owner": "larksuite",
+          "repo": "cli",
+          "name": "lark-skill-maker",
+          "skill_path": "skills/lark-skill-maker"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "setup-matt-pocock-skills",
+          "skill_path": "skills/engineering/setup-matt-pocock-skills"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "write-a-skill",
+          "skill_path": "skills/productivity/write-a-skill"
+        },
+        {
+          "owner": "obra",
+          "repo": "superpowers",
+          "name": "writing-skills",
+          "skill_path": "skills/writing-skills"
+        },
+        {
+          "owner": "okx",
+          "repo": "agent-skills",
+          "name": "okx-cex-skill-mp",
+          "skill_path": "skills/okx-cex-skill-mp"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "agent-md-refactor",
+          "skill_path": "dist/plugins/agent-md-refactor/skills/agent-md-refactor"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "command-creator",
+          "skill_path": "dist/plugins/command-creator/skills/command-creator"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "plugin-forge",
+          "skill_path": "dist/plugins/plugin-forge/skills/plugin-forge"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "skill-judge",
+          "skill_path": "dist/plugins/skill-judge/skills/skill-judge"
+        },
+        {
+          "owner": "starchild-ai-agent",
+          "repo": "official-skills",
+          "name": "skill-creator",
+          "skill_path": "skill-creator"
+        },
+        {
+          "owner": "starchild-ai-agent",
+          "repo": "official-skills",
+          "name": "skillmarketplace",
+          "skill_path": "skillmarketplace"
+        },
+        {
+          "owner": "vercel-labs",
+          "repo": "skills",
+          "name": "find-skills",
+          "skill_path": "skills/find-skills"
+        },
+        {
+          "owner": "warpdotdev",
+          "repo": "common-skills",
+          "name": "update-skill",
+          "skill_path": ".agents/skills/update-skill"
+        },
+        {
+          "owner": "xixu-me",
+          "repo": "skills",
+          "name": "skills-cli",
+          "skill_path": "skills/skills-cli"
+        }
+      ]
+    },
+    {
+      "name": "Agent Memory & Context Management",
+      "description": "Persistent agent memory, context engineering, context-budget auditing, compaction and session handoff.",
+      "skills": [
+        {
+          "owner": "addyosmani",
+          "repo": "agent-skills",
+          "name": "context-engineering",
+          "skill_path": "skills/context-engineering"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "ck",
+          "skill_path": "skills/ck"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "context-budget",
+          "skill_path": "skills/context-budget"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "strategic-compact",
+          "skill_path": ".agents/skills/strategic-compact"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "token-budget-advisor",
+          "skill_path": "skills/token-budget-advisor"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "knowledge-work-plugins",
+          "name": "memory-management",
+          "skill_path": "productivity/skills/memory-management"
+        },
+        {
+          "owner": "dontbesilent2025",
+          "repo": "dbskill",
+          "name": "dbs-restore",
+          "skill_path": "skills/dbs-restore"
+        },
+        {
+          "owner": "dontbesilent2025",
+          "repo": "dbskill",
+          "name": "dbs-save",
+          "skill_path": "skills/dbs-save"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "context-map",
+          "skill_path": "plugins/context-engineering/skills/context-map"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "copilot-spaces",
+          "skill_path": "skills/copilot-spaces"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "memory-merger",
+          "skill_path": "skills/memory-merger"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "remember",
+          "skill_path": "skills/remember"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "what-context-needed",
+          "skill_path": "plugins/context-engineering/skills/what-context-needed"
+        },
+        {
+          "owner": "juliusbrussee",
+          "repo": "caveman",
+          "name": "caveman-compress",
+          "skill_path": "plugins/caveman/skills/caveman-compress"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "handoff",
+          "skill_path": "skills/productivity/handoff"
+        },
+        {
+          "owner": "obra",
+          "repo": "episodic-memory",
+          "name": "remembering-conversations",
+          "skill_path": "skills/remembering-conversations"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "session-handoff",
+          "skill_path": "dist/plugins/session-handoff/skills/session-handoff"
+        },
+        {
+          "owner": "sundial-org",
+          "repo": "awesome-openclaw-skills",
+          "name": "ontology",
+          "skill_path": "skills/ontology"
+        },
+        {
+          "owner": "thedotmack",
+          "repo": "claude-mem",
+          "name": "mem-search",
+          "skill_path": "plugin/skills/mem-search"
+        }
+      ]
+    },
+    {
+      "name": "Multi-Agent Orchestration",
+      "description": "Coordinating multiple agents and autonomous loops: parallel-agent dispatch, agent harnesses, DAG/RFC pipelines, team composition and task coordination.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "agent-harness-construction",
+          "skill_path": "skills/agent-harness-construction"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "autonomous-agent-harness",
+          "skill_path": "skills/autonomous-agent-harness"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "autonomous-loops",
+          "skill_path": "skills/autonomous-loops"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "claude-devfleet",
+          "skill_path": "skills/claude-devfleet"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "continuous-agent-loop",
+          "skill_path": "skills/continuous-agent-loop"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "dmux-workflows",
+          "skill_path": ".agents/skills/dmux-workflows"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "ralphinho-rfc-pipeline",
+          "skill_path": "skills/ralphinho-rfc-pipeline"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "team-builder",
+          "skill_path": "skills/team-builder"
+        },
+        {
+          "owner": "agentix-cloud",
+          "repo": "skills",
+          "name": "agentix-ceo",
+          "skill_path": "skills/agentix-ceo"
+        },
+        {
+          "owner": "andrelandgraf",
+          "repo": "fullstackrecipes",
+          "name": "ralph-loop",
+          "skill_path": "skills/ralph-loop"
+        },
+        {
+          "owner": "juliusbrussee",
+          "repo": "caveman",
+          "name": "cavecrew",
+          "skill_path": ".agents/skills/cavecrew"
+        },
+        {
+          "owner": "obra",
+          "repo": "superpowers",
+          "name": "dispatching-parallel-agents",
+          "skill_path": "skills/dispatching-parallel-agents"
+        },
+        {
+          "owner": "obra",
+          "repo": "superpowers",
+          "name": "subagent-driven-development",
+          "skill_path": "skills/subagent-driven-development"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "codex",
+          "skill_path": "dist/plugins/codex/skills/codex"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "gemini",
+          "skill_path": "dist/plugins/gemini/skills/gemini"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "parallel-feature-development",
+          "skill_path": "plugins/agent-teams/skills/parallel-feature-development"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "task-coordination-strategies",
+          "skill_path": "plugins/agent-teams/skills/task-coordination-strategies"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "team-communication-protocols",
+          "skill_path": "plugins/agent-teams/skills/team-communication-protocols"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "team-composition-patterns",
+          "skill_path": "plugins/agent-teams/skills/team-composition-patterns"
+        }
+      ]
+    },
+    {
+      "name": "Agent Workflow & Governance",
+      "description": "Disciplined agent operation: verification-before-completion, self-improvement, file-based planning, safety guards, governance and token-saving communication modes.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "agentic-engineering",
+          "skill_path": ".kiro/skills/agentic-engineering"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "ai-first-engineering",
+          "skill_path": "skills/ai-first-engineering"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "continuous-learning",
+          "skill_path": "skills/continuous-learning"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "continuous-learning-v2",
+          "skill_path": "skills/continuous-learning-v2"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "safety-guard",
+          "skill_path": "skills/safety-guard"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "santa-method",
+          "skill_path": "skills/santa-method"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "verification-loop",
+          "skill_path": ".agents/skills/verification-loop"
+        },
+        {
+          "owner": "autogame-17",
+          "repo": "capability-evolver",
+          "name": "capability-evolver",
+          "skill_path": ""
+        },
+        {
+          "owner": "charon-fan",
+          "repo": "agent-playbook",
+          "name": "self-improving-agent",
+          "skill_path": "skills/self-improving-agent"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "remember-interactive-programming",
+          "skill_path": "plugins/clojure-interactive-programming/skills/remember-interactive-programming"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "structured-autonomy-generate",
+          "skill_path": "plugins/structured-autonomy/skills/structured-autonomy-generate"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "structured-autonomy-implement",
+          "skill_path": "plugins/structured-autonomy/skills/structured-autonomy-implement"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "structured-autonomy-plan",
+          "skill_path": "plugins/structured-autonomy/skills/structured-autonomy-plan"
+        },
+        {
+          "owner": "halthelobster",
+          "repo": "proactive-agent",
+          "name": "proactive-agent",
+          "skill_path": ""
+        },
+        {
+          "owner": "juliusbrussee",
+          "repo": "caveman",
+          "name": "caveman",
+          "skill_path": "plugins/caveman/skills/caveman"
+        },
+        {
+          "owner": "juliusbrussee",
+          "repo": "caveman",
+          "name": "caveman-help",
+          "skill_path": "skills/caveman-help"
+        },
+        {
+          "owner": "juliusbrussee",
+          "repo": "caveman",
+          "name": "caveman-stats",
+          "skill_path": "plugins/caveman/skills/caveman-stats"
+        },
+        {
+          "owner": "leonxlnx",
+          "repo": "taste-skill",
+          "name": "full-output-enforcement",
+          "skill_path": "skills/output-skill"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "caveman",
+          "skill_path": "skills/productivity/caveman"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "zoom-out",
+          "skill_path": "skills/engineering/zoom-out"
+        },
+        {
+          "owner": "obra",
+          "repo": "superpowers",
+          "name": "executing-plans",
+          "skill_path": "skills/executing-plans"
+        },
+        {
+          "owner": "obra",
+          "repo": "superpowers",
+          "name": "using-superpowers",
+          "skill_path": "skills/using-superpowers"
+        },
+        {
+          "owner": "obra",
+          "repo": "superpowers",
+          "name": "verification-before-completion",
+          "skill_path": "skills/verification-before-completion"
+        },
+        {
+          "owner": "pskoett",
+          "repo": "self-improving-agent",
+          "name": "self-improvement",
+          "skill_path": ""
+        },
+        {
+          "owner": "starchild-ai-agent",
+          "repo": "official-skills",
+          "name": "project-builder",
+          "skill_path": "project-builder"
+        },
+        {
+          "owner": "tanweai",
+          "repo": "pua",
+          "name": "pua",
+          "skill_path": ".trae/skills/pua"
+        },
+        {
+          "owner": "tw93",
+          "repo": "waza",
+          "name": "health",
+          "skill_path": "skills/health"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "track-management",
+          "skill_path": "plugins/conductor/skills/track-management"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "workflow-patterns",
+          "skill_path": "plugins/conductor/skills/workflow-patterns"
+        },
+        {
+          "owner": "xixu-me",
+          "repo": "skills",
+          "name": "running-claude-code-via-litellm-copilot",
+          "skill_path": "skills/running-claude-code-via-litellm-copilot"
+        }
+      ]
+    },
+    {
+      "name": "Agent Monitoring & Environments",
+      "description": "Observing and hosting agents: activity dashboards/log inspection, sandboxed agent runtimes, session bridging and remote-agent workspaces.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "enterprise-agent-ops",
+          "skill_path": "skills/enterprise-agent-ops"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "skills",
+          "name": "agentspace",
+          "skill_path": "agentspace"
+        },
+        {
+          "owner": "aradotso",
+          "repo": "trending-skills",
+          "name": "openclaw-control-center",
+          "skill_path": "skills/openclaw-control-center"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "copilot-usage-metrics",
+          "skill_path": "skills/copilot-usage-metrics"
+        },
+        {
+          "owner": "jane-o-o-o-o",
+          "repo": "agent-pulse-skills",
+          "name": "agent-pulse",
+          "skill_path": "agent-pulse"
+        },
+        {
+          "owner": "op7418",
+          "repo": "claude-to-im-skill",
+          "name": "claude-to-im",
+          "skill_path": ""
+        },
+        {
+          "owner": "replicas-group",
+          "repo": "skill",
+          "name": "replicas-agent",
+          "skill_path": ""
+        },
+        {
+          "owner": "rivet-dev",
+          "repo": "skills",
+          "name": "sandbox-agent",
+          "skill_path": "skills/sandbox-agent"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Coding-agent tooling skills that do not fit the above subcategories.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "nanoclaw-repl",
+          "skill_path": "skills/nanoclaw-repl"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "copilot-cli-quickstart",
+          "skill_path": "skills/copilot-cli-quickstart"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "noob-mode",
+          "skill_path": "plugins/noob-mode/skills/noob-mode"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "quasi-coder",
+          "skill_path": "plugins/cms-development/skills/quasi-coder"
+        }
+      ]
+    }
+  ]
+}

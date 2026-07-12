@@ -1,0 +1,520 @@
+{
+  "category": "Marketing, SEO & Growth",
+  "sub_categories": [
+    {
+      "name": "SEO & Generative-Engine Optimization",
+      "description": "Improving search and AI-answer visibility: technical/on-page SEO audits, keyword research, backlinks, schema markup and GEO/AEO optimization.",
+      "skills": [
+        {
+          "owner": "aaron-he-zhu",
+          "repo": "seo-geo-claude-skills",
+          "name": "alert-manager",
+          "skill_path": "monitor/alert-manager"
+        },
+        {
+          "owner": "aaron-he-zhu",
+          "repo": "seo-geo-claude-skills",
+          "name": "backlink-analyzer",
+          "skill_path": "monitor/backlink-analyzer"
+        },
+        {
+          "owner": "aaron-he-zhu",
+          "repo": "seo-geo-claude-skills",
+          "name": "competitor-analysis",
+          "skill_path": "research/competitor-analysis"
+        },
+        {
+          "owner": "aaron-he-zhu",
+          "repo": "seo-geo-claude-skills",
+          "name": "content-gap-analysis",
+          "skill_path": "research/content-gap-analysis"
+        },
+        {
+          "owner": "aaron-he-zhu",
+          "repo": "seo-geo-claude-skills",
+          "name": "content-quality-auditor",
+          "skill_path": "cross-cutting/content-quality-auditor"
+        },
+        {
+          "owner": "aaron-he-zhu",
+          "repo": "seo-geo-claude-skills",
+          "name": "content-refresher",
+          "skill_path": "optimize/content-refresher"
+        },
+        {
+          "owner": "aaron-he-zhu",
+          "repo": "seo-geo-claude-skills",
+          "name": "domain-authority-auditor",
+          "skill_path": "cross-cutting/domain-authority-auditor"
+        },
+        {
+          "owner": "aaron-he-zhu",
+          "repo": "seo-geo-claude-skills",
+          "name": "entity-optimizer",
+          "skill_path": "cross-cutting/entity-optimizer"
+        },
+        {
+          "owner": "aaron-he-zhu",
+          "repo": "seo-geo-claude-skills",
+          "name": "geo-content-optimizer",
+          "skill_path": "build/geo-content-optimizer"
+        },
+        {
+          "owner": "aaron-he-zhu",
+          "repo": "seo-geo-claude-skills",
+          "name": "internal-linking-optimizer",
+          "skill_path": "optimize/internal-linking-optimizer"
+        },
+        {
+          "owner": "aaron-he-zhu",
+          "repo": "seo-geo-claude-skills",
+          "name": "keyword-research",
+          "skill_path": "research/keyword-research"
+        },
+        {
+          "owner": "aaron-he-zhu",
+          "repo": "seo-geo-claude-skills",
+          "name": "memory-management",
+          "skill_path": "cross-cutting/memory-management"
+        },
+        {
+          "owner": "aaron-he-zhu",
+          "repo": "seo-geo-claude-skills",
+          "name": "meta-tags-optimizer",
+          "skill_path": "build/meta-tags-optimizer"
+        },
+        {
+          "owner": "aaron-he-zhu",
+          "repo": "seo-geo-claude-skills",
+          "name": "on-page-seo-auditor",
+          "skill_path": "optimize/on-page-seo-auditor"
+        },
+        {
+          "owner": "aaron-he-zhu",
+          "repo": "seo-geo-claude-skills",
+          "name": "performance-reporter",
+          "skill_path": "monitor/performance-reporter"
+        },
+        {
+          "owner": "aaron-he-zhu",
+          "repo": "seo-geo-claude-skills",
+          "name": "rank-tracker",
+          "skill_path": "monitor/rank-tracker"
+        },
+        {
+          "owner": "aaron-he-zhu",
+          "repo": "seo-geo-claude-skills",
+          "name": "schema-markup-generator",
+          "skill_path": "build/schema-markup-generator"
+        },
+        {
+          "owner": "aaron-he-zhu",
+          "repo": "seo-geo-claude-skills",
+          "name": "seo-content-writer",
+          "skill_path": "build/seo-content-writer"
+        },
+        {
+          "owner": "aaron-he-zhu",
+          "repo": "seo-geo-claude-skills",
+          "name": "serp-analysis",
+          "skill_path": "research/serp-analysis"
+        },
+        {
+          "owner": "aaron-he-zhu",
+          "repo": "seo-geo-claude-skills",
+          "name": "technical-seo-checker",
+          "skill_path": "optimize/technical-seo-checker"
+        },
+        {
+          "owner": "addyosmani",
+          "repo": "web-quality-skills",
+          "name": "seo",
+          "skill_path": "skills/seo"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "seo",
+          "skill_path": "skills/seo"
+        },
+        {
+          "owner": "calm-north",
+          "repo": "seojuice-skills",
+          "name": "audit",
+          "skill_path": "skills/audit"
+        },
+        {
+          "owner": "calm-north",
+          "repo": "seojuice-skills",
+          "name": "brief",
+          "skill_path": "skills/brief"
+        },
+        {
+          "owner": "calm-north",
+          "repo": "seojuice-skills",
+          "name": "build-links",
+          "skill_path": "skills/build-links"
+        },
+        {
+          "owner": "calm-north",
+          "repo": "seojuice-skills",
+          "name": "find-keywords",
+          "skill_path": "skills/find-keywords"
+        },
+        {
+          "owner": "calm-north",
+          "repo": "seojuice-skills",
+          "name": "optimize-for-ai",
+          "skill_path": "skills/optimize-for-ai"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "ai-seo",
+          "skill_path": "skills/ai-seo"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "competitors",
+          "skill_path": "skills/competitors"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "content-strategy",
+          "skill_path": "skills/content-strategy"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "programmatic-seo",
+          "skill_path": "skills/programmatic-seo"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "schema",
+          "skill_path": "skills/schema"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "seo-audit",
+          "skill_path": "skills/seo-audit"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "site-architecture",
+          "skill_path": "skills/site-architecture"
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "firecrawl-workflows",
+          "name": "firecrawl-seo-audit",
+          "skill_path": "skills/firecrawl-seo-audit"
+        },
+        {
+          "owner": "ibelick",
+          "repo": "ui-skills",
+          "name": "fixing-metadata",
+          "skill_path": "skills/fixing-metadata"
+        },
+        {
+          "owner": "resciencelab",
+          "repo": "opc-skills",
+          "name": "seo-geo",
+          "skill_path": ".agents/skills/seo-geo"
+        },
+        {
+          "owner": "sanity-io",
+          "repo": "agent-toolkit",
+          "name": "seo-aeo-best-practices",
+          "skill_path": "skills/seo-aeo-best-practices"
+        }
+      ]
+    },
+    {
+      "name": "Growth & Conversion Optimization",
+      "description": "Increasing activation and revenue: CRO, A/B testing, onboarding, pricing/paywalls, churn/retention, referrals and analytics.",
+      "skills": [
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "ab-testing",
+          "skill_path": "skills/ab-testing"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "analytics",
+          "skill_path": "skills/analytics"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "churn-prevention",
+          "skill_path": "skills/churn-prevention"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "co-marketing",
+          "skill_path": "skills/co-marketing"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "community-marketing",
+          "skill_path": "skills/community-marketing"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "cro",
+          "skill_path": "skills/cro"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "free-tools",
+          "skill_path": "skills/free-tools"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "lead-magnets",
+          "skill_path": "skills/lead-magnets"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "marketing-ideas",
+          "skill_path": "skills/marketing-ideas"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "marketing-psychology",
+          "skill_path": "skills/marketing-psychology"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "onboarding",
+          "skill_path": "skills/onboarding"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "paywalls",
+          "skill_path": "skills/paywalls"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "popups",
+          "skill_path": "skills/popups"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "pricing",
+          "skill_path": "skills/pricing"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "referrals",
+          "skill_path": "skills/referrals"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "revops",
+          "skill_path": "skills/revops"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "signup",
+          "skill_path": "skills/signup"
+        }
+      ]
+    },
+    {
+      "name": "Advertising & Marketing Copy",
+      "description": "Creating demand-gen creative and copy — paid ads, landing-page and page copy, email/SMS lifecycle campaigns and copy editing.",
+      "skills": [
+        {
+          "owner": "claude-office-skills",
+          "repo": "skills",
+          "name": "google-ads-manager",
+          "skill_path": "google-ads-manager"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "ad-creative",
+          "skill_path": "skills/ad-creative"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "ads",
+          "skill_path": "skills/ads"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "cold-email",
+          "skill_path": "skills/cold-email"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "copy-editing",
+          "skill_path": "skills/copy-editing"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "copywriting",
+          "skill_path": "skills/copywriting"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "emails",
+          "skill_path": "skills/emails"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "sms",
+          "skill_path": "skills/sms"
+        },
+        {
+          "owner": "onewave-ai",
+          "repo": "claude-skills",
+          "name": "landing-page-copywriter",
+          "skill_path": "landing-page-copywriter"
+        }
+      ]
+    },
+    {
+      "name": "Market & Competitor Research",
+      "description": "Understanding the market: competitor profiling/teardowns, positioning, customer research, lead generation and prospecting.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "market-research",
+          "skill_path": ".agents/skills/market-research"
+        },
+        {
+          "owner": "composiohq",
+          "repo": "awesome-claude-skills",
+          "name": "lead-research-assistant",
+          "skill_path": "lead-research-assistant"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "competitor-profiling",
+          "skill_path": "skills/competitor-profiling"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "customer-research",
+          "skill_path": "skills/customer-research"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "product-marketing",
+          "skill_path": "skills/product-marketing"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "prospecting",
+          "skill_path": "skills/prospecting"
+        },
+        {
+          "owner": "skills-shell",
+          "repo": "skills",
+          "name": "competitor-teardown",
+          "skill_path": "guides/product/competitor-teardown"
+        }
+      ]
+    },
+    {
+      "name": "Launches, ASO & Sales Enablement",
+      "description": "Going to market: product launches (Product Hunt), app-store optimization, directory submissions and sales collateral/enablement.",
+      "skills": [
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "aso",
+          "skill_path": "skills/aso"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "directory-submissions",
+          "skill_path": "skills/directory-submissions"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "launch",
+          "skill_path": "skills/launch"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "sales-enablement",
+          "skill_path": "skills/sales-enablement"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "apple-appstore-reviewer",
+          "skill_path": "skills/apple-appstore-reviewer"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "msstore-cli",
+          "skill_path": "skills/msstore-cli"
+        },
+        {
+          "owner": "parthjadhav",
+          "repo": "app-store-screenshots",
+          "name": "app-store-screenshots",
+          "skill_path": "skills/app-store-screenshots"
+        },
+        {
+          "owner": "skills-shell",
+          "repo": "skills",
+          "name": "app-store-screenshots",
+          "skill_path": "guides/design/app-store-screenshots"
+        },
+        {
+          "owner": "skills-shell",
+          "repo": "skills",
+          "name": "product-hunt-launch",
+          "skill_path": "guides/product/product-hunt-launch"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Marketing/growth skills that do not fit the above subcategories.",
+      "skills": []
+    }
+  ]
+}

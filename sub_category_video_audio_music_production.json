@@ -1,0 +1,593 @@
+{
+  "category": "Video, Audio & Music Production",
+  "sub_categories": [
+    {
+      "name": "Video Generation",
+      "description": "AI video creation — text/image-to-video (Veo, Kling, Seedance, Wan, HappyHorse), avatar/talking-head and lip-sync generation.",
+      "skills": [
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "ai-avatar-video",
+          "skill_path": "ai-avatar-video"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "ai-video-generation",
+          "skill_path": "ai-video-generation"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "controlnet-pose",
+          "skill_path": "controlnet-pose"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "happyhorse-1-0",
+          "skill_path": "happyhorse-1-0"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "image-to-video",
+          "skill_path": "image-to-video"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "kling-3-0",
+          "skill_path": "kling-3-0"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "lipsync",
+          "skill_path": "lipsync"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "seedance-v2",
+          "skill_path": "seedance-v2"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "wan-2-7",
+          "skill_path": "wan-2-7"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "video",
+          "skill_path": "skills/video"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "ai-avatar-video",
+          "skill_path": "ai-avatar-video"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "ai-video-generation",
+          "skill_path": "ai-video-generation"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "controlnet-pose",
+          "skill_path": "controlnet-pose"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "happyhorse-1-0",
+          "skill_path": "happyhorse-1-0"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "image-to-video",
+          "skill_path": "image-to-video"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "kling-3-0",
+          "skill_path": "kling-3-0"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "lipsync",
+          "skill_path": "lipsync"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "seedance-v2",
+          "skill_path": "seedance-v2"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "wan-2-7",
+          "skill_path": "wan-2-7"
+        },
+        {
+          "owner": "pexoai",
+          "repo": "pexo-skills",
+          "name": "videoagent-video-studio",
+          "skill_path": "skills/videoagent-video-studio"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "ai-avatar-video",
+          "skill_path": "ai-avatar-video"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "ai-video-generation",
+          "skill_path": "ai-video-generation"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "controlnet-pose",
+          "skill_path": "controlnet-pose"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "happyhorse-1-0",
+          "skill_path": "happyhorse-1-0"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "image-to-video",
+          "skill_path": "image-to-video"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "kling-3-0",
+          "skill_path": "kling-3-0"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "lipsync",
+          "skill_path": "lipsync"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "seedance-v2",
+          "skill_path": "seedance-v2"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "wan-2-7",
+          "skill_path": "wan-2-7"
+        },
+        {
+          "owner": "skills-shell",
+          "repo": "skills",
+          "name": "ai-avatar-video",
+          "skill_path": "tools/video/ai-avatar-video"
+        },
+        {
+          "owner": "skills-shell",
+          "repo": "skills",
+          "name": "ai-video-generation",
+          "skill_path": "tools/video/ai-video-generation"
+        },
+        {
+          "owner": "skills-shell",
+          "repo": "skills",
+          "name": "image-to-video",
+          "skill_path": "tools/video/image-to-video"
+        }
+      ]
+    },
+    {
+      "name": "Video Editing & Composition",
+      "description": "Editing and assembling video: cutting, FFmpeg processing, React/Remotion and HyperFrames compositions, storyboards and platform ad specs.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "remotion-video-creation",
+          "skill_path": "skills/remotion-video-creation"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "video-editing",
+          "skill_path": ".agents/skills/video-editing"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "videodb",
+          "skill_path": "skills/videodb"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "video-edit",
+          "skill_path": "video-edit"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "video-extend",
+          "skill_path": "video-extend"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "video-inpainting",
+          "skill_path": "video-inpainting"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "video-outpainting",
+          "skill_path": "video-outpainting"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "skills",
+          "name": "slack-gif-creator",
+          "skill_path": "skills/slack-gif-creator"
+        },
+        {
+          "owner": "digitalsamba",
+          "repo": "claude-code-video-toolkit",
+          "name": "ffmpeg",
+          "skill_path": ".claude/skills/ffmpeg"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "video-edit",
+          "skill_path": "video-edit"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "video-extend",
+          "skill_path": "video-extend"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "video-inpainting",
+          "skill_path": "video-inpainting"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "video-outpainting",
+          "skill_path": "video-outpainting"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "transloadit-media-processing",
+          "skill_path": "skills/transloadit-media-processing"
+        },
+        {
+          "owner": "google-labs-code",
+          "repo": "stitch-skills",
+          "name": "remotion",
+          "skill_path": "plugins/stitch-build/skills/remotion"
+        },
+        {
+          "owner": "heygen-com",
+          "repo": "hyperframes",
+          "name": "animejs",
+          "skill_path": "skills/animejs"
+        },
+        {
+          "owner": "heygen-com",
+          "repo": "hyperframes",
+          "name": "contribute-catalog",
+          "skill_path": "skills/contribute-catalog"
+        },
+        {
+          "owner": "heygen-com",
+          "repo": "hyperframes",
+          "name": "css-animations",
+          "skill_path": "skills/css-animations"
+        },
+        {
+          "owner": "heygen-com",
+          "repo": "hyperframes",
+          "name": "gsap",
+          "skill_path": "skills/gsap"
+        },
+        {
+          "owner": "heygen-com",
+          "repo": "hyperframes",
+          "name": "hyperframes",
+          "skill_path": "skills/hyperframes"
+        },
+        {
+          "owner": "heygen-com",
+          "repo": "hyperframes",
+          "name": "hyperframes-cli",
+          "skill_path": "skills/hyperframes-cli"
+        },
+        {
+          "owner": "heygen-com",
+          "repo": "hyperframes",
+          "name": "hyperframes-media",
+          "skill_path": "skills/hyperframes-media"
+        },
+        {
+          "owner": "heygen-com",
+          "repo": "hyperframes",
+          "name": "hyperframes-registry",
+          "skill_path": "skills/hyperframes-registry"
+        },
+        {
+          "owner": "heygen-com",
+          "repo": "hyperframes",
+          "name": "lottie",
+          "skill_path": "skills/lottie"
+        },
+        {
+          "owner": "heygen-com",
+          "repo": "hyperframes",
+          "name": "remotion-to-hyperframes",
+          "skill_path": "skills/remotion-to-hyperframes"
+        },
+        {
+          "owner": "heygen-com",
+          "repo": "hyperframes",
+          "name": "tailwind",
+          "skill_path": "skills/tailwind"
+        },
+        {
+          "owner": "heygen-com",
+          "repo": "hyperframes",
+          "name": "three",
+          "skill_path": "skills/three"
+        },
+        {
+          "owner": "heygen-com",
+          "repo": "hyperframes",
+          "name": "typegpu",
+          "skill_path": "skills/typegpu"
+        },
+        {
+          "owner": "heygen-com",
+          "repo": "hyperframes",
+          "name": "waapi",
+          "skill_path": "skills/waapi"
+        },
+        {
+          "owner": "heygen-com",
+          "repo": "hyperframes",
+          "name": "website-to-hyperframes",
+          "skill_path": "skills/website-to-hyperframes"
+        },
+        {
+          "owner": "remotion-dev",
+          "repo": "skills",
+          "name": "remotion-best-practices",
+          "skill_path": "skills/remotion"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "video-edit",
+          "skill_path": "video-edit"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "video-extend",
+          "skill_path": "video-extend"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "video-inpainting",
+          "skill_path": "video-inpainting"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "video-outpainting",
+          "skill_path": "video-outpainting"
+        },
+        {
+          "owner": "skills-shell",
+          "repo": "skills",
+          "name": "remotion-render",
+          "skill_path": "tools/video/remotion-render"
+        },
+        {
+          "owner": "skills-shell",
+          "repo": "skills",
+          "name": "storyboard-creation",
+          "skill_path": "guides/video/storyboard-creation"
+        },
+        {
+          "owner": "skills-shell",
+          "repo": "skills",
+          "name": "video-ad-specs",
+          "skill_path": "guides/video/video-ad-specs"
+        }
+      ]
+    },
+    {
+      "name": "Speech & Audio",
+      "description": "Voice and audio: text-to-speech, speech-to-text/transcription, sound effects and real-time voice experiences.",
+      "skills": [
+        {
+          "owner": "elevenlabs",
+          "repo": "skills",
+          "name": "sound-effects",
+          "skill_path": "sound-effects"
+        },
+        {
+          "owner": "elevenlabs",
+          "repo": "skills",
+          "name": "speech-to-text",
+          "skill_path": "speech-to-text"
+        },
+        {
+          "owner": "elevenlabs",
+          "repo": "skills",
+          "name": "text-to-speech",
+          "skill_path": "text-to-speech"
+        },
+        {
+          "owner": "noizai",
+          "repo": "skills",
+          "name": "tts",
+          "skill_path": "skills/tts"
+        },
+        {
+          "owner": "pexoai",
+          "repo": "pexo-skills",
+          "name": "videoagent-audio-studio",
+          "skill_path": "skills/videoagent-audio-studio"
+        }
+      ]
+    },
+    {
+      "name": "Music Generation",
+      "description": "Generating songs and instrumental tracks from prompts/lyrics (ElevenLabs Music, ACE Step, MiniMax and similar).",
+      "skills": [
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "ace-step",
+          "skill_path": "ace-step"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "ai-music",
+          "skill_path": "ai-music"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "elevenlabs-music-generation",
+          "skill_path": "elevenlabs-music-generation"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "ace-step",
+          "skill_path": "ace-step"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "ai-music",
+          "skill_path": "ai-music"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "elevenlabs-music-generation",
+          "skill_path": "elevenlabs-music-generation"
+        },
+        {
+          "owner": "elevenlabs",
+          "repo": "skills",
+          "name": "music",
+          "skill_path": "music"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "ace-step",
+          "skill_path": "ace-step"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "ai-music",
+          "skill_path": "ai-music"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "elevenlabs-music-generation",
+          "skill_path": "elevenlabs-music-generation"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Media-production skills that do not fit the above subcategories.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "fal-ai-media",
+          "skill_path": ".agents/skills/fal-ai-media"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "runcomfy-cli",
+          "skill_path": "runcomfy-cli"
+        },
+        {
+          "owner": "composiohq",
+          "repo": "awesome-claude-skills",
+          "name": "youtube-downloader",
+          "skill_path": "video-downloader"
+        },
+        {
+          "owner": "degausai",
+          "repo": "wonda",
+          "name": "wonda-cli",
+          "skill_path": "skills/wonda-cli"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "runcomfy-cli",
+          "skill_path": "runcomfy-cli"
+        },
+        {
+          "owner": "libtv-labs",
+          "repo": "libtv-skills",
+          "name": "libtv-skill",
+          "skill_path": "skills/libtv-skill"
+        },
+        {
+          "owner": "minimax-ai",
+          "repo": "cli",
+          "name": "mmx-cli",
+          "skill_path": "skill"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "runcomfy-cli",
+          "skill_path": "runcomfy-cli"
+        }
+      ]
+    }
+  ]
+}

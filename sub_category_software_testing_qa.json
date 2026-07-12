@@ -1,0 +1,406 @@
+{
+  "category": "Software Testing & QA",
+  "sub_categories": [
+    {
+      "name": "Unit & Integration Testing",
+      "description": "Writing unit/integration tests with language-specific frameworks (pytest, JUnit, testify, Vitest/Jest, Swift Testing, Go testing) including mocks and coverage.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "cpp-testing",
+          "skill_path": "skills/cpp-testing"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "golang-testing",
+          "skill_path": ".kiro/skills/golang-testing"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "kotlin-testing",
+          "skill_path": "skills/kotlin-testing"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "perl-testing",
+          "skill_path": "skills/perl-testing"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "python-testing",
+          "skill_path": ".kiro/skills/python-testing"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "rust-testing",
+          "skill_path": "skills/rust-testing"
+        },
+        {
+          "owner": "antfu",
+          "repo": "skills",
+          "name": "vitest",
+          "skill_path": "skills/vitest"
+        },
+        {
+          "owner": "antfu",
+          "repo": "skills",
+          "name": "vue-testing-best-practices",
+          "skill_path": "skills/vue-testing-best-practices"
+        },
+        {
+          "owner": "avdlee",
+          "repo": "swift-testing-agent-skill",
+          "name": "swift-testing-expert",
+          "skill_path": "swift-testing-expert"
+        },
+        {
+          "owner": "dart-lang",
+          "repo": "skills",
+          "name": "dart-add-unit-test",
+          "skill_path": "skills/dart-add-unit-test"
+        },
+        {
+          "owner": "dart-lang",
+          "repo": "skills",
+          "name": "dart-collect-coverage",
+          "skill_path": "skills/dart-collect-coverage"
+        },
+        {
+          "owner": "dart-lang",
+          "repo": "skills",
+          "name": "dart-generate-test-mocks",
+          "skill_path": "skills/dart-generate-test-mocks"
+        },
+        {
+          "owner": "dart-lang",
+          "repo": "skills",
+          "name": "dart-migrate-to-checks-package",
+          "skill_path": "skills/dart-migrate-to-checks-package"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "csharp-mstest",
+          "skill_path": "plugins/csharp-dotnet-development/skills/csharp-mstest"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "csharp-nunit",
+          "skill_path": "plugins/csharp-dotnet-development/skills/csharp-nunit"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "csharp-tunit",
+          "skill_path": "plugins/csharp-dotnet-development/skills/csharp-tunit"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "csharp-xunit",
+          "skill_path": "plugins/csharp-dotnet-development/skills/csharp-xunit"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "java-junit",
+          "skill_path": "plugins/java-development/skills/java-junit"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "javascript-typescript-jest",
+          "skill_path": "skills/javascript-typescript-jest"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "pytest-coverage",
+          "skill_path": "skills/pytest-coverage"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-stretchr-testify",
+          "skill_path": "skills/golang-stretchr-testify"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-testing",
+          "skill_path": "skills/golang-testing"
+        },
+        {
+          "owner": "twostraws",
+          "repo": "swift-testing-agent-skill",
+          "name": "swift-testing-pro",
+          "skill_path": "swift-testing-pro"
+        },
+        {
+          "owner": "vuejs-ai",
+          "repo": "skills",
+          "name": "vue-testing-best-practices",
+          "skill_path": "skills/vue-testing-best-practices"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "javascript-testing-patterns",
+          "skill_path": "plugins/javascript-typescript/skills/javascript-testing-patterns"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "python-testing-patterns",
+          "skill_path": "plugins/python-development/skills/python-testing-patterns"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "temporal-python-testing",
+          "skill_path": "plugins/backend-development/skills/temporal-python-testing"
+        }
+      ]
+    },
+    {
+      "name": "End-to-End & Browser Testing",
+      "description": "E2E and UI testing of running apps with Playwright, Cypress and similar — flows, fixtures, flaky-test handling and CI integration.",
+      "skills": [
+        {
+          "owner": "addyosmani",
+          "repo": "agent-skills",
+          "name": "browser-testing-with-devtools",
+          "skill_path": "skills/browser-testing-with-devtools"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "browser-qa",
+          "skill_path": "skills/browser-qa"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "e2e-testing",
+          "skill_path": ".agents/skills/e2e-testing"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "skills",
+          "name": "webapp-testing",
+          "skill_path": "skills/webapp-testing"
+        },
+        {
+          "owner": "clerk",
+          "repo": "skills",
+          "name": "clerk-testing",
+          "skill_path": "skills/features/clerk-testing"
+        },
+        {
+          "owner": "currents-dev",
+          "repo": "playwright-best-practices-skill",
+          "name": "playwright-best-practices",
+          "skill_path": ""
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "firecrawl-workflows",
+          "name": "firecrawl-qa",
+          "skill_path": "skills/firecrawl-qa"
+        },
+        {
+          "owner": "garrytan",
+          "repo": "gstack",
+          "name": "gstack",
+          "skill_path": ""
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "playwright-explore-website",
+          "skill_path": "plugins/frontend-web-dev/skills/playwright-explore-website"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "playwright-generate-test",
+          "skill_path": "plugins/frontend-web-dev/skills/playwright-generate-test"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "webapp-testing",
+          "skill_path": "skills/webapp-testing"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "playwright-cli",
+          "name": "playwright-cli",
+          "skill_path": "skills/playwright-cli"
+        },
+        {
+          "owner": "momentic-ai",
+          "repo": "skills",
+          "name": "momentic-test",
+          "skill_path": "skills/momentic-test"
+        },
+        {
+          "owner": "sickn33",
+          "repo": "antigravity-awesome-skills",
+          "name": "playwright-skill",
+          "skill_path": "plugins/antigravity-awesome-skills/skills/playwright-skill"
+        },
+        {
+          "owner": "testdino-hq",
+          "repo": "playwright-skill",
+          "name": "playwright-skill",
+          "skill_path": ""
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "e2e-testing-patterns",
+          "skill_path": "plugins/developer-essentials/skills/e2e-testing-patterns"
+        }
+      ]
+    },
+    {
+      "name": "Test-Driven Development",
+      "description": "Driving implementation with tests via red-green-refactor and TDD discipline across languages and frameworks.",
+      "skills": [
+        {
+          "owner": "addyosmani",
+          "repo": "agent-skills",
+          "name": "test-driven-development",
+          "skill_path": "skills/test-driven-development"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "django-tdd",
+          "skill_path": "skills/django-tdd"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "laravel-tdd",
+          "skill_path": "skills/laravel-tdd"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "springboot-tdd",
+          "skill_path": "skills/springboot-tdd"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "tdd-workflow",
+          "skill_path": ".agents/skills/tdd-workflow"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "tdd",
+          "skill_path": "skills/engineering/tdd"
+        },
+        {
+          "owner": "obra",
+          "repo": "superpowers",
+          "name": "test-driven-development",
+          "skill_path": "skills/test-driven-development"
+        }
+      ]
+    },
+    {
+      "name": "Test Strategy & QA Planning",
+      "description": "Designing test strategies, test plans, regression suites, exploratory/manual QA, bug reporting and property-based testing.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "ai-regression-testing",
+          "skill_path": "skills/ai-regression-testing"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "benchmark",
+          "skill_path": "skills/benchmark"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "django-verification",
+          "skill_path": "skills/django-verification"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "laravel-verification",
+          "skill_path": "skills/laravel-verification"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "springboot-verification",
+          "skill_path": "skills/springboot-verification"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "knowledge-work-plugins",
+          "name": "testing-strategy",
+          "skill_path": "engineering/skills/testing-strategy"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "breakdown-test",
+          "skill_path": "skills/breakdown-test"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "scoutqa-test",
+          "skill_path": "skills/scoutqa-test"
+        },
+        {
+          "owner": "momentic-ai",
+          "repo": "skills",
+          "name": "momentic-result-classification",
+          "skill_path": "skills/momentic-result-classification"
+        },
+        {
+          "owner": "nousresearch",
+          "repo": "hermes-agent",
+          "name": "dogfood",
+          "skill_path": "skills/dogfood"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "qa-test-planner",
+          "skill_path": "dist/plugins/qa-test-planner/skills/qa-test-planner"
+        },
+        {
+          "owner": "trailofbits",
+          "repo": "skills",
+          "name": "property-based-testing",
+          "skill_path": "plugins/property-based-testing/skills/property-based-testing"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Testing/QA skills that do not fit the above subcategories.",
+      "skills": []
+    }
+  ]
+}

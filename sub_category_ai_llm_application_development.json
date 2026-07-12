@@ -1,0 +1,563 @@
+{
+  "category": "AI & LLM Application Development",
+  "sub_categories": [
+    {
+      "name": "Agent & LLM Frameworks",
+      "description": "Building agents/apps with frameworks and SDKs — LangChain/LangGraph, Deep Agents, Mastra, Genkit, Google ADK, Cloudflare Agents SDK, Vercel AI SDK, Copilot SDK.",
+      "skills": [
+        {
+          "owner": "alpic-ai",
+          "repo": "skybridge",
+          "name": "chatgpt-app-builder",
+          "skill_path": "skills/chatgpt-app-builder"
+        },
+        {
+          "owner": "cloudflare",
+          "repo": "skills",
+          "name": "agents-sdk",
+          "skill_path": "skills/agents-sdk"
+        },
+        {
+          "owner": "composiohq",
+          "repo": "skills",
+          "name": "composio",
+          "skill_path": "skills/composio"
+        },
+        {
+          "owner": "genkit-ai",
+          "repo": "skills",
+          "name": "developing-genkit-js",
+          "skill_path": "skills/developing-genkit-js"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "copilot-sdk",
+          "skill_path": "plugins/copilot-sdk/skills/copilot-sdk"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "declarative-agents",
+          "skill_path": "skills/declarative-agents"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "mcp-create-declarative-agent",
+          "skill_path": "plugins/mcp-m365-copilot/skills/mcp-create-declarative-agent"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "mcp-deploy-manage-agents",
+          "skill_path": "plugins/mcp-m365-copilot/skills/mcp-deploy-manage-agents"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "typespec-create-agent",
+          "skill_path": "plugins/typespec-m365-copilot/skills/typespec-create-agent"
+        },
+        {
+          "owner": "google",
+          "repo": "agents-cli",
+          "name": "google-agents-cli-adk-code",
+          "skill_path": "skills/google-agents-cli-adk-code"
+        },
+        {
+          "owner": "google",
+          "repo": "agents-cli",
+          "name": "google-agents-cli-deploy",
+          "skill_path": "skills/google-agents-cli-deploy"
+        },
+        {
+          "owner": "google",
+          "repo": "agents-cli",
+          "name": "google-agents-cli-observability",
+          "skill_path": "skills/google-agents-cli-observability"
+        },
+        {
+          "owner": "google",
+          "repo": "agents-cli",
+          "name": "google-agents-cli-publish",
+          "skill_path": "skills/google-agents-cli-publish"
+        },
+        {
+          "owner": "google",
+          "repo": "agents-cli",
+          "name": "google-agents-cli-scaffold",
+          "skill_path": "skills/google-agents-cli-scaffold"
+        },
+        {
+          "owner": "google",
+          "repo": "agents-cli",
+          "name": "google-agents-cli-workflow",
+          "skill_path": "skills/google-agents-cli-workflow"
+        },
+        {
+          "owner": "langchain-ai",
+          "repo": "deepagents",
+          "name": "langgraph-docs",
+          "skill_path": "libs/cli/examples/skills/langgraph-docs"
+        },
+        {
+          "owner": "langchain-ai",
+          "repo": "langchain-skills",
+          "name": "deep-agents-core",
+          "skill_path": "config/skills/deep-agents-core"
+        },
+        {
+          "owner": "langchain-ai",
+          "repo": "langchain-skills",
+          "name": "deep-agents-memory",
+          "skill_path": "config/skills/deep-agents-memory"
+        },
+        {
+          "owner": "langchain-ai",
+          "repo": "langchain-skills",
+          "name": "deep-agents-orchestration",
+          "skill_path": "config/skills/deep-agents-orchestration"
+        },
+        {
+          "owner": "langchain-ai",
+          "repo": "langchain-skills",
+          "name": "framework-selection",
+          "skill_path": "config/skills/framework-selection"
+        },
+        {
+          "owner": "langchain-ai",
+          "repo": "langchain-skills",
+          "name": "langchain-dependencies",
+          "skill_path": "config/skills/langchain-dependencies"
+        },
+        {
+          "owner": "langchain-ai",
+          "repo": "langchain-skills",
+          "name": "langchain-fundamentals",
+          "skill_path": "config/skills/langchain-fundamentals"
+        },
+        {
+          "owner": "langchain-ai",
+          "repo": "langchain-skills",
+          "name": "langchain-middleware",
+          "skill_path": "config/skills/langchain-middleware"
+        },
+        {
+          "owner": "langchain-ai",
+          "repo": "langchain-skills",
+          "name": "langgraph-fundamentals",
+          "skill_path": "config/skills/langgraph-fundamentals"
+        },
+        {
+          "owner": "langchain-ai",
+          "repo": "langchain-skills",
+          "name": "langgraph-human-in-the-loop",
+          "skill_path": "config/skills/langgraph-human-in-the-loop"
+        },
+        {
+          "owner": "langchain-ai",
+          "repo": "langchain-skills",
+          "name": "langgraph-persistence",
+          "skill_path": "config/skills/langgraph-persistence"
+        },
+        {
+          "owner": "mastra-ai",
+          "repo": "skills",
+          "name": "mastra",
+          "skill_path": "skills/mastra"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "microsoft-foundry",
+          "skill_path": ".github/plugins/azure-skills/skills/microsoft-foundry"
+        },
+        {
+          "owner": "napoleond",
+          "repo": "clawdirect",
+          "name": "clawdirect-dev",
+          "skill_path": "skills/clawdirect-dev"
+        },
+        {
+          "owner": "vercel",
+          "repo": "ai",
+          "name": "ai-sdk",
+          "skill_path": "skills/use-ai-sdk"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "langchain-architecture",
+          "skill_path": "plugins/llm-application-dev/skills/langchain-architecture"
+        }
+      ]
+    },
+    {
+      "name": "MCP Server Development",
+      "description": "Designing and generating Model Context Protocol servers (tools/resources/prompts) across languages and the mcp-use framework.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "mcp-server-patterns",
+          "skill_path": ".agents/skills/mcp-server-patterns"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "skills",
+          "name": "mcp-builder",
+          "skill_path": "skills/mcp-builder"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "flowstudio-power-automate-mcp",
+          "skill_path": "plugins/flowstudio-power-automate/skills/flowstudio-power-automate-mcp"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "go-mcp-server-generator",
+          "skill_path": "plugins/go-mcp-development/skills/go-mcp-server-generator"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "java-mcp-server-generator",
+          "skill_path": "plugins/java-mcp-development/skills/java-mcp-server-generator"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "kotlin-mcp-server-generator",
+          "skill_path": "plugins/kotlin-mcp-development/skills/kotlin-mcp-server-generator"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "mcp-cli",
+          "skill_path": "skills/mcp-cli"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "mcp-copilot-studio-server-generator",
+          "skill_path": "plugins/power-platform-mcp-connector-development/skills/mcp-copilot-studio-server-generator"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "mcp-create-adaptive-cards",
+          "skill_path": "plugins/mcp-m365-copilot/skills/mcp-create-adaptive-cards"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "php-mcp-server-generator",
+          "skill_path": "plugins/php-mcp-development/skills/php-mcp-server-generator"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "power-platform-mcp-connector-suite",
+          "skill_path": "plugins/power-platform-mcp-connector-development/skills/power-platform-mcp-connector-suite"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "python-mcp-server-generator",
+          "skill_path": "plugins/python-mcp-development/skills/python-mcp-server-generator"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "ruby-mcp-server-generator",
+          "skill_path": "plugins/ruby-mcp-development/skills/ruby-mcp-server-generator"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "rust-mcp-server-generator",
+          "skill_path": "plugins/rust-mcp-development/skills/rust-mcp-server-generator"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "swift-mcp-server-generator",
+          "skill_path": "plugins/swift-mcp-development/skills/swift-mcp-server-generator"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "typescript-mcp-server-generator",
+          "skill_path": "plugins/typescript-mcp-development/skills/typescript-mcp-server-generator"
+        },
+        {
+          "owner": "mcp-use",
+          "repo": "mcp-use",
+          "name": "chatgpt-app-builder",
+          "skill_path": "skills/chatgpt-app-builder"
+        },
+        {
+          "owner": "mcp-use",
+          "repo": "mcp-use",
+          "name": "mcp-apps-builder",
+          "skill_path": "skills/mcp-apps-builder"
+        },
+        {
+          "owner": "mcp-use",
+          "repo": "mcp-use",
+          "name": "mcp-builder",
+          "skill_path": "skills/mcp-builder"
+        }
+      ]
+    },
+    {
+      "name": "RAG, Embeddings & Vector Search",
+      "description": "Retrieval-augmented generation and semantic search: document loaders, chunking, embeddings, vector databases and hybrid search.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "iterative-retrieval",
+          "skill_path": "skills/iterative-retrieval"
+        },
+        {
+          "owner": "langchain-ai",
+          "repo": "langchain-skills",
+          "name": "langchain-rag",
+          "skill_path": "config/skills/langchain-rag"
+        },
+        {
+          "owner": "nozomio-labs",
+          "repo": "nia-skill",
+          "name": "Nia",
+          "skill_path": ""
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "embedding-strategies",
+          "skill_path": "plugins/llm-application-dev/skills/embedding-strategies"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "hybrid-search-implementation",
+          "skill_path": "plugins/llm-application-dev/skills/hybrid-search-implementation"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "rag-implementation",
+          "skill_path": "plugins/llm-application-dev/skills/rag-implementation"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "similarity-search-patterns",
+          "skill_path": "plugins/llm-application-dev/skills/similarity-search-patterns"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "vector-index-tuning",
+          "skill_path": "plugins/llm-application-dev/skills/vector-index-tuning"
+        }
+      ]
+    },
+    {
+      "name": "Prompting, Evaluation & Safety",
+      "description": "Optimizing prompts and evaluating/guarding LLM and agent outputs — prompt engineering, eval methodology, governance and safety reviews.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "agent-eval",
+          "skill_path": "skills/agent-eval"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "eval-harness",
+          "skill_path": ".agents/skills/eval-harness"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "prompt-optimizer",
+          "skill_path": "skills/prompt-optimizer"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "agent-governance",
+          "skill_path": "skills/agent-governance"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "agentic-eval",
+          "skill_path": "skills/agentic-eval"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "ai-prompt-engineering-safety-review",
+          "skill_path": "plugins/security-best-practices/skills/ai-prompt-engineering-safety-review"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "boost-prompt",
+          "skill_path": "skills/boost-prompt"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "finalize-agent-prompt",
+          "skill_path": "skills/finalize-agent-prompt"
+        },
+        {
+          "owner": "google",
+          "repo": "agents-cli",
+          "name": "google-agents-cli-eval",
+          "skill_path": "skills/google-agents-cli-eval"
+        },
+        {
+          "owner": "langfuse",
+          "repo": "skills",
+          "name": "langfuse",
+          "skill_path": "skills/langfuse"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "evaluation-methodology",
+          "skill_path": "plugins/plugin-eval/skills/evaluation-methodology"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "llm-evaluation",
+          "skill_path": "plugins/llm-application-dev/skills/llm-evaluation"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "prompt-engineering-patterns",
+          "skill_path": "plugins/llm-application-dev/skills/prompt-engineering-patterns"
+        }
+      ]
+    },
+    {
+      "name": "Model APIs & Migration",
+      "description": "Integrating model provider APIs (Claude/Anthropic, Gemini) including multimodal, function calling, caching and model-version migration.",
+      "skills": [
+        {
+          "owner": "anthropics",
+          "repo": "claude-code",
+          "name": "claude-opus-4-5-migration",
+          "skill_path": "plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "skills",
+          "name": "claude-api",
+          "skill_path": "skills/claude-api"
+        },
+        {
+          "owner": "google",
+          "repo": "skills",
+          "name": "gemini-api",
+          "skill_path": "skills/cloud/gemini-api"
+        },
+        {
+          "owner": "google-gemini",
+          "repo": "gemini-skills",
+          "name": "gemini-api-dev",
+          "skill_path": "skills/gemini-api-dev"
+        },
+        {
+          "owner": "google-gemini",
+          "repo": "gemini-skills",
+          "name": "gemini-interactions-api",
+          "skill_path": "skills/gemini-interactions-api"
+        },
+        {
+          "owner": "google-gemini",
+          "repo": "gemini-skills",
+          "name": "gemini-live-api-dev",
+          "skill_path": "skills/gemini-live-api-dev"
+        }
+      ]
+    },
+    {
+      "name": "Chat & Voice Interfaces",
+      "description": "Building conversational front-ends: AI chat UIs, chatbots across platforms, ai-elements, and real-time voice agents.",
+      "skills": [
+        {
+          "owner": "elevenlabs",
+          "repo": "skills",
+          "name": "agents",
+          "skill_path": "agents"
+        },
+        {
+          "owner": "vercel",
+          "repo": "ai-elements",
+          "name": "ai-elements",
+          "skill_path": "skills/ai-elements"
+        },
+        {
+          "owner": "vercel",
+          "repo": "chat",
+          "name": "chat-sdk",
+          "skill_path": "apps/docs/public/.well-known/agent-skills/chat-sdk"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "AI-application skills that do not fit the above subcategories.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "cost-aware-llm-pipeline",
+          "skill_path": "skills/cost-aware-llm-pipeline"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "regex-vs-llm-structured-text",
+          "skill_path": "skills/regex-vs-llm-structured-text"
+        },
+        {
+          "owner": "napoleond",
+          "repo": "clawdirect",
+          "name": "clawdirect",
+          "skill_path": "skills/clawdirect"
+        },
+        {
+          "owner": "napoleond",
+          "repo": "instaclaw",
+          "name": "instaclaw",
+          "skill_path": "skill"
+        },
+        {
+          "owner": "skills-shell",
+          "repo": "skills",
+          "name": "agent-tools",
+          "skill_path": "tools/agent-tools"
+        },
+        {
+          "owner": "skills-shell",
+          "repo": "skills",
+          "name": "infsh-cli",
+          "skill_path": "tools/infsh-cli"
+        }
+      ]
+    }
+  ]
+}

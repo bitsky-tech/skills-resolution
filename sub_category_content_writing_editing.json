@@ -1,0 +1,323 @@
+{
+  "category": "Content Writing & Editing",
+  "sub_categories": [
+    {
+      "name": "Long-Form & Creative Writing",
+      "description": "Drafting articles, blog posts, tutorials, newsletters and fiction/novels, often in a distinctive or source-derived voice.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "article-writing",
+          "skill_path": ".agents/skills/article-writing"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "brand-voice",
+          "skill_path": ".agents/skills/brand-voice"
+        },
+        {
+          "owner": "composiohq",
+          "repo": "awesome-claude-skills",
+          "name": "content-research-writer",
+          "skill_path": "content-research-writer"
+        },
+        {
+          "owner": "dontbesilent2025",
+          "repo": "dbskill",
+          "name": "dbs-content",
+          "skill_path": "skills/dbs-content"
+        },
+        {
+          "owner": "lijigang",
+          "repo": "ljg-skills",
+          "name": "ljg-writes",
+          "skill_path": "skills/ljg-writes"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "writing-beats",
+          "skill_path": "skills/in-progress/writing-beats"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "writing-fragments",
+          "skill_path": "skills/in-progress/writing-fragments"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "writing-shape",
+          "skill_path": "skills/in-progress/writing-shape"
+        },
+        {
+          "owner": "penglonghuang",
+          "repo": "chinese-novelist-skill",
+          "name": "chinese-novelist",
+          "skill_path": ""
+        },
+        {
+          "owner": "shubhamsaboo",
+          "repo": "awesome-llm-apps",
+          "name": "content-creator",
+          "skill_path": "awesome_agent_skills/content-creator"
+        }
+      ]
+    },
+    {
+      "name": "Editing, Humanizing & Translation",
+      "description": "Improving existing text: restructuring/clarity edits, formatting, removing AI-writing markers (humanizing) and translation between languages.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "visa-doc-translate",
+          "skill_path": "skills/visa-doc-translate"
+        },
+        {
+          "owner": "dontbesilent2025",
+          "repo": "dbskill",
+          "name": "dbs-ai-check",
+          "skill_path": "skills/dbs-ai-check"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "finnish-humanizer",
+          "skill_path": "skills/finnish-humanizer"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "mkdocs-translations",
+          "skill_path": "skills/mkdocs-translations"
+        },
+        {
+          "owner": "jimliu",
+          "repo": "baoyu-skills",
+          "name": "baoyu-format-markdown",
+          "skill_path": "skills/baoyu-format-markdown"
+        },
+        {
+          "owner": "jimliu",
+          "repo": "baoyu-skills",
+          "name": "baoyu-translate",
+          "skill_path": "skills/baoyu-translate"
+        },
+        {
+          "owner": "lijigang",
+          "repo": "ljg-skills",
+          "name": "ljg-plain",
+          "skill_path": "skills/ljg-plain"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "edit-article",
+          "skill_path": "skills/personal/edit-article"
+        },
+        {
+          "owner": "op7418",
+          "repo": "humanizer-zh",
+          "name": "humanizer-zh",
+          "skill_path": ""
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "humanizer",
+          "skill_path": "dist/plugins/humanizer/skills/humanizer"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "writing-clearly-and-concisely",
+          "skill_path": "dist/plugins/writing-clearly-and-concisely/skills/writing-clearly-and-concisely"
+        },
+        {
+          "owner": "tw93",
+          "repo": "waza",
+          "name": "write",
+          "skill_path": "skills/write"
+        },
+        {
+          "owner": "xixu-me",
+          "repo": "skills",
+          "name": "readme-i18n",
+          "skill_path": "skills/readme-i18n"
+        }
+      ]
+    },
+    {
+      "name": "Technical Documentation",
+      "description": "Writing developer-facing docs — READMEs, API references, runbooks, tutorials and structured doc co-authoring (Diátaxis).",
+      "skills": [
+        {
+          "owner": "addyosmani",
+          "repo": "agent-skills",
+          "name": "documentation-and-adrs",
+          "skill_path": "skills/documentation-and-adrs"
+        },
+        {
+          "owner": "antfu",
+          "repo": "skills",
+          "name": "vitepress",
+          "skill_path": "skills/vitepress"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "knowledge-work-plugins",
+          "name": "documentation",
+          "skill_path": "engineering/skills/documentation"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "skills",
+          "name": "doc-coauthoring",
+          "skill_path": "skills/doc-coauthoring"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "add-educational-comments",
+          "skill_path": "skills/add-educational-comments"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "comment-code-generate-a-tutorial",
+          "skill_path": "skills/comment-code-generate-a-tutorial"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "create-llms",
+          "skill_path": "skills/create-llms"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "create-readme",
+          "skill_path": "skills/create-readme"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "create-tldr-page",
+          "skill_path": "skills/create-tldr-page"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "documentation-writer",
+          "skill_path": "skills/documentation-writer"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "readme-blueprint-generator",
+          "skill_path": "skills/readme-blueprint-generator"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "repo-story-time",
+          "skill_path": "skills/repo-story-time"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "tldr-prompt",
+          "skill_path": "skills/tldr-prompt"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "update-llms",
+          "skill_path": "skills/update-llms"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "update-markdown-file-index",
+          "skill_path": "skills/update-markdown-file-index"
+        },
+        {
+          "owner": "mintlify",
+          "repo": "docs",
+          "name": "mintlify",
+          "skill_path": ".claude/skills/mintlify"
+        },
+        {
+          "owner": "shubhamsaboo",
+          "repo": "awesome-llm-apps",
+          "name": "technical-writer",
+          "skill_path": "awesome_agent_skills/technical-writer"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "crafting-effective-readmes",
+          "skill_path": "dist/plugins/crafting-effective-readmes/skills/crafting-effective-readmes"
+        }
+      ]
+    },
+    {
+      "name": "Article Visuals & Knowledge Cards",
+      "description": "Generating visuals that accompany written content — article illustrations, infographics, cover images, and knowledge/reading cards and comics.",
+      "skills": [
+        {
+          "owner": "jimliu",
+          "repo": "baoyu-skills",
+          "name": "baoyu-article-illustrator",
+          "skill_path": "skills/baoyu-article-illustrator"
+        },
+        {
+          "owner": "jimliu",
+          "repo": "baoyu-skills",
+          "name": "baoyu-comic",
+          "skill_path": "skills/baoyu-comic"
+        },
+        {
+          "owner": "jimliu",
+          "repo": "baoyu-skills",
+          "name": "baoyu-cover-image",
+          "skill_path": "skills/baoyu-cover-image"
+        },
+        {
+          "owner": "jimliu",
+          "repo": "baoyu-skills",
+          "name": "baoyu-infographic",
+          "skill_path": "skills/baoyu-infographic"
+        },
+        {
+          "owner": "jimliu",
+          "repo": "baoyu-skills",
+          "name": "baoyu-xhs-images",
+          "skill_path": "skills/baoyu-xhs-images"
+        },
+        {
+          "owner": "lijigang",
+          "repo": "ljg-skills",
+          "name": "ljg-card",
+          "skill_path": "skills/ljg-card"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Writing/editing skills that do not fit the above subcategories.",
+      "skills": [
+        {
+          "owner": "composiohq",
+          "repo": "awesome-claude-skills",
+          "name": "tailored-resume-generator",
+          "skill_path": "tailored-resume-generator"
+        }
+      ]
+    }
+  ]
+}

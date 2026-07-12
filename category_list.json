@@ -1,0 +1,236 @@
+{
+  "categories": [
+    {
+      "name": "Web & Frontend Development",
+      "description": "Building browser-facing web UIs: frontend frameworks, components/styling, animation, accessibility, performance, and build tooling.",
+      "sub_category_files": [
+        "sub_category_web_frontend_development.json"
+      ]
+    },
+    {
+      "name": "Backend & API Development",
+      "description": "Server-side application development: backend frameworks, API design, authentication, architecture patterns and realtime systems.",
+      "sub_category_files": [
+        "sub_category_backend_api_development.json"
+      ]
+    },
+    {
+      "name": "Mobile & Cross-Platform App Development",
+      "description": "Building native and cross-platform mobile/desktop apps and their UI.",
+      "sub_category_files": [
+        "sub_category_mobile_cross_platform_app_development.json"
+      ]
+    },
+    {
+      "name": "Programming Languages & Idioms",
+      "description": "Language-specific idioms, style, patterns and tooling — independent of any one web/backend framework.",
+      "sub_category_files": [
+        "sub_category_programming_languages_idioms.json"
+      ]
+    },
+    {
+      "name": "Software Testing & QA",
+      "description": "Verifying software through automated tests and structured QA — across unit, integration, end-to-end and test strategy.",
+      "sub_category_files": [
+        "sub_category_software_testing_qa.json"
+      ]
+    },
+    {
+      "name": "Code Quality, Review & Debugging",
+      "description": "Improving and verifying existing code: reviews, refactoring, debugging, standards and technical-debt management.",
+      "sub_category_files": [
+        "sub_category_code_quality_review_debugging.json"
+      ]
+    },
+    {
+      "name": "DevOps, CI/CD & Infrastructure",
+      "description": "Shipping and operating software: containers, orchestration, infrastructure-as-code, pipelines, observability and cost control.",
+      "sub_category_files": [
+        "sub_category_devops_ci_cd_infrastructure.json"
+      ]
+    },
+    {
+      "name": "Cloud Platforms & Backend Services",
+      "description": "Vendor platforms that host apps and data: major clouds, edge/serverless platforms and backend-as-a-service.",
+      "sub_category_files": [
+        "sub_category_cloud_platforms_backend_services.json"
+      ]
+    },
+    {
+      "name": "Databases & Data Modeling",
+      "description": "Designing, querying and tuning databases and the ORMs that access them.",
+      "sub_category_files": [
+        "sub_category_databases_data_modeling.json"
+      ]
+    },
+    {
+      "name": "Version Control, Collaboration & Planning",
+      "description": "Coordinating engineering work: git, GitHub/PR flows, issue tracking and project/spec planning.",
+      "sub_category_files": [
+        "sub_category_version_control_collaboration_planning.json"
+      ]
+    },
+    {
+      "name": "AI & LLM Application Development",
+      "description": "Building AI-powered products: agent frameworks, MCP servers, RAG, prompting/eval, model APIs and chat UIs.",
+      "sub_category_files": [
+        "sub_category_ai_llm_application_development.json"
+      ]
+    },
+    {
+      "name": "Coding-Agent Tooling & Skill Engineering",
+      "description": "Operating and extending coding agents (Claude Code, Codex, etc.): authoring skills, memory/context, orchestration, agent workflow discipline and monitoring.",
+      "sub_category_files": [
+        "sub_category_coding_agent_tooling_skill_engineering.json"
+      ]
+    },
+    {
+      "name": "Web Research, Search & Data Extraction",
+      "description": "Getting information and structured data from the web: search, scraping/crawling, deep research and monitoring/enrichment.",
+      "sub_category_files": [
+        "sub_category_web_research_search_data_extraction.json"
+      ]
+    },
+    {
+      "name": "Browser & Computer Automation",
+      "description": "Driving real browsers, apps and devices to navigate, fill forms, click, screenshot and extract.",
+      "sub_category_files": [
+        "sub_category_browser_computer_automation.json"
+      ]
+    },
+    {
+      "name": "Image Generation & Editing",
+      "description": "Creating and editing still images with AI models and tools.",
+      "sub_category_files": [
+        "sub_category_image_generation_editing.json"
+      ]
+    },
+    {
+      "name": "Video, Audio & Music Production",
+      "description": "Generating and editing video, voice, sound and music with AI tools and pipelines.",
+      "sub_category_files": [
+        "sub_category_video_audio_music_production.json"
+      ]
+    },
+    {
+      "name": "Design, UX & Visual Communication",
+      "description": "Designing interfaces and visual artifacts: UI/UX, design systems, branding, diagrams and data visualization.",
+      "sub_category_files": [
+        "sub_category_design_ux_visual_communication.json"
+      ]
+    },
+    {
+      "name": "Documents, Office Files & Presentations",
+      "description": "Creating and processing documents and office artifacts: PDFs, Word/Excel, slide decks and format conversion.",
+      "sub_category_files": [
+        "sub_category_documents_office_files_presentations.json"
+      ]
+    },
+    {
+      "name": "Content Writing & Editing",
+      "description": "Producing and refining written and illustrated content — articles, copy editing, technical docs and content visuals.",
+      "sub_category_files": [
+        "sub_category_content_writing_editing.json"
+      ]
+    },
+    {
+      "name": "Marketing, SEO & Growth",
+      "description": "Acquiring and converting customers: search/AI-search optimization, growth/CRO, advertising copy, market research and launches.",
+      "sub_category_files": [
+        "sub_category_marketing_seo_growth.json"
+      ]
+    },
+    {
+      "name": "Social Media & Content Publishing",
+      "description": "Creating, distributing and analyzing content on social platforms.",
+      "sub_category_files": [
+        "sub_category_social_media_content_publishing.json"
+      ]
+    },
+    {
+      "name": "Productivity & Workplace Collaboration",
+      "description": "Getting work done in office suites and collaboration tools: email/calendar, workspace suites, notes/knowledge, tasks and communication.",
+      "sub_category_files": [
+        "sub_category_productivity_workplace_collaboration.json"
+      ]
+    },
+    {
+      "name": "Crypto, Web3 & Blockchain",
+      "description": "On-chain finance and blockchain development: market data, trading/DeFi, wallets/payments and smart contracts.",
+      "sub_category_files": [
+        "sub_category_crypto_web3_blockchain.json"
+      ]
+    },
+    {
+      "name": "Finance, Investing & Payments",
+      "description": "Traditional finance: market data, investment analysis/modeling and payment/billing integrations.",
+      "sub_category_files": [
+        "sub_category_finance_investing_payments.json"
+      ]
+    },
+    {
+      "name": "Security, Compliance & Offensive Testing",
+      "description": "Defending and attacking software: code/app security, threat modeling/compliance, CTF/offensive work and web3 security.",
+      "sub_category_files": [
+        "sub_category_security_compliance_offensive_testing.json"
+      ]
+    },
+    {
+      "name": "Data Engineering, Analytics & ML",
+      "description": "Moving, analyzing and modeling data: pipelines, analytics/BI, and machine-learning workflows.",
+      "sub_category_files": [
+        "sub_category_data_engineering_analytics_ml.json"
+      ]
+    },
+    {
+      "name": "Business, Domain Expertise & Knowledge Work",
+      "description": "Non-engineering knowledge work: industry/operations expertise, business strategy, research/learning aids and thinking frameworks.",
+      "sub_category_files": [
+        "sub_category_business_domain_expertise_knowledge_work.json"
+      ]
+    },
+    {
+      "name": "Game Development & Interactive Graphics",
+      "description": "Building games and real-time/creative graphics.",
+      "sub_category_files": [
+        "sub_category_game_development_interactive_graphics.json"
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Skills that cannot be reasonably placed in any of the specific top-level categories above (kept as small as possible).",
+      "skills": [
+        {
+          "owner": "homeassistant-ai",
+          "repo": "skills",
+          "name": "home-assistant-best-practices",
+          "skill_path": "skills/home-assistant-best-practices"
+        },
+        {
+          "owner": "hugmouse",
+          "repo": "skills",
+          "name": "value",
+          "skill_path": "value"
+        },
+        {
+          "owner": "steipete",
+          "repo": "clawdis",
+          "name": "weather",
+          "skill_path": "skills/weather"
+        },
+        {
+          "owner": "xixu-me",
+          "repo": "skills",
+          "name": "tzst",
+          "skill_path": "skills/tzst"
+        },
+        {
+          "owner": "xixu-me",
+          "repo": "skills",
+          "name": "xdrop",
+          "skill_path": "skills/xdrop"
+        }
+      ]
+    }
+  ]
+}

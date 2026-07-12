@@ -1,0 +1,431 @@
+{
+  "category": "Version Control, Collaboration & Planning",
+  "sub_categories": [
+    {
+      "name": "Git Workflows",
+      "description": "Day-to-day and advanced git: branching, commits, rebasing, worktrees, merge-conflict resolution and history hygiene.",
+      "skills": [
+        {
+          "owner": "addyosmani",
+          "repo": "agent-skills",
+          "name": "git-workflow-and-versioning",
+          "skill_path": "skills/git-workflow-and-versioning"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "git-workflow",
+          "skill_path": "skills/git-workflow"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "conventional-commit",
+          "skill_path": "skills/conventional-commit"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "git-commit",
+          "skill_path": "skills/git-commit"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "git-flow-branch-creator",
+          "skill_path": "skills/git-flow-branch-creator"
+        },
+        {
+          "owner": "juliusbrussee",
+          "repo": "caveman",
+          "name": "caveman-commit",
+          "skill_path": "skills/caveman-commit"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "git-guardrails-claude-code",
+          "skill_path": "skills/misc/git-guardrails-claude-code"
+        },
+        {
+          "owner": "obra",
+          "repo": "superpowers",
+          "name": "finishing-a-development-branch",
+          "skill_path": "skills/finishing-a-development-branch"
+        },
+        {
+          "owner": "obra",
+          "repo": "superpowers",
+          "name": "using-git-worktrees",
+          "skill_path": "skills/using-git-worktrees"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "commit-work",
+          "skill_path": "dist/plugins/commit-work/skills/commit-work"
+        },
+        {
+          "owner": "warpdotdev",
+          "repo": "common-skills",
+          "name": "resolve-merge-conflicts",
+          "skill_path": ".agents/skills/resolve-merge-conflicts"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "git-advanced-workflows",
+          "skill_path": "plugins/developer-essentials/skills/git-advanced-workflows"
+        }
+      ]
+    },
+    {
+      "name": "GitHub & Pull Requests",
+      "description": "Working with GitHub via the gh CLI/API — pull requests, stacked PRs, PR review automation, repository management and contribution flows.",
+      "skills": [
+        {
+          "owner": "callstackincubator",
+          "repo": "agent-skills",
+          "name": "github",
+          "skill_path": "skills/github"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "make-repo-contribution",
+          "skill_path": "skills/make-repo-contribution"
+        },
+        {
+          "owner": "trailofbits",
+          "repo": "skills",
+          "name": "gh-cli",
+          "skill_path": ".codex/skills/gh-cli"
+        },
+        {
+          "owner": "warpdotdev",
+          "repo": "common-skills",
+          "name": "create-pr",
+          "skill_path": ".agents/skills/create-pr"
+        }
+      ]
+    },
+    {
+      "name": "Issue & Task Tracking",
+      "description": "Managing issues and tickets across GitHub Issues, Linear, Jira — creating, triaging and converting plans into tracked work.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "jira-integration",
+          "skill_path": "skills/jira-integration"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "create-github-issue-feature-from-specification",
+          "skill_path": "skills/create-github-issue-feature-from-specification"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "create-github-issues-feature-from-implementation-plan",
+          "skill_path": "plugins/project-planning/skills/create-github-issues-feature-from-implementation-plan"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "create-github-issues-for-unmet-specification-requirements",
+          "skill_path": "skills/create-github-issues-for-unmet-specification-requirements"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "github-issues",
+          "skill_path": "skills/github-issues"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "qa",
+          "skill_path": "skills/deprecated/qa"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "to-issues",
+          "skill_path": "skills/engineering/to-issues"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "triage",
+          "skill_path": "skills/engineering/triage"
+        },
+        {
+          "owner": "schpet",
+          "repo": "linear-cli",
+          "name": "linear-cli",
+          "skill_path": "skills/linear-cli"
+        }
+      ]
+    },
+    {
+      "name": "Planning, Specs & Task Breakdown",
+      "description": "Turning requirements into plans: PRDs/specs, implementation plans, epics, task/issue breakdown and structured project planning.",
+      "skills": [
+        {
+          "owner": "addyosmani",
+          "repo": "agent-skills",
+          "name": "idea-refine",
+          "skill_path": "skills/idea-refine"
+        },
+        {
+          "owner": "addyosmani",
+          "repo": "agent-skills",
+          "name": "incremental-implementation",
+          "skill_path": "skills/incremental-implementation"
+        },
+        {
+          "owner": "addyosmani",
+          "repo": "agent-skills",
+          "name": "planning-and-task-breakdown",
+          "skill_path": "skills/planning-and-task-breakdown"
+        },
+        {
+          "owner": "addyosmani",
+          "repo": "agent-skills",
+          "name": "spec-driven-development",
+          "skill_path": "skills/spec-driven-development"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "blueprint",
+          "skill_path": "skills/blueprint"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "breakdown-epic-arch",
+          "skill_path": "plugins/project-planning/skills/breakdown-epic-arch"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "breakdown-epic-pm",
+          "skill_path": "plugins/project-planning/skills/breakdown-epic-pm"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "breakdown-feature-implementation",
+          "skill_path": "plugins/project-planning/skills/breakdown-feature-implementation"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "breakdown-feature-prd",
+          "skill_path": "plugins/project-planning/skills/breakdown-feature-prd"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "breakdown-plan",
+          "skill_path": "skills/breakdown-plan"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "create-implementation-plan",
+          "skill_path": "plugins/project-planning/skills/create-implementation-plan"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "create-specification",
+          "skill_path": "skills/create-specification"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "create-technical-spike",
+          "skill_path": "plugins/project-planning/skills/create-technical-spike"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "first-ask",
+          "skill_path": "skills/first-ask"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "gen-specs-as-issues",
+          "skill_path": "skills/gen-specs-as-issues"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "prd",
+          "skill_path": "skills/prd"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "update-implementation-plan",
+          "skill_path": "plugins/project-planning/skills/update-implementation-plan"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "update-specification",
+          "skill_path": "skills/update-specification"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "grill-me",
+          "skill_path": "skills/productivity/grill-me"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "grill-with-docs",
+          "skill_path": "skills/engineering/grill-with-docs"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "request-refactor-plan",
+          "skill_path": "skills/deprecated/request-refactor-plan"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "to-prd",
+          "skill_path": "skills/engineering/to-prd"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "ubiquitous-language",
+          "skill_path": "skills/deprecated/ubiquitous-language"
+        },
+        {
+          "owner": "obra",
+          "repo": "superpowers",
+          "name": "brainstorming",
+          "skill_path": "skills/brainstorming"
+        },
+        {
+          "owner": "obra",
+          "repo": "superpowers",
+          "name": "writing-plans",
+          "skill_path": "skills/writing-plans"
+        },
+        {
+          "owner": "othmanadi",
+          "repo": "planning-with-files",
+          "name": "pi-planning-with-files",
+          "skill_path": ".pi/skills/planning-with-files"
+        },
+        {
+          "owner": "othmanadi",
+          "repo": "planning-with-files",
+          "name": "planning-with-files",
+          "skill_path": ".codebuddy/skills/planning-with-files"
+        },
+        {
+          "owner": "othmanadi",
+          "repo": "planning-with-files",
+          "name": "planning-with-files-zh",
+          "skill_path": "skills/planning-with-files-zh"
+        },
+        {
+          "owner": "othmanadi",
+          "repo": "planning-with-files",
+          "name": "planning-with-files-zht",
+          "skill_path": "skills/planning-with-files-zht"
+        },
+        {
+          "owner": "parcadei",
+          "repo": "continuous-claude-v3",
+          "name": "discovery-interview",
+          "skill_path": ".claude/skills/discovery-interview"
+        },
+        {
+          "owner": "roin-orca",
+          "repo": "skills",
+          "name": "simple",
+          "skill_path": "skills/simple"
+        },
+        {
+          "owner": "shubhamsaboo",
+          "repo": "awesome-llm-apps",
+          "name": "project-planner",
+          "skill_path": "awesome_agent_skills/project-planner"
+        },
+        {
+          "owner": "thedotmack",
+          "repo": "claude-mem",
+          "name": "make-plan",
+          "skill_path": "openclaw/skills/make-plan"
+        },
+        {
+          "owner": "trailofbits",
+          "repo": "skills",
+          "name": "ask-questions-if-underspecified",
+          "skill_path": "plugins/ask-questions-if-underspecified/skills/ask-questions-if-underspecified"
+        },
+        {
+          "owner": "tw93",
+          "repo": "waza",
+          "name": "think",
+          "skill_path": "skills/think"
+        },
+        {
+          "owner": "warpdotdev",
+          "repo": "common-skills",
+          "name": "implement-specs",
+          "skill_path": ".agents/skills/implement-specs"
+        },
+        {
+          "owner": "warpdotdev",
+          "repo": "common-skills",
+          "name": "spec-driven-implementation",
+          "skill_path": ".agents/skills/spec-driven-implementation"
+        },
+        {
+          "owner": "warpdotdev",
+          "repo": "common-skills",
+          "name": "write-product-spec",
+          "skill_path": ".agents/skills/write-product-spec"
+        },
+        {
+          "owner": "warpdotdev",
+          "repo": "common-skills",
+          "name": "write-tech-spec",
+          "skill_path": ".agents/skills/write-tech-spec"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "context-driven-development",
+          "skill_path": "plugins/conductor/skills/context-driven-development"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Collaboration/planning skills that do not fit the above subcategories.",
+      "skills": [
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "sponsor-finder",
+          "skill_path": "plugins/ospo-sponsorship/skills/sponsor-finder"
+        }
+      ]
+    }
+  ]
+}

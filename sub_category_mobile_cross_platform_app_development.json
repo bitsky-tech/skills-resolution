@@ -1,0 +1,310 @@
+{
+  "category": "Mobile & Cross-Platform App Development",
+  "sub_categories": [
+    {
+      "name": "Flutter & Dart",
+      "description": "Building Flutter apps with Dart — widgets, state management, navigation, layout, testing and architecture.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "dart-flutter-patterns",
+          "skill_path": "skills/dart-flutter-patterns"
+        },
+        {
+          "owner": "flutter",
+          "repo": "skills",
+          "name": "flutter-add-integration-test",
+          "skill_path": "skills/flutter-add-integration-test"
+        },
+        {
+          "owner": "flutter",
+          "repo": "skills",
+          "name": "flutter-add-widget-preview",
+          "skill_path": "skills/flutter-add-widget-preview"
+        },
+        {
+          "owner": "flutter",
+          "repo": "skills",
+          "name": "flutter-add-widget-test",
+          "skill_path": "skills/flutter-add-widget-test"
+        },
+        {
+          "owner": "flutter",
+          "repo": "skills",
+          "name": "flutter-apply-architecture-best-practices",
+          "skill_path": "skills/flutter-apply-architecture-best-practices"
+        },
+        {
+          "owner": "flutter",
+          "repo": "skills",
+          "name": "flutter-build-responsive-layout",
+          "skill_path": "skills/flutter-build-responsive-layout"
+        },
+        {
+          "owner": "flutter",
+          "repo": "skills",
+          "name": "flutter-fix-layout-issues",
+          "skill_path": "skills/flutter-fix-layout-issues"
+        },
+        {
+          "owner": "flutter",
+          "repo": "skills",
+          "name": "flutter-implement-json-serialization",
+          "skill_path": "skills/flutter-implement-json-serialization"
+        },
+        {
+          "owner": "flutter",
+          "repo": "skills",
+          "name": "flutter-setup-declarative-routing",
+          "skill_path": "skills/flutter-setup-declarative-routing"
+        },
+        {
+          "owner": "flutter",
+          "repo": "skills",
+          "name": "flutter-setup-localization",
+          "skill_path": "skills/flutter-setup-localization"
+        },
+        {
+          "owner": "flutter",
+          "repo": "skills",
+          "name": "flutter-use-http-package",
+          "skill_path": "skills/flutter-use-http-package"
+        },
+        {
+          "owner": "jeffallan",
+          "repo": "claude-skills",
+          "name": "flutter-expert",
+          "skill_path": "skills/flutter-expert"
+        },
+        {
+          "owner": "madteacher",
+          "repo": "mad-agents-skills",
+          "name": "flutter-animations",
+          "skill_path": "flutter-animations"
+        }
+      ]
+    },
+    {
+      "name": "React Native & Expo",
+      "description": "Cross-platform mobile with React Native and Expo — components, navigation, native modules, performance, deployment and upgrades.",
+      "skills": [
+        {
+          "owner": "callstackincubator",
+          "repo": "agent-skills",
+          "name": "react-native-best-practices",
+          "skill_path": "skills/react-native-best-practices"
+        },
+        {
+          "owner": "callstackincubator",
+          "repo": "agent-skills",
+          "name": "upgrading-react-native",
+          "skill_path": "skills/upgrading-react-native"
+        },
+        {
+          "owner": "expo",
+          "repo": "skills",
+          "name": "building-native-ui",
+          "skill_path": "plugins/expo/skills/building-native-ui"
+        },
+        {
+          "owner": "expo",
+          "repo": "skills",
+          "name": "eas-update-insights",
+          "skill_path": "plugins/expo/skills/eas-update-insights"
+        },
+        {
+          "owner": "expo",
+          "repo": "skills",
+          "name": "expo-api-routes",
+          "skill_path": "plugins/expo/skills/expo-api-routes"
+        },
+        {
+          "owner": "expo",
+          "repo": "skills",
+          "name": "expo-deployment",
+          "skill_path": "plugins/expo/skills/expo-deployment"
+        },
+        {
+          "owner": "expo",
+          "repo": "skills",
+          "name": "expo-dev-client",
+          "skill_path": "plugins/expo/skills/expo-dev-client"
+        },
+        {
+          "owner": "expo",
+          "repo": "skills",
+          "name": "expo-module",
+          "skill_path": "plugins/expo/skills/expo-module"
+        },
+        {
+          "owner": "expo",
+          "repo": "skills",
+          "name": "expo-tailwind-setup",
+          "skill_path": "plugins/expo/skills/expo-tailwind-setup"
+        },
+        {
+          "owner": "expo",
+          "repo": "skills",
+          "name": "Expo UI Jetpack Compose",
+          "skill_path": "plugins/expo/skills/expo-ui-jetpack-compose"
+        },
+        {
+          "owner": "expo",
+          "repo": "skills",
+          "name": "Expo UI SwiftUI",
+          "skill_path": "plugins/expo/skills/expo-ui-swift-ui"
+        },
+        {
+          "owner": "expo",
+          "repo": "skills",
+          "name": "native-data-fetching",
+          "skill_path": "plugins/expo/skills/native-data-fetching"
+        },
+        {
+          "owner": "expo",
+          "repo": "skills",
+          "name": "upgrading-expo",
+          "skill_path": "plugins/expo/skills/upgrading-expo"
+        },
+        {
+          "owner": "expo",
+          "repo": "skills",
+          "name": "use-dom",
+          "skill_path": "plugins/expo/skills/use-dom"
+        },
+        {
+          "owner": "heroui-inc",
+          "repo": "heroui",
+          "name": "heroui-native",
+          "skill_path": "skills/heroui-native"
+        },
+        {
+          "owner": "vercel-labs",
+          "repo": "agent-skills",
+          "name": "vercel-react-native-skills",
+          "skill_path": "skills/react-native-skills"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "react-native-architecture",
+          "skill_path": "plugins/frontend-mobile-development/skills/react-native-architecture"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "react-native-design",
+          "skill_path": "plugins/ui-design/skills/react-native-design"
+        }
+      ]
+    },
+    {
+      "name": "iOS & SwiftUI",
+      "description": "Apple-platform app development with SwiftUI/Swift — views, state, SwiftData, performance and Apple design guidelines.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "swiftui-patterns",
+          "skill_path": "skills/swiftui-patterns"
+        },
+        {
+          "owner": "avdlee",
+          "repo": "swiftui-agent-skill",
+          "name": "swiftui-expert-skill",
+          "skill_path": "swiftui-expert-skill"
+        },
+        {
+          "owner": "dimillian",
+          "repo": "skills",
+          "name": "swiftui-performance-audit",
+          "skill_path": "swiftui-performance-audit"
+        },
+        {
+          "owner": "firebase",
+          "repo": "agent-skills",
+          "name": "xcode-project-setup",
+          "skill_path": "skills/xcode-project-setup"
+        },
+        {
+          "owner": "twostraws",
+          "repo": "swiftdata-agent-skill",
+          "name": "swiftdata-pro",
+          "skill_path": "swiftdata-pro"
+        },
+        {
+          "owner": "twostraws",
+          "repo": "swiftui-agent-skill",
+          "name": "swiftui-pro",
+          "skill_path": "swiftui-pro"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "mobile-ios-design",
+          "skill_path": "plugins/ui-design/skills/mobile-ios-design"
+        }
+      ]
+    },
+    {
+      "name": "Android & Jetpack Compose",
+      "description": "Android and Kotlin Multiplatform app development — Jetpack/Compose Multiplatform UI, architecture and Material Design.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "android-clean-architecture",
+          "skill_path": "skills/android-clean-architecture"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "compose-multiplatform-patterns",
+          "skill_path": "skills/compose-multiplatform-patterns"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "mobile-android-design",
+          "skill_path": "plugins/ui-design/skills/mobile-android-design"
+        }
+      ]
+    },
+    {
+      "name": "Cross-Platform & Desktop",
+      "description": "Desktop and universal app frameworks and patterns (Tauri, Expo DOM, generic mobile design guidance) spanning multiple platforms.",
+      "skills": [
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "winui3-migration-guide",
+          "skill_path": "skills/winui3-migration-guide"
+        },
+        {
+          "owner": "msmps",
+          "repo": "opentui-skill",
+          "name": "opentui",
+          "skill_path": "skill/opentui"
+        },
+        {
+          "owner": "nodnarbnitram",
+          "repo": "claude-code-extensions",
+          "name": "tauri-v2",
+          "skill_path": ".claude/skills/tauri-v2"
+        },
+        {
+          "owner": "tencentcloudbase",
+          "repo": "skills",
+          "name": "miniprogram-development",
+          "skill_path": "skills/miniprogram-development"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Mobile/app skills that do not fit the above subcategories.",
+      "skills": []
+    }
+  ]
+}

@@ -1,0 +1,472 @@
+{
+  "category": "Code Quality, Review & Debugging",
+  "sub_categories": [
+    {
+      "name": "Code Review",
+      "description": "Reviewing diffs/PRs for bugs, security, performance and maintainability, including AI-assisted and multi-reviewer review workflows.",
+      "skills": [
+        {
+          "owner": "addyosmani",
+          "repo": "agent-skills",
+          "name": "code-review-and-quality",
+          "skill_path": "skills/code-review-and-quality"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "flutter-dart-code-review",
+          "skill_path": "skills/flutter-dart-code-review"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "knowledge-work-plugins",
+          "name": "code-review",
+          "skill_path": "engineering/skills/code-review"
+        },
+        {
+          "owner": "coderabbitai",
+          "repo": "skills",
+          "name": "code-review",
+          "skill_path": "skills/code-review"
+        },
+        {
+          "owner": "dotneet",
+          "repo": "claude-code-marketplace",
+          "name": "typescript-react-reviewer",
+          "skill_path": "review-tool/skills/typescript-react-reviewer"
+        },
+        {
+          "owner": "google-gemini",
+          "repo": "gemini-cli",
+          "name": "code-reviewer",
+          "skill_path": ".gemini/skills/code-reviewer"
+        },
+        {
+          "owner": "jeffallan",
+          "repo": "claude-skills",
+          "name": "code-reviewer",
+          "skill_path": "skills/code-reviewer"
+        },
+        {
+          "owner": "juliusbrussee",
+          "repo": "caveman",
+          "name": "caveman-review",
+          "skill_path": "skills/caveman-review"
+        },
+        {
+          "owner": "langgenius",
+          "repo": "dify",
+          "name": "frontend-code-review",
+          "skill_path": ".agents/skills/frontend-code-review"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "review",
+          "skill_path": "skills/in-progress/review"
+        },
+        {
+          "owner": "millionco",
+          "repo": "react-doctor",
+          "name": "react-doctor",
+          "skill_path": ".agents/skills/react-doctor"
+        },
+        {
+          "owner": "obra",
+          "repo": "superpowers",
+          "name": "receiving-code-review",
+          "skill_path": "skills/receiving-code-review"
+        },
+        {
+          "owner": "obra",
+          "repo": "superpowers",
+          "name": "requesting-code-review",
+          "skill_path": "skills/requesting-code-review"
+        },
+        {
+          "owner": "sanyuan0704",
+          "repo": "code-review-expert",
+          "name": "code-review-expert",
+          "skill_path": "skills/code-review-expert"
+        },
+        {
+          "owner": "shubhamsaboo",
+          "repo": "awesome-llm-apps",
+          "name": "code-reviewer",
+          "skill_path": "awesome_agent_skills/code-reviewer"
+        },
+        {
+          "owner": "tw93",
+          "repo": "waza",
+          "name": "check",
+          "skill_path": "skills/check"
+        },
+        {
+          "owner": "warpdotdev",
+          "repo": "common-skills",
+          "name": "review-pr",
+          "skill_path": ".agents/skills/review-pr"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "code-review-excellence",
+          "skill_path": "plugins/developer-essentials/skills/code-review-excellence"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "multi-reviewer-patterns",
+          "skill_path": "plugins/agent-teams/skills/multi-reviewer-patterns"
+        }
+      ]
+    },
+    {
+      "name": "Refactoring & Simplification",
+      "description": "Restructuring code for clarity without changing behavior — extracting functions, simplifying, clean-code, naming and reducing codebase size.",
+      "skills": [
+        {
+          "owner": "addyosmani",
+          "repo": "agent-skills",
+          "name": "code-simplification",
+          "skill_path": "skills/code-simplification"
+        },
+        {
+          "owner": "ast-grep",
+          "repo": "agent-skill",
+          "name": "ast-grep",
+          "skill_path": "ast-grep/skills/ast-grep"
+        },
+        {
+          "owner": "brianlovin",
+          "repo": "claude-config",
+          "name": "simplify",
+          "skill_path": "skills/simplify"
+        },
+        {
+          "owner": "getsentry",
+          "repo": "skills",
+          "name": "code-simplifier",
+          "skill_path": "skills/code-simplifier"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "java-refactoring-extract-method",
+          "skill_path": "skills/java-refactoring-extract-method"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "java-refactoring-remove-parameter",
+          "skill_path": "skills/java-refactoring-remove-parameter"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "refactor",
+          "skill_path": "skills/refactor"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "refactor-method-complexity-reduce",
+          "skill_path": "skills/refactor-method-complexity-reduce"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "refactor-plan",
+          "skill_path": "plugins/context-engineering/skills/refactor-plan"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "review-and-refactor",
+          "skill_path": "skills/review-and-refactor"
+        },
+        {
+          "owner": "langgenius",
+          "repo": "dify",
+          "name": "component-refactoring",
+          "skill_path": ".agents/skills/component-refactoring"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "improve-codebase-architecture",
+          "skill_path": "skills/engineering/improve-codebase-architecture"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "migrate-to-shoehorn",
+          "skill_path": "skills/misc/migrate-to-shoehorn"
+        },
+        {
+          "owner": "sickn33",
+          "repo": "antigravity-awesome-skills",
+          "name": "clean-code",
+          "skill_path": "plugins/antigravity-awesome-skills/skills/clean-code"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "naming-analyzer",
+          "skill_path": "dist/plugins/naming-analyzer/skills/naming-analyzer"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "reducing-entropy",
+          "skill_path": "dist/plugins/reducing-entropy/skills/reducing-entropy"
+        },
+        {
+          "owner": "thedotmack",
+          "repo": "claude-mem",
+          "name": "smart-explore",
+          "skill_path": "plugin/skills/smart-explore"
+        }
+      ]
+    },
+    {
+      "name": "Debugging & Root-Cause Analysis",
+      "description": "Systematic debugging of bugs, crashes, regressions and failures — reproduce, isolate, hypothesize, fix and regression-test.",
+      "skills": [
+        {
+          "owner": "addyosmani",
+          "repo": "agent-skills",
+          "name": "debugging-and-error-recovery",
+          "skill_path": "skills/debugging-and-error-recovery"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "click-path-audit",
+          "skill_path": "skills/click-path-audit"
+        },
+        {
+          "owner": "dart-lang",
+          "repo": "skills",
+          "name": "dart-fix-runtime-errors",
+          "skill_path": "skills/dart-fix-runtime-errors"
+        },
+        {
+          "owner": "getsentry",
+          "repo": "sentry-for-ai",
+          "name": "sentry-fix-issues",
+          "skill_path": "skills/sentry-fix-issues"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "diagnose",
+          "skill_path": "skills/engineering/diagnose"
+        },
+        {
+          "owner": "obra",
+          "repo": "superpowers",
+          "name": "systematic-debugging",
+          "skill_path": "skills/systematic-debugging"
+        },
+        {
+          "owner": "starchild-ai-agent",
+          "repo": "official-skills",
+          "name": "browser-preview",
+          "skill_path": "browser-preview"
+        },
+        {
+          "owner": "tw93",
+          "repo": "waza",
+          "name": "hunt",
+          "skill_path": "skills/hunt"
+        },
+        {
+          "owner": "vercel-labs",
+          "repo": "next-browser",
+          "name": "next-browser",
+          "skill_path": "skills/next-browser"
+        },
+        {
+          "owner": "warpdotdev",
+          "repo": "common-skills",
+          "name": "fix-errors",
+          "skill_path": ".agents/skills/fix-errors"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "debugging-strategies",
+          "skill_path": "plugins/developer-essentials/skills/debugging-strategies"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "parallel-debugging",
+          "skill_path": "plugins/agent-teams/skills/parallel-debugging"
+        }
+      ]
+    },
+    {
+      "name": "Coding Standards & Anti-Patterns",
+      "description": "Establishing and enforcing coding conventions, style guides, anti-pattern checklists, linter configuration and documentation-grounded coding.",
+      "skills": [
+        {
+          "owner": "addyosmani",
+          "repo": "agent-skills",
+          "name": "deprecation-and-migration",
+          "skill_path": "skills/deprecation-and-migration"
+        },
+        {
+          "owner": "addyosmani",
+          "repo": "agent-skills",
+          "name": "source-driven-development",
+          "skill_path": "skills/source-driven-development"
+        },
+        {
+          "owner": "addyosmani",
+          "repo": "web-quality-skills",
+          "name": "best-practices",
+          "skill_path": "skills/best-practices"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "codebase-onboarding",
+          "skill_path": "skills/codebase-onboarding"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "coding-standards",
+          "skill_path": ".agents/skills/coding-standards"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "documentation-lookup",
+          "skill_path": ".agents/skills/documentation-lookup"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "everything-claude-code-conventions",
+          "skill_path": ".claude/skills/everything-claude-code"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "plankton-code-quality",
+          "skill_path": "skills/plankton-code-quality"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "search-first",
+          "skill_path": ".kiro/skills/search-first"
+        },
+        {
+          "owner": "dart-lang",
+          "repo": "skills",
+          "name": "dart-run-static-analysis",
+          "skill_path": "skills/dart-run-static-analysis"
+        },
+        {
+          "owner": "forrestchang",
+          "repo": "andrej-karpathy-skills",
+          "name": "karpathy-guidelines",
+          "skill_path": "skills/karpathy-guidelines"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "code-exemplars-blueprint-generator",
+          "skill_path": "skills/code-exemplars-blueprint-generator"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "editorconfig",
+          "skill_path": "skills/editorconfig"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "folder-structure-blueprint-generator",
+          "skill_path": "skills/folder-structure-blueprint-generator"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "microsoft-code-reference",
+          "skill_path": "skills/microsoft-code-reference"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "microsoft-docs",
+          "skill_path": "skills/microsoft-docs"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "technology-stack-blueprint-generator",
+          "skill_path": "skills/technology-stack-blueprint-generator"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "winmd-api-search",
+          "skill_path": "skills/winmd-api-search"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "write-coding-standards-from-file",
+          "skill_path": "skills/write-coding-standards-from-file"
+        },
+        {
+          "owner": "intellectronica",
+          "repo": "agent-skills",
+          "name": "context7",
+          "skill_path": "plugins/context7/skills"
+        },
+        {
+          "owner": "multica-ai",
+          "repo": "andrej-karpathy-skills",
+          "name": "karpathy-guidelines",
+          "skill_path": "skills/karpathy-guidelines"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "error-handling-patterns",
+          "skill_path": "plugins/developer-essentials/skills/error-handling-patterns"
+        }
+      ]
+    },
+    {
+      "name": "Technical Debt & Code Health",
+      "description": "Identifying, categorizing and prioritizing technical debt, code maturity and overall code-health improvements.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "repo-scan",
+          "skill_path": "skills/repo-scan"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "knowledge-work-plugins",
+          "name": "tech-debt",
+          "skill_path": "engineering/skills/tech-debt"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Code-quality skills that do not fit the above subcategories.",
+      "skills": []
+    }
+  ]
+}

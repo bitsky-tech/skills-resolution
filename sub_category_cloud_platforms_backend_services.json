@@ -1,0 +1,388 @@
+{
+  "category": "Cloud Platforms & Backend Services",
+  "sub_categories": [
+    {
+      "name": "Major Cloud Providers",
+      "description": "Provider-specific services and administration on Azure, Google Cloud and AWS — compute, storage, networking, identity, diagnostics and migration.",
+      "skills": [
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "azure-deployment-preflight",
+          "skill_path": "skills/azure-deployment-preflight"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "azure-static-web-apps",
+          "skill_path": "skills/azure-static-web-apps"
+        },
+        {
+          "owner": "google",
+          "repo": "skills",
+          "name": "alloydb-basics",
+          "skill_path": "skills/cloud/alloydb-basics"
+        },
+        {
+          "owner": "google",
+          "repo": "skills",
+          "name": "cloud-run-basics",
+          "skill_path": "skills/cloud/cloud-run-basics"
+        },
+        {
+          "owner": "google",
+          "repo": "skills",
+          "name": "cloud-sql-basics",
+          "skill_path": "skills/cloud/cloud-sql-basics"
+        },
+        {
+          "owner": "google",
+          "repo": "skills",
+          "name": "google-cloud-recipe-auth",
+          "skill_path": "skills/cloud/google-cloud-recipe-auth"
+        },
+        {
+          "owner": "google",
+          "repo": "skills",
+          "name": "google-cloud-recipe-onboarding",
+          "skill_path": "skills/cloud/google-cloud-recipe-onboarding"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "airunway-aks-setup",
+          "skill_path": ".github/plugins/azure-skills/skills/airunway-aks-setup"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "appinsights-instrumentation",
+          "skill_path": ".github/plugins/azure-skills/skills/appinsights-instrumentation"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "azure-ai",
+          "skill_path": ".github/plugins/azure-skills/skills/azure-ai"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "azure-aigateway",
+          "skill_path": ".github/plugins/azure-skills/skills/azure-aigateway"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "azure-cloud-migrate",
+          "skill_path": ".github/plugins/azure-skills/skills/azure-cloud-migrate"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "azure-compute",
+          "skill_path": ".github/plugins/azure-skills/skills/azure-compute"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "azure-deploy",
+          "skill_path": ".github/plugins/azure-skills/skills/azure-deploy"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "azure-enterprise-infra-planner",
+          "skill_path": ".github/plugins/azure-skills/skills/azure-enterprise-infra-planner"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "azure-hosted-copilot-sdk",
+          "skill_path": ".github/plugins/azure-skills/skills/azure-hosted-copilot-sdk"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "azure-kubernetes",
+          "skill_path": ".github/plugins/azure-skills/skills/azure-kubernetes"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "azure-kusto",
+          "skill_path": ".github/plugins/azure-skills/skills/azure-kusto"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "azure-messaging",
+          "skill_path": ".github/plugins/azure-skills/skills/azure-messaging"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "azure-prepare",
+          "skill_path": ".github/plugins/azure-skills/skills/azure-prepare"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "azure-quotas",
+          "skill_path": ".github/plugins/azure-skills/skills/azure-quotas"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "azure-resource-lookup",
+          "skill_path": ".github/plugins/azure-skills/skills/azure-resource-lookup"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "azure-storage",
+          "skill_path": ".github/plugins/azure-skills/skills/azure-storage"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "azure-upgrade",
+          "skill_path": ".github/plugins/azure-skills/skills/azure-upgrade"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "azure-validate",
+          "skill_path": ".github/plugins/azure-skills/skills/azure-validate"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "hybrid-cloud-networking",
+          "skill_path": "plugins/cloud-infrastructure/skills/hybrid-cloud-networking"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "multi-cloud-architecture",
+          "skill_path": "plugins/cloud-infrastructure/skills/multi-cloud-architecture"
+        }
+      ]
+    },
+    {
+      "name": "Edge & Serverless Platforms",
+      "description": "Deploying to edge/serverless and PaaS hosting: Cloudflare Workers, Vercel, Railway, Elestio and similar deploy/hosting platforms.",
+      "skills": [
+        {
+          "owner": "cloudflare",
+          "repo": "skills",
+          "name": "cloudflare",
+          "skill_path": "skills/cloudflare"
+        },
+        {
+          "owner": "cloudflare",
+          "repo": "skills",
+          "name": "cloudflare-email-service",
+          "skill_path": "skills/cloudflare-email-service"
+        },
+        {
+          "owner": "cloudflare",
+          "repo": "skills",
+          "name": "sandbox-sdk",
+          "skill_path": "skills/sandbox-sdk"
+        },
+        {
+          "owner": "cloudflare",
+          "repo": "skills",
+          "name": "workers-best-practices",
+          "skill_path": "skills/workers-best-practices"
+        },
+        {
+          "owner": "cloudflare",
+          "repo": "skills",
+          "name": "wrangler",
+          "skill_path": "skills/wrangler"
+        },
+        {
+          "owner": "elestio",
+          "repo": "elestio-skill",
+          "name": "elestio",
+          "skill_path": ""
+        },
+        {
+          "owner": "heredotnow",
+          "repo": "skill",
+          "name": "here-now",
+          "skill_path": "here-now"
+        },
+        {
+          "owner": "railwayapp",
+          "repo": "railway-skills",
+          "name": "use-railway",
+          "skill_path": "plugins/railway/skills/use-railway"
+        },
+        {
+          "owner": "vercel-labs",
+          "repo": "agent-skills",
+          "name": "deploy-to-vercel",
+          "skill_path": "skills/deploy-to-vercel"
+        },
+        {
+          "owner": "vercel-labs",
+          "repo": "agent-skills",
+          "name": "vercel-cli-with-tokens",
+          "skill_path": "skills/vercel-cli-with-tokens"
+        },
+        {
+          "owner": "vercel-labs",
+          "repo": "agent-skills",
+          "name": "vercel-optimize",
+          "skill_path": "skills/vercel-optimize"
+        }
+      ]
+    },
+    {
+      "name": "Backend-as-a-Service",
+      "description": "Managed app backends: Firebase, Supabase, Convex, Neon, PlanetScale, InsForge, Tencent CloudBase and similar BaaS stacks.",
+      "skills": [
+        {
+          "owner": "firebase",
+          "repo": "agent-skills",
+          "name": "firebase-ai-logic-basics",
+          "skill_path": "skills/firebase-ai-logic-basics"
+        },
+        {
+          "owner": "firebase",
+          "repo": "agent-skills",
+          "name": "firebase-app-hosting-basics",
+          "skill_path": "skills/firebase-app-hosting-basics"
+        },
+        {
+          "owner": "firebase",
+          "repo": "agent-skills",
+          "name": "firebase-basics",
+          "skill_path": "skills/firebase-basics"
+        },
+        {
+          "owner": "firebase",
+          "repo": "agent-skills",
+          "name": "firebase-data-connect",
+          "skill_path": "skills/firebase-data-connect-basics"
+        },
+        {
+          "owner": "firebase",
+          "repo": "agent-skills",
+          "name": "firebase-firestore",
+          "skill_path": "skills/firebase-firestore"
+        },
+        {
+          "owner": "firebase",
+          "repo": "agent-skills",
+          "name": "firebase-hosting-basics",
+          "skill_path": "skills/firebase-hosting-basics"
+        },
+        {
+          "owner": "firebase",
+          "repo": "agent-skills",
+          "name": "firebase-remote-config-basics",
+          "skill_path": "skills/firebase-remote-config-basics"
+        },
+        {
+          "owner": "get-convex",
+          "repo": "agent-skills",
+          "name": "convex",
+          "skill_path": "skills/convex"
+        },
+        {
+          "owner": "get-convex",
+          "repo": "agent-skills",
+          "name": "convex-create-component",
+          "skill_path": "skills/convex-create-component"
+        },
+        {
+          "owner": "get-convex",
+          "repo": "agent-skills",
+          "name": "convex-migration-helper",
+          "skill_path": "skills/convex-migration-helper"
+        },
+        {
+          "owner": "get-convex",
+          "repo": "agent-skills",
+          "name": "convex-performance-audit",
+          "skill_path": "skills/convex-performance-audit"
+        },
+        {
+          "owner": "get-convex",
+          "repo": "agent-skills",
+          "name": "convex-quickstart",
+          "skill_path": "skills/convex-quickstart"
+        },
+        {
+          "owner": "google",
+          "repo": "skills",
+          "name": "firebase-basics",
+          "skill_path": "skills/cloud/firebase-basics"
+        },
+        {
+          "owner": "insforge",
+          "repo": "agent-skills",
+          "name": "insforge",
+          "skill_path": "skills/insforge"
+        },
+        {
+          "owner": "insforge",
+          "repo": "agent-skills",
+          "name": "insforge-cli",
+          "skill_path": "skills/insforge-cli"
+        },
+        {
+          "owner": "insforge",
+          "repo": "agent-skills",
+          "name": "insforge-debug",
+          "skill_path": "skills/insforge-debug"
+        },
+        {
+          "owner": "insforge",
+          "repo": "agent-skills",
+          "name": "insforge-integrations",
+          "skill_path": "skills/insforge-integrations"
+        },
+        {
+          "owner": "neondatabase",
+          "repo": "agent-skills",
+          "name": "neon-postgres",
+          "skill_path": "skills/neon-postgres"
+        },
+        {
+          "owner": "supabase",
+          "repo": "agent-skills",
+          "name": "supabase",
+          "skill_path": "skills/supabase"
+        },
+        {
+          "owner": "tencentcloudbase",
+          "repo": "cloudbase-skills",
+          "name": "cloudbase",
+          "skill_path": "skills/cloudbase"
+        },
+        {
+          "owner": "waynesutton",
+          "repo": "convexskills",
+          "name": "convex",
+          "skill_path": "skills/convex"
+        },
+        {
+          "owner": "waynesutton",
+          "repo": "convexskills",
+          "name": "convex-best-practices",
+          "skill_path": "skills/convex-best-practices"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Cloud-platform skills that do not fit the above subcategories.",
+      "skills": []
+    }
+  ]
+}

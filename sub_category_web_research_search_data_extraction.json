@@ -1,0 +1,436 @@
+{
+  "category": "Web Research, Search & Data Extraction",
+  "sub_categories": [
+    {
+      "name": "Web Search APIs",
+      "description": "Querying the web programmatically via search CLIs/APIs (Tavily, Exa, Firecrawl search, Bright Data, Parallel) for current info and sources.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "exa-search",
+          "skill_path": ".agents/skills/exa-search"
+        },
+        {
+          "owner": "anysearch-ai",
+          "repo": "anysearch-skill",
+          "name": "anysearch",
+          "skill_path": ""
+        },
+        {
+          "owner": "brightdata",
+          "repo": "skills",
+          "name": "search",
+          "skill_path": "skills/search"
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "cli",
+          "name": "firecrawl-search",
+          "skill_path": "skills/firecrawl-search"
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "skills",
+          "name": "firecrawl-build-search",
+          "skill_path": "skills/firecrawl-build-search"
+        },
+        {
+          "owner": "panniantong",
+          "repo": "agent-reach",
+          "name": "agent-reach",
+          "skill_path": "agent_reach/skill"
+        },
+        {
+          "owner": "parallel-web",
+          "repo": "parallel-agent-skills",
+          "name": "parallel-web-search",
+          "skill_path": "skills/parallel-web-search"
+        },
+        {
+          "owner": "skills-shell",
+          "repo": "skills",
+          "name": "web-search",
+          "skill_path": "tools/llm/web-search"
+        },
+        {
+          "owner": "tavily-ai",
+          "repo": "skills",
+          "name": "tavily-best-practices",
+          "skill_path": "skills/tavily-best-practices"
+        },
+        {
+          "owner": "tavily-ai",
+          "repo": "skills",
+          "name": "tavily-cli",
+          "skill_path": "skills/tavily-cli"
+        },
+        {
+          "owner": "tavily-ai",
+          "repo": "skills",
+          "name": "tavily-dynamic-search",
+          "skill_path": "skills/tavily-dynamic-search"
+        },
+        {
+          "owner": "tavily-ai",
+          "repo": "skills",
+          "name": "tavily-search",
+          "skill_path": "skills/tavily-search"
+        },
+        {
+          "owner": "veithly",
+          "repo": "tavily-search",
+          "name": "tavily-search",
+          "skill_path": "skills/tavily-search"
+        }
+      ]
+    },
+    {
+      "name": "Scraping & Crawling",
+      "description": "Extracting clean content and structured data from sites — single-page scrape, whole-site crawl, schema extraction (Firecrawl, ScrapeGraph, Apify).",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "data-scraper-agent",
+          "skill_path": "skills/data-scraper-agent"
+        },
+        {
+          "owner": "apify",
+          "repo": "agent-skills",
+          "name": "apify-actor-development",
+          "skill_path": "skills/apify-actor-development"
+        },
+        {
+          "owner": "apify",
+          "repo": "agent-skills",
+          "name": "apify-actorization",
+          "skill_path": "skills/apify-actorization"
+        },
+        {
+          "owner": "apify",
+          "repo": "agent-skills",
+          "name": "apify-generate-output-schema",
+          "skill_path": "skills/apify-generate-output-schema"
+        },
+        {
+          "owner": "apify",
+          "repo": "agent-skills",
+          "name": "apify-ultimate-scraper",
+          "skill_path": "skills/apify-ultimate-scraper"
+        },
+        {
+          "owner": "brightdata",
+          "repo": "skills",
+          "name": "scrape",
+          "skill_path": "skills/scrape"
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "cli",
+          "name": "firecrawl",
+          "skill_path": "skills/firecrawl-cli"
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "cli",
+          "name": "firecrawl-agent",
+          "skill_path": "skills/firecrawl-agent"
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "cli",
+          "name": "firecrawl-crawl",
+          "skill_path": "skills/firecrawl-crawl"
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "cli",
+          "name": "firecrawl-download",
+          "skill_path": "skills/firecrawl-download"
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "cli",
+          "name": "firecrawl-map",
+          "skill_path": "skills/firecrawl-map"
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "cli",
+          "name": "firecrawl-scrape",
+          "skill_path": "skills/firecrawl-scrape"
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "firecrawl-workflows",
+          "name": "firecrawl-company-directories",
+          "skill_path": "skills/firecrawl-company-directories"
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "firecrawl-workflows",
+          "name": "firecrawl-demo-walkthrough",
+          "skill_path": "skills/firecrawl-demo-walkthrough"
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "firecrawl-workflows",
+          "name": "firecrawl-knowledge-base",
+          "skill_path": "skills/firecrawl-knowledge-base"
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "firecrawl-workflows",
+          "name": "firecrawl-knowledge-ingest",
+          "skill_path": "skills/firecrawl-knowledge-ingest"
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "firecrawl-workflows",
+          "name": "firecrawl-shop",
+          "skill_path": "skills/firecrawl-shop"
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "firecrawl-workflows",
+          "name": "firecrawl-workflows",
+          "skill_path": "skills/firecrawl-workflows"
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "skills",
+          "name": "firecrawl-build-interact",
+          "skill_path": "skills/firecrawl-build-interact"
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "skills",
+          "name": "firecrawl-build-onboarding",
+          "skill_path": "skills/firecrawl-build-onboarding"
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "skills",
+          "name": "firecrawl-build-scrape",
+          "skill_path": "skills/firecrawl-build-scrape"
+        },
+        {
+          "owner": "freestylefly",
+          "repo": "wechat-article-extractor-skill",
+          "name": "wechat-article-extractor",
+          "skill_path": ""
+        },
+        {
+          "owner": "jamditis",
+          "repo": "claude-skills-journalism",
+          "name": "web-scraping",
+          "skill_path": "dev-toolkit/skills/web-scraping"
+        },
+        {
+          "owner": "jimliu",
+          "repo": "baoyu-skills",
+          "name": "baoyu-danger-x-to-markdown",
+          "skill_path": "skills/baoyu-danger-x-to-markdown"
+        },
+        {
+          "owner": "jimliu",
+          "repo": "baoyu-skills",
+          "name": "baoyu-url-to-markdown",
+          "skill_path": "skills/baoyu-url-to-markdown"
+        },
+        {
+          "owner": "jimliu",
+          "repo": "baoyu-skills",
+          "name": "baoyu-youtube-transcript",
+          "skill_path": "skills/baoyu-youtube-transcript"
+        },
+        {
+          "owner": "kepano",
+          "repo": "obsidian-skills",
+          "name": "defuddle",
+          "skill_path": "skills/defuddle"
+        },
+        {
+          "owner": "parallel-web",
+          "repo": "parallel-agent-skills",
+          "name": "parallel-findall",
+          "skill_path": "skills/parallel-findall"
+        },
+        {
+          "owner": "parallel-web",
+          "repo": "parallel-agent-skills",
+          "name": "parallel-web-extract",
+          "skill_path": "skills/parallel-web-extract"
+        },
+        {
+          "owner": "scrapegraphai",
+          "repo": "just-scrape",
+          "name": "just-scrape",
+          "skill_path": "skills/just-scrape"
+        },
+        {
+          "owner": "starchild-ai-agent",
+          "repo": "official-skills",
+          "name": "twitter",
+          "skill_path": "twitter"
+        },
+        {
+          "owner": "steipete",
+          "repo": "clawdis",
+          "name": "summarize",
+          "skill_path": "skills/summarize"
+        },
+        {
+          "owner": "tavily-ai",
+          "repo": "skills",
+          "name": "tavily-crawl",
+          "skill_path": "skills/tavily-crawl"
+        },
+        {
+          "owner": "tavily-ai",
+          "repo": "skills",
+          "name": "tavily-extract",
+          "skill_path": "skills/tavily-extract"
+        },
+        {
+          "owner": "tavily-ai",
+          "repo": "skills",
+          "name": "tavily-map",
+          "skill_path": "skills/tavily-map"
+        },
+        {
+          "owner": "tw93",
+          "repo": "waza",
+          "name": "read",
+          "skill_path": "skills/read"
+        }
+      ]
+    },
+    {
+      "name": "Deep Research & Synthesis",
+      "description": "Multi-source investigation producing cited, synthesized reports and briefings on a topic or question.",
+      "skills": [
+        {
+          "owner": "199-biotechnologies",
+          "repo": "claude-deep-research-skill",
+          "name": "deep-research",
+          "skill_path": ""
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "deep-research",
+          "skill_path": ".agents/skills/deep-research"
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "firecrawl-workflows",
+          "name": "firecrawl-deep-research",
+          "skill_path": "skills/firecrawl-deep-research"
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "firecrawl-workflows",
+          "name": "firecrawl-market-research",
+          "skill_path": "skills/firecrawl-market-research"
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "firecrawl-workflows",
+          "name": "firecrawl-research-papers",
+          "skill_path": "skills/firecrawl-research-papers"
+        },
+        {
+          "owner": "parallel-web",
+          "repo": "parallel-agent-skills",
+          "name": "parallel-deep-research",
+          "skill_path": "skills/parallel-deep-research"
+        },
+        {
+          "owner": "parallel-web",
+          "repo": "parallel-agent-skills",
+          "name": "result",
+          "skill_path": "skills/result"
+        },
+        {
+          "owner": "parallel-web",
+          "repo": "parallel-agent-skills",
+          "name": "status",
+          "skill_path": "skills/status"
+        },
+        {
+          "owner": "tavily-ai",
+          "repo": "skills",
+          "name": "tavily-research",
+          "skill_path": "skills/tavily-research"
+        }
+      ]
+    },
+    {
+      "name": "Monitoring, Enrichment & Aggregation",
+      "description": "Tracking web changes over time, enriching lists with web-sourced fields, lead/company data, and aggregating news/social signals.",
+      "skills": [
+        {
+          "owner": "cclank",
+          "repo": "news-aggregator-skill",
+          "name": "news-aggregator-skill",
+          "skill_path": ""
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "firecrawl-workflows",
+          "name": "firecrawl-competitive-intel",
+          "skill_path": "skills/firecrawl-competitive-intel"
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "firecrawl-workflows",
+          "name": "firecrawl-dashboard-reporting",
+          "skill_path": "skills/firecrawl-dashboard-reporting"
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "firecrawl-workflows",
+          "name": "firecrawl-lead-gen",
+          "skill_path": "skills/firecrawl-lead-gen"
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "firecrawl-workflows",
+          "name": "firecrawl-lead-research",
+          "skill_path": "skills/firecrawl-lead-research"
+        },
+        {
+          "owner": "mvanhorn",
+          "repo": "last30days-skill",
+          "name": "last30days",
+          "skill_path": "skills/last30days"
+        },
+        {
+          "owner": "parallel-web",
+          "repo": "parallel-agent-skills",
+          "name": "parallel-data-enrichment",
+          "skill_path": "skills/parallel-data-enrichment"
+        },
+        {
+          "owner": "parallel-web",
+          "repo": "parallel-agent-skills",
+          "name": "parallel-monitor",
+          "skill_path": "skills/parallel-monitor"
+        },
+        {
+          "owner": "sfkislev",
+          "repo": "the-news",
+          "name": "the-news",
+          "skill_path": ""
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Web-research skills that do not fit the above subcategories.",
+      "skills": []
+    }
+  ]
+}

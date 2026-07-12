@@ -1,0 +1,268 @@
+{
+  "category": "Documents, Office Files & Presentations",
+  "sub_categories": [
+    {
+      "name": "PDF Processing",
+      "description": "Reading, creating, editing, merging/splitting and extracting from PDFs, including OCR of scans and form filling.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "nutrient-document-processing",
+          "skill_path": "skills/nutrient-document-processing"
+        },
+        {
+          "owner": "aidenwu0209",
+          "repo": "paddleocr-skills",
+          "name": "paddleocr-text-recognition",
+          "skill_path": "skills/paddleocr-text-recognition"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "knowledge-work-plugins",
+          "name": "view-pdf",
+          "skill_path": "pdf-viewer/skills/view-pdf"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "skills",
+          "name": "pdf",
+          "skill_path": "skills/pdf"
+        },
+        {
+          "owner": "claude-office-skills",
+          "repo": "skills",
+          "name": "pdf-extraction",
+          "skill_path": "pdf-extraction"
+        },
+        {
+          "owner": "claude-office-skills",
+          "repo": "skills",
+          "name": "smart-ocr",
+          "skill_path": "smart-ocr"
+        },
+        {
+          "owner": "dkyazzentwatwa",
+          "repo": "chatgpt-skills",
+          "name": "ocr-document-processor",
+          "skill_path": "ocr-document-processor"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "pdftk-server",
+          "skill_path": "skills/pdftk-server"
+        },
+        {
+          "owner": "openai",
+          "repo": "skills",
+          "name": "pdf",
+          "skill_path": "skills/.curated/pdf"
+        },
+        {
+          "owner": "pilioai",
+          "repo": "skills",
+          "name": "remove-pdf-watermark",
+          "skill_path": "skills/remove-pdf-watermark"
+        },
+        {
+          "owner": "steipete",
+          "repo": "clawdis",
+          "name": "nano-pdf",
+          "skill_path": "skills/nano-pdf"
+        },
+        {
+          "owner": "tanis90",
+          "repo": "pdf-converter-mineru",
+          "name": "pdf-converter",
+          "skill_path": ""
+        }
+      ]
+    },
+    {
+      "name": "Word & Spreadsheet Files",
+      "description": "Programmatically creating and editing Word (.docx) documents and Excel/CSV spreadsheets (openpyxl, python-docx, data extraction).",
+      "skills": [
+        {
+          "owner": "anthropics",
+          "repo": "skills",
+          "name": "docx",
+          "skill_path": "skills/docx"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "skills",
+          "name": "xlsx",
+          "skill_path": "skills/xlsx"
+        },
+        {
+          "owner": "claude-office-skills",
+          "repo": "skills",
+          "name": "docx-manipulation",
+          "skill_path": "docx-manipulation"
+        },
+        {
+          "owner": "claude-office-skills",
+          "repo": "skills",
+          "name": "excel-automation",
+          "skill_path": "excel-automation"
+        },
+        {
+          "owner": "claude-office-skills",
+          "repo": "skills",
+          "name": "office-mcp",
+          "skill_path": "office-mcp"
+        },
+        {
+          "owner": "claude-office-skills",
+          "repo": "skills",
+          "name": "xlsx-manipulation",
+          "skill_path": "xlsx-manipulation"
+        }
+      ]
+    },
+    {
+      "name": "Presentations & Slide Decks",
+      "description": "Building slide decks and presentations — PowerPoint (.pptx), HTML/web slides, Slidev, Marp and generated decks.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "frontend-slides",
+          "skill_path": ".agents/skills/frontend-slides"
+        },
+        {
+          "owner": "antfu",
+          "repo": "skills",
+          "name": "slidev",
+          "skill_path": "skills/slidev"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "skills",
+          "name": "pptx",
+          "skill_path": "skills/pptx"
+        },
+        {
+          "owner": "claude-office-skills",
+          "repo": "skills",
+          "name": "html-slides",
+          "skill_path": "html-slides"
+        },
+        {
+          "owner": "claude-office-skills",
+          "repo": "skills",
+          "name": "ppt-visual",
+          "skill_path": "ppt-visual"
+        },
+        {
+          "owner": "hugohe3",
+          "repo": "ppt-master",
+          "name": "ppt-master",
+          "skill_path": "skills/ppt-master"
+        },
+        {
+          "owner": "igorwarzocha",
+          "repo": "opencode-workflows",
+          "name": "powerpoint",
+          "skill_path": "cowork/.opencode/skill/powerpoint"
+        },
+        {
+          "owner": "jimliu",
+          "repo": "baoyu-skills",
+          "name": "baoyu-slide-deck",
+          "skill_path": "skills/baoyu-slide-deck"
+        },
+        {
+          "owner": "lewislulu",
+          "repo": "html-ppt-skill",
+          "name": "html-ppt",
+          "skill_path": ""
+        },
+        {
+          "owner": "minimax-ai",
+          "repo": "skills",
+          "name": "pptx-generator",
+          "skill_path": "skills/pptx-generator"
+        },
+        {
+          "owner": "nextlevelbuilder",
+          "repo": "ui-ux-pro-max-skill",
+          "name": "ckm:slides",
+          "skill_path": ".claude/skills/slides"
+        },
+        {
+          "owner": "op7418",
+          "repo": "guizang-ppt-skill",
+          "name": "guizang-ppt-skill",
+          "skill_path": ""
+        },
+        {
+          "owner": "slidevjs",
+          "repo": "slidev",
+          "name": "slidev",
+          "skill_path": "skills/slidev"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "marp-slide",
+          "skill_path": "dist/plugins/marp-slide/skills/marp-slide"
+        },
+        {
+          "owner": "tw93",
+          "repo": "kami",
+          "name": "kami",
+          "skill_path": ""
+        },
+        {
+          "owner": "willem4130",
+          "repo": "claude-code-skills",
+          "name": "elite-powerpoint-designer",
+          "skill_path": "skills/elite-powerpoint-designer"
+        }
+      ]
+    },
+    {
+      "name": "Document Conversion & Processing",
+      "description": "Converting and transforming documents — Markdown↔HTML, file-to-markdown extraction, and multi-format document processing pipelines.",
+      "skills": [
+        {
+          "owner": "claude-office-skills",
+          "repo": "skills",
+          "name": "office-to-md",
+          "skill_path": "office-to-md"
+        },
+        {
+          "owner": "firecrawl",
+          "repo": "cli",
+          "name": "firecrawl-parse",
+          "skill_path": "skills/firecrawl-parse"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "convert-plaintext-to-md",
+          "skill_path": "skills/convert-plaintext-to-md"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "markdown-to-html",
+          "skill_path": "plugins/cms-development/skills/markdown-to-html"
+        },
+        {
+          "owner": "jimliu",
+          "repo": "baoyu-skills",
+          "name": "baoyu-markdown-to-html",
+          "skill_path": "skills/baoyu-markdown-to-html"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Document/office skills that do not fit the above subcategories.",
+      "skills": []
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "category": "Social Media & Content Publishing",
+  "sub_categories": [
+    {
+      "name": "Chinese Social Platforms",
+      "description": "Publishing and analytics on Chinese platforms — Xiaohongshu/RedNote, WeChat Official Accounts, Weibo, Douyin and WeRead.",
+      "skills": [
+        {
+          "owner": "adjfks",
+          "repo": "corner-skills",
+          "name": "write-xiaohongshu",
+          "skill_path": "skills/write-xiaohongshu"
+        },
+        {
+          "owner": "dontbesilent2025",
+          "repo": "dbskill",
+          "name": "dbs-xhs-title",
+          "skill_path": "skills/dbs-xhs-title"
+        },
+        {
+          "owner": "jimliu",
+          "repo": "baoyu-skills",
+          "name": "baoyu-post-to-wechat",
+          "skill_path": "skills/baoyu-post-to-wechat"
+        },
+        {
+          "owner": "jimliu",
+          "repo": "baoyu-skills",
+          "name": "baoyu-post-to-weibo",
+          "skill_path": "skills/baoyu-post-to-weibo"
+        },
+        {
+          "owner": "xiaoyiv",
+          "repo": "douyin-skill",
+          "name": "douyin",
+          "skill_path": ""
+        },
+        {
+          "owner": "zhjiang22",
+          "repo": "openclaw-xhs",
+          "name": "xiaohongshu",
+          "skill_path": ""
+        }
+      ]
+    },
+    {
+      "name": "Global Social Platforms",
+      "description": "Posting and automation on X/Twitter, LinkedIn, YouTube, TikTok, Threads and Bluesky.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "x-api",
+          "skill_path": ".agents/skills/x-api"
+        },
+        {
+          "owner": "binance",
+          "repo": "binance-skills-hub",
+          "name": "square-post",
+          "skill_path": "skills/binance/square-post"
+        },
+        {
+          "owner": "claude-office-skills",
+          "repo": "skills",
+          "name": "tiktok-marketing",
+          "skill_path": "tiktok-marketing"
+        },
+        {
+          "owner": "jimliu",
+          "repo": "baoyu-skills",
+          "name": "baoyu-post-to-x",
+          "skill_path": "skills/baoyu-post-to-x"
+        },
+        {
+          "owner": "skills-shell",
+          "repo": "skills",
+          "name": "twitter-automation",
+          "skill_path": "tools/social/twitter-automation"
+        }
+      ]
+    },
+    {
+      "name": "Multi-Platform Content Systems",
+      "description": "Systems for producing and distributing content across many platforms — content engines, calendars and cross-posting/repurposing.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "content-engine",
+          "skill_path": ".agents/skills/content-engine"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "crosspost",
+          "skill_path": ".agents/skills/crosspost"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "social",
+          "skill_path": "skills/social"
+        },
+        {
+          "owner": "dontbesilent2025",
+          "repo": "dbskill",
+          "name": "dbs-hook",
+          "skill_path": "skills/dbs-hook"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Social-publishing skills that do not fit the above subcategories.",
+      "skills": []
+    }
+  ]
+}

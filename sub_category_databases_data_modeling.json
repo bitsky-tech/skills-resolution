@@ -1,0 +1,208 @@
+{
+  "category": "Databases & Data Modeling",
+  "sub_categories": [
+    {
+      "name": "SQL Query & Performance Tuning",
+      "description": "Writing and optimizing SQL — indexing, EXPLAIN analysis, query review and performance across MySQL, PostgreSQL, SQL Server and others.",
+      "skills": [
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "postgresql-code-review",
+          "skill_path": "plugins/database-data-management/skills/postgresql-code-review"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "postgresql-optimization",
+          "skill_path": "plugins/database-data-management/skills/postgresql-optimization"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "sql-code-review",
+          "skill_path": "plugins/database-data-management/skills/sql-code-review"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "sql-optimization",
+          "skill_path": "plugins/database-data-management/skills/sql-optimization"
+        },
+        {
+          "owner": "jeffallan",
+          "repo": "claude-skills",
+          "name": "postgres-pro",
+          "skill_path": "skills/postgres-pro"
+        },
+        {
+          "owner": "jeffallan",
+          "repo": "claude-skills",
+          "name": "sql-pro",
+          "skill_path": "skills/sql-pro"
+        },
+        {
+          "owner": "planetscale",
+          "repo": "database-skills",
+          "name": "mysql",
+          "skill_path": "skills/mysql"
+        },
+        {
+          "owner": "planetscale",
+          "repo": "database-skills",
+          "name": "postgres",
+          "skill_path": "skills/postgres"
+        },
+        {
+          "owner": "supabase",
+          "repo": "agent-skills",
+          "name": "supabase-postgres-best-practices",
+          "skill_path": "skills/supabase-postgres-best-practices"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "sql-optimization-patterns",
+          "skill_path": "plugins/developer-essentials/skills/sql-optimization-patterns"
+        }
+      ]
+    },
+    {
+      "name": "Schema Design & Migrations",
+      "description": "Designing database schemas and running migrations, including zero-downtime changes, backfills and rollbacks.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "database-migrations",
+          "skill_path": ".kiro/skills/database-migrations"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "cosmosdb-datamodeling",
+          "skill_path": "skills/cosmosdb-datamodeling"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "database-schema-designer",
+          "skill_path": "dist/plugins/database-schema-designer/skills/database-schema-designer"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "database-migration",
+          "skill_path": "plugins/framework-migration/skills/database-migration"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "postgresql-table-design",
+          "skill_path": "plugins/database-design/skills/postgresql"
+        }
+      ]
+    },
+    {
+      "name": "ORMs & Data Access",
+      "description": "Type-safe data access with ORMs: Prisma, Drizzle, JPA/Hibernate, Eloquent, Exposed and similar query/relationship patterns.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "jpa-patterns",
+          "skill_path": "skills/jpa-patterns"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "kotlin-exposed-patterns",
+          "skill_path": "skills/kotlin-exposed-patterns"
+        },
+        {
+          "owner": "bobmatnyc",
+          "repo": "claude-mpm-skills",
+          "name": "drizzle-orm",
+          "skill_path": "toolchains/typescript/data/drizzle"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "ef-core",
+          "skill_path": "skills/ef-core"
+        },
+        {
+          "owner": "prisma",
+          "repo": "skills",
+          "name": "prisma-cli",
+          "skill_path": "prisma-cli"
+        },
+        {
+          "owner": "prisma",
+          "repo": "skills",
+          "name": "prisma-client-api",
+          "skill_path": "prisma-client-api"
+        },
+        {
+          "owner": "prisma",
+          "repo": "skills",
+          "name": "prisma-database-setup",
+          "skill_path": "prisma-database-setup"
+        },
+        {
+          "owner": "prisma",
+          "repo": "skills",
+          "name": "prisma-driver-adapter-implementation",
+          "skill_path": "prisma-driver-adapter-implementation"
+        },
+        {
+          "owner": "prisma",
+          "repo": "skills",
+          "name": "prisma-postgres",
+          "skill_path": "prisma-postgres"
+        },
+        {
+          "owner": "prisma",
+          "repo": "skills",
+          "name": "prisma-upgrade-v7",
+          "skill_path": "prisma-upgrade-v7"
+        },
+        {
+          "owner": "sickn33",
+          "repo": "antigravity-awesome-skills",
+          "name": "prisma-expert",
+          "skill_path": "plugins/antigravity-awesome-skills/skills/prisma-expert"
+        }
+      ]
+    },
+    {
+      "name": "Engine-Specific Patterns",
+      "description": "Deep, engine-specific guidance: PostgreSQL features, ClickHouse analytics, Snowflake semantic views and other database-specific best practices.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "clickhouse-io",
+          "skill_path": "skills/clickhouse-io"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "postgres-patterns",
+          "skill_path": ".kiro/skills/postgres-patterns"
+        },
+        {
+          "owner": "clickhouse",
+          "repo": "agent-skills",
+          "name": "clickhouse-best-practices",
+          "skill_path": "skills/clickhouse-best-practices"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Database skills that do not fit the above subcategories.",
+      "skills": []
+    }
+  ]
+}

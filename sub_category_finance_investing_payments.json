@@ -1,0 +1,149 @@
+{
+  "category": "Finance, Investing & Payments",
+  "sub_categories": [
+    {
+      "name": "Stock & Market Data",
+      "description": "Fetching traditional-market data — stocks, indices, funds, forex, commodities and macro (Tushare, Wind, akshare, Yahoo Finance, TwelveData).",
+      "skills": [
+        {
+          "owner": "gracefullight",
+          "repo": "stock-checker",
+          "name": "yahoo-finance",
+          "skill_path": ".agents/skills/yahoo-finance"
+        },
+        {
+          "owner": "molezzz",
+          "repo": "openclaw-stock-skill",
+          "name": "akshare-stock",
+          "skill_path": ""
+        },
+        {
+          "owner": "stanleychanh",
+          "repo": "tushare-finance-skill-for-claude-code",
+          "name": "tushare-finance",
+          "skill_path": ""
+        },
+        {
+          "owner": "starchild-ai-agent",
+          "repo": "official-skills",
+          "name": "twelvedata",
+          "skill_path": "twelvedata"
+        },
+        {
+          "owner": "waditu-tushare",
+          "repo": "skills",
+          "name": "tushare",
+          "skill_path": "tushare"
+        },
+        {
+          "owner": "wind-information-co-ltd",
+          "repo": "wind-skills",
+          "name": "wind-find-finance-skill",
+          "skill_path": "skills/wind-find-finance-skill"
+        },
+        {
+          "owner": "wind-information-co-ltd",
+          "repo": "wind-skills",
+          "name": "wind-mcp-skill",
+          "skill_path": "skills/wind-mcp-skill"
+        }
+      ]
+    },
+    {
+      "name": "Investment Analysis & Modeling",
+      "description": "Analyzing assets and money: stock/fundamental analysis, financial modeling, investment reports, backtesting and portfolio risk metrics.",
+      "skills": [
+        {
+          "owner": "claude-office-skills",
+          "repo": "skills",
+          "name": "stock-analysis",
+          "skill_path": "stock-analysis"
+        },
+        {
+          "owner": "gracefullight",
+          "repo": "stock-checker",
+          "name": "stock-analysis",
+          "skill_path": ".agents/skills/stock-analysis"
+        },
+        {
+          "owner": "jeremylongshore",
+          "repo": "claude-code-plugins-plus-skills",
+          "name": "backtesting-trading-strategies",
+          "skill_path": "plugins/crypto/trading-strategy-backtester/skills/backtesting-trading-strategies"
+        },
+        {
+          "owner": "lijigang",
+          "repo": "ljg-skills",
+          "name": "ljg-invest",
+          "skill_path": "skills/ljg-invest"
+        },
+        {
+          "owner": "sundial-org",
+          "repo": "awesome-openclaw-skills",
+          "name": "stock-market-pro",
+          "skill_path": "skills/stock-market-pro"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "backtesting-frameworks",
+          "skill_path": "plugins/quantitative-trading/skills/backtesting-frameworks"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "risk-metrics-calculation",
+          "skill_path": "plugins/quantitative-trading/skills/risk-metrics-calculation"
+        }
+      ]
+    },
+    {
+      "name": "Payments & Billing Integration",
+      "description": "Integrating payment and billing systems — Stripe, PayPal, subscription/recurring billing, invoicing and PCI-aware payment flows.",
+      "skills": [
+        {
+          "owner": "stripe",
+          "repo": "ai",
+          "name": "stripe-best-practices",
+          "skill_path": "providers/claude/plugin/skills/stripe-best-practices"
+        },
+        {
+          "owner": "stripe",
+          "repo": "ai",
+          "name": "upgrade-stripe",
+          "skill_path": "providers/claude/plugin/skills/upgrade-stripe"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "billing-automation",
+          "skill_path": "plugins/payment-processing/skills/billing-automation"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "paypal-integration",
+          "skill_path": "plugins/payment-processing/skills/paypal-integration"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "stripe-integration",
+          "skill_path": "plugins/payment-processing/skills/stripe-integration"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Finance skills that do not fit the above subcategories.",
+      "skills": [
+        {
+          "owner": "personamanagmentlayer",
+          "repo": "pcl",
+          "name": "finance-expert",
+          "skill_path": "stdlib/domains/finance-expert"
+        }
+      ]
+    }
+  ]
+}

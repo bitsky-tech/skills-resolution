@@ -1,0 +1,365 @@
+{
+  "category": "Crypto, Web3 & Blockchain",
+  "sub_categories": [
+    {
+      "name": "Crypto Market & On-Chain Data",
+      "description": "Querying token prices, rankings, market caps, on-chain analytics, holder/security audits and smart-money/whale tracking.",
+      "skills": [
+        {
+          "owner": "binance",
+          "repo": "binance-skills-hub",
+          "name": "crypto-market-rank",
+          "skill_path": "skills/binance-web3/crypto-market-rank"
+        },
+        {
+          "owner": "binance",
+          "repo": "binance-skills-hub",
+          "name": "query-address-info",
+          "skill_path": "skills/binance-web3/query-address-info"
+        },
+        {
+          "owner": "binance",
+          "repo": "binance-skills-hub",
+          "name": "query-token-audit",
+          "skill_path": "skills/binance-web3/query-token-audit"
+        },
+        {
+          "owner": "binance",
+          "repo": "binance-skills-hub",
+          "name": "query-token-info",
+          "skill_path": "skills/binance-web3/query-token-info"
+        },
+        {
+          "owner": "binance",
+          "repo": "binance-skills-hub",
+          "name": "trading-signal",
+          "skill_path": "skills/binance-web3/trading-signal"
+        },
+        {
+          "owner": "emblemcompany",
+          "repo": "agent-skills",
+          "name": "emblem-market-research",
+          "skill_path": "skills/emblem-market-research"
+        },
+        {
+          "owner": "emblemcompany",
+          "repo": "agent-skills",
+          "name": "emblem-memecoin-scout",
+          "skill_path": "skills/emblem-memecoin-scout"
+        },
+        {
+          "owner": "okx",
+          "repo": "agent-skills",
+          "name": "okx-cex-market",
+          "skill_path": "skills/okx-cex-market"
+        },
+        {
+          "owner": "okx",
+          "repo": "agent-skills",
+          "name": "okx-sentiment-tracker",
+          "skill_path": "skills/okx-sentiment-tracker"
+        },
+        {
+          "owner": "okx",
+          "repo": "onchainos-skills",
+          "name": "okx-dex-market",
+          "skill_path": "skills/okx-dex-market"
+        },
+        {
+          "owner": "okx",
+          "repo": "onchainos-skills",
+          "name": "okx-dex-signal",
+          "skill_path": "skills/okx-dex-signal"
+        },
+        {
+          "owner": "okx",
+          "repo": "onchainos-skills",
+          "name": "okx-dex-token",
+          "skill_path": "skills/okx-dex-token"
+        },
+        {
+          "owner": "okx",
+          "repo": "onchainos-skills",
+          "name": "okx-dex-trenches",
+          "skill_path": "skills/okx-dex-trenches"
+        },
+        {
+          "owner": "okx",
+          "repo": "onchainos-skills",
+          "name": "okx-dex-ws",
+          "skill_path": "skills/okx-dex-ws"
+        },
+        {
+          "owner": "okx",
+          "repo": "onchainos-skills",
+          "name": "okx-security",
+          "skill_path": "skills/okx-security"
+        },
+        {
+          "owner": "starchild-ai-agent",
+          "repo": "official-skills",
+          "name": "coingecko",
+          "skill_path": "coingecko"
+        },
+        {
+          "owner": "starchild-ai-agent",
+          "repo": "official-skills",
+          "name": "coinglass",
+          "skill_path": "coinglass"
+        }
+      ]
+    },
+    {
+      "name": "Trading, DeFi & Portfolio",
+      "description": "Executing and managing on-chain/CEX activity — swaps, trading bots, perps, meme-coin trading, DeFi yield and portfolio tracking.",
+      "skills": [
+        {
+          "owner": "binance",
+          "repo": "binance-skills-hub",
+          "name": "meme-rush",
+          "skill_path": "skills/binance-web3/meme-rush"
+        },
+        {
+          "owner": "emblemcompany",
+          "repo": "agent-skills",
+          "name": "emblem-defi-yield",
+          "skill_path": "skills/emblem-defi-yield"
+        },
+        {
+          "owner": "emblemcompany",
+          "repo": "agent-skills",
+          "name": "emblem-portfolio-tracker",
+          "skill_path": "skills/emblem-portfolio-tracker"
+        },
+        {
+          "owner": "emblemcompany",
+          "repo": "agent-skills",
+          "name": "emblem-token-swap",
+          "skill_path": "skills/emblem-token-swap"
+        },
+        {
+          "owner": "franalgaba",
+          "repo": "grimoire",
+          "name": "grimoire-polymarket",
+          "skill_path": "skills/grimoire-polymarket"
+        },
+        {
+          "owner": "gmgnai",
+          "repo": "gmgn-skills",
+          "name": "gmgn-cooking",
+          "skill_path": "skills/gmgn-cooking"
+        },
+        {
+          "owner": "gmgnai",
+          "repo": "gmgn-skills",
+          "name": "gmgn-market",
+          "skill_path": "skills/gmgn-market"
+        },
+        {
+          "owner": "gmgnai",
+          "repo": "gmgn-skills",
+          "name": "gmgn-portfolio",
+          "skill_path": "skills/gmgn-portfolio"
+        },
+        {
+          "owner": "gmgnai",
+          "repo": "gmgn-skills",
+          "name": "gmgn-swap",
+          "skill_path": "skills/gmgn-swap"
+        },
+        {
+          "owner": "gmgnai",
+          "repo": "gmgn-skills",
+          "name": "gmgn-token",
+          "skill_path": "skills/gmgn-token"
+        },
+        {
+          "owner": "gmgnai",
+          "repo": "gmgn-skills",
+          "name": "gmgn-track",
+          "skill_path": "skills/gmgn-track"
+        },
+        {
+          "owner": "okx",
+          "repo": "agent-skills",
+          "name": "okx-cex-bot",
+          "skill_path": "skills/okx-cex-bot"
+        },
+        {
+          "owner": "okx",
+          "repo": "agent-skills",
+          "name": "okx-cex-earn",
+          "skill_path": "skills/okx-cex-earn"
+        },
+        {
+          "owner": "okx",
+          "repo": "agent-skills",
+          "name": "okx-cex-portfolio",
+          "skill_path": "skills/okx-cex-portfolio"
+        },
+        {
+          "owner": "okx",
+          "repo": "agent-skills",
+          "name": "okx-cex-trade",
+          "skill_path": "skills/okx-cex-trade"
+        },
+        {
+          "owner": "okx",
+          "repo": "onchainos-skills",
+          "name": "okx-defi-invest",
+          "skill_path": "skills/okx-defi-invest"
+        },
+        {
+          "owner": "okx",
+          "repo": "onchainos-skills",
+          "name": "okx-defi-portfolio",
+          "skill_path": "skills/okx-defi-portfolio"
+        },
+        {
+          "owner": "okx",
+          "repo": "onchainos-skills",
+          "name": "okx-dex-swap",
+          "skill_path": "skills/okx-dex-swap"
+        },
+        {
+          "owner": "okx",
+          "repo": "onchainos-skills",
+          "name": "okx-wallet-portfolio",
+          "skill_path": "skills/okx-wallet-portfolio"
+        },
+        {
+          "owner": "starchild-ai-agent",
+          "repo": "official-skills",
+          "name": "hyperliquid",
+          "skill_path": "hyperliquid"
+        },
+        {
+          "owner": "starchild-ai-agent",
+          "repo": "official-skills",
+          "name": "orderly-onboarding",
+          "skill_path": "orderly-onboarding"
+        }
+      ]
+    },
+    {
+      "name": "Agent Wallets & Onchain Payments",
+      "description": "Wallets and payments for agents/users — wallet management, x402/agent payments, transaction broadcasting and onchain gateways.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "agent-payment-x402",
+          "skill_path": "skills/agent-payment-x402"
+        },
+        {
+          "owner": "emblemcompany",
+          "repo": "agent-skills",
+          "name": "emblem-ai",
+          "skill_path": "skills/emblem-ai"
+        },
+        {
+          "owner": "emblemcompany",
+          "repo": "agent-skills",
+          "name": "emblem-ai-agent-wallet",
+          "skill_path": "skills/emblem-ai-agent-wallet"
+        },
+        {
+          "owner": "emblemcompany",
+          "repo": "agent-skills",
+          "name": "emblem-ai-prompt-examples",
+          "skill_path": "skills/emblem-ai-prompt-examples"
+        },
+        {
+          "owner": "emblemcompany",
+          "repo": "agent-skills",
+          "name": "emblem-ai-react",
+          "skill_path": "skills/emblem-ai-react"
+        },
+        {
+          "owner": "emblemcompany",
+          "repo": "emblemai-agentwallet",
+          "name": "emblem-ai-agent-wallet",
+          "skill_path": ""
+        },
+        {
+          "owner": "fluxa-agent-payment",
+          "repo": "fluxa-ai-wallet-mcp",
+          "name": "fluxa-agent-wallet",
+          "skill_path": "skills/fluxa-agent-wallet"
+        },
+        {
+          "owner": "okx",
+          "repo": "onchainos-skills",
+          "name": "okx-agentic-wallet",
+          "skill_path": "skills/okx-agentic-wallet"
+        },
+        {
+          "owner": "okx",
+          "repo": "onchainos-skills",
+          "name": "okx-onchain-gateway",
+          "skill_path": "skills/okx-onchain-gateway"
+        },
+        {
+          "owner": "okx",
+          "repo": "onchainos-skills",
+          "name": "okx-x402-payment",
+          "skill_path": "skills/okx-x402-payment"
+        },
+        {
+          "owner": "starchild-ai-agent",
+          "repo": "official-skills",
+          "name": "wallet",
+          "skill_path": "monad/wallet"
+        }
+      ]
+    },
+    {
+      "name": "Smart Contract Development",
+      "description": "Building blockchain programs and protocols — Solidity, NFTs (ERC-721/1155), DeFi protocol templates and Solana/Anchor development.",
+      "skills": [
+        {
+          "owner": "solana-foundation",
+          "repo": "solana-dev-skill",
+          "name": "solana-dev",
+          "skill_path": "skill"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "defi-protocol-templates",
+          "skill_path": "plugins/blockchain-web3/skills/defi-protocol-templates"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "nft-standards",
+          "skill_path": "plugins/blockchain-web3/skills/nft-standards"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "web3-testing",
+          "skill_path": "plugins/blockchain-web3/skills/web3-testing"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Crypto/web3 skills that do not fit the above subcategories.",
+      "skills": [
+        {
+          "owner": "billionsnetwork",
+          "repo": "verified-agent-identity",
+          "name": "verified-agent-identity",
+          "skill_path": ""
+        },
+        {
+          "owner": "okx",
+          "repo": "onchainos-skills",
+          "name": "okx-audit-log",
+          "skill_path": "skills/okx-audit-log"
+        }
+      ]
+    }
+  ]
+}

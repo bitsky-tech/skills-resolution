@@ -1,0 +1,743 @@
+{
+  "category": "Web & Frontend Development",
+  "sub_categories": [
+    {
+      "name": "Frontend Frameworks & Rendering",
+      "description": "Component, routing, data-fetching and rendering patterns for React, Next.js, Vue, Angular, Svelte, Astro, Nuxt, SolidJS, Remix/TanStack and similar web frameworks.",
+      "skills": [
+        {
+          "owner": "addyosmani",
+          "repo": "agent-skills",
+          "name": "frontend-ui-engineering",
+          "skill_path": "skills/frontend-ui-engineering"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "frontend-patterns",
+          "skill_path": ".agents/skills/frontend-patterns"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "nextjs-turbopack",
+          "skill_path": ".agents/skills/nextjs-turbopack"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "nuxt4-patterns",
+          "skill_path": "skills/nuxt4-patterns"
+        },
+        {
+          "owner": "analogjs",
+          "repo": "angular-skills",
+          "name": "angular-component",
+          "skill_path": "skills/angular-component"
+        },
+        {
+          "owner": "analogjs",
+          "repo": "angular-skills",
+          "name": "angular-di",
+          "skill_path": "skills/angular-di"
+        },
+        {
+          "owner": "analogjs",
+          "repo": "angular-skills",
+          "name": "angular-directives",
+          "skill_path": "skills/angular-directives"
+        },
+        {
+          "owner": "analogjs",
+          "repo": "angular-skills",
+          "name": "angular-forms",
+          "skill_path": "skills/angular-forms"
+        },
+        {
+          "owner": "analogjs",
+          "repo": "angular-skills",
+          "name": "angular-http",
+          "skill_path": "skills/angular-http"
+        },
+        {
+          "owner": "analogjs",
+          "repo": "angular-skills",
+          "name": "angular-routing",
+          "skill_path": "skills/angular-routing"
+        },
+        {
+          "owner": "analogjs",
+          "repo": "angular-skills",
+          "name": "angular-signals",
+          "skill_path": "skills/angular-signals"
+        },
+        {
+          "owner": "analogjs",
+          "repo": "angular-skills",
+          "name": "angular-testing",
+          "skill_path": "skills/angular-testing"
+        },
+        {
+          "owner": "analogjs",
+          "repo": "angular-skills",
+          "name": "angular-tooling",
+          "skill_path": "skills/angular-tooling"
+        },
+        {
+          "owner": "angular",
+          "repo": "skills",
+          "name": "angular-developer",
+          "skill_path": "angular-developer"
+        },
+        {
+          "owner": "angular",
+          "repo": "skills",
+          "name": "angular-new-app",
+          "skill_path": "angular-new-app"
+        },
+        {
+          "owner": "antfu",
+          "repo": "skills",
+          "name": "nuxt",
+          "skill_path": "skills/nuxt"
+        },
+        {
+          "owner": "antfu",
+          "repo": "skills",
+          "name": "pinia",
+          "skill_path": "skills/pinia"
+        },
+        {
+          "owner": "antfu",
+          "repo": "skills",
+          "name": "vue",
+          "skill_path": "skills/vue"
+        },
+        {
+          "owner": "antfu",
+          "repo": "skills",
+          "name": "vue-best-practices",
+          "skill_path": "skills/vue-best-practices"
+        },
+        {
+          "owner": "antfu",
+          "repo": "skills",
+          "name": "vue-router-best-practices",
+          "skill_path": "skills/vue-router-best-practices"
+        },
+        {
+          "owner": "antfu",
+          "repo": "skills",
+          "name": "vueuse-functions",
+          "skill_path": "skills/vueuse-functions"
+        },
+        {
+          "owner": "astrolicious",
+          "repo": "agent-skills",
+          "name": "astro",
+          "skill_path": "skills/astro"
+        },
+        {
+          "owner": "cloudflare",
+          "repo": "vinext",
+          "name": "migrate-to-vinext",
+          "skill_path": ".agents/skills/migrate-to-vinext"
+        },
+        {
+          "owner": "deckardger",
+          "repo": "tanstack-agent-skills",
+          "name": "tanstack-query-best-practices",
+          "skill_path": "skills/tanstack-query"
+        },
+        {
+          "owner": "deckardger",
+          "repo": "tanstack-agent-skills",
+          "name": "tanstack-router-best-practices",
+          "skill_path": "skills/tanstack-router"
+        },
+        {
+          "owner": "deckardger",
+          "repo": "tanstack-agent-skills",
+          "name": "tanstack-start-best-practices",
+          "skill_path": "skills/tanstack-start"
+        },
+        {
+          "owner": "ejirocodes",
+          "repo": "agent-skills",
+          "name": "svelte5-best-practices",
+          "skill_path": "svelte/skills/svelte5-best-practices"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "next-intl-add-language",
+          "skill_path": "skills/next-intl-add-language"
+        },
+        {
+          "owner": "google-labs-code",
+          "repo": "stitch-skills",
+          "name": "react:components",
+          "skill_path": "plugins/stitch-build/skills/react-components"
+        },
+        {
+          "owner": "hyf0",
+          "repo": "vue-skills",
+          "name": "vue-best-practices",
+          "skill_path": "skills/vue-best-practices"
+        },
+        {
+          "owner": "hyf0",
+          "repo": "vue-skills",
+          "name": "vue-debug-guides",
+          "skill_path": "skills/vue-debug-guides"
+        },
+        {
+          "owner": "mindrally",
+          "repo": "skills",
+          "name": "nextjs-react-typescript",
+          "skill_path": "nextjs-react-typescript"
+        },
+        {
+          "owner": "onmax",
+          "repo": "nuxt-skills",
+          "name": "nuxt",
+          "skill_path": "skills/nuxt"
+        },
+        {
+          "owner": "onmax",
+          "repo": "nuxt-skills",
+          "name": "vue",
+          "skill_path": "skills/vue"
+        },
+        {
+          "owner": "sickn33",
+          "repo": "antigravity-awesome-skills",
+          "name": "nextjs-best-practices",
+          "skill_path": "plugins/antigravity-awesome-skills/skills/nextjs-best-practices"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "react-dev",
+          "skill_path": "dist/plugins/react-dev/skills/react-dev"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "react-useeffect",
+          "skill_path": "dist/plugins/react-useeffect/skills/react-useeffect"
+        },
+        {
+          "owner": "sveltejs",
+          "repo": "ai-tools",
+          "name": "svelte-code-writer",
+          "skill_path": "packages/opencode/skills/svelte-code-writer"
+        },
+        {
+          "owner": "vercel-labs",
+          "repo": "agent-skills",
+          "name": "vercel-composition-patterns",
+          "skill_path": "skills/composition-patterns"
+        },
+        {
+          "owner": "vercel-labs",
+          "repo": "agent-skills",
+          "name": "vercel-react-best-practices",
+          "skill_path": "skills/react-best-practices"
+        },
+        {
+          "owner": "vercel-labs",
+          "repo": "next-skills",
+          "name": "next-best-practices",
+          "skill_path": "skills/next-best-practices"
+        },
+        {
+          "owner": "vercel-labs",
+          "repo": "next-skills",
+          "name": "next-cache-components",
+          "skill_path": "skills/next-cache-components"
+        },
+        {
+          "owner": "vercel-labs",
+          "repo": "next-skills",
+          "name": "next-upgrade",
+          "skill_path": "skills/next-upgrade"
+        },
+        {
+          "owner": "vercel-labs",
+          "repo": "vercel-plugin",
+          "name": "nextjs",
+          "skill_path": "skills/nextjs"
+        },
+        {
+          "owner": "vuejs-ai",
+          "repo": "skills",
+          "name": "create-adaptable-composable",
+          "skill_path": "skills/create-adaptable-composable"
+        },
+        {
+          "owner": "vuejs-ai",
+          "repo": "skills",
+          "name": "vue-best-practices",
+          "skill_path": "skills/vue-best-practices"
+        },
+        {
+          "owner": "vuejs-ai",
+          "repo": "skills",
+          "name": "vue-debug-guides",
+          "skill_path": "skills/vue-debug-guides"
+        },
+        {
+          "owner": "vuejs-ai",
+          "repo": "skills",
+          "name": "vue-jsx-best-practices",
+          "skill_path": "skills/vue-jsx-best-practices"
+        },
+        {
+          "owner": "vuejs-ai",
+          "repo": "skills",
+          "name": "vue-options-api-best-practices",
+          "skill_path": "skills/vue-options-api-best-practices"
+        },
+        {
+          "owner": "vuejs-ai",
+          "repo": "skills",
+          "name": "vue-pinia-best-practices",
+          "skill_path": "skills/vue-pinia-best-practices"
+        },
+        {
+          "owner": "vuejs-ai",
+          "repo": "skills",
+          "name": "vue-router-best-practices",
+          "skill_path": "skills/vue-router-best-practices"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "angular-migration",
+          "skill_path": "plugins/framework-migration/skills/angular-migration"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "nextjs-app-router-patterns",
+          "skill_path": "plugins/frontend-mobile-development/skills/nextjs-app-router-patterns"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "react-modernization",
+          "skill_path": "plugins/framework-migration/skills/react-modernization"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "react-state-management",
+          "skill_path": "plugins/frontend-mobile-development/skills/react-state-management"
+        }
+      ]
+    },
+    {
+      "name": "UI Components & CSS Styling",
+      "description": "Building interfaces with component libraries and CSS systems — shadcn/ui, Tailwind/UnoCSS, Radix, HeroUI, Nuxt UI — and utility-first styling patterns.",
+      "skills": [
+        {
+          "owner": "antfu",
+          "repo": "skills",
+          "name": "unocss",
+          "skill_path": "skills/unocss"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "fluentui-blazor",
+          "skill_path": "skills/fluentui-blazor"
+        },
+        {
+          "owner": "giuseppe-trisciuoglio",
+          "repo": "developer-kit",
+          "name": "shadcn-ui",
+          "skill_path": "plugins/developer-kit-typescript/skills/shadcn-ui"
+        },
+        {
+          "owner": "giuseppe-trisciuoglio",
+          "repo": "developer-kit",
+          "name": "tailwind-css-patterns",
+          "skill_path": "plugins/developer-kit-typescript/skills/tailwind-css-patterns"
+        },
+        {
+          "owner": "google-labs-code",
+          "repo": "stitch-skills",
+          "name": "shadcn-ui",
+          "skill_path": "plugins/stitch-build/skills/shadcn-ui"
+        },
+        {
+          "owner": "ibelick",
+          "repo": "ui-skills",
+          "name": "baseline-ui",
+          "skill_path": "skills/baseline-ui"
+        },
+        {
+          "owner": "josiahsiegel",
+          "repo": "claude-plugin-marketplace",
+          "name": "tailwindcss-advanced-layouts",
+          "skill_path": "plugins/tailwindcss-master/skills/tailwindcss-advanced-layouts"
+        },
+        {
+          "owner": "nextlevelbuilder",
+          "repo": "ui-ux-pro-max-skill",
+          "name": "ckm:ui-styling",
+          "skill_path": ".claude/skills/ui-styling"
+        },
+        {
+          "owner": "nuxt",
+          "repo": "ui",
+          "name": "nuxt-ui",
+          "skill_path": "skills/nuxt-ui"
+        },
+        {
+          "owner": "onmax",
+          "repo": "nuxt-skills",
+          "name": "nuxt-ui",
+          "skill_path": "skills/nuxt-ui"
+        },
+        {
+          "owner": "onmax",
+          "repo": "nuxt-skills",
+          "name": "reka-ui",
+          "skill_path": "skills/reka-ui"
+        },
+        {
+          "owner": "secondsky",
+          "repo": "claude-skills",
+          "name": "tailwind-v4-shadcn",
+          "skill_path": "plugins/tailwind-v4-shadcn/skills/tailwind-v4-shadcn"
+        },
+        {
+          "owner": "shadcn",
+          "repo": "ui",
+          "name": "shadcn",
+          "skill_path": "skills/shadcn"
+        },
+        {
+          "owner": "vercel",
+          "repo": "components.build",
+          "name": "building-components",
+          "skill_path": "skills/building-components"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "responsive-design",
+          "skill_path": "plugins/ui-design/skills/responsive-design"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "tailwind-design-system",
+          "skill_path": "plugins/frontend-mobile-development/skills/tailwind-design-system"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "web-component-design",
+          "skill_path": "plugins/ui-design/skills/web-component-design"
+        }
+      ]
+    },
+    {
+      "name": "Web Animation & Motion",
+      "description": "Web motion and micro-interactions with GSAP, Framer/Motion, CSS animations, the Web Animations API, view transitions and scroll-driven effects.",
+      "skills": [
+        {
+          "owner": "greensock",
+          "repo": "gsap-skills",
+          "name": "gsap-core",
+          "skill_path": "skills/gsap-core"
+        },
+        {
+          "owner": "greensock",
+          "repo": "gsap-skills",
+          "name": "gsap-frameworks",
+          "skill_path": "skills/gsap-frameworks"
+        },
+        {
+          "owner": "greensock",
+          "repo": "gsap-skills",
+          "name": "gsap-performance",
+          "skill_path": "skills/gsap-performance"
+        },
+        {
+          "owner": "greensock",
+          "repo": "gsap-skills",
+          "name": "gsap-plugins",
+          "skill_path": "skills/gsap-plugins"
+        },
+        {
+          "owner": "greensock",
+          "repo": "gsap-skills",
+          "name": "gsap-react",
+          "skill_path": "skills/gsap-react"
+        },
+        {
+          "owner": "greensock",
+          "repo": "gsap-skills",
+          "name": "gsap-scrolltrigger",
+          "skill_path": "skills/gsap-scrolltrigger"
+        },
+        {
+          "owner": "greensock",
+          "repo": "gsap-skills",
+          "name": "gsap-timeline",
+          "skill_path": "skills/gsap-timeline"
+        },
+        {
+          "owner": "greensock",
+          "repo": "gsap-skills",
+          "name": "gsap-utils",
+          "skill_path": "skills/gsap-utils"
+        },
+        {
+          "owner": "mblode",
+          "repo": "agent-skills",
+          "name": "ui-animation",
+          "skill_path": "skills/ui-animation"
+        },
+        {
+          "owner": "patricio0312rev",
+          "repo": "skills",
+          "name": "framer-motion-animator",
+          "skill_path": "frontend/framer-motion-animator"
+        },
+        {
+          "owner": "vercel-labs",
+          "repo": "agent-skills",
+          "name": "vercel-react-view-transitions",
+          "skill_path": "skills/react-view-transitions"
+        }
+      ]
+    },
+    {
+      "name": "Accessibility & Web Standards",
+      "description": "Auditing and fixing web accessibility (WCAG/ARIA, screen readers, keyboard nav) and reviewing UI against web interface guidelines.",
+      "skills": [
+        {
+          "owner": "addyosmani",
+          "repo": "web-quality-skills",
+          "name": "accessibility",
+          "skill_path": "skills/accessibility"
+        },
+        {
+          "owner": "antfu",
+          "repo": "skills",
+          "name": "web-design-guidelines",
+          "skill_path": "skills/web-design-guidelines"
+        },
+        {
+          "owner": "ibelick",
+          "repo": "ui-skills",
+          "name": "fixing-accessibility",
+          "skill_path": "skills/fixing-accessibility"
+        },
+        {
+          "owner": "vercel-labs",
+          "repo": "agent-skills",
+          "name": "web-design-guidelines",
+          "skill_path": "skills/web-design-guidelines"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "accessibility-compliance",
+          "skill_path": "plugins/ui-design/skills/accessibility-compliance"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "screen-reader-testing",
+          "skill_path": "plugins/accessibility-compliance/skills/screen-reader-testing"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "wcag-audit-patterns",
+          "skill_path": "plugins/accessibility-compliance/skills/wcag-audit-patterns"
+        }
+      ]
+    },
+    {
+      "name": "Web Performance & Core Web Vitals",
+      "description": "Speeding up web pages: Core Web Vitals (LCP/INP/CLS), bundle size, render-blocking resources and load-time optimization.",
+      "skills": [
+        {
+          "owner": "addyosmani",
+          "repo": "agent-skills",
+          "name": "performance-optimization",
+          "skill_path": "skills/performance-optimization"
+        },
+        {
+          "owner": "addyosmani",
+          "repo": "web-quality-skills",
+          "name": "core-web-vitals",
+          "skill_path": "skills/core-web-vitals"
+        },
+        {
+          "owner": "addyosmani",
+          "repo": "web-quality-skills",
+          "name": "performance",
+          "skill_path": "skills/performance"
+        },
+        {
+          "owner": "addyosmani",
+          "repo": "web-quality-skills",
+          "name": "web-quality-audit",
+          "skill_path": "skills/web-quality-audit"
+        },
+        {
+          "owner": "cloudflare",
+          "repo": "skills",
+          "name": "web-perf",
+          "skill_path": "skills/web-perf"
+        },
+        {
+          "owner": "ibelick",
+          "repo": "ui-skills",
+          "name": "fixing-motion-performance",
+          "skill_path": "skills/fixing-motion-performance"
+        },
+        {
+          "owner": "squirrelscan",
+          "repo": "skills",
+          "name": "audit-website",
+          "skill_path": "audit-website"
+        }
+      ]
+    },
+    {
+      "name": "Frontend Build Tooling & Monorepos",
+      "description": "JS/TS build and repo tooling: Vite, Turborepo/Nx monorepos, bundlers, and JS/TS linting/formatting (Oxlint, Ultracite, antfu configs).",
+      "skills": [
+        {
+          "owner": "antfu",
+          "repo": "skills",
+          "name": "antfu",
+          "skill_path": "skills/antfu"
+        },
+        {
+          "owner": "antfu",
+          "repo": "skills",
+          "name": "pnpm",
+          "skill_path": "skills/pnpm"
+        },
+        {
+          "owner": "antfu",
+          "repo": "skills",
+          "name": "tsdown",
+          "skill_path": "skills/tsdown"
+        },
+        {
+          "owner": "antfu",
+          "repo": "skills",
+          "name": "turborepo",
+          "skill_path": "skills/turborepo"
+        },
+        {
+          "owner": "antfu",
+          "repo": "skills",
+          "name": "vite",
+          "skill_path": "skills/vite"
+        },
+        {
+          "owner": "haydenbleasel",
+          "repo": "ultracite",
+          "name": "ultracite",
+          "skill_path": "skills/ultracite"
+        },
+        {
+          "owner": "oxc-project",
+          "repo": "oxc",
+          "name": "migrate-oxlint",
+          "skill_path": ".agents/skills/migrate-oxlint"
+        },
+        {
+          "owner": "vercel",
+          "repo": "turborepo",
+          "name": "turborepo",
+          "skill_path": "skills/turborepo"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "monorepo-management",
+          "skill_path": "plugins/developer-essentials/skills/monorepo-management"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "nx-workspace-patterns",
+          "skill_path": "plugins/developer-essentials/skills/nx-workspace-patterns"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "turborepo-caching",
+          "skill_path": "plugins/developer-essentials/skills/turborepo-caching"
+        }
+      ]
+    },
+    {
+      "name": "HTML Email Development",
+      "description": "Building and rendering HTML email templates and ensuring deliverability (React Email, Resend, SPF/DKIM/DMARC, email capture).",
+      "skills": [
+        {
+          "owner": "resend",
+          "repo": "email-best-practices",
+          "name": "email-best-practices",
+          "skill_path": ""
+        },
+        {
+          "owner": "resend",
+          "repo": "react-email",
+          "name": "react-email",
+          "skill_path": "skills/react-email"
+        },
+        {
+          "owner": "resend",
+          "repo": "resend-skills",
+          "name": "resend",
+          "skill_path": "skills/resend"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Web/frontend skills that do not fit the above subcategories.",
+      "skills": [
+        {
+          "owner": "anthropics",
+          "repo": "claude-plugins-official",
+          "name": "playground",
+          "skill_path": "plugins/playground/skills/playground"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "skills",
+          "name": "web-artifacts-builder",
+          "skill_path": "skills/web-artifacts-builder"
+        },
+        {
+          "owner": "googlechrome",
+          "repo": "modern-web-guidance",
+          "name": "modern-web-guidance",
+          "skill_path": "skills/modern-web-guidance"
+        },
+        {
+          "owner": "xixu-me",
+          "repo": "skills",
+          "name": "develop-userscripts",
+          "skill_path": "skills/develop-userscripts"
+        }
+      ]
+    }
+  ]
+}

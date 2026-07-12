@@ -1,0 +1,412 @@
+{
+  "category": "Image Generation & Editing",
+  "sub_categories": [
+    {
+      "name": "Image Generation",
+      "description": "Text-to-image creation across models (Flux, Nano Banana, GPT Image, Seedream) and smart routers/CLIs that pick the right model.",
+      "skills": [
+        {
+          "owner": "agentspace-so",
+          "repo": "agent-skills",
+          "name": "gpt-image-2",
+          "skill_path": "gpt-image-2"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "ai-image-generation",
+          "skill_path": "ai-image-generation"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "flux-2-klein",
+          "skill_path": "flux-2-klein"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "gpt-image-2",
+          "skill_path": "gpt-image-2"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "nano-banana-2",
+          "skill_path": "nano-banana-2"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "ai-image-generation",
+          "skill_path": "ai-image-generation"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "flux-2-klein",
+          "skill_path": "flux-2-klein"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "gpt-image-2",
+          "skill_path": "gpt-image-2"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "nano-banana-2",
+          "skill_path": "nano-banana-2"
+        },
+        {
+          "owner": "gargantuax",
+          "repo": "openskills",
+          "name": "gpt-image-2",
+          "skill_path": "skills/gpt-image-2"
+        },
+        {
+          "owner": "gargantuax",
+          "repo": "openskills",
+          "name": "nanobanana",
+          "skill_path": "skills/nanobanana"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "nano-banana-pro-openrouter",
+          "skill_path": "skills/nano-banana-pro-openrouter"
+        },
+        {
+          "owner": "higgsfield-ai",
+          "repo": "skills",
+          "name": "higgsfield-generate",
+          "skill_path": "higgsfield-generate"
+        },
+        {
+          "owner": "jimliu",
+          "repo": "baoyu-skills",
+          "name": "baoyu-danger-gemini-web",
+          "skill_path": "skills/baoyu-danger-gemini-web"
+        },
+        {
+          "owner": "jimliu",
+          "repo": "baoyu-skills",
+          "name": "baoyu-image-gen",
+          "skill_path": "skills/baoyu-image-gen"
+        },
+        {
+          "owner": "pexoai",
+          "repo": "pexo-skills",
+          "name": "videoagent-image-studio",
+          "skill_path": "skills/videoagent-image-studio"
+        },
+        {
+          "owner": "pilioai",
+          "repo": "skills",
+          "name": "gpt-image-2",
+          "skill_path": "skills/gpt-image-2"
+        },
+        {
+          "owner": "pilioai",
+          "repo": "skills",
+          "name": "nano-banana-2",
+          "skill_path": "skills/nano-banana-2"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "ai-image-generation",
+          "skill_path": "ai-image-generation"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "flux-2-klein",
+          "skill_path": "flux-2-klein"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "gpt-image-2",
+          "skill_path": "gpt-image-2"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "nano-banana-2",
+          "skill_path": "nano-banana-2"
+        },
+        {
+          "owner": "skills-shell",
+          "repo": "skills",
+          "name": "ai-image-generation",
+          "skill_path": "tools/image/ai-image-generation"
+        },
+        {
+          "owner": "youmind-openlab",
+          "repo": "nano-banana-pro-prompts-recommend-skill",
+          "name": "nano-banana-pro-prompts-recommend-skill",
+          "skill_path": ""
+        }
+      ]
+    },
+    {
+      "name": "Image Editing & Enhancement",
+      "description": "Editing existing images: inpainting, outpainting, relighting, face-swap, background and watermark removal, and upscaling.",
+      "skills": [
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "face-swap",
+          "skill_path": "face-swap"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "flux-kontext",
+          "skill_path": "flux-kontext"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "gpt-image-edit",
+          "skill_path": "gpt-image-edit"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "image-edit",
+          "skill_path": "image-edit"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "image-inpainting",
+          "skill_path": "image-inpainting"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "image-outpainting",
+          "skill_path": "image-outpainting"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "nano-banana-edit",
+          "skill_path": "nano-banana-edit"
+        },
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "relight",
+          "skill_path": "relight"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "face-swap",
+          "skill_path": "face-swap"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "flux-kontext",
+          "skill_path": "flux-kontext"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "gpt-image-edit",
+          "skill_path": "gpt-image-edit"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "image-edit",
+          "skill_path": "image-edit"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "image-inpainting",
+          "skill_path": "image-inpainting"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "image-outpainting",
+          "skill_path": "image-outpainting"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "nano-banana-edit",
+          "skill_path": "nano-banana-edit"
+        },
+        {
+          "owner": "doany-ai",
+          "repo": "skills",
+          "name": "relight",
+          "skill_path": "relight"
+        },
+        {
+          "owner": "gargantuax",
+          "repo": "gemini-watermark-remover",
+          "name": "gemini-watermark-remover",
+          "skill_path": "skills/gemini-watermark-remover"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "image-manipulation-image-magick",
+          "skill_path": "skills/image-manipulation-image-magick"
+        },
+        {
+          "owner": "jimliu",
+          "repo": "baoyu-skills",
+          "name": "baoyu-compress-image",
+          "skill_path": "skills/baoyu-compress-image"
+        },
+        {
+          "owner": "pilioai",
+          "repo": "skills",
+          "name": "remove-background",
+          "skill_path": "skills/remove-background"
+        },
+        {
+          "owner": "pilioai",
+          "repo": "skills",
+          "name": "remove-image-watermark",
+          "skill_path": "skills/remove-image-watermark"
+        },
+        {
+          "owner": "pilioai",
+          "repo": "skills",
+          "name": "upscale-image",
+          "skill_path": "skills/upscale-image"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "face-swap",
+          "skill_path": "face-swap"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "flux-kontext",
+          "skill_path": "flux-kontext"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "gpt-image-edit",
+          "skill_path": "gpt-image-edit"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "image-edit",
+          "skill_path": "image-edit"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "image-inpainting",
+          "skill_path": "image-inpainting"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "image-outpainting",
+          "skill_path": "image-outpainting"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "nano-banana-edit",
+          "skill_path": "nano-banana-edit"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "relight",
+          "skill_path": "relight"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "meme-factory",
+          "skill_path": "dist/plugins/meme-factory/skills/meme-factory"
+        }
+      ]
+    },
+    {
+      "name": "Product & Character Imagery",
+      "description": "Purpose-built visual generation: product photography, marketplace/listing cards, character consistency/reference sheets and brand image boards.",
+      "skills": [
+        {
+          "owner": "agentspace-so",
+          "repo": "runcomfy-agent-skills",
+          "name": "codex-pet",
+          "skill_path": "codex-pet"
+        },
+        {
+          "owner": "coreyhaines31",
+          "repo": "marketingskills",
+          "name": "image",
+          "skill_path": "skills/image"
+        },
+        {
+          "owner": "higgsfield-ai",
+          "repo": "skills",
+          "name": "higgsfield-marketplace-cards",
+          "skill_path": "higgsfield-marketplace-cards"
+        },
+        {
+          "owner": "higgsfield-ai",
+          "repo": "skills",
+          "name": "higgsfield-product-photoshoot",
+          "skill_path": "higgsfield-product-photoshoot"
+        },
+        {
+          "owner": "higgsfield-ai",
+          "repo": "skills",
+          "name": "higgsfield-soul-id",
+          "skill_path": "higgsfield-soul-id"
+        },
+        {
+          "owner": "runcomfy-com",
+          "repo": "skills",
+          "name": "codex-pet",
+          "skill_path": "codex-pet"
+        },
+        {
+          "owner": "skills-shell",
+          "repo": "skills",
+          "name": "character-design-sheet",
+          "skill_path": "guides/design/character-design-sheet"
+        },
+        {
+          "owner": "skills-shell",
+          "repo": "skills",
+          "name": "product-photography",
+          "skill_path": "guides/photo/product-photography"
+        },
+        {
+          "owner": "skills-shell",
+          "repo": "skills",
+          "name": "youtube-thumbnail-design",
+          "skill_path": "guides/design/youtube-thumbnail-design"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Image skills that do not fit the above subcategories.",
+      "skills": []
+    }
+  ]
+}

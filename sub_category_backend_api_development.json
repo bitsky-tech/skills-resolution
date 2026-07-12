@@ -1,0 +1,671 @@
+{
+  "category": "Backend & API Development",
+  "sub_categories": [
+    {
+      "name": "Backend Web Frameworks",
+      "description": "Server-side framework patterns: Django, Spring Boot, FastAPI, NestJS, Express/Fastify, Hono, Laravel, Ktor, ElysiaJS, Rails-style apps.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "backend-patterns",
+          "skill_path": ".agents/skills/backend-patterns"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "django-patterns",
+          "skill_path": "skills/django-patterns"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "kotlin-ktor-patterns",
+          "skill_path": "skills/kotlin-ktor-patterns"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "laravel-patterns",
+          "skill_path": "skills/laravel-patterns"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "laravel-plugin-discovery",
+          "skill_path": "skills/laravel-plugin-discovery"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "nestjs-patterns",
+          "skill_path": "skills/nestjs-patterns"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "springboot-patterns",
+          "skill_path": "skills/springboot-patterns"
+        },
+        {
+          "owner": "elysiajs",
+          "repo": "skills",
+          "name": "elysiajs",
+          "skill_path": "elysia"
+        },
+        {
+          "owner": "fastapi",
+          "repo": "fastapi",
+          "name": "fastapi",
+          "skill_path": "fastapi/.agents/skills/fastapi"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "aspnet-minimal-api-openapi",
+          "skill_path": "plugins/csharp-dotnet-development/skills/aspnet-minimal-api-openapi"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "create-spring-boot-java-project",
+          "skill_path": "plugins/java-development/skills/create-spring-boot-java-project"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "create-spring-boot-kotlin-project",
+          "skill_path": "skills/create-spring-boot-kotlin-project"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "java-springboot",
+          "skill_path": "plugins/java-development/skills/java-springboot"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "kotlin-springboot",
+          "skill_path": "skills/kotlin-springboot"
+        },
+        {
+          "owner": "jeffallan",
+          "repo": "claude-skills",
+          "name": "fastapi-expert",
+          "skill_path": "skills/fastapi-expert"
+        },
+        {
+          "owner": "jeffallan",
+          "repo": "claude-skills",
+          "name": "java-architect",
+          "skill_path": "skills/java-architect"
+        },
+        {
+          "owner": "jeffallan",
+          "repo": "claude-skills",
+          "name": "laravel-specialist",
+          "skill_path": "skills/laravel-specialist"
+        },
+        {
+          "owner": "jeffallan",
+          "repo": "claude-skills",
+          "name": "spring-boot-engineer",
+          "skill_path": "skills/spring-boot-engineer"
+        },
+        {
+          "owner": "kadajett",
+          "repo": "agent-nestjs-skills",
+          "name": "nestjs-best-practices",
+          "skill_path": ""
+        },
+        {
+          "owner": "mcollina",
+          "repo": "skills",
+          "name": "fastify-best-practices",
+          "skill_path": "skills/fastify"
+        },
+        {
+          "owner": "mindrally",
+          "repo": "skills",
+          "name": "fastapi-python",
+          "skill_path": "fastapi-python"
+        },
+        {
+          "owner": "pluginagentmarketplace",
+          "repo": "custom-plugin-java",
+          "name": "java-spring-boot",
+          "skill_path": "skills/java-spring-boot"
+        },
+        {
+          "owner": "shubhamsaboo",
+          "repo": "awesome-llm-apps",
+          "name": "fullstack-developer",
+          "skill_path": "awesome_agent_skills/fullstack-developer"
+        },
+        {
+          "owner": "vintasoftware",
+          "repo": "django-ai-plugins",
+          "name": "django-expert",
+          "skill_path": "plugins/django-expert/skills"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "dotnet-backend-patterns",
+          "skill_path": "plugins/dotnet-contribution/skills/dotnet-backend-patterns"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "fastapi-templates",
+          "skill_path": "plugins/api-scaffolding/skills/fastapi-templates"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "nodejs-backend-patterns",
+          "skill_path": "plugins/javascript-typescript/skills/nodejs-backend-patterns"
+        },
+        {
+          "owner": "yusukebe",
+          "repo": "hono-skill",
+          "name": "hono",
+          "skill_path": "skills/hono"
+        }
+      ]
+    },
+    {
+      "name": "API Design & Specs",
+      "description": "Designing REST/GraphQL APIs and OpenAPI specs — resource modeling, versioning, pagination, error handling, contract generation.",
+      "skills": [
+        {
+          "owner": "addyosmani",
+          "repo": "agent-skills",
+          "name": "api-and-interface-design",
+          "skill_path": "skills/api-and-interface-design"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "api-design",
+          "skill_path": ".agents/skills/api-design"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "openapi-to-application-code",
+          "skill_path": "plugins/openapi-to-application-csharp-dotnet/skills/openapi-to-application-code"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "typespec-api-operations",
+          "skill_path": "plugins/typespec-m365-copilot/skills/typespec-api-operations"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "typespec-create-api-plugin",
+          "skill_path": "plugins/typespec-m365-copilot/skills/typespec-create-api-plugin"
+        },
+        {
+          "owner": "jeffallan",
+          "repo": "claude-skills",
+          "name": "api-designer",
+          "skill_path": "skills/api-designer"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "design-an-interface",
+          "skill_path": "skills/deprecated/design-an-interface"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "openapi-to-typescript",
+          "skill_path": "dist/plugins/openapi-to-typescript/skills/openapi-to-typescript"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "api-design-principles",
+          "skill_path": "plugins/backend-development/skills/api-design-principles"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "openapi-spec-generation",
+          "skill_path": "plugins/documentation-generation/skills/openapi-spec-generation"
+        }
+      ]
+    },
+    {
+      "name": "Authentication & Authorization",
+      "description": "Adding sign-in and access control: Clerk, Better Auth, Firebase/Supabase auth, OAuth/JWT, sessions, 2FA, RBAC and multi-tenant orgs.",
+      "skills": [
+        {
+          "owner": "better-auth",
+          "repo": "skills",
+          "name": "better-auth-best-practices",
+          "skill_path": "better-auth/best-practices"
+        },
+        {
+          "owner": "better-auth",
+          "repo": "skills",
+          "name": "create-auth-skill",
+          "skill_path": "better-auth/create-auth"
+        },
+        {
+          "owner": "better-auth",
+          "repo": "skills",
+          "name": "email-and-password-best-practices",
+          "skill_path": "better-auth/emailAndPassword"
+        },
+        {
+          "owner": "better-auth",
+          "repo": "skills",
+          "name": "organization-best-practices",
+          "skill_path": "better-auth/organization"
+        },
+        {
+          "owner": "better-auth",
+          "repo": "skills",
+          "name": "two-factor-authentication-best-practices",
+          "skill_path": "better-auth/twoFactor"
+        },
+        {
+          "owner": "clerk",
+          "repo": "skills",
+          "name": "clerk",
+          "skill_path": "skills/core/clerk"
+        },
+        {
+          "owner": "clerk",
+          "repo": "skills",
+          "name": "clerk-android",
+          "skill_path": "skills/mobile/clerk-android"
+        },
+        {
+          "owner": "clerk",
+          "repo": "skills",
+          "name": "clerk-backend-api",
+          "skill_path": "skills/core/clerk-backend-api"
+        },
+        {
+          "owner": "clerk",
+          "repo": "skills",
+          "name": "clerk-custom-ui",
+          "skill_path": "skills/core/clerk-custom-ui"
+        },
+        {
+          "owner": "clerk",
+          "repo": "skills",
+          "name": "clerk-expo-patterns",
+          "skill_path": "skills/frameworks/clerk-expo-patterns"
+        },
+        {
+          "owner": "clerk",
+          "repo": "skills",
+          "name": "clerk-nextjs-patterns",
+          "skill_path": "skills/frameworks/clerk-nextjs-patterns"
+        },
+        {
+          "owner": "clerk",
+          "repo": "skills",
+          "name": "clerk-orgs",
+          "skill_path": "skills/features/clerk-orgs"
+        },
+        {
+          "owner": "clerk",
+          "repo": "skills",
+          "name": "clerk-react-patterns",
+          "skill_path": "skills/frameworks/clerk-react-patterns"
+        },
+        {
+          "owner": "clerk",
+          "repo": "skills",
+          "name": "clerk-setup",
+          "skill_path": "skills/core/clerk-setup"
+        },
+        {
+          "owner": "clerk",
+          "repo": "skills",
+          "name": "clerk-swift",
+          "skill_path": "skills/mobile/clerk-swift"
+        },
+        {
+          "owner": "clerk",
+          "repo": "skills",
+          "name": "clerk-webhooks",
+          "skill_path": "skills/features/clerk-webhooks"
+        },
+        {
+          "owner": "firebase",
+          "repo": "agent-skills",
+          "name": "firebase-auth-basics",
+          "skill_path": "skills/firebase-auth-basics"
+        },
+        {
+          "owner": "get-convex",
+          "repo": "agent-skills",
+          "name": "convex-setup-auth",
+          "skill_path": "skills/convex-setup-auth"
+        },
+        {
+          "owner": "sickn33",
+          "repo": "antigravity-awesome-skills",
+          "name": "nextjs-supabase-auth",
+          "skill_path": "plugins/antigravity-awesome-skills/skills/nextjs-supabase-auth"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "auth-implementation-patterns",
+          "skill_path": "plugins/developer-essentials/skills/auth-implementation-patterns"
+        }
+      ]
+    },
+    {
+      "name": "Software Architecture & Patterns",
+      "description": "Backend architecture and design: clean/hexagonal architecture, DDD, microservices, CQRS, event sourcing, and architecture decision records.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "architecture-decision-records",
+          "skill_path": "skills/architecture-decision-records"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "content-hash-cache-pattern",
+          "skill_path": "skills/content-hash-cache-pattern"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "hexagonal-architecture",
+          "skill_path": "skills/hexagonal-architecture"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "knowledge-work-plugins",
+          "name": "architecture",
+          "skill_path": "engineering/skills/architecture"
+        },
+        {
+          "owner": "anthropics",
+          "repo": "knowledge-work-plugins",
+          "name": "system-design",
+          "skill_path": "engineering/skills/system-design"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "architecture-blueprint-generator",
+          "skill_path": "skills/architecture-blueprint-generator"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "create-architectural-decision-record",
+          "skill_path": "skills/create-architectural-decision-record"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "project-workflow-analysis-blueprint-generator",
+          "skill_path": "skills/project-workflow-analysis-blueprint-generator"
+        },
+        {
+          "owner": "jeffallan",
+          "repo": "claude-skills",
+          "name": "architecture-designer",
+          "skill_path": "skills/architecture-designer"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "architecture-decision-records",
+          "skill_path": "plugins/documentation-generation/skills/architecture-decision-records"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "architecture-patterns",
+          "skill_path": "plugins/backend-development/skills/architecture-patterns"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "cqrs-implementation",
+          "skill_path": "plugins/backend-development/skills/cqrs-implementation"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "event-store-design",
+          "skill_path": "plugins/backend-development/skills/event-store-design"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "microservices-patterns",
+          "skill_path": "plugins/backend-development/skills/microservices-patterns"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "projection-patterns",
+          "skill_path": "plugins/backend-development/skills/projection-patterns"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "saga-orchestration",
+          "skill_path": "plugins/backend-development/skills/saga-orchestration"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "workflow-orchestration-patterns",
+          "skill_path": "plugins/backend-development/skills/workflow-orchestration-patterns"
+        }
+      ]
+    },
+    {
+      "name": "Realtime, Messaging & Stateful Services",
+      "description": "Realtime and event-driven backends: WebSockets, actor/durable-object runtimes (Rivet, Durable Objects), queues, background jobs and messaging.",
+      "skills": [
+        {
+          "owner": "cloudflare",
+          "repo": "skills",
+          "name": "durable-objects",
+          "skill_path": "skills/durable-objects"
+        },
+        {
+          "owner": "jeffallan",
+          "repo": "claude-skills",
+          "name": "websocket-engineer",
+          "skill_path": "skills/websocket-engineer"
+        },
+        {
+          "owner": "rivet-dev",
+          "repo": "skills",
+          "name": "rivetkit",
+          "skill_path": "rivetkit"
+        },
+        {
+          "owner": "rivet-dev",
+          "repo": "skills",
+          "name": "rivetkit-client-javascript",
+          "skill_path": "rivetkit-client-javascript"
+        },
+        {
+          "owner": "rivet-dev",
+          "repo": "skills",
+          "name": "rivetkit-client-react",
+          "skill_path": "rivetkit-client-react"
+        },
+        {
+          "owner": "rivet-dev",
+          "repo": "skills",
+          "name": "rivetkit-client-swift",
+          "skill_path": "rivetkit-client-swift"
+        },
+        {
+          "owner": "rivet-dev",
+          "repo": "skills",
+          "name": "rivetkit-client-swiftui",
+          "skill_path": "rivetkit-client-swiftui"
+        }
+      ]
+    },
+    {
+      "name": "E-commerce & CMS Platforms",
+      "description": "Developing on commerce and content platforms — Shopify (themes, apps, Liquid, Functions, Storefront/Admin APIs), WordPress/WooCommerce, Payload and similar CMS/commerce stacks.",
+      "skills": [
+        {
+          "owner": "jeffallan",
+          "repo": "claude-skills",
+          "name": "shopify-expert",
+          "skill_path": "skills/shopify-expert"
+        },
+        {
+          "owner": "jeffallan",
+          "repo": "claude-skills",
+          "name": "wordpress-pro",
+          "skill_path": "skills/wordpress-pro"
+        },
+        {
+          "owner": "payloadcms",
+          "repo": "skills",
+          "name": "payload",
+          "skill_path": "skills/payload"
+        },
+        {
+          "owner": "shopify",
+          "repo": "shopify-ai-toolkit",
+          "name": "shopify-admin",
+          "skill_path": "skills/shopify-admin"
+        },
+        {
+          "owner": "shopify",
+          "repo": "shopify-ai-toolkit",
+          "name": "shopify-app-store-review",
+          "skill_path": "skills/shopify-app-store-review"
+        },
+        {
+          "owner": "shopify",
+          "repo": "shopify-ai-toolkit",
+          "name": "shopify-custom-data",
+          "skill_path": "skills/shopify-custom-data"
+        },
+        {
+          "owner": "shopify",
+          "repo": "shopify-ai-toolkit",
+          "name": "shopify-customer",
+          "skill_path": "skills/shopify-customer"
+        },
+        {
+          "owner": "shopify",
+          "repo": "shopify-ai-toolkit",
+          "name": "shopify-dev",
+          "skill_path": "skills/shopify-dev"
+        },
+        {
+          "owner": "shopify",
+          "repo": "shopify-ai-toolkit",
+          "name": "shopify-functions",
+          "skill_path": "skills/shopify-functions"
+        },
+        {
+          "owner": "shopify",
+          "repo": "shopify-ai-toolkit",
+          "name": "shopify-hydrogen",
+          "skill_path": "skills/shopify-hydrogen"
+        },
+        {
+          "owner": "shopify",
+          "repo": "shopify-ai-toolkit",
+          "name": "shopify-liquid",
+          "skill_path": "skills/shopify-liquid"
+        },
+        {
+          "owner": "shopify",
+          "repo": "shopify-ai-toolkit",
+          "name": "shopify-onboarding-dev",
+          "skill_path": "skills/shopify-onboarding-dev"
+        },
+        {
+          "owner": "shopify",
+          "repo": "shopify-ai-toolkit",
+          "name": "shopify-partner",
+          "skill_path": "skills/shopify-partner"
+        },
+        {
+          "owner": "shopify",
+          "repo": "shopify-ai-toolkit",
+          "name": "shopify-payments-apps",
+          "skill_path": "skills/shopify-payments-apps"
+        },
+        {
+          "owner": "shopify",
+          "repo": "shopify-ai-toolkit",
+          "name": "shopify-polaris-admin-extensions",
+          "skill_path": "skills/shopify-polaris-admin-extensions"
+        },
+        {
+          "owner": "shopify",
+          "repo": "shopify-ai-toolkit",
+          "name": "shopify-polaris-app-home",
+          "skill_path": "skills/shopify-polaris-app-home"
+        },
+        {
+          "owner": "shopify",
+          "repo": "shopify-ai-toolkit",
+          "name": "shopify-polaris-checkout-extensions",
+          "skill_path": "skills/shopify-polaris-checkout-extensions"
+        },
+        {
+          "owner": "shopify",
+          "repo": "shopify-ai-toolkit",
+          "name": "shopify-polaris-customer-account-extensions",
+          "skill_path": "skills/shopify-polaris-customer-account-extensions"
+        },
+        {
+          "owner": "shopify",
+          "repo": "shopify-ai-toolkit",
+          "name": "shopify-pos-ui",
+          "skill_path": "skills/shopify-pos-ui"
+        },
+        {
+          "owner": "shopify",
+          "repo": "shopify-ai-toolkit",
+          "name": "shopify-storefront-graphql",
+          "skill_path": "skills/shopify-storefront-graphql"
+        },
+        {
+          "owner": "shopify",
+          "repo": "shopify-ai-toolkit",
+          "name": "shopify-use-shopify-cli",
+          "skill_path": "skills/shopify-use-shopify-cli"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Backend skills that do not fit the above subcategories.",
+      "skills": [
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "power-apps-code-app-scaffold",
+          "skill_path": "plugins/power-apps-code-apps/skills/power-apps-code-app-scaffold"
+        }
+      ]
+    }
+  ]
+}

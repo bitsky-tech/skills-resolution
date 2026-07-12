@@ -1,0 +1,334 @@
+{
+  "category": "Business, Domain Expertise & Knowledge Work",
+  "sub_categories": [
+    {
+      "name": "Industry & Operations Expertise",
+      "description": "Codified domain expertise for specific industries/operations — logistics and supply chain, healthcare, trade compliance, energy, manufacturing/quality and HR/legal documents.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "carrier-relationship-management",
+          "skill_path": "skills/carrier-relationship-management"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "customs-trade-compliance",
+          "skill_path": "skills/customs-trade-compliance"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "energy-procurement",
+          "skill_path": "skills/energy-procurement"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "healthcare-cdss-patterns",
+          "skill_path": "skills/healthcare-cdss-patterns"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "healthcare-emr-patterns",
+          "skill_path": "skills/healthcare-emr-patterns"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "healthcare-eval-harness",
+          "skill_path": "skills/healthcare-eval-harness"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "healthcare-phi-compliance",
+          "skill_path": "skills/healthcare-phi-compliance"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "inventory-demand-planning",
+          "skill_path": "skills/inventory-demand-planning"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "logistics-exception-management",
+          "skill_path": "skills/logistics-exception-management"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "production-scheduling",
+          "skill_path": "skills/production-scheduling"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "quality-nonconformance",
+          "skill_path": "skills/quality-nonconformance"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "returns-reverse-logistics",
+          "skill_path": "skills/returns-reverse-logistics"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "employment-contract-templates",
+          "skill_path": "plugins/hr-legal-compliance/skills/employment-contract-templates"
+        }
+      ]
+    },
+    {
+      "name": "Business & Startup Strategy",
+      "description": "Strategy and fundraising work — market sizing, competitive landscape, startup metrics, team composition, investor materials/outreach and business-model diagnosis.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "investor-materials",
+          "skill_path": ".agents/skills/investor-materials"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "investor-outreach",
+          "skill_path": ".agents/skills/investor-outreach"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "product-lens",
+          "skill_path": "skills/product-lens"
+        },
+        {
+          "owner": "dontbesilent2025",
+          "repo": "dbskill",
+          "name": "dbs",
+          "skill_path": "skills/dbs"
+        },
+        {
+          "owner": "dontbesilent2025",
+          "repo": "dbskill",
+          "name": "dbs-benchmark",
+          "skill_path": "skills/dbs-benchmark"
+        },
+        {
+          "owner": "dontbesilent2025",
+          "repo": "dbskill",
+          "name": "dbs-diagnosis",
+          "skill_path": "skills/dbs-diagnosis"
+        },
+        {
+          "owner": "dontbesilent2025",
+          "repo": "dbskill",
+          "name": "dbs-report",
+          "skill_path": "skills/dbs-report"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "game-changing-features",
+          "skill_path": "dist/plugins/game-changing-features/skills/game-changing-features"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "competitive-landscape",
+          "skill_path": "plugins/startup-business-analyst/skills/competitive-landscape"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "market-sizing-analysis",
+          "skill_path": "plugins/startup-business-analyst/skills/market-sizing-analysis"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "startup-financial-modeling",
+          "skill_path": "plugins/startup-business-analyst/skills/startup-financial-modeling"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "startup-metrics-framework",
+          "skill_path": "plugins/startup-business-analyst/skills/startup-metrics-framework"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "team-composition-analysis",
+          "skill_path": "plugins/startup-business-analyst/skills/team-composition-analysis"
+        },
+        {
+          "owner": "xixu-me",
+          "repo": "skills",
+          "name": "opensource-guide-coach",
+          "skill_path": "skills/opensource-guide-coach"
+        }
+      ]
+    },
+    {
+      "name": "Research, Learning & Knowledge Synthesis",
+      "description": "Aids for understanding and learning — paper reading, literature/academic research, knowledge synthesis, concept deconstruction and study/learning tools.",
+      "skills": [
+        {
+          "owner": "anthropics",
+          "repo": "knowledge-work-plugins",
+          "name": "knowledge-synthesis",
+          "skill_path": "enterprise-search/skills/knowledge-synthesis"
+        },
+        {
+          "owner": "dontbesilent2025",
+          "repo": "dbskill",
+          "name": "dbs-deconstruct",
+          "skill_path": "skills/dbs-deconstruct"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "mentoring-juniors",
+          "skill_path": "skills/mentoring-juniors"
+        },
+        {
+          "owner": "lijigang",
+          "repo": "ljg-skills",
+          "name": "ljg-learn",
+          "skill_path": "skills/ljg-learn"
+        },
+        {
+          "owner": "lijigang",
+          "repo": "ljg-skills",
+          "name": "ljg-paper",
+          "skill_path": "skills/ljg-paper"
+        },
+        {
+          "owner": "lijigang",
+          "repo": "ljg-skills",
+          "name": "ljg-paper-flow",
+          "skill_path": "skills/ljg-paper-flow"
+        },
+        {
+          "owner": "lijigang",
+          "repo": "ljg-skills",
+          "name": "ljg-rank",
+          "skill_path": "skills/ljg-rank"
+        },
+        {
+          "owner": "lijigang",
+          "repo": "ljg-skills",
+          "name": "ljg-travel",
+          "skill_path": "skills/ljg-travel"
+        },
+        {
+          "owner": "lijigang",
+          "repo": "ljg-skills",
+          "name": "ljg-word",
+          "skill_path": "skills/ljg-word"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "scaffold-exercises",
+          "skill_path": "skills/misc/scaffold-exercises"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "teach",
+          "skill_path": "skills/in-progress/teach"
+        },
+        {
+          "owner": "shubhamsaboo",
+          "repo": "awesome-llm-apps",
+          "name": "academic-researcher",
+          "skill_path": "awesome_agent_skills/academic-researcher"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "ship-learn-next",
+          "skill_path": "dist/plugins/ship-learn-next/skills/ship-learn-next"
+        },
+        {
+          "owner": "tw93",
+          "repo": "waza",
+          "name": "learn",
+          "skill_path": "skills/learn"
+        }
+      ]
+    },
+    {
+      "name": "Thinking Frameworks & Personas",
+      "description": "Cognitive and advisory tools — mental-model/persona perspectives (e.g., founder mindsets), structured debate/roundtables and decision frameworks.",
+      "skills": [
+        {
+          "owner": "alchaincyf",
+          "repo": "elon-musk-skill",
+          "name": "elon-musk-perspective",
+          "skill_path": ""
+        },
+        {
+          "owner": "alchaincyf",
+          "repo": "steve-jobs-skill",
+          "name": "steve-jobs-perspective",
+          "skill_path": ""
+        },
+        {
+          "owner": "alchaincyf",
+          "repo": "zhangxuefeng-skill",
+          "name": "zhangxuefeng-perspective",
+          "skill_path": ""
+        },
+        {
+          "owner": "dontbesilent2025",
+          "repo": "dbskill",
+          "name": "dbs-action",
+          "skill_path": "skills/dbs-action"
+        },
+        {
+          "owner": "dontbesilent2025",
+          "repo": "dbskill",
+          "name": "dbs-chatroom",
+          "skill_path": "skills/dbs-chatroom"
+        },
+        {
+          "owner": "dontbesilent2025",
+          "repo": "dbskill",
+          "name": "dbs-chatroom-austrian",
+          "skill_path": "skills/dbs-chatroom-austrian"
+        },
+        {
+          "owner": "dontbesilent2025",
+          "repo": "dbskill",
+          "name": "dbs-slowisfast",
+          "skill_path": "skills/dbs-slowisfast"
+        },
+        {
+          "owner": "lijigang",
+          "repo": "ljg-skills",
+          "name": "ljg-roundtable",
+          "skill_path": "skills/ljg-roundtable"
+        },
+        {
+          "owner": "soultrace-ai",
+          "repo": "soultrace-skill",
+          "name": "soultrace",
+          "skill_path": "skills/soultrace"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Knowledge-work skills that do not fit the above subcategories.",
+      "skills": []
+    }
+  ]
+}

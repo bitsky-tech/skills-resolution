@@ -1,0 +1,263 @@
+{
+  "category": "Data Engineering, Analytics & ML",
+  "sub_categories": [
+    {
+      "name": "Data Pipelines & Engineering",
+      "description": "Building and orchestrating data pipelines — Airflow, dbt, Spark, ETL, data quality/contracts and warehouse pipelines (BigQuery).",
+      "skills": [
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "bigquery-pipeline-audit",
+          "skill_path": "skills/bigquery-pipeline-audit"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "fabric-lakehouse",
+          "skill_path": "skills/fabric-lakehouse"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "airflow-dag-patterns",
+          "skill_path": "plugins/data-engineering/skills/airflow-dag-patterns"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "data-quality-frameworks",
+          "skill_path": "plugins/data-engineering/skills/data-quality-frameworks"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "dbt-transformation-patterns",
+          "skill_path": "plugins/data-engineering/skills/dbt-transformation-patterns"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "spark-optimization",
+          "skill_path": "plugins/data-engineering/skills/spark-optimization"
+        }
+      ]
+    },
+    {
+      "name": "Data Analysis & BI",
+      "description": "Exploring and presenting data — pandas/SQL analytics, KQL, Power BI semantic models, data storytelling and credit-risk/analytics workflows.",
+      "skills": [
+        {
+          "owner": "claude-office-skills",
+          "repo": "skills",
+          "name": "data-analysis",
+          "skill_path": "data-analysis"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "datanalysis-credit-risk",
+          "skill_path": "skills/datanalysis-credit-risk"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "power-bi-dax-optimization",
+          "skill_path": "plugins/power-bi-development/skills/power-bi-dax-optimization"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "power-bi-model-design-review",
+          "skill_path": "plugins/power-bi-development/skills/power-bi-model-design-review"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "power-bi-performance-troubleshooting",
+          "skill_path": "plugins/power-bi-development/skills/power-bi-performance-troubleshooting"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "power-bi-report-design-consultation",
+          "skill_path": "plugins/power-bi-development/skills/power-bi-report-design-consultation"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "powerbi-modeling",
+          "skill_path": "skills/powerbi-modeling"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "snowflake-semanticview",
+          "skill_path": "skills/snowflake-semanticview"
+        },
+        {
+          "owner": "google",
+          "repo": "skills",
+          "name": "bigquery-basics",
+          "skill_path": "skills/cloud/bigquery-basics"
+        },
+        {
+          "owner": "jeffallan",
+          "repo": "claude-skills",
+          "name": "pandas-pro",
+          "skill_path": "skills/pandas-pro"
+        },
+        {
+          "owner": "marimo-team",
+          "repo": "marimo-pair",
+          "name": "marimo-pair",
+          "skill_path": "skills/marimo-pair"
+        },
+        {
+          "owner": "shubhamsaboo",
+          "repo": "awesome-llm-apps",
+          "name": "data-analyst",
+          "skill_path": "awesome_agent_skills/data-analyst"
+        },
+        {
+          "owner": "skills-shell",
+          "repo": "skills",
+          "name": "python-executor",
+          "skill_path": "tools/utilities/python-executor"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "data-storytelling",
+          "skill_path": "plugins/business-analytics/skills/data-storytelling"
+        }
+      ]
+    },
+    {
+      "name": "Machine Learning & Research Repro",
+      "description": "ML and research engineering — MLOps/training pipelines, model evaluation, on-device models and reproducing deep-learning research repos.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "foundation-models-on-device",
+          "skill_path": "skills/foundation-models-on-device"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "pytorch-patterns",
+          "skill_path": "skills/pytorch-patterns"
+        },
+        {
+          "owner": "lllllllama",
+          "repo": "ai-paper-reproduction-skill",
+          "name": "env-and-assets-bootstrap",
+          "skill_path": "skills/env-and-assets-bootstrap"
+        },
+        {
+          "owner": "lllllllama",
+          "repo": "ai-paper-reproduction-skill",
+          "name": "minimal-run-and-audit",
+          "skill_path": "skills/minimal-run-and-audit"
+        },
+        {
+          "owner": "lllllllama",
+          "repo": "ai-paper-reproduction-skill",
+          "name": "paper-context-resolver",
+          "skill_path": "skills/paper-context-resolver"
+        },
+        {
+          "owner": "lllllllama",
+          "repo": "ai-paper-reproduction-skill",
+          "name": "repo-intake-and-plan",
+          "skill_path": "skills/repo-intake-and-plan"
+        },
+        {
+          "owner": "lllllllama",
+          "repo": "rigorpilot-skills",
+          "name": "ai-research-explore",
+          "skill_path": "skills/ai-research-explore"
+        },
+        {
+          "owner": "lllllllama",
+          "repo": "rigorpilot-skills",
+          "name": "ai-research-reproduction",
+          "skill_path": "skills/ai-research-reproduction"
+        },
+        {
+          "owner": "lllllllama",
+          "repo": "rigorpilot-skills",
+          "name": "analyze-project",
+          "skill_path": "skills/analyze-project"
+        },
+        {
+          "owner": "lllllllama",
+          "repo": "rigorpilot-skills",
+          "name": "env-and-assets-bootstrap",
+          "skill_path": "skills/env-and-assets-bootstrap"
+        },
+        {
+          "owner": "lllllllama",
+          "repo": "rigorpilot-skills",
+          "name": "explore-code",
+          "skill_path": "skills/explore-code"
+        },
+        {
+          "owner": "lllllllama",
+          "repo": "rigorpilot-skills",
+          "name": "explore-run",
+          "skill_path": "skills/explore-run"
+        },
+        {
+          "owner": "lllllllama",
+          "repo": "rigorpilot-skills",
+          "name": "minimal-run-and-audit",
+          "skill_path": "skills/minimal-run-and-audit"
+        },
+        {
+          "owner": "lllllllama",
+          "repo": "rigorpilot-skills",
+          "name": "paper-context-resolver",
+          "skill_path": "skills/paper-context-resolver"
+        },
+        {
+          "owner": "lllllllama",
+          "repo": "rigorpilot-skills",
+          "name": "repo-intake-and-plan",
+          "skill_path": "skills/repo-intake-and-plan"
+        },
+        {
+          "owner": "lllllllama",
+          "repo": "rigorpilot-skills",
+          "name": "run-train",
+          "skill_path": "skills/run-train"
+        },
+        {
+          "owner": "lllllllama",
+          "repo": "rigorpilot-skills",
+          "name": "safe-debug",
+          "skill_path": "skills/safe-debug"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "ml-pipeline-workflow",
+          "skill_path": "plugins/machine-learning-ops/skills/ml-pipeline-workflow"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Data/ML skills that do not fit the above subcategories.",
+      "skills": [
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "shuffle-json-data",
+          "skill_path": "skills/shuffle-json-data"
+        }
+      ]
+    }
+  ]
+}

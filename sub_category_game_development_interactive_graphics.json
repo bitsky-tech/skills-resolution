@@ -1,0 +1,118 @@
+{
+  "category": "Game Development & Interactive Graphics",
+  "sub_categories": [
+    {
+      "name": "Game Engines & Gameplay",
+      "description": "Building games and gameplay systems — game engines, Godot/GDScript, Unity ECS/DOTS, multiplayer netcode and physics.",
+      "skills": [
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "game-engine",
+          "skill_path": "skills/game-engine"
+        },
+        {
+          "owner": "rivet-dev",
+          "repo": "skills",
+          "name": "multiplayer-game",
+          "skill_path": "multiplayer-game"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "godot-gdscript-patterns",
+          "skill_path": "plugins/game-development/skills/godot-gdscript-patterns"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "unity-ecs-patterns",
+          "skill_path": "plugins/game-development/skills/unity-ecs-patterns"
+        }
+      ]
+    },
+    {
+      "name": "3D & WebGL Graphics",
+      "description": "Real-time 3D and shader work — Three.js/WebGL/WebGPU scenes, materials, lighting and GLSL shaders.",
+      "skills": [
+        {
+          "owner": "cloudai-x",
+          "repo": "threejs-skills",
+          "name": "threejs-animation",
+          "skill_path": "skills/threejs-animation"
+        },
+        {
+          "owner": "cloudai-x",
+          "repo": "threejs-skills",
+          "name": "threejs-fundamentals",
+          "skill_path": "skills/threejs-fundamentals"
+        },
+        {
+          "owner": "cloudai-x",
+          "repo": "threejs-skills",
+          "name": "threejs-geometry",
+          "skill_path": "skills/threejs-geometry"
+        },
+        {
+          "owner": "cloudai-x",
+          "repo": "threejs-skills",
+          "name": "threejs-interaction",
+          "skill_path": "skills/threejs-interaction"
+        },
+        {
+          "owner": "cloudai-x",
+          "repo": "threejs-skills",
+          "name": "threejs-lighting",
+          "skill_path": "skills/threejs-lighting"
+        },
+        {
+          "owner": "cloudai-x",
+          "repo": "threejs-skills",
+          "name": "threejs-loaders",
+          "skill_path": "skills/threejs-loaders"
+        },
+        {
+          "owner": "cloudai-x",
+          "repo": "threejs-skills",
+          "name": "threejs-materials",
+          "skill_path": "skills/threejs-materials"
+        },
+        {
+          "owner": "cloudai-x",
+          "repo": "threejs-skills",
+          "name": "threejs-postprocessing",
+          "skill_path": "skills/threejs-postprocessing"
+        },
+        {
+          "owner": "cloudai-x",
+          "repo": "threejs-skills",
+          "name": "threejs-shaders",
+          "skill_path": "skills/threejs-shaders"
+        },
+        {
+          "owner": "cloudai-x",
+          "repo": "threejs-skills",
+          "name": "threejs-textures",
+          "skill_path": "skills/threejs-textures"
+        }
+      ]
+    },
+    {
+      "name": "Creative & Generative Coding",
+      "description": "Algorithmic and generative art and interactive canvas experiences (p5.js, flow fields, seeded randomness).",
+      "skills": [
+        {
+          "owner": "anthropics",
+          "repo": "skills",
+          "name": "algorithmic-art",
+          "skill_path": "skills/algorithmic-art"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Game/graphics skills that do not fit the above subcategories.",
+      "skills": []
+    }
+  ]
+}

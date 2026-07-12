@@ -1,0 +1,382 @@
+{
+  "category": "Security, Compliance & Offensive Testing",
+  "sub_categories": [
+    {
+      "name": "Code Security & Vulnerability Scanning",
+      "description": "Finding and fixing vulnerabilities in code — security review, SAST/CodeQL/Semgrep scanning, secure coding and insecure-default detection.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "perl-security",
+          "skill_path": "skills/perl-security"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "security-review",
+          "skill_path": ".agents/skills/security-review"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "security-scan",
+          "skill_path": "skills/security-scan"
+        },
+        {
+          "owner": "getsentry",
+          "repo": "skills",
+          "name": "security-review",
+          "skill_path": "skills/security-review"
+        },
+        {
+          "owner": "openai",
+          "repo": "skills",
+          "name": "security-best-practices",
+          "skill_path": "skills/.curated/security-best-practices"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-security",
+          "skill_path": "skills/golang-security"
+        },
+        {
+          "owner": "trailofbits",
+          "repo": "skills",
+          "name": "agentic-actions-auditor",
+          "skill_path": "plugins/agentic-actions-auditor/skills/agentic-actions-auditor"
+        },
+        {
+          "owner": "trailofbits",
+          "repo": "skills",
+          "name": "audit-context-building",
+          "skill_path": "plugins/audit-context-building/skills/audit-context-building"
+        },
+        {
+          "owner": "trailofbits",
+          "repo": "skills",
+          "name": "code-maturity-assessor",
+          "skill_path": "plugins/building-secure-contracts/skills/code-maturity-assessor"
+        },
+        {
+          "owner": "trailofbits",
+          "repo": "skills",
+          "name": "codeql",
+          "skill_path": "plugins/static-analysis/skills/codeql"
+        },
+        {
+          "owner": "trailofbits",
+          "repo": "skills",
+          "name": "differential-review",
+          "skill_path": "plugins/differential-review/skills/differential-review"
+        },
+        {
+          "owner": "trailofbits",
+          "repo": "skills",
+          "name": "fp-check",
+          "skill_path": "plugins/fp-check/skills/fp-check"
+        },
+        {
+          "owner": "trailofbits",
+          "repo": "skills",
+          "name": "insecure-defaults",
+          "skill_path": "plugins/insecure-defaults/skills/insecure-defaults"
+        },
+        {
+          "owner": "trailofbits",
+          "repo": "skills",
+          "name": "semgrep",
+          "skill_path": "plugins/static-analysis/skills/semgrep"
+        },
+        {
+          "owner": "trailofbits",
+          "repo": "skills",
+          "name": "sharp-edges",
+          "skill_path": "plugins/sharp-edges/skills/sharp-edges"
+        },
+        {
+          "owner": "useai-pro",
+          "repo": "openclaw-skills-security",
+          "name": "skill-vetter",
+          "skill_path": "skills/skill-vetter"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "sast-configuration",
+          "skill_path": "plugins/security-scanning/skills/sast-configuration"
+        }
+      ]
+    },
+    {
+      "name": "Application Hardening & Secrets",
+      "description": "Hardening applications and infrastructure — auth/API security, input handling, secrets management and security configuration.",
+      "skills": [
+        {
+          "owner": "addyosmani",
+          "repo": "agent-skills",
+          "name": "security-and-hardening",
+          "skill_path": "skills/security-and-hardening"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "django-security",
+          "skill_path": "skills/django-security"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "laravel-security",
+          "skill_path": "skills/laravel-security"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "springboot-security",
+          "skill_path": "skills/springboot-security"
+        },
+        {
+          "owner": "firebase",
+          "repo": "agent-skills",
+          "name": "firebase-security-rules-auditor",
+          "skill_path": "skills/firebase-security-rules-auditor"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "azure-role-selector",
+          "skill_path": "skills/azure-role-selector"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "entra-agent-user",
+          "skill_path": "skills/entra-agent-user"
+        },
+        {
+          "owner": "google",
+          "repo": "skills",
+          "name": "google-cloud-waf-security",
+          "skill_path": "skills/cloud/google-cloud-waf-security"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "azure-rbac",
+          "skill_path": ".github/plugins/azure-skills/skills/azure-rbac"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "entra-agent-id",
+          "skill_path": ".github/plugins/azure-skills/skills/entra-agent-id"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "entra-app-registration",
+          "skill_path": ".github/plugins/azure-skills/skills/entra-app-registration"
+        },
+        {
+          "owner": "sickn33",
+          "repo": "antigravity-awesome-skills",
+          "name": "api-security-best-practices",
+          "skill_path": "plugins/antigravity-awesome-skills/skills/api-security-best-practices"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "mtls-configuration",
+          "skill_path": "plugins/cloud-infrastructure/skills/mtls-configuration"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "secrets-management",
+          "skill_path": "plugins/cicd-automation/skills/secrets-management"
+        },
+        {
+          "owner": "xixu-me",
+          "repo": "skills",
+          "name": "openclaw-secure-linux-cloud",
+          "skill_path": "skills/openclaw-secure-linux-cloud"
+        },
+        {
+          "owner": "xixu-me",
+          "repo": "skills",
+          "name": "secure-linux-web-hosting",
+          "skill_path": "skills/secure-linux-web-hosting"
+        }
+      ]
+    },
+    {
+      "name": "Threat Modeling & Compliance",
+      "description": "Risk and regulatory work — STRIDE/attack-tree threat modeling, security requirements, and GDPR/PCI/HIPAA compliance.",
+      "skills": [
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "azure-compliance",
+          "skill_path": ".github/plugins/azure-skills/skills/azure-compliance"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "attack-tree-construction",
+          "skill_path": "plugins/security-scanning/skills/attack-tree-construction"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "gdpr-data-handling",
+          "skill_path": "plugins/hr-legal-compliance/skills/gdpr-data-handling"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "pci-compliance",
+          "skill_path": "plugins/payment-processing/skills/pci-compliance"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "security-requirement-extraction",
+          "skill_path": "plugins/security-scanning/skills/security-requirement-extraction"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "stride-analysis-patterns",
+          "skill_path": "plugins/security-scanning/skills/stride-analysis-patterns"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "threat-mitigation-mapping",
+          "skill_path": "plugins/security-scanning/skills/threat-mitigation-mapping"
+        }
+      ]
+    },
+    {
+      "name": "CTF & Offensive Security",
+      "description": "Offensive and analysis techniques — CTF pwn/reverse/crypto/forensics/web, binary and protocol analysis, malware and anti-reversing.",
+      "skills": [
+        {
+          "owner": "ljagiello",
+          "repo": "ctf-skills",
+          "name": "ctf-crypto",
+          "skill_path": "ctf-crypto"
+        },
+        {
+          "owner": "ljagiello",
+          "repo": "ctf-skills",
+          "name": "ctf-forensics",
+          "skill_path": "ctf-forensics"
+        },
+        {
+          "owner": "ljagiello",
+          "repo": "ctf-skills",
+          "name": "ctf-malware",
+          "skill_path": "ctf-malware"
+        },
+        {
+          "owner": "ljagiello",
+          "repo": "ctf-skills",
+          "name": "ctf-misc",
+          "skill_path": "ctf-misc"
+        },
+        {
+          "owner": "ljagiello",
+          "repo": "ctf-skills",
+          "name": "ctf-osint",
+          "skill_path": "ctf-osint"
+        },
+        {
+          "owner": "ljagiello",
+          "repo": "ctf-skills",
+          "name": "ctf-pwn",
+          "skill_path": "ctf-pwn"
+        },
+        {
+          "owner": "ljagiello",
+          "repo": "ctf-skills",
+          "name": "ctf-reverse",
+          "skill_path": "ctf-reverse"
+        },
+        {
+          "owner": "ljagiello",
+          "repo": "ctf-skills",
+          "name": "ctf-web",
+          "skill_path": "ctf-web"
+        },
+        {
+          "owner": "ljagiello",
+          "repo": "ctf-skills",
+          "name": "ctf-writeup",
+          "skill_path": "ctf-writeup"
+        },
+        {
+          "owner": "ljagiello",
+          "repo": "ctf-skills",
+          "name": "solve-challenge",
+          "skill_path": "solve-challenge"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "anti-reversing-techniques",
+          "skill_path": "plugins/reverse-engineering/skills/anti-reversing-techniques"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "binary-analysis-patterns",
+          "skill_path": "plugins/reverse-engineering/skills/binary-analysis-patterns"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "memory-forensics",
+          "skill_path": "plugins/reverse-engineering/skills/memory-forensics"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "protocol-reverse-engineering",
+          "skill_path": "plugins/reverse-engineering/skills/protocol-reverse-engineering"
+        }
+      ]
+    },
+    {
+      "name": "Web3 & Supply-Chain Security",
+      "description": "Security for blockchain and dependencies — smart-contract auditing/Solidity security, and software supply-chain risk assessment.",
+      "skills": [
+        {
+          "owner": "trailofbits",
+          "repo": "skills",
+          "name": "secure-workflow-guide",
+          "skill_path": "plugins/building-secure-contracts/skills/secure-workflow-guide"
+        },
+        {
+          "owner": "trailofbits",
+          "repo": "skills",
+          "name": "supply-chain-risk-auditor",
+          "skill_path": "plugins/supply-chain-risk-auditor/skills/supply-chain-risk-auditor"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "solidity-security",
+          "skill_path": "plugins/blockchain-web3/skills/solidity-security"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Security skills that do not fit the above subcategories.",
+      "skills": []
+    }
+  ]
+}

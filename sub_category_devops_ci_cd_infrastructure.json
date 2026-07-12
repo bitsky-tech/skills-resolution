@@ -1,0 +1,455 @@
+{
+  "category": "DevOps, CI/CD & Infrastructure",
+  "sub_categories": [
+    {
+      "name": "Containers & Docker",
+      "description": "Containerizing apps with Docker/Compose — multi-stage builds, image optimization, container security and local container workflows.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "docker-patterns",
+          "skill_path": ".kiro/skills/docker-patterns"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "containerize-aspnet-framework",
+          "skill_path": "skills/containerize-aspnet-framework"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "containerize-aspnetcore",
+          "skill_path": "skills/containerize-aspnetcore"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "multi-stage-dockerfile",
+          "skill_path": "plugins/devops-oncall/skills/multi-stage-dockerfile"
+        },
+        {
+          "owner": "sickn33",
+          "repo": "antigravity-awesome-skills",
+          "name": "docker-expert",
+          "skill_path": "plugins/antigravity-awesome-skills/skills/docker-expert"
+        }
+      ]
+    },
+    {
+      "name": "Kubernetes & Service Mesh",
+      "description": "Running workloads on Kubernetes — manifests, Helm charts, security policies, and service mesh (Istio/Linkerd) traffic and mTLS.",
+      "skills": [
+        {
+          "owner": "google",
+          "repo": "skills",
+          "name": "gke-basics",
+          "skill_path": "skills/cloud/gke-basics"
+        },
+        {
+          "owner": "jeffallan",
+          "repo": "claude-skills",
+          "name": "kubernetes-specialist",
+          "skill_path": "skills/kubernetes-specialist"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "helm-chart-scaffolding",
+          "skill_path": "plugins/kubernetes-operations/skills/helm-chart-scaffolding"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "istio-traffic-management",
+          "skill_path": "plugins/cloud-infrastructure/skills/istio-traffic-management"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "k8s-manifest-generator",
+          "skill_path": "plugins/kubernetes-operations/skills/k8s-manifest-generator"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "k8s-security-policies",
+          "skill_path": "plugins/kubernetes-operations/skills/k8s-security-policies"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "linkerd-patterns",
+          "skill_path": "plugins/cloud-infrastructure/skills/linkerd-patterns"
+        }
+      ]
+    },
+    {
+      "name": "Infrastructure as Code",
+      "description": "Provisioning infrastructure declaratively with Terraform/Bicep/Pulumi — modules, style, testing and importing existing resources.",
+      "skills": [
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "import-infrastructure-as-code",
+          "skill_path": "plugins/azure-cloud-development/skills/import-infrastructure-as-code"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "terraform-azurerm-set-diff-analyzer",
+          "skill_path": "skills/terraform-azurerm-set-diff-analyzer"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "update-avm-modules-in-bicep",
+          "skill_path": "skills/update-avm-modules-in-bicep"
+        },
+        {
+          "owner": "hashicorp",
+          "repo": "agent-skills",
+          "name": "terraform-style-guide",
+          "skill_path": "terraform/code-generation/skills/terraform-style-guide"
+        },
+        {
+          "owner": "hashicorp",
+          "repo": "agent-skills",
+          "name": "terraform-test",
+          "skill_path": "terraform/code-generation/skills/terraform-test"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "terraform-module-library",
+          "skill_path": "plugins/cloud-infrastructure/skills/terraform-module-library"
+        }
+      ]
+    },
+    {
+      "name": "CI/CD & Deployment Pipelines",
+      "description": "Build/test/deploy automation: GitHub Actions, GitLab CI, deployment pipelines, GitOps (ArgoCD/Flux), rollouts and release workflows.",
+      "skills": [
+        {
+          "owner": "addyosmani",
+          "repo": "agent-skills",
+          "name": "ci-cd-and-automation",
+          "skill_path": "skills/ci-cd-and-automation"
+        },
+        {
+          "owner": "addyosmani",
+          "repo": "agent-skills",
+          "name": "shipping-and-launch",
+          "skill_path": "skills/shipping-and-launch"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "deployment-patterns",
+          "skill_path": ".kiro/skills/deployment-patterns"
+        },
+        {
+          "owner": "callstackincubator",
+          "repo": "agent-skills",
+          "name": "github-actions",
+          "skill_path": "skills/github-actions"
+        },
+        {
+          "owner": "composiohq",
+          "repo": "awesome-claude-skills",
+          "name": "changelog-generator",
+          "skill_path": "changelog-generator"
+        },
+        {
+          "owner": "expo",
+          "repo": "skills",
+          "name": "expo-cicd-workflows",
+          "skill_path": "plugins/expo/skills/expo-cicd-workflows"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "azure-devops-cli",
+          "skill_path": "skills/azure-devops-cli"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "create-github-action-workflow-specification",
+          "skill_path": "skills/create-github-action-workflow-specification"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "devops-rollout-plan",
+          "skill_path": "skills/devops-rollout-plan"
+        },
+        {
+          "owner": "jeffallan",
+          "repo": "claude-skills",
+          "name": "devops-engineer",
+          "skill_path": "skills/devops-engineer"
+        },
+        {
+          "owner": "jimliu",
+          "repo": "baoyu-skills",
+          "name": "release-skills",
+          "skill_path": ".claude/skills/release-skills"
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "setup-pre-commit",
+          "skill_path": "skills/misc/setup-pre-commit"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-continuous-integration",
+          "skill_path": "skills/golang-continuous-integration"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "dependency-updater",
+          "skill_path": "dist/plugins/dependency-updater/skills/dependency-updater"
+        },
+        {
+          "owner": "warpdotdev",
+          "repo": "common-skills",
+          "name": "diagnose-ci-failures",
+          "skill_path": ".agents/skills/diagnose-ci-failures"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "bazel-build-optimization",
+          "skill_path": "plugins/developer-essentials/skills/bazel-build-optimization"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "changelog-automation",
+          "skill_path": "plugins/documentation-generation/skills/changelog-automation"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "dependency-upgrade",
+          "skill_path": "plugins/framework-migration/skills/dependency-upgrade"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "deployment-pipeline-design",
+          "skill_path": "plugins/cicd-automation/skills/deployment-pipeline-design"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "github-actions-templates",
+          "skill_path": "plugins/cicd-automation/skills/github-actions-templates"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "gitlab-ci-patterns",
+          "skill_path": "plugins/cicd-automation/skills/gitlab-ci-patterns"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "gitops-workflow",
+          "skill_path": "plugins/kubernetes-operations/skills/gitops-workflow"
+        },
+        {
+          "owner": "xixu-me",
+          "repo": "skills",
+          "name": "github-actions-docs",
+          "skill_path": "skills/github-actions-docs"
+        },
+        {
+          "owner": "xixu-me",
+          "repo": "skills",
+          "name": "xget",
+          "skill_path": "skills/xget"
+        }
+      ]
+    },
+    {
+      "name": "Observability, Monitoring & SRE",
+      "description": "Production reliability: metrics/logs/tracing (Prometheus, Grafana, Jaeger), SLOs/error budgets, incident runbooks and postmortems.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "canary-watch",
+          "skill_path": "skills/canary-watch"
+        },
+        {
+          "owner": "boristane",
+          "repo": "agent-skills",
+          "name": "logging-best-practices",
+          "skill_path": "skills/logging-best-practices"
+        },
+        {
+          "owner": "firebase",
+          "repo": "agent-skills",
+          "name": "firebase-crashlytics",
+          "skill_path": "skills/firebase-crashlytics"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "appinsights-instrumentation",
+          "skill_path": "skills/appinsights-instrumentation"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "azure-resource-health-diagnose",
+          "skill_path": "plugins/azure-cloud-development/skills/azure-resource-health-diagnose"
+        },
+        {
+          "owner": "google",
+          "repo": "skills",
+          "name": "google-cloud-waf-reliability",
+          "skill_path": "skills/cloud/google-cloud-waf-reliability"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "azure-diagnostics",
+          "skill_path": ".github/plugins/azure-skills/skills/azure-diagnostics"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "azure-reliability",
+          "skill_path": ".github/plugins/azure-skills/skills/azure-reliability"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-observability",
+          "skill_path": "skills/golang-observability"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "distributed-tracing",
+          "skill_path": "plugins/observability-monitoring/skills/distributed-tracing"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "grafana-dashboards",
+          "skill_path": "plugins/observability-monitoring/skills/grafana-dashboards"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "incident-runbook-templates",
+          "skill_path": "plugins/incident-response/skills/incident-runbook-templates"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "on-call-handoff-patterns",
+          "skill_path": "plugins/incident-response/skills/on-call-handoff-patterns"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "postmortem-writing",
+          "skill_path": "plugins/incident-response/skills/postmortem-writing"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "prometheus-configuration",
+          "skill_path": "plugins/observability-monitoring/skills/prometheus-configuration"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "service-mesh-observability",
+          "skill_path": "plugins/cloud-infrastructure/skills/service-mesh-observability"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "slo-implementation",
+          "skill_path": "plugins/observability-monitoring/skills/slo-implementation"
+        }
+      ]
+    },
+    {
+      "name": "Cloud Cost & FinOps",
+      "description": "Analyzing and reducing cloud spend through rightsizing, tagging, reservations and well-architected cost guidance.",
+      "skills": [
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "az-cost-optimize",
+          "skill_path": "plugins/azure-cloud-development/skills/az-cost-optimize"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "azure-pricing",
+          "skill_path": "plugins/azure-cloud-development/skills/azure-pricing"
+        },
+        {
+          "owner": "google",
+          "repo": "skills",
+          "name": "google-cloud-waf-cost-optimization",
+          "skill_path": "skills/cloud/google-cloud-waf-cost-optimization"
+        },
+        {
+          "owner": "microsoft",
+          "repo": "azure-skills",
+          "name": "azure-cost",
+          "skill_path": ".github/plugins/azure-skills/skills/azure-cost"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "cost-optimization",
+          "skill_path": "plugins/cloud-infrastructure/skills/cost-optimization"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "DevOps/infra skills that do not fit the above subcategories.",
+      "skills": [
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "arch-linux-triage",
+          "skill_path": "skills/arch-linux-triage"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "centos-linux-triage",
+          "skill_path": "skills/centos-linux-triage"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "debian-linux-triage",
+          "skill_path": "skills/debian-linux-triage"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "fedora-linux-triage",
+          "skill_path": "skills/fedora-linux-triage"
+        }
+      ]
+    }
+  ]
+}

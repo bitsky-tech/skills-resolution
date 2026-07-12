@@ -1,0 +1,971 @@
+{
+  "category": "Productivity & Workplace Collaboration",
+  "sub_categories": [
+    {
+      "name": "Email & Calendar Automation",
+      "description": "Automating mail and scheduling — Gmail/Outlook, calendar events, free/busy and meeting scheduling workflows.",
+      "skills": [
+        {
+          "owner": "claude-office-skills",
+          "repo": "skills",
+          "name": "calendar-automation",
+          "skill_path": "calendar-automation"
+        }
+      ]
+    },
+    {
+      "name": "Workspace & Collaboration Suites",
+      "description": "Operating enterprise suites end-to-end — Google Workspace, Lark/Feishu and WeCom: docs, sheets, IM, drive, tasks and approvals.",
+      "skills": [
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "workiq-copilot",
+          "skill_path": "skills/workiq-copilot"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-admin-reports",
+          "skill_path": "skills/gws-admin-reports"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-calendar",
+          "skill_path": "skills/gws-calendar"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-calendar-agenda",
+          "skill_path": "skills/gws-calendar-agenda"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-calendar-insert",
+          "skill_path": "skills/gws-calendar-insert"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-chat",
+          "skill_path": "skills/gws-chat"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-chat-send",
+          "skill_path": "skills/gws-chat-send"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-classroom",
+          "skill_path": "skills/gws-classroom"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-docs",
+          "skill_path": "skills/gws-docs"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-docs-write",
+          "skill_path": "skills/gws-docs-write"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-drive",
+          "skill_path": "skills/gws-drive"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-drive-upload",
+          "skill_path": "skills/gws-drive-upload"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-events",
+          "skill_path": "skills/gws-events"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-events-renew",
+          "skill_path": "skills/gws-events-renew"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-events-subscribe",
+          "skill_path": "skills/gws-events-subscribe"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-forms",
+          "skill_path": "skills/gws-forms"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-gmail",
+          "skill_path": "skills/gws-gmail"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-gmail-forward",
+          "skill_path": "skills/gws-gmail-forward"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-gmail-read",
+          "skill_path": "skills/gws-gmail-read"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-gmail-reply",
+          "skill_path": "skills/gws-gmail-reply"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-gmail-reply-all",
+          "skill_path": "skills/gws-gmail-reply-all"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-gmail-send",
+          "skill_path": "skills/gws-gmail-send"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-gmail-triage",
+          "skill_path": "skills/gws-gmail-triage"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-gmail-watch",
+          "skill_path": "skills/gws-gmail-watch"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-keep",
+          "skill_path": "skills/gws-keep"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-meet",
+          "skill_path": "skills/gws-meet"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-modelarmor",
+          "skill_path": "skills/gws-modelarmor"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-modelarmor-create-template",
+          "skill_path": "skills/gws-modelarmor-create-template"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-modelarmor-sanitize-prompt",
+          "skill_path": "skills/gws-modelarmor-sanitize-prompt"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-modelarmor-sanitize-response",
+          "skill_path": "skills/gws-modelarmor-sanitize-response"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-people",
+          "skill_path": "skills/gws-people"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-script",
+          "skill_path": "skills/gws-script"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-script-push",
+          "skill_path": "skills/gws-script-push"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-shared",
+          "skill_path": "skills/gws-shared"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-sheets",
+          "skill_path": "skills/gws-sheets"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-sheets-append",
+          "skill_path": "skills/gws-sheets-append"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-sheets-read",
+          "skill_path": "skills/gws-sheets-read"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-slides",
+          "skill_path": "skills/gws-slides"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-tasks",
+          "skill_path": "skills/gws-tasks"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-workflow",
+          "skill_path": "skills/gws-workflow"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-workflow-email-to-task",
+          "skill_path": "skills/gws-workflow-email-to-task"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-workflow-file-announce",
+          "skill_path": "skills/gws-workflow-file-announce"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-workflow-meeting-prep",
+          "skill_path": "skills/gws-workflow-meeting-prep"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-workflow-standup-report",
+          "skill_path": "skills/gws-workflow-standup-report"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "gws-workflow-weekly-digest",
+          "skill_path": "skills/gws-workflow-weekly-digest"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "persona-content-creator",
+          "skill_path": "skills/persona-content-creator"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "persona-customer-support",
+          "skill_path": "skills/persona-customer-support"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "persona-event-coordinator",
+          "skill_path": "skills/persona-event-coordinator"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "persona-exec-assistant",
+          "skill_path": "skills/persona-exec-assistant"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "persona-hr-coordinator",
+          "skill_path": "skills/persona-hr-coordinator"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "persona-it-admin",
+          "skill_path": "skills/persona-it-admin"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "persona-project-manager",
+          "skill_path": "skills/persona-project-manager"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "persona-researcher",
+          "skill_path": "skills/persona-researcher"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "persona-sales-ops",
+          "skill_path": "skills/persona-sales-ops"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "persona-team-lead",
+          "skill_path": "skills/persona-team-lead"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-backup-sheet-as-csv",
+          "skill_path": "skills/recipe-backup-sheet-as-csv"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-batch-invite-to-event",
+          "skill_path": "skills/recipe-batch-invite-to-event"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-block-focus-time",
+          "skill_path": "skills/recipe-block-focus-time"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-bulk-download-folder",
+          "skill_path": "skills/recipe-bulk-download-folder"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-collect-form-responses",
+          "skill_path": "skills/recipe-collect-form-responses"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-compare-sheet-tabs",
+          "skill_path": "skills/recipe-compare-sheet-tabs"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-copy-sheet-for-new-month",
+          "skill_path": "skills/recipe-copy-sheet-for-new-month"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-create-classroom-course",
+          "skill_path": "skills/recipe-create-classroom-course"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-create-doc-from-template",
+          "skill_path": "skills/recipe-create-doc-from-template"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-create-events-from-sheet",
+          "skill_path": "skills/recipe-create-events-from-sheet"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-create-expense-tracker",
+          "skill_path": "skills/recipe-create-expense-tracker"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-create-feedback-form",
+          "skill_path": "skills/recipe-create-feedback-form"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-create-gmail-filter",
+          "skill_path": "skills/recipe-create-gmail-filter"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-create-meet-space",
+          "skill_path": "skills/recipe-create-meet-space"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-create-presentation",
+          "skill_path": "skills/recipe-create-presentation"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-create-shared-drive",
+          "skill_path": "skills/recipe-create-shared-drive"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-create-task-list",
+          "skill_path": "skills/recipe-create-task-list"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-create-vacation-responder",
+          "skill_path": "skills/recipe-create-vacation-responder"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-draft-email-from-doc",
+          "skill_path": "skills/recipe-draft-email-from-doc"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-email-drive-link",
+          "skill_path": "skills/recipe-email-drive-link"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-find-free-time",
+          "skill_path": "skills/recipe-find-free-time"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-find-large-files",
+          "skill_path": "skills/recipe-find-large-files"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-forward-labeled-emails",
+          "skill_path": "skills/recipe-forward-labeled-emails"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-generate-report-from-sheet",
+          "skill_path": "skills/recipe-generate-report-from-sheet"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-label-and-archive-emails",
+          "skill_path": "skills/recipe-label-and-archive-emails"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-log-deal-update",
+          "skill_path": "skills/recipe-log-deal-update"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-organize-drive-folder",
+          "skill_path": "skills/recipe-organize-drive-folder"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-plan-weekly-schedule",
+          "skill_path": "skills/recipe-plan-weekly-schedule"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-post-mortem-setup",
+          "skill_path": "skills/recipe-post-mortem-setup"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-reschedule-meeting",
+          "skill_path": "skills/recipe-reschedule-meeting"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-review-meet-participants",
+          "skill_path": "skills/recipe-review-meet-participants"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-review-overdue-tasks",
+          "skill_path": "skills/recipe-review-overdue-tasks"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-save-email-attachments",
+          "skill_path": "skills/recipe-save-email-attachments"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-save-email-to-doc",
+          "skill_path": "skills/recipe-save-email-to-doc"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-schedule-recurring-event",
+          "skill_path": "skills/recipe-schedule-recurring-event"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-send-team-announcement",
+          "skill_path": "skills/recipe-send-team-announcement"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-share-doc-and-notify",
+          "skill_path": "skills/recipe-share-doc-and-notify"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-share-event-materials",
+          "skill_path": "skills/recipe-share-event-materials"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-share-folder-with-team",
+          "skill_path": "skills/recipe-share-folder-with-team"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-sync-contacts-to-sheet",
+          "skill_path": "skills/recipe-sync-contacts-to-sheet"
+        },
+        {
+          "owner": "googleworkspace",
+          "repo": "cli",
+          "name": "recipe-watch-drive-changes",
+          "skill_path": "skills/recipe-watch-drive-changes"
+        },
+        {
+          "owner": "larksuite",
+          "repo": "cli",
+          "name": "lark-approval",
+          "skill_path": "skills/lark-approval"
+        },
+        {
+          "owner": "larksuite",
+          "repo": "cli",
+          "name": "lark-apps",
+          "skill_path": "skills/lark-apps"
+        },
+        {
+          "owner": "larksuite",
+          "repo": "cli",
+          "name": "lark-attendance",
+          "skill_path": "skills/lark-attendance"
+        },
+        {
+          "owner": "larksuite",
+          "repo": "cli",
+          "name": "lark-base",
+          "skill_path": "skills/lark-base"
+        },
+        {
+          "owner": "larksuite",
+          "repo": "cli",
+          "name": "lark-calendar",
+          "skill_path": "skills/lark-calendar"
+        },
+        {
+          "owner": "larksuite",
+          "repo": "cli",
+          "name": "lark-contact",
+          "skill_path": "skills/lark-contact"
+        },
+        {
+          "owner": "larksuite",
+          "repo": "cli",
+          "name": "lark-doc",
+          "skill_path": "skills/lark-doc"
+        },
+        {
+          "owner": "larksuite",
+          "repo": "cli",
+          "name": "lark-drive",
+          "skill_path": "skills/lark-drive"
+        },
+        {
+          "owner": "larksuite",
+          "repo": "cli",
+          "name": "lark-event",
+          "skill_path": "skills/lark-event"
+        },
+        {
+          "owner": "larksuite",
+          "repo": "cli",
+          "name": "lark-im",
+          "skill_path": "skills/lark-im"
+        },
+        {
+          "owner": "larksuite",
+          "repo": "cli",
+          "name": "lark-mail",
+          "skill_path": "skills/lark-mail"
+        },
+        {
+          "owner": "larksuite",
+          "repo": "cli",
+          "name": "lark-markdown",
+          "skill_path": "skills/lark-markdown"
+        },
+        {
+          "owner": "larksuite",
+          "repo": "cli",
+          "name": "lark-minutes",
+          "skill_path": "skills/lark-minutes"
+        },
+        {
+          "owner": "larksuite",
+          "repo": "cli",
+          "name": "lark-okr",
+          "skill_path": "skills/lark-okr"
+        },
+        {
+          "owner": "larksuite",
+          "repo": "cli",
+          "name": "lark-openapi-explorer",
+          "skill_path": "skills/lark-openapi-explorer"
+        },
+        {
+          "owner": "larksuite",
+          "repo": "cli",
+          "name": "lark-shared",
+          "skill_path": "skills/lark-shared"
+        },
+        {
+          "owner": "larksuite",
+          "repo": "cli",
+          "name": "lark-sheets",
+          "skill_path": "skills/lark-sheets"
+        },
+        {
+          "owner": "larksuite",
+          "repo": "cli",
+          "name": "lark-slides",
+          "skill_path": "skills/lark-slides"
+        },
+        {
+          "owner": "larksuite",
+          "repo": "cli",
+          "name": "lark-task",
+          "skill_path": "skills/lark-task"
+        },
+        {
+          "owner": "larksuite",
+          "repo": "cli",
+          "name": "lark-vc",
+          "skill_path": "skills/lark-vc"
+        },
+        {
+          "owner": "larksuite",
+          "repo": "cli",
+          "name": "lark-vc-agent",
+          "skill_path": "skills/lark-vc-agent"
+        },
+        {
+          "owner": "larksuite",
+          "repo": "cli",
+          "name": "lark-whiteboard",
+          "skill_path": "skills/lark-whiteboard"
+        },
+        {
+          "owner": "larksuite",
+          "repo": "cli",
+          "name": "lark-wiki",
+          "skill_path": "skills/lark-wiki"
+        },
+        {
+          "owner": "larksuite",
+          "repo": "cli",
+          "name": "lark-workflow-meeting-summary",
+          "skill_path": "skills/lark-workflow-meeting-summary"
+        },
+        {
+          "owner": "larksuite",
+          "repo": "cli",
+          "name": "lark-workflow-standup-report",
+          "skill_path": "skills/lark-workflow-standup-report"
+        },
+        {
+          "owner": "steipete",
+          "repo": "clawdis",
+          "name": "gog",
+          "skill_path": "skills/gog"
+        },
+        {
+          "owner": "wecomteam",
+          "repo": "wecom-cli",
+          "name": "wecomcli-contact",
+          "skill_path": "skills/wecomcli-contact"
+        },
+        {
+          "owner": "wecomteam",
+          "repo": "wecom-cli",
+          "name": "wecomcli-doc",
+          "skill_path": "skills/wecomcli-doc"
+        },
+        {
+          "owner": "wecomteam",
+          "repo": "wecom-cli",
+          "name": "wecomcli-meeting",
+          "skill_path": "skills/wecomcli-meeting"
+        },
+        {
+          "owner": "wecomteam",
+          "repo": "wecom-cli",
+          "name": "wecomcli-msg",
+          "skill_path": "skills/wecomcli-msg"
+        },
+        {
+          "owner": "wecomteam",
+          "repo": "wecom-cli",
+          "name": "wecomcli-schedule",
+          "skill_path": "skills/wecomcli-schedule"
+        },
+        {
+          "owner": "wecomteam",
+          "repo": "wecom-cli",
+          "name": "wecomcli-smartsheet",
+          "skill_path": "skills/wecomcli-smartsheet"
+        },
+        {
+          "owner": "wecomteam",
+          "repo": "wecom-cli",
+          "name": "wecomcli-todo",
+          "skill_path": "skills/wecomcli-todo"
+        }
+      ]
+    },
+    {
+      "name": "Notes & Personal Knowledge",
+      "description": "Personal knowledge management and note tools — Notion, Obsidian, NotebookLM, wikis and knowledge bases.",
+      "skills": [
+        {
+          "owner": "astro-han",
+          "repo": "karpathy-llm-wiki",
+          "name": "karpathy-llm-wiki",
+          "skill_path": ""
+        },
+        {
+          "owner": "intellectronica",
+          "repo": "agent-skills",
+          "name": "notion-api",
+          "skill_path": "plugins/notion-api/skills"
+        },
+        {
+          "owner": "kepano",
+          "repo": "obsidian-skills",
+          "name": "obsidian-bases",
+          "skill_path": "skills/obsidian-bases"
+        },
+        {
+          "owner": "kepano",
+          "repo": "obsidian-skills",
+          "name": "obsidian-cli",
+          "skill_path": "skills/obsidian-cli"
+        },
+        {
+          "owner": "kepano",
+          "repo": "obsidian-skills",
+          "name": "obsidian-markdown",
+          "skill_path": "skills/obsidian-markdown"
+        },
+        {
+          "owner": "magicseek",
+          "repo": "nblm",
+          "name": "nblm",
+          "skill_path": ""
+        },
+        {
+          "owner": "mattpocock",
+          "repo": "skills",
+          "name": "obsidian-vault",
+          "skill_path": "skills/personal/obsidian-vault"
+        },
+        {
+          "owner": "pleaseprompto",
+          "repo": "notebooklm-skill",
+          "name": "notebooklm",
+          "skill_path": ""
+        },
+        {
+          "owner": "tencent",
+          "repo": "wechatreading",
+          "name": "weread-skills",
+          "skill_path": "skills"
+        },
+        {
+          "owner": "teng-lin",
+          "repo": "notebooklm-py",
+          "name": "notebooklm",
+          "skill_path": ""
+        }
+      ]
+    },
+    {
+      "name": "Tasks, Meetings & Personal Productivity",
+      "description": "Managing tasks, OKRs, standups and meeting minutes, plus personal time/focus and productivity coaching.",
+      "skills": [
+        {
+          "owner": "anthropics",
+          "repo": "knowledge-work-plugins",
+          "name": "task-management",
+          "skill_path": "productivity/skills/task-management"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "meeting-minutes",
+          "skill_path": "skills/meeting-minutes"
+        },
+        {
+          "owner": "refoundai",
+          "repo": "lenny-skills",
+          "name": "personal-productivity",
+          "skill_path": "skills/personal-productivity"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "daily-meeting-update",
+          "skill_path": "dist/plugins/daily-meeting-update/skills/daily-meeting-update"
+        }
+      ]
+    },
+    {
+      "name": "Professional Communication",
+      "description": "Workplace communication craft — emails/messages, meeting prep, internal comms, feedback and difficult conversations.",
+      "skills": [
+        {
+          "owner": "anthropics",
+          "repo": "skills",
+          "name": "internal-comms",
+          "skill_path": "skills/internal-comms"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "difficult-workplace-conversations",
+          "skill_path": "dist/plugins/difficult-workplace-conversations/skills/difficult-workplace-conversations"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "feedback-mastery",
+          "skill_path": "dist/plugins/feedback-mastery/skills/feedback-mastery"
+        },
+        {
+          "owner": "softaworks",
+          "repo": "agent-toolkit",
+          "name": "professional-communication",
+          "skill_path": "dist/plugins/professional-communication/skills/professional-communication"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Productivity/collaboration skills that do not fit the above subcategories.",
+      "skills": [
+        {
+          "owner": "composiohq",
+          "repo": "awesome-claude-skills",
+          "name": "file-organizer",
+          "skill_path": "file-organizer"
+        },
+        {
+          "owner": "czlonkowski",
+          "repo": "n8n-skills",
+          "name": "n8n-code-javascript",
+          "skill_path": "skills/n8n-code-javascript"
+        },
+        {
+          "owner": "czlonkowski",
+          "repo": "n8n-skills",
+          "name": "n8n-expression-syntax",
+          "skill_path": "skills/n8n-expression-syntax"
+        },
+        {
+          "owner": "czlonkowski",
+          "repo": "n8n-skills",
+          "name": "n8n-mcp-tools-expert",
+          "skill_path": "skills/n8n-mcp-tools-expert"
+        },
+        {
+          "owner": "czlonkowski",
+          "repo": "n8n-skills",
+          "name": "n8n-node-configuration",
+          "skill_path": "skills/n8n-node-configuration"
+        },
+        {
+          "owner": "czlonkowski",
+          "repo": "n8n-skills",
+          "name": "n8n-validation-expert",
+          "skill_path": "skills/n8n-validation-expert"
+        },
+        {
+          "owner": "czlonkowski",
+          "repo": "n8n-skills",
+          "name": "n8n-workflow-patterns",
+          "skill_path": "skills/n8n-workflow-patterns"
+        }
+      ]
+    }
+  ]
+}

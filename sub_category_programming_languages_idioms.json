@@ -1,0 +1,635 @@
+{
+  "category": "Programming Languages & Idioms",
+  "sub_categories": [
+    {
+      "name": "Python",
+      "description": "Idiomatic Python: design patterns, typing, async, error handling, packaging, project structure, performance and modern tooling (uv/ruff).",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "python-patterns",
+          "skill_path": ".kiro/skills/python-patterns"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "dataverse-python-advanced-patterns",
+          "skill_path": "plugins/dataverse-sdk-for-python/skills/dataverse-python-advanced-patterns"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "dataverse-python-production-code",
+          "skill_path": "plugins/dataverse-sdk-for-python/skills/dataverse-python-production-code"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "dataverse-python-quickstart",
+          "skill_path": "plugins/dataverse-sdk-for-python/skills/dataverse-python-quickstart"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "dataverse-python-usecase-builder",
+          "skill_path": "plugins/dataverse-sdk-for-python/skills/dataverse-python-usecase-builder"
+        },
+        {
+          "owner": "jeffallan",
+          "repo": "claude-skills",
+          "name": "python-pro",
+          "skill_path": "skills/python-pro"
+        },
+        {
+          "owner": "shubhamsaboo",
+          "repo": "awesome-llm-apps",
+          "name": "python-expert",
+          "skill_path": "awesome_agent_skills/python-expert"
+        },
+        {
+          "owner": "trailofbits",
+          "repo": "skills",
+          "name": "modern-python",
+          "skill_path": "plugins/modern-python/skills/modern-python"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "async-python-patterns",
+          "skill_path": "plugins/python-development/skills/async-python-patterns"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "python-anti-patterns",
+          "skill_path": "plugins/python-development/skills/python-anti-patterns"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "python-background-jobs",
+          "skill_path": "plugins/python-development/skills/python-background-jobs"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "python-code-style",
+          "skill_path": "plugins/python-development/skills/python-code-style"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "python-configuration",
+          "skill_path": "plugins/python-development/skills/python-configuration"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "python-design-patterns",
+          "skill_path": "plugins/python-development/skills/python-design-patterns"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "python-error-handling",
+          "skill_path": "plugins/python-development/skills/python-error-handling"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "python-observability",
+          "skill_path": "plugins/python-development/skills/python-observability"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "python-packaging",
+          "skill_path": "plugins/python-development/skills/python-packaging"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "python-performance-optimization",
+          "skill_path": "plugins/python-development/skills/python-performance-optimization"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "python-project-structure",
+          "skill_path": "plugins/python-development/skills/python-project-structure"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "python-resilience",
+          "skill_path": "plugins/python-development/skills/python-resilience"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "python-resource-management",
+          "skill_path": "plugins/python-development/skills/python-resource-management"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "python-type-safety",
+          "skill_path": "plugins/python-development/skills/python-type-safety"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "uv-package-manager",
+          "skill_path": "plugins/python-development/skills/uv-package-manager"
+        }
+      ]
+    },
+    {
+      "name": "Go",
+      "description": "Idiomatic Go: concurrency, error handling, generics, interfaces, project layout, performance and the Go toolchain/libraries.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "golang-patterns",
+          "skill_path": ".kiro/skills/golang-patterns"
+        },
+        {
+          "owner": "jeffallan",
+          "repo": "claude-skills",
+          "name": "golang-pro",
+          "skill_path": "skills/golang-pro"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-benchmark",
+          "skill_path": "skills/golang-benchmark"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-cli",
+          "skill_path": "skills/golang-cli"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-code-style",
+          "skill_path": "skills/golang-code-style"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-concurrency",
+          "skill_path": "skills/golang-concurrency"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-context",
+          "skill_path": "skills/golang-context"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-data-structures",
+          "skill_path": "skills/golang-data-structures"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-database",
+          "skill_path": "skills/golang-database"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-dependency-injection",
+          "skill_path": "skills/golang-dependency-injection"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-dependency-management",
+          "skill_path": "skills/golang-dependency-management"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-design-patterns",
+          "skill_path": "skills/golang-design-patterns"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-documentation",
+          "skill_path": "skills/golang-documentation"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-error-handling",
+          "skill_path": "skills/golang-error-handling"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-grpc",
+          "skill_path": "skills/golang-grpc"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-lint",
+          "skill_path": "skills/golang-lint"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-modernize",
+          "skill_path": "skills/golang-modernize"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-naming",
+          "skill_path": "skills/golang-naming"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-performance",
+          "skill_path": "skills/golang-performance"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-popular-libraries",
+          "skill_path": "skills/golang-popular-libraries"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-project-layout",
+          "skill_path": "skills/golang-project-layout"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-safety",
+          "skill_path": "skills/golang-safety"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-samber-do",
+          "skill_path": "skills/golang-samber-do"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-samber-lo",
+          "skill_path": "skills/golang-samber-lo"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-samber-oops",
+          "skill_path": "skills/golang-samber-oops"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-stay-updated",
+          "skill_path": "skills/golang-stay-updated"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-structs-interfaces",
+          "skill_path": "skills/golang-structs-interfaces"
+        },
+        {
+          "owner": "samber",
+          "repo": "cc-skills-golang",
+          "name": "golang-troubleshooting",
+          "skill_path": "skills/golang-troubleshooting"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "go-concurrency-patterns",
+          "skill_path": "plugins/systems-programming/skills/go-concurrency-patterns"
+        }
+      ]
+    },
+    {
+      "name": "Rust",
+      "description": "Idiomatic Rust: ownership/lifetimes, traits, async, error handling and safe high-performance patterns.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "rust-patterns",
+          "skill_path": "skills/rust-patterns"
+        },
+        {
+          "owner": "apollographql",
+          "repo": "skills",
+          "name": "rust-best-practices",
+          "skill_path": "skills/rust-best-practices"
+        },
+        {
+          "owner": "jeffallan",
+          "repo": "claude-skills",
+          "name": "rust-engineer",
+          "skill_path": "skills/rust-engineer"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "rust-async-patterns",
+          "skill_path": "plugins/systems-programming/skills/rust-async-patterns"
+        },
+        {
+          "owner": "zhanghandong",
+          "repo": "rust-skills",
+          "name": "m15-anti-pattern",
+          "skill_path": "skills/m15-anti-pattern"
+        }
+      ]
+    },
+    {
+      "name": "JavaScript & TypeScript",
+      "description": "JS/TS language idioms: modern ES features, advanced TypeScript types, Node.js patterns, Zod, and runtime choices (Bun/Node).",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "bun-runtime",
+          "skill_path": ".agents/skills/bun-runtime"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "vscode-ext-commands",
+          "skill_path": "skills/vscode-ext-commands"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "vscode-ext-localization",
+          "skill_path": "skills/vscode-ext-localization"
+        },
+        {
+          "owner": "jeffallan",
+          "repo": "claude-skills",
+          "name": "typescript-pro",
+          "skill_path": "skills/typescript-pro"
+        },
+        {
+          "owner": "mcollina",
+          "repo": "skills",
+          "name": "node",
+          "skill_path": "skills/node"
+        },
+        {
+          "owner": "pproenca",
+          "repo": "dot-skills",
+          "name": "zod",
+          "skill_path": "skills/.curated/zod"
+        },
+        {
+          "owner": "sickn33",
+          "repo": "antigravity-awesome-skills",
+          "name": "nodejs-best-practices",
+          "skill_path": "plugins/antigravity-awesome-skills/skills/nodejs-best-practices"
+        },
+        {
+          "owner": "sickn33",
+          "repo": "antigravity-awesome-skills",
+          "name": "typescript-expert",
+          "skill_path": "plugins/antigravity-awesome-skills/skills/typescript-expert"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "modern-javascript-patterns",
+          "skill_path": "plugins/javascript-typescript/skills/modern-javascript-patterns"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "typescript-advanced-types",
+          "skill_path": "plugins/javascript-typescript/skills/typescript-advanced-types"
+        }
+      ]
+    },
+    {
+      "name": "Java & Kotlin",
+      "description": "JVM-language idioms and patterns: Java and Kotlin coding standards, coroutines/flows, and language-level best practices.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "java-coding-standards",
+          "skill_path": "skills/java-coding-standards"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "kotlin-coroutines-flows",
+          "skill_path": "skills/kotlin-coroutines-flows"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "kotlin-patterns",
+          "skill_path": "skills/kotlin-patterns"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "java-add-graalvm-native-image-support",
+          "skill_path": "skills/java-add-graalvm-native-image-support"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "java-docs",
+          "skill_path": "plugins/java-development/skills/java-docs"
+        }
+      ]
+    },
+    {
+      "name": "Swift Language & Concurrency",
+      "description": "Swift language idioms beyond UI: Swift 6 concurrency, actors, async/await, Sendable, persistence and protocol-based design.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "swift-actor-persistence",
+          "skill_path": "skills/swift-actor-persistence"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "swift-concurrency-6-2",
+          "skill_path": "skills/swift-concurrency-6-2"
+        },
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "swift-protocol-di-testing",
+          "skill_path": "skills/swift-protocol-di-testing"
+        },
+        {
+          "owner": "avdlee",
+          "repo": "swift-concurrency-agent-skill",
+          "name": "swift-concurrency",
+          "skill_path": "swift-concurrency"
+        },
+        {
+          "owner": "twostraws",
+          "repo": "swift-concurrency-agent-skill",
+          "name": "swift-concurrency-pro",
+          "skill_path": "swift-concurrency-pro"
+        }
+      ]
+    },
+    {
+      "name": "C, C++ & Embedded",
+      "description": "Systems and low-level languages: C/C++ standards and testing, memory safety, embedded/firmware and RTOS development.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "cpp-coding-standards",
+          "skill_path": "skills/cpp-coding-standards"
+        },
+        {
+          "owner": "jeffallan",
+          "repo": "claude-skills",
+          "name": "embedded-systems",
+          "skill_path": "skills/embedded-systems"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "memory-safety-patterns",
+          "skill_path": "plugins/systems-programming/skills/memory-safety-patterns"
+        }
+      ]
+    },
+    {
+      "name": "C# & .NET",
+      "description": ".NET and C# language patterns: async, documentation, design-pattern review and .NET best practices/upgrades.",
+      "skills": [
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "aspire",
+          "skill_path": "skills/aspire"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "csharp-async",
+          "skill_path": "plugins/csharp-dotnet-development/skills/csharp-async"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "csharp-docs",
+          "skill_path": "skills/csharp-docs"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "dotnet-best-practices",
+          "skill_path": "plugins/csharp-dotnet-development/skills/dotnet-best-practices"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "dotnet-design-pattern-review",
+          "skill_path": "skills/dotnet-design-pattern-review"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "dotnet-upgrade",
+          "skill_path": "plugins/csharp-dotnet-development/skills/dotnet-upgrade"
+        },
+        {
+          "owner": "github",
+          "repo": "awesome-copilot",
+          "name": "nuget-manager",
+          "skill_path": "skills/nuget-manager"
+        }
+      ]
+    },
+    {
+      "name": "Shell & Scripting",
+      "description": "Shell scripting and its quality tooling: defensive Bash, Bats testing, ShellCheck and portable script practices.",
+      "skills": [
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "bash-defensive-patterns",
+          "skill_path": "plugins/shell-scripting/skills/bash-defensive-patterns"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "bats-testing-patterns",
+          "skill_path": "plugins/shell-scripting/skills/bats-testing-patterns"
+        },
+        {
+          "owner": "wshobson",
+          "repo": "agents",
+          "name": "shellcheck-configuration",
+          "skill_path": "plugins/shell-scripting/skills/shellcheck-configuration"
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "description": "Other languages (PHP/Perl/Ruby/Dart-generic, etc.) and cross-language idiom skills not covered above.",
+      "skills": [
+        {
+          "owner": "affaan-m",
+          "repo": "everything-claude-code",
+          "name": "perl-patterns",
+          "skill_path": "skills/perl-patterns"
+        },
+        {
+          "owner": "dart-lang",
+          "repo": "skills",
+          "name": "dart-build-cli-app",
+          "skill_path": "skills/dart-build-cli-app"
+        },
+        {
+          "owner": "dart-lang",
+          "repo": "skills",
+          "name": "dart-resolve-package-conflicts",
+          "skill_path": "skills/dart-resolve-package-conflicts"
+        },
+        {
+          "owner": "dart-lang",
+          "repo": "skills",
+          "name": "dart-use-pattern-matching",
+          "skill_path": "skills/dart-use-pattern-matching"
+        },
+        {
+          "owner": "jeffallan",
+          "repo": "claude-skills",
+          "name": "php-pro",
+          "skill_path": "skills/php-pro"
+        }
+      ]
+    }
+  ]
+}
