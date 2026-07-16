@@ -208,13 +208,6 @@
           "description": "Best practices for HA automations, helpers, scripts, controls, and dashboards.\nTRIGGER THIS SKILL WHEN: - Creating or editing automations, scripts, scenes, or dashboards - Choosing between template sensors and built-in helpers - Restructuring triggers, conditions, or automation modes - Setting up Zigbee button/remote automations - Renaming entities or migrating device_id to entity_id - Configuring dashboard cards or selecting helpers - Looking up card types or domain docs - Writing or reviewing AppDaemon apps\nSYMPTOMS: - Agent uses Jinja2 templates where native options exist - Agent uses device_id instead of entity_id - Agent changes entity IDs without checking consumers - Wrong automation mode - Agent hard-codes values or uses raw sensor over helper - Agent edits .storage, writes YAML, or generates YAML snippets - Agent tells user to edit configuration.yaml for UI integrations\n"
         },
         {
-          "owner": "hugmouse",
-          "repo": "skills",
-          "name": "value",
-          "skill_path": "value",
-          "description": "skill does absolutely nothing, as well as the agent that uses it."
-        },
-        {
           "owner": "steipete",
           "repo": "clawdis",
           "name": "weather",
