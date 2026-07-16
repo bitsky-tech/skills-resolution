@@ -9,163 +9,190 @@
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "azure-deployment-preflight",
-          "skill_path": "skills/azure-deployment-preflight"
+          "skill_path": "skills/azure-deployment-preflight",
+          "description": "Performs comprehensive preflight validation of Bicep deployments to Azure, including template syntax validation, what-if analysis, and permission checks. Use this skill before any deployment to Azure to preview changes, identify potential issues, and ensure the deployment will succeed. Activate when users mention deploying to Azure, validating Bicep files, checking deployment permissions, previewing infrastructure changes, running what-if, or preparing for azd provision."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "azure-static-web-apps",
-          "skill_path": "skills/azure-static-web-apps"
+          "skill_path": "skills/azure-static-web-apps",
+          "description": "Helps create, configure, and deploy Azure Static Web Apps using the SWA CLI. Use when deploying static sites to Azure, setting up SWA local development, configuring staticwebapp.config.json, adding Azure Functions APIs to SWA, or setting up GitHub Actions CI/CD for Static Web Apps."
         },
         {
           "owner": "google",
           "repo": "skills",
           "name": "alloydb-basics",
-          "skill_path": "skills/cloud/alloydb-basics"
+          "skill_path": "skills/cloud/alloydb-basics",
+          "description": "Manages clusters, instances, and backups for AlloyDB for PostgreSQL, and integrates with AlloyDB model context protocol (MCP) tools for automated database operations."
         },
         {
           "owner": "google",
           "repo": "skills",
           "name": "cloud-run-basics",
-          "skill_path": "skills/cloud/cloud-run-basics"
+          "skill_path": "skills/cloud/cloud-run-basics",
+          "description": "Manages Cloud Run services, jobs, and worker pools. Use when you need to deploy applications responding to HTTP requests (services), run event-triggered or scheduled tasks (jobs), or handle always-on pull-based background processing (worker pools)."
         },
         {
           "owner": "google",
           "repo": "skills",
           "name": "cloud-sql-basics",
-          "skill_path": "skills/cloud/cloud-sql-basics"
+          "skill_path": "skills/cloud/cloud-sql-basics",
+          "description": "This file generates or explains Cloud SQL resources. Use this file when the user asks to create a Cloud SQL instance or database for MySQL, PostgreSQL, or SQL Server.\nCloud SQL manages third-party MySQL, PostgreSQL, and SQL Server instances as resources in Cloud SQL. For example, when Cloud SQL creates an open-source MySQL instance, the resulting resource is a Cloud SQL for MySQL instance that Google Cloud manages.\nCloud SQL handles backups, high availability, and secure connectivity for relational database workloads."
         },
         {
           "owner": "google",
           "repo": "skills",
           "name": "google-cloud-recipe-auth",
-          "skill_path": "skills/cloud/google-cloud-recipe-auth"
+          "skill_path": "skills/cloud/google-cloud-recipe-auth",
+          "description": "Provides expert guidance on authenticating and authorizing to Google Cloud services and APIs, covering human users, service identities, Application Default Credentials (ADC), and best practices for secure access."
         },
         {
           "owner": "google",
           "repo": "skills",
           "name": "google-cloud-recipe-onboarding",
-          "skill_path": "skills/cloud/google-cloud-recipe-onboarding"
+          "skill_path": "skills/cloud/google-cloud-recipe-onboarding",
+          "description": "Guidance for a developer's first steps on Google Cloud, covering account creation, billing setup, project management, and deploying a first resource."
         },
         {
           "owner": "microsoft",
           "repo": "azure-skills",
           "name": "airunway-aks-setup",
-          "skill_path": ".github/plugins/azure-skills/skills/airunway-aks-setup"
+          "skill_path": ".github/plugins/azure-skills/skills/airunway-aks-setup",
+          "description": "Set up AI Runway on AKS — from bare cluster to running model. Covers cluster verification, controller install, GPU assessment, provider setup, and first deployment. WHEN: \"setup AI Runway\", \"onboard AKS cluster\", \"install AI Runway\", \"airunway setup\", \"deploy model to AKS\", \"GPU inference on AKS\", \"KAITO setup on AKS\", \"run LLM on AKS\", \"vLLM on AKS\", \"set up model serving on AKS\", \"AI Runway controller\"."
         },
         {
           "owner": "microsoft",
           "repo": "azure-skills",
           "name": "appinsights-instrumentation",
-          "skill_path": ".github/plugins/azure-skills/skills/appinsights-instrumentation"
+          "skill_path": ".github/plugins/azure-skills/skills/appinsights-instrumentation",
+          "description": "Guidance for instrumenting webapps with Azure Application Insights. Provides telemetry patterns, SDK setup, and configuration references. WHEN: how to instrument app, App Insights SDK, telemetry patterns, what is App Insights, Application Insights guidance, instrumentation examples, APM best practices."
         },
         {
           "owner": "microsoft",
           "repo": "azure-skills",
           "name": "azure-ai",
-          "skill_path": ".github/plugins/azure-skills/skills/azure-ai"
+          "skill_path": ".github/plugins/azure-skills/skills/azure-ai",
+          "description": "Use for Azure AI: Search, Speech, OpenAI, Document Intelligence. Helps with search, vector/hybrid search, speech-to-text, text-to-speech, transcription, OCR. WHEN: AI Search, query search, vector search, hybrid search, semantic search, speech-to-text, text-to-speech, transcribe, OCR, convert text to speech."
         },
         {
           "owner": "microsoft",
           "repo": "azure-skills",
           "name": "azure-aigateway",
-          "skill_path": ".github/plugins/azure-skills/skills/azure-aigateway"
+          "skill_path": ".github/plugins/azure-skills/skills/azure-aigateway",
+          "description": "Configure Azure API Management as an AI Gateway for AI models, MCP tools, and agents. WHEN: semantic caching, token limit, content safety, load balancing, AI model governance, MCP rate limiting, jailbreak detection, add Azure OpenAI backend, add AI Foundry model, test AI gateway, LLM policies, configure AI backend, token metrics, AI cost control, convert API to MCP, import OpenAPI to gateway."
         },
         {
           "owner": "microsoft",
           "repo": "azure-skills",
           "name": "azure-cloud-migrate",
-          "skill_path": ".github/plugins/azure-skills/skills/azure-cloud-migrate"
+          "skill_path": ".github/plugins/azure-skills/skills/azure-cloud-migrate",
+          "description": "Assess and migrate cross-cloud workloads to Azure with reports and code conversion. Supports Lambda→Functions, Beanstalk/Heroku/App Engine→App Service, Fargate/Kubernetes/Cloud Run/Spring Boot→Container Apps. WHEN: migrate Lambda to Functions, AWS to Azure, migrate Beanstalk, migrate Heroku, migrate App Engine, Cloud Run migration, Fargate to ACA, ECS/Kubernetes/GKE/EKS to Container Apps, Spring Boot to Container Apps, cross-cloud migration."
         },
         {
           "owner": "microsoft",
           "repo": "azure-skills",
           "name": "azure-compute",
-          "skill_path": ".github/plugins/azure-skills/skills/azure-compute"
+          "skill_path": ".github/plugins/azure-skills/skills/azure-compute",
+          "description": "Azure VM and VMSS router for recommendations, pricing, autoscale, orchestration, connectivity troubleshooting, capacity reservations, and Essential Machine Management. WHEN: Azure VM, VMSS, scale set, recommend, compare, server, website, burstable, lightweight, VM family, workload, GPU, learning, simulation, dev/test, backend, autoscale, load balancer, Flexible orchestration, Uniform orchestration, cost estimate, connect, refused, Linux, black screen, reset password, reach VM, port 3389, NSG, troubleshoot, capacity reservation, CRG, reserve VMs, guarantee capacity, pre-provision capacity, CRG association, CRG disassociation, essential machine management, EMM, machine enrollment."
         },
         {
           "owner": "microsoft",
           "repo": "azure-skills",
           "name": "azure-deploy",
-          "skill_path": ".github/plugins/azure-skills/skills/azure-deploy"
+          "skill_path": ".github/plugins/azure-skills/skills/azure-deploy",
+          "description": "Execute Azure deployments for ALREADY-PREPARED applications that have existing .azure/deployment-plan.md and infrastructure files. DO NOT use this skill when the user asks to CREATE a new application — use azure-prepare instead. This skill runs azd up, azd deploy, terraform apply, and az deployment commands with built-in error recovery. Requires .azure/deployment-plan.md from azure-prepare and validated status from azure-validate. WHEN: \"run azd up\", \"run azd deploy\", \"execute deployment\", \"push to production\", \"push to cloud\", \"go live\", \"ship it\", \"bicep deploy\", \"terraform apply\", \"publish to Azure\", \"launch on Azure\". DO NOT USE WHEN: \"create and deploy\", \"build and deploy\", \"create a new app\", \"set up infrastructure\", \"create and deploy to Azure using Terraform\" — use azure-prepare for these."
         },
         {
           "owner": "microsoft",
           "repo": "azure-skills",
           "name": "azure-enterprise-infra-planner",
-          "skill_path": ".github/plugins/azure-skills/skills/azure-enterprise-infra-planner"
+          "skill_path": ".github/plugins/azure-skills/skills/azure-enterprise-infra-planner",
+          "description": "Architect and provision enterprise Azure infrastructure from workload descriptions. For cloud architects and platform engineers planning networking, identity, security, compliance, and multi-resource topologies with WAF alignment. Generates Bicep or Terraform directly (no azd). WHEN: 'plan Azure infrastructure', 'architect Azure landing zone', 'design hub-spoke network', 'plan multi-region DR topology', 'set up VNets firewalls and private endpoints', 'subscription-scope Bicep deployment', 'Azure Backup for VM workloads'. PREFER azure-prepare FOR app-centric workflows."
         },
         {
           "owner": "microsoft",
           "repo": "azure-skills",
           "name": "azure-hosted-copilot-sdk",
-          "skill_path": ".github/plugins/azure-skills/skills/azure-hosted-copilot-sdk"
+          "skill_path": ".github/plugins/azure-skills/skills/azure-hosted-copilot-sdk",
+          "description": "Build, deploy, and modify GitHub Copilot SDK apps on Azure. MANDATORY when codebase contains @github/copilot-sdk or CopilotClient in package.json. PREFER OVER azure-prepare when copilot-sdk markers detected. WHEN: copilot SDK, @github/copilot-sdk, copilot-powered app, build copilot app, prepare copilot app, add feature to copilot app, modify copilot app, BYOM, bring your own model, CopilotClient, createSession, sendAndWait, azd init copilot. DO NOT USE FOR: deploying already-prepared copilot-sdk apps (use azure-deploy), general web apps without copilot SDK (use azure-prepare), Copilot Extensions, Foundry agents (use microsoft-foundry)."
         },
         {
           "owner": "microsoft",
           "repo": "azure-skills",
           "name": "azure-kubernetes",
-          "skill_path": ".github/plugins/azure-skills/skills/azure-kubernetes"
+          "skill_path": ".github/plugins/azure-skills/skills/azure-kubernetes",
+          "description": "Plan, create, and configure production-ready Azure Kubernetes Service (AKS) clusters. Covers Day-0 checklist, SKU selection (Automatic vs Standard), networking options (private API server, Azure CNI Overlay, egress configuration), security, and operations (autoscaling, upgrade strategy, cost analysis). WHEN: create AKS environment, provision AKS, enable AKS observability, design AKS networking, choose AKS SKU, secure AKS, optimize AKS, AKS spot nodes, AKS cluster-autoscaler, rightsize AKS pod, pod rightsizing, over-provisioned AKS pod, pod resource requests and limits, Vertical Pod Autoscaler, VPA recommendations."
         },
         {
           "owner": "microsoft",
           "repo": "azure-skills",
           "name": "azure-kusto",
-          "skill_path": ".github/plugins/azure-skills/skills/azure-kusto"
+          "skill_path": ".github/plugins/azure-skills/skills/azure-kusto",
+          "description": "Query and analyze data in Azure Data Explorer (Kusto/ADX) using KQL for log analytics, telemetry, and time series analysis. WHEN: KQL queries, Kusto database queries, Azure Data Explorer, ADX clusters, log analytics, time series data, IoT telemetry, anomaly detection."
         },
         {
           "owner": "microsoft",
           "repo": "azure-skills",
           "name": "azure-messaging",
-          "skill_path": ".github/plugins/azure-skills/skills/azure-messaging"
+          "skill_path": ".github/plugins/azure-skills/skills/azure-messaging",
+          "description": "Troubleshoot and resolve issues with Azure Messaging SDKs for Event Hubs and Service Bus. Covers connection failures, authentication errors, message processing issues, and SDK configuration problems. WHEN: event hub SDK error, service bus SDK issue, messaging connection failure, AMQP error, event processor host issue, message lock lost, message lock expired, lock renewal, lock renewal batch, send timeout, receiver disconnected, SDK troubleshooting, azure messaging SDK, event hub consumer, service bus queue issue, topic subscription error, enable logging event hub, service bus logging, eventhub python, servicebus java, eventhub javascript, servicebus dotnet, event hub checkpoint, event hub not receiving messages, service bus dead letter, batch processing lock, session lock expired, idle timeout, connection inactive, link detach, slow reconnect, session error, duplicate events, offset reset, receive batch."
         },
         {
           "owner": "microsoft",
           "repo": "azure-skills",
           "name": "azure-prepare",
-          "skill_path": ".github/plugins/azure-skills/skills/azure-prepare"
+          "skill_path": ".github/plugins/azure-skills/skills/azure-prepare",
+          "description": "Prepare Azure apps for deployment (infra Bicep/Terraform, azure.yaml, Dockerfiles). Use for create/modernize or create+deploy; not cross-cloud migration (use azure-cloud-migrate). DO NOT USE FOR: copilot-sdk apps (use azure-hosted-copilot-sdk). WHEN: \"create app\", \"build web app\", \"create API\", \"create serverless HTTP API\", \"create frontend\", \"create back end\", \"build a service\", \"modernize application\", \"update application\", \"add authentication\", \"add caching\", \"host on Azure\", \"create and deploy\", \"deploy to Azure\", \"deploy to Azure using Terraform\", \"deploy to Azure App Service\", \"deploy to Azure App Service using Terraform\", \"deploy to Azure Container Apps\", \"deploy to Azure Container Apps using Terraform\", \"generate Terraform\", \"generate Bicep\", \"function app\", \"timer trigger\", \"service bus trigger\", \"event-driven function\", \"containerized Node.js app\", \"social media app\", \"static portfolio website\", \"todo list with frontend and API\", \"prepare my Azure application to use Key Vault\", \"managed identity\"."
         },
         {
           "owner": "microsoft",
           "repo": "azure-skills",
           "name": "azure-quotas",
-          "skill_path": ".github/plugins/azure-skills/skills/azure-quotas"
+          "skill_path": ".github/plugins/azure-skills/skills/azure-quotas",
+          "description": "Check/manage Azure quotas and usage across providers. For deployment planning, capacity validation, region selection. WHEN: \"check quotas\", \"service limits\", \"current usage\", \"request quota increase\", \"quota exceeded\", \"validate capacity\", \"regional availability\", \"provisioning limits\", \"vCPU limit\", \"how many vCPUs available in my subscription\"."
         },
         {
           "owner": "microsoft",
           "repo": "azure-skills",
           "name": "azure-resource-lookup",
-          "skill_path": ".github/plugins/azure-skills/skills/azure-resource-lookup"
+          "skill_path": ".github/plugins/azure-skills/skills/azure-resource-lookup",
+          "description": "List, find, and show Azure resources across subscriptions or resource groups. Handles prompts like \"list the websites in my subscription\", \"list my web apps\", \"show my app services\", \"list virtual machines\", \"list my VMs\", \"show storage accounts\", \"find container apps\", and \"what resources do I have\". USE FOR: list websites, list web apps, list app services, show websites in subscription, resource inventory, find resources by tag, tag analysis, orphaned resource discovery (not for cost analysis), unattached disks, count resources by type, cross-subscription lookup, and Azure Resource Graph queries. DO NOT USE FOR: deploying/changing resources (use azure-deploy), cost optimization (use azure-cost), or non-Azure clouds."
         },
         {
           "owner": "microsoft",
           "repo": "azure-skills",
           "name": "azure-storage",
-          "skill_path": ".github/plugins/azure-skills/skills/azure-storage"
+          "skill_path": ".github/plugins/azure-skills/skills/azure-storage",
+          "description": "Azure Storage Services including Blob Storage, File Shares, Queue Storage, Table Storage, and Data Lake. Answers questions about storage access tiers (hot, cool, cold, archive), when to use each tier, and tier comparison. Provides object storage, SMB file shares, async messaging, NoSQL key-value, and big data analytics. Includes lifecycle management. USE FOR: blob storage, file shares, queue storage, table storage, data lake, upload files, download blobs, storage accounts, access tiers, storage tiers, hot cool cold archive, storage tier comparison, when to use storage tiers, lifecycle management, Azure Storage concepts. DO NOT USE FOR: SQL databases, Cosmos DB (use azure-prepare), messaging with Event Hubs or Service Bus (use azure-messaging)."
         },
         {
           "owner": "microsoft",
           "repo": "azure-skills",
           "name": "azure-upgrade",
-          "skill_path": ".github/plugins/azure-skills/skills/azure-upgrade"
+          "skill_path": ".github/plugins/azure-skills/skills/azure-upgrade",
+          "description": "Assess and upgrade Azure workloads between plans, tiers, or SKUs, or modernize Azure SDK dependencies in source code. WHEN: upgrade Consumption to Flex Consumption, upgrade Azure Functions plan, change hosting plan, function app SKU, migrate App Service to Container Apps, modernize legacy Azure Java SDKs (com.microsoft.azure to com.azure), migrate Azure Cache for Redis (ACR/ACRE) to Azure Managed Redis (AMR)."
         },
         {
           "owner": "microsoft",
           "repo": "azure-skills",
           "name": "azure-validate",
-          "skill_path": ".github/plugins/azure-skills/skills/azure-validate"
+          "skill_path": ".github/plugins/azure-skills/skills/azure-validate",
+          "description": "Pre-deployment validation for Azure readiness. Run deep checks on configuration, infrastructure (Bicep or Terraform), RBAC role assignments, managed identity permissions, and prerequisites before deploying. WHEN: validate my app, check deployment readiness, run preflight checks, verify configuration, check if ready to deploy, validate azure.yaml, validate Bicep, test before deploying, troubleshoot deployment errors, validate Azure Functions, validate function app, validate serverless deployment, verify RBAC roles, check role assignments, review managed identity permissions, what-if analysis, validate Container Apps deployment."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "hybrid-cloud-networking",
-          "skill_path": "plugins/cloud-infrastructure/skills/hybrid-cloud-networking"
+          "skill_path": "plugins/cloud-infrastructure/skills/hybrid-cloud-networking",
+          "description": "Configure secure, high-performance connectivity between on-premises infrastructure and cloud platforms using VPN and dedicated connections. Use when building hybrid cloud architectures, connecting data centers to cloud, or implementing secure cross-premises networking."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "multi-cloud-architecture",
-          "skill_path": "plugins/cloud-infrastructure/skills/multi-cloud-architecture"
+          "skill_path": "plugins/cloud-infrastructure/skills/multi-cloud-architecture",
+          "description": "Design multi-cloud architectures using a decision framework to select and integrate services across AWS, Azure, GCP, and OCI. Use when building multi-cloud systems, avoiding vendor lock-in, or leveraging best-of-breed services from multiple providers."
         }
       ]
     },
@@ -177,67 +204,78 @@
           "owner": "cloudflare",
           "repo": "skills",
           "name": "cloudflare",
-          "skill_path": "skills/cloudflare"
+          "skill_path": "skills/cloudflare",
+          "description": "Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV, D1, R2), AI (Workers AI, Vectorize, Agents SDK), feature flags (Flagship), networking (Tunnel, Spectrum), security (WAF, DDoS), and infrastructure-as-code (Terraform, Pulumi). Use for any Cloudflare development task. Biases towards retrieval from Cloudflare docs over pre-trained knowledge."
         },
         {
           "owner": "cloudflare",
           "repo": "skills",
           "name": "cloudflare-email-service",
-          "skill_path": "skills/cloudflare-email-service"
+          "skill_path": "skills/cloudflare-email-service",
+          "description": "Send and receive transactional emails with Cloudflare Email Service (Email Sending + Email Routing). Use when building email sending (Workers binding or REST API), email routing, Agents SDK email handling, or integrating email into any app — Workers, Node.js, Python, Go, etc. Also use for email deliverability, SPF/DKIM/DMARC, wrangler email setup, MCP email tools, or when a coding agent needs to send emails. Even for simple requests like \"add email to my Worker\" — this skill has critical config details."
         },
         {
           "owner": "cloudflare",
           "repo": "skills",
           "name": "sandbox-sdk",
-          "skill_path": "skills/sandbox-sdk"
+          "skill_path": "skills/sandbox-sdk",
+          "description": "Build sandboxed applications for secure code execution. Load when building AI code execution, code interpreters, CI/CD systems, interactive dev environments, or executing untrusted code. Covers Sandbox SDK lifecycle, commands, files, code interpreter, and preview URLs. Biases towards retrieval from Cloudflare docs over pre-trained knowledge."
         },
         {
           "owner": "cloudflare",
           "repo": "skills",
           "name": "workers-best-practices",
-          "skill_path": "skills/workers-best-practices"
+          "skill_path": "skills/workers-best-practices",
+          "description": "Reviews and authors Cloudflare Workers code against production best practices. Load when writing new Workers, reviewing Worker code, configuring wrangler.jsonc, or checking for common Workers anti-patterns (streaming, floating promises, global state, secrets, bindings, observability). Biases towards retrieval from Cloudflare docs over pre-trained knowledge."
         },
         {
           "owner": "cloudflare",
           "repo": "skills",
           "name": "wrangler",
-          "skill_path": "skills/wrangler"
+          "skill_path": "skills/wrangler",
+          "description": "Cloudflare Workers CLI for deploying, developing, and managing Workers, KV, R2, D1, Vectorize, Hyperdrive, Workers AI, Containers, Queues, Workflows, Pipelines, and Secrets Store. Load before running wrangler commands to ensure correct syntax and best practices. Biases towards retrieval from Cloudflare docs over pre-trained knowledge."
         },
         {
           "owner": "elestio",
           "repo": "elestio-skill",
           "name": "elestio",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "Deploy and manage services on the Elestio DevOps platform. Use when the user wants to deploy apps, databases, or infrastructure on Elestio, manage projects, services, CI/CD pipelines, backups, domains, firewall, volumes, or billing. Covers 400+ open-source templates across 9 cloud providers."
         },
         {
           "owner": "heredotnow",
           "repo": "skill",
           "name": "here-now",
-          "skill_path": "here-now"
+          "skill_path": "here-now",
+          "description": "here.now lets agents publish websites and store private files in cloud Drives. Use Sites to publish HTML, documents, images, PDFs, videos, and static files to live URLs at {slug}.here.now or custom domains. Use Drives as private cloud folders where agents can store files (documents, context, memory, plans, assets, media, research, code, etc), share them with other agents, and continue across sessions and tools. Use when asked to \"publish this\", \"host this\", \"deploy this\", \"share this on the web\", \"make a website\", \"put this online\", \"create a webpage\", \"generate a URL\", \"build a chatbot\", \"save this to my Drive\", \"store this for later\", \"write this to cloud storage\", \"share a folder with another agent\", or \"use my here.now Drive\".\n"
         },
         {
           "owner": "railwayapp",
           "repo": "railway-skills",
           "name": "use-railway",
-          "skill_path": "plugins/railway/skills/use-railway"
+          "skill_path": "plugins/railway/skills/use-railway",
+          "description": "Operate Railway infrastructure: create projects, provision services and databases, manage object storage buckets, deploy code, configure environments and variables, manage domains, troubleshoot failures, check status and metrics, set up Railway agent tooling, and query Railway docs. Use this skill whenever the user mentions Railway, deployments, services, environments, buckets, object storage, build failures, agent setup, MCP, or infrastructure operations, even if they don't say \"Railway\" explicitly.\n"
         },
         {
           "owner": "vercel-labs",
           "repo": "agent-skills",
           "name": "deploy-to-vercel",
-          "skill_path": "skills/deploy-to-vercel"
+          "skill_path": "skills/deploy-to-vercel",
+          "description": "Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\"."
         },
         {
           "owner": "vercel-labs",
           "repo": "agent-skills",
           "name": "vercel-cli-with-tokens",
-          "skill_path": "skills/vercel-cli-with-tokens"
+          "skill_path": "skills/vercel-cli-with-tokens",
+          "description": "Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tokens rather than interactive login — e.g. \"deploy to vercel\", \"set up vercel\", \"add environment variables to vercel\"."
         },
         {
           "owner": "vercel-labs",
           "repo": "agent-skills",
           "name": "vercel-optimize",
-          "skill_path": "skills/vercel-optimize"
+          "skill_path": "skills/vercel-optimize",
+          "description": "Use for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKit, Nuxt, and limited Astro apps. Collect Vercel metrics, usage, project config, and code scan results first; investigate only metric-backed candidates; produce ranked recommendations grounded in verified files and version-aware Vercel/framework docs. Trigger for Vercel bill reduction, slow or expensive routes, caching opportunities, Function Invocations, Build Minutes, Fast Data Transfer, Core Web Vitals, Bot Management, Fluid compute, or cost breakdown requests."
         }
       ]
     },
@@ -249,133 +287,155 @@
           "owner": "firebase",
           "repo": "agent-skills",
           "name": "firebase-ai-logic-basics",
-          "skill_path": "skills/firebase-ai-logic-basics"
+          "skill_path": "skills/firebase-ai-logic-basics",
+          "description": "Official skill for integrating Firebase AI Logic (Gemini API) into web applications. Covers setup, multimodal inference, structured output, and security."
         },
         {
           "owner": "firebase",
           "repo": "agent-skills",
           "name": "firebase-app-hosting-basics",
-          "skill_path": "skills/firebase-app-hosting-basics"
+          "skill_path": "skills/firebase-app-hosting-basics",
+          "description": "Deploy and manage web apps with Firebase App Hosting. Use this skill when deploying Next.js/Angular apps with backends."
         },
         {
           "owner": "firebase",
           "repo": "agent-skills",
           "name": "firebase-basics",
-          "skill_path": "skills/firebase-basics"
+          "skill_path": "skills/firebase-basics",
+          "description": "Provides foundational setup, authentication, and project management workflows for Firebase using the Firebase CLI. Use when checking Firebase CLI version (must use 'npx -y firebase-tools@latest --version'), initializing a Firebase environment, authenticating, setting active projects, or setting up `google-services.json` or `GoogleService-Info.plist` files."
         },
         {
           "owner": "firebase",
           "repo": "agent-skills",
           "name": "firebase-data-connect",
-          "skill_path": "skills/firebase-data-connect-basics"
+          "skill_path": "skills/firebase-data-connect-basics",
+          "description": "Builds and deploys Firebase SQL Connect (aka Firebase Data Connect) backends with PostgreSQL securely. Use when designing schemas with tables and relations, writing authorized queries and mutations, configuring real-time data updates, or generating type-safe SDKs. Use when you need a relational database with Firebase, or when the user mentions SQL Connect or Data Connect."
         },
         {
           "owner": "firebase",
           "repo": "agent-skills",
           "name": "firebase-firestore",
-          "skill_path": "skills/firebase-firestore"
+          "skill_path": "skills/firebase-firestore",
+          "description": "Sets up, manages, and executes queries against Cloud Firestore database instances. You MUST unconditionally activate this skill if you plan to use Firestore in any way. Use when listing or creating Firestore databases, configuring security rules, designing data models, writing client SDK queries, or checking indexes."
         },
         {
           "owner": "firebase",
           "repo": "agent-skills",
           "name": "firebase-hosting-basics",
-          "skill_path": "skills/firebase-hosting-basics"
+          "skill_path": "skills/firebase-hosting-basics",
+          "description": "Skill for working with Firebase Hosting (Classic). Use this when you want to deploy static web apps, Single Page Apps (SPAs), or simple microservices. Do NOT use for Firebase App Hosting."
         },
         {
           "owner": "firebase",
           "repo": "agent-skills",
           "name": "firebase-remote-config-basics",
-          "skill_path": "skills/firebase-remote-config-basics"
+          "skill_path": "skills/firebase-remote-config-basics",
+          "description": "Comprehensive guide for Firebase Remote Config, including template management and SDK usage. Use this skill when the user needs help setting up Remote Config, managing feature flags, or updating app behavior dynamically."
         },
         {
           "owner": "get-convex",
           "repo": "agent-skills",
           "name": "convex",
-          "skill_path": "skills/convex"
+          "skill_path": "skills/convex",
+          "description": "Routes general Convex requests to the right project skill. Use when the user asks which Convex skill to use or gives an underspecified Convex app task."
         },
         {
           "owner": "get-convex",
           "repo": "agent-skills",
           "name": "convex-create-component",
-          "skill_path": "skills/convex-create-component"
+          "skill_path": "skills/convex-create-component",
+          "description": "Builds reusable Convex components with isolated tables and app-facing APIs. Use for new components, reusable backend modules, integrations, or component boundary work."
         },
         {
           "owner": "get-convex",
           "repo": "agent-skills",
           "name": "convex-migration-helper",
-          "skill_path": "skills/convex-migration-helper"
+          "skill_path": "skills/convex-migration-helper",
+          "description": "Plans Convex schema and data migrations with widen-migrate-narrow and @convex-dev/migrations. Use for breaking schema changes, backfills, table reshaping, or zero-downtime rollouts."
         },
         {
           "owner": "get-convex",
           "repo": "agent-skills",
           "name": "convex-performance-audit",
-          "skill_path": "skills/convex-performance-audit"
+          "skill_path": "skills/convex-performance-audit",
+          "description": "Audits Convex performance for reads, subscriptions, write contention, and function limits. Use for slow features, insights findings, OCC conflicts, or read amplification."
         },
         {
           "owner": "get-convex",
           "repo": "agent-skills",
           "name": "convex-quickstart",
-          "skill_path": "skills/convex-quickstart"
+          "skill_path": "skills/convex-quickstart",
+          "description": "Creates or adds Convex to an app. Use for new Convex projects, npm create convex@latest, frontend setup, env vars, or the first npx convex dev run."
         },
         {
           "owner": "google",
           "repo": "skills",
           "name": "firebase-basics",
-          "skill_path": "skills/cloud/firebase-basics"
+          "skill_path": "skills/cloud/firebase-basics",
+          "description": "Use this skill whenever you are working on a project that uses Firebase products or services, especially for mobile or web apps."
         },
         {
           "owner": "insforge",
           "repo": "agent-skills",
           "name": "insforge",
-          "skill_path": "skills/insforge"
+          "skill_path": "skills/insforge",
+          "description": "Use this skill when writing app code with InsForge or @insforge/sdk: database CRUD, auth, storage uploads/storage RLS, functions, OpenRouter AI, realtime, emails, Stripe checkout, subscriptions, customer portal flows, or pointing S3-compatible tooling (aws CLI, AWS SDKs, rclone, Terraform, boto3) at InsForge Storage. Trigger on requests like add auth, fetch data, upload files, make a bucket public, add checkout, sell subscriptions, or send email. For infrastructure, SQL migrations, CLI commands, or Stripe key/catalog setup, use insforge-cli instead."
         },
         {
           "owner": "insforge",
           "repo": "agent-skills",
           "name": "insforge-cli",
-          "skill_path": "skills/insforge-cli"
+          "skill_path": "skills/insforge-cli",
+          "description": "Use this skill whenever someone needs a backend, or a task touches backend or cloud infrastructure: at minimum read it to check relevance, then stop if the task is not actually backend/cloud work, or use it to provision and manage that backend with the InsForge CLI if it is. Covers projects, SQL, migrations, RLS policies, functions, storage buckets, frontend deployments, compute services, secrets/env vars, AI/OpenRouter key setup, Stripe payment keys/catalog/products/prices/webhooks, schedules, logs, diagnostics, import/export, **declarative auth redirect URLs via `insforge.toml`** (applied with `config apply`), or **managing backend branches** (creating a branch project to test risky schema/auth/RLS changes, merging a branch back to prod, resolving merge conflicts). For app code with @insforge/sdk, use the insforge skill instead."
         },
         {
           "owner": "insforge",
           "repo": "agent-skills",
           "name": "insforge-debug",
-          "skill_path": "skills/insforge-debug"
+          "skill_path": "skills/insforge-debug",
+          "description": "Use when diagnosing problems in an InsForge project — reactive failures (SDK error object, HTTP 4xx/5xx, gateway timeout 502/503/504, edge function failure or timeout, login/OAuth/auth errors, RLS denial, realtime channel issues, slow query on one endpoint, edge function or Vercel deploy failure), proactive audits (security/RLS review, performance/index review, system health check, pre-launch readiness), or when the user has an error but doesn't know where to start."
         },
         {
           "owner": "insforge",
           "repo": "agent-skills",
           "name": "insforge-integrations",
-          "skill_path": "skills/insforge-integrations"
+          "skill_path": "skills/insforge-integrations",
+          "description": "Use when wiring an external auth provider (Clerk, Auth0, WorkOS, Kinde, Stytch, Better Auth) into InsForge for JWT-based RLS, or when adding the OKX x402 payment facilitator for onchain pay-per-use billing."
         },
         {
           "owner": "neondatabase",
           "repo": "agent-skills",
           "name": "neon-postgres",
-          "skill_path": "skills/neon-postgres"
+          "skill_path": "skills/neon-postgres",
+          "description": "Guides and best practices for working with Neon Serverless Postgres. Covers setup, connection methods, branching, autoscaling, scale-to-zero, read replicas, connection pooling, Neon Auth, and the Neon CLI, MCP server, REST API, TypeScript SDK, and Python SDK. Use when users ask about \"Neon setup\", \"connect to Neon\", \"Neon project\", \"DATABASE_URL\", \"serverless Postgres\", \"Neon CLI\", \"neonctl\", \"Neon MCP\", \"Neon Auth\", \"@neondatabase/serverless\", \"@neondatabase/neon-js\", \"scale to zero\", \"Neon autoscaling\", \"Neon read replica\", or \"Neon connection pooling\"."
         },
         {
           "owner": "supabase",
           "repo": "agent-skills",
           "name": "supabase",
-          "skill_path": "skills/supabase"
+          "skill_path": "skills/supabase",
+          "description": "Use when doing ANY task involving Supabase. Triggers: Supabase products (Database, Auth, Edge Functions, Realtime, Storage, Vectors, Cron, Queues); client libraries and SSR integrations (supabase-js, @supabase/ssr) in Next.js, React, SvelteKit, Astro, Remix; auth issues (login, logout, sessions, JWT, cookies, getSession, getUser, getClaims, RLS); Supabase CLI or MCP server; schema changes, migrations, security audits, Postgres extensions (pg_graphql, pg_cron, pg_vector)."
         },
         {
           "owner": "tencentcloudbase",
           "repo": "cloudbase-skills",
           "name": "cloudbase",
-          "skill_path": "skills/cloudbase"
+          "skill_path": "skills/cloudbase",
+          "description": "Use this skill when you develop, design, build, deploy, debug, migrate, or troubleshoot CloudBase (腾讯云开发, 云开发, TCB, 微信云开发) projects. Covers Web apps (React, Vue, Vite, Next, Nuxt, 网站, dashboards, 管理后台), 微信小程序, 小程序, uni-app, native/mobile (iOS, Android, Flutter, React Native) via HTTP API. Includes UI (页面, 界面, 登录页, 表单, form, dashboard, 仪表盘, prototype, 原型), auth (登录, 注册, OAuth, 微信登录, publishable key), databases (NoSQL 文档数据库, MySQL 关系型数据库, CRUD, security rules), 云函数 (serverless, scf_bootstrap, HTTP Functions), CloudRun (云托管, Dockerfile), 云存储 (file upload, hosting, 静态托管). Built-in AI (内置大模型, streaming, 流式输出, image generation, 图片生成, 图像生成, generateText, streamText, createModel, generateImage, TokenHub, Hunyuan, hunyuan-exp, DeepSeek, deepseek, GLM, Kimi, MiniMax, Token Credits 资源包, 小程序成长计划), 第三方大模型, 大模型接入, 大模型调用, LLM API, chatbot, AI 助手, AI agent, 智能体, AG-UI, LangGraph, LangChain. Ops (巡检, 诊断, health check, 日志, troubleshooting, 排查). Spec workflow (需求文档, 技术方案, 架构设计, requirements, tasks.md)."
         },
         {
           "owner": "waynesutton",
           "repo": "convexskills",
           "name": "convex",
-          "skill_path": "skills/convex"
+          "skill_path": "skills/convex",
+          "description": "Umbrella skill for all Convex development patterns. Routes to specific skills like convex-functions, convex-realtime, convex-agents, etc."
         },
         {
           "owner": "waynesutton",
           "repo": "convexskills",
           "name": "convex-best-practices",
-          "skill_path": "skills/convex-best-practices"
+          "skill_path": "skills/convex-best-practices",
+          "description": "Guidelines for building production-ready Convex apps covering function organization, query patterns, validation, TypeScript usage, error handling, and the Zen of Convex design philosophy"
         }
       ]
     },

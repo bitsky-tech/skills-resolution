@@ -9,61 +9,71 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "article-writing",
-          "skill_path": ".agents/skills/article-writing"
+          "skill_path": ".agents/skills/article-writing",
+          "description": "Write articles, guides, blog posts, tutorials, newsletter issues, and other long-form content in a distinctive voice derived from supplied examples or brand guidance. Use when the user wants polished written content longer than a paragraph, especially when voice consistency, structure, and credibility matter."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "brand-voice",
-          "skill_path": ".agents/skills/brand-voice"
+          "skill_path": ".agents/skills/brand-voice",
+          "description": "Build a source-derived writing style profile from real posts, essays, launch notes, docs, or site copy, then reuse that profile across content, outreach, and social workflows. Use when the user wants voice consistency without generic AI writing tropes."
         },
         {
           "owner": "composiohq",
           "repo": "awesome-claude-skills",
           "name": "content-research-writer",
-          "skill_path": "content-research-writer"
+          "skill_path": "content-research-writer",
+          "description": "Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outlines, and providing real-time feedback on each section. Transforms your writing process from solo effort to collaborative partnership."
         },
         {
           "owner": "dontbesilent2025",
           "repo": "dbskill",
           "name": "dbs-content",
-          "skill_path": "skills/dbs-content"
+          "skill_path": "skills/dbs-content",
+          "description": "dontbesilent 内容创作诊断。选题通过后，诊断怎么把这个选题做成好内容。\n触发方式：/dbs-content、/内容诊断、「这个内容怎么做」「帮我看看这个文案」\nContent creation diagnosis. After topic passes, diagnose how to turn it into good content.\nTrigger: /dbs-content, \"how should I create this content\", \"review my copy\"\n"
         },
         {
           "owner": "lijigang",
           "repo": "ljg-skills",
           "name": "ljg-writes",
-          "skill_path": "skills/ljg-writes"
+          "skill_path": "skills/ljg-writes",
+          "description": "写作引擎。像手术刀剖开一个观点，一层层剥到底。1000-1500 字。"
         },
         {
           "owner": "mattpocock",
           "repo": "skills",
           "name": "writing-beats",
-          "skill_path": "skills/in-progress/writing-beats"
+          "skill_path": "skills/in-progress/writing-beats",
+          "description": "Shape an article as a journey of beats, choose-your-own-adventure style. The user picks a starting beat from the raw material, you write only that beat, then offer options for where to pivot next, beat by beat, until the article reaches a natural end. Use when the user has raw material and wants to assemble it as a narrative rather than an argument."
         },
         {
           "owner": "mattpocock",
           "repo": "skills",
           "name": "writing-fragments",
-          "skill_path": "skills/in-progress/writing-fragments"
+          "skill_path": "skills/in-progress/writing-fragments",
+          "description": "Grilling session that mines the user for fragments — heterogeneous nuggets of writing (claims, vignettes, sharp sentences, half-thoughts) — and appends them to a single document as raw material for a future article. Use when the user wants to develop ideas before imposing structure, or mentions \"fragments\", \"ideate\", or \"raw material\" for writing."
         },
         {
           "owner": "mattpocock",
           "repo": "skills",
           "name": "writing-shape",
-          "skill_path": "skills/in-progress/writing-shape"
+          "skill_path": "skills/in-progress/writing-shape",
+          "description": "Take a markdown file of raw material and shape it into an article through a conversational session — drafting candidate openings, growing the piece paragraph by paragraph, arguing about format (lists, tables, callouts, quotes) at each step. Use when the user has a pile of notes, fragments, or a rough draft and wants help turning it into something publishable."
         },
         {
           "owner": "penglonghuang",
           "repo": "chinese-novelist-skill",
           "name": "chinese-novelist",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "分章节创作引人入胜的中文小说。支持各种题材（悬疑/言情/奇幻/科幻/历史等），支持10-50章长篇创作，每章3000-5000字，结尾设置悬念钩子。强调深度润色去除AI痕迹，确保文字自然流畅。\n当用户要求：写小说、创作故事、分章节写作、连续剧情、章节悬念、长篇小说时使用。\n"
         },
         {
           "owner": "shubhamsaboo",
           "repo": "awesome-llm-apps",
           "name": "content-creator",
-          "skill_path": "awesome_agent_skills/content-creator"
+          "skill_path": "awesome_agent_skills/content-creator",
+          "description": "Creates engaging content for blogs, social media, and marketing materials with audience focus.\nUse when: writing blog posts, creating social media content, developing marketing copy, crafting\nengaging headlines, or when user mentions content creation, blogging, social media, or\naudience engagement.\n"
         }
       ]
     },
@@ -75,79 +85,92 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "visa-doc-translate",
-          "skill_path": "skills/visa-doc-translate"
+          "skill_path": "skills/visa-doc-translate",
+          "description": "Translate visa application documents (images) to English and create a bilingual PDF with original and translation"
         },
         {
           "owner": "dontbesilent2025",
           "repo": "dbskill",
           "name": "dbs-ai-check",
-          "skill_path": "skills/dbs-ai-check"
+          "skill_path": "skills/dbs-ai-check",
+          "description": "dontbesilent AI 写作特征识别。扫描文案中的 AI 生成痕迹，输出检测报告。默认只诊断不改。\n触发方式：/dbs-ai-check、/AI检测、「帮我看看有没有 AI 味」「检测一下 AI 特征」\nAI writing fingerprint detection. Scans copy for AI-generated patterns and outputs a diagnostic report. Diagnosis only by default.\nTrigger: /dbs-ai-check, \"check for AI writing\", \"does this sound like AI\"\n"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "finnish-humanizer",
-          "skill_path": "skills/finnish-humanizer"
+          "skill_path": "skills/finnish-humanizer",
+          "description": "Detect and remove AI-generated markers from Finnish text, making it sound like a native Finnish speaker wrote it. Use when asked to \"humanize\", \"naturalize\", or \"remove AI feel\" from Finnish text, or when editing .md/.txt files containing Finnish content. Identifies 26 patterns (12 Finnish-specific + 14 universal) and 4 style markers."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "mkdocs-translations",
-          "skill_path": "skills/mkdocs-translations"
+          "skill_path": "skills/mkdocs-translations",
+          "description": "Generate a language translation for a mkdocs documentation stack."
         },
         {
           "owner": "jimliu",
           "repo": "baoyu-skills",
           "name": "baoyu-format-markdown",
-          "skill_path": "skills/baoyu-format-markdown"
+          "skill_path": "skills/baoyu-format-markdown",
+          "description": "Formats plain text or markdown files with frontmatter, titles, summaries, headings, bold, lists, and code blocks. Use when user asks to \"format markdown\", \"beautify article\", \"add formatting\", or improve article layout. Outputs to {filename}-formatted.md."
         },
         {
           "owner": "jimliu",
           "repo": "baoyu-skills",
           "name": "baoyu-translate",
-          "skill_path": "skills/baoyu-translate"
+          "skill_path": "skills/baoyu-translate",
+          "description": "Translates articles and documents between languages with three modes - quick (direct), normal (analyze then translate), and refined (analyze, translate, review, polish). Supports custom glossaries and terminology consistency via EXTEND.md. Use when user asks to \"translate\", \"翻译\", \"精翻\", \"translate article\", \"translate to Chinese/English\", \"改成中文\", \"改成英文\", \"convert to Chinese\", \"localize\", \"本地化\", or needs any document translation. Also triggers for \"refined translation\", \"精细翻译\", \"proofread translation\", \"快速翻译\", \"快翻\", \"这篇文章翻译一下\", or when a URL or file is provided with translation intent."
         },
         {
           "owner": "lijigang",
           "repo": "ljg-skills",
           "name": "ljg-plain",
-          "skill_path": "skills/ljg-plain"
+          "skill_path": "skills/ljg-plain",
+          "description": "Cognitive atom: Plain (白). Rewrites any content so a smart 12-year-old groks it. Structure-free — form follows content. Use when user says '白话说', '说人话', '解释一下', 'plain', 'grok'."
         },
         {
           "owner": "mattpocock",
           "repo": "skills",
           "name": "edit-article",
-          "skill_path": "skills/personal/edit-article"
+          "skill_path": "skills/personal/edit-article",
+          "description": "Edit and improve articles by restructuring sections, improving clarity, and tightening prose. Use when user wants to edit, revise, or improve an article draft."
         },
         {
           "owner": "op7418",
           "repo": "humanizer-zh",
           "name": "humanizer-zh",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "去除文本中的 AI 生成痕迹。适用于编辑或审阅文本，使其听起来更自然、更像人类书写。\n基于维基百科的\"AI 写作特征\"综合指南。检测并修复以下模式：夸大的象征意义、\n宣传性语言、以 -ing 结尾的肤浅分析、模糊的归因、破折号过度使用、三段式法则、\nAI 词汇、否定式排比、过多的连接性短语。\n"
         },
         {
           "owner": "softaworks",
           "repo": "agent-toolkit",
           "name": "humanizer",
-          "skill_path": "dist/plugins/humanizer/skills/humanizer"
+          "skill_path": "dist/plugins/humanizer/skills/humanizer",
+          "description": "Remove signs of AI-generated writing from text. Use when editing or reviewing\ntext to make it sound more natural and human-written. Based on Wikipedia's\ncomprehensive \"Signs of AI writing\" guide. Detects and fixes patterns including:\ninflated symbolism, promotional language, superficial -ing analyses, vague\nattributions, em dash overuse, rule of three, AI vocabulary words, negative\nparallelisms, and excessive conjunctive phrases.\n\nCredits: Original skill by @blader - https://github.com/blader/humanizer\n"
         },
         {
           "owner": "softaworks",
           "repo": "agent-toolkit",
           "name": "writing-clearly-and-concisely",
-          "skill_path": "dist/plugins/writing-clearly-and-concisely/skills/writing-clearly-and-concisely"
+          "skill_path": "dist/plugins/writing-clearly-and-concisely/skills/writing-clearly-and-concisely",
+          "description": "Use when writing prose humans will read—documentation, commit messages, error messages, explanations, reports, or UI text. Applies Strunk's timeless rules for clearer, stronger, more professional writing."
         },
         {
           "owner": "tw93",
           "repo": "waza",
           "name": "write",
-          "skill_path": "skills/write"
+          "skill_path": "skills/write",
+          "description": "Rewrites and polishes prose in Chinese or English, removing AI-like wording while preserving intent for drafts, docs, release notes, launch copy, and social posts. Use when users ask 帮我写/改稿/润色/去AI味/写一段/审稿/tweet/rewrite/proofread. Not for code comments, commit messages, or inline docs."
         },
         {
           "owner": "xixu-me",
           "repo": "skills",
           "name": "readme-i18n",
-          "skill_path": "skills/readme-i18n"
+          "skill_path": "skills/readme-i18n",
+          "description": "Use when the user wants to translate a repository README, make a repo multilingual, localize docs, add a language switcher, internationalize the README, or update localized README variants in a GitHub-style repository."
         }
       ]
     },
@@ -159,109 +182,127 @@
           "owner": "addyosmani",
           "repo": "agent-skills",
           "name": "documentation-and-adrs",
-          "skill_path": "skills/documentation-and-adrs"
+          "skill_path": "skills/documentation-and-adrs",
+          "description": "Records decisions and documentation. Use when making architectural decisions, changing public APIs, shipping features, or when you need to record context that future engineers and agents will need to understand the codebase."
         },
         {
           "owner": "antfu",
           "repo": "skills",
           "name": "vitepress",
-          "skill_path": "skills/vitepress"
+          "skill_path": "skills/vitepress",
+          "description": "VitePress static site generator powered by Vite and Vue. Use when building documentation sites, configuring themes, or writing Markdown with Vue components."
         },
         {
           "owner": "anthropics",
           "repo": "knowledge-work-plugins",
           "name": "documentation",
-          "skill_path": "engineering/skills/documentation"
+          "skill_path": "engineering/skills/documentation",
+          "description": "Write and maintain technical documentation. Trigger with \"write docs for\", \"document this\", \"create a README\", \"write a runbook\", \"onboarding guide\", or when the user needs help with any form of technical writing — API docs, architecture docs, or operational runbooks."
         },
         {
           "owner": "anthropics",
           "repo": "skills",
           "name": "doc-coauthoring",
-          "skill_path": "skills/doc-coauthoring"
+          "skill_path": "skills/doc-coauthoring",
+          "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "add-educational-comments",
-          "skill_path": "skills/add-educational-comments"
+          "skill_path": "skills/add-educational-comments",
+          "description": "Add educational comments to the file specified, or prompt asking for file to comment if one is not provided."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "comment-code-generate-a-tutorial",
-          "skill_path": "skills/comment-code-generate-a-tutorial"
+          "skill_path": "skills/comment-code-generate-a-tutorial",
+          "description": "Transform this Python script into a polished, beginner-friendly project by refactoring the code, adding clear instructional comments, and generating a complete markdown tutorial."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "create-llms",
-          "skill_path": "skills/create-llms"
+          "skill_path": "skills/create-llms",
+          "description": "Create an llms.txt file from scratch based on repository structure following the llms.txt specification at https://llmstxt.org/"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "create-readme",
-          "skill_path": "skills/create-readme"
+          "skill_path": "skills/create-readme",
+          "description": "Create a README.md file for the project"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "create-tldr-page",
-          "skill_path": "skills/create-tldr-page"
+          "skill_path": "skills/create-tldr-page",
+          "description": "Create a tldr page from documentation URLs and command examples, requiring both URL and command name."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "documentation-writer",
-          "skill_path": "skills/documentation-writer"
+          "skill_path": "skills/documentation-writer",
+          "description": "Diátaxis Documentation Expert. An expert technical writer specializing in creating high-quality software documentation, guided by the principles and structure of the Diátaxis technical documentation authoring framework."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "readme-blueprint-generator",
-          "skill_path": "skills/readme-blueprint-generator"
+          "skill_path": "skills/readme-blueprint-generator",
+          "description": "Intelligent README.md generation prompt that analyzes project documentation structure and creates comprehensive repository documentation. Scans .github/copilot directory files and copilot-instructions.md to extract project information, technology stack, architecture, development workflow, coding standards, and testing approaches while generating well-structured markdown documentation with proper formatting, cross-references, and developer-focused content."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "repo-story-time",
-          "skill_path": "skills/repo-story-time"
+          "skill_path": "skills/repo-story-time",
+          "description": "Generate a comprehensive repository summary and narrative story from commit history"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "tldr-prompt",
-          "skill_path": "skills/tldr-prompt"
+          "skill_path": "skills/tldr-prompt",
+          "description": "Create tldr summaries for GitHub Copilot files (prompts, agents, instructions, collections), MCP servers, or documentation from URLs and queries."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "update-llms",
-          "skill_path": "skills/update-llms"
+          "skill_path": "skills/update-llms",
+          "description": "Update the llms.txt file in the root folder to reflect changes in documentation or specifications following the llms.txt specification at https://llmstxt.org/"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "update-markdown-file-index",
-          "skill_path": "skills/update-markdown-file-index"
+          "skill_path": "skills/update-markdown-file-index",
+          "description": "Update a markdown file section with an index/table of files from a specified folder."
         },
         {
           "owner": "mintlify",
           "repo": "docs",
           "name": "mintlify",
-          "skill_path": ".claude/skills/mintlify"
+          "skill_path": ".claude/skills/mintlify",
+          "description": "Comprehensive reference for building Mintlify documentation sites. Use when creating pages, configuring docs.json, adding components, setting up navigation, or working with API references. Routes to detailed reference files for all components and configuration options."
         },
         {
           "owner": "shubhamsaboo",
           "repo": "awesome-llm-apps",
           "name": "technical-writer",
-          "skill_path": "awesome_agent_skills/technical-writer"
+          "skill_path": "awesome_agent_skills/technical-writer",
+          "description": "Creates clear documentation, API references, guides, and technical content for developers and users.\nUse when: writing documentation, creating README files, documenting APIs, writing tutorials,\ncreating user guides, or when user mentions documentation, technical writing, or needs help\nexplaining technical concepts clearly.\n"
         },
         {
           "owner": "softaworks",
           "repo": "agent-toolkit",
           "name": "crafting-effective-readmes",
-          "skill_path": "dist/plugins/crafting-effective-readmes/skills/crafting-effective-readmes"
+          "skill_path": "dist/plugins/crafting-effective-readmes/skills/crafting-effective-readmes",
+          "description": "Use when writing or improving README files. Not all READMEs are the same — provides templates and guidance matched to your audience and project type."
         }
       ]
     },
@@ -273,37 +314,43 @@
           "owner": "jimliu",
           "repo": "baoyu-skills",
           "name": "baoyu-article-illustrator",
-          "skill_path": "skills/baoyu-article-illustrator"
+          "skill_path": "skills/baoyu-article-illustrator",
+          "description": "Analyzes article structure, identifies positions requiring visual aids, generates illustrations with Type × Style × Palette three-dimension approach. Use when user asks to \"illustrate article\", \"add images\", \"generate images for article\", or \"为文章配图\"."
         },
         {
           "owner": "jimliu",
           "repo": "baoyu-skills",
           "name": "baoyu-comic",
-          "skill_path": "skills/baoyu-comic"
+          "skill_path": "skills/baoyu-comic",
+          "description": "Knowledge comic creator supporting multiple art styles and tones. Creates original educational comics with detailed panel layouts and batch-capable image generation. Use when user asks to create \"知识漫画\", \"教育漫画\", \"biography comic\", \"tutorial comic\", or \"Logicomix-style comic\"."
         },
         {
           "owner": "jimliu",
           "repo": "baoyu-skills",
           "name": "baoyu-cover-image",
-          "skill_path": "skills/baoyu-cover-image"
+          "skill_path": "skills/baoyu-cover-image",
+          "description": "Generates article cover images with 5 dimensions (type, palette, rendering, text, mood) combining 11 color palettes and 7 rendering styles. Supports cinematic (2.35:1), widescreen (16:9), and square (1:1) aspects. Use when user asks to \"generate cover image\", \"create article cover\", or \"make cover\"."
         },
         {
           "owner": "jimliu",
           "repo": "baoyu-skills",
           "name": "baoyu-infographic",
-          "skill_path": "skills/baoyu-infographic"
+          "skill_path": "skills/baoyu-infographic",
+          "description": "Generate professional infographics with 21 layout types and 22 visual styles. Analyzes content, recommends layout×style combinations, and generates publication-ready infographics. Use when user asks to create \"infographic\", \"信息图\", \"visual summary\", \"可视化\", or \"高密度信息大图\"."
         },
         {
           "owner": "jimliu",
           "repo": "baoyu-skills",
           "name": "baoyu-xhs-images",
-          "skill_path": "skills/baoyu-xhs-images"
+          "skill_path": "skills/baoyu-xhs-images",
+          "description": "Generates infographic image card series with 12 visual styles, 8 layouts, and 3 color palettes. Breaks content into 1-10 cartoon-style image cards optimized for social media engagement. Use when user mentions \"小红书图片\", \"小红书种草\", \"小绿书\", \"微信图文\", \"微信贴图\", \"image cards\", \"图片卡片\", baoyu-xhs-images, or wants social media infographic series."
         },
         {
           "owner": "lijigang",
           "repo": "ljg-skills",
           "name": "ljg-card",
-          "skill_path": "skills/ljg-card"
+          "skill_path": "skills/ljg-card",
+          "description": "Content caster (铸). Transforms content into PNG visuals. Seven molds: -l (default) long reading card, -i infograph, -m multi-card reading cards (1080x1440), -v editorial sketchnote (problem→failure→pivot→insight→naming, magazine + archive layout), -c comic (manga-style B&W), -w whiteboard (marker-style board layout), -b big-fonts attachment card (1080x1440, weathered 碑刻 style for 小红书). Output to ~/Downloads/. Use when user says '铸', 'cast', '做成图', '做成卡片', '做成信息图', '做成海报', '视觉笔记', 'sketchnote', '杂志', 'editorial', '漫画', 'comic', 'manga', '白板', 'whiteboard', '大字', '附件图', 'big fonts', '小红书卡片'. Replaces ljg-cards and ljg-infograph."
         }
       ]
     },
@@ -315,7 +362,8 @@
           "owner": "composiohq",
           "repo": "awesome-claude-skills",
           "name": "tailored-resume-generator",
-          "skill_path": "tailored-resume-generator"
+          "skill_path": "tailored-resume-generator",
+          "description": "Analyzes job descriptions and generates tailored resumes that highlight relevant experience, skills, and achievements to maximize interview chances"
         }
       ]
     }

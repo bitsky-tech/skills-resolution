@@ -9,37 +9,43 @@
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "bigquery-pipeline-audit",
-          "skill_path": "skills/bigquery-pipeline-audit"
+          "skill_path": "skills/bigquery-pipeline-audit",
+          "description": "Audits Python + BigQuery pipelines for cost safety, idempotency, and production readiness. Returns a structured report with exact patch locations."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "fabric-lakehouse",
-          "skill_path": "skills/fabric-lakehouse"
+          "skill_path": "skills/fabric-lakehouse",
+          "description": "Use this skill to get context about Fabric Lakehouse and its features for software systems and AI-powered functions. It offers descriptions of Lakehouse data components, organization with schemas and shortcuts, access control, and code examples. This skill supports users in designing, building, and optimizing Lakehouse solutions using best practices."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "airflow-dag-patterns",
-          "skill_path": "plugins/data-engineering/skills/airflow-dag-patterns"
+          "skill_path": "plugins/data-engineering/skills/airflow-dag-patterns",
+          "description": "Build production Apache Airflow DAGs with best practices for operators, sensors, testing, and deployment. Use when creating data pipelines, orchestrating workflows, or scheduling batch jobs."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "data-quality-frameworks",
-          "skill_path": "plugins/data-engineering/skills/data-quality-frameworks"
+          "skill_path": "plugins/data-engineering/skills/data-quality-frameworks",
+          "description": "Implement data quality validation with Great Expectations, dbt tests, and data contracts. Use when building data quality pipelines, implementing validation rules, or establishing data contracts."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "dbt-transformation-patterns",
-          "skill_path": "plugins/data-engineering/skills/dbt-transformation-patterns"
+          "skill_path": "plugins/data-engineering/skills/dbt-transformation-patterns",
+          "description": "Master dbt (data build tool) for analytics engineering with model organization, testing, documentation, and incremental strategies. Use when building data transformations, creating data models, or implementing analytics engineering best practices."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "spark-optimization",
-          "skill_path": "plugins/data-engineering/skills/spark-optimization"
+          "skill_path": "plugins/data-engineering/skills/spark-optimization",
+          "description": "Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and memory tuning. Use when improving Spark performance, debugging slow jobs, or scaling data processing pipelines."
         }
       ]
     },
@@ -51,85 +57,99 @@
           "owner": "claude-office-skills",
           "repo": "skills",
           "name": "data-analysis",
-          "skill_path": "data-analysis"
+          "skill_path": "data-analysis",
+          "description": "Analyze spreadsheet data, generate insights, create visualizations, and build reports from Excel/CSV data."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "datanalysis-credit-risk",
-          "skill_path": "skills/datanalysis-credit-risk"
+          "skill_path": "skills/datanalysis-credit-risk",
+          "description": "Credit risk data cleaning and variable screening pipeline for pre-loan modeling. Use when working with raw credit data that needs quality assessment,  missing value analysis, or variable selection before modeling. it covers data loading and formatting, abnormal period filtering, missing rate calculation, high-missing variable removal,low-IV variable filtering, high-PSI variable removal, Null Importance denoising, high-correlation variable removal, and cleaning report generation. Applicable scenarios arecredit risk data cleaning, variable screening, pre-loan modeling preprocessing."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "power-bi-dax-optimization",
-          "skill_path": "plugins/power-bi-development/skills/power-bi-dax-optimization"
+          "skill_path": "plugins/power-bi-development/skills/power-bi-dax-optimization",
+          "description": "Comprehensive Power BI DAX formula optimization prompt for improving performance, readability, and maintainability of DAX calculations."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "power-bi-model-design-review",
-          "skill_path": "plugins/power-bi-development/skills/power-bi-model-design-review"
+          "skill_path": "plugins/power-bi-development/skills/power-bi-model-design-review",
+          "description": "Comprehensive Power BI data model design review prompt for evaluating model architecture, relationships, and optimization opportunities."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "power-bi-performance-troubleshooting",
-          "skill_path": "plugins/power-bi-development/skills/power-bi-performance-troubleshooting"
+          "skill_path": "plugins/power-bi-development/skills/power-bi-performance-troubleshooting",
+          "description": "Systematic Power BI performance troubleshooting prompt for identifying, diagnosing, and resolving performance issues in Power BI models, reports, and queries."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "power-bi-report-design-consultation",
-          "skill_path": "plugins/power-bi-development/skills/power-bi-report-design-consultation"
+          "skill_path": "plugins/power-bi-development/skills/power-bi-report-design-consultation",
+          "description": "Power BI report visualization design prompt for creating effective, user-friendly, and accessible reports with optimal chart selection and layout design."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "powerbi-modeling",
-          "skill_path": "skills/powerbi-modeling"
+          "skill_path": "skills/powerbi-modeling",
+          "description": "Power BI semantic modeling assistant for building optimized data models. Use when working with Power BI semantic models, creating measures, designing star schemas, configuring relationships, implementing RLS, or optimizing model performance. Triggers on queries about DAX calculations, table relationships, dimension/fact table design, naming conventions, model documentation, cardinality, cross-filter direction, calculation groups, and data model best practices. Always connects to the active model first using power-bi-modeling MCP tools to understand the data structure before providing guidance."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "snowflake-semanticview",
-          "skill_path": "skills/snowflake-semanticview"
+          "skill_path": "skills/snowflake-semanticview",
+          "description": "Create, alter, and validate Snowflake semantic views using Snowflake CLI (snow). Use when asked to build or troubleshoot semantic views/semantic layer definitions with CREATE/ALTER SEMANTIC VIEW, to validate semantic-view DDL against Snowflake via CLI, or to guide Snowflake CLI installation and connection setup."
         },
         {
           "owner": "google",
           "repo": "skills",
           "name": "bigquery-basics",
-          "skill_path": "skills/cloud/bigquery-basics"
+          "skill_path": "skills/cloud/bigquery-basics",
+          "description": "Manages datasets, tables, and jobs in BigQuery, and integrates with BigQuery ML and Gemini for advanced data analytics and AI-driven insights. Use when you need to interact with BigQuery, run SQL queries, manage BigQuery resources, or leverage BigQuery's built-in ML capabilities. Also use when performing data analysis, ingesting data into BigQuery, or developing AI applications on BigQuery."
         },
         {
           "owner": "jeffallan",
           "repo": "claude-skills",
           "name": "pandas-pro",
-          "skill_path": "skills/pandas-pro"
+          "skill_path": "skills/pandas-pro",
+          "description": "Performs pandas DataFrame operations for data analysis, manipulation, and transformation. Use when working with pandas DataFrames, data cleaning, aggregation, merging, or time series analysis. Invoke for data manipulation tasks such as joining DataFrames on multiple keys, pivoting tables, resampling time series, handling NaN values with interpolation or forward-fill, groupby aggregations, type conversion, or performance optimization of large datasets."
         },
         {
           "owner": "marimo-team",
           "repo": "marimo-pair",
           "name": "marimo-pair",
-          "skill_path": "skills/marimo-pair"
+          "skill_path": "skills/marimo-pair",
+          "description": "Work inside a running marimo notebook's kernel — execute code, create cells, and build a notebook as an artifact. Use when the user wants to start a marimo notebook or work in an active marimo session."
         },
         {
           "owner": "shubhamsaboo",
           "repo": "awesome-llm-apps",
           "name": "data-analyst",
-          "skill_path": "awesome_agent_skills/data-analyst"
+          "skill_path": "awesome_agent_skills/data-analyst",
+          "description": "SQL, pandas, and statistical analysis expertise for data exploration and insights.\nUse when: analyzing data, writing SQL queries, using pandas, performing statistical analysis,\nor when user mentions data analysis, SQL, pandas, statistics, or needs help exploring datasets.\n"
         },
         {
           "owner": "skills-shell",
           "repo": "skills",
           "name": "python-executor",
-          "skill_path": "tools/utilities/python-executor"
+          "skill_path": "tools/utilities/python-executor",
+          "description": "Execute Python code in a safe sandboxed environment via [inference.sh](https://inference.sh). Pre-installed: NumPy, Pandas, Matplotlib, requests, BeautifulSoup, Selenium, Playwright, MoviePy, Pillow, OpenCV, trimesh, and 100+ more libraries. Use for: data processing, web scraping, image manipulation, video creation, 3D model processing, PDF generation, API calls, automation scripts. Triggers: python, execute code, run script, web scraping, data analysis, image processing, video editing, 3D models, automation, pandas, matplotlib"
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "data-storytelling",
-          "skill_path": "plugins/business-analytics/skills/data-storytelling"
+          "skill_path": "plugins/business-analytics/skills/data-storytelling",
+          "description": "Transform data into compelling narratives using visualization, context, and persuasive structure. Use when presenting analytics to stakeholders, creating data reports, or building executive presentations."
         }
       ]
     },
@@ -141,109 +161,127 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "foundation-models-on-device",
-          "skill_path": "skills/foundation-models-on-device"
+          "skill_path": "skills/foundation-models-on-device",
+          "description": "Apple FoundationModels framework for on-device LLM — text generation, guided generation with @Generable, tool calling, and snapshot streaming in iOS 26+."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "pytorch-patterns",
-          "skill_path": "skills/pytorch-patterns"
+          "skill_path": "skills/pytorch-patterns",
+          "description": "PyTorch deep learning patterns and best practices for building robust, efficient, and reproducible training pipelines, model architectures, and data loading."
         },
         {
           "owner": "lllllllama",
           "repo": "ai-paper-reproduction-skill",
           "name": "env-and-assets-bootstrap",
-          "skill_path": "skills/env-and-assets-bootstrap"
+          "skill_path": "skills/env-and-assets-bootstrap",
+          "description": "Rigor Setup skill for README-first deep learning repo reproduction. Use when the task is specifically to prepare a conservative conda-first environment, checkpoint and dataset path assumptions, cache location hints, and setup notes before any run on a README-documented repository. Do not use for repo scanning, full orchestration, paper interpretation, final run reporting, or generic environment setup that is not tied to a specific reproduction target."
         },
         {
           "owner": "lllllllama",
           "repo": "ai-paper-reproduction-skill",
           "name": "minimal-run-and-audit",
-          "skill_path": "skills/minimal-run-and-audit"
+          "skill_path": "skills/minimal-run-and-audit",
+          "description": "Rigor Run skill for README-first deep learning repo reproduction. Use when the task is specifically to capture or normalize evidence from the selected smoke test or documented inference or evaluation command and write standardized `repro_outputs/` files, including patch notes when repository files changed. Do not use for training execution, initial repo intake, generic environment setup, paper lookup, target selection, hidden scientific-meaning changes, or end-to-end orchestration by itself."
         },
         {
           "owner": "lllllllama",
           "repo": "ai-paper-reproduction-skill",
           "name": "paper-context-resolver",
-          "skill_path": "skills/paper-context-resolver"
+          "skill_path": "skills/paper-context-resolver",
+          "description": "Rigor Paper Context helper for README-first deep learning repo reproduction. Use only when the README and repository files leave a narrow reproduction-critical gap and the task is to resolve a specific paper detail such as dataset split, preprocessing, evaluation protocol, checkpoint mapping, or runtime assumption from primary paper sources while recording conflicts. Do not use for general paper summary, repo scanning, environment setup, command execution, title-only paper lookup, or replacing README guidance by default."
         },
         {
           "owner": "lllllllama",
           "repo": "ai-paper-reproduction-skill",
           "name": "repo-intake-and-plan",
-          "skill_path": "skills/repo-intake-and-plan"
+          "skill_path": "skills/repo-intake-and-plan",
+          "description": "Rigor Intake helper for README-first deep learning repo reproduction. Use when the task is specifically to scan a repository, read the README and common project files, extract documented commands, classify inference, evaluation, and training candidates, and return the smallest trustworthy reproduction plan to the main orchestrator. Do not use for environment setup, asset download, command execution, final reporting, paper lookup, or end-to-end orchestration."
         },
         {
           "owner": "lllllllama",
           "repo": "rigorpilot-skills",
           "name": "ai-research-explore",
-          "skill_path": "skills/ai-research-explore"
+          "skill_path": "skills/ai-research-explore",
+          "description": "Rigor Explore compatible skill slug for meaningful and potentially novel deep learning research candidates. Use when the researcher has chosen the task family, dataset, benchmark, evaluation method, provided SOTA references, and wants candidate-only exploration on top of `current_research` with auditable repo understanding, idea gating, fair comparison, and governed experiments written to `explore_outputs/`. Do not use for README-first trusted reproduction, open-ended direction finding, narrow code-only or run-only exploration, passive repo analysis, verified novelty claims, or implicit experimentation."
         },
         {
           "owner": "lllllllama",
           "repo": "rigorpilot-skills",
           "name": "ai-research-reproduction",
-          "skill_path": "skills/ai-research-reproduction"
+          "skill_path": "skills/ai-research-reproduction",
+          "description": "Rigor Reproduce compatible skill slug for README-first deep learning repository reproduction. Use when the user wants an end-to-end, minimal-trustworthy flow that reads the repository first, selects the smallest documented inference or evaluation target, coordinates intake, setup, trusted execution, optional trusted training, optional repository analysis, and optional paper-gap resolution, enforces conservative patch rules, records evidence assumptions deviations and human decision points, and writes the standardized `repro_outputs/` bundle. Do not use for paper summary, generic environment setup, isolated repo scanning, standalone command execution, silent protocol changes, score chasing, or broad research assistance outside repository-grounded reproduction."
         },
         {
           "owner": "lllllllama",
           "repo": "rigorpilot-skills",
           "name": "analyze-project",
-          "skill_path": "skills/analyze-project"
+          "skill_path": "skills/analyze-project",
+          "description": "Rigor Analyze / Rigor Audit read-only skill for deep learning research repositories. Use when the user wants to read and understand a repository, inspect model structure and training or inference entrypoints, review configs and insertion points, or flag suspicious implementation patterns without modifying code or running heavy jobs. Do not use for active command execution, broad refactoring, speculative code adaptation, or automatic bug fixing."
         },
         {
           "owner": "lllllllama",
           "repo": "rigorpilot-skills",
           "name": "env-and-assets-bootstrap",
-          "skill_path": "skills/env-and-assets-bootstrap"
+          "skill_path": "skills/env-and-assets-bootstrap",
+          "description": "Rigor Setup skill for README-first deep learning repo reproduction. Use when the task is specifically to prepare a conservative conda-first environment, checkpoint and dataset path assumptions, cache location hints, and setup notes before any run on a README-documented repository. Do not use for repo scanning, full orchestration, paper interpretation, final run reporting, or generic environment setup that is not tied to a specific reproduction target."
         },
         {
           "owner": "lllllllama",
           "repo": "rigorpilot-skills",
           "name": "explore-code",
-          "skill_path": "skills/explore-code"
+          "skill_path": "skills/explore-code",
+          "description": "Rigor Improve implementation leaf skill for auditable candidate implementation in deep learning research repositories. Use when the researcher explicitly authorizes exploratory work on an isolated branch or worktree to transplant modules, adapt a backbone, add LoRA or adapter layers, replace a head, or stitch together meaningful low-risk migration ideas with rollback-aware records in `explore_outputs/`. Do not use for end-to-end exploration orchestration on top of `current_research`, trusted baseline reproduction, conservative debugging, environment setup, verified contribution claims, or default repository analysis."
         },
         {
           "owner": "lllllllama",
           "repo": "rigorpilot-skills",
           "name": "explore-run",
-          "skill_path": "skills/explore-run"
+          "skill_path": "skills/explore-run",
+          "description": "Rigor Improve / Rigor Explore run leaf skill for bounded exploratory evidence in deep learning research repositories. Use when the researcher explicitly authorizes exploratory runs such as small-subset validation, short-cycle guess-and-check, batch sweeps, idle-GPU search, or quick transfer-learning trials, with fair-comparison caveats and no-overclaim summaries in `explore_outputs/`. Do not use for end-to-end exploration orchestration on top of `current_research`, trusted baseline execution, conservative training verification, default routing, verified SOTA claims, or implicit experimentation."
         },
         {
           "owner": "lllllllama",
           "repo": "rigorpilot-skills",
           "name": "minimal-run-and-audit",
-          "skill_path": "skills/minimal-run-and-audit"
+          "skill_path": "skills/minimal-run-and-audit",
+          "description": "Rigor Run skill for README-first deep learning repo reproduction. Use when the task is specifically to capture or normalize evidence from the selected smoke test or documented inference or evaluation command and write standardized `repro_outputs/` files, including patch notes when repository files changed. Do not use for training execution, initial repo intake, generic environment setup, paper lookup, target selection, hidden scientific-meaning changes, or end-to-end orchestration by itself."
         },
         {
           "owner": "lllllllama",
           "repo": "rigorpilot-skills",
           "name": "paper-context-resolver",
-          "skill_path": "skills/paper-context-resolver"
+          "skill_path": "skills/paper-context-resolver",
+          "description": "Rigor Paper Context helper for README-first deep learning repo reproduction. Use only when the README and repository files leave a narrow reproduction-critical gap and the task is to resolve a specific paper detail such as dataset split, preprocessing, evaluation protocol, checkpoint mapping, or runtime assumption from primary paper sources while recording conflicts. Do not use for general paper summary, repo scanning, environment setup, command execution, title-only paper lookup, or replacing README guidance by default."
         },
         {
           "owner": "lllllllama",
           "repo": "rigorpilot-skills",
           "name": "repo-intake-and-plan",
-          "skill_path": "skills/repo-intake-and-plan"
+          "skill_path": "skills/repo-intake-and-plan",
+          "description": "Rigor Intake helper for README-first deep learning repo reproduction. Use when the task is specifically to scan a repository, read the README and common project files, extract documented commands, classify inference, evaluation, and training candidates, and return the smallest trustworthy reproduction plan to the main orchestrator. Do not use for environment setup, asset download, command execution, final reporting, paper lookup, or end-to-end orchestration."
         },
         {
           "owner": "lllllllama",
           "repo": "rigorpilot-skills",
           "name": "run-train",
-          "skill_path": "skills/run-train"
+          "skill_path": "skills/run-train",
+          "description": "Rigor Train skill for deep learning research repositories. Use when a documented or selected training command should be run conservatively for startup verification, short-run verification, full kickoff, or resume, with command, config, seed, log, checkpoint, status, and metric evidence written to standardized `train_outputs/`. Do not use for environment setup, exploratory sweeps, speculative idea implementation, or end-to-end orchestration."
         },
         {
           "owner": "lllllllama",
           "repo": "rigorpilot-skills",
           "name": "safe-debug",
-          "skill_path": "skills/safe-debug"
+          "skill_path": "skills/safe-debug",
+          "description": "Rigor Debug / Rigor Audit skill for deep learning research work. Use when the user pastes a traceback, terminal error, CUDA OOM, checkpoint load failure, shape mismatch, NaN loss symptom, or training failure and wants conservative diagnosis before any patching, with debug fixes clearly separated from research contributions. Do not use for broad refactoring, speculative adaptation, automatic exploratory patching, or general repository familiarization."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "ml-pipeline-workflow",
-          "skill_path": "plugins/machine-learning-ops/skills/ml-pipeline-workflow"
+          "skill_path": "plugins/machine-learning-ops/skills/ml-pipeline-workflow",
+          "description": "Build end-to-end MLOps pipelines from data preparation through model training, validation, and production deployment. Use when creating ML pipelines, implementing MLOps practices, or automating model training and deployment workflows."
         }
       ]
     },
@@ -255,7 +293,8 @@
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "shuffle-json-data",
-          "skill_path": "skills/shuffle-json-data"
+          "skill_path": "skills/shuffle-json-data",
+          "description": "Shuffle repetitive JSON objects safely by validating schema consistency before randomising entries."
         }
       ]
     }

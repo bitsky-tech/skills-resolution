@@ -9,103 +9,120 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "perl-security",
-          "skill_path": "skills/perl-security"
+          "skill_path": "skills/perl-security",
+          "description": "Comprehensive Perl security covering taint mode, input validation, safe process execution, DBI parameterized queries, web security (XSS/SQLi/CSRF), and perlcritic security policies."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "security-review",
-          "skill_path": ".agents/skills/security-review"
+          "skill_path": ".agents/skills/security-review",
+          "description": "Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "security-scan",
-          "skill_path": "skills/security-scan"
+          "skill_path": "skills/security-scan",
+          "description": "Scan your Claude Code configuration (.claude/ directory) for security vulnerabilities, misconfigurations, and injection risks using AgentShield. Checks CLAUDE.md, settings.json, MCP servers, hooks, and agent definitions."
         },
         {
           "owner": "getsentry",
           "repo": "skills",
           "name": "security-review",
-          "skill_path": "skills/security-review"
+          "skill_path": "skills/security-review",
+          "description": "Security code review for vulnerabilities. Use when asked to \"security review\", \"find vulnerabilities\", \"check for security issues\", \"audit security\", \"OWASP review\", or review code for injection, XSS, authentication, authorization, cryptography issues. Provides systematic review with confidence-based reporting."
         },
         {
           "owner": "openai",
           "repo": "skills",
           "name": "security-best-practices",
-          "skill_path": "skills/.curated/security-best-practices"
+          "skill_path": "skills/.curated/security-best-practices",
+          "description": "Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only when the user explicitly requests security best practices guidance, a security review/report, or secure-by-default coding help. Trigger only for supported languages (python, javascript/typescript, go). Do not trigger for general code review, debugging, or non-security tasks."
         },
         {
           "owner": "samber",
           "repo": "cc-skills-golang",
           "name": "golang-security",
-          "skill_path": "skills/golang-security"
+          "skill_path": "skills/golang-security",
+          "description": "Security best practices and vulnerability prevention for Golang. Covers injection (SQL, command, XSS), cryptography, filesystem safety, network security, cookies, secrets management, memory safety, and logging. Apply when writing, reviewing, or auditing Go code for security, or when working on any risky code involving crypto, I/O, secrets management, user input handling, or authentication. Includes configuration of security tools."
         },
         {
           "owner": "trailofbits",
           "repo": "skills",
           "name": "agentic-actions-auditor",
-          "skill_path": "plugins/agentic-actions-auditor/skills/agentic-actions-auditor"
+          "skill_path": "plugins/agentic-actions-auditor/skills/agentic-actions-auditor",
+          "description": "Audits GitHub Actions workflows for security vulnerabilities in AI agent integrations including Claude Code Action, Gemini CLI, OpenAI Codex, and GitHub AI Inference. Detects attack vectors where attacker-controlled input reaches AI agents running in CI/CD pipelines, including env var intermediary patterns, direct expression injection, dangerous sandbox configurations, and wildcard user allowlists. Use when reviewing workflow files that invoke AI coding agents, auditing CI/CD pipeline security for prompt injection risks, or evaluating agentic action configurations."
         },
         {
           "owner": "trailofbits",
           "repo": "skills",
           "name": "audit-context-building",
-          "skill_path": "plugins/audit-context-building/skills/audit-context-building"
+          "skill_path": "plugins/audit-context-building/skills/audit-context-building",
+          "description": "Enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding."
         },
         {
           "owner": "trailofbits",
           "repo": "skills",
           "name": "code-maturity-assessor",
-          "skill_path": "plugins/building-secure-contracts/skills/code-maturity-assessor"
+          "skill_path": "plugins/building-secure-contracts/skills/code-maturity-assessor",
+          "description": "Systematic code maturity assessment using Trail of Bits' 9-category framework. Analyzes codebase for arithmetic safety, auditing practices, access controls, complexity, decentralization, documentation, MEV risks, low-level code, and testing. Produces professional scorecard with evidence-based ratings and actionable recommendations."
         },
         {
           "owner": "trailofbits",
           "repo": "skills",
           "name": "codeql",
-          "skill_path": "plugins/static-analysis/skills/codeql"
+          "skill_path": "plugins/static-analysis/skills/codeql",
+          "description": "Scans a codebase for security vulnerabilities using CodeQL's interprocedural data flow and taint tracking analysis. Triggers on \"run codeql\", \"codeql scan\", \"codeql analysis\", \"build codeql database\", or \"find vulnerabilities with codeql\". Supports \"run all\" (security-and-quality + security-experimental suites) and \"important only\" (high-precision security findings) scan modes. Also handles creating data extension models and processing CodeQL SARIF output."
         },
         {
           "owner": "trailofbits",
           "repo": "skills",
           "name": "differential-review",
-          "skill_path": "plugins/differential-review/skills/differential-review"
+          "skill_path": "plugins/differential-review/skills/differential-review",
+          "description": "Performs security-focused differential review of code changes (PRs, commits, diffs). Adapts analysis depth to codebase size, uses git history for context, calculates blast radius, checks test coverage, and generates comprehensive markdown reports. Automatically detects and prevents security regressions.\n"
         },
         {
           "owner": "trailofbits",
           "repo": "skills",
           "name": "fp-check",
-          "skill_path": "plugins/fp-check/skills/fp-check"
+          "skill_path": "plugins/fp-check/skills/fp-check",
+          "description": "Systematically verifies suspected security bugs to eliminate false positives. Produces TRUE POSITIVE or FALSE POSITIVE verdicts with documented evidence for each bug."
         },
         {
           "owner": "trailofbits",
           "repo": "skills",
           "name": "insecure-defaults",
-          "skill_path": "plugins/insecure-defaults/skills/insecure-defaults"
+          "skill_path": "plugins/insecure-defaults/skills/insecure-defaults",
+          "description": "Detects fail-open insecure defaults (hardcoded secrets, weak auth, permissive security) that allow apps to run insecurely in production. Use when auditing security, reviewing config management, or analyzing environment variable handling."
         },
         {
           "owner": "trailofbits",
           "repo": "skills",
           "name": "semgrep",
-          "skill_path": "plugins/static-analysis/skills/semgrep"
+          "skill_path": "plugins/static-analysis/skills/semgrep",
+          "description": "Run Semgrep static analysis scan on a codebase using parallel subagents. Supports two scan modes — \"run all\" (full ruleset coverage) and \"important only\" (high-confidence security vulnerabilities). Automatically detects and uses Semgrep Pro for cross-file taint analysis when available. Use when asked to scan code for vulnerabilities, run a security audit with Semgrep, find bugs, or perform static analysis. Spawns parallel workers for multi-language codebases."
         },
         {
           "owner": "trailofbits",
           "repo": "skills",
           "name": "sharp-edges",
-          "skill_path": "plugins/sharp-edges/skills/sharp-edges"
+          "skill_path": "plugins/sharp-edges/skills/sharp-edges",
+          "description": "Identifies error-prone APIs, dangerous configurations, and footgun designs that enable security mistakes. Use when reviewing API designs, configuration schemas, cryptographic library ergonomics, or evaluating whether code follows 'secure by default' and 'pit of success' principles. Triggers: footgun, misuse-resistant, secure defaults, API usability, dangerous configuration."
         },
         {
           "owner": "useai-pro",
           "repo": "openclaw-skills-security",
           "name": "skill-vetter",
-          "skill_path": "skills/skill-vetter"
+          "skill_path": "skills/skill-vetter",
+          "description": "Security-first vetting for OpenClaw skills. Use before installing any skill from ClawHub, GitHub, or other sources. Checks for red flags, permission scope, and suspicious patterns."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "sast-configuration",
-          "skill_path": "plugins/security-scanning/skills/sast-configuration"
+          "skill_path": "plugins/security-scanning/skills/sast-configuration",
+          "description": "Configure Static Application Security Testing (SAST) tools for automated vulnerability detection in application code. Use when setting up security scanning, implementing DevSecOps practices, or automating code vulnerability detection."
         }
       ]
     },
@@ -117,97 +134,113 @@
           "owner": "addyosmani",
           "repo": "agent-skills",
           "name": "security-and-hardening",
-          "skill_path": "skills/security-and-hardening"
+          "skill_path": "skills/security-and-hardening",
+          "description": "Hardens code against vulnerabilities. Use when handling user input, authentication, data storage, or external integrations. Use when building any feature that accepts untrusted data, manages user sessions, or interacts with third-party services."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "django-security",
-          "skill_path": "skills/django-security"
+          "skill_path": "skills/django-security",
+          "description": "Django security best practices, authentication, authorization, CSRF protection, SQL injection prevention, XSS prevention, and secure deployment configurations."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "laravel-security",
-          "skill_path": "skills/laravel-security"
+          "skill_path": "skills/laravel-security",
+          "description": "Laravel security best practices for authn/authz, validation, CSRF, mass assignment, file uploads, secrets, rate limiting, and secure deployment."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "springboot-security",
-          "skill_path": "skills/springboot-security"
+          "skill_path": "skills/springboot-security",
+          "description": "Spring Security best practices for authn/authz, validation, CSRF, secrets, headers, rate limiting, and dependency security in Java Spring Boot services."
         },
         {
           "owner": "firebase",
           "repo": "agent-skills",
           "name": "firebase-security-rules-auditor",
-          "skill_path": "skills/firebase-security-rules-auditor"
+          "skill_path": "skills/firebase-security-rules-auditor",
+          "description": "A skill to evaluate how secure Firestore security rules are. Use this when Firestore security rules are updated to ensure that the generated rules are extremely secure and robust."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "azure-role-selector",
-          "skill_path": "skills/azure-role-selector"
+          "skill_path": "skills/azure-role-selector",
+          "description": "When user is asking for guidance for which role to assign to an identity given desired permissions, this agent helps them understand the role that will meet the requirements with least privilege access and how to apply that role."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "entra-agent-user",
-          "skill_path": "skills/entra-agent-user"
+          "skill_path": "skills/entra-agent-user",
+          "description": "Create Agent Users in Microsoft Entra ID from Agent Identities, enabling AI agents to act as digital workers with user identity capabilities in Microsoft 365 and Azure environments."
         },
         {
           "owner": "google",
           "repo": "skills",
           "name": "google-cloud-waf-security",
-          "skill_path": "skills/cloud/google-cloud-waf-security"
+          "skill_path": "skills/cloud/google-cloud-waf-security",
+          "description": "Generates security-focused guidance for Google Cloud workloads based on the design principles and recommendations in the Google Cloud Well-Architected Framework (WAF). Use this skill to evaluate a workload, identify security requirements, and provide actionable recommendations for IAM, network security, data protection, and operational security."
         },
         {
           "owner": "microsoft",
           "repo": "azure-skills",
           "name": "azure-rbac",
-          "skill_path": ".github/plugins/azure-skills/skills/azure-rbac"
+          "skill_path": ".github/plugins/azure-skills/skills/azure-rbac",
+          "description": "Helps users find the right Azure RBAC role for an identity with least privilege access, then generate CLI commands and Bicep code to assign it. Also provides guidance on permissions required to grant roles. WHEN: bicep for role assignment, what role should I assign, least privilege role, RBAC role for, role to read blobs, role for managed identity, custom role definition, assign role to identity, what role do I need to grant access, permissions to assign roles."
         },
         {
           "owner": "microsoft",
           "repo": "azure-skills",
           "name": "entra-agent-id",
-          "skill_path": ".github/plugins/azure-skills/skills/entra-agent-id"
+          "skill_path": ".github/plugins/azure-skills/skills/entra-agent-id",
+          "description": "Provision Microsoft Entra Agent Identity Blueprints, BlueprintPrincipals, and per-instance Agent Identities via Microsoft Graph, and configure OAuth 2.0 token exchange (fmi_path, OBO, cross-tenant) including the Microsoft Entra SDK for AgentID sidecar. USE FOR: Agent Identity Blueprint, BlueprintPrincipal, agent OAuth, fmi_path token exchange, agent OBO, Workload Identity Federation for agents, polyglot agent auth, Microsoft.Identity.Web.AgentIdentities. DO NOT USE FOR: standard Entra app registration (use entra-app-registration), Azure RBAC (use azure-rbac), Microsoft Foundry agent authoring (use microsoft-foundry)."
         },
         {
           "owner": "microsoft",
           "repo": "azure-skills",
           "name": "entra-app-registration",
-          "skill_path": ".github/plugins/azure-skills/skills/entra-app-registration"
+          "skill_path": ".github/plugins/azure-skills/skills/entra-app-registration",
+          "description": "Guides Microsoft Entra ID app registration, OAuth 2.0 authentication, and MSAL integration. USE FOR: create app registration, register Azure AD app, configure OAuth, set up authentication, add API permissions, generate service principal, MSAL example, console app auth, Entra ID setup, Azure AD authentication. DO NOT USE FOR: Azure RBAC or role assignments (use azure-rbac), Key Vault secrets (use azure-keyvault-expiration-audit), general Azure resource security guidance."
         },
         {
           "owner": "sickn33",
           "repo": "antigravity-awesome-skills",
           "name": "api-security-best-practices",
-          "skill_path": "plugins/antigravity-awesome-skills/skills/api-security-best-practices"
+          "skill_path": "plugins/antigravity-awesome-skills/skills/api-security-best-practices",
+          "description": "Implement secure API design patterns including authentication, authorization, input validation, rate limiting, and protection against common API vulnerabilities"
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "mtls-configuration",
-          "skill_path": "plugins/cloud-infrastructure/skills/mtls-configuration"
+          "skill_path": "plugins/cloud-infrastructure/skills/mtls-configuration",
+          "description": "Configure mutual TLS (mTLS) for zero-trust service-to-service communication. Use when implementing zero-trust networking, certificate management, or securing internal service communication."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "secrets-management",
-          "skill_path": "plugins/cicd-automation/skills/secrets-management"
+          "skill_path": "plugins/cicd-automation/skills/secrets-management",
+          "description": "Implement secure secrets management for CI/CD pipelines using Vault, AWS Secrets Manager, or native platform solutions. Use when handling sensitive credentials, rotating secrets, or securing CI/CD environments."
         },
         {
           "owner": "xixu-me",
           "repo": "skills",
           "name": "openclaw-secure-linux-cloud",
-          "skill_path": "skills/openclaw-secure-linux-cloud"
+          "skill_path": "skills/openclaw-secure-linux-cloud",
+          "description": "Use when self-hosting OpenClaw on a cloud server, hardening a remote OpenClaw gateway, choosing between SSH tunneling, Tailscale, or reverse-proxy exposure, or reviewing Podman, pairing, sandboxing, token auth, and tool-permission defaults for a secure personal deployment."
         },
         {
           "owner": "xixu-me",
           "repo": "skills",
           "name": "secure-linux-web-hosting",
-          "skill_path": "skills/secure-linux-web-hosting"
+          "skill_path": "skills/secure-linux-web-hosting",
+          "description": "Use when setting up, hardening, or reviewing a cloud server for self-hosting, including DNS, SSH, firewalls, Nginx, static-site hosting, reverse-proxying an app, HTTPS with Let's Encrypt or ACME clients, safe HTTP-to-HTTPS redirects, or optional post-launch network tuning such as BBR."
         }
       ]
     },
@@ -219,43 +252,50 @@
           "owner": "microsoft",
           "repo": "azure-skills",
           "name": "azure-compliance",
-          "skill_path": ".github/plugins/azure-skills/skills/azure-compliance"
+          "skill_path": ".github/plugins/azure-skills/skills/azure-compliance",
+          "description": "Run Azure compliance and security audits with azqr plus Key Vault expiration checks. Covers best-practice assessment, resource review, policy/compliance validation, and security posture checks. WHEN: compliance scan, security audit, BEFORE running azqr (compliance cli tool), Azure best practices, Key Vault expiration check, expired certificates, expiring secrets, orphaned resources, compliance assessment."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "attack-tree-construction",
-          "skill_path": "plugins/security-scanning/skills/attack-tree-construction"
+          "skill_path": "plugins/security-scanning/skills/attack-tree-construction",
+          "description": "Build comprehensive attack trees to visualize threat paths. Use when mapping attack scenarios, identifying defense gaps, or communicating security risks to stakeholders."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "gdpr-data-handling",
-          "skill_path": "plugins/hr-legal-compliance/skills/gdpr-data-handling"
+          "skill_path": "plugins/hr-legal-compliance/skills/gdpr-data-handling",
+          "description": "Implement GDPR-compliant data handling with consent management, data subject rights, and privacy by design. Use when building systems that process EU personal data, implementing privacy controls, or conducting GDPR compliance reviews."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "pci-compliance",
-          "skill_path": "plugins/payment-processing/skills/pci-compliance"
+          "skill_path": "plugins/payment-processing/skills/pci-compliance",
+          "description": "Implement PCI DSS compliance requirements for secure handling of payment card data and payment systems. Use when securing payment processing, achieving PCI compliance, or implementing payment card security measures."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "security-requirement-extraction",
-          "skill_path": "plugins/security-scanning/skills/security-requirement-extraction"
+          "skill_path": "plugins/security-scanning/skills/security-requirement-extraction",
+          "description": "Derive security requirements from threat models and business context. Use when translating threats into actionable requirements, creating security user stories, or building security test cases."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "stride-analysis-patterns",
-          "skill_path": "plugins/security-scanning/skills/stride-analysis-patterns"
+          "skill_path": "plugins/security-scanning/skills/stride-analysis-patterns",
+          "description": "Apply STRIDE methodology to systematically identify threats. Use when analyzing system security, conducting threat modeling sessions, or creating security documentation."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "threat-mitigation-mapping",
-          "skill_path": "plugins/security-scanning/skills/threat-mitigation-mapping"
+          "skill_path": "plugins/security-scanning/skills/threat-mitigation-mapping",
+          "description": "Map identified threats to appropriate security controls and mitigations. Use when prioritizing security investments, creating remediation plans, or validating control effectiveness."
         }
       ]
     },
@@ -267,85 +307,99 @@
           "owner": "ljagiello",
           "repo": "ctf-skills",
           "name": "ctf-crypto",
-          "skill_path": "ctf-crypto"
+          "skill_path": "ctf-crypto",
+          "description": "Provides cryptography attack techniques for CTF challenges. Use when attacking encryption, hashing, signatures, ZKP, PRNG, or mathematical crypto problems involving RSA, AES, ECC, lattices, LWE, CVP, number theory, Coppersmith, Pollard, Wiener, padding oracle, GCM, key derivation, or stream/block cipher weaknesses."
         },
         {
           "owner": "ljagiello",
           "repo": "ctf-skills",
           "name": "ctf-forensics",
-          "skill_path": "ctf-forensics"
+          "skill_path": "ctf-forensics",
+          "description": "Provides digital forensics and signal analysis techniques for CTF challenges. Use when analyzing disk images, memory dumps, event logs, network captures, cryptocurrency transactions, steganography, PDF analysis, Windows registry, Volatility, PCAP, Docker images, coredumps, side-channel power traces, DTMF audio spectrograms, packet timing analysis, CD audio disc images, or recovering deleted files and credentials."
         },
         {
           "owner": "ljagiello",
           "repo": "ctf-skills",
           "name": "ctf-malware",
-          "skill_path": "ctf-malware"
+          "skill_path": "ctf-malware",
+          "description": "Provides malware analysis and network traffic techniques for CTF challenges. Use when analyzing obfuscated scripts, malicious packages, custom crypto protocols, C2 traffic, PE/.NET binaries, RC4/AES encrypted communications, YARA rules, shellcode analysis, memory forensics for malware (Volatility malfind, process injection detection), anti-analysis techniques (VM/sandbox detection, timing evasion, API hashing, process injection, environment checks), or extracting malware configurations and indicators of compromise."
         },
         {
           "owner": "ljagiello",
           "repo": "ctf-skills",
           "name": "ctf-misc",
-          "skill_path": "ctf-misc"
+          "skill_path": "ctf-misc",
+          "description": "Provides miscellaneous CTF challenge techniques for problems that do not cleanly fit the main categories. Use for encoding puzzles, pyjails, bash jails, RF/SDR, DNS oddities, unicode tricks, esoteric languages, QR or audio puzzles, constraint solving, game theory, unusual sandbox escapes, and hybrid logic puzzles. Prefer a more specific skill first when the challenge is mainly web, pwn, reverse, forensics, malware, OSINT, or crypto. Treat this as the fallback skill for genuine cross-category or edge-case challenges, not the default starting point."
         },
         {
           "owner": "ljagiello",
           "repo": "ctf-skills",
           "name": "ctf-osint",
-          "skill_path": "ctf-osint"
+          "skill_path": "ctf-osint",
+          "description": "Provides open source intelligence techniques for CTF challenges. Use when gathering information from public sources, social media, geolocation, DNS records, username enumeration, reverse image search, Google dorking, Wayback Machine, Tor relays, FEC filings, or identifying unknown data like hashes and coordinates."
         },
         {
           "owner": "ljagiello",
           "repo": "ctf-skills",
           "name": "ctf-pwn",
-          "skill_path": "ctf-pwn"
+          "skill_path": "ctf-pwn",
+          "description": "Provides binary exploitation techniques for CTF challenges. Use when you already have a vulnerable native target or service and need to turn memory corruption or low-level primitives into code execution or privilege escalation, such as buffer overflows, format strings, heap bugs, ROP, ret2libc, shellcode, kernel exploitation, seccomp bypass, sandbox escape, or Windows/Linux exploit chains. Do not use it when the main blocker is understanding what the binary does; use reverse engineering first. Do not use it for pure web bugs, disk or packet forensics, or standalone crypto/math challenges."
         },
         {
           "owner": "ljagiello",
           "repo": "ctf-skills",
           "name": "ctf-reverse",
-          "skill_path": "ctf-reverse"
+          "skill_path": "ctf-reverse",
+          "description": "Provides reverse engineering techniques for CTF challenges. Use when the main job is to understand how a compiled, obfuscated, packed, or virtualized target works before exploiting or solving it, including binaries, APKs, WASM, firmware, custom VMs, bytecode, game clients, malware-like loaders, and anti-debug or anti-analysis logic. Do not use it when the vulnerability is already understood and the remaining task is exploitation; use pwn instead. Do not use it for pure web workflows, log or disk forensics, or standalone crypto problems unless reversing the implementation is the real blocker."
         },
         {
           "owner": "ljagiello",
           "repo": "ctf-skills",
           "name": "ctf-web",
-          "skill_path": "ctf-web"
+          "skill_path": "ctf-web",
+          "description": "Provides web exploitation techniques for CTF challenges. Use when the target is primarily an HTTP application, API, browser client, template engine, identity flow, or smart-contract frontend/backend surface, including XSS, SQLi, SSTI, SSRF, XXE, JWT, auth bypass, file upload, request smuggling, OAuth/OIDC, SAML, prototype pollution, and similar web bugs. Do not use it for native binary memory corruption, reverse engineering of standalone executables, disk or memory forensics, or pure cryptanalysis unless the web flaw is still the main path to the flag."
         },
         {
           "owner": "ljagiello",
           "repo": "ctf-skills",
           "name": "ctf-writeup",
-          "skill_path": "ctf-writeup"
+          "skill_path": "ctf-writeup",
+          "description": "Generates a single standardized submission-style CTF writeup for competition handoff and organizer review. Use after solving a CTF challenge to document the solution steps, tools used, and lessons learned in a structured format."
         },
         {
           "owner": "ljagiello",
           "repo": "ctf-skills",
           "name": "solve-challenge",
-          "skill_path": "solve-challenge"
+          "skill_path": "solve-challenge",
+          "description": "Solves CTF challenges by performing first-pass triage, identifying the dominant category, and routing execution to the right specialized ctf-* skill. Use when the user gives you a challenge bundle, a remote service, a suspicious file, or only a vague challenge description and you must determine where to start. Do not use it when the category is already clear and a specialized skill can be invoked directly; this is the dispatcher and recon entrypoint, not the deepest reference for category-specific techniques."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "anti-reversing-techniques",
-          "skill_path": "plugins/reverse-engineering/skills/anti-reversing-techniques"
+          "skill_path": "plugins/reverse-engineering/skills/anti-reversing-techniques",
+          "description": "Understand anti-reversing, obfuscation, and protection techniques encountered during software analysis. Use this skill when analyzing malware evasion techniques, when implementing anti-debugging protections for CTF challenges, when reverse engineering packed binaries, or when building security research tools that need to detect virtualized environments."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "binary-analysis-patterns",
-          "skill_path": "plugins/reverse-engineering/skills/binary-analysis-patterns"
+          "skill_path": "plugins/reverse-engineering/skills/binary-analysis-patterns",
+          "description": "Master binary analysis patterns including disassembly, decompilation, control flow analysis, and code pattern recognition. Use when analyzing executables, understanding compiled code, or performing static analysis on binaries."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "memory-forensics",
-          "skill_path": "plugins/reverse-engineering/skills/memory-forensics"
+          "skill_path": "plugins/reverse-engineering/skills/memory-forensics",
+          "description": "Master memory forensics techniques including memory acquisition, process analysis, and artifact extraction using Volatility and related tools. Use when analyzing memory dumps, investigating incidents, or performing malware analysis from RAM captures."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "protocol-reverse-engineering",
-          "skill_path": "plugins/reverse-engineering/skills/protocol-reverse-engineering"
+          "skill_path": "plugins/reverse-engineering/skills/protocol-reverse-engineering",
+          "description": "Master network protocol reverse engineering including packet analysis, protocol dissection, and custom protocol documentation. Use when analyzing network traffic, understanding proprietary protocols, or debugging network communication."
         }
       ]
     },
@@ -357,19 +411,22 @@
           "owner": "trailofbits",
           "repo": "skills",
           "name": "secure-workflow-guide",
-          "skill_path": "plugins/building-secure-contracts/skills/secure-workflow-guide"
+          "skill_path": "plugins/building-secure-contracts/skills/secure-workflow-guide",
+          "description": "Guides through Trail of Bits' 5-step secure development workflow. Runs Slither scans, checks special features (upgradeability/ERC conformance/token integration), generates visual security diagrams, helps document security properties for fuzzing/verification, and reviews manual security areas."
         },
         {
           "owner": "trailofbits",
           "repo": "skills",
           "name": "supply-chain-risk-auditor",
-          "skill_path": "plugins/supply-chain-risk-auditor/skills/supply-chain-risk-auditor"
+          "skill_path": "plugins/supply-chain-risk-auditor/skills/supply-chain-risk-auditor",
+          "description": "Identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "solidity-security",
-          "skill_path": "plugins/blockchain-web3/skills/solidity-security"
+          "skill_path": "plugins/blockchain-web3/skills/solidity-security",
+          "description": "Master smart contract security best practices to prevent common vulnerabilities and implement secure Solidity patterns. Use when writing smart contracts, auditing existing contracts, or implementing security measures for blockchain applications."
         }
       ]
     },

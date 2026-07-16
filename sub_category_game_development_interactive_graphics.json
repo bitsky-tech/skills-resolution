@@ -9,25 +9,29 @@
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "game-engine",
-          "skill_path": "skills/game-engine"
+          "skill_path": "skills/game-engine",
+          "description": "Expert skill for building web-based game engines and games using HTML5, Canvas, WebGL, and JavaScript. Use when asked to create games, build game engines, implement game physics, handle collision detection, set up game loops, manage sprites, add game controls, or work with 2D/3D rendering. Covers techniques for platformers, breakout-style games, maze games, tilemaps, audio, multiplayer via WebRTC, and publishing games."
         },
         {
           "owner": "rivet-dev",
           "repo": "skills",
           "name": "multiplayer-game",
-          "skill_path": "multiplayer-game"
+          "skill_path": "multiplayer-game",
+          "description": "Pragmatic patterns for building multiplayer games: matchmaking, tick loops, realtime state, interest management, and validation."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "godot-gdscript-patterns",
-          "skill_path": "plugins/game-development/skills/godot-gdscript-patterns"
+          "skill_path": "plugins/game-development/skills/godot-gdscript-patterns",
+          "description": "Master Godot 4 GDScript patterns including signals, scenes, state machines, and optimization. Use when building Godot games, implementing game systems, or learning GDScript best practices."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "unity-ecs-patterns",
-          "skill_path": "plugins/game-development/skills/unity-ecs-patterns"
+          "skill_path": "plugins/game-development/skills/unity-ecs-patterns",
+          "description": "Master Unity ECS (Entity Component System) with DOTS, Jobs, and Burst for high-performance game development. Use when building data-oriented games, optimizing performance, or working with large entity counts."
         }
       ]
     },
@@ -39,61 +43,71 @@
           "owner": "cloudai-x",
           "repo": "threejs-skills",
           "name": "threejs-animation",
-          "skill_path": "skills/threejs-animation"
+          "skill_path": "skills/threejs-animation",
+          "description": "Three.js animation - keyframe animation, skeletal animation, morph targets, animation mixing. Use when animating objects, playing GLTF animations, creating procedural motion, or blending animations."
         },
         {
           "owner": "cloudai-x",
           "repo": "threejs-skills",
           "name": "threejs-fundamentals",
-          "skill_path": "skills/threejs-fundamentals"
+          "skill_path": "skills/threejs-fundamentals",
+          "description": "Three.js scene setup, cameras, renderer, Object3D hierarchy, coordinate systems. Use when setting up 3D scenes, creating cameras, configuring renderers, managing object hierarchies, or working with transforms."
         },
         {
           "owner": "cloudai-x",
           "repo": "threejs-skills",
           "name": "threejs-geometry",
-          "skill_path": "skills/threejs-geometry"
+          "skill_path": "skills/threejs-geometry",
+          "description": "Three.js geometry creation - built-in shapes, BufferGeometry, custom geometry, instancing. Use when creating 3D shapes, working with vertices, building custom meshes, or optimizing with instanced rendering."
         },
         {
           "owner": "cloudai-x",
           "repo": "threejs-skills",
           "name": "threejs-interaction",
-          "skill_path": "skills/threejs-interaction"
+          "skill_path": "skills/threejs-interaction",
+          "description": "Three.js interaction - raycasting, controls, mouse/touch input, object selection. Use when handling user input, implementing click detection, adding camera controls, or creating interactive 3D experiences."
         },
         {
           "owner": "cloudai-x",
           "repo": "threejs-skills",
           "name": "threejs-lighting",
-          "skill_path": "skills/threejs-lighting"
+          "skill_path": "skills/threejs-lighting",
+          "description": "Three.js lighting - light types, shadows, environment lighting. Use when adding lights, configuring shadows, setting up IBL, or optimizing lighting performance."
         },
         {
           "owner": "cloudai-x",
           "repo": "threejs-skills",
           "name": "threejs-loaders",
-          "skill_path": "skills/threejs-loaders"
+          "skill_path": "skills/threejs-loaders",
+          "description": "Three.js asset loading - GLTF, textures, images, models, async patterns. Use when loading 3D models, textures, HDR environments, or managing loading progress."
         },
         {
           "owner": "cloudai-x",
           "repo": "threejs-skills",
           "name": "threejs-materials",
-          "skill_path": "skills/threejs-materials"
+          "skill_path": "skills/threejs-materials",
+          "description": "Three.js materials - PBR, basic, phong, shader materials, material properties. Use when styling meshes, working with textures, creating custom shaders, or optimizing material performance."
         },
         {
           "owner": "cloudai-x",
           "repo": "threejs-skills",
           "name": "threejs-postprocessing",
-          "skill_path": "skills/threejs-postprocessing"
+          "skill_path": "skills/threejs-postprocessing",
+          "description": "Three.js post-processing - EffectComposer, bloom, DOF, screen effects. Use when adding visual effects, color grading, blur, glow, or creating custom screen-space shaders."
         },
         {
           "owner": "cloudai-x",
           "repo": "threejs-skills",
           "name": "threejs-shaders",
-          "skill_path": "skills/threejs-shaders"
+          "skill_path": "skills/threejs-shaders",
+          "description": "Three.js shaders - GLSL, ShaderMaterial, uniforms, custom effects. Use when creating custom visual effects, modifying vertices, writing fragment shaders, or extending built-in materials."
         },
         {
           "owner": "cloudai-x",
           "repo": "threejs-skills",
           "name": "threejs-textures",
-          "skill_path": "skills/threejs-textures"
+          "skill_path": "skills/threejs-textures",
+          "description": "Three.js textures - texture types, UV mapping, environment maps, texture settings. Use when working with images, UV coordinates, cubemaps, HDR environments, or texture optimization."
         }
       ]
     },
@@ -105,7 +119,8 @@
           "owner": "anthropics",
           "repo": "skills",
           "name": "algorithmic-art",
-          "skill_path": "skills/algorithmic-art"
+          "skill_path": "skills/algorithmic-art",
+          "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations."
         }
       ]
     },

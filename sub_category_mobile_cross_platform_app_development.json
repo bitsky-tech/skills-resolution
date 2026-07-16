@@ -9,79 +9,92 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "dart-flutter-patterns",
-          "skill_path": "skills/dart-flutter-patterns"
+          "skill_path": "skills/dart-flutter-patterns",
+          "description": "Production-ready Dart and Flutter patterns covering null safety, immutable state, async composition, widget architecture, popular state management frameworks (BLoC, Riverpod, Provider), GoRouter navigation, Dio networking, Freezed code generation, and clean architecture."
         },
         {
           "owner": "flutter",
           "repo": "skills",
           "name": "flutter-add-integration-test",
-          "skill_path": "skills/flutter-add-integration-test"
+          "skill_path": "skills/flutter-add-integration-test",
+          "description": "Configures Flutter Driver for app interaction and converts MCP actions into permanent integration tests. Use when adding integration testing to a project, exploring UI components via MCP, or automating user flows with the integration_test package."
         },
         {
           "owner": "flutter",
           "repo": "skills",
           "name": "flutter-add-widget-preview",
-          "skill_path": "skills/flutter-add-widget-preview"
+          "skill_path": "skills/flutter-add-widget-preview",
+          "description": "Adds interactive widget previews to the project using the previews.dart system. Use when creating new UI components or updating existing screens to ensure consistent design and interactive testing."
         },
         {
           "owner": "flutter",
           "repo": "skills",
           "name": "flutter-add-widget-test",
-          "skill_path": "skills/flutter-add-widget-test"
+          "skill_path": "skills/flutter-add-widget-test",
+          "description": "Implement a component-level test using `WidgetTester` to verify UI rendering and user interactions (tapping, scrolling, entering text). Use when validating that a specific widget displays correct data and responds to events as expected."
         },
         {
           "owner": "flutter",
           "repo": "skills",
           "name": "flutter-apply-architecture-best-practices",
-          "skill_path": "skills/flutter-apply-architecture-best-practices"
+          "skill_path": "skills/flutter-apply-architecture-best-practices",
+          "description": "Architects a Flutter application using the recommended layered approach (UI, Logic, Data). Use when structuring a new project or refactoring for scalability."
         },
         {
           "owner": "flutter",
           "repo": "skills",
           "name": "flutter-build-responsive-layout",
-          "skill_path": "skills/flutter-build-responsive-layout"
+          "skill_path": "skills/flutter-build-responsive-layout",
+          "description": "Use `LayoutBuilder`, `MediaQuery`, or `Expanded/Flexible` to create a layout that adapts to different screen sizes. Use when you need the UI to look good on both mobile and tablet/desktop form factors."
         },
         {
           "owner": "flutter",
           "repo": "skills",
           "name": "flutter-fix-layout-issues",
-          "skill_path": "skills/flutter-fix-layout-issues"
+          "skill_path": "skills/flutter-fix-layout-issues",
+          "description": "Fixes Flutter layout errors (overflows, unbounded constraints) using Dart and Flutter MCP tools. Use when addressing \"RenderFlex overflowed\", \"Vertical viewport was given unbounded height\", or similar layout issues."
         },
         {
           "owner": "flutter",
           "repo": "skills",
           "name": "flutter-implement-json-serialization",
-          "skill_path": "skills/flutter-implement-json-serialization"
+          "skill_path": "skills/flutter-implement-json-serialization",
+          "description": "Create model classes with `fromJson` and `toJson` methods using `dart:convert`. Use when manually mapping JSON keys to class properties for simple data structures."
         },
         {
           "owner": "flutter",
           "repo": "skills",
           "name": "flutter-setup-declarative-routing",
-          "skill_path": "skills/flutter-setup-declarative-routing"
+          "skill_path": "skills/flutter-setup-declarative-routing",
+          "description": "Configure `MaterialApp.router` using a package like `go_router` for advanced URL-based navigation. Use when developing web applications or mobile apps that require specific deep linking and browser history support."
         },
         {
           "owner": "flutter",
           "repo": "skills",
           "name": "flutter-setup-localization",
-          "skill_path": "skills/flutter-setup-localization"
+          "skill_path": "skills/flutter-setup-localization",
+          "description": "Add `flutter_localizations` and `intl` dependencies, enable \"generate true\" in `pubspec.yaml`, and create an `l10n.yaml` configuration file. Use when initializing localization support for a new Flutter project."
         },
         {
           "owner": "flutter",
           "repo": "skills",
           "name": "flutter-use-http-package",
-          "skill_path": "skills/flutter-use-http-package"
+          "skill_path": "skills/flutter-use-http-package",
+          "description": "Use the `http` package to execute GET, POST, PUT, or DELETE requests. Use when you need to fetch from or send data to a REST API."
         },
         {
           "owner": "jeffallan",
           "repo": "claude-skills",
           "name": "flutter-expert",
-          "skill_path": "skills/flutter-expert"
+          "skill_path": "skills/flutter-expert",
+          "description": "Use when building cross-platform applications with Flutter 3+ and Dart. Invoke for widget development, Riverpod/Bloc state management, GoRouter navigation, platform-specific implementations, performance optimization."
         },
         {
           "owner": "madteacher",
           "repo": "mad-agents-skills",
           "name": "flutter-animations",
-          "skill_path": "flutter-animations"
+          "skill_path": "flutter-animations",
+          "description": "Add, fix, refactor, debug, test, or explain Flutter animations and motion effects. Use when working with implicit animations such as AnimatedContainer, AnimatedOpacity, AnimatedSwitcher, and TweenAnimationBuilder; explicit animations using AnimationController, Tween, CurvedAnimation, AnimatedWidget, AnimatedBuilder, and built-in transitions; Hero/shared-element route transitions; staggered or sequenced animations; physics-based motion, gestures, springs, flings, scroll physics, curves, performance, accessibility, reduced motion, and animation lifecycle bugs."
         }
       ]
     },
@@ -93,109 +106,127 @@
           "owner": "callstackincubator",
           "repo": "agent-skills",
           "name": "react-native-best-practices",
-          "skill_path": "skills/react-native-best-practices"
+          "skill_path": "skills/react-native-best-practices",
+          "description": "Provides React Native performance optimization guidelines for FPS, TTI, bundle size, memory leaks, re-renders, and animations. Applies to tasks involving Hermes optimization, JS thread blocking, bridge overhead, FlashList, native modules, or debugging jank and frame drops."
         },
         {
           "owner": "callstackincubator",
           "repo": "agent-skills",
           "name": "upgrading-react-native",
-          "skill_path": "skills/upgrading-react-native"
+          "skill_path": "skills/upgrading-react-native",
+          "description": "Upgrades React Native apps to newer versions by applying rn-diff-purge template diffs, updating package.json dependencies, migrating native iOS and Android configuration, resolving CocoaPods and Gradle changes, and handling breaking API updates. Use when upgrading React Native, bumping RN version, updating from RN 0.x to 0.y, or migrating Expo SDK alongside a React Native upgrade."
         },
         {
           "owner": "expo",
           "repo": "skills",
           "name": "building-native-ui",
-          "skill_path": "plugins/expo/skills/building-native-ui"
+          "skill_path": "plugins/expo/skills/building-native-ui",
+          "description": "Complete guide for building beautiful apps with Expo Router. Covers fundamentals, styling, components, navigation, animations, patterns, and native tabs."
         },
         {
           "owner": "expo",
           "repo": "skills",
           "name": "eas-update-insights",
-          "skill_path": "plugins/expo/skills/eas-update-insights"
+          "skill_path": "plugins/expo/skills/eas-update-insights",
+          "description": "Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel. Use when the user asks how an update is performing, whether a rollout is healthy, how many users are on the embedded build vs OTA, or wants to gate CI on update health."
         },
         {
           "owner": "expo",
           "repo": "skills",
           "name": "expo-api-routes",
-          "skill_path": "plugins/expo/skills/expo-api-routes"
+          "skill_path": "plugins/expo/skills/expo-api-routes",
+          "description": "Guidelines for creating API routes in Expo Router with EAS Hosting"
         },
         {
           "owner": "expo",
           "repo": "skills",
           "name": "expo-deployment",
-          "skill_path": "plugins/expo/skills/expo-deployment"
+          "skill_path": "plugins/expo/skills/expo-deployment",
+          "description": "Deploying Expo apps to iOS App Store, Android Play Store, web hosting, and API routes"
         },
         {
           "owner": "expo",
           "repo": "skills",
           "name": "expo-dev-client",
-          "skill_path": "plugins/expo/skills/expo-dev-client"
+          "skill_path": "plugins/expo/skills/expo-dev-client",
+          "description": "Build and distribute Expo development clients locally or via TestFlight"
         },
         {
           "owner": "expo",
           "repo": "skills",
           "name": "expo-module",
-          "skill_path": "plugins/expo/skills/expo-module"
+          "skill_path": "plugins/expo/skills/expo-module",
+          "description": "Guide for creating and writing Expo native modules and views using the Expo Modules API (Swift, Kotlin, TypeScript). Covers module definition DSL, native views, shared objects, config plugins, lifecycle hooks, autolinking, and type system. Use when building or modifying native modules for Expo."
         },
         {
           "owner": "expo",
           "repo": "skills",
           "name": "expo-tailwind-setup",
-          "skill_path": "plugins/expo/skills/expo-tailwind-setup"
+          "skill_path": "plugins/expo/skills/expo-tailwind-setup",
+          "description": "Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5 for universal styling"
         },
         {
           "owner": "expo",
           "repo": "skills",
           "name": "Expo UI Jetpack Compose",
-          "skill_path": "plugins/expo/skills/expo-ui-jetpack-compose"
+          "skill_path": "plugins/expo/skills/expo-ui-jetpack-compose",
+          "description": "`@expo/ui/jetpack-compose` package lets you use Jetpack Compose Views and modifiers in your app."
         },
         {
           "owner": "expo",
           "repo": "skills",
           "name": "Expo UI SwiftUI",
-          "skill_path": "plugins/expo/skills/expo-ui-swift-ui"
+          "skill_path": "plugins/expo/skills/expo-ui-swift-ui",
+          "description": "`@expo/ui/swift-ui` package lets you use SwiftUI Views and modifiers in your app."
         },
         {
           "owner": "expo",
           "repo": "skills",
           "name": "native-data-fetching",
-          "skill_path": "plugins/expo/skills/native-data-fetching"
+          "skill_path": "plugins/expo/skills/native-data-fetching",
+          "description": "Use when implementing or debugging ANY network request, API call, or data fetching. Covers fetch API, React Query, SWR, error handling, caching, offline support, and Expo Router data loaders (`useLoaderData`)."
         },
         {
           "owner": "expo",
           "repo": "skills",
           "name": "upgrading-expo",
-          "skill_path": "plugins/expo/skills/upgrading-expo"
+          "skill_path": "plugins/expo/skills/upgrading-expo",
+          "description": "Guidelines for upgrading Expo SDK versions and fixing dependency issues"
         },
         {
           "owner": "expo",
           "repo": "skills",
           "name": "use-dom",
-          "skill_path": "plugins/expo/skills/use-dom"
+          "skill_path": "plugins/expo/skills/use-dom",
+          "description": "Use Expo DOM components to run web code in a webview on native and as-is on web. Migrate web code to native incrementally."
         },
         {
           "owner": "heroui-inc",
           "repo": "heroui",
           "name": "heroui-native",
-          "skill_path": "skills/heroui-native"
+          "skill_path": "skills/heroui-native",
+          "description": "HeroUI Native component library for React Native (Tailwind v4 via Uniwind). Use when building mobile UIs with HeroUI Native — creating Buttons, Cards, TextFields, Dialogs; installing heroui-native; configuring dark/light themes; or fetching component docs. Keywords: HeroUI Native, heroui-native, React Native UI, Uniwind, mobile components."
         },
         {
           "owner": "vercel-labs",
           "repo": "agent-skills",
           "name": "vercel-react-native-skills",
-          "skill_path": "skills/react-native-skills"
+          "skill_path": "skills/react-native-skills",
+          "description": "React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list performance, implementing animations, or working with native modules. Triggers on tasks involving React Native, Expo, mobile performance, or native platform APIs."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "react-native-architecture",
-          "skill_path": "plugins/frontend-mobile-development/skills/react-native-architecture"
+          "skill_path": "plugins/frontend-mobile-development/skills/react-native-architecture",
+          "description": "Build production React Native apps with Expo, navigation, native modules, offline sync, and cross-platform patterns. Use when developing mobile apps, implementing native integrations, or architecting React Native projects."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "react-native-design",
-          "skill_path": "plugins/ui-design/skills/react-native-design"
+          "skill_path": "plugins/ui-design/skills/react-native-design",
+          "description": "Master React Native styling, navigation, and Reanimated animations for cross-platform mobile development. Use when building React Native apps, implementing navigation patterns, or creating performant animations."
         }
       ]
     },
@@ -207,43 +238,50 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "swiftui-patterns",
-          "skill_path": "skills/swiftui-patterns"
+          "skill_path": "skills/swiftui-patterns",
+          "description": "SwiftUI architecture patterns, state management with @Observable, view composition, navigation, performance optimization, and modern iOS/macOS UI best practices."
         },
         {
           "owner": "avdlee",
           "repo": "swiftui-agent-skill",
           "name": "swiftui-expert-skill",
-          "skill_path": "swiftui-expert-skill"
+          "skill_path": "swiftui-expert-skill",
+          "description": "Use when writing, reviewing, or refactoring SwiftUI code for iOS or macOS, including state management, view composition, performance, Liquid Glass adoption, or Instruments `.trace` capture/analysis for hangs, hitches, CPU hotspots, or excessive view updates."
         },
         {
           "owner": "dimillian",
           "repo": "skills",
           "name": "swiftui-performance-audit",
-          "skill_path": "swiftui-performance-audit"
+          "skill_path": "swiftui-performance-audit",
+          "description": "Audit and improve SwiftUI runtime performance from code review and architecture. Use for requests to diagnose slow rendering, janky scrolling, high CPU/memory usage, excessive view updates, or layout thrash in SwiftUI apps, and to provide guidance for user-run Instruments profiling when code review alone is insufficient."
         },
         {
           "owner": "firebase",
           "repo": "agent-skills",
           "name": "xcode-project-setup",
-          "skill_path": "skills/xcode-project-setup"
+          "skill_path": "skills/xcode-project-setup",
+          "description": "Safely modifies Xcode projects (.pbxproj) to add Swift Packages and link files. Use this skill whenever an iOS project needs dependencies installed (e.g. Firebase, Alamofire)."
         },
         {
           "owner": "twostraws",
           "repo": "swiftdata-agent-skill",
           "name": "swiftdata-pro",
-          "skill_path": "swiftdata-pro"
+          "skill_path": "swiftdata-pro",
+          "description": "Writes, reviews, and improves SwiftData code using modern APIs and best practices. Use when reading, writing, or reviewing projects that use SwiftData."
         },
         {
           "owner": "twostraws",
           "repo": "swiftui-agent-skill",
           "name": "swiftui-pro",
-          "skill_path": "swiftui-pro"
+          "skill_path": "swiftui-pro",
+          "description": "Comprehensively reviews SwiftUI code for best practices on modern APIs, maintainability, and performance. Use when reading, writing, or reviewing SwiftUI projects."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "mobile-ios-design",
-          "skill_path": "plugins/ui-design/skills/mobile-ios-design"
+          "skill_path": "plugins/ui-design/skills/mobile-ios-design",
+          "description": "Master iOS Human Interface Guidelines and SwiftUI patterns for building native iOS apps. Use when designing iOS interfaces, implementing SwiftUI views, or ensuring apps follow Apple's design principles."
         }
       ]
     },
@@ -255,19 +293,22 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "android-clean-architecture",
-          "skill_path": "skills/android-clean-architecture"
+          "skill_path": "skills/android-clean-architecture",
+          "description": "Clean Architecture patterns for Android and Kotlin Multiplatform projects — module structure, dependency rules, UseCases, Repositories, and data layer patterns."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "compose-multiplatform-patterns",
-          "skill_path": "skills/compose-multiplatform-patterns"
+          "skill_path": "skills/compose-multiplatform-patterns",
+          "description": "Compose Multiplatform and Jetpack Compose patterns for KMP projects — state management, navigation, theming, performance, and platform-specific UI."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "mobile-android-design",
-          "skill_path": "plugins/ui-design/skills/mobile-android-design"
+          "skill_path": "plugins/ui-design/skills/mobile-android-design",
+          "description": "Master Material Design 3 and Jetpack Compose patterns for building native Android apps. Use when designing Android interfaces, implementing Compose UI, or following Google's Material Design guidelines."
         }
       ]
     },
@@ -279,25 +320,29 @@
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "winui3-migration-guide",
-          "skill_path": "skills/winui3-migration-guide"
+          "skill_path": "skills/winui3-migration-guide",
+          "description": "UWP-to-WinUI 3 migration reference. Maps legacy UWP APIs to correct Windows App SDK equivalents with before/after code snippets. Covers namespace changes, threading (CoreDispatcher to DispatcherQueue), windowing (CoreWindow to AppWindow), dialogs, pickers, sharing, printing, background tasks, and the most common Copilot code generation mistakes."
         },
         {
           "owner": "msmps",
           "repo": "opentui-skill",
           "name": "opentui",
-          "skill_path": "skill/opentui"
+          "skill_path": "skill/opentui",
+          "description": "Comprehensive OpenTUI skill for building terminal user interfaces. Covers the core imperative API, React reconciler, and Solid reconciler. Use for any TUI development task including components, layout, keyboard handling, animations, and testing."
         },
         {
           "owner": "nodnarbnitram",
           "repo": "claude-code-extensions",
           "name": "tauri-v2",
-          "skill_path": ".claude/skills/tauri-v2"
+          "skill_path": ".claude/skills/tauri-v2",
+          "description": "Tauri v2+ cross-platform app development with Rust backend. Use when configuring tauri.conf.json, implementing Rust commands (#[tauri::command]), setting up IPC patterns (invoke, emit, channels), configuring permissions/capabilities, troubleshooting build issues, or deploying desktop/mobile apps. Triggers on Tauri, src-tauri, invoke, emit, capabilities.json."
         },
         {
           "owner": "tencentcloudbase",
           "repo": "skills",
           "name": "miniprogram-development",
-          "skill_path": "skills/miniprogram-development"
+          "skill_path": "skills/miniprogram-development",
+          "description": "WeChat Mini Program development skill for building, debugging, previewing, testing, publishing, and optimizing mini program projects. This skill should be used when users ask to create, develop, modify, debug, preview, test, deploy, publish, launch, review, or optimize WeChat Mini Programs, mini program pages, components, `tabBar`, routing, navigation, icon assets, project structure, project configuration, `project.config.json`, `appid` setup, device preview, real-device validation, WeChat Developer Tools workflows, `miniprogram-ci` preview/upload flows, or mini program release processes. It should also be used when users explicitly mention CloudBase, `wx.cloud`, Tencent CloudBase, 腾讯云开发, or 云开发 in a mini program project."
         }
       ]
     },

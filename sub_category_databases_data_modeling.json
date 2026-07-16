@@ -9,61 +9,71 @@
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "postgresql-code-review",
-          "skill_path": "plugins/database-data-management/skills/postgresql-code-review"
+          "skill_path": "plugins/database-data-management/skills/postgresql-code-review",
+          "description": "PostgreSQL-specific code review assistant focusing on PostgreSQL best practices, anti-patterns, and unique quality standards. Covers JSONB operations, array usage, custom types, schema design, function optimization, and PostgreSQL-exclusive security features like Row Level Security (RLS)."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "postgresql-optimization",
-          "skill_path": "plugins/database-data-management/skills/postgresql-optimization"
+          "skill_path": "plugins/database-data-management/skills/postgresql-optimization",
+          "description": "PostgreSQL-specific development assistant focusing on unique PostgreSQL features, advanced data types, and PostgreSQL-exclusive capabilities. Covers JSONB operations, array types, custom types, range/geometric types, full-text search, window functions, and PostgreSQL extensions ecosystem."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "sql-code-review",
-          "skill_path": "plugins/database-data-management/skills/sql-code-review"
+          "skill_path": "plugins/database-data-management/skills/sql-code-review",
+          "description": "Universal SQL code review assistant that performs comprehensive security, maintainability, and code quality analysis across all SQL databases (MySQL, PostgreSQL, SQL Server, Oracle). Focuses on SQL injection prevention, access control, code standards, and anti-pattern detection. Complements SQL optimization prompt for complete development coverage."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "sql-optimization",
-          "skill_path": "plugins/database-data-management/skills/sql-optimization"
+          "skill_path": "plugins/database-data-management/skills/sql-optimization",
+          "description": "Universal SQL performance optimization assistant for comprehensive query tuning, indexing strategies, and database performance analysis across all SQL databases (MySQL, PostgreSQL, SQL Server, Oracle). Provides execution plan analysis, pagination optimization, batch operations, and performance monitoring guidance."
         },
         {
           "owner": "jeffallan",
           "repo": "claude-skills",
           "name": "postgres-pro",
-          "skill_path": "skills/postgres-pro"
+          "skill_path": "skills/postgres-pro",
+          "description": "Use when optimizing PostgreSQL queries, configuring replication, or implementing advanced database features. Invoke for EXPLAIN analysis, JSONB operations, extension usage, VACUUM tuning, performance monitoring."
         },
         {
           "owner": "jeffallan",
           "repo": "claude-skills",
           "name": "sql-pro",
-          "skill_path": "skills/sql-pro"
+          "skill_path": "skills/sql-pro",
+          "description": "Optimizes SQL queries, designs database schemas, and troubleshoots performance issues. Use when a user asks why their query is slow, needs help writing complex joins or aggregations, mentions database performance issues, or wants to design or migrate a schema. Invoke for complex queries, window functions, CTEs, indexing strategies, query plan analysis, covering index creation, recursive queries, EXPLAIN/ANALYZE interpretation, before/after query benchmarking, or migrating queries between database dialects (PostgreSQL, MySQL, SQL Server, Oracle)."
         },
         {
           "owner": "planetscale",
           "repo": "database-skills",
           "name": "mysql",
-          "skill_path": "skills/mysql"
+          "skill_path": "skills/mysql",
+          "description": "Plan and review MySQL/InnoDB schema, indexing, query tuning, transactions, and operations. Use when creating or modifying MySQL tables, indexes, or queries; diagnosing slow/locking behavior; planning migrations; or troubleshooting replication and connection issues. Load when using a MySQL database."
         },
         {
           "owner": "planetscale",
           "repo": "database-skills",
           "name": "postgres",
-          "skill_path": "skills/postgres"
+          "skill_path": "skills/postgres",
+          "description": "PostgreSQL best practices, query optimization, connection troubleshooting, and performance improvement. Load when working with Postgres databases."
         },
         {
           "owner": "supabase",
           "repo": "agent-skills",
           "name": "supabase-postgres-best-practices",
-          "skill_path": "skills/supabase-postgres-best-practices"
+          "skill_path": "skills/supabase-postgres-best-practices",
+          "description": "Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "sql-optimization-patterns",
-          "skill_path": "plugins/developer-essentials/skills/sql-optimization-patterns"
+          "skill_path": "plugins/developer-essentials/skills/sql-optimization-patterns",
+          "description": "Master SQL query optimization, indexing strategies, and EXPLAIN analysis to dramatically improve database performance and eliminate slow queries. Use when debugging slow queries, designing database schemas, or optimizing application performance."
         }
       ]
     },
@@ -75,31 +85,36 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "database-migrations",
-          "skill_path": ".kiro/skills/database-migrations"
+          "skill_path": ".kiro/skills/database-migrations",
+          "description": "Database migration best practices for schema changes, data migrations, rollbacks, and zero-downtime deployments across PostgreSQL, MySQL, and common ORMs (Prisma, Drizzle, Django, TypeORM, golang-migrate). Use when planning or implementing database schema changes.\n"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "cosmosdb-datamodeling",
-          "skill_path": "skills/cosmosdb-datamodeling"
+          "skill_path": "skills/cosmosdb-datamodeling",
+          "description": "Step-by-step guide for capturing key application requirements for NoSQL use-case and produce Azure Cosmos DB Data NoSQL Model design using best practices and common patterns, artifacts_produced: \"cosmosdb_requirements.md\" file and \"cosmosdb_data_model.md\" file"
         },
         {
           "owner": "softaworks",
           "repo": "agent-toolkit",
           "name": "database-schema-designer",
-          "skill_path": "dist/plugins/database-schema-designer/skills/database-schema-designer"
+          "skill_path": "dist/plugins/database-schema-designer/skills/database-schema-designer",
+          "description": "Design robust, scalable database schemas for SQL and NoSQL databases. Provides normalization guidelines, indexing strategies, migration patterns, constraint design, and performance optimization. Ensures data integrity, query performance, and maintainable data models."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "database-migration",
-          "skill_path": "plugins/framework-migration/skills/database-migration"
+          "skill_path": "plugins/framework-migration/skills/database-migration",
+          "description": "Execute database migrations across ORMs and platforms with zero-downtime strategies, data transformation, and rollback procedures. Use when migrating databases, changing schemas, performing data transformations, or implementing zero-downtime deployment strategies."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "postgresql-table-design",
-          "skill_path": "plugins/database-design/skills/postgresql"
+          "skill_path": "plugins/database-design/skills/postgresql",
+          "description": "Use this skill when designing or reviewing a PostgreSQL-specific schema. Covers best-practices, data types, indexing, constraints, performance patterns, and advanced features"
         }
       ]
     },
@@ -111,67 +126,78 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "jpa-patterns",
-          "skill_path": "skills/jpa-patterns"
+          "skill_path": "skills/jpa-patterns",
+          "description": "JPA/Hibernate patterns for entity design, relationships, query optimization, transactions, auditing, indexing, pagination, and pooling in Spring Boot."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "kotlin-exposed-patterns",
-          "skill_path": "skills/kotlin-exposed-patterns"
+          "skill_path": "skills/kotlin-exposed-patterns",
+          "description": "JetBrains Exposed ORM patterns including DSL queries, DAO pattern, transactions, HikariCP connection pooling, Flyway migrations, and repository pattern."
         },
         {
           "owner": "bobmatnyc",
           "repo": "claude-mpm-skills",
           "name": "drizzle-orm",
-          "skill_path": "toolchains/typescript/data/drizzle"
+          "skill_path": "toolchains/typescript/data/drizzle",
+          "description": "Type-safe SQL ORM for TypeScript with zero runtime overhead"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "ef-core",
-          "skill_path": "skills/ef-core"
+          "skill_path": "skills/ef-core",
+          "description": "Get best practices for Entity Framework Core"
         },
         {
           "owner": "prisma",
           "repo": "skills",
           "name": "prisma-cli",
-          "skill_path": "prisma-cli"
+          "skill_path": "prisma-cli",
+          "description": "Prisma CLI commands reference covering all available commands, options, and usage patterns. Use when running Prisma CLI commands, setting up projects, generating client, running migrations, managing databases, or starting Prisma's MCP server. Triggers on \"prisma init\", \"prisma generate\", \"prisma migrate\", \"prisma db\", \"prisma studio\", \"prisma mcp\"."
         },
         {
           "owner": "prisma",
           "repo": "skills",
           "name": "prisma-client-api",
-          "skill_path": "prisma-client-api"
+          "skill_path": "prisma-client-api",
+          "description": "Prisma Client API reference covering model queries, filters, operators, and client methods. Use when writing database queries, using CRUD operations, filtering data, or configuring Prisma Client. Triggers on \"prisma query\", \"findMany\", \"create\", \"update\", \"delete\", \"$transaction\"."
         },
         {
           "owner": "prisma",
           "repo": "skills",
           "name": "prisma-database-setup",
-          "skill_path": "prisma-database-setup"
+          "skill_path": "prisma-database-setup",
+          "description": "Guides for configuring Prisma with different database providers (PostgreSQL, MySQL, SQLite, MongoDB, etc.). Use when setting up a new project, changing databases, or troubleshooting connection issues. Triggers on \"configure postgres\", \"connect to mysql\", \"setup mongodb\", \"sqlite setup\"."
         },
         {
           "owner": "prisma",
           "repo": "skills",
           "name": "prisma-driver-adapter-implementation",
-          "skill_path": "prisma-driver-adapter-implementation"
+          "skill_path": "prisma-driver-adapter-implementation",
+          "description": "Required reference for Prisma v7 driver adapter work. Use when implementing or modifying adapters, adding database drivers, or touching SqlDriverAdapter/Transaction interfaces. Contains critical contract details not inferable from code examples — including the transaction lifecycle protocol, error mapping requirements, and verification checklist. Existing implementations do not replace this skill."
         },
         {
           "owner": "prisma",
           "repo": "skills",
           "name": "prisma-postgres",
-          "skill_path": "prisma-postgres"
+          "skill_path": "prisma-postgres",
+          "description": "Prisma Postgres setup and operations guidance across Console, create-db CLI, Management API, and Management API SDK. Use when creating Prisma Postgres databases, working in Prisma Console, provisioning with create-db/create-pg/create-postgres, or integrating programmatic provisioning with service tokens or OAuth."
         },
         {
           "owner": "prisma",
           "repo": "skills",
           "name": "prisma-upgrade-v7",
-          "skill_path": "prisma-upgrade-v7"
+          "skill_path": "prisma-upgrade-v7",
+          "description": "Complete migration guide from Prisma ORM v6 to v7 covering all breaking changes. Use when upgrading Prisma versions, encountering v7 errors, or migrating existing projects. Triggers on \"upgrade to prisma 7\", \"prisma 7 migration\", \"prisma-client generator\", \"driver adapter required\"."
         },
         {
           "owner": "sickn33",
           "repo": "antigravity-awesome-skills",
           "name": "prisma-expert",
-          "skill_path": "plugins/antigravity-awesome-skills/skills/prisma-expert"
+          "skill_path": "plugins/antigravity-awesome-skills/skills/prisma-expert",
+          "description": "You are an expert in Prisma ORM with deep knowledge of schema design, migrations, query optimization, relations modeling, and database operations across PostgreSQL, MySQL, and SQLite."
         }
       ]
     },
@@ -183,19 +209,22 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "clickhouse-io",
-          "skill_path": "skills/clickhouse-io"
+          "skill_path": "skills/clickhouse-io",
+          "description": "ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "postgres-patterns",
-          "skill_path": ".kiro/skills/postgres-patterns"
+          "skill_path": ".kiro/skills/postgres-patterns",
+          "description": "PostgreSQL database patterns for query optimization, schema design, indexing, and security. Quick reference for common patterns, index types, data types, and anti-pattern detection. Based on Supabase best practices.\n"
         },
         {
           "owner": "clickhouse",
           "repo": "agent-skills",
           "name": "clickhouse-best-practices",
-          "skill_path": "skills/clickhouse-best-practices"
+          "skill_path": "skills/clickhouse-best-practices",
+          "description": "MUST USE when reviewing ClickHouse schemas, queries, or configurations. Contains 31 rules that MUST be checked before providing recommendations. Always read relevant rule files and cite specific rules in responses."
         }
       ]
     },

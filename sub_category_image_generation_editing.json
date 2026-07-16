@@ -9,145 +9,169 @@
           "owner": "agentspace-so",
           "repo": "agent-skills",
           "name": "gpt-image-2",
-          "skill_path": "gpt-image-2"
+          "skill_path": "gpt-image-2",
+          "description": "Generate images with GPT Image 2 (ChatGPT Images 2.0) inside Claude Code, using your existing ChatGPT Plus or Pro subscription — no separate OpenAI access, no per-image billing. Supports text-to-image, image-to-image editing, style transfer, and multi-reference composition via the local Codex CLI. Triggers on \"gpt image 2\", \"gpt-image-2\", \"ChatGPT Images 2.0\", \"image 2\", or any explicit ask to generate or edit an image through the user's ChatGPT plan.\n"
         },
         {
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "ai-image-generation",
-          "skill_path": "ai-image-generation"
+          "skill_path": "ai-image-generation",
+          "description": "Generate and edit images on RunComfy via the `runcomfy` CLI — a smart router across the full image-model catalog: FLUX 2 (Klein 9B/4B, Pro, Dev, Flash, Turbo, Max), Google Nano Banana 2 / Pro, OpenAI GPT Image 2, ByteDance Seedream 5 / 4-5 / 4-0 and Dreamina 4-0, Alibaba Qwen Image and Z-Image Turbo, Wan 2-7. Covers both text-to-image (t2i) and image-to-image / edit (i2i) endpoints — the skill picks the right model for the user's actual intent (typography precision, photoreal portraits, sub-second iteration, multi-reference brand styling, open-weights workflow) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on \"generate image\", \"make a picture\", \"text to image\", \"AI image\", \"make an image of …\", \"image to image\", \"i2i\", or any explicit ask to create or restyle an image.\n"
         },
         {
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "flux-2-klein",
-          "skill_path": "flux-2-klein"
+          "skill_path": "flux-2-klein",
+          "description": "Generate images with Flux 2 Klein (Black Forest Labs' distilled fast variant of Flux 2) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Flux 2 Klein's strengths (sub-second latency, multi-reference brand styling, declarative subject-first prompts), the step-count strategy (4–8 for fast iteration, ~25 for polish), the 9B vs 4B variant trade-off, and when to route to Flux 2 Pro / Seedream 5 / GPT Image 2 instead. Calls `runcomfy run blackforestlabs/flux-2-klein/9b/text-to-image` (or `/4b/`) through the local RunComfy CLI. Triggers on \"flux 2 klein\", \"flux-2-klein\", \"flux klein\", \"BFL flux 2\", or any explicit ask to generate with this model.\n"
         },
         {
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "gpt-image-2",
-          "skill_path": "gpt-image-2"
+          "skill_path": "gpt-image-2",
+          "description": "Generate and edit images with OpenAI GPT Image 2 (ChatGPT Images 2.0) on RunComfy. Documents GPT Image 2's strengths (embedded text, logos, multilingual typography, instruction precision), its 3 fixed sizes, edit-with-preservation language, and when to route to a sibling (Flux 2 / Nano Banana Pro / Seedream) instead. Calls `runcomfy run openai/gpt-image-2/text-to-image` or `/edit` through the local RunComfy CLI. Triggers on \"gpt image 2\", \"gpt-image-2\", \"ChatGPT Images 2\", \"image 2\", or any explicit ask to generate or edit with this model.\n"
         },
         {
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "nano-banana-2",
-          "skill_path": "nano-banana-2"
+          "skill_path": "nano-banana-2",
+          "description": "Generate images with Google Nano Banana 2 (Gemini-family flash-tier text-to-image) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Nano Banana 2's strengths (rapid iteration, in-image typography rendering, predictable framing, optional web-grounded context), the resolution-tier pricing, the safety-tolerance dial, and when to route to Nano Banana Pro / GPT Image 2 / Flux 2 / Seedream instead. Calls `runcomfy run google/nano-banana-2/text-to-image` through the local RunComfy CLI. Triggers on \"nano banana\", \"nano-banana-2\", \"nano banana 2\", \"google image gen\", \"gemini image\", or any explicit ask to generate with this model.\n"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "ai-image-generation",
-          "skill_path": "ai-image-generation"
+          "skill_path": "ai-image-generation",
+          "description": "Generate and edit images on RunComfy via the `runcomfy` CLI — a smart router across the full image-model catalog: FLUX 2 (Klein 9B/4B, Pro, Dev, Flash, Turbo, Max), Google Nano Banana 2 / Pro, OpenAI GPT Image 2, ByteDance Seedream 5 / 4-5 / 4-0 and Dreamina 4-0, Alibaba Qwen Image and Z-Image Turbo, Wan 2-7. Covers both text-to-image (t2i) and image-to-image / edit (i2i) endpoints — the skill picks the right model for the user's actual intent (typography precision, photoreal portraits, sub-second iteration, multi-reference brand styling, open-weights workflow) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on \"generate image\", \"make a picture\", \"text to image\", \"AI image\", \"make an image of …\", \"image to image\", \"i2i\", or any explicit ask to create or restyle an image.\n"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "flux-2-klein",
-          "skill_path": "flux-2-klein"
+          "skill_path": "flux-2-klein",
+          "description": "Generate images with Flux 2 Klein (Black Forest Labs' distilled fast variant of Flux 2) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Flux 2 Klein's strengths (sub-second latency, multi-reference brand styling, declarative subject-first prompts), the step-count strategy (4–8 for fast iteration, ~25 for polish), the 9B vs 4B variant trade-off, and when to route to Flux 2 Pro / Seedream 5 / GPT Image 2 instead. Calls `runcomfy run blackforestlabs/flux-2-klein/9b/text-to-image` (or `/4b/`) through the local RunComfy CLI. Triggers on \"flux 2 klein\", \"flux-2-klein\", \"flux klein\", \"BFL flux 2\", or any explicit ask to generate with this model.\n"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "gpt-image-2",
-          "skill_path": "gpt-image-2"
+          "skill_path": "gpt-image-2",
+          "description": "Generate and edit images with OpenAI GPT Image 2 (ChatGPT Images 2.0) on RunComfy. Documents GPT Image 2's strengths (embedded text, logos, multilingual typography, instruction precision), its 3 fixed sizes, edit-with-preservation language, and when to route to a sibling (Flux 2 / Nano Banana Pro / Seedream) instead. Calls `runcomfy run openai/gpt-image-2/text-to-image` or `/edit` through the local RunComfy CLI. Triggers on \"gpt image 2\", \"gpt-image-2\", \"ChatGPT Images 2\", \"image 2\", or any explicit ask to generate or edit with this model.\n"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "nano-banana-2",
-          "skill_path": "nano-banana-2"
+          "skill_path": "nano-banana-2",
+          "description": "Generate images with Google Nano Banana 2 (Gemini-family flash-tier text-to-image) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Nano Banana 2's strengths (rapid iteration, in-image typography rendering, predictable framing, optional web-grounded context), the resolution-tier pricing, the safety-tolerance dial, and when to route to Nano Banana Pro / GPT Image 2 / Flux 2 / Seedream instead. Calls `runcomfy run google/nano-banana-2/text-to-image` through the local RunComfy CLI. Triggers on \"nano banana\", \"nano-banana-2\", \"nano banana 2\", \"google image gen\", \"gemini image\", or any explicit ask to generate with this model.\n"
         },
         {
           "owner": "gargantuax",
           "repo": "openskills",
           "name": "gpt-image-2",
-          "skill_path": "skills/gpt-image-2"
+          "skill_path": "skills/gpt-image-2",
+          "description": "Full OpenAI-compatible GPT Image 2 coverage across images/generations, images/edits, and responses with the image_generation tool. Use when the one-shot image helper is not enough - text-to-image, mask edits, multi-image batches, streaming, partial_images, and mixed text+image Responses flows. Reads .env and respects process environment variables; works with any OpenAI-compatible gateway."
         },
         {
           "owner": "gargantuax",
           "repo": "openskills",
           "name": "nanobanana",
-          "skill_path": "skills/nanobanana"
+          "skill_path": "skills/nanobanana",
+          "description": "Gemini-native Nano Banana image generation and editing across Nano Banana, Nano Banana 2, and Nano Banana Pro. Use when you need text-to-image, image-to-image edits, repeated local references, batch generation, dry-run request inspection, or a custom Gemini-compatible base URL such as a self-hosted gateway."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "nano-banana-pro-openrouter",
-          "skill_path": "skills/nano-banana-pro-openrouter"
+          "skill_path": "skills/nano-banana-pro-openrouter",
+          "description": "Generate or edit images via OpenRouter with the Gemini 3 Pro Image model. Use for prompt-only image generation, image edits, and multi-image compositing; supports 1K/2K/4K output."
         },
         {
           "owner": "higgsfield-ai",
           "repo": "skills",
           "name": "higgsfield-generate",
-          "skill_path": "higgsfield-generate"
+          "skill_path": "higgsfield-generate",
+          "description": "Generate images/videos via Higgsfield AI. Default: GPT\nImage 2 for images/design/text, Seedance 2.0 for video,\nNano Banana 2/Pro for character/reference image work,\nMarketing Studio for ads with avatars/products/hooks,\nsettings, plus Soul V2/Cinema/Cast/Location and Kling\n3.0. Use when: \"generate an image\", \"make a video\",\n\"animate this photo\", \"image-to-video\",\n\"edit/stylize/remix this image\", \"produce a clip\",\n\"create an ad\", \"make a UGC video\", \"product demo\",\n\"unboxing\", \"brand video\", \"presenter video\",\n\"import product from URL\", \"create avatar for ad\",\nor \"analyze video virality\". Supports image-to-image,\nimage-to-video, references, job/upload IDs, and\nMarketing Studio. Chain with higgsfield-soul-id for\nface/identity consistency. Virality Predictor\n(`brain_activity`) analyzes video virality: hook strength,\nattention, retention, distraction risk, and creative\nscore. NOT for: Soul Character training (use\nhiggsfield-soul-id), product photoshoots, marketplace\nlisting cards, text/chat/TTS tasks.\n"
         },
         {
           "owner": "jimliu",
           "repo": "baoyu-skills",
           "name": "baoyu-danger-gemini-web",
-          "skill_path": "skills/baoyu-danger-gemini-web"
+          "skill_path": "skills/baoyu-danger-gemini-web",
+          "description": "Generates images and text via reverse-engineered Gemini Web API. Supports text generation, image generation from prompts, reference images for vision input, and multi-turn conversations. Use when other skills need image generation backend, or when user requests \"generate image with Gemini\", \"Gemini text generation\", or needs vision-capable AI generation."
         },
         {
           "owner": "jimliu",
           "repo": "baoyu-skills",
           "name": "baoyu-image-gen",
-          "skill_path": "skills/baoyu-image-gen"
+          "skill_path": "skills/baoyu-image-gen",
+          "description": "AI image generation with OpenAI GPT Image 2, Azure OpenAI, Google, OpenRouter, DashScope, Z.AI GLM-Image, MiniMax, Jimeng, Seedream and Replicate APIs. Supports text-to-image, reference images, aspect ratios, and batch generation from saved prompt files. Sequential by default; use batch parallel generation when the user already has multiple prompts or wants stable multi-image throughput. Use when user asks to generate, create, or draw images."
         },
         {
           "owner": "pexoai",
           "repo": "pexo-skills",
           "name": "videoagent-image-studio",
-          "skill_path": "skills/videoagent-image-studio"
+          "skill_path": "skills/videoagent-image-studio",
+          "description": "Tired of juggling 8 API keys? This skill gives you one-command access to Midjourney, Flux, Ideogram, and more, with zero setup. Use when you want to generate any image without worrying about API keys.\n"
         },
         {
           "owner": "pilioai",
           "repo": "skills",
           "name": "gpt-image-2",
-          "skill_path": "skills/gpt-image-2"
+          "skill_path": "skills/gpt-image-2",
+          "description": "Create or edit images with Pilio GPT Image 2 through the unified Pilio developer API. Use when the user wants text-to-image generation, prompt-based image editing, restyling, product-photo transformation, or composition from one or more local reference images."
         },
         {
           "owner": "pilioai",
           "repo": "skills",
           "name": "nano-banana-2",
-          "skill_path": "skills/nano-banana-2"
+          "skill_path": "skills/nano-banana-2",
+          "description": "Create or edit images with Pilio Nano Banana 2 through the unified Pilio developer API. Use when the user wants Nano Banana 2 text-to-image generation, reference-image editing, product posters, or image composition from local inputs."
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "ai-image-generation",
-          "skill_path": "ai-image-generation"
+          "skill_path": "ai-image-generation",
+          "description": "Generate and edit images on RunComfy via the `runcomfy` CLI — a smart router across the full image-model catalog: FLUX 2 (Klein 9B/4B, Pro, Dev, Flash, Turbo, Max), Google Nano Banana 2 / Pro, OpenAI GPT Image 2, ByteDance Seedream 5 / 4-5 / 4-0 and Dreamina 4-0, Alibaba Qwen Image and Z-Image Turbo, Wan 2-7. Covers both text-to-image (t2i) and image-to-image / edit (i2i) endpoints — the skill picks the right model for the user's actual intent (typography precision, photoreal portraits, sub-second iteration, multi-reference brand styling, open-weights workflow) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on \"generate image\", \"make a picture\", \"text to image\", \"AI image\", \"make an image of …\", \"image to image\", \"i2i\", or any explicit ask to create or restyle an image.\n"
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "flux-2-klein",
-          "skill_path": "flux-2-klein"
+          "skill_path": "flux-2-klein",
+          "description": "Generate images with Flux 2 Klein (Black Forest Labs' distilled fast variant of Flux 2) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Flux 2 Klein's strengths (sub-second latency, multi-reference brand styling, declarative subject-first prompts), the step-count strategy (4–8 for fast iteration, ~25 for polish), the 9B vs 4B variant trade-off, and when to route to Flux 2 Pro / Seedream 5 / GPT Image 2 instead. Calls `runcomfy run blackforestlabs/flux-2-klein/9b/text-to-image` (or `/4b/`) through the local RunComfy CLI. Triggers on \"flux 2 klein\", \"flux-2-klein\", \"flux klein\", \"BFL flux 2\", or any explicit ask to generate with this model.\n"
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "gpt-image-2",
-          "skill_path": "gpt-image-2"
+          "skill_path": "gpt-image-2",
+          "description": "Generate and edit images with OpenAI GPT Image 2 (ChatGPT Images 2.0) on RunComfy. Documents GPT Image 2's strengths (embedded text, logos, multilingual typography, instruction precision), its 3 fixed sizes, edit-with-preservation language, and when to route to a sibling (Flux 2 / Nano Banana Pro / Seedream) instead. Calls `runcomfy run openai/gpt-image-2/text-to-image` or `/edit` through the local RunComfy CLI. Triggers on \"gpt image 2\", \"gpt-image-2\", \"ChatGPT Images 2\", \"image 2\", or any explicit ask to generate or edit with this model.\n"
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "nano-banana-2",
-          "skill_path": "nano-banana-2"
+          "skill_path": "nano-banana-2",
+          "description": "Generate images with Google Nano Banana 2 (Gemini-family flash-tier text-to-image) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Nano Banana 2's strengths (rapid iteration, in-image typography rendering, predictable framing, optional web-grounded context), the resolution-tier pricing, the safety-tolerance dial, and when to route to Nano Banana Pro / GPT Image 2 / Flux 2 / Seedream instead. Calls `runcomfy run google/nano-banana-2/text-to-image` through the local RunComfy CLI. Triggers on \"nano banana\", \"nano-banana-2\", \"nano banana 2\", \"google image gen\", \"gemini image\", or any explicit ask to generate with this model.\n"
         },
         {
           "owner": "skills-shell",
           "repo": "skills",
           "name": "ai-image-generation",
-          "skill_path": "tools/image/ai-image-generation"
+          "skill_path": "tools/image/ai-image-generation",
+          "description": "Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: GPT-Image-2, FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, inpainting, LoRA, image editing, upscaling, text rendering. Use for: AI art, product mockups, concept art, social media graphics, marketing visuals, illustrations. Triggers: flux, image generation, ai image, text to image, stable diffusion, generate image, ai art, midjourney alternative, dall-e alternative, text2img, t2i, image generator, ai picture, create image with ai, generative ai, ai illustration, grok image, gemini image, gpt image, openai image, chatgpt image"
         },
         {
           "owner": "youmind-openlab",
           "repo": "nano-banana-pro-prompts-recommend-skill",
           "name": "nano-banana-pro-prompts-recommend-skill",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "Recommend suitable prompts from 10,000+ Nano Banana Pro image generation prompts based on user needs.\nOptimized for Nano Banana Pro (Gemini), but prompts also work with Nano Banana 2, Seedream 5.0,\nGPT Image 1.5, Midjourney, DALL-E, Flux, Stable Diffusion, and any text-to-image AI model.\n\nUse this skill when users want to:\n- Generate images with AI (any model — Nano Banana Pro, Gemini, GPT Image, Seedream, etc.)\n- Find proven AI image generation prompts and prompt templates\n- Get prompt recommendations for specific use cases (portraits, products, social media, posters, etc.)\n- Create illustrations for articles, videos, podcasts, or marketing content\n- Browse a curated prompt library with sample images\n- Translate and understand prompt techniques\n\nAlso available: \"ai-image-prompts\" skill — a model-agnostic version of this library for universal image generation.\n"
         }
       ]
     },
@@ -159,187 +183,218 @@
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "face-swap",
-          "skill_path": "face-swap"
+          "skill_path": "face-swap",
+          "description": "Swap a face / character into video or images on RunComfy via the `runcomfy` CLI. Routes across community Wan 2-2 Animate (audio-driven character animation + identity swap), GPT Image 2 Edit (single-shot precise face swap on still images via reference composition), Nano Banana Edit (batch identity-preserving swap), Flux Kontext (single-ref high-fidelity local face edit), and Kling 2-6 Motion Control Pro (transfer motion from one performance onto a target character). Picks the right model for the user's actual intent — single still vs video, full character vs face only, dialog scene vs silent motion. Triggers on \"face swap\", \"swap face\", \"deepfake\", \"face replacement\", \"character swap\", \"head swap\", \"put X's face on Y\", \"make this video star X\", \"replace the actor in this video\", \"swap the character in the photo\", \"deepfake video\", \"ReActor alternative\", or any explicit ask to substitute one identity for another.\n"
         },
         {
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "flux-kontext",
-          "skill_path": "flux-kontext"
+          "skill_path": "flux-kontext",
+          "description": "Edit images with Flux 1 Kontext Pro (Black Forest Labs' precise local image-edit model) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Flux Kontext's strengths (single-reference precise local edits, strong prompt control, consistent high-fidelity outputs), the schema (single image + prompt), and when to route to Nano Banana Edit / GPT Image 2 edit / Flux 2 Klein instead. Calls `runcomfy run blackforestlabs/flux-1-kontext/pro/edit` through the local RunComfy CLI. Triggers on \"flux kontext\", \"flux-kontext\", \"flux 1 kontext\", \"kontext\", \"BFL kontext\", or any explicit ask to edit with this model.\n"
         },
         {
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "gpt-image-edit",
-          "skill_path": "gpt-image-edit"
+          "skill_path": "gpt-image-edit",
+          "description": "Edit images with OpenAI GPT Image 2 (the `/edit` endpoint of ChatGPT Images 2.0) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents GPT Image Edit's strengths (preservation language, multilingual in-image text editing, multi-reference up to 10 images, layout / typography precision), the schema, and when to route to Nano Banana Edit / Flux Kontext / GPT Image 2 t2i instead. Calls `runcomfy run openai/gpt-image-2/edit` through the local RunComfy CLI. Triggers on \"gpt image edit\", \"gpt-image-edit\", \"chatgpt image edit\", \"edit with gpt image 2\", or any explicit ask to edit with this model.\n"
         },
         {
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "image-edit",
-          "skill_path": "image-edit"
+          "skill_path": "image-edit",
+          "description": "Edit images on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Nano Banana Edit (batch up to 20, identity-preserving default), OpenAI GPT Image 2 Edit (multilingual in-image text rewrite, multi-ref composition, layout precision), Flux Kontext Pro (single-ref high-fidelity local edit), or Z-Image Turbo Inpaint (mask-driven precise region edit). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/edit` through the local RunComfy CLI. Triggers on \"image edit\", \"edit image\", \"image-to-image\", \"i2i\", \"swap background\", \"remove object\", \"rewrite headline\", or any explicit ask to edit a single or batch of images.\n"
         },
         {
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "image-inpainting",
-          "skill_path": "image-inpainting"
+          "skill_path": "image-inpainting",
+          "description": "Mask-driven image inpainting on RunComfy via the `runcomfy` CLI. Routes to Tongyi MAI Z-Image Turbo Inpainting (the dedicated inpainting endpoint with mask, strength, and control-scale) and to identity-preserving edit models (Nano Banana 2 Edit, GPT Image 2 Edit, FLUX Kontext Pro) when a mask isn't available and the region must be described instead. Use for object removal, watermark removal, region replacement, blemish cleanup, and any controlled local edit where a binary mask defines the target area. Triggers on \"inpaint\", \"inpainting\", \"image inpaint\", \"remove from image\", \"fill region\", \"mask-driven edit\", \"remove watermark\", \"remove object\", \"patch the photo\", \"fill the hole\", or any explicit ask to edit a specific masked region of a still.\n"
         },
         {
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "image-outpainting",
-          "skill_path": "image-outpainting"
+          "skill_path": "image-outpainting",
+          "description": "Image outpainting on RunComfy via the `runcomfy` CLI — extend a still beyond its original canvas, fill in what the camera didn't capture, change aspect ratio (square → 16:9, portrait → landscape) while preserving the original content. Routes across Nano Banana 2 Edit (default, spatial-language driven), GPT Image 2 Edit (multi-ref with reference-style matching), FLUX Kontext Pro (single-shot maximum-preservation), and the brand edit endpoints (Seedream / Dreamina / Qwen / FLUX 2). Picks the right route based on whether the outpaint is prose-driven, reference-driven, or brand-locked. Triggers on \"outpaint\", \"outpainting\", \"extend image canvas\", \"expand the image\", \"fill in around the photo\", \"uncrop\", \"change aspect ratio\", \"extend frame\", \"wide-screen from square\", or any explicit ask to add canvas around an existing still.\n"
         },
         {
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "nano-banana-edit",
-          "skill_path": "nano-banana-edit"
+          "skill_path": "nano-banana-edit",
+          "description": "Edit images with Google Nano Banana 2 (image-to-image edit endpoint) on RunComfy. Documents Nano Banana Edit's strengths (preserve subject identity, swap background, localize edits with spatial language, multi-image batch edits up to 20 inputs), the schema, and when to route to GPT Image 2 edit / Flux Kontext / Nano Banana 2 t2i instead. Calls `runcomfy run google/nano-banana-2/edit` through the local RunComfy CLI. Triggers on \"nano banana edit\", \"edit with nano banana\", \"image edit nano banana\", or any explicit ask to edit with this model.\n"
         },
         {
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "relight",
-          "skill_path": "relight"
+          "skill_path": "relight",
+          "description": "Relight a still image — change the lighting setup, color temperature, direction, or mood — on RunComfy via the `runcomfy` CLI. Routes to Qwen Edit 2509's dedicated `relight` LoRA endpoint for purpose-built relighting, with fallback to identity-preserving edit endpoints (Nano Banana 2 Edit, GPT Image 2 Edit, FLUX Kontext Pro) when prose lighting language is enough. Use for product relighting (studio softbox → window light), portrait mood shift (overcast → golden hour), or color-grade change. Triggers on \"relight\", \"relighting\", \"change the lighting\", \"make it golden hour\", \"studio lighting\", \"rim light\", \"blue hour\", \"soft window light\", \"change light direction\", \"color temperature\", or any explicit ask to alter how a still is lit.\n"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "face-swap",
-          "skill_path": "face-swap"
+          "skill_path": "face-swap",
+          "description": "Swap a face / character into video or images on RunComfy via the `runcomfy` CLI. Routes across community Wan 2-2 Animate (audio-driven character animation + identity swap), GPT Image 2 Edit (single-shot precise face swap on still images via reference composition), Nano Banana Edit (batch identity-preserving swap), Flux Kontext (single-ref high-fidelity local face edit), and Kling 2-6 Motion Control Pro (transfer motion from one performance onto a target character). Picks the right model for the user's actual intent — single still vs video, full character vs face only, dialog scene vs silent motion. Triggers on \"face swap\", \"swap face\", \"deepfake\", \"face replacement\", \"character swap\", \"head swap\", \"put X's face on Y\", \"make this video star X\", \"replace the actor in this video\", \"swap the character in the photo\", \"deepfake video\", \"ReActor alternative\", or any explicit ask to substitute one identity for another.\n"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "flux-kontext",
-          "skill_path": "flux-kontext"
+          "skill_path": "flux-kontext",
+          "description": "Edit images with Flux 1 Kontext Pro (Black Forest Labs' precise local image-edit model) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Flux Kontext's strengths (single-reference precise local edits, strong prompt control, consistent high-fidelity outputs), the schema (single image + prompt), and when to route to Nano Banana Edit / GPT Image 2 edit / Flux 2 Klein instead. Calls `runcomfy run blackforestlabs/flux-1-kontext/pro/edit` through the local RunComfy CLI. Triggers on \"flux kontext\", \"flux-kontext\", \"flux 1 kontext\", \"kontext\", \"BFL kontext\", or any explicit ask to edit with this model.\n"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "gpt-image-edit",
-          "skill_path": "gpt-image-edit"
+          "skill_path": "gpt-image-edit",
+          "description": "Edit images with OpenAI GPT Image 2 (the `/edit` endpoint of ChatGPT Images 2.0) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents GPT Image Edit's strengths (preservation language, multilingual in-image text editing, multi-reference up to 10 images, layout / typography precision), the schema, and when to route to Nano Banana Edit / Flux Kontext / GPT Image 2 t2i instead. Calls `runcomfy run openai/gpt-image-2/edit` through the local RunComfy CLI. Triggers on \"gpt image edit\", \"gpt-image-edit\", \"chatgpt image edit\", \"edit with gpt image 2\", or any explicit ask to edit with this model.\n"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "image-edit",
-          "skill_path": "image-edit"
+          "skill_path": "image-edit",
+          "description": "Edit images on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Nano Banana Edit (batch up to 20, identity-preserving default), OpenAI GPT Image 2 Edit (multilingual in-image text rewrite, multi-ref composition, layout precision), Flux Kontext Pro (single-ref high-fidelity local edit), or Z-Image Turbo Inpaint (mask-driven precise region edit). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/edit` through the local RunComfy CLI. Triggers on \"image edit\", \"edit image\", \"image-to-image\", \"i2i\", \"swap background\", \"remove object\", \"rewrite headline\", or any explicit ask to edit a single or batch of images.\n"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "image-inpainting",
-          "skill_path": "image-inpainting"
+          "skill_path": "image-inpainting",
+          "description": "Mask-driven image inpainting on RunComfy via the `runcomfy` CLI. Routes to Tongyi MAI Z-Image Turbo Inpainting (the dedicated inpainting endpoint with mask, strength, and control-scale) and to identity-preserving edit models (Nano Banana 2 Edit, GPT Image 2 Edit, FLUX Kontext Pro) when a mask isn't available and the region must be described instead. Use for object removal, watermark removal, region replacement, blemish cleanup, and any controlled local edit where a binary mask defines the target area. Triggers on \"inpaint\", \"inpainting\", \"image inpaint\", \"remove from image\", \"fill region\", \"mask-driven edit\", \"remove watermark\", \"remove object\", \"patch the photo\", \"fill the hole\", or any explicit ask to edit a specific masked region of a still.\n"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "image-outpainting",
-          "skill_path": "image-outpainting"
+          "skill_path": "image-outpainting",
+          "description": "Image outpainting on RunComfy via the `runcomfy` CLI — extend a still beyond its original canvas, fill in what the camera didn't capture, change aspect ratio (square → 16:9, portrait → landscape) while preserving the original content. Routes across Nano Banana 2 Edit (default, spatial-language driven), GPT Image 2 Edit (multi-ref with reference-style matching), FLUX Kontext Pro (single-shot maximum-preservation), and the brand edit endpoints (Seedream / Dreamina / Qwen / FLUX 2). Picks the right route based on whether the outpaint is prose-driven, reference-driven, or brand-locked. Triggers on \"outpaint\", \"outpainting\", \"extend image canvas\", \"expand the image\", \"fill in around the photo\", \"uncrop\", \"change aspect ratio\", \"extend frame\", \"wide-screen from square\", or any explicit ask to add canvas around an existing still.\n"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "nano-banana-edit",
-          "skill_path": "nano-banana-edit"
+          "skill_path": "nano-banana-edit",
+          "description": "Edit images with Google Nano Banana 2 (image-to-image edit endpoint) on RunComfy. Documents Nano Banana Edit's strengths (preserve subject identity, swap background, localize edits with spatial language, multi-image batch edits up to 20 inputs), the schema, and when to route to GPT Image 2 edit / Flux Kontext / Nano Banana 2 t2i instead. Calls `runcomfy run google/nano-banana-2/edit` through the local RunComfy CLI. Triggers on \"nano banana edit\", \"edit with nano banana\", \"image edit nano banana\", or any explicit ask to edit with this model.\n"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "relight",
-          "skill_path": "relight"
+          "skill_path": "relight",
+          "description": "Relight a still image — change the lighting setup, color temperature, direction, or mood — on RunComfy via the `runcomfy` CLI. Routes to Qwen Edit 2509's dedicated `relight` LoRA endpoint for purpose-built relighting, with fallback to identity-preserving edit endpoints (Nano Banana 2 Edit, GPT Image 2 Edit, FLUX Kontext Pro) when prose lighting language is enough. Use for product relighting (studio softbox → window light), portrait mood shift (overcast → golden hour), or color-grade change. Triggers on \"relight\", \"relighting\", \"change the lighting\", \"make it golden hour\", \"studio lighting\", \"rim light\", \"blue hour\", \"soft window light\", \"change light direction\", \"color temperature\", or any explicit ask to alter how a still is lit.\n"
         },
         {
           "owner": "gargantuax",
           "repo": "gemini-watermark-remover",
           "name": "gemini-watermark-remover",
-          "skill_path": "skills/gemini-watermark-remover"
+          "skill_path": "skills/gemini-watermark-remover",
+          "description": "Remove visible Gemini image watermarks from local image files by calling the project's CLI. Use when the user wants an agent to clean one or more local Gemini-generated images and save de-watermarked output files."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "image-manipulation-image-magick",
-          "skill_path": "skills/image-manipulation-image-magick"
+          "skill_path": "skills/image-manipulation-image-magick",
+          "description": "Process and manipulate images using ImageMagick. Supports resizing, format conversion, batch processing, and retrieving image metadata. Use when working with images, creating thumbnails, resizing wallpapers, or performing batch image operations."
         },
         {
           "owner": "jimliu",
           "repo": "baoyu-skills",
           "name": "baoyu-compress-image",
-          "skill_path": "skills/baoyu-compress-image"
+          "skill_path": "skills/baoyu-compress-image",
+          "description": "Compresses images to WebP (default) or PNG with automatic tool selection. Use when user asks to \"compress image\", \"optimize image\", \"convert to webp\", or reduce image file size."
         },
         {
           "owner": "pilioai",
           "repo": "skills",
           "name": "remove-background",
-          "skill_path": "skills/remove-background"
+          "skill_path": "skills/remove-background",
+          "description": "Remove an image background with the Pilio developer API. Use when the user wants transparent-background cutouts, portrait or product background removal, or automated image background cleanup through Pilio."
         },
         {
           "owner": "pilioai",
           "repo": "skills",
           "name": "remove-image-watermark",
-          "skill_path": "skills/remove-image-watermark"
+          "skill_path": "skills/remove-image-watermark",
+          "description": "Remove visible watermarks from an image with the Pilio developer API. Use when the user wants to clean a PNG, JPG, JPEG, or WEBP image, remove image watermark overlays, or automate image watermark removal through Pilio."
         },
         {
           "owner": "pilioai",
           "repo": "skills",
           "name": "upscale-image",
-          "skill_path": "skills/upscale-image"
+          "skill_path": "skills/upscale-image",
+          "description": "Upscale or enhance an image with the Pilio developer API. Use when the user wants higher-resolution images, AI super-resolution, image clarity improvement, or automated image enhancement through Pilio."
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "face-swap",
-          "skill_path": "face-swap"
+          "skill_path": "face-swap",
+          "description": "Swap a face / character into video or images on RunComfy via the `runcomfy` CLI. Routes across community Wan 2-2 Animate (audio-driven character animation + identity swap), GPT Image 2 Edit (single-shot precise face swap on still images via reference composition), Nano Banana Edit (batch identity-preserving swap), Flux Kontext (single-ref high-fidelity local face edit), and Kling 2-6 Motion Control Pro (transfer motion from one performance onto a target character). Picks the right model for the user's actual intent — single still vs video, full character vs face only, dialog scene vs silent motion. Triggers on \"face swap\", \"swap face\", \"deepfake\", \"face replacement\", \"character swap\", \"head swap\", \"put X's face on Y\", \"make this video star X\", \"replace the actor in this video\", \"swap the character in the photo\", \"deepfake video\", \"ReActor alternative\", or any explicit ask to substitute one identity for another.\n"
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "flux-kontext",
-          "skill_path": "flux-kontext"
+          "skill_path": "flux-kontext",
+          "description": "Edit images with Flux 1 Kontext Pro (Black Forest Labs' precise local image-edit model) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents Flux Kontext's strengths (single-reference precise local edits, strong prompt control, consistent high-fidelity outputs), the schema (single image + prompt), and when to route to Nano Banana Edit / GPT Image 2 edit / Flux 2 Klein instead. Calls `runcomfy run blackforestlabs/flux-1-kontext/pro/edit` through the local RunComfy CLI. Triggers on \"flux kontext\", \"flux-kontext\", \"flux 1 kontext\", \"kontext\", \"BFL kontext\", or any explicit ask to edit with this model.\n"
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "gpt-image-edit",
-          "skill_path": "gpt-image-edit"
+          "skill_path": "gpt-image-edit",
+          "description": "Edit images with OpenAI GPT Image 2 (the `/edit` endpoint of ChatGPT Images 2.0) on RunComfy — bundled with the model's documented prompting patterns so the skill gets sharper output than naive prompting against the same model. Documents GPT Image Edit's strengths (preservation language, multilingual in-image text editing, multi-reference up to 10 images, layout / typography precision), the schema, and when to route to Nano Banana Edit / Flux Kontext / GPT Image 2 t2i instead. Calls `runcomfy run openai/gpt-image-2/edit` through the local RunComfy CLI. Triggers on \"gpt image edit\", \"gpt-image-edit\", \"chatgpt image edit\", \"edit with gpt image 2\", or any explicit ask to edit with this model.\n"
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "image-edit",
-          "skill_path": "image-edit"
+          "skill_path": "image-edit",
+          "description": "Edit images on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Nano Banana Edit (batch up to 20, identity-preserving default), OpenAI GPT Image 2 Edit (multilingual in-image text rewrite, multi-ref composition, layout precision), Flux Kontext Pro (single-ref high-fidelity local edit), or Z-Image Turbo Inpaint (mask-driven precise region edit). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/edit` through the local RunComfy CLI. Triggers on \"image edit\", \"edit image\", \"image-to-image\", \"i2i\", \"swap background\", \"remove object\", \"rewrite headline\", or any explicit ask to edit a single or batch of images.\n"
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "image-inpainting",
-          "skill_path": "image-inpainting"
+          "skill_path": "image-inpainting",
+          "description": "Mask-driven image inpainting on RunComfy via the `runcomfy` CLI. Routes to Tongyi MAI Z-Image Turbo Inpainting (the dedicated inpainting endpoint with mask, strength, and control-scale) and to identity-preserving edit models (Nano Banana 2 Edit, GPT Image 2 Edit, FLUX Kontext Pro) when a mask isn't available and the region must be described instead. Use for object removal, watermark removal, region replacement, blemish cleanup, and any controlled local edit where a binary mask defines the target area. Triggers on \"inpaint\", \"inpainting\", \"image inpaint\", \"remove from image\", \"fill region\", \"mask-driven edit\", \"remove watermark\", \"remove object\", \"patch the photo\", \"fill the hole\", or any explicit ask to edit a specific masked region of a still.\n"
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "image-outpainting",
-          "skill_path": "image-outpainting"
+          "skill_path": "image-outpainting",
+          "description": "Image outpainting on RunComfy via the `runcomfy` CLI — extend a still beyond its original canvas, fill in what the camera didn't capture, change aspect ratio (square → 16:9, portrait → landscape) while preserving the original content. Routes across Nano Banana 2 Edit (default, spatial-language driven), GPT Image 2 Edit (multi-ref with reference-style matching), FLUX Kontext Pro (single-shot maximum-preservation), and the brand edit endpoints (Seedream / Dreamina / Qwen / FLUX 2). Picks the right route based on whether the outpaint is prose-driven, reference-driven, or brand-locked. Triggers on \"outpaint\", \"outpainting\", \"extend image canvas\", \"expand the image\", \"fill in around the photo\", \"uncrop\", \"change aspect ratio\", \"extend frame\", \"wide-screen from square\", or any explicit ask to add canvas around an existing still.\n"
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "nano-banana-edit",
-          "skill_path": "nano-banana-edit"
+          "skill_path": "nano-banana-edit",
+          "description": "Edit images with Google Nano Banana 2 (image-to-image edit endpoint) on RunComfy. Documents Nano Banana Edit's strengths (preserve subject identity, swap background, localize edits with spatial language, multi-image batch edits up to 20 inputs), the schema, and when to route to GPT Image 2 edit / Flux Kontext / Nano Banana 2 t2i instead. Calls `runcomfy run google/nano-banana-2/edit` through the local RunComfy CLI. Triggers on \"nano banana edit\", \"edit with nano banana\", \"image edit nano banana\", or any explicit ask to edit with this model.\n"
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "relight",
-          "skill_path": "relight"
+          "skill_path": "relight",
+          "description": "Relight a still image — change the lighting setup, color temperature, direction, or mood — on RunComfy via the `runcomfy` CLI. Routes to Qwen Edit 2509's dedicated `relight` LoRA endpoint for purpose-built relighting, with fallback to identity-preserving edit endpoints (Nano Banana 2 Edit, GPT Image 2 Edit, FLUX Kontext Pro) when prose lighting language is enough. Use for product relighting (studio softbox → window light), portrait mood shift (overcast → golden hour), or color-grade change. Triggers on \"relight\", \"relighting\", \"change the lighting\", \"make it golden hour\", \"studio lighting\", \"rim light\", \"blue hour\", \"soft window light\", \"change light direction\", \"color temperature\", or any explicit ask to alter how a still is lit.\n"
         },
         {
           "owner": "softaworks",
           "repo": "agent-toolkit",
           "name": "meme-factory",
-          "skill_path": "dist/plugins/meme-factory/skills/meme-factory"
+          "skill_path": "dist/plugins/meme-factory/skills/meme-factory",
+          "description": "Generate memes using the memegen.link API. Use when users request memes, want to add humor to content, or need visual aids for social media. Supports 100+ popular templates with custom text and styling."
         }
       ]
     },
@@ -351,55 +406,64 @@
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "codex-pet",
-          "skill_path": "codex-pet"
+          "skill_path": "codex-pet",
+          "description": "Codex Pet generator on RunComfy. Build a Codex-compatible Codex Pet spritesheet.webp + pet.json from a single reference image, drop it into `${CODEX_HOME:-$HOME/.codex}/pets/<name>/` and Codex picks it up as a custom Codex Pet next to the 8 built-ins. This skill produces the exact Codex Pet atlas Codex expects (1536x1872 PNG/WebP, 8 cols x 9 rows, 192x208 cells, 9 animation states — idle, running-right, running-left, waving, jumping, failed, waiting, running, review). Calls OpenAI GPT Image 2 edit ONCE via the local RunComfy CLI as `runcomfy run openai/gpt-image-2/edit` to produce a canonical Codex Pet pose, then assembles all 9 animation rows programmatically with ImageMagick micro-transforms — no Codex Pro, no `$imagegen`, no OPENAI_API_KEY required, only RUNCOMFY_TOKEN. Triggers on \"codex pet\", \"create codex pet\", \"make codex pet\", \"hatch codex pet\", \"/hatch image\", \"desktop pet codex\", \"codex pets\", \"spritesheet.webp\", or any explicit ask to build a custom pet for OpenAI Codex.\n"
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "image",
-          "skill_path": "skills/image"
+          "skill_path": "skills/image",
+          "description": "When the user wants to create, generate, edit, or optimize images for marketing — blog heroes, social graphics, product mockups, profile banners, listing visuals, or brand assets. Also use when the user mentions 'AI image generation,' 'generate an image,' 'create a graphic,' 'product mockup,' 'hero image,' 'social media graphic,' 'banner image,' 'cover photo,' 'profile banner,' 'listing screenshot,' 'Flux,' 'Flux Kontext,' 'Midjourney,' 'DALL-E,' 'GPT Image,' 'ChatGPT Images,' 'Ideogram,' 'Gemini image,' 'Nano Banana,' 'Recraft,' 'Stable Diffusion,' 'Canva,' 'Figma,' 'image optimization,' 'compress images,' 'WebP,' or 'OG image.' Use this for general-purpose marketing image creation and optimization. For paid ad image creative and platform-specific ad specs, see ad-creative. For video production, see video."
         },
         {
           "owner": "higgsfield-ai",
           "repo": "skills",
           "name": "higgsfield-marketplace-cards",
-          "skill_path": "higgsfield-marketplace-cards"
+          "skill_path": "higgsfield-marketplace-cards",
+          "description": "Generate marketplace product image cards through Higgsfield: compliant\nmain image, secondary product images, and A+ style content modules. Use when\nthe user asks for marketplace listing images, product detail cards,\nsecondary product images, product infographics, lifestyle listing shots,\nA+ style content, marketplace image sets, or sales-ready product visuals.\nBackend owns marketplace compliance references and prompt templates; this skill\nonly routes user intent to the CLI.\nNOT for generic brand product photography without marketplace/listing context\n(use higgsfield-product-photoshoot), video generation or UGC ads (use\nhiggsfield-generate), or Soul Character training (use higgsfield-soul-id).\n"
         },
         {
           "owner": "higgsfield-ai",
           "repo": "skills",
           "name": "higgsfield-product-photoshoot",
-          "skill_path": "higgsfield-product-photoshoot"
+          "skill_path": "higgsfield-product-photoshoot",
+          "description": "Generate brand-quality product images through Higgsfield product-photoshoot\nprompt enhancement on GPT Image 2 / gpt_image_2. Entry point for professional\nbrand/product visuals.\nUse when: \"product photo\", \"studio shot\", \"lifestyle image\", \"Pinterest pin\",\n\"hero/banner\", \"carousel\", \"ad creative\", \"Meta ads\", \"virtual try-on\",\n\"model wearing\", \"person holding product\", \"closeup with hands\",\n\"levitating/floating/splash product\", \"CGI/surreal product\", \"restyle\",\n\"seasonal/aesthetic variation\", or any product, brand, or paid-social creative.\nModes: product_shot, lifestyle_scene, closeup_product_with_person,\nmoodboard_pin, hero_banner, social_carousel, ad_creative_pack,\nvirtual_model_tryout, conceptual_product, restyle. Backend assembles the final\nprompt; never freehand it.\nNOT for: no-product text-to-image (use higgsfield-generate), branded avatar\nvideo (use higgsfield-generate Marketing Studio), marketplace listing cards\n(use higgsfield-marketplace-cards), Soul Character training (use\nhiggsfield-soul-id).\n"
         },
         {
           "owner": "higgsfield-ai",
           "repo": "skills",
           "name": "higgsfield-soul-id",
-          "skill_path": "higgsfield-soul-id"
+          "skill_path": "higgsfield-soul-id",
+          "description": "Train a Soul Character — a personalized model on a person's face that\nHiggsfield uses for identity-faithful image and video generation.\nUse when: \"create my Soul\", \"train my face\", \"make my digital twin\",\n\"build me an avatar\", \"learn my appearance\", \"create a character of me\",\n\"set up identity for video\", \"I want my face in generated images\".\nChain: train Soul (one-time, returns reference_id) → use in\nhiggsfield-generate via `--soul-id <id>` with models like\n`text2image_soul_v2` or `soul_cinema_studio`.\nNOT for: one-shot face swaps (use higgsfield-generate with --image),\nnamed-character / non-photo avatars (use higgsfield-generate with prompt).\n"
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "codex-pet",
-          "skill_path": "codex-pet"
+          "skill_path": "codex-pet",
+          "description": "Codex Pet generator on RunComfy. Build a Codex-compatible Codex Pet spritesheet.webp + pet.json from a single reference image, drop it into `${CODEX_HOME:-$HOME/.codex}/pets/<name>/` and Codex picks it up as a custom Codex Pet next to the 8 built-ins. This skill produces the exact Codex Pet atlas Codex expects (1536x1872 PNG/WebP, 8 cols x 9 rows, 192x208 cells, 9 animation states — idle, running-right, running-left, waving, jumping, failed, waiting, running, review). Calls OpenAI GPT Image 2 edit ONCE via the local RunComfy CLI as `runcomfy run openai/gpt-image-2/edit` to produce a canonical Codex Pet pose, then assembles all 9 animation rows programmatically with ImageMagick micro-transforms — no Codex Pro, no `$imagegen`, no OPENAI_API_KEY required, only RUNCOMFY_TOKEN. Triggers on \"codex pet\", \"create codex pet\", \"make codex pet\", \"hatch codex pet\", \"/hatch image\", \"desktop pet codex\", \"codex pets\", \"spritesheet.webp\", or any explicit ask to build a custom pet for OpenAI Codex.\n"
         },
         {
           "owner": "skills-shell",
           "repo": "skills",
           "name": "character-design-sheet",
-          "skill_path": "guides/design/character-design-sheet"
+          "skill_path": "guides/design/character-design-sheet",
+          "description": "Character consistency across AI-generated images with reference sheets and LoRA techniques. Covers turnaround views, expression sheets, color palettes, and style consistency tricks. Use for: character design, game art, illustration, animation, comics, visual novels. Triggers: character design, character sheet, character consistency, character reference, turnaround sheet, expression sheet, character art, consistent character, character concept, reference sheet, character creation, oc design, character bible"
         },
         {
           "owner": "skills-shell",
           "repo": "skills",
           "name": "product-photography",
-          "skill_path": "guides/photo/product-photography"
+          "skill_path": "guides/photo/product-photography",
+          "description": "AI product photography with studio lighting, lifestyle shots, and packshot conventions. Covers angles, backgrounds, shadow types, hero shots, and e-commerce image requirements. Use for: product photos, e-commerce images, Amazon listings, packshots, lifestyle photography. Triggers: product photography, product photo, packshot, e-commerce photography, product shot, product image, studio photography, lifestyle product, amazon product photo, product listing image, hero shot, product mockup, commercial photography"
         },
         {
           "owner": "skills-shell",
           "repo": "skills",
           "name": "youtube-thumbnail-design",
-          "skill_path": "guides/design/youtube-thumbnail-design"
+          "skill_path": "guides/design/youtube-thumbnail-design",
+          "description": "YouTube thumbnail design with specific dimensions, contrast rules, and mobile preview optimization. Covers safe zones, text placement, face expression psychology, and A/B testing. Use for: YouTube thumbnails, video cover images, click-through optimization. Triggers: youtube thumbnail, thumbnail design, video thumbnail, click through rate, ctr optimization, youtube cover, video cover image, thumbnail maker, thumbnail tips, youtube design, video preview image"
         }
       ]
     },

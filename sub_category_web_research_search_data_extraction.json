@@ -9,79 +9,92 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "exa-search",
-          "skill_path": ".agents/skills/exa-search"
+          "skill_path": ".agents/skills/exa-search",
+          "description": "Neural search via Exa MCP for web, code, and company research. Use when the user needs web search, code examples, company intel, people lookup, or AI-powered deep research with Exa's neural search engine."
         },
         {
           "owner": "anysearch-ai",
           "repo": "anysearch-skill",
           "name": "anysearch",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "Real-time search engine supporting web search, vertical domain search, parallel batch search, and URL content extraction."
         },
         {
           "owner": "brightdata",
           "repo": "skills",
           "name": "search",
-          "skill_path": "skills/search"
+          "skill_path": "skills/search",
+          "description": "Search the web via the Bright Data CLI — `bdata search` for Google/Bing/Yandex SERP, `bdata discover` for intent-ranked semantic results. Use when the user wants SERP results, needs URLs to feed into scraping, or wants semantic web discovery with optional page content. Hands off to `scrape` once target URLs are chosen, and to `data-feeds` when the user wants structured data from a known platform. Requires the Bright Data CLI; proactively guides install + login if missing."
         },
         {
           "owner": "firecrawl",
           "repo": "cli",
           "name": "firecrawl-search",
-          "skill_path": "skills/firecrawl-search"
+          "skill_path": "skills/firecrawl-search",
+          "description": "Web search with full page content extraction. Use this skill whenever the user asks to search the web, find articles, research a topic, look something up, find recent news, discover sources, or says \"search for\", \"find me\", \"look up\", \"what are people saying about\", or \"find articles about\". Returns real search results with optional full-page markdown — not just snippets. Provides capabilities beyond Claude's built-in WebSearch.\n"
         },
         {
           "owner": "firecrawl",
           "repo": "skills",
           "name": "firecrawl-build-search",
-          "skill_path": "skills/firecrawl-build-search"
+          "skill_path": "skills/firecrawl-build-search",
+          "description": "Integrate Firecrawl `/search` into product code and agent workflows. Use when an app needs discovery before extraction, when the feature starts with a query instead of a URL, or when the system should search the web and optionally hydrate result content."
         },
         {
           "owner": "panniantong",
           "repo": "agent-reach",
           "name": "agent-reach",
-          "skill_path": "agent_reach/skill"
+          "skill_path": "agent_reach/skill",
+          "description": "Give your AI agent eyes to see the entire internet. 17 platforms via CLI, MCP, curl, and Python scripts. Zero config for 8 channels.\n【路由方式】SKILL.md 包含路由表和常用命令，复杂场景需按需阅读对应分类的 references/*.md。 分类：search / social (小红书/抖音/微博/推特/B站/V2EX/Reddit) / career(LinkedIn) / dev(github) / web(网页/文章/公众号/RSS) / video(YouTube/B站/播客).\nUse when user asks to search, read, or interact on any supported platform, shares a URL, or asks to search the web.\n"
         },
         {
           "owner": "parallel-web",
           "repo": "parallel-agent-skills",
           "name": "parallel-web-search",
-          "skill_path": "skills/parallel-web-search"
+          "skill_path": "skills/parallel-web-search",
+          "description": "DEFAULT for all research and web queries. Use for any lookup, research, investigation, or question needing current info. Fast and cost-effective. Only use parallel-deep-research if user explicitly requests 'deep' or 'exhaustive' research."
         },
         {
           "owner": "skills-shell",
           "repo": "skills",
           "name": "web-search",
-          "skill_path": "tools/llm/web-search"
+          "skill_path": "tools/llm/web-search",
+          "description": "Web search and content extraction with Tavily and Exa via inference.sh CLI. Apps: Tavily Search, Tavily Extract, Exa Search, Exa Answer, Exa Extract. Capabilities: AI-powered search, content extraction, direct answers, research. Use for: research, RAG pipelines, fact-checking, content aggregation, agents. Triggers: web search, tavily, exa, search api, content extraction, research, internet search, ai search, search assistant, web scraping, rag, perplexity alternative"
         },
         {
           "owner": "tavily-ai",
           "repo": "skills",
           "name": "tavily-best-practices",
-          "skill_path": "skills/tavily-best-practices"
+          "skill_path": "skills/tavily-best-practices",
+          "description": "Build production-ready Tavily integrations with best practices baked in. Reference documentation for developers using coding assistants (Claude Code, Cursor, etc.) to implement web search, content extraction, crawling, and research in agentic workflows, RAG systems, or autonomous agents."
         },
         {
           "owner": "tavily-ai",
           "repo": "skills",
           "name": "tavily-cli",
-          "skill_path": "skills/tavily-cli"
+          "skill_path": "skills/tavily-cli",
+          "description": "Web search, content extraction, crawling, and deep research via the Tavily CLI. Use this skill whenever the user wants to search the web, find articles, research a topic, look something up online, extract content from a URL, grab text from a webpage, crawl documentation, download a site's pages, discover URLs on a domain, or conduct in-depth research with citations. Also use when they say \"fetch this page\", \"pull the content from\", \"get the page at https://\", \"find me articles about\", or reference extracting data from external websites. This provides LLM-optimized web search, content extraction, site crawling, URL discovery, and AI-powered deep research — capabilities beyond what agents can do natively. Do NOT trigger for local file operations, git commands, deployments, or code editing tasks.\n"
         },
         {
           "owner": "tavily-ai",
           "repo": "skills",
           "name": "tavily-dynamic-search",
-          "skill_path": "skills/tavily-dynamic-search"
+          "skill_path": "skills/tavily-dynamic-search",
+          "description": "Programmatic web search with context isolation. Use this skill for any research task where you need to search the web, filter results, and extract specific information — without polluting your context window with raw HTML and boilerplate. This is the default skill for web research. Triggered by \"search for\", \"look up\", \"find\", \"research\", \"what's the latest on\", or any query that requires current web information. Also use when asked to \"search and filter\", \"find the important parts\", or \"extract the key details\" — any case where the user wants curated, noise-free content.\n"
         },
         {
           "owner": "tavily-ai",
           "repo": "skills",
           "name": "tavily-search",
-          "skill_path": "skills/tavily-search"
+          "skill_path": "skills/tavily-search",
+          "description": "Search the web with LLM-optimized results via the Tavily CLI. Use this skill when the user wants to search the web, find articles, look up information, get recent news, discover sources, or says \"search for\", \"find me\", \"look up\", \"what's the latest on\", \"find articles about\", or needs current information from the internet. Returns relevant results with content snippets, relevance scores, and metadata — optimized for LLM consumption. Supports domain filtering, time ranges, and multiple search depths.\n"
         },
         {
           "owner": "veithly",
           "repo": "tavily-search",
           "name": "tavily-search",
-          "skill_path": "skills/tavily-search"
+          "skill_path": "skills/tavily-search",
+          "description": "Tavily AI search API - Optimized search for AI agents. Use when searching the web for current information, news, facts, or any task requiring real-time data.\n"
         }
       ]
     },
@@ -93,217 +106,253 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "data-scraper-agent",
-          "skill_path": "skills/data-scraper-agent"
+          "skill_path": "skills/data-scraper-agent",
+          "description": "Build a fully automated AI-powered data collection agent for any public source — job boards, prices, news, GitHub, sports, anything. Scrapes on a schedule, enriches data with a free LLM (Gemini Flash), stores results in Notion/Sheets/Supabase, and learns from user feedback. Runs 100% free on GitHub Actions. Use when the user wants to monitor, collect, or track any public data automatically."
         },
         {
           "owner": "apify",
           "repo": "agent-skills",
           "name": "apify-actor-development",
-          "skill_path": "skills/apify-actor-development"
+          "skill_path": "skills/apify-actor-development",
+          "description": "Develop, debug, and deploy Apify Actors - serverless cloud programs for web scraping, automation, and data processing. Use when creating new Actors, modifying existing ones, or troubleshooting Actor code."
         },
         {
           "owner": "apify",
           "repo": "agent-skills",
           "name": "apify-actorization",
-          "skill_path": "skills/apify-actorization"
+          "skill_path": "skills/apify-actorization",
+          "description": "Convert existing projects into Apify Actors - serverless cloud programs. Actorize JavaScript/TypeScript (SDK with Actor.init/exit), Python (async context manager), or any language (CLI wrapper). Use when migrating code to Apify, wrapping CLI tools as Actors, or adding Actor SDK to existing projects."
         },
         {
           "owner": "apify",
           "repo": "agent-skills",
           "name": "apify-generate-output-schema",
-          "skill_path": "skills/apify-generate-output-schema"
+          "skill_path": "skills/apify-generate-output-schema",
+          "description": "Generate output schemas (dataset_schema.json, output_schema.json, key_value_store_schema.json) for an Apify Actor by analyzing its source code. Use when creating or updating Actor output schemas."
         },
         {
           "owner": "apify",
           "repo": "agent-skills",
           "name": "apify-ultimate-scraper",
-          "skill_path": "skills/apify-ultimate-scraper"
+          "skill_path": "skills/apify-ultimate-scraper",
+          "description": "Universal AI-powered web scraper for any platform. Scrape data from Instagram, Facebook, TikTok, YouTube, LinkedIn, X/Twitter, Google Maps, Google Search, Google Trends, Reddit, Airbnb, Yelp, and 15+ more platforms. Use for lead generation, brand monitoring, competitor analysis, influencer discovery, trend research, content analytics, audience analysis, review analysis, SEO intelligence, recruitment, or any data extraction task."
         },
         {
           "owner": "brightdata",
           "repo": "skills",
           "name": "scrape",
-          "skill_path": "skills/scrape"
+          "skill_path": "skills/scrape",
+          "description": "Scrape web content as clean markdown/HTML/JSON via the Bright Data CLI (`bdata scrape`). Use when the user wants to fetch a page, extract content from a list of URLs, or crawl paginated listings. Hands off to `data-feeds` for supported platforms (Amazon, LinkedIn, TikTok, Instagram, YouTube, Reddit, etc.) and to `search` when URLs must be discovered first. Requires the Bright Data CLI; proactively guides install + login if missing."
         },
         {
           "owner": "firecrawl",
           "repo": "cli",
           "name": "firecrawl",
-          "skill_path": "skills/firecrawl-cli"
+          "skill_path": "skills/firecrawl-cli",
+          "description": "Search, scrape, and interact with the web via the Firecrawl CLI. Use this skill whenever the user wants to search the web, find articles, research a topic, look something up online, scrape a webpage, grab content from a URL, get data from a website, crawl documentation, download a site, or interact with pages that need clicks or logins. Also use when they say \"fetch this page\", \"pull the content from\", \"get the page at https://\", or reference external websites. This provides real-time web search with full page content and interact capabilities — beyond what Claude can do natively with built-in tools. Do NOT trigger for local file operations, git commands, deployments, or code editing tasks.\n"
         },
         {
           "owner": "firecrawl",
           "repo": "cli",
           "name": "firecrawl-agent",
-          "skill_path": "skills/firecrawl-agent"
+          "skill_path": "skills/firecrawl-agent",
+          "description": "AI-powered autonomous data extraction that navigates complex sites and returns structured JSON. Use this skill when the user wants structured data from websites, needs to extract pricing tiers, product listings, directory entries, or any data as JSON with a schema. Triggers on \"extract structured data\", \"get all the products\", \"pull pricing info\", \"extract as JSON\", or when the user provides a JSON schema for website data. More powerful than simple scraping for multi-page structured extraction.\n"
         },
         {
           "owner": "firecrawl",
           "repo": "cli",
           "name": "firecrawl-crawl",
-          "skill_path": "skills/firecrawl-crawl"
+          "skill_path": "skills/firecrawl-crawl",
+          "description": "Bulk extract content from an entire website or site section. Use this skill when the user wants to crawl a site, extract all pages from a docs section, bulk-scrape multiple pages following links, or says \"crawl\", \"get all the pages\", \"extract everything under /docs\", \"bulk extract\", or needs content from many pages on the same site. Handles depth limits, path filtering, and concurrent extraction.\n"
         },
         {
           "owner": "firecrawl",
           "repo": "cli",
           "name": "firecrawl-download",
-          "skill_path": "skills/firecrawl-download"
+          "skill_path": "skills/firecrawl-download",
+          "description": "Download an entire website as local files — markdown, screenshots, or multiple formats per page. Use this skill when the user wants to save a site locally, download documentation for offline use, bulk-save pages as files, or says \"download the site\", \"save as local files\", \"offline copy\", \"download all the docs\", or \"save for reference\". Combines site mapping and scraping into organized local directories.\n"
         },
         {
           "owner": "firecrawl",
           "repo": "cli",
           "name": "firecrawl-map",
-          "skill_path": "skills/firecrawl-map"
+          "skill_path": "skills/firecrawl-map",
+          "description": "Discover and list all URLs on a website, with optional search filtering. Use this skill when the user wants to find a specific page on a large site, list all URLs, see the site structure, find where something is on a domain, or says \"map the site\", \"find the URL for\", \"what pages are on\", or \"list all pages\". Essential when the user knows which site but not which exact page.\n"
         },
         {
           "owner": "firecrawl",
           "repo": "cli",
           "name": "firecrawl-scrape",
-          "skill_path": "skills/firecrawl-scrape"
+          "skill_path": "skills/firecrawl-scrape",
+          "description": "Extract clean markdown from any URL, including JavaScript-rendered SPAs. Use this skill whenever the user provides a URL and wants its content, says \"scrape\", \"grab\", \"fetch\", \"pull\", \"get the page\", \"extract from this URL\", or \"read this webpage\". Handles JS-rendered pages, multiple concurrent URLs, and returns LLM-optimized markdown. Use this instead of WebFetch for any webpage content extraction.\n"
         },
         {
           "owner": "firecrawl",
           "repo": "firecrawl-workflows",
           "name": "firecrawl-company-directories",
-          "skill_path": "skills/firecrawl-company-directories"
+          "skill_path": "skills/firecrawl-company-directories",
+          "description": "Extract structured company lists from directories with Firecrawl. Use for scraping YC, Crunchbase, Product Hunt, G2, startup directories, category directories, or custom company databases into JSON, CSV, CRM-ready lists, or research tables."
         },
         {
           "owner": "firecrawl",
           "repo": "firecrawl-workflows",
           "name": "firecrawl-demo-walkthrough",
-          "skill_path": "skills/firecrawl-demo-walkthrough"
+          "skill_path": "skills/firecrawl-demo-walkthrough",
+          "description": "Walk through a product's key flows with Firecrawl browser and produce a structured UX/product walkthrough. Use for signup, onboarding, pricing, docs, dashboard, product demo prep, UX teardown, and first-run experience analysis."
         },
         {
           "owner": "firecrawl",
           "repo": "firecrawl-workflows",
           "name": "firecrawl-knowledge-base",
-          "skill_path": "skills/firecrawl-knowledge-base"
+          "skill_path": "skills/firecrawl-knowledge-base",
+          "description": "Build a knowledge base from web content with Firecrawl. Use for local reference docs, RAG-ready chunks, fine-tuning datasets, documentation mirrors, topic corpora, or LLM-ready markdown organized from web sources."
         },
         {
           "owner": "firecrawl",
           "repo": "firecrawl-workflows",
           "name": "firecrawl-knowledge-ingest",
-          "skill_path": "skills/firecrawl-knowledge-ingest"
+          "skill_path": "skills/firecrawl-knowledge-ingest",
+          "description": "Ingest public or authenticated knowledge bases and docs portals with Firecrawl browser. Use for JS-heavy docs, login-gated portals, paginated help centers, support knowledge bases, or structured JSON/markdown extraction from documentation sites."
         },
         {
           "owner": "firecrawl",
           "repo": "firecrawl-workflows",
           "name": "firecrawl-shop",
-          "skill_path": "skills/firecrawl-shop"
+          "skill_path": "skills/firecrawl-shop",
+          "description": "Research products across the web with Firecrawl and produce a shopping recommendation or cart-ready summary. Use when the user wants to compare products, find the best option, evaluate reviews, respect budget/preferences, or shop with a saved browser session."
         },
         {
           "owner": "firecrawl",
           "repo": "firecrawl-workflows",
           "name": "firecrawl-workflows",
-          "skill_path": "skills/firecrawl-workflows"
+          "skill_path": "skills/firecrawl-workflows",
+          "description": "Run outcome-focused Firecrawl workflows that produce deliverables such as research reports, SEO audits, QA reports, lead lists, knowledge bases, website design systems, and other structured web-data artifacts. Use when the user wants Firecrawl to complete a business, marketing, product, or creative workflow rather than merely scrape a page or integrate API calls into code."
         },
         {
           "owner": "firecrawl",
           "repo": "skills",
           "name": "firecrawl-build-interact",
-          "skill_path": "skills/firecrawl-build-interact"
+          "skill_path": "skills/firecrawl-build-interact",
+          "description": "Integrate Firecrawl `/interact` into product code for dynamic pages and browser actions after scraping. Use when a feature needs clicks, form fills, pagination, authentication-aware flows, or other multi-step interactions that plain `/scrape` cannot complete."
         },
         {
           "owner": "firecrawl",
           "repo": "skills",
           "name": "firecrawl-build-onboarding",
-          "skill_path": "skills/firecrawl-build-onboarding"
+          "skill_path": "skills/firecrawl-build-onboarding",
+          "description": "Get Firecrawl credentials and SDK setup into a project. Use when an application needs `FIRECRAWL_API_KEY`, when an agent should add Firecrawl to `.env`, when the user wants to authenticate Firecrawl for app code, or when choosing the first SDK and docs for a new Firecrawl integration. This skill includes its own browser auth flow, so it does not depend on the website onboarding skill."
         },
         {
           "owner": "firecrawl",
           "repo": "skills",
           "name": "firecrawl-build-scrape",
-          "skill_path": "skills/firecrawl-build-scrape"
+          "skill_path": "skills/firecrawl-build-scrape",
+          "description": "Integrate Firecrawl `/scrape` into product code for single-page extraction. Use when an app already has a URL and needs markdown, HTML, links, screenshots, metadata, or structured page output. Prefer this skill over broader crawl patterns when the feature is page-level."
         },
         {
           "owner": "freestylefly",
           "repo": "wechat-article-extractor-skill",
           "name": "wechat-article-extractor",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "Extract metadata and content from WeChat Official Account articles. Use when user needs to parse WeChat article URLs (mp.weixin.qq.com), extract article info (title, author, content, publish time, cover image), or convert WeChat articles to structured data. Supports various article types including posts, videos, images, voice messages, and reposts."
         },
         {
           "owner": "jamditis",
           "repo": "claude-skills-journalism",
           "name": "web-scraping",
-          "skill_path": "dev-toolkit/skills/web-scraping"
+          "skill_path": "dev-toolkit/skills/web-scraping",
+          "description": "Web scraping with anti-bot bypass, content extraction, undocumented APIs and poison pill detection. Use when extracting content from websites, handling paywalls, implementing scraping cascades or processing social media. Covers requests, trafilatura, Playwright with stealth mode, yt-dlp and instaloader patterns."
         },
         {
           "owner": "jimliu",
           "repo": "baoyu-skills",
           "name": "baoyu-danger-x-to-markdown",
-          "skill_path": "skills/baoyu-danger-x-to-markdown"
+          "skill_path": "skills/baoyu-danger-x-to-markdown",
+          "description": "Converts X (Twitter) tweets and articles to markdown with YAML front matter. Uses reverse-engineered API requiring user consent. Use when user mentions \"X to markdown\", \"tweet to markdown\", \"save tweet\", or provides x.com/twitter.com URLs for conversion."
         },
         {
           "owner": "jimliu",
           "repo": "baoyu-skills",
           "name": "baoyu-url-to-markdown",
-          "skill_path": "skills/baoyu-url-to-markdown"
+          "skill_path": "skills/baoyu-url-to-markdown",
+          "description": "Fetch any URL and convert to markdown using baoyu-fetch CLI (Chrome CDP with site-specific adapters). Built-in adapters for X/Twitter, YouTube transcripts, Hacker News threads, and generic pages via Defuddle. Handles login/CAPTCHA via interaction wait modes. Use when user wants to save a webpage as markdown."
         },
         {
           "owner": "jimliu",
           "repo": "baoyu-skills",
           "name": "baoyu-youtube-transcript",
-          "skill_path": "skills/baoyu-youtube-transcript"
+          "skill_path": "skills/baoyu-youtube-transcript",
+          "description": "Downloads YouTube video transcripts/subtitles and cover images by URL or video ID. Supports multiple languages, translation, chapters, and speaker identification. Caches raw data for fast re-formatting. Use when user asks to \"get YouTube transcript\", \"download subtitles\", \"get captions\", \"YouTube字幕\", \"YouTube封面\", \"视频封面\", \"video thumbnail\", \"video cover image\", or provides a YouTube URL and wants the transcript/subtitle text or cover image extracted."
         },
         {
           "owner": "kepano",
           "repo": "obsidian-skills",
           "name": "defuddle",
-          "skill_path": "skills/defuddle"
+          "skill_path": "skills/defuddle",
+          "description": "Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page. Do NOT use for URLs ending in .md — those are already markdown, use WebFetch directly."
         },
         {
           "owner": "parallel-web",
           "repo": "parallel-agent-skills",
           "name": "parallel-findall",
-          "skill_path": "skills/parallel-findall"
+          "skill_path": "skills/parallel-findall",
+          "description": "Discover entities (companies, people, products, etc.) matching a natural-language description. Use when the user asks to 'find all X' or 'list every Y that…' — e.g., 'Find AI startups that raised Series A in 2026', 'List roofing companies in Charlotte NC', 'Show me YC W24 dev tools companies'. Different from web-search (which returns webpages) and deep-research (which returns a narrative report). Use this when the user wants a structured list of entities."
         },
         {
           "owner": "parallel-web",
           "repo": "parallel-agent-skills",
           "name": "parallel-web-extract",
-          "skill_path": "skills/parallel-web-extract"
+          "skill_path": "skills/parallel-web-extract",
+          "description": "URL content extraction. Use for fetching any URL - webpages, articles, PDFs, JavaScript-heavy sites. Token-efficient: runs in forked context. Prefer over built-in WebFetch."
         },
         {
           "owner": "scrapegraphai",
           "repo": "just-scrape",
           "name": "just-scrape",
-          "skill_path": "skills/just-scrape"
+          "skill_path": "skills/just-scrape",
+          "description": "Search, scrape, crawl, extract structured data, and monitor web pages via the ScrapeGraph AI CLI. Use when the user asks to search the web, scrape a webpage, grab content from a URL, extract JSON from a site, crawl documentation or site sections, monitor a page for changes, inspect request history, check ScrapeGraph credits, or validate API setup."
         },
         {
           "owner": "starchild-ai-agent",
           "repo": "official-skills",
           "name": "twitter",
-          "skill_path": "twitter"
+          "skill_path": "twitter",
+          "description": "Twitter/X data: fetch tweets, search, user profiles, followers, replies, trends.\n\nUse for any x.com or twitter.com URL or lookup (e.g. summarize this tweet, recent posts by @vitalikbuterin, search $SOL min_faves:50).\n"
         },
         {
           "owner": "steipete",
           "repo": "clawdis",
           "name": "summarize",
-          "skill_path": "skills/summarize"
+          "skill_path": "skills/summarize",
+          "description": "Summarize or transcribe URLs, YouTube/videos, podcasts, articles, transcripts, PDFs, and local files."
         },
         {
           "owner": "tavily-ai",
           "repo": "skills",
           "name": "tavily-crawl",
-          "skill_path": "skills/tavily-crawl"
+          "skill_path": "skills/tavily-crawl",
+          "description": "Crawl websites and extract content from multiple pages via the Tavily CLI. Use this skill when the user wants to crawl a site, download documentation, extract an entire docs section, bulk-extract pages, save a site as local markdown files, or says \"crawl\", \"get all the pages\", \"download the docs\", \"extract everything under /docs\", \"bulk extract\", or needs content from many pages on the same domain. Supports depth/breadth control, path filtering, semantic instructions, and saving each page as a local markdown file.\n"
         },
         {
           "owner": "tavily-ai",
           "repo": "skills",
           "name": "tavily-extract",
-          "skill_path": "skills/tavily-extract"
+          "skill_path": "skills/tavily-extract",
+          "description": "Extract clean markdown or text content from specific URLs via the Tavily CLI. Use this skill when the user has one or more URLs and wants their content, says \"extract\", \"grab the content from\", \"pull the text from\", \"get the page at\", \"read this webpage\", or needs clean text from web pages. Handles JavaScript-rendered pages, returns LLM-optimized markdown, and supports query-focused chunking for targeted extraction. Can process up to 20 URLs in a single call.\n"
         },
         {
           "owner": "tavily-ai",
           "repo": "skills",
           "name": "tavily-map",
-          "skill_path": "skills/tavily-map"
+          "skill_path": "skills/tavily-map",
+          "description": "Discover and list all URLs on a website without extracting content, via the Tavily CLI. Use this skill when the user wants to find a specific page on a large site, list all URLs, see the site structure, find where something is on a domain, or says \"map the site\", \"find the URL for\", \"what pages are on\", \"list all pages\", or \"site structure\". Faster than crawling — returns URLs only. Essential when you know the site but not the exact page. Combine with extract for targeted content retrieval.\n"
         },
         {
           "owner": "tw93",
           "repo": "waza",
           "name": "read",
-          "skill_path": "skills/read"
+          "skill_path": "skills/read",
+          "description": "Reads URLs and PDFs by fetching source content, defaulting to concise summaries for plain read requests and clean Markdown when asked to convert, save, quote, cite, or feed downstream work. Use when users ask 看这个链接/读一下/read this/check this URL. Not for local text files already in the repo."
         }
       ]
     },
@@ -315,55 +364,64 @@
           "owner": "199-biotechnologies",
           "repo": "claude-deep-research-skill",
           "name": "deep-research",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "Use when the user needs multi-source research with citation tracking, evidence persistence, and structured report generation. Triggers on \"deep research\", \"comprehensive analysis\", \"research report\", \"compare X vs Y\", \"analyze trends\", or \"state of the art\". Not for simple lookups, debugging, or questions answerable with 1-2 searches."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "deep-research",
-          "skill_path": ".agents/skills/deep-research"
+          "skill_path": ".agents/skills/deep-research",
+          "description": "Multi-source deep research using firecrawl and exa MCPs. Searches the web, synthesizes findings, and delivers cited reports with source attribution. Use when the user wants thorough research on any topic with evidence and citations."
         },
         {
           "owner": "firecrawl",
           "repo": "firecrawl-workflows",
           "name": "firecrawl-deep-research",
-          "skill_path": "skills/firecrawl-deep-research"
+          "skill_path": "skills/firecrawl-deep-research",
+          "description": "Run multi-source deep research with Firecrawl. Use when the user asks to research a topic, compare perspectives, produce a sourced briefing, investigate a technical or market question, or synthesize web evidence across many sources."
         },
         {
           "owner": "firecrawl",
           "repo": "firecrawl-workflows",
           "name": "firecrawl-market-research",
-          "skill_path": "skills/firecrawl-market-research"
+          "skill_path": "skills/firecrawl-market-research",
+          "description": "Extract market, financial, earnings, industry, and company metrics with Firecrawl. Use when the user asks for market research, industry trends, public company data, financial comparisons, earnings research, or structured market reports."
         },
         {
           "owner": "firecrawl",
           "repo": "firecrawl-workflows",
           "name": "firecrawl-research-papers",
-          "skill_path": "skills/firecrawl-research-papers"
+          "skill_path": "skills/firecrawl-research-papers",
+          "description": "Find and synthesize research papers, whitepapers, PDFs, technical reports, and academic sources with Firecrawl. Use when the user wants a literature review, paper summary, research landscape, or sourced synthesis from PDFs and scholarly/industry publications."
         },
         {
           "owner": "parallel-web",
           "repo": "parallel-agent-skills",
           "name": "parallel-deep-research",
-          "skill_path": "skills/parallel-deep-research"
+          "skill_path": "skills/parallel-deep-research",
+          "description": "ONLY use when user explicitly says 'deep research', 'exhaustive', 'comprehensive report', or 'thorough investigation'. Slower and more expensive than parallel-web-search. For normal research/lookup requests, use parallel-web-search instead. Supports multi-turn: pass --previous-interaction-id from a prior research or enrichment to continue with context."
         },
         {
           "owner": "parallel-web",
           "repo": "parallel-agent-skills",
           "name": "result",
-          "skill_path": "skills/result"
+          "skill_path": "skills/result",
+          "description": "Get completed research task result by run ID"
         },
         {
           "owner": "parallel-web",
           "repo": "parallel-agent-skills",
           "name": "status",
-          "skill_path": "skills/status"
+          "skill_path": "skills/status",
+          "description": "Check running research task status by run ID"
         },
         {
           "owner": "tavily-ai",
           "repo": "skills",
           "name": "tavily-research",
-          "skill_path": "skills/tavily-research"
+          "skill_path": "skills/tavily-research",
+          "description": "Conduct comprehensive AI-powered research with citations via the Tavily CLI. Use this skill when the user wants deep research, a detailed report, a comparison, market analysis, literature review, or says \"research\", \"investigate\", \"analyze in depth\", \"compare X vs Y\", \"what does the market look like for\", or needs multi-source synthesis with explicit citations. Returns a structured report grounded in web sources. Takes 30-120 seconds. For quick fact-finding, use tavily-search instead.\n"
         }
       ]
     },
@@ -375,55 +433,64 @@
           "owner": "cclank",
           "repo": "news-aggregator-skill",
           "name": "news-aggregator-skill",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "Comprehensive news aggregator that fetches, filters, and deeply analyzes real-time content from 44+ sources including Hacker News, Lobsters, Dev.to, GitHub, arXiv, Hugging Face Papers, AIHOT, TLDR AI, Import AI, BBC, The Guardian, Al Jazeera, France 24, Reuters fallback, AI Newsletters, WallStreetCN, Weibo, 少数派, InfoQ 中文, Podcasts, and user-defined OPML feeds. Use when user requests 'daily scans', 'tech news', 'finance updates', 'AI briefings', 'international news', 'deep analysis', or says '如意如意' to open the interactive menu."
         },
         {
           "owner": "firecrawl",
           "repo": "firecrawl-workflows",
           "name": "firecrawl-competitive-intel",
-          "skill_path": "skills/firecrawl-competitive-intel"
+          "skill_path": "skills/firecrawl-competitive-intel",
+          "description": "Monitor competitor pricing, features, changelogs, dashboards, and product changes with Firecrawl. Use for recurring competitive intelligence, pricing tier extraction, feature change tracking, or structured competitor alerts."
         },
         {
           "owner": "firecrawl",
           "repo": "firecrawl-workflows",
           "name": "firecrawl-dashboard-reporting",
-          "skill_path": "skills/firecrawl-dashboard-reporting"
+          "skill_path": "skills/firecrawl-dashboard-reporting",
+          "description": "Pull metrics from analytics dashboards and internal web tools with Firecrawl browser. Use when the user needs dashboard reporting, cross-platform metric summaries, authenticated analytics extraction, date-range reports, or structured metrics from web dashboards."
         },
         {
           "owner": "firecrawl",
           "repo": "firecrawl-workflows",
           "name": "firecrawl-lead-gen",
-          "skill_path": "skills/firecrawl-lead-gen"
+          "skill_path": "skills/firecrawl-lead-gen",
+          "description": "Generate structured lead lists from prospect databases and web directories with Firecrawl browser. Use for finding prospects by role, company type, industry, stage, location, technologies, or other criteria and exporting CRM-ready JSON or CSV."
         },
         {
           "owner": "firecrawl",
           "repo": "firecrawl-workflows",
           "name": "firecrawl-lead-research",
-          "skill_path": "skills/firecrawl-lead-research"
+          "skill_path": "skills/firecrawl-lead-research",
+          "description": "Produce pre-meeting lead intelligence briefs with Firecrawl. Use when the user needs company research, person research, recent news, talking points, pain points, or outreach preparation before a sales call, partnership meeting, investor conversation, or customer interview."
         },
         {
           "owner": "mvanhorn",
           "repo": "last30days-skill",
           "name": "last30days",
-          "skill_path": "skills/last30days"
+          "skill_path": "skills/last30days",
+          "description": "Research what people actually say about any topic in the last 30 days. Pulls posts and engagement from Reddit, X, YouTube, TikTok, Hacker News, Polymarket, GitHub, and the web."
         },
         {
           "owner": "parallel-web",
           "repo": "parallel-agent-skills",
           "name": "parallel-data-enrichment",
-          "skill_path": "skills/parallel-data-enrichment"
+          "skill_path": "skills/parallel-data-enrichment",
+          "description": "Bulk data enrichment. Adds web-sourced fields (CEO names, funding, contact info) to lists of companies, people, or products. Use for enriching CSV files or inline data. Supports multi-turn: pass --previous-interaction-id from a prior research task to carry context forward."
         },
         {
           "owner": "parallel-web",
           "repo": "parallel-agent-skills",
           "name": "parallel-monitor",
-          "skill_path": "skills/parallel-monitor"
+          "skill_path": "skills/parallel-monitor",
+          "description": "Continuously track the web for changes on a recurring cadence. Use when the user asks to 'monitor', 'track changes to', 'watch', or 'alert me when' something on the web changes — e.g., 'Track price changes for iPhone 16', 'Alert me when Tesla files a new 8-K', 'Monitor competitor pricing pages weekly'. Also use to list, inspect, update, or delete existing monitors."
         },
         {
           "owner": "sfkislev",
           "repo": "the-news",
           "name": "the-news",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "gives agents real-time and historical access to front-page headlines across 20 countries for breaking news, current events, and comparative media analysis."
         }
       ]
     },

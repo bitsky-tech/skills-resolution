@@ -9,79 +9,92 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "carrier-relationship-management",
-          "skill_path": "skills/carrier-relationship-management"
+          "skill_path": "skills/carrier-relationship-management",
+          "description": "Codified expertise for managing carrier portfolios, negotiating freight rates, tracking carrier performance, allocating freight, and maintaining strategic carrier relationships. Informed by transportation managers with 15+ years experience. Includes scorecarding frameworks, RFP processes, market intelligence, and compliance vetting. Use when managing carriers, negotiating rates, evaluating carrier performance, or building freight strategies.\n"
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "customs-trade-compliance",
-          "skill_path": "skills/customs-trade-compliance"
+          "skill_path": "skills/customs-trade-compliance",
+          "description": "Codified expertise for customs documentation, tariff classification, duty optimization, restricted party screening, and regulatory compliance across multiple jurisdictions. Informed by trade compliance specialists with 15+ years experience. Includes HS classification logic, Incoterms application, FTA utilization, and penalty mitigation. Use when handling customs clearance, tariff classification, trade compliance, import/export documentation, or duty optimization.\n"
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "energy-procurement",
-          "skill_path": "skills/energy-procurement"
+          "skill_path": "skills/energy-procurement",
+          "description": "Codified expertise for electricity and gas procurement, tariff optimization, demand charge management, renewable PPA evaluation, and multi-facility energy cost management. Informed by energy procurement managers with 15+ years experience at large commercial and industrial consumers. Includes market structure analysis, hedging strategies, load profiling, and sustainability reporting frameworks. Use when procuring energy, optimizing tariffs, managing demand charges, evaluating PPAs, or developing energy strategies.\n"
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "healthcare-cdss-patterns",
-          "skill_path": "skills/healthcare-cdss-patterns"
+          "skill_path": "skills/healthcare-cdss-patterns",
+          "description": "Clinical Decision Support System (CDSS) development patterns. Drug interaction checking, dose validation, clinical scoring (NEWS2, qSOFA), alert severity classification, and integration into EMR workflows."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "healthcare-emr-patterns",
-          "skill_path": "skills/healthcare-emr-patterns"
+          "skill_path": "skills/healthcare-emr-patterns",
+          "description": "EMR/EHR development patterns for healthcare applications. Clinical safety, encounter workflows, prescription generation, clinical decision support integration, and accessibility-first UI for medical data entry."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "healthcare-eval-harness",
-          "skill_path": "skills/healthcare-eval-harness"
+          "skill_path": "skills/healthcare-eval-harness",
+          "description": "Patient safety evaluation harness for healthcare application deployments. Automated test suites for CDSS accuracy, PHI exposure, clinical workflow integrity, and integration compliance. Blocks deployments on safety failures."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "healthcare-phi-compliance",
-          "skill_path": "skills/healthcare-phi-compliance"
+          "skill_path": "skills/healthcare-phi-compliance",
+          "description": "Protected Health Information (PHI) and Personally Identifiable Information (PII) compliance patterns for healthcare applications. Covers data classification, access control, audit trails, encryption, and common leak vectors."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "inventory-demand-planning",
-          "skill_path": "skills/inventory-demand-planning"
+          "skill_path": "skills/inventory-demand-planning",
+          "description": "Codified expertise for demand forecasting, safety stock optimization, replenishment planning, and promotional lift estimation at multi-location retailers. Informed by demand planners with 15+ years experience managing hundreds of SKUs. Includes forecasting method selection, ABC/XYZ analysis, seasonal transition management, and vendor negotiation frameworks. Use when forecasting demand, setting safety stock, planning replenishment, managing promotions, or optimizing inventory levels.\n"
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "logistics-exception-management",
-          "skill_path": "skills/logistics-exception-management"
+          "skill_path": "skills/logistics-exception-management",
+          "description": "Codified expertise for handling freight exceptions, shipment delays, damages, losses, and carrier disputes. Informed by logistics professionals with 15+ years operational experience. Includes escalation protocols, carrier-specific behaviors, claims procedures, and judgment frameworks. Use when handling shipping exceptions, freight claims, delivery issues, or carrier disputes.\n"
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "production-scheduling",
-          "skill_path": "skills/production-scheduling"
+          "skill_path": "skills/production-scheduling",
+          "description": "Codified expertise for production scheduling, job sequencing, line balancing, changeover optimization, and bottleneck resolution in discrete and batch manufacturing. Informed by production schedulers with 15+ years experience. Includes TOC/drum-buffer-rope, SMED, OEE analysis, disruption response frameworks, and ERP/MES interaction patterns. Use when scheduling production, resolving bottlenecks, optimizing changeovers, responding to disruptions, or balancing manufacturing lines.\n"
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "quality-nonconformance",
-          "skill_path": "skills/quality-nonconformance"
+          "skill_path": "skills/quality-nonconformance",
+          "description": "Codified expertise for quality control, non-conformance investigation, root cause analysis, corrective action, and supplier quality management in regulated manufacturing. Informed by quality engineers with 15+ years experience across FDA, IATF 16949, and AS9100 environments. Includes NCR lifecycle management, CAPA systems, SPC interpretation, and audit methodology. Use when investigating non-conformances, performing root cause analysis, managing CAPAs, interpreting SPC data, or handling supplier quality issues.\n"
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "returns-reverse-logistics",
-          "skill_path": "skills/returns-reverse-logistics"
+          "skill_path": "skills/returns-reverse-logistics",
+          "description": "Codified expertise for returns authorization, receipt and inspection, disposition decisions, refund processing, fraud detection, and warranty claims management. Informed by returns operations managers with 15+ years experience. Includes grading frameworks, disposition economics, fraud pattern recognition, and vendor recovery processes. Use when handling product returns, reverse logistics, refund decisions, return fraud detection, or warranty claims.\n"
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "employment-contract-templates",
-          "skill_path": "plugins/hr-legal-compliance/skills/employment-contract-templates"
+          "skill_path": "plugins/hr-legal-compliance/skills/employment-contract-templates",
+          "description": "Create employment contracts, offer letters, and HR policy documents following legal best practices. Use when drafting employment agreements, creating HR policies, or standardizing employment documentation."
         }
       ]
     },
@@ -93,85 +106,99 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "investor-materials",
-          "skill_path": ".agents/skills/investor-materials"
+          "skill_path": ".agents/skills/investor-materials",
+          "description": "Create and update pitch decks, one-pagers, investor memos, accelerator applications, financial models, and fundraising materials. Use when the user needs investor-facing documents, projections, use-of-funds tables, milestone plans, or materials that must stay internally consistent across multiple fundraising assets."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "investor-outreach",
-          "skill_path": ".agents/skills/investor-outreach"
+          "skill_path": ".agents/skills/investor-outreach",
+          "description": "Draft cold emails, warm intro blurbs, follow-ups, update emails, and investor communications for fundraising. Use when the user wants outreach to angels, VCs, strategic investors, or accelerators and needs concise, personalized, investor-facing messaging."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "product-lens",
-          "skill_path": "skills/product-lens"
+          "skill_path": "skills/product-lens",
+          "description": "Use this skill to validate the \"why\" before building, run product diagnostics, and pressure-test product direction before the request becomes an implementation contract."
         },
         {
           "owner": "dontbesilent2025",
           "repo": "dbskill",
           "name": "dbs",
-          "skill_path": "skills/dbs"
+          "skill_path": "skills/dbs",
+          "description": "dontbesilent 商业工具箱主入口。根据你的问题自动路由到最合适的诊断工具。\n触发方式：/dbs、/商业、「帮我看看」\nMain entry point for dontbesilent business toolkit. Routes to the right diagnostic skill.\nTrigger: /dbs, \"help me with my business\"\n"
         },
         {
           "owner": "dontbesilent2025",
           "repo": "dbskill",
           "name": "dbs-benchmark",
-          "skill_path": "skills/dbs-benchmark"
+          "skill_path": "skills/dbs-benchmark",
+          "description": "dontbesilent 对标分析。用五重过滤法帮你找到值得模仿的对标，排除一切关于「我」的噪音。\n触发方式：/dbs-benchmark、/对标、「帮我找对标」「我该模仿谁」\nBenchmark analysis using dontbesilent's five-filter method.\nTrigger: /dbs-benchmark, \"find me a benchmark\", \"who should I copy\"\n"
         },
         {
           "owner": "dontbesilent2025",
           "repo": "dbskill",
           "name": "dbs-diagnosis",
-          "skill_path": "skills/dbs-diagnosis"
+          "skill_path": "skills/dbs-diagnosis",
+          "description": "dontbesilent 商业模式诊断。两种模式：问诊（消解你的问题）和体检（拆解你的商业模式）。\n触发方式：/dbs-diagnosis、/问诊、「帮我看看商业模式」「诊断一下我的业务」「我有个商业问题」\nBusiness model diagnosis using dontbesilent's ontological framework. Two modes: consultation (dissolve your question) and checkup (analyze your business model).\nTrigger: /dbs-diagnosis, \"diagnose my business model\", \"I have a business question\"\n"
         },
         {
           "owner": "dontbesilent2025",
           "repo": "dbskill",
           "name": "dbs-report",
-          "skill_path": "skills/dbs-report"
+          "skill_path": "skills/dbs-report",
+          "description": "把多次 dbs-save 攒下来的诊断状态合并成一份可交付的 markdown 报告。\n触发方式：/dbs-report、/出报告、「打包」「整理一份」「给合伙人看的」\nGenerate a deliverable diagnosis report by merging all dbs-save snapshots.\nTrigger: /dbs-report, \"package this up\", \"make me a report\"\n"
         },
         {
           "owner": "softaworks",
           "repo": "agent-toolkit",
           "name": "game-changing-features",
-          "skill_path": "dist/plugins/game-changing-features/skills/game-changing-features"
+          "skill_path": "dist/plugins/game-changing-features/skills/game-changing-features",
+          "description": "Find 10x product opportunities and high-leverage improvements. Use when user wants strategic product thinking, mentions '10x', wants to find high-impact features, or says 'what would make this 10x better', 'product strategy', or 'what should we build next'."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "competitive-landscape",
-          "skill_path": "plugins/startup-business-analyst/skills/competitive-landscape"
+          "skill_path": "plugins/startup-business-analyst/skills/competitive-landscape",
+          "description": "Analyze competition, identify differentiation opportunities, and develop winning market positioning strategies using Porter's Five Forces, Blue Ocean Strategy, and positioning maps. Use this skill when evaluating competitors, assessing market positioning, identifying sustainable competitive advantages, or preparing competitive strategy analysis for a startup or investor pitch."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "market-sizing-analysis",
-          "skill_path": "plugins/startup-business-analyst/skills/market-sizing-analysis"
+          "skill_path": "plugins/startup-business-analyst/skills/market-sizing-analysis",
+          "description": "Calculate TAM/SAM/SOM for market opportunities using top-down, bottom-up, and value theory methodologies. Use this skill when sizing markets, estimating addressable revenue, validating market opportunity for a new venture, or building investor-ready market analysis for a startup pitch or business plan."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "startup-financial-modeling",
-          "skill_path": "plugins/startup-business-analyst/skills/startup-financial-modeling"
+          "skill_path": "plugins/startup-business-analyst/skills/startup-financial-modeling",
+          "description": "Build comprehensive 3-5 year financial models with revenue projections, cost structures, cash flow analysis, and scenario planning for early-stage startups. Use this skill when creating financial projections, calculating burn rate or runway, modeling fundraising scenarios, or preparing investor-ready financials for a seed or Series A raise."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "startup-metrics-framework",
-          "skill_path": "plugins/startup-business-analyst/skills/startup-metrics-framework"
+          "skill_path": "plugins/startup-business-analyst/skills/startup-metrics-framework",
+          "description": "Track, calculate, and optimize key performance metrics for SaaS, marketplace, consumer, and B2B startups from seed through Series A, including unit economics, growth efficiency, and cash management. Use this skill when defining a metrics framework, calculating CAC/LTV/burn multiple, benchmarking business health, or preparing metrics dashboards for investors or board reporting."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "team-composition-analysis",
-          "skill_path": "plugins/startup-business-analyst/skills/team-composition-analysis"
+          "skill_path": "plugins/startup-business-analyst/skills/team-composition-analysis",
+          "description": "Design optimal team structures, hiring plans, compensation strategies, and equity allocation for early-stage startups from pre-seed through Series A. Use this skill when planning headcount, determining which roles to hire next, setting compensation or equity ranges, designing org structure, or building a hiring budget aligned to funding milestones."
         },
         {
           "owner": "xixu-me",
           "repo": "skills",
           "name": "opensource-guide-coach",
-          "skill_path": "skills/opensource-guide-coach"
+          "skill_path": "skills/opensource-guide-coach",
+          "description": "Use when a user wants guidance on starting, contributing to, growing, governing, funding, securing, or sustaining an open source project, or asks about contributor onboarding, community health, maintainer burnout, code of conduct, metrics, legal basics, or open source project adoption."
         }
       ]
     },
@@ -183,85 +210,99 @@
           "owner": "anthropics",
           "repo": "knowledge-work-plugins",
           "name": "knowledge-synthesis",
-          "skill_path": "enterprise-search/skills/knowledge-synthesis"
+          "skill_path": "enterprise-search/skills/knowledge-synthesis",
+          "description": "Combines search results from multiple sources into coherent, deduplicated answers with source attribution. Handles confidence scoring based on freshness and authority, and summarizes large result sets effectively."
         },
         {
           "owner": "dontbesilent2025",
           "repo": "dbskill",
           "name": "dbs-deconstruct",
-          "skill_path": "skills/dbs-deconstruct"
+          "skill_path": "skills/dbs-deconstruct",
+          "description": "dontbesilent 概念拆解。用维特根斯坦 + 奥派经济学的方法，把模糊的商业概念拆到原子级别。\n触发方式：/dbs-deconstruct、/拆概念、「帮我拆解这个概念」「这个词到底什么意思」\nConcept deconstruction using Wittgenstein + Austrian economics framework.\nTrigger: /dbs-deconstruct, \"deconstruct this concept\", \"what does this really mean\"\n"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "mentoring-juniors",
-          "skill_path": "skills/mentoring-juniors"
+          "skill_path": "skills/mentoring-juniors",
+          "description": "Socratic mentoring for junior developers and AI newcomers. Guides through questions, never answers. Triggers: \"help me understand\", \"explain this code\", \"I'm stuck\", \"Im stuck\", \"I'm confused\", \"Im confused\", \"I don't understand\", \"I dont understand\", \"can you teach me\", \"teach me\", \"mentor me\", \"guide me\", \"what does this error mean\", \"why doesn't this work\", \"why does not this work\", \"I'm a beginner\", \"Im a beginner\", \"I'm learning\", \"Im learning\", \"I'm new to this\", \"Im new to this\", \"walk me through\", \"how does this work\", \"what's wrong with my code\", \"what's wrong\", \"can you break this down\", \"ELI5\", \"step by step\", \"where do I start\", \"what am I missing\", \"newbie here\", \"junior dev\", \"first time using\", \"how do I\", \"what is\", \"is this right\", \"not sure\", \"need help\", \"struggling\", \"show me\", \"help me debug\", \"best practice\", \"too complex\", \"overwhelmed\", \"lost\", \"debug this\", \"/socratic\", \"/hint\", \"/concept\", \"/pseudocode\". Progressive clue systems, teaching techniques, and success metrics."
         },
         {
           "owner": "lijigang",
           "repo": "ljg-skills",
           "name": "ljg-learn",
-          "skill_path": "skills/ljg-learn"
+          "skill_path": "skills/ljg-learn",
+          "description": "Deep concept anatomist that deconstructs any concept through 8 exploration dimensions (history, dialectics, phenomenology, linguistics, formalization, existentialism, aesthetics, meta-philosophy) and compresses insights into an epiphany. Use when user asks to explain, dissect, or deeply understand a concept, term, or idea. Triggers on '解剖概念', '概念解剖', 'explain concept', 'learn concept', '/ljg-learn'. Produces org-mode output."
         },
         {
           "owner": "lijigang",
           "repo": "ljg-skills",
           "name": "ljg-paper",
-          "skill_path": "skills/ljg-paper"
+          "skill_path": "skills/ljg-paper",
+          "description": "Paper reader for non-academics. Reads a paper and tells it back as one continuous story to someone who doesn't know the field — built on a seven-beat spine (主角 / 困境 / 旧路 / 转折 / 解法 / 结局 / 内核). The job is storytelling that makes the paper land, not academic critique. Use when user shares an arxiv link, paper URL, PDF, or asks to analyze a research paper. Trigger words: '读论文', '讲论文', '把这篇讲给我听', '分析论文', 'paper', or when user shares an academic paper."
         },
         {
           "owner": "lijigang",
           "repo": "ljg-skills",
           "name": "ljg-paper-flow",
-          "skill_path": "skills/ljg-paper-flow"
+          "skill_path": "skills/ljg-paper-flow",
+          "description": "Paper workflow: read papers + cast cards in one go. Takes one or more arxiv links, paper URLs, PDFs, or paper names. For each paper, runs ljg-paper (generates org analysis) then ljg-card -v (generates visual sketchnote PNG). Use when user says '论文流', 'paper flow', '读论文并做卡片', '论文卡片', or provides multiple papers wanting both analysis and cards."
         },
         {
           "owner": "lijigang",
           "repo": "ljg-skills",
           "name": "ljg-rank",
-          "skill_path": "skills/ljg-rank"
+          "skill_path": "skills/ljg-rank",
+          "description": "给一个领域，找出背后真正撑着它的几根独立的力。十几个现象砍到不可再少的生成器——砍完能把现象一个个生回来，才算数。Use when user says '降秩', '找秩', '秩是什么', '这个领域靠什么撑着', '背后是什么', or wants to decompose any domain to its irreducible generators."
         },
         {
           "owner": "lijigang",
           "repo": "ljg-skills",
           "name": "ljg-travel",
-          "skill_path": "skills/ljg-travel"
+          "skill_path": "skills/ljg-travel",
+          "description": "Deep travel research workflow for museums and ancient architecture. Input a city name, auto-generates structured knowledge document (org-mode) + portable reference cards (PNG). Covers historical background, museum highlights, archaeological significance, and architectural heritage. Use when user says '旅行研究', '博物馆功课', '古建功课', 'travel research', '出发前功课', or provides a city name with intent to do deep cultural travel preparation."
         },
         {
           "owner": "lijigang",
           "repo": "ljg-skills",
           "name": "ljg-word",
-          "skill_path": "skills/ljg-word"
+          "skill_path": "skills/ljg-word",
+          "description": "Deep-dive English word mastery tool. Deconstructs a single English word into core semantics and epiphany. Use when user asks to explain/master a specific English word."
         },
         {
           "owner": "mattpocock",
           "repo": "skills",
           "name": "scaffold-exercises",
-          "skill_path": "skills/misc/scaffold-exercises"
+          "skill_path": "skills/misc/scaffold-exercises",
+          "description": "Create exercise directory structures with sections, problems, solutions, and explainers that pass linting. Use when user wants to scaffold exercises, create exercise stubs, or set up a new course section."
         },
         {
           "owner": "mattpocock",
           "repo": "skills",
           "name": "teach",
-          "skill_path": "skills/in-progress/teach"
+          "skill_path": "skills/in-progress/teach",
+          "description": "Teach the user a new skill or concept, within this workspace."
         },
         {
           "owner": "shubhamsaboo",
           "repo": "awesome-llm-apps",
           "name": "academic-researcher",
-          "skill_path": "awesome_agent_skills/academic-researcher"
+          "skill_path": "awesome_agent_skills/academic-researcher",
+          "description": "Academic research assistant for literature reviews, paper analysis, and scholarly writing.\nUse when: reviewing academic papers, conducting literature reviews, writing research summaries,\nanalyzing methodologies, formatting citations, or when user mentions academic research, scholarly\nwriting, papers, or scientific literature.\n"
         },
         {
           "owner": "softaworks",
           "repo": "agent-toolkit",
           "name": "ship-learn-next",
-          "skill_path": "dist/plugins/ship-learn-next/skills/ship-learn-next"
+          "skill_path": "dist/plugins/ship-learn-next/skills/ship-learn-next",
+          "description": "Transform learning content (like YouTube transcripts, articles, tutorials) into actionable implementation plans using the Ship-Learn-Next framework. Use when user wants to turn advice, lessons, or educational content into concrete action steps, reps, or a learning quest."
         },
         {
           "owner": "tw93",
           "repo": "waza",
           "name": "learn",
-          "skill_path": "skills/learn"
+          "skill_path": "skills/learn",
+          "description": "Runs a six-phase research workflow that turns unfamiliar domains, source bundles, or collected material into publish-ready output. Use when users ask 学习一下/深入研究/研究一下/整理成文章/deep dive/compile sources or need one coherent reference from many inputs. Not for quick lookups or single-file reads."
         }
       ]
     },
@@ -273,55 +314,64 @@
           "owner": "alchaincyf",
           "repo": "elon-musk-skill",
           "name": "elon-musk-perspective",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "马斯克的思维操作系统。基于传记、播客、推文、法庭证词、决策记录和外部批评的深度调研，\n提炼5个核心心智模型、8条决策启发式和完整的表达DNA。\n用途：作为思维顾问，用马斯克的视角分析问题、审视决策、拆解成本结构、挑战行业假设。\n当用户提到「用马斯克的视角」「马斯克会怎么看」「Musk模式」「马斯克perspective」「elon perspective」时使用。\n即使用户只是说「这个成本合理吗」「从第一性原理想想」「白痴指数是多少」「五步算法」「能不能垂直整合」也可触发。\n不要在用户只是问「能不能更快」「流程有必要吗」等一般性问题时触发——只在涉及成本拆解、第一性原理、激进迭代等马斯克核心方法论时激活。\n"
         },
         {
           "owner": "alchaincyf",
           "repo": "steve-jobs-skill",
           "name": "steve-jobs-perspective",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "史蒂夫·乔布斯(Steve Jobs)的思维框架与表达方式。基于Isaacson授权传记、Stanford演讲、\nLost Interview、D Conference系列、Make Something Wonderful、30+一手来源的深度调研，\n提炼6个核心心智模型、8条决策启发式和完整的表达DNA。\n用途：作为思维顾问，用乔布斯的视角分析产品、审视决策、提供反馈。\n当用户提到「用乔布斯的视角」「乔布斯会怎么看」「Jobs模式」「steve jobs perspective」时使用。\n即使用户只是说「帮我用乔布斯的角度想想」「如果乔布斯会怎么做」「切换到乔布斯」也应触发。\n"
         },
         {
           "owner": "alchaincyf",
           "repo": "zhangxuefeng-skill",
           "name": "zhangxuefeng-perspective",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "张雪峰的思维框架与表达方式。基于5本著作、15+篇权威媒体深度采访、\n30+条一手语录、11个关键决策记录和完整人生时间线的深度调研，\n提炼5个核心心智模型、8条决策启发式和完整的表达DNA。\n用途：作为思维顾问，用张雪峰的视角分析教育选择、职业规划、阶层流动等问题。\n当用户提到「用张雪峰的视角」「张雪峰会怎么看」「张雪峰模式」「雪峰视角」时使用。\n即使用户只是说「帮我用张雪峰的角度想想」「如果张雪峰会怎么说」「切换到张雪峰」也应触发。\n"
         },
         {
           "owner": "dontbesilent2025",
           "repo": "dbskill",
           "name": "dbs-action",
-          "skill_path": "skills/dbs-action"
+          "skill_path": "skills/dbs-action",
+          "description": "dontbesilent 执行力诊断。用阿德勒心理学框架诊断你「知道该做什么但就是不做」的真正原因。\n触发方式：/dbs-action、/action、「我知道该怎么做但就是不做」「为什么我总是拖延」\nExecution block diagnosis using Adlerian psychology framework.\nTrigger: /dbs-action, \"I know what to do but can't do it\", \"why do I procrastinate\"\n"
         },
         {
           "owner": "dontbesilent2025",
           "repo": "dbskill",
           "name": "dbs-chatroom",
-          "skill_path": "skills/dbs-chatroom"
+          "skill_path": "skills/dbs-chatroom",
+          "description": "定向聊天室：根据话题推荐或接受用户指定的专家，模拟多角色对话。触发方式：/dbs-chatroom、/定向聊天室、「定向聊天室」"
         },
         {
           "owner": "dontbesilent2025",
           "repo": "dbskill",
           "name": "dbs-chatroom-austrian",
-          "skill_path": "skills/dbs-chatroom-austrian"
+          "skill_path": "skills/dbs-chatroom-austrian",
+          "description": "哈耶克 × 米塞斯 × Claude 三人对话。奥派经济学视角的多角色讨论。\n触发方式：/dbs-chatroom-austrian、/chatroom-austrian、/奥派、「奥派聊天室」\nAustrian economics chatroom. Hayek × Mises × Claude debate.\nTrigger: /dbs-chatroom-austrian, /chatroom-austrian, /奥派, \"Austrian chat\"\n"
         },
         {
           "owner": "dontbesilent2025",
           "repo": "dbskill",
           "name": "dbs-slowisfast",
-          "skill_path": "skills/dbs-slowisfast"
+          "skill_path": "skills/dbs-slowisfast",
+          "description": "dontbesilent 慢就是快。帮创业者找到看起来更慢但长期更快的方法，用摩擦建造资产。\n触发方式：/dbs-slowisfast、/慢就是快、「有没有更慢的方法」「我是不是太快了」\nSlow-is-fast diagnosis. Help entrepreneurs find seemingly slower methods that build assets through friction.\nTrigger: /dbs-slowisfast, \"is there a slower way\", \"am I going too fast\"\n"
         },
         {
           "owner": "lijigang",
           "repo": "ljg-skills",
           "name": "ljg-roundtable",
-          "skill_path": "skills/ljg-roundtable"
+          "skill_path": "skills/ljg-roundtable",
+          "description": "Structured roundtable discussion framework with a truth-seeking moderator who invites representative figures for dialectical debate on any topic. Use when user says \"圆桌讨论\", \"圆桌\", \"roundtable\", \"辩论\", or wants to explore a topic through multi-perspective structured debate."
         },
         {
           "owner": "soultrace-ai",
           "repo": "soultrace-skill",
           "name": "soultrace",
-          "skill_path": "skills/soultrace"
+          "skill_path": "skills/soultrace",
+          "description": "Take a personality assessment via the SoulTrace API. Use when the user wants to take a personality test, discover their psychological archetype, understand their personality traits, or get a color-based personality profile. The API uses a 5-color psychological model (White=structure, Blue=understanding, Black=agency, Red=intensity, Green=connection) with Bayesian adaptive question selection to classify users into one of 25 archetypes. Triggers on: personality test, personality assessment, what's my personality, take a quiz, archetype test, color personality, soultrace."
         }
       ]
     },

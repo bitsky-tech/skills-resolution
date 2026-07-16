@@ -9,193 +9,225 @@
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "ai-avatar-video",
-          "skill_path": "ai-avatar-video"
+          "skill_path": "ai-avatar-video",
+          "description": "Create AI avatar, talking-head, and lip-sync videos on RunComfy via the `runcomfy` CLI. Routes across ByteDance OmniHuman (audio-driven full-body avatar), Wan-AI Wan 2-7 (audio-driven mouth sync via `audio_url` on a portrait), HappyHorse 1.0 (Arena #1 t2v / i2v with in-pass audio), and Seedance v2 Pro (multi-modal cinematic with reference audio + reference subject). Picks the right model for the user's actual intent — UGC voiceover, virtual presenter, dubbed product demo, lip-synced character, dialog scene — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on \"talking head\", \"lip sync\", \"avatar video\", \"make X speak\", \"audio to video\", \"audio driven avatar\", \"virtual presenter\", \"AI spokesperson\", \"dubbed video\", \"UGC avatar\", \"HeyGen alternative\", \"Synthesia alternative\", \"digital human\", \"make this portrait talk\", \"video from voiceover\", or any explicit ask to put words in a face.\n"
         },
         {
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "ai-video-generation",
-          "skill_path": "ai-video-generation"
+          "skill_path": "ai-video-generation",
+          "description": "Generate AI videos on RunComfy via the `runcomfy` CLI — a smart router across the full video-model catalog: HappyHorse 1.0 (Arena #1, native in-pass audio), Wan-AI Wan 2-7 (open weights, audio-driven lip-sync), ByteDance Seedance v2 / 1-5 / 1-0 (multi-modal cinematic), Kling 3.0 / 2-6, Google Veo 3-1, MiniMax Hailuo 2-3, ByteDance Dreamina 3-0. Covers text-to-video (t2v), image-to-video (i2v), and Veo's video-extend endpoint. The skill picks the right model for the user's intent (Arena-#1 quality, multi-shot character identity, in-pass audio, cinematic motion, fastest path, sub-15s clip, longest duration) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on \"generate video\", \"make a video\", \"text to video\", \"t2v\", \"image to video\", \"i2v\", \"animate\", \"AI video\", \"make X move\", \"video from prompt\", \"video from image\", or any explicit ask to produce a video clip from prompt or still.\n"
         },
         {
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "controlnet-pose",
-          "skill_path": "controlnet-pose"
+          "skill_path": "controlnet-pose",
+          "description": "Pose-conditioned generation on RunComfy via the `runcomfy` CLI. Routes across Kling 2-6 Motion Control Pro / Standard (transfer the motion / blocking of a reference video onto a target character), community Wan 2-2 Animate (audio-driven character animation with pose conditioning), and Z-Image Turbo ControlNet LoRA (pose-conditioned image generation from an OpenPose / DWPose / canny / depth control image). Picks the right route based on video vs still and stylized vs photoreal. Triggers on \"controlnet\", \"control net\", \"pose control\", \"openpose\", \"DWPose\", \"transfer pose\", \"motion control\", \"pose driven\", \"character pose\", \"depth control\", \"canny edge\", \"use this pose\", or any explicit ask to condition generation on a pose / skeleton / motion / depth / canny reference.\n"
         },
         {
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "happyhorse-1-0",
-          "skill_path": "happyhorse-1-0"
+          "skill_path": "happyhorse-1-0",
+          "description": "Generate text-to-video with HappyHorse 1.0 on RunComfy. Documents HappyHorse 1.0's strengths (#1 on Artificial Analysis Video Arena, native 1080p with in-pass synchronized audio, multi-shot character consistency, 6-language prompt support), the duration / aspect-ratio / resolution schema, and when to route to Wan 2.7 / Seedance 2 / LTX 2 instead. Calls `runcomfy run happyhorse/happyhorse-1-0/text-to-video` through the local RunComfy CLI. Triggers on \"happyhorse\", \"happy horse\", \"happyhorse 1.0\", \"happyhorse video\", or any explicit ask to generate video with this model.\n"
         },
         {
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "image-to-video",
-          "skill_path": "image-to-video"
+          "skill_path": "image-to-video",
+          "description": "Animate any still image on RunComfy — this skill is a smart router that matches the user's intent to the right i2v model in the RunComfy catalog. Picks HappyHorse 1.0 I2V (Arena #1, native audio, identity preservation) for general animations, Wan 2.7 with `audio_url` for custom-voiceover lip-sync, or Seedance 2.0 Pro for multi-modal animation from image + reference video + reference audio. Bundles each model's documented prompting patterns so the caller gets sharper output without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/image-to-video` (or endpoint variant) through the local RunComfy CLI. Triggers on \"image to video\", \"image-to-video\", \"i2v\", \"animate image\", \"make this move\", or any explicit ask to turn a still into video.\n"
         },
         {
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "kling-3-0",
-          "skill_path": "kling-3-0"
+          "skill_path": "kling-3-0",
+          "description": "Kling 3.0 video generation on RunComfy. Kling 3.0 (also called Kling V3.0) is Kuaishou Technology's third-generation multi-shot video model with native synchronized audio and consistent character identity across shots. This skill covers all six Kling 3.0 endpoints, spanning three rendering tiers (Standard, Pro, 4K) and two modes (text-to-video, image-to-video). Calls runcomfy run kling/kling-3.0/<tier>/<mode> through the local RunComfy CLI. Triggers on \"kling\", \"kling 3.0\", \"kling v3\", \"kling pro\", \"kling 4k\", \"kling text to video\", \"kling image to video\", or any explicit ask to generate or animate with Kling 3.0.\n"
         },
         {
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "lipsync",
-          "skill_path": "lipsync"
+          "skill_path": "lipsync",
+          "description": "Lip-sync a face to a specific audio track on RunComfy via the `runcomfy` CLI. Routes across ByteDance OmniHuman (audio-driven full-body avatar from a portrait + audio), Sync Labs sync v2 / Pro (state-of-the-art mouth sync onto a video), Kling lipsync (audio-to- video and text-to-video with synced speech), and Creatify lipsync. The skill picks the right endpoint for the user's actual intent — portrait still + audio (avatar-style), source video + audio (mouth- swap on existing footage), or generate-and-sync from a script. Triggers on \"lip sync\", \"lipsync\", \"make this video speak\", \"match audio to mouth\", \"dub video\", \"sync lips to voice\", \"Sync Labs\", \"voiceover sync\", or any explicit ask to drive a face's mouth from an audio track.\n"
         },
         {
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "seedance-v2",
-          "skill_path": "seedance-v2"
+          "skill_path": "seedance-v2",
+          "description": "Generate cinematic short-form video with ByteDance Seedance 2.0 Pro on RunComfy. Documents Seedance 2.0 Pro's strengths (multi-modal references — up to 9 images, 3 videos, 3 audio — synchronized in-pass audio with natural lip-sync, cinematic motion refinement), the 4–15s duration schema, and when to route to HappyHorse 1.0 / Wan 2.7 / Kling instead. Calls `runcomfy run bytedance/seedance-v2/pro` through the local RunComfy CLI. Triggers on \"seedance\", \"seedance 2\", \"seedance v2\", \"seedance pro\", \"bytedance video\", or any explicit ask to generate video with this model.\n"
         },
         {
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "wan-2-7",
-          "skill_path": "wan-2-7"
+          "skill_path": "wan-2-7",
+          "description": "Generate text-to-video with Wan 2.7 (Wan-AI's flagship motion model) on RunComfy. Documents Wan 2.7's strengths (multi-reference conditioning, audio-driven lip-sync via `audio_url`, smoother transitions, prompt expansion), the duration / resolution / aspect-ratio schema, and when to route to HappyHorse 1.0 / Seedance 2.0 / Kling / LTX 2 instead. Calls `runcomfy run wan-ai/wan-2-7/text-to-video` through the local RunComfy CLI. Triggers on \"wan\", \"wan 2.7\", \"wan-2-7\", \"wan video\", or any explicit ask to generate video with this model.\n"
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "video",
-          "skill_path": "skills/video"
+          "skill_path": "skills/video",
+          "description": "When the user wants to create, generate, or produce video content using AI tools or programmatic frameworks. Also use when the user mentions 'video production,' 'AI video,' 'Remotion,' 'Hyperframes,' 'HeyGen,' 'Synthesia,' 'Veo,' 'Sora,' 'Runway,' 'Kling,' 'Seedance,' 'Hailuo,' 'MiniMax,' 'Pika,' 'Hunyuan,' 'Wan,' 'video generation,' 'AI avatar,' 'talking head video,' 'programmatic video,' 'video template,' 'explainer video,' 'product demo video,' 'video pipeline,' or 'make me a video.' Use this for video creation, generation, and production workflows. For video content strategy and what to post, see social. For paid video ad creative, see ad-creative."
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "ai-avatar-video",
-          "skill_path": "ai-avatar-video"
+          "skill_path": "ai-avatar-video",
+          "description": "Create AI avatar, talking-head, and lip-sync videos on RunComfy via the `runcomfy` CLI. Routes across ByteDance OmniHuman (audio-driven full-body avatar), Wan-AI Wan 2-7 (audio-driven mouth sync via `audio_url` on a portrait), HappyHorse 1.0 (Arena #1 t2v / i2v with in-pass audio), and Seedance v2 Pro (multi-modal cinematic with reference audio + reference subject). Picks the right model for the user's actual intent — UGC voiceover, virtual presenter, dubbed product demo, lip-synced character, dialog scene — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on \"talking head\", \"lip sync\", \"avatar video\", \"make X speak\", \"audio to video\", \"audio driven avatar\", \"virtual presenter\", \"AI spokesperson\", \"dubbed video\", \"UGC avatar\", \"HeyGen alternative\", \"Synthesia alternative\", \"digital human\", \"make this portrait talk\", \"video from voiceover\", or any explicit ask to put words in a face.\n"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "ai-video-generation",
-          "skill_path": "ai-video-generation"
+          "skill_path": "ai-video-generation",
+          "description": "Generate AI videos on RunComfy via the `runcomfy` CLI — a smart router across the full video-model catalog: HappyHorse 1.0 (Arena #1, native in-pass audio), Wan-AI Wan 2-7 (open weights, audio-driven lip-sync), ByteDance Seedance v2 / 1-5 / 1-0 (multi-modal cinematic), Kling 3.0 / 2-6, Google Veo 3-1, MiniMax Hailuo 2-3, ByteDance Dreamina 3-0. Covers text-to-video (t2v), image-to-video (i2v), and Veo's video-extend endpoint. The skill picks the right model for the user's intent (Arena-#1 quality, multi-shot character identity, in-pass audio, cinematic motion, fastest path, sub-15s clip, longest duration) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on \"generate video\", \"make a video\", \"text to video\", \"t2v\", \"image to video\", \"i2v\", \"animate\", \"AI video\", \"make X move\", \"video from prompt\", \"video from image\", or any explicit ask to produce a video clip from prompt or still.\n"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "controlnet-pose",
-          "skill_path": "controlnet-pose"
+          "skill_path": "controlnet-pose",
+          "description": "Pose-conditioned generation on RunComfy via the `runcomfy` CLI. Routes across Kling 2-6 Motion Control Pro / Standard (transfer the motion / blocking of a reference video onto a target character), community Wan 2-2 Animate (audio-driven character animation with pose conditioning), and Z-Image Turbo ControlNet LoRA (pose-conditioned image generation from an OpenPose / DWPose / canny / depth control image). Picks the right route based on video vs still and stylized vs photoreal. Triggers on \"controlnet\", \"control net\", \"pose control\", \"openpose\", \"DWPose\", \"transfer pose\", \"motion control\", \"pose driven\", \"character pose\", \"depth control\", \"canny edge\", \"use this pose\", or any explicit ask to condition generation on a pose / skeleton / motion / depth / canny reference.\n"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "happyhorse-1-0",
-          "skill_path": "happyhorse-1-0"
+          "skill_path": "happyhorse-1-0",
+          "description": "Generate text-to-video with HappyHorse 1.0 on RunComfy. Documents HappyHorse 1.0's strengths (#1 on Artificial Analysis Video Arena, native 1080p with in-pass synchronized audio, multi-shot character consistency, 6-language prompt support), the duration / aspect-ratio / resolution schema, and when to route to Wan 2.7 / Seedance 2 / LTX 2 instead. Calls `runcomfy run happyhorse/happyhorse-1-0/text-to-video` through the local RunComfy CLI. Triggers on \"happyhorse\", \"happy horse\", \"happyhorse 1.0\", \"happyhorse video\", or any explicit ask to generate video with this model.\n"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "image-to-video",
-          "skill_path": "image-to-video"
+          "skill_path": "image-to-video",
+          "description": "Animate any still image on RunComfy — this skill is a smart router that matches the user's intent to the right i2v model in the RunComfy catalog. Picks HappyHorse 1.0 I2V (Arena #1, native audio, identity preservation) for general animations, Wan 2.7 with `audio_url` for custom-voiceover lip-sync, or Seedance 2.0 Pro for multi-modal animation from image + reference video + reference audio. Bundles each model's documented prompting patterns so the caller gets sharper output without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/image-to-video` (or endpoint variant) through the local RunComfy CLI. Triggers on \"image to video\", \"image-to-video\", \"i2v\", \"animate image\", \"make this move\", or any explicit ask to turn a still into video.\n"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "kling-3-0",
-          "skill_path": "kling-3-0"
+          "skill_path": "kling-3-0",
+          "description": "Kling 3.0 video generation on RunComfy. Kling 3.0 (also called Kling V3.0) is Kuaishou Technology's third-generation multi-shot video model with native synchronized audio and consistent character identity across shots. This skill covers all six Kling 3.0 endpoints, spanning three rendering tiers (Standard, Pro, 4K) and two modes (text-to-video, image-to-video). Calls runcomfy run kling/kling-3.0/<tier>/<mode> through the local RunComfy CLI. Triggers on \"kling\", \"kling 3.0\", \"kling v3\", \"kling pro\", \"kling 4k\", \"kling text to video\", \"kling image to video\", or any explicit ask to generate or animate with Kling 3.0.\n"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "lipsync",
-          "skill_path": "lipsync"
+          "skill_path": "lipsync",
+          "description": "Lip-sync a face to a specific audio track on RunComfy via the `runcomfy` CLI. Routes across ByteDance OmniHuman (audio-driven full-body avatar from a portrait + audio), Sync Labs sync v2 / Pro (state-of-the-art mouth sync onto a video), Kling lipsync (audio-to- video and text-to-video with synced speech), and Creatify lipsync. The skill picks the right endpoint for the user's actual intent — portrait still + audio (avatar-style), source video + audio (mouth- swap on existing footage), or generate-and-sync from a script. Triggers on \"lip sync\", \"lipsync\", \"make this video speak\", \"match audio to mouth\", \"dub video\", \"sync lips to voice\", \"Sync Labs\", \"voiceover sync\", or any explicit ask to drive a face's mouth from an audio track.\n"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "seedance-v2",
-          "skill_path": "seedance-v2"
+          "skill_path": "seedance-v2",
+          "description": "Generate cinematic short-form video with ByteDance Seedance 2.0 Pro on RunComfy. Documents Seedance 2.0 Pro's strengths (multi-modal references — up to 9 images, 3 videos, 3 audio — synchronized in-pass audio with natural lip-sync, cinematic motion refinement), the 4–15s duration schema, and when to route to HappyHorse 1.0 / Wan 2.7 / Kling instead. Calls `runcomfy run bytedance/seedance-v2/pro` through the local RunComfy CLI. Triggers on \"seedance\", \"seedance 2\", \"seedance v2\", \"seedance pro\", \"bytedance video\", or any explicit ask to generate video with this model.\n"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "wan-2-7",
-          "skill_path": "wan-2-7"
+          "skill_path": "wan-2-7",
+          "description": "Generate text-to-video with Wan 2.7 (Wan-AI's flagship motion model) on RunComfy. Documents Wan 2.7's strengths (multi-reference conditioning, audio-driven lip-sync via `audio_url`, smoother transitions, prompt expansion), the duration / resolution / aspect-ratio schema, and when to route to HappyHorse 1.0 / Seedance 2.0 / Kling / LTX 2 instead. Calls `runcomfy run wan-ai/wan-2-7/text-to-video` through the local RunComfy CLI. Triggers on \"wan\", \"wan 2.7\", \"wan-2-7\", \"wan video\", or any explicit ask to generate video with this model.\n"
         },
         {
           "owner": "pexoai",
           "repo": "pexo-skills",
           "name": "videoagent-video-studio",
-          "skill_path": "skills/videoagent-video-studio"
+          "skill_path": "skills/videoagent-video-studio",
+          "description": "Generate short AI videos from text or images — text-to-video, image-to-video, and reference-based generation — with zero API key setup. Use when the user wants to create a video clip, animate an image, or generate video from a description.\n"
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "ai-avatar-video",
-          "skill_path": "ai-avatar-video"
+          "skill_path": "ai-avatar-video",
+          "description": "Create AI avatar, talking-head, and lip-sync videos on RunComfy via the `runcomfy` CLI. Routes across ByteDance OmniHuman (audio-driven full-body avatar), Wan-AI Wan 2-7 (audio-driven mouth sync via `audio_url` on a portrait), HappyHorse 1.0 (Arena #1 t2v / i2v with in-pass audio), and Seedance v2 Pro (multi-modal cinematic with reference audio + reference subject). Picks the right model for the user's actual intent — UGC voiceover, virtual presenter, dubbed product demo, lip-synced character, dialog scene — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on \"talking head\", \"lip sync\", \"avatar video\", \"make X speak\", \"audio to video\", \"audio driven avatar\", \"virtual presenter\", \"AI spokesperson\", \"dubbed video\", \"UGC avatar\", \"HeyGen alternative\", \"Synthesia alternative\", \"digital human\", \"make this portrait talk\", \"video from voiceover\", or any explicit ask to put words in a face.\n"
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "ai-video-generation",
-          "skill_path": "ai-video-generation"
+          "skill_path": "ai-video-generation",
+          "description": "Generate AI videos on RunComfy via the `runcomfy` CLI — a smart router across the full video-model catalog: HappyHorse 1.0 (Arena #1, native in-pass audio), Wan-AI Wan 2-7 (open weights, audio-driven lip-sync), ByteDance Seedance v2 / 1-5 / 1-0 (multi-modal cinematic), Kling 3.0 / 2-6, Google Veo 3-1, MiniMax Hailuo 2-3, ByteDance Dreamina 3-0. Covers text-to-video (t2v), image-to-video (i2v), and Veo's video-extend endpoint. The skill picks the right model for the user's intent (Arena-#1 quality, multi-shot character identity, in-pass audio, cinematic motion, fastest path, sub-15s clip, longest duration) and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on \"generate video\", \"make a video\", \"text to video\", \"t2v\", \"image to video\", \"i2v\", \"animate\", \"AI video\", \"make X move\", \"video from prompt\", \"video from image\", or any explicit ask to produce a video clip from prompt or still.\n"
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "controlnet-pose",
-          "skill_path": "controlnet-pose"
+          "skill_path": "controlnet-pose",
+          "description": "Pose-conditioned generation on RunComfy via the `runcomfy` CLI. Routes across Kling 2-6 Motion Control Pro / Standard (transfer the motion / blocking of a reference video onto a target character), community Wan 2-2 Animate (audio-driven character animation with pose conditioning), and Z-Image Turbo ControlNet LoRA (pose-conditioned image generation from an OpenPose / DWPose / canny / depth control image). Picks the right route based on video vs still and stylized vs photoreal. Triggers on \"controlnet\", \"control net\", \"pose control\", \"openpose\", \"DWPose\", \"transfer pose\", \"motion control\", \"pose driven\", \"character pose\", \"depth control\", \"canny edge\", \"use this pose\", or any explicit ask to condition generation on a pose / skeleton / motion / depth / canny reference.\n"
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "happyhorse-1-0",
-          "skill_path": "happyhorse-1-0"
+          "skill_path": "happyhorse-1-0",
+          "description": "Generate text-to-video with HappyHorse 1.0 on RunComfy. Documents HappyHorse 1.0's strengths (#1 on Artificial Analysis Video Arena, native 1080p with in-pass synchronized audio, multi-shot character consistency, 6-language prompt support), the duration / aspect-ratio / resolution schema, and when to route to Wan 2.7 / Seedance 2 / LTX 2 instead. Calls `runcomfy run happyhorse/happyhorse-1-0/text-to-video` through the local RunComfy CLI. Triggers on \"happyhorse\", \"happy horse\", \"happyhorse 1.0\", \"happyhorse video\", or any explicit ask to generate video with this model.\n"
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "image-to-video",
-          "skill_path": "image-to-video"
+          "skill_path": "image-to-video",
+          "description": "Animate any still image on RunComfy — this skill is a smart router that matches the user's intent to the right i2v model in the RunComfy catalog. Picks HappyHorse 1.0 I2V (Arena #1, native audio, identity preservation) for general animations, Wan 2.7 with `audio_url` for custom-voiceover lip-sync, or Seedance 2.0 Pro for multi-modal animation from image + reference video + reference audio. Bundles each model's documented prompting patterns so the caller gets sharper output without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/image-to-video` (or endpoint variant) through the local RunComfy CLI. Triggers on \"image to video\", \"image-to-video\", \"i2v\", \"animate image\", \"make this move\", or any explicit ask to turn a still into video.\n"
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "kling-3-0",
-          "skill_path": "kling-3-0"
+          "skill_path": "kling-3-0",
+          "description": "Kling 3.0 video generation on RunComfy. Kling 3.0 (also called Kling V3.0) is Kuaishou Technology's third-generation multi-shot video model with native synchronized audio and consistent character identity across shots. This skill covers all six Kling 3.0 endpoints, spanning three rendering tiers (Standard, Pro, 4K) and two modes (text-to-video, image-to-video). Calls runcomfy run kling/kling-3.0/<tier>/<mode> through the local RunComfy CLI. Triggers on \"kling\", \"kling 3.0\", \"kling v3\", \"kling pro\", \"kling 4k\", \"kling text to video\", \"kling image to video\", or any explicit ask to generate or animate with Kling 3.0.\n"
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "lipsync",
-          "skill_path": "lipsync"
+          "skill_path": "lipsync",
+          "description": "Lip-sync a face to a specific audio track on RunComfy via the `runcomfy` CLI. Routes across ByteDance OmniHuman (audio-driven full-body avatar from a portrait + audio), Sync Labs sync v2 / Pro (state-of-the-art mouth sync onto a video), Kling lipsync (audio-to- video and text-to-video with synced speech), and Creatify lipsync. The skill picks the right endpoint for the user's actual intent — portrait still + audio (avatar-style), source video + audio (mouth- swap on existing footage), or generate-and-sync from a script. Triggers on \"lip sync\", \"lipsync\", \"make this video speak\", \"match audio to mouth\", \"dub video\", \"sync lips to voice\", \"Sync Labs\", \"voiceover sync\", or any explicit ask to drive a face's mouth from an audio track.\n"
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "seedance-v2",
-          "skill_path": "seedance-v2"
+          "skill_path": "seedance-v2",
+          "description": "Generate cinematic short-form video with ByteDance Seedance 2.0 Pro on RunComfy. Documents Seedance 2.0 Pro's strengths (multi-modal references — up to 9 images, 3 videos, 3 audio — synchronized in-pass audio with natural lip-sync, cinematic motion refinement), the 4–15s duration schema, and when to route to HappyHorse 1.0 / Wan 2.7 / Kling instead. Calls `runcomfy run bytedance/seedance-v2/pro` through the local RunComfy CLI. Triggers on \"seedance\", \"seedance 2\", \"seedance v2\", \"seedance pro\", \"bytedance video\", or any explicit ask to generate video with this model.\n"
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "wan-2-7",
-          "skill_path": "wan-2-7"
+          "skill_path": "wan-2-7",
+          "description": "Generate text-to-video with Wan 2.7 (Wan-AI's flagship motion model) on RunComfy. Documents Wan 2.7's strengths (multi-reference conditioning, audio-driven lip-sync via `audio_url`, smoother transitions, prompt expansion), the duration / resolution / aspect-ratio schema, and when to route to HappyHorse 1.0 / Seedance 2.0 / Kling / LTX 2 instead. Calls `runcomfy run wan-ai/wan-2-7/text-to-video` through the local RunComfy CLI. Triggers on \"wan\", \"wan 2.7\", \"wan-2-7\", \"wan video\", or any explicit ask to generate video with this model.\n"
         },
         {
           "owner": "skills-shell",
           "repo": "skills",
           "name": "ai-avatar-video",
-          "skill_path": "tools/video/ai-avatar-video"
+          "skill_path": "tools/video/ai-avatar-video",
+          "description": "Create AI avatar and talking head videos via inference.sh CLI. Recommended: P-Video-Avatar (fastest, cheapest, built-in TTS). Also: OmniHuman, Fabric, PixVerse. Audio: Inworld TTS-2 (100+ languages, emotion steering for characters), ElevenLabs, Kokoro. Capabilities: audio-driven avatars, text-to-avatar, lipsync videos, talking head generation, virtual presenters, UGC content. Use for: AI presenters, explainer videos, virtual influencers, dubbing, marketing videos, UGC ads, gaming avatars, NPC dialogue. Triggers: ai avatar, talking head, lipsync, avatar video, virtual presenter, ai spokesperson, audio driven video, heygen alternative, synthesia alternative, talking avatar, lip sync, video avatar, ai presenter, digital human, ugc, ugc video, ugc ad, avatar ugc"
         },
         {
           "owner": "skills-shell",
           "repo": "skills",
           "name": "ai-video-generation",
-          "skill_path": "tools/video/ai-video-generation"
+          "skill_path": "tools/video/ai-video-generation",
+          "description": "Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 2.0, HappyHorse 1.0, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, reference-to-video, video editing, lipsync, avatar animation, video upscaling, foley sound. Use for: social media videos, marketing content, explainer videos, product demos, AI avatars. Triggers: video generation, ai video, text to video, image to video, veo, animate image, video from image, ai animation, video generator, generate video, t2v, i2v, ai video maker, create video with ai, runway alternative, pika alternative, sora alternative, kling alternative, seedance, happyhorse"
         },
         {
           "owner": "skills-shell",
           "repo": "skills",
           "name": "image-to-video",
-          "skill_path": "tools/video/image-to-video"
+          "skill_path": "tools/video/image-to-video",
+          "description": "Still-to-video conversion guide: model selection, motion prompting, and camera movement. Covers Wan 2.5 i2v, Seedance, Fabric, Grok Video with when to use each. Use for: animating images, creating video from stills, adding motion, product animations. Triggers: image to video, i2v, animate image, still to video, add motion to image, image animation, photo to video, animate still, wan i2v, image2video, bring image to life, animate photo, motion from image"
         }
       ]
     },
@@ -207,229 +239,267 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "remotion-video-creation",
-          "skill_path": "skills/remotion-video-creation"
+          "skill_path": "skills/remotion-video-creation",
+          "description": "Best practices for Remotion - Video creation in React. 29 domain-specific rules covering 3D, animations, audio, captions, charts, transitions, and more."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "video-editing",
-          "skill_path": ".agents/skills/video-editing"
+          "skill_path": ".agents/skills/video-editing",
+          "description": "AI-assisted video editing workflows for cutting, structuring, and augmenting real footage. Covers the full pipeline from raw capture through FFmpeg, Remotion, ElevenLabs, fal.ai, and final polish in Descript or CapCut. Use when the user wants to edit video, cut footage, create vlogs, or build video content."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "videodb",
-          "skill_path": "skills/videodb"
+          "skill_path": "skills/videodb",
+          "description": "See, Understand, Act on video and audio. See- ingest from local files, URLs, RTSP/live feeds, or live record desktop; return realtime context and playable stream links. Understand- extract frames, build visual/semantic/temporal indexes, and search moments with timestamps and auto-clips. Act- transcode and normalize (codec, fps, resolution, aspect ratio), perform timeline edits (subtitles, text/image overlays, branding, audio overlays, dubbing, translation), generate media assets (image, audio, video), and create real time alerts for events from live streams or desktop capture."
         },
         {
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "video-edit",
-          "skill_path": "video-edit"
+          "skill_path": "video-edit",
+          "description": "Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Wan 2.7 Edit-Video (general restyle / background swap / packaging swap, identity + motion preservation), Kling 2.6 Pro Motion Control (transfer precise motion from a reference video to a target character), or Lucy Edit Restyle (lightweight identity-stable restyle / outfit swap). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/<endpoint>` through the local RunComfy CLI. Triggers on \"video edit\", \"edit video\", \"restyle video\", \"swap video background\", \"motion control\", \"outfit swap video\", or any explicit ask to transform a video.\n"
         },
         {
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "video-extend",
-          "skill_path": "video-extend"
+          "skill_path": "video-extend",
+          "description": "Extend or continue an existing video clip on RunComfy via the `runcomfy` CLI. Routes to Google Veo 3-1's `extend-video` and `fast/extend-video` endpoints — pick the source video plus a prompt describing what should happen next, and the model produces a clip that continues the original with consistent motion, lighting, and subject identity. Use when the user has a short Veo clip and wants it longer, or wants a chained narrative built shot-by-shot from a single seed clip. Triggers on \"extend video\", \"continue video\", \"longer video\", \"video extend\", \"make this clip longer\", \"Veo extend\", \"chain video shots\", \"video continuation\", or any explicit ask to take an existing video and add more frames after it.\n"
         },
         {
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "video-inpainting",
-          "skill_path": "video-inpainting"
+          "skill_path": "video-inpainting",
+          "description": "Region edits across video frames on RunComfy via the `runcomfy` CLI — remove an object that appears across many frames, clean up wires or watermarks, replace a region with matching motion. Routes across Wan 2-7 edit-video (default, prompt-driven region edits with spatial language), Lucy Edit Restyle (identity-stable region-aware restyle), and Seedream 4-0 edit-sequential (when treating the clip as a frame stack). Picks the right route based on whether the change is prose-driven, identity-locked, or needs frame-by-frame still inpaint chained into a video. Triggers on \"video inpaint\", \"video inpainting\", \"remove from video\", \"mask region in video\", \"clean up video\", \"remove object from clip\", \"video patch\", \"frame-by-frame edit\", \"remove watermark from video\", \"remove passing person\", or any explicit ask to edit a region across video frames.\n"
         },
         {
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "video-outpainting",
-          "skill_path": "video-outpainting"
+          "skill_path": "video-outpainting",
+          "description": "Video outpainting on RunComfy via the `runcomfy` CLI — extend the spatial canvas of a video, change aspect ratio (9:16 vertical to 16:9 horizontal or vice versa), add environment beyond the original frame while preserving the central action. Routes prompt-shaped spatial extension through Wan 2-7 edit-video and points the agent at dedicated ComfyUI outpaint workflows when seam quality matters for hero delivery. Triggers on \"video outpaint\", \"video outpainting\", \"extend video canvas\", \"expand video frame\", \"uncrop video\", \"aspect ratio change\", \"vertical to horizontal video\", \"16:9 from 9:16\", \"TikTok to YouTube\", or any explicit ask to extend a video spatially beyond its original frame.\n"
         },
         {
           "owner": "anthropics",
           "repo": "skills",
           "name": "slack-gif-creator",
-          "skill_path": "skills/slack-gif-creator"
+          "skill_path": "skills/slack-gif-creator",
+          "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\""
         },
         {
           "owner": "digitalsamba",
           "repo": "claude-code-video-toolkit",
           "name": "ffmpeg",
-          "skill_path": ".claude/skills/ffmpeg"
+          "skill_path": ".claude/skills/ffmpeg",
+          "description": "Video and audio processing with FFmpeg. Use for format conversion, resizing, compression, audio extraction, and preparing assets for Remotion. Triggers include converting GIF to MP4, resizing video, extracting audio, compressing files, or any media transformation task."
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "video-edit",
-          "skill_path": "video-edit"
+          "skill_path": "video-edit",
+          "description": "Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Wan 2.7 Edit-Video (general restyle / background swap / packaging swap, identity + motion preservation), Kling 2.6 Pro Motion Control (transfer precise motion from a reference video to a target character), or Lucy Edit Restyle (lightweight identity-stable restyle / outfit swap). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/<endpoint>` through the local RunComfy CLI. Triggers on \"video edit\", \"edit video\", \"restyle video\", \"swap video background\", \"motion control\", \"outfit swap video\", or any explicit ask to transform a video.\n"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "video-extend",
-          "skill_path": "video-extend"
+          "skill_path": "video-extend",
+          "description": "Extend or continue an existing video clip on RunComfy via the `runcomfy` CLI. Routes to Google Veo 3-1's `extend-video` and `fast/extend-video` endpoints — pick the source video plus a prompt describing what should happen next, and the model produces a clip that continues the original with consistent motion, lighting, and subject identity. Use when the user has a short Veo clip and wants it longer, or wants a chained narrative built shot-by-shot from a single seed clip. Triggers on \"extend video\", \"continue video\", \"longer video\", \"video extend\", \"make this clip longer\", \"Veo extend\", \"chain video shots\", \"video continuation\", or any explicit ask to take an existing video and add more frames after it.\n"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "video-inpainting",
-          "skill_path": "video-inpainting"
+          "skill_path": "video-inpainting",
+          "description": "Region edits across video frames on RunComfy via the `runcomfy` CLI — remove an object that appears across many frames, clean up wires or watermarks, replace a region with matching motion. Routes across Wan 2-7 edit-video (default, prompt-driven region edits with spatial language), Lucy Edit Restyle (identity-stable region-aware restyle), and Seedream 4-0 edit-sequential (when treating the clip as a frame stack). Picks the right route based on whether the change is prose-driven, identity-locked, or needs frame-by-frame still inpaint chained into a video. Triggers on \"video inpaint\", \"video inpainting\", \"remove from video\", \"mask region in video\", \"clean up video\", \"remove object from clip\", \"video patch\", \"frame-by-frame edit\", \"remove watermark from video\", \"remove passing person\", or any explicit ask to edit a region across video frames.\n"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "video-outpainting",
-          "skill_path": "video-outpainting"
+          "skill_path": "video-outpainting",
+          "description": "Video outpainting on RunComfy via the `runcomfy` CLI — extend the spatial canvas of a video, change aspect ratio (9:16 vertical to 16:9 horizontal or vice versa), add environment beyond the original frame while preserving the central action. Routes prompt-shaped spatial extension through Wan 2-7 edit-video and points the agent at dedicated ComfyUI outpaint workflows when seam quality matters for hero delivery. Triggers on \"video outpaint\", \"video outpainting\", \"extend video canvas\", \"expand video frame\", \"uncrop video\", \"aspect ratio change\", \"vertical to horizontal video\", \"16:9 from 9:16\", \"TikTok to YouTube\", or any explicit ask to extend a video spatially beyond its original frame.\n"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "transloadit-media-processing",
-          "skill_path": "skills/transloadit-media-processing"
+          "skill_path": "skills/transloadit-media-processing",
+          "description": "Process media files (video, audio, images, documents) using Transloadit. Use when asked to encode video to HLS/MP4, generate thumbnails, resize or watermark images, extract audio, concatenate clips, add subtitles, OCR documents, or run any media processing pipeline. Covers 86+ processing robots for file transformation at scale."
         },
         {
           "owner": "google-labs-code",
           "repo": "stitch-skills",
           "name": "remotion",
-          "skill_path": "plugins/stitch-build/skills/remotion"
+          "skill_path": "plugins/stitch-build/skills/remotion",
+          "description": "Generate walkthrough videos from Stitch projects using Remotion with smooth transitions, zooming, and text overlays"
         },
         {
           "owner": "heygen-com",
           "repo": "hyperframes",
           "name": "animejs",
-          "skill_path": "skills/animejs"
+          "skill_path": "skills/animejs",
+          "description": "Anime.js adapter patterns for HyperFrames. Use when writing Anime.js animations or timelines inside HyperFrames compositions, registering animations on window.__hfAnime, making Anime.js seek-driven and deterministic, or translating Anime.js examples into render-safe HyperFrames HTML."
         },
         {
           "owner": "heygen-com",
           "repo": "hyperframes",
           "name": "contribute-catalog",
-          "skill_path": "skills/contribute-catalog"
+          "skill_path": "skills/contribute-catalog",
+          "description": "Author a new HyperFrames registry block (caption style, VFX block, transition, lower third) or component (text effect, overlay, snippet) and ship it as an upstream PR to the hyperframes repo. Use ONLY when the user wants to CONTRIBUTE to the public catalog — for in-project caption/transition authoring use the `hyperframes` skill, for installing existing registry items use the `hyperframes-registry` skill."
         },
         {
           "owner": "heygen-com",
           "repo": "hyperframes",
           "name": "css-animations",
-          "skill_path": "skills/css-animations"
+          "skill_path": "skills/css-animations",
+          "description": "CSS animation adapter patterns for HyperFrames. Use when authoring CSS keyframes, animation-delay based timing, animation-fill-mode, animation-play-state, or CSS-only motion that HyperFrames must seek deterministically during preview and rendering."
         },
         {
           "owner": "heygen-com",
           "repo": "hyperframes",
           "name": "gsap",
-          "skill_path": "skills/gsap"
+          "skill_path": "skills/gsap",
+          "description": "GSAP animation reference for HyperFrames. Covers gsap.to(), from(), fromTo(), easing, stagger, defaults, timelines (gsap.timeline(), position parameter, labels, nesting, playback), and performance (transforms, will-change, quickTo). Use when writing GSAP animations in HyperFrames compositions."
         },
         {
           "owner": "heygen-com",
           "repo": "hyperframes",
           "name": "hyperframes",
-          "skill_path": "skills/hyperframes"
+          "skill_path": "skills/hyperframes",
+          "description": "Create video compositions, animations, title cards, overlays, captions, voiceovers, audio-reactive visuals, and scene transitions in HyperFrames HTML. Use when asked to build any HTML-based video content, add captions or subtitles synced to audio, generate text-to-speech narration, create audio-reactive animation (beat sync, glow, pulse driven by music), add animated text highlighting (marker sweeps, hand-drawn circles, burst lines, scribble, sketchout), or add transitions between scenes (crossfades, wipes, reveals, shader transitions). Covers composition authoring, timing, media, and the full video production workflow. For dev-loop CLI commands (init, lint, inspect, preview, render) see the hyperframes-cli skill; for asset preprocessing commands (tts, transcribe, remove-background) see the hyperframes-media skill."
         },
         {
           "owner": "heygen-com",
           "repo": "hyperframes",
           "name": "hyperframes-cli",
-          "skill_path": "skills/hyperframes-cli"
+          "skill_path": "skills/hyperframes-cli",
+          "description": "HyperFrames CLI dev loop — `npx hyperframes` for scaffolding (init), validation (lint, inspect), preview, render, and environment troubleshooting (doctor, browser, info, upgrade). Use when running any of these commands or troubleshooting the HyperFrames build/render environment. For asset preprocessing commands (`tts`, `transcribe`, `remove-background`), invoke the `hyperframes-media` skill instead."
         },
         {
           "owner": "heygen-com",
           "repo": "hyperframes",
           "name": "hyperframes-media",
-          "skill_path": "skills/hyperframes-media"
+          "skill_path": "skills/hyperframes-media",
+          "description": "Asset preprocessing for HyperFrames compositions — text-to-speech narration (Kokoro), audio/video transcription (Whisper), and background removal for transparent overlays (u2net). Use when generating voiceover from text, transcribing speech for captions, removing the background from a video or image to use as a transparent overlay, choosing a TTS voice or whisper model, or chaining these (TTS → transcribe → captions). Each command downloads its own model on first run."
         },
         {
           "owner": "heygen-com",
           "repo": "hyperframes",
           "name": "hyperframes-registry",
-          "skill_path": "skills/hyperframes-registry"
+          "skill_path": "skills/hyperframes-registry",
+          "description": "Install and wire registry blocks and components into HyperFrames compositions. Use when running hyperframes add, installing a block or component, wiring an installed item into index.html, or working with hyperframes.json. Covers the add command, install locations, block sub-composition wiring, component snippet merging, and registry discovery."
         },
         {
           "owner": "heygen-com",
           "repo": "hyperframes",
           "name": "lottie",
-          "skill_path": "skills/lottie"
+          "skill_path": "skills/lottie",
+          "description": "Lottie and dotLottie adapter patterns for HyperFrames. Use when embedding lottie-web JSON animations, .lottie files, @lottiefiles/dotlottie-web players, registering instances on window.__hfLottie, or making After Effects exports deterministic in HyperFrames."
         },
         {
           "owner": "heygen-com",
           "repo": "hyperframes",
           "name": "remotion-to-hyperframes",
-          "skill_path": "skills/remotion-to-hyperframes"
+          "skill_path": "skills/remotion-to-hyperframes",
+          "description": "Translate an existing Remotion (React-based) video composition into a HyperFrames HTML composition. Use ONLY when the user explicitly asks to port, convert, migrate, translate, or rewrite a Remotion composition as HyperFrames (e.g. \"port my Remotion project to HyperFrames\"). Do NOT use when (a) authoring a NEW HyperFrames composition (even if A/B-testing a Remotion video); (b) Remotion is mentioned in passing; (c) Remotion code is shared as reference, not for translation; (d) the user wants \"the same video as my Remotion one\" without explicitly asking to migrate the source — treat as a fresh HyperFrames build. When in doubt, default to the `hyperframes` skill. Detects unsupported patterns (useState, useEffect side effects, async calculateMetadata, third-party React component libraries, `@remotion/lambda`) and recommends the runtime interop escape hatch instead of a lossy translation."
         },
         {
           "owner": "heygen-com",
           "repo": "hyperframes",
           "name": "tailwind",
-          "skill_path": "skills/tailwind"
+          "skill_path": "skills/tailwind",
+          "description": "Tailwind CSS v4.2 browser-runtime patterns for HyperFrames compositions. Use when scaffolding or editing projects created with `hyperframes init --tailwind`, writing Tailwind utility classes in composition HTML, adding CSS-first Tailwind v4 theme tokens, debugging v3 vs v4 syntax, or deciding when to compile Tailwind to CSS instead of using the browser runtime."
         },
         {
           "owner": "heygen-com",
           "repo": "hyperframes",
           "name": "three",
-          "skill_path": "skills/three"
+          "skill_path": "skills/three",
+          "description": "Three.js and WebGL adapter patterns for HyperFrames. Use when creating deterministic Three.js scenes, WebGL canvas layers, AnimationMixer timelines, camera motion, shader-driven visuals, or canvas renders that respond to HyperFrames hf-seek events."
         },
         {
           "owner": "heygen-com",
           "repo": "hyperframes",
           "name": "typegpu",
-          "skill_path": "skills/typegpu"
+          "skill_path": "skills/typegpu",
+          "description": "TypeGPU and raw WebGPU adapter patterns for HyperFrames. Use when creating GPU-rendered compositions with TypeGPU, raw WebGPU, WGSL fragment shaders, compute pipelines, liquid glass effects, particle systems, or any canvas layer driven by navigator.gpu that responds to HyperFrames hf-seek events."
         },
         {
           "owner": "heygen-com",
           "repo": "hyperframes",
           "name": "waapi",
-          "skill_path": "skills/waapi"
+          "skill_path": "skills/waapi",
+          "description": "Web Animations API adapter patterns for HyperFrames. Use when authoring element.animate() motion, Animation currentTime seeking, document.getAnimations(), KeyframeEffect timing, fill modes, or native browser animations that must render deterministically in HyperFrames."
         },
         {
           "owner": "heygen-com",
           "repo": "hyperframes",
           "name": "website-to-hyperframes",
-          "skill_path": "skills/website-to-hyperframes"
+          "skill_path": "skills/website-to-hyperframes",
+          "description": "Capture a website and create a HyperFrames video from it. Use when: (1) a user provides a URL and wants a video, (2) someone says \"capture this site\", \"turn this into a video\", \"make a promo from my site\", (3) the user wants a social ad, product tour, or any video based on an existing website, (4) the user shares a link and asks for any kind of video content. Even if the user just pastes a URL — this is the skill to use.\n"
         },
         {
           "owner": "remotion-dev",
           "repo": "skills",
           "name": "remotion-best-practices",
-          "skill_path": "skills/remotion"
+          "skill_path": "skills/remotion",
+          "description": "Best practices for Remotion - Video creation in React"
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "video-edit",
-          "skill_path": "video-edit"
+          "skill_path": "video-edit",
+          "description": "Edit existing video on RunComfy — this skill is a smart router that matches the user's intent to the right edit model in the RunComfy catalog. Picks Wan 2.7 Edit-Video (general restyle / background swap / packaging swap, identity + motion preservation), Kling 2.6 Pro Motion Control (transfer precise motion from a reference video to a target character), or Lucy Edit Restyle (lightweight identity-stable restyle / outfit swap). Bundles each model's documented prompting patterns so the skill gets sharper edits without burning iterations on the wrong model. Calls `runcomfy run <vendor>/<model>/<endpoint>` through the local RunComfy CLI. Triggers on \"video edit\", \"edit video\", \"restyle video\", \"swap video background\", \"motion control\", \"outfit swap video\", or any explicit ask to transform a video.\n"
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "video-extend",
-          "skill_path": "video-extend"
+          "skill_path": "video-extend",
+          "description": "Extend or continue an existing video clip on RunComfy via the `runcomfy` CLI. Routes to Google Veo 3-1's `extend-video` and `fast/extend-video` endpoints — pick the source video plus a prompt describing what should happen next, and the model produces a clip that continues the original with consistent motion, lighting, and subject identity. Use when the user has a short Veo clip and wants it longer, or wants a chained narrative built shot-by-shot from a single seed clip. Triggers on \"extend video\", \"continue video\", \"longer video\", \"video extend\", \"make this clip longer\", \"Veo extend\", \"chain video shots\", \"video continuation\", or any explicit ask to take an existing video and add more frames after it.\n"
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "video-inpainting",
-          "skill_path": "video-inpainting"
+          "skill_path": "video-inpainting",
+          "description": "Region edits across video frames on RunComfy via the `runcomfy` CLI — remove an object that appears across many frames, clean up wires or watermarks, replace a region with matching motion. Routes across Wan 2-7 edit-video (default, prompt-driven region edits with spatial language), Lucy Edit Restyle (identity-stable region-aware restyle), and Seedream 4-0 edit-sequential (when treating the clip as a frame stack). Picks the right route based on whether the change is prose-driven, identity-locked, or needs frame-by-frame still inpaint chained into a video. Triggers on \"video inpaint\", \"video inpainting\", \"remove from video\", \"mask region in video\", \"clean up video\", \"remove object from clip\", \"video patch\", \"frame-by-frame edit\", \"remove watermark from video\", \"remove passing person\", or any explicit ask to edit a region across video frames.\n"
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "video-outpainting",
-          "skill_path": "video-outpainting"
+          "skill_path": "video-outpainting",
+          "description": "Video outpainting on RunComfy via the `runcomfy` CLI — extend the spatial canvas of a video, change aspect ratio (9:16 vertical to 16:9 horizontal or vice versa), add environment beyond the original frame while preserving the central action. Routes prompt-shaped spatial extension through Wan 2-7 edit-video and points the agent at dedicated ComfyUI outpaint workflows when seam quality matters for hero delivery. Triggers on \"video outpaint\", \"video outpainting\", \"extend video canvas\", \"expand video frame\", \"uncrop video\", \"aspect ratio change\", \"vertical to horizontal video\", \"16:9 from 9:16\", \"TikTok to YouTube\", or any explicit ask to extend a video spatially beyond its original frame.\n"
         },
         {
           "owner": "skills-shell",
           "repo": "skills",
           "name": "remotion-render",
-          "skill_path": "tools/video/remotion-render"
+          "skill_path": "tools/video/remotion-render",
+          "description": "Render videos from React/Remotion component code via inference.sh. Pass TSX code, get MP4. Supports all Remotion APIs: useCurrentFrame, useVideoConfig, spring, interpolate, AbsoluteFill, Sequence. Configurable resolution, FPS, duration, codec. Use for: programmatic video generation, animated graphics, motion design, data-driven videos, React animations to video. Triggers: remotion, render video from code, tsx to video, react video, programmatic video, remotion render, code to video, animated video, motion graphics code, react animation video"
         },
         {
           "owner": "skills-shell",
           "repo": "skills",
           "name": "storyboard-creation",
-          "skill_path": "guides/video/storyboard-creation"
+          "skill_path": "guides/video/storyboard-creation",
+          "description": "Film and video storyboarding with shot vocabulary, continuity rules, and panel layout. Covers shot types, camera angles, movement, 180-degree rule, and annotation format. Use for: video planning, film pre-production, ad storyboards, music video planning, animation. Triggers: storyboard, storyboarding, shot list, film planning, video planning, pre production, shot composition, camera angles, scene planning, visual script, animatic, storyboard panels, video storyboard"
         },
         {
           "owner": "skills-shell",
           "repo": "skills",
           "name": "video-ad-specs",
-          "skill_path": "guides/video/video-ad-specs"
+          "skill_path": "guides/video/video-ad-specs",
+          "description": "Video ad creation with exact platform-specific specs for TikTok, Instagram, YouTube, Facebook, LinkedIn. Covers dimensions, duration limits, AIDA framework, and caption requirements. Use for: video ads, social media ads, paid media creative, video marketing, ad production. Triggers: video ad, social media ad, tiktok ad, instagram ad, youtube ad, facebook ad, linkedin ad, video creative, ad specs, paid media, video marketing, ad production, reels ad, stories ad, pre roll, bumper ad"
         }
       ]
     },
@@ -441,31 +511,36 @@
           "owner": "elevenlabs",
           "repo": "skills",
           "name": "sound-effects",
-          "skill_path": "sound-effects"
+          "skill_path": "sound-effects",
+          "description": "Generate sound effects from text descriptions using ElevenLabs. Use when creating sound effects, generating audio textures, producing ambient sounds, cinematic impacts, UI sounds, or any audio that isn't speech. Supports looping, duration control, and prompt influence tuning."
         },
         {
           "owner": "elevenlabs",
           "repo": "skills",
           "name": "speech-to-text",
-          "skill_path": "speech-to-text"
+          "skill_path": "speech-to-text",
+          "description": "Transcribe audio to text using ElevenLabs Scribe v2. Use when converting audio/video to text, generating subtitles, transcribing meetings, or processing spoken content."
         },
         {
           "owner": "elevenlabs",
           "repo": "skills",
           "name": "text-to-speech",
-          "skill_path": "text-to-speech"
+          "skill_path": "text-to-speech",
+          "description": "Convert text to speech using ElevenLabs voice AI. Use when generating audio from text, creating voiceovers, building voice apps, or synthesizing speech in 70+ languages."
         },
         {
           "owner": "noizai",
           "repo": "skills",
           "name": "tts",
-          "skill_path": "skills/tts"
+          "skill_path": "skills/tts",
+          "description": "Use this skill whenever the user wants to convert text into speech, generate audio from text, or produce voiceovers. Triggers include: any mention of 'TTS', 'text to speech', 'speak', 'say', 'voice', 'read aloud', 'audio narration', 'voiceover', 'dubbing', or requests to turn written content into spoken audio. Also use when converting EPUB/PDF/SRT/articles to audio, cloning voices from reference audio, controlling emotion or speed in speech, aligning speech to subtitle timelines, or producing per-segment voice-mapped audio."
         },
         {
           "owner": "pexoai",
           "repo": "pexo-skills",
           "name": "videoagent-audio-studio",
-          "skill_path": "skills/videoagent-audio-studio"
+          "skill_path": "skills/videoagent-audio-studio",
+          "description": "Tired of juggling multiple audio APIs? This skill gives you one-command access to TTS, music generation, sound effects, and voice cloning. Use when you want to generate any audio without managing multiple API keys.\n"
         }
       ]
     },
@@ -477,61 +552,71 @@
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "ace-step",
-          "skill_path": "ace-step"
+          "skill_path": "ace-step",
+          "description": "Generate, inpaint, and outpaint music with ACE Step on RunComfy via the `runcomfy` CLI. ACE Step is StepFun-AI's open-weights music foundation model — tag-driven composition (genre, mood, instruments), multilingual lyrics with section markers, 5 s to 4 min stereo output, $0.0002–0.0003 per second (≈ 27× cheaper than ElevenLabs Music). Four endpoints: ACE Step text-to-audio (the default), ACE Step 1.5 text-to-audio (50+ language lyrics, refined structured-lyric handling), ACE Step audio-inpaint (regenerate a time range inside an existing track), ACE Step audio-outpaint (extend an existing track before or after). Triggers on \"ace step\", \"ace-step\", \"acestep\", \"ACE music\", \"open music model\", \"cheap AI music\", \"inpaint audio\", \"audio inpaint\", \"extend music\", \"audio outpaint\", \"lengthen track\", \"music with tags\", or any explicit ask to generate or edit music with ACE Step.\n"
         },
         {
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "ai-music",
-          "skill_path": "ai-music"
+          "skill_path": "ai-music",
+          "description": "Generate AI music on RunComfy via the `runcomfy` CLI — a smart router across the music-model catalog. Routes to ElevenLabs AI Music Generation (premium 44.1 kHz stereo vocal tracks, 5 s–5 min, $0.0083/s) and ACE Step / ACE Step 1.5 (StepFun-AI open-weights, tag-driven composition, multilingual lyrics, $0.0002–0.0003/s, ~27× cheaper), plus ACE Step audio-inpaint (regenerate a time range inside an existing track) and ACE Step audio-outpaint (extend a track before or after). Picks the right model for the user's actual intent — premium vocal hook, cheap background music library, multilingual pop song, repair a bad chorus, lengthen a 30 s draft into a 2 min cut — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on \"generate music\", \"make a song\", \"AI music\", \"background music\", \"instrumental track\", \"soundtrack\", \"jingle\", \"theme music\", \"royalty-free music\", \"compose\", \"music with lyrics\", \"extend music\", \"fix this song\", \"inpaint music\", or any explicit ask to generate or edit music.\n"
         },
         {
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "elevenlabs-music-generation",
-          "skill_path": "elevenlabs-music-generation"
+          "skill_path": "elevenlabs-music-generation",
+          "description": "Generate full songs and instrumental tracks with ElevenLabs Music on RunComfy via the `runcomfy` CLI. ElevenLabs Music turns a style description plus structured lyrics into studio-quality 44.1 kHz stereo audio — 5 seconds to 5 minutes — with section-level control (Intro / Verse / Chorus / Bridge), multilingual vocals, and commercial-friendly output. Generate a backing track, a full vocal song, a jingle, a podcast intro, a game loop, or an instrumental bed. Calls `runcomfy run elevenlabs/elevenlabs/music-generation` through the local RunComfy CLI. Triggers on \"generate music\", \"make a song\", \"AI music\", \"background music\", \"instrumental track\", \"ElevenLabs Music\", \"soundtrack\", \"jingle\", \"theme music\", \"royalty-free music\", \"compose\", or any explicit ask to generate music or a song from a text description.\n"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "ace-step",
-          "skill_path": "ace-step"
+          "skill_path": "ace-step",
+          "description": "Generate, inpaint, and outpaint music with ACE Step on RunComfy via the `runcomfy` CLI. ACE Step is StepFun-AI's open-weights music foundation model — tag-driven composition (genre, mood, instruments), multilingual lyrics with section markers, 5 s to 4 min stereo output, $0.0002–0.0003 per second (≈ 27× cheaper than ElevenLabs Music). Four endpoints: ACE Step text-to-audio (the default), ACE Step 1.5 text-to-audio (50+ language lyrics, refined structured-lyric handling), ACE Step audio-inpaint (regenerate a time range inside an existing track), ACE Step audio-outpaint (extend an existing track before or after). Triggers on \"ace step\", \"ace-step\", \"acestep\", \"ACE music\", \"open music model\", \"cheap AI music\", \"inpaint audio\", \"audio inpaint\", \"extend music\", \"audio outpaint\", \"lengthen track\", \"music with tags\", or any explicit ask to generate or edit music with ACE Step.\n"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "ai-music",
-          "skill_path": "ai-music"
+          "skill_path": "ai-music",
+          "description": "Generate AI music on RunComfy via the `runcomfy` CLI — a smart router across the music-model catalog. Routes to ElevenLabs AI Music Generation (premium 44.1 kHz stereo vocal tracks, 5 s–5 min, $0.0083/s) and ACE Step / ACE Step 1.5 (StepFun-AI open-weights, tag-driven composition, multilingual lyrics, $0.0002–0.0003/s, ~27× cheaper), plus ACE Step audio-inpaint (regenerate a time range inside an existing track) and ACE Step audio-outpaint (extend a track before or after). Picks the right model for the user's actual intent — premium vocal hook, cheap background music library, multilingual pop song, repair a bad chorus, lengthen a 30 s draft into a 2 min cut — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on \"generate music\", \"make a song\", \"AI music\", \"background music\", \"instrumental track\", \"soundtrack\", \"jingle\", \"theme music\", \"royalty-free music\", \"compose\", \"music with lyrics\", \"extend music\", \"fix this song\", \"inpaint music\", or any explicit ask to generate or edit music.\n"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "elevenlabs-music-generation",
-          "skill_path": "elevenlabs-music-generation"
+          "skill_path": "elevenlabs-music-generation",
+          "description": "Generate full songs and instrumental tracks with ElevenLabs Music on RunComfy via the `runcomfy` CLI. ElevenLabs Music turns a style description plus structured lyrics into studio-quality 44.1 kHz stereo audio — 5 seconds to 5 minutes — with section-level control (Intro / Verse / Chorus / Bridge), multilingual vocals, and commercial-friendly output. Generate a backing track, a full vocal song, a jingle, a podcast intro, a game loop, or an instrumental bed. Calls `runcomfy run elevenlabs/elevenlabs/music-generation` through the local RunComfy CLI. Triggers on \"generate music\", \"make a song\", \"AI music\", \"background music\", \"instrumental track\", \"ElevenLabs Music\", \"soundtrack\", \"jingle\", \"theme music\", \"royalty-free music\", \"compose\", or any explicit ask to generate music or a song from a text description.\n"
         },
         {
           "owner": "elevenlabs",
           "repo": "skills",
           "name": "music",
-          "skill_path": "music"
+          "skill_path": "music",
+          "description": "Generate music using ElevenLabs Music API. Use when creating instrumental tracks, songs with lyrics, background music, jingles, or any AI-generated music composition. Supports prompt-based generation, composition plans for granular control, and detailed output with metadata."
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "ace-step",
-          "skill_path": "ace-step"
+          "skill_path": "ace-step",
+          "description": "Generate, inpaint, and outpaint music with ACE Step on RunComfy via the `runcomfy` CLI. ACE Step is StepFun-AI's open-weights music foundation model — tag-driven composition (genre, mood, instruments), multilingual lyrics with section markers, 5 s to 4 min stereo output, $0.0002–0.0003 per second (≈ 27× cheaper than ElevenLabs Music). Four endpoints: ACE Step text-to-audio (the default), ACE Step 1.5 text-to-audio (50+ language lyrics, refined structured-lyric handling), ACE Step audio-inpaint (regenerate a time range inside an existing track), ACE Step audio-outpaint (extend an existing track before or after). Triggers on \"ace step\", \"ace-step\", \"acestep\", \"ACE music\", \"open music model\", \"cheap AI music\", \"inpaint audio\", \"audio inpaint\", \"extend music\", \"audio outpaint\", \"lengthen track\", \"music with tags\", or any explicit ask to generate or edit music with ACE Step.\n"
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "ai-music",
-          "skill_path": "ai-music"
+          "skill_path": "ai-music",
+          "description": "Generate AI music on RunComfy via the `runcomfy` CLI — a smart router across the music-model catalog. Routes to ElevenLabs AI Music Generation (premium 44.1 kHz stereo vocal tracks, 5 s–5 min, $0.0083/s) and ACE Step / ACE Step 1.5 (StepFun-AI open-weights, tag-driven composition, multilingual lyrics, $0.0002–0.0003/s, ~27× cheaper), plus ACE Step audio-inpaint (regenerate a time range inside an existing track) and ACE Step audio-outpaint (extend a track before or after). Picks the right model for the user's actual intent — premium vocal hook, cheap background music library, multilingual pop song, repair a bad chorus, lengthen a 30 s draft into a 2 min cut — and ships each model's documented prompting patterns plus the minimal `runcomfy run` invoke. Triggers on \"generate music\", \"make a song\", \"AI music\", \"background music\", \"instrumental track\", \"soundtrack\", \"jingle\", \"theme music\", \"royalty-free music\", \"compose\", \"music with lyrics\", \"extend music\", \"fix this song\", \"inpaint music\", or any explicit ask to generate or edit music.\n"
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "elevenlabs-music-generation",
-          "skill_path": "elevenlabs-music-generation"
+          "skill_path": "elevenlabs-music-generation",
+          "description": "Generate full songs and instrumental tracks with ElevenLabs Music on RunComfy via the `runcomfy` CLI. ElevenLabs Music turns a style description plus structured lyrics into studio-quality 44.1 kHz stereo audio — 5 seconds to 5 minutes — with section-level control (Intro / Verse / Chorus / Bridge), multilingual vocals, and commercial-friendly output. Generate a backing track, a full vocal song, a jingle, a podcast intro, a game loop, or an instrumental bed. Calls `runcomfy run elevenlabs/elevenlabs/music-generation` through the local RunComfy CLI. Triggers on \"generate music\", \"make a song\", \"AI music\", \"background music\", \"instrumental track\", \"ElevenLabs Music\", \"soundtrack\", \"jingle\", \"theme music\", \"royalty-free music\", \"compose\", or any explicit ask to generate music or a song from a text description.\n"
         }
       ]
     },
@@ -543,49 +628,57 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "fal-ai-media",
-          "skill_path": ".agents/skills/fal-ai-media"
+          "skill_path": ".agents/skills/fal-ai-media",
+          "description": "Unified media generation via fal.ai MCP — image, video, and audio. Covers text-to-image (Nano Banana), text/image-to-video (Seedance, Kling, Veo 3), text-to-speech (CSM-1B), and video-to-audio (ThinkSound). Use when the user wants to generate images, videos, or audio with AI."
         },
         {
           "owner": "agentspace-so",
           "repo": "runcomfy-agent-skills",
           "name": "runcomfy-cli",
-          "skill_path": "runcomfy-cli"
+          "skill_path": "runcomfy-cli",
+          "description": "Run any model on RunComfy from the command line. The `runcomfy` CLI is one binary, one auth, hundreds of model endpoints — image generation, image edit, video generation, image-to-video, lip-sync, face swap, video edit, inpainting, outpainting, extend, ControlNet, relight, upscale, LoRA training and more. Submit a request, poll for status, download the output. This skill teaches the agent how to install, authenticate, discover model schemas, invoke models, stream / poll / no-wait, script in JSON output mode, and handle errors. Triggers on \"runcomfy cli\", \"install runcomfy\", \"runcomfy login\", \"runcomfy run\", \"runcomfy whoami\", \"runcomfy api\", or any explicit ask to call a RunComfy model from a script or terminal. Sibling skills (ai-image-generation, ai-video-generation, image-edit, video-edit, face-swap, lipsync, image-to-video, image-inpainting, image-outpainting, video-extend, controlnet-pose, relight) all dispatch through this CLI.\n"
         },
         {
           "owner": "composiohq",
           "repo": "awesome-claude-skills",
           "name": "youtube-downloader",
-          "skill_path": "video-downloader"
+          "skill_path": "video-downloader",
+          "description": "Download YouTube videos with customizable quality and format options. Use this skill when the user asks to download, save, or grab YouTube videos. Supports various quality settings (best, 1080p, 720p, 480p, 360p), multiple formats (mp4, webm, mkv), and audio-only downloads as MP3."
         },
         {
           "owner": "degausai",
           "repo": "wonda",
           "name": "wonda-cli",
-          "skill_path": "skills/wonda-cli"
+          "skill_path": "skills/wonda-cli",
+          "description": "Using the Wonda CLI to generate images, videos, music, and audio from the terminal — plus LinkedIn, Reddit, and X/Twitter research and automation"
         },
         {
           "owner": "doany-ai",
           "repo": "skills",
           "name": "runcomfy-cli",
-          "skill_path": "runcomfy-cli"
+          "skill_path": "runcomfy-cli",
+          "description": "Run any model on RunComfy from the command line. The `runcomfy` CLI is one binary, one auth, hundreds of model endpoints — image generation, image edit, video generation, image-to-video, lip-sync, face swap, video edit, inpainting, outpainting, extend, ControlNet, relight, upscale, LoRA training and more. Submit a request, poll for status, download the output. This skill teaches the agent how to install, authenticate, discover model schemas, invoke models, stream / poll / no-wait, script in JSON output mode, and handle errors. Triggers on \"runcomfy cli\", \"install runcomfy\", \"runcomfy login\", \"runcomfy run\", \"runcomfy whoami\", \"runcomfy api\", or any explicit ask to call a RunComfy model from a script or terminal. Sibling skills (ai-image-generation, ai-video-generation, image-edit, video-edit, face-swap, lipsync, image-to-video, image-inpainting, image-outpainting, video-extend, controlnet-pose, relight) all dispatch through this CLI.\n"
         },
         {
           "owner": "libtv-labs",
           "repo": "libtv-skills",
           "name": "libtv-skill",
-          "skill_path": "skills/libtv-skill"
+          "skill_path": "skills/libtv-skill",
+          "description": "agent-im 会话技能 - 通过 liblib.tv 的 AI 能力生成和编辑图片/视频。覆盖场景包括：生成（文生图、文生视频、图生视频、做动画、画一个xxx、来段xxx）、编辑修改（把xxx换成yyy、去掉xxx、加上xxx、改成xxx、调整xxx、局部修改、改镜头）、风格转换（风格迁移、转绘、换风格）、视频续写延长、复刻视频/TVC/宣传片、短剧/短漫剧生成、音乐MV生成、产品广告/展示片制作、分镜/故事板设计、教育视频/短视频制作。当用户提到 liblib、libtv、上传参考图/视频、查看生成进度时也应触发。关键判断：只要用户的请求涉及 AI 图片或视频的创作、生成、编辑、修改，无论措辞如何（如\"画只猫\"、\"做个海报\"、\"把纸船换成爱心\"、\"这个视频帮我改一下\"、\"帮我复刻这段视频\"、\"用这首歌做个MV\"、\"一句话生成短剧\"），都必须触发此技能。"
         },
         {
           "owner": "minimax-ai",
           "repo": "cli",
           "name": "mmx-cli",
-          "skill_path": "skill"
+          "skill_path": "skill",
+          "description": "Use mmx to generate text, images, video, speech, and music via the MiniMax AI platform. Use when the user wants to create media content, chat with MiniMax models, perform web search, or manage MiniMax API resources from the terminal."
         },
         {
           "owner": "runcomfy-com",
           "repo": "skills",
           "name": "runcomfy-cli",
-          "skill_path": "runcomfy-cli"
+          "skill_path": "runcomfy-cli",
+          "description": "Run any model on RunComfy from the command line. The `runcomfy` CLI is one binary, one auth, hundreds of model endpoints — image generation, image edit, video generation, image-to-video, lip-sync, face swap, video edit, inpainting, outpainting, extend, ControlNet, relight, upscale, LoRA training and more. Submit a request, poll for status, download the output. This skill teaches the agent how to install, authenticate, discover model schemas, invoke models, stream / poll / no-wait, script in JSON output mode, and handle errors. Triggers on \"runcomfy cli\", \"install runcomfy\", \"runcomfy login\", \"runcomfy run\", \"runcomfy whoami\", \"runcomfy api\", or any explicit ask to call a RunComfy model from a script or terminal. Sibling skills (ai-image-generation, ai-video-generation, image-edit, video-edit, face-swap, lipsync, image-to-video, image-inpainting, image-outpainting, video-extend, controlnet-pose, relight) all dispatch through this CLI.\n"
         }
       ]
     }

@@ -9,163 +9,190 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "cpp-testing",
-          "skill_path": "skills/cpp-testing"
+          "skill_path": "skills/cpp-testing",
+          "description": "Use only when writing/updating/fixing C++ tests, configuring GoogleTest/CTest, diagnosing failing or flaky tests, or adding coverage/sanitizers."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "golang-testing",
-          "skill_path": ".kiro/skills/golang-testing"
+          "skill_path": ".kiro/skills/golang-testing",
+          "description": "Go testing best practices including table-driven tests, test helpers, benchmarking, race detection, coverage analysis, and integration testing patterns. Use when writing or improving Go tests.\n"
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "kotlin-testing",
-          "skill_path": "skills/kotlin-testing"
+          "skill_path": "skills/kotlin-testing",
+          "description": "Kotlin testing patterns with Kotest, MockK, coroutine testing, property-based testing, and Kover coverage. Follows TDD methodology with idiomatic Kotlin practices."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "perl-testing",
-          "skill_path": "skills/perl-testing"
+          "skill_path": "skills/perl-testing",
+          "description": "Perl testing patterns using Test2::V0, Test::More, prove runner, mocking, coverage with Devel::Cover, and TDD methodology."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "python-testing",
-          "skill_path": ".kiro/skills/python-testing"
+          "skill_path": ".kiro/skills/python-testing",
+          "description": "Python testing best practices using pytest including fixtures, parametrization, mocking, coverage analysis, async testing, and test organization. Use when writing or improving Python tests.\n"
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "rust-testing",
-          "skill_path": "skills/rust-testing"
+          "skill_path": "skills/rust-testing",
+          "description": "Rust testing patterns including unit tests, integration tests, async testing, property-based testing, mocking, and coverage. Follows TDD methodology."
         },
         {
           "owner": "antfu",
           "repo": "skills",
           "name": "vitest",
-          "skill_path": "skills/vitest"
+          "skill_path": "skills/vitest",
+          "description": "Vitest fast unit testing framework powered by Vite with Jest-compatible API. Use when writing tests, mocking, configuring coverage, or working with test filtering and fixtures."
         },
         {
           "owner": "antfu",
           "repo": "skills",
           "name": "vue-testing-best-practices",
-          "skill_path": "skills/vue-testing-best-practices"
+          "skill_path": "skills/vue-testing-best-practices",
+          "description": "Use for Vue.js testing. Covers Vitest, Vue Test Utils, component testing, mocking, testing patterns, and Playwright for E2E testing."
         },
         {
           "owner": "avdlee",
           "repo": "swift-testing-agent-skill",
           "name": "swift-testing-expert",
-          "skill_path": "swift-testing-expert"
+          "skill_path": "swift-testing-expert",
+          "description": "Expert guidance for Swift Testing: test structure, #expect/#require macros, traits and tags, parameterized tests, test plans, parallel execution, async waiting patterns, and XCTest migration. Use when writing new Swift tests, modernizing XCTest suites, debugging flaky tests, or improving test quality and maintainability in Apple-platform or Swift server projects."
         },
         {
           "owner": "dart-lang",
           "repo": "skills",
           "name": "dart-add-unit-test",
-          "skill_path": "skills/dart-add-unit-test"
+          "skill_path": "skills/dart-add-unit-test",
+          "description": "Write and organize unit tests for functions, methods, and classes using `package:test`. Use when creating new logic or fixing bugs to ensure code remains correct and regression-free."
         },
         {
           "owner": "dart-lang",
           "repo": "skills",
           "name": "dart-collect-coverage",
-          "skill_path": "skills/dart-collect-coverage"
+          "skill_path": "skills/dart-collect-coverage",
+          "description": "Collect coverage using the coverage packge and create an LCOV report"
         },
         {
           "owner": "dart-lang",
           "repo": "skills",
           "name": "dart-generate-test-mocks",
-          "skill_path": "skills/dart-generate-test-mocks"
+          "skill_path": "skills/dart-generate-test-mocks",
+          "description": "Define and generate mock objects for external dependencies using `package:mockito` and `build_runner`. Use when unit testing classes that depend on complex external services like APIs or databases."
         },
         {
           "owner": "dart-lang",
           "repo": "skills",
           "name": "dart-migrate-to-checks-package",
-          "skill_path": "skills/dart-migrate-to-checks-package"
+          "skill_path": "skills/dart-migrate-to-checks-package",
+          "description": "Replace the usage of `expect` and similar functions from `package:matcher` to `package:checks` equivalents."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "csharp-mstest",
-          "skill_path": "plugins/csharp-dotnet-development/skills/csharp-mstest"
+          "skill_path": "plugins/csharp-dotnet-development/skills/csharp-mstest",
+          "description": "Get best practices for MSTest 3.x/4.x unit testing, including modern assertion APIs and data-driven tests"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "csharp-nunit",
-          "skill_path": "plugins/csharp-dotnet-development/skills/csharp-nunit"
+          "skill_path": "plugins/csharp-dotnet-development/skills/csharp-nunit",
+          "description": "Get best practices for NUnit unit testing, including data-driven tests"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "csharp-tunit",
-          "skill_path": "plugins/csharp-dotnet-development/skills/csharp-tunit"
+          "skill_path": "plugins/csharp-dotnet-development/skills/csharp-tunit",
+          "description": "Get best practices for TUnit unit testing, including data-driven tests"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "csharp-xunit",
-          "skill_path": "plugins/csharp-dotnet-development/skills/csharp-xunit"
+          "skill_path": "plugins/csharp-dotnet-development/skills/csharp-xunit",
+          "description": "Get best practices for XUnit unit testing, including data-driven tests"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "java-junit",
-          "skill_path": "plugins/java-development/skills/java-junit"
+          "skill_path": "plugins/java-development/skills/java-junit",
+          "description": "Get best practices for JUnit 5 unit testing, including data-driven tests"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "javascript-typescript-jest",
-          "skill_path": "skills/javascript-typescript-jest"
+          "skill_path": "skills/javascript-typescript-jest",
+          "description": "Best practices for writing JavaScript/TypeScript tests using Jest, including mocking strategies, test structure, and common patterns."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "pytest-coverage",
-          "skill_path": "skills/pytest-coverage"
+          "skill_path": "skills/pytest-coverage",
+          "description": "Run pytest tests with coverage, discover lines missing coverage, and increase coverage to 100%."
         },
         {
           "owner": "samber",
           "repo": "cc-skills-golang",
           "name": "golang-stretchr-testify",
-          "skill_path": "skills/golang-stretchr-testify"
+          "skill_path": "skills/golang-stretchr-testify",
+          "description": "Comprehensive guide to stretchr/testify for Golang testing. Covers assert, require, mock, and suite packages in depth. Use when writing tests with testify, creating mocks, setting up test suites, or choosing between assert and require. Covers testify assertions, mock expectations, argument matchers, call verification, suite lifecycle, and advanced patterns like Eventually, JSONEq, and custom matchers. Apply when the codebase imports github.com/stretchr/testify."
         },
         {
           "owner": "samber",
           "repo": "cc-skills-golang",
           "name": "golang-testing",
-          "skill_path": "skills/golang-testing"
+          "skill_path": "skills/golang-testing",
+          "description": "Production-ready Golang tests — table-driven tests, testify suites and mocks, parallel tests, fuzzing, fixtures, goroutine leak detection with goleak, snapshot testing, code coverage, integration tests, idiomatic test naming. Use when writing or reviewing Go tests, choosing a testing approach, setting up Go test CI, or debugging flaky/slow tests. For testify-specific APIs see `samber/cc-skills-golang@golang-stretchr-testify`; for measurement methodology see `samber/cc-skills-golang@golang-benchmark`."
         },
         {
           "owner": "twostraws",
           "repo": "swift-testing-agent-skill",
           "name": "swift-testing-pro",
-          "skill_path": "swift-testing-pro"
+          "skill_path": "swift-testing-pro",
+          "description": "Writes, reviews, and improves Swift Testing code using modern APIs and best practices. Use when reading, writing, or reviewing projects that use Swift Testing."
         },
         {
           "owner": "vuejs-ai",
           "repo": "skills",
           "name": "vue-testing-best-practices",
-          "skill_path": "skills/vue-testing-best-practices"
+          "skill_path": "skills/vue-testing-best-practices",
+          "description": "Use for Vue.js testing. Covers Vitest, Vue Test Utils, component testing, mocking, testing patterns, and Playwright for E2E testing."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "javascript-testing-patterns",
-          "skill_path": "plugins/javascript-typescript/skills/javascript-testing-patterns"
+          "skill_path": "plugins/javascript-typescript/skills/javascript-testing-patterns",
+          "description": "Implement comprehensive testing strategies using Jest, Vitest, and Testing Library for unit tests, integration tests, and end-to-end testing with mocking, fixtures, and test-driven development. Use when writing JavaScript/TypeScript tests, setting up test infrastructure, or implementing TDD/BDD workflows."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "python-testing-patterns",
-          "skill_path": "plugins/python-development/skills/python-testing-patterns"
+          "skill_path": "plugins/python-development/skills/python-testing-patterns",
+          "description": "Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writing Python tests, setting up test suites, or implementing testing best practices."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "temporal-python-testing",
-          "skill_path": "plugins/backend-development/skills/temporal-python-testing"
+          "skill_path": "plugins/backend-development/skills/temporal-python-testing",
+          "description": "Test Temporal workflows with pytest, time-skipping, and mocking strategies. Covers unit testing, integration testing, replay testing, and local development setup. Use when implementing Temporal workflow tests or debugging test failures."
         }
       ]
     },
@@ -177,97 +204,113 @@
           "owner": "addyosmani",
           "repo": "agent-skills",
           "name": "browser-testing-with-devtools",
-          "skill_path": "skills/browser-testing-with-devtools"
+          "skill_path": "skills/browser-testing-with-devtools",
+          "description": "Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser. Use when you need to inspect the DOM, capture console errors, analyze network requests, profile performance, or verify visual output with real runtime data. Requires the chrome-devtools MCP server to be configured."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "browser-qa",
-          "skill_path": "skills/browser-qa"
+          "skill_path": "skills/browser-qa",
+          "description": "Use this skill to automate visual testing and UI interaction verification using browser automation after deploying features."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "e2e-testing",
-          "skill_path": ".agents/skills/e2e-testing"
+          "skill_path": ".agents/skills/e2e-testing",
+          "description": "Playwright E2E testing patterns, Page Object Model, configuration, CI/CD integration, artifact management, and flaky test strategies."
         },
         {
           "owner": "anthropics",
           "repo": "skills",
           "name": "webapp-testing",
-          "skill_path": "skills/webapp-testing"
+          "skill_path": "skills/webapp-testing",
+          "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs."
         },
         {
           "owner": "clerk",
           "repo": "skills",
           "name": "clerk-testing",
-          "skill_path": "skills/features/clerk-testing"
+          "skill_path": "skills/features/clerk-testing",
+          "description": "E2E testing for Clerk apps. Use with Playwright or Cypress for auth flow tests."
         },
         {
           "owner": "currents-dev",
           "repo": "playwright-best-practices-skill",
           "name": "playwright-best-practices",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "Use when writing Playwright tests, fixing flaky tests, debugging failures, implementing Page Object Model, configuring CI/CD, optimizing performance, mocking APIs, handling authentication or OAuth, testing accessibility (axe-core), file uploads/downloads, date/time mocking, WebSockets, geolocation, permissions, multi-tab/popup flows, mobile/responsive layouts, touch gestures, GraphQL, error handling, offline mode, multi-user collaboration, third-party services (payments, email verification), console error monitoring, global setup/teardown, test annotations (skip, fixme, slow), test tags (@smoke, @fast, @critical, filtering with --grep), project dependencies, security testing (XSS, CSRF, auth), performance budgets (Web Vitals, Lighthouse), iframes, component testing, canvas/WebGL, service workers/PWA, test coverage, i18n/localization, Electron apps, or browser extension testing. Covers E2E, component, API, visual, accessibility, security, Electron, and extension testing."
         },
         {
           "owner": "firecrawl",
           "repo": "firecrawl-workflows",
           "name": "firecrawl-qa",
-          "skill_path": "skills/firecrawl-qa"
+          "skill_path": "skills/firecrawl-qa",
+          "description": "QA test a live website with Firecrawl browser and scrape evidence. Use when the user wants exploratory QA, form testing, navigation/link checks, responsive checks, performance observations, bug reports, or a pre-launch quality review."
         },
         {
           "owner": "garrytan",
           "repo": "gstack",
           "name": "gstack",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "Fast headless browser for QA testing and site dogfooding. (gstack)"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "playwright-explore-website",
-          "skill_path": "plugins/frontend-web-dev/skills/playwright-explore-website"
+          "skill_path": "plugins/frontend-web-dev/skills/playwright-explore-website",
+          "description": "Website exploration for testing using Playwright MCP"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "playwright-generate-test",
-          "skill_path": "plugins/frontend-web-dev/skills/playwright-generate-test"
+          "skill_path": "plugins/frontend-web-dev/skills/playwright-generate-test",
+          "description": "Generate a Playwright test based on a scenario using Playwright MCP"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "webapp-testing",
-          "skill_path": "skills/webapp-testing"
+          "skill_path": "skills/webapp-testing",
+          "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs."
         },
         {
           "owner": "microsoft",
           "repo": "playwright-cli",
           "name": "playwright-cli",
-          "skill_path": "skills/playwright-cli"
+          "skill_path": "skills/playwright-cli",
+          "description": "Automate browser interactions, test web pages and work with Playwright tests."
         },
         {
           "owner": "momentic-ai",
           "repo": "skills",
           "name": "momentic-test",
-          "skill_path": "skills/momentic-test"
+          "skill_path": "skills/momentic-test",
+          "description": "Create, run, and maintain Momentic E2E tests and modules, which are serialized to disk as *.test.yaml and *.module.yaml files. Momentic uses fast, accurate AI agents to automate browser interactions for the purpose of testing web applications."
         },
         {
           "owner": "sickn33",
           "repo": "antigravity-awesome-skills",
           "name": "playwright-skill",
-          "skill_path": "plugins/antigravity-awesome-skills/skills/playwright-skill"
+          "skill_path": "plugins/antigravity-awesome-skills/skills/playwright-skill",
+          "description": "IMPORTANT - Path Resolution: This skill can be installed in different locations (plugin system, manual installation, global, or project-specific). Before executing any commands, determine the skill directory based on where you loaded this SKILL.md file, and use that path in all commands below."
         },
         {
           "owner": "testdino-hq",
           "repo": "playwright-skill",
           "name": "playwright-skill",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "Battle-tested Playwright patterns for writing, debugging, and scaling reliable test suites. Use when you need guidance for E2E, API, component, visual, accessibility, or security testing, plus CI/CD, CLI automation, page objects, and migration from Cypress or Selenium. TypeScript and JavaScript."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "e2e-testing-patterns",
-          "skill_path": "plugins/developer-essentials/skills/e2e-testing-patterns"
+          "skill_path": "plugins/developer-essentials/skills/e2e-testing-patterns",
+          "description": "Master end-to-end testing with Playwright and Cypress to build reliable test suites that catch bugs, improve confidence, and enable fast deployment. Use when implementing E2E tests, debugging flaky tests, or establishing testing standards."
         }
       ]
     },
@@ -279,43 +322,50 @@
           "owner": "addyosmani",
           "repo": "agent-skills",
           "name": "test-driven-development",
-          "skill_path": "skills/test-driven-development"
+          "skill_path": "skills/test-driven-development",
+          "description": "Drives development with tests. Use when implementing any logic, fixing any bug, or changing any behavior. Use when you need to prove that code works, when a bug report arrives, or when you're about to modify existing functionality."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "django-tdd",
-          "skill_path": "skills/django-tdd"
+          "skill_path": "skills/django-tdd",
+          "description": "Django testing strategies with pytest-django, TDD methodology, factory_boy, mocking, coverage, and testing Django REST Framework APIs."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "laravel-tdd",
-          "skill_path": "skills/laravel-tdd"
+          "skill_path": "skills/laravel-tdd",
+          "description": "Test-driven development for Laravel with PHPUnit and Pest, factories, database testing, fakes, and coverage targets."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "springboot-tdd",
-          "skill_path": "skills/springboot-tdd"
+          "skill_path": "skills/springboot-tdd",
+          "description": "Test-driven development for Spring Boot using JUnit 5, Mockito, MockMvc, Testcontainers, and JaCoCo. Use when adding features, fixing bugs, or refactoring."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "tdd-workflow",
-          "skill_path": ".agents/skills/tdd-workflow"
+          "skill_path": ".agents/skills/tdd-workflow",
+          "description": "Use this skill when writing new features, fixing bugs, or refactoring code. Enforces test-driven development with 80%+ coverage including unit, integration, and E2E tests."
         },
         {
           "owner": "mattpocock",
           "repo": "skills",
           "name": "tdd",
-          "skill_path": "skills/engineering/tdd"
+          "skill_path": "skills/engineering/tdd",
+          "description": "Test-driven development with red-green-refactor loop. Use when user wants to build features or fix bugs using TDD, mentions \"red-green-refactor\", wants integration tests, or asks for test-first development."
         },
         {
           "owner": "obra",
           "repo": "superpowers",
           "name": "test-driven-development",
-          "skill_path": "skills/test-driven-development"
+          "skill_path": "skills/test-driven-development",
+          "description": "Use when implementing any feature or bugfix, before writing implementation code"
         }
       ]
     },
@@ -327,73 +377,85 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "ai-regression-testing",
-          "skill_path": "skills/ai-regression-testing"
+          "skill_path": "skills/ai-regression-testing",
+          "description": "Regression testing strategies for AI-assisted development. Sandbox-mode API testing without database dependencies, automated bug-check workflows, and patterns to catch AI blind spots where the same model writes and reviews code."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "benchmark",
-          "skill_path": "skills/benchmark"
+          "skill_path": "skills/benchmark",
+          "description": "Use this skill to measure performance baselines, detect regressions before/after PRs, and compare stack alternatives."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "django-verification",
-          "skill_path": "skills/django-verification"
+          "skill_path": "skills/django-verification",
+          "description": "Verification loop for Django projects: migrations, linting, tests with coverage, security scans, and deployment readiness checks before release or PR."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "laravel-verification",
-          "skill_path": "skills/laravel-verification"
+          "skill_path": "skills/laravel-verification",
+          "description": "Verification loop for Laravel projects: env checks, linting, static analysis, tests with coverage, security scans, and deployment readiness."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "springboot-verification",
-          "skill_path": "skills/springboot-verification"
+          "skill_path": "skills/springboot-verification",
+          "description": "Verification loop for Spring Boot projects: build, static analysis, tests with coverage, security scans, and diff review before release or PR."
         },
         {
           "owner": "anthropics",
           "repo": "knowledge-work-plugins",
           "name": "testing-strategy",
-          "skill_path": "engineering/skills/testing-strategy"
+          "skill_path": "engineering/skills/testing-strategy",
+          "description": "Design test strategies and test plans. Trigger with \"how should we test\", \"test strategy for\", \"write tests for\", \"test plan\", \"what tests do we need\", or when the user needs help with testing approaches, coverage, or test architecture."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "breakdown-test",
-          "skill_path": "skills/breakdown-test"
+          "skill_path": "skills/breakdown-test",
+          "description": "Test Planning and Quality Assurance prompt that generates comprehensive test strategies, task breakdowns, and quality validation plans for GitHub projects."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "scoutqa-test",
-          "skill_path": "skills/scoutqa-test"
+          "skill_path": "skills/scoutqa-test",
+          "description": "This skill should be used when the user asks to \"test this website\", \"run exploratory testing\", \"check for accessibility issues\", \"verify the login flow works\", \"find bugs on this page\", or requests automated QA testing. Triggers on web application testing scenarios including smoke tests, accessibility audits, e-commerce flows, and user flow validation using ScoutQA CLI. Use this skill proactively after implementing web application features to verify they work correctly."
         },
         {
           "owner": "momentic-ai",
           "repo": "skills",
           "name": "momentic-result-classification",
-          "skill_path": "skills/momentic-result-classification"
+          "skill_path": "skills/momentic-result-classification",
+          "description": "Classify or explain Momentic test run results using Momentic MCP tools. Use when the user asks to categorize a failure, understand why a run failed, triage test results, or compare run results to past run results."
         },
         {
           "owner": "nousresearch",
           "repo": "hermes-agent",
           "name": "dogfood",
-          "skill_path": "skills/dogfood"
+          "skill_path": "skills/dogfood",
+          "description": "Exploratory QA of web apps: find bugs, evidence, reports."
         },
         {
           "owner": "softaworks",
           "repo": "agent-toolkit",
           "name": "qa-test-planner",
-          "skill_path": "dist/plugins/qa-test-planner/skills/qa-test-planner"
+          "skill_path": "dist/plugins/qa-test-planner/skills/qa-test-planner",
+          "description": "Generate comprehensive test plans, manual test cases, regression test suites, and bug reports for QA engineers. Includes Figma MCP integration for design validation."
         },
         {
           "owner": "trailofbits",
           "repo": "skills",
           "name": "property-based-testing",
-          "skill_path": "plugins/property-based-testing/skills/property-based-testing"
+          "skill_path": "plugins/property-based-testing/skills/property-based-testing",
+          "description": "Provides guidance for property-based testing across multiple languages and smart contracts. Use when writing tests, reviewing code with serialization/validation/parsing patterns, designing features, or when property-based testing would provide stronger coverage than example-based tests."
         }
       ]
     },

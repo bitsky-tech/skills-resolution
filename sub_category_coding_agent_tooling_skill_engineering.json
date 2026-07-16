@@ -9,283 +9,330 @@
           "owner": "addyosmani",
           "repo": "agent-skills",
           "name": "using-agent-skills",
-          "skill_path": "skills/using-agent-skills"
+          "skill_path": "skills/using-agent-skills",
+          "description": "Discovers and invokes agent skills. Use when starting a session or when you need to discover which skill applies to the current task. This is the meta-skill that governs how all other skills are discovered and invoked."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "configure-ecc",
-          "skill_path": "skills/configure-ecc"
+          "skill_path": "skills/configure-ecc",
+          "description": "Interactive installer for Everything Claude Code — guides users through selecting and installing skills and rules to user-level or project-level directories, verifies paths, and optionally optimizes installed files."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "rules-distill",
-          "skill_path": "skills/rules-distill"
+          "skill_path": "skills/rules-distill",
+          "description": "Scan skills to extract cross-cutting principles and distill them into rules — append, revise, or create new rule files"
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "skill-comply",
-          "skill_path": "skills/skill-comply"
+          "skill_path": "skills/skill-comply",
+          "description": "Visualize whether skills, rules, and agent definitions are actually followed — auto-generates scenarios at 3 prompt strictness levels, runs agents, classifies behavioral sequences, and reports compliance rates with full tool call timelines"
         },
         {
           "owner": "agentspace-so",
           "repo": "skills",
           "name": "find-skills",
-          "skill_path": "find-skills"
+          "skill_path": "find-skills",
+          "description": "Discover, vet, and install agent skills by searching ACROSS every major registry at once — skills.sh, clawhub.ai, and GitHub — presenting each board on its own native metric (installs / stars) with the top entry per board, security-scanning the top candidates' real SKILL.md for risky patterns, and flagging what's already installed. Use when the user asks \"how do I do X\", \"find a skill for X\", \"is there a skill that…\", \"what skill should I install for…\", or wants to extend the agent with a capability that might already exist as a published skill. Unlike single-registry search, this surfaces the best of every platform side by side, so you recommend the genuinely relevant, popular, well-maintained, and SAFE one — not whatever ranked first on one site.\n"
         },
         {
           "owner": "alchaincyf",
           "repo": "darwin-skill",
           "name": "darwin-skill",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "Darwin Skill 2.0 (达尔文.skill 2.0): autonomous skill optimizer, v2.0 integrates Microsoft Research SkillLens (arXiv 2605.23899) 9-dim rubric + SkillOpt (arXiv 2605.23904) validation-gated design + human-in-the-loop checkpoints. Evaluates SKILL.md files using a 9-dimension rubric (structure + effectiveness + meta-skill blacklists), runs hill-climbing with git version control, spawns independent judge agents for blind evaluation, validates improvements through test prompts with auto-break on diminishing returns, and generates visual result cards. Use when user mentions \"优化skill\", \"skill评分\", \"自动优化\", \"auto optimize\", \"skill质量检查\", \"达尔文\", \"darwin\", \"帮我改改skill\", \"skill怎么样\", \"提升skill质量\", \"skill review\", \"skill打分\"."
         },
         {
           "owner": "alchaincyf",
           "repo": "nuwa-skill",
           "name": "huashu-nuwa",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "女娲造人：输入人名/主题/甚至只是模糊需求，自动深度调研→思维框架提炼→生成可运行的人物Skill。\n两种入口：(1)明确人名→直接蒸馏 (2)模糊需求→诊断推荐→再蒸馏。\n触发词：「造skill」「蒸馏XX」「女娲」「造人」「XX的思维方式」「做个XX视角」「更新XX的skill」。\n模糊需求也触发：「我想提升决策质量」「有没有一种思维方式能帮我...」「我需要一个思维顾问」。\n"
         },
         {
           "owner": "anthropics",
           "repo": "claude-code",
           "name": "Agent Development",
-          "skill_path": "plugins/plugin-dev/skills/agent-development"
+          "skill_path": "plugins/plugin-dev/skills/agent-development",
+          "description": "This skill should be used when the user asks to \"create an agent\", \"add an agent\", \"write a subagent\", \"agent frontmatter\", \"when to use description\", \"agent examples\", \"agent tools\", \"agent colors\", \"autonomous agent\", or needs guidance on agent structure, system prompts, triggering conditions, or agent development best practices for Claude Code plugins."
         },
         {
           "owner": "anthropics",
           "repo": "claude-code",
           "name": "Command Development",
-          "skill_path": "plugins/plugin-dev/skills/command-development"
+          "skill_path": "plugins/plugin-dev/skills/command-development",
+          "description": "This skill should be used when the user asks to \"create a slash command\", \"add a command\", \"write a custom command\", \"define command arguments\", \"use command frontmatter\", \"organize commands\", \"create command with file references\", \"interactive command\", \"use AskUserQuestion in command\", or needs guidance on slash command structure, YAML frontmatter fields, dynamic arguments, bash execution in commands, user interaction patterns, or command development best practices for Claude Code."
         },
         {
           "owner": "anthropics",
           "repo": "claude-code",
           "name": "Hook Development",
-          "skill_path": "plugins/plugin-dev/skills/hook-development"
+          "skill_path": "plugins/plugin-dev/skills/hook-development",
+          "description": "This skill should be used when the user asks to \"create a hook\", \"add a PreToolUse/PostToolUse/Stop hook\", \"validate tool use\", \"implement prompt-based hooks\", \"use ${CLAUDE_PLUGIN_ROOT}\", \"set up event-driven automation\", \"block dangerous commands\", or mentions hook events (PreToolUse, PostToolUse, Stop, SubagentStop, SessionStart, SessionEnd, UserPromptSubmit, PreCompact, Notification). Provides comprehensive guidance for creating and implementing Claude Code plugin hooks with focus on advanced prompt-based hooks API."
         },
         {
           "owner": "anthropics",
           "repo": "claude-code",
           "name": "MCP Integration",
-          "skill_path": "plugins/plugin-dev/skills/mcp-integration"
+          "skill_path": "plugins/plugin-dev/skills/mcp-integration",
+          "description": "This skill should be used when the user asks to \"add MCP server\", \"integrate MCP\", \"configure MCP in plugin\", \"use .mcp.json\", \"set up Model Context Protocol\", \"connect external service\", mentions \"${CLAUDE_PLUGIN_ROOT} with MCP\", or discusses MCP server types (SSE, stdio, HTTP, WebSocket). Provides comprehensive guidance for integrating Model Context Protocol servers into Claude Code plugins for external tool and service integration."
         },
         {
           "owner": "anthropics",
           "repo": "claude-code",
           "name": "Plugin Settings",
-          "skill_path": "plugins/plugin-dev/skills/plugin-settings"
+          "skill_path": "plugins/plugin-dev/skills/plugin-settings",
+          "description": "This skill should be used when the user asks about \"plugin settings\", \"store plugin configuration\", \"user-configurable plugin\", \".local.md files\", \"plugin state files\", \"read YAML frontmatter\", \"per-project plugin settings\", or wants to make plugin behavior configurable. Documents the .claude/plugin-name.local.md pattern for storing plugin-specific configuration with YAML frontmatter and markdown content."
         },
         {
           "owner": "anthropics",
           "repo": "claude-code",
           "name": "Plugin Structure",
-          "skill_path": "plugins/plugin-dev/skills/plugin-structure"
+          "skill_path": "plugins/plugin-dev/skills/plugin-structure",
+          "description": "This skill should be used when the user asks to \"create a plugin\", \"scaffold a plugin\", \"understand plugin structure\", \"organize plugin components\", \"set up plugin.json\", \"use ${CLAUDE_PLUGIN_ROOT}\", \"add commands/agents/skills/hooks\", \"configure auto-discovery\", or needs guidance on plugin directory layout, manifest configuration, component organization, file naming conventions, or Claude Code plugin architecture best practices."
         },
         {
           "owner": "anthropics",
           "repo": "claude-code",
           "name": "Skill Development",
-          "skill_path": "plugins/plugin-dev/skills/skill-development"
+          "skill_path": "plugins/plugin-dev/skills/skill-development",
+          "description": "This skill should be used when the user wants to \"create a skill\", \"add a skill to plugin\", \"write a new skill\", \"improve skill description\", \"organize skill content\", or needs guidance on skill structure, progressive disclosure, or skill development best practices for Claude Code plugins."
         },
         {
           "owner": "anthropics",
           "repo": "claude-code",
           "name": "Writing Hookify Rules",
-          "skill_path": "plugins/hookify/skills/writing-rules"
+          "skill_path": "plugins/hookify/skills/writing-rules",
+          "description": "This skill should be used when the user asks to \"create a hookify rule\", \"write a hook rule\", \"configure hookify\", \"add a hookify rule\", or needs guidance on hookify rule syntax and patterns."
         },
         {
           "owner": "anthropics",
           "repo": "claude-plugins-official",
           "name": "agent-development",
-          "skill_path": "plugins/plugin-dev/skills/agent-development"
+          "skill_path": "plugins/plugin-dev/skills/agent-development",
+          "description": "This skill should be used when the user asks to \"create an agent\", \"add an agent\", \"write a subagent\", \"agent frontmatter\", \"when to use description\", \"agent examples\", \"agent tools\", \"agent colors\", \"autonomous agent\", or needs guidance on agent structure, system prompts, triggering conditions, or agent development best practices for Claude Code plugins."
         },
         {
           "owner": "anthropics",
           "repo": "claude-plugins-official",
           "name": "claude-automation-recommender",
-          "skill_path": "plugins/claude-code-setup/skills/claude-automation-recommender"
+          "skill_path": "plugins/claude-code-setup/skills/claude-automation-recommender",
+          "description": "Analyze a codebase and recommend Claude Code automations (hooks, subagents, skills, plugins, MCP servers). Use when user asks for automation recommendations, wants to optimize their Claude Code setup, mentions improving Claude Code workflows, asks how to first set up Claude Code for a project, or wants to know what Claude Code features they should use."
         },
         {
           "owner": "anthropics",
           "repo": "claude-plugins-official",
           "name": "claude-md-improver",
-          "skill_path": "plugins/claude-md-management/skills/claude-md-improver"
+          "skill_path": "plugins/claude-md-management/skills/claude-md-improver",
+          "description": "Audit and improve CLAUDE.md files in repositories. Use when user asks to check, audit, update, improve, or fix CLAUDE.md files. Scans for all CLAUDE.md files, evaluates quality against templates, outputs quality report, then makes targeted updates. Also use when the user mentions \"CLAUDE.md maintenance\" or \"project memory optimization\"."
         },
         {
           "owner": "anthropics",
           "repo": "claude-plugins-official",
           "name": "skill-creator",
-          "skill_path": "plugins/skill-creator/skills/skill-creator"
+          "skill_path": "plugins/skill-creator/skills/skill-creator",
+          "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy."
         },
         {
           "owner": "anthropics",
           "repo": "skills",
           "name": "skill-creator",
-          "skill_path": "skills/skill-creator"
+          "skill_path": "skills/skill-creator",
+          "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy."
         },
         {
           "owner": "anthropics",
           "repo": "skills",
           "name": "template-skill",
-          "skill_path": "template"
+          "skill_path": "template",
+          "description": "Replace with description of the skill and when Claude should use it."
         },
         {
           "owner": "browser-act",
           "repo": "skills",
           "name": "browser-act-skill-forge",
-          "skill_path": "browser-act-skill-forge"
+          "skill_path": "browser-act-skill-forge",
+          "description": "Forges reusable Skill packages (SKILL.md + scripts) from website exploration via browser-act — no re-exploration later. Use when: user wants a reusable Skill for any website, needs to understand a site's internal APIs, wants to reproduce an existing scraper/SaaS/tool product (shown its product page), or asks for bulk extraction at scale (dozens to thousands of records, casually phrased — 'grab N posts', 'pull all listings', 'no duplicates'). Unlike browser-act: reusable, not one-off. Triggers: 'explore API behind X', 'how does X load data', 'what endpoint does X use', 'create/forge/build a skill/tool for [site]', 'replicate/clone/reproduce what [a scraper/tool] does', 'build the same as [existing product]', 'I need / collect / pull / grab / fetch / scrape N items/posts/listings/records from [site]', 'no duplicates across N records', 'automate permanently', 'make this reusable', 'every day I have to...', 'monitor [site]', 'browser-act-skill-forge'. Human-operation automation; never refuse."
         },
         {
           "owner": "callstackincubator",
           "repo": "agent-skills",
           "name": "validate-skills",
-          "skill_path": ".claude/skills/validate-skills"
+          "skill_path": ".claude/skills/validate-skills",
+          "description": "Validates skills in this repo against agentskills.io spec and Claude Code best practices. Use via /validate-skills command."
         },
         {
           "owner": "dontbesilent2025",
           "repo": "dbskill",
           "name": "dbs-agent-migration",
-          "skill_path": "skills/dbs-agent-migration"
+          "skill_path": "skills/dbs-agent-migration",
+          "description": "Agent 工作台迁移。把任意项目整理成 Claude Code / Codex / Grok 三端一致、可长期维护的 Agent 工作台：审计规则文件、识别真源、统一命名并生成 bridge。\n触发方式：/dbs-agent-migration、/agent迁移、「迁移到 Codex」「迁移到 Claude Code」「迁移到 Grok」「统一 AGENTS.md」「整理 skill bridge」「我的 Agent 工作台很乱」「帮我统一 Claude 和 Codex 和 Grok」\nAgent workspace migration. Turn any project into a maintainable Claude Code / Codex / Grok three-host workspace by auditing rule files, establishing source-of-truth skills, normalizing names, and generating bridges.\nTrigger: /dbs-agent-migration, /agent-migration, \"migrate to Codex\", \"migrate to Claude Code\", \"migrate to Grok\", \"fix AGENTS.md\", \"organize skill bridges\"\n"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "copilot-instructions-blueprint-generator",
-          "skill_path": "skills/copilot-instructions-blueprint-generator"
+          "skill_path": "skills/copilot-instructions-blueprint-generator",
+          "description": "Technology-agnostic blueprint generator for creating comprehensive copilot-instructions.md files that guide GitHub Copilot to produce code consistent with project standards, architecture patterns, and exact technology versions by analyzing existing codebase patterns and avoiding assumptions."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "create-agentsmd",
-          "skill_path": "skills/create-agentsmd"
+          "skill_path": "skills/create-agentsmd",
+          "description": "Prompt for generating an AGENTS.md file for a repository"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "generate-custom-instructions-from-codebase",
-          "skill_path": "skills/generate-custom-instructions-from-codebase"
+          "skill_path": "skills/generate-custom-instructions-from-codebase",
+          "description": "Migration and code evolution instructions generator for GitHub Copilot. Analyzes differences between two project versions (branches, commits, or releases) to create precise instructions allowing Copilot to maintain consistency during technology migrations, major refactoring, or framework version upgrades."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "github-copilot-starter",
-          "skill_path": "skills/github-copilot-starter"
+          "skill_path": "skills/github-copilot-starter",
+          "description": "Set up complete GitHub Copilot configuration for a new project based on technology stack"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "microsoft-skill-creator",
-          "skill_path": "skills/microsoft-skill-creator"
+          "skill_path": "skills/microsoft-skill-creator",
+          "description": "Create agent skills for Microsoft technologies using Learn MCP tools. Use when users want to create a skill that teaches agents about any Microsoft technology, library, framework, or service (Azure, .NET, M365, VS Code, Bicep, etc.). Investigates topics deeply, then generates a hybrid skill storing essential knowledge locally while enabling dynamic deeper investigation."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "suggest-awesome-github-copilot-agents",
-          "skill_path": "plugins/awesome-copilot/skills/suggest-awesome-github-copilot-agents"
+          "skill_path": "plugins/awesome-copilot/skills/suggest-awesome-github-copilot-agents",
+          "description": "Suggest relevant GitHub Copilot Custom Agents files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing custom agents in this repository, and identifying outdated agents that need updates."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "suggest-awesome-github-copilot-instructions",
-          "skill_path": "plugins/awesome-copilot/skills/suggest-awesome-github-copilot-instructions"
+          "skill_path": "plugins/awesome-copilot/skills/suggest-awesome-github-copilot-instructions",
+          "description": "Suggest relevant GitHub Copilot instruction files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing instructions in this repository, and identifying outdated instructions that need updates."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "suggest-awesome-github-copilot-skills",
-          "skill_path": "plugins/awesome-copilot/skills/suggest-awesome-github-copilot-skills"
+          "skill_path": "plugins/awesome-copilot/skills/suggest-awesome-github-copilot-skills",
+          "description": "Suggest relevant GitHub Copilot skills from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing skills in this repository, and identifying outdated skills that need updates."
         },
         {
           "owner": "jackwener",
           "repo": "opencli",
           "name": "opencli-adapter-author",
-          "skill_path": "skills/opencli-adapter-author"
+          "skill_path": "skills/opencli-adapter-author",
+          "description": "Use when writing an OpenCLI adapter for a new site or adding a new command to an existing site. Guides end-to-end from first recon through field decoding, adapter coding, and verify. Replaces opencli-oneshot / opencli-explorer. For ad-hoc browser driving (no adapter), see opencli-browser instead; for a top-level orientation to opencli, see opencli-usage."
         },
         {
           "owner": "larksuite",
           "repo": "cli",
           "name": "lark-skill-maker",
-          "skill_path": "skills/lark-skill-maker"
+          "skill_path": "skills/lark-skill-maker",
+          "description": "创建 lark-cli 的自定义 Skill。当用户需要把飞书 API 操作封装成可复用的 Skill（包装原子 API 或编排多步流程）时使用。"
         },
         {
           "owner": "mattpocock",
           "repo": "skills",
           "name": "setup-matt-pocock-skills",
-          "skill_path": "skills/engineering/setup-matt-pocock-skills"
+          "skill_path": "skills/engineering/setup-matt-pocock-skills",
+          "description": "Sets up an `## Agent skills` block in AGENTS.md/CLAUDE.md and `docs/agents/` so the engineering skills know this repo's issue tracker (GitHub or local markdown), triage label vocabulary, and domain doc layout. Run before first use of `to-issues`, `to-prd`, `triage`, `diagnose`, `tdd`, `improve-codebase-architecture`, or `zoom-out` — or if those skills appear to be missing context about the issue tracker, triage labels, or domain docs."
         },
         {
           "owner": "mattpocock",
           "repo": "skills",
           "name": "write-a-skill",
-          "skill_path": "skills/productivity/write-a-skill"
+          "skill_path": "skills/productivity/write-a-skill",
+          "description": "Create new agent skills with proper structure, progressive disclosure, and bundled resources. Use when user wants to create, write, or build a new skill."
         },
         {
           "owner": "obra",
           "repo": "superpowers",
           "name": "writing-skills",
-          "skill_path": "skills/writing-skills"
+          "skill_path": "skills/writing-skills",
+          "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment"
         },
         {
           "owner": "okx",
           "repo": "agent-skills",
           "name": "okx-cex-skill-mp",
-          "skill_path": "skills/okx-cex-skill-mp"
+          "skill_path": "skills/okx-cex-skill-mp",
+          "description": "Use this skill when the user asks to: 'find a trading skill', 'search for skills', 'install a skill', 'add a skill', 'download a skill', 'browse skill marketplace', 'what skills are available', 'update a skill', 'check for skill updates', 'remove a skill', 'uninstall a skill', 'list installed skills', 'show my skills', 'skill categories', or any request to discover, install, update, or manage AI trading skills from the OKX Skills Marketplace. This skill covers searching, browsing categories, installing via CLI, downloading zip packages, checking for updates, and removing installed skills. Requires API credentials for marketplace API access. Do NOT use for placing orders (use okx-cex-trade), market data (use okx-cex-market), or bot management (use okx-cex-bot)."
         },
         {
           "owner": "softaworks",
           "repo": "agent-toolkit",
           "name": "agent-md-refactor",
-          "skill_path": "dist/plugins/agent-md-refactor/skills/agent-md-refactor"
+          "skill_path": "dist/plugins/agent-md-refactor/skills/agent-md-refactor",
+          "description": "Refactor bloated AGENTS.md, CLAUDE.md, or similar agent instruction files to follow progressive disclosure principles. Splits monolithic files into organized, linked documentation."
         },
         {
           "owner": "softaworks",
           "repo": "agent-toolkit",
           "name": "command-creator",
-          "skill_path": "dist/plugins/command-creator/skills/command-creator"
+          "skill_path": "dist/plugins/command-creator/skills/command-creator",
+          "description": "This skill should be used when creating a Claude Code slash command. Use when users ask to \"create a command\", \"make a slash command\", \"add a command\", or want to document a workflow as a reusable command. Essential for creating optimized, agent-executable slash commands with proper structure and best practices."
         },
         {
           "owner": "softaworks",
           "repo": "agent-toolkit",
           "name": "plugin-forge",
-          "skill_path": "dist/plugins/plugin-forge/skills/plugin-forge"
+          "skill_path": "dist/plugins/plugin-forge/skills/plugin-forge",
+          "description": "Create and manage Claude Code plugins with proper structure, manifests, and marketplace integration. Use when creating plugins for a marketplace, adding plugin components (commands, agents, hooks), bumping plugin versions, or working with plugin.json/marketplace.json manifests."
         },
         {
           "owner": "softaworks",
           "repo": "agent-toolkit",
           "name": "skill-judge",
-          "skill_path": "dist/plugins/skill-judge/skills/skill-judge"
+          "skill_path": "dist/plugins/skill-judge/skills/skill-judge",
+          "description": "Evaluate Agent Skill design quality against official specifications and best practices. Use when reviewing, auditing, or improving SKILL.md files and skill packages. Provides multi-dimensional scoring and actionable improvement suggestions."
         },
         {
           "owner": "starchild-ai-agent",
           "repo": "official-skills",
           "name": "skill-creator",
-          "skill_path": "skill-creator"
+          "skill_path": "skill-creator",
+          "description": "Scaffold new skills with valid frontmatter, directory layout, and a starter SKILL.md.\n\nUse when building a new reusable workflow or wrapping a new API (e.g. create a kalshi skill, scaffold an API helper, start a charting skill).\n"
         },
         {
           "owner": "starchild-ai-agent",
           "repo": "official-skills",
           "name": "skillmarketplace",
-          "skill_path": "skillmarketplace"
+          "skill_path": "skillmarketplace",
+          "description": "Search, install, and publish skills across official, community, and global registries.\n\nUse when finding or sharing skills (e.g. install a \"funding rate\" skill, list installed skills, publish my custom skill to the registry).\n"
         },
         {
           "owner": "vercel-labs",
           "repo": "skills",
           "name": "find-skills",
-          "skill_path": "skills/find-skills"
+          "skill_path": "skills/find-skills",
+          "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill."
         },
         {
           "owner": "warpdotdev",
           "repo": "common-skills",
           "name": "update-skill",
-          "skill_path": ".agents/skills/update-skill"
+          "skill_path": ".agents/skills/update-skill",
+          "description": "Create or update skills by generating, editing, or refining SKILL.md files in this repository. Use when authoring new skills or revising the structure, frontmatter, or guidance for existing ones."
         },
         {
           "owner": "xixu-me",
           "repo": "skills",
           "name": "skills-cli",
-          "skill_path": "skills/skills-cli"
+          "skill_path": "skills/skills-cli",
+          "description": "Use when users ask to discover, install, list, check, update, remove, back up, restore, sync, or initialize Agent Skills, mention `bunx skills`, `npx skills`, `skills.sh`, or `skills-lock.json`, ask \"find a skill for X\", or want help extending agent capabilities with installable skills."
         }
       ]
     },
@@ -297,115 +344,134 @@
           "owner": "addyosmani",
           "repo": "agent-skills",
           "name": "context-engineering",
-          "skill_path": "skills/context-engineering"
+          "skill_path": "skills/context-engineering",
+          "description": "Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "ck",
-          "skill_path": "skills/ck"
+          "skill_path": "skills/ck",
+          "description": "Persistent per-project memory for Claude Code. Auto-loads project context on session start, tracks sessions with git activity, and writes to native memory. Commands run deterministic Node.js scripts — behavior is consistent across model versions."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "context-budget",
-          "skill_path": "skills/context-budget"
+          "skill_path": "skills/context-budget",
+          "description": "Audits Claude Code context window consumption across agents, skills, MCP servers, and rules. Identifies bloat, redundant components, and produces prioritized token-savings recommendations."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "strategic-compact",
-          "skill_path": ".agents/skills/strategic-compact"
+          "skill_path": ".agents/skills/strategic-compact",
+          "description": "Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "token-budget-advisor",
-          "skill_path": "skills/token-budget-advisor"
+          "skill_path": "skills/token-budget-advisor",
+          "description": "Offers the user an informed choice about how much response depth to consume before answering. Use this skill when the user explicitly wants to control response length, depth, or token budget. TRIGGER when: \"token budget\", \"token count\", \"token usage\", \"token limit\", \"response length\", \"answer depth\", \"short version\", \"brief answer\", \"detailed answer\", \"exhaustive answer\", \"respuesta corta vs larga\", \"cuántos tokens\", \"ahorrar tokens\", \"responde al 50%\", \"dame la versión corta\", \"quiero controlar cuánto usas\", or clear variants where the user is explicitly asking to control answer size or depth. DO NOT TRIGGER when: user has already specified a level in the current session (maintain it), the request is clearly a one-word answer, or \"token\" refers to auth/session/payment tokens rather than response size."
         },
         {
           "owner": "anthropics",
           "repo": "knowledge-work-plugins",
           "name": "memory-management",
-          "skill_path": "productivity/skills/memory-management"
+          "skill_path": "productivity/skills/memory-management",
+          "description": "Two-tier memory system that makes Claude a true workplace collaborator. Decodes shorthand, acronyms, nicknames, and internal language so Claude understands requests like a colleague would. CLAUDE.md for working memory, memory/ directory for the full knowledge base."
         },
         {
           "owner": "dontbesilent2025",
           "repo": "dbskill",
           "name": "dbs-restore",
-          "skill_path": "skills/dbs-restore"
+          "skill_path": "skills/dbs-restore",
+          "description": "把上次诊断的状态拉出来，接着用。配合 dbs-save 使用。\n触发方式：/dbs-restore、/续上、「接着上次」「之前的结论」「上次诊断到哪了」\nRestore the most recent diagnosis snapshot saved by dbs-save.\nTrigger: /dbs-restore, \"continue from last time\", \"where did we leave off\"\n"
         },
         {
           "owner": "dontbesilent2025",
           "repo": "dbskill",
           "name": "dbs-save",
-          "skill_path": "skills/dbs-save"
+          "skill_path": "skills/dbs-save",
+          "description": "把当前诊断的关键状态存到本地，下次回来可以接着用。\n触发方式：/dbs-save、/存档、「保存这次诊断」「记下来」「这个结论留着」\nSave the current diagnosis state to disk for cross-session recall.\nTrigger: /dbs-save, \"save this diagnosis\", \"remember this\"\n"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "context-map",
-          "skill_path": "plugins/context-engineering/skills/context-map"
+          "skill_path": "plugins/context-engineering/skills/context-map",
+          "description": "Generate a map of all files relevant to a task before making changes"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "copilot-spaces",
-          "skill_path": "skills/copilot-spaces"
+          "skill_path": "skills/copilot-spaces",
+          "description": "Use Copilot Spaces to provide project-specific context to conversations. Use this skill when users mention a \"Copilot space\", want to load context from a shared knowledge base, discover available spaces, or ask questions grounded in curated project documentation, code, and instructions."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "memory-merger",
-          "skill_path": "skills/memory-merger"
+          "skill_path": "skills/memory-merger",
+          "description": "Merges mature lessons from a domain memory file into its instruction file. Syntax: `/memory-merger >domain [scope]` where scope is `global` (default), `user`, `workspace`, or `ws`."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "remember",
-          "skill_path": "skills/remember"
+          "skill_path": "skills/remember",
+          "description": "Transforms lessons learned into domain-organized memory instructions (global or workspace). Syntax: `/remember [>domain [scope]] lesson clue` where scope is `global` (default), `user`, `workspace`, or `ws`."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "what-context-needed",
-          "skill_path": "plugins/context-engineering/skills/what-context-needed"
+          "skill_path": "plugins/context-engineering/skills/what-context-needed",
+          "description": "Ask Copilot what files it needs to see before answering a question"
         },
         {
           "owner": "juliusbrussee",
           "repo": "caveman",
           "name": "caveman-compress",
-          "skill_path": "plugins/caveman/skills/caveman-compress"
+          "skill_path": "plugins/caveman/skills/caveman-compress",
+          "description": "Compress natural language memory files (CLAUDE.md, todos, preferences) into caveman format to save input tokens. Preserves all technical substance, code, URLs, and structure. Compressed version overwrites the original file. Human-readable backup saved as FILE.original.md. Trigger: /caveman-compress FILEPATH or \"compress memory file\"\n"
         },
         {
           "owner": "mattpocock",
           "repo": "skills",
           "name": "handoff",
-          "skill_path": "skills/productivity/handoff"
+          "skill_path": "skills/productivity/handoff",
+          "description": "Compact the current conversation into a handoff document for another agent to pick up."
         },
         {
           "owner": "obra",
           "repo": "episodic-memory",
           "name": "remembering-conversations",
-          "skill_path": "skills/remembering-conversations"
+          "skill_path": "skills/remembering-conversations",
+          "description": "You MUST invoke this skill before saying \"I don't know,\" guessing, or treating any topic as new, no matter how trivial the question seems. It supplements other memory systems, which only hold partial records. Searching past conversations is the only way to recover what was actually said."
         },
         {
           "owner": "softaworks",
           "repo": "agent-toolkit",
           "name": "session-handoff",
-          "skill_path": "dist/plugins/session-handoff/skills/session-handoff"
+          "skill_path": "dist/plugins/session-handoff/skills/session-handoff",
+          "description": "Creates comprehensive handoff documents for seamless AI agent session transfers. Triggered when: (1) user requests handoff/memory/context save, (2) context window approaches capacity, (3) major task milestone completed, (4) work session ending, (5) user says 'save state', 'create handoff', 'I need to pause', 'context is getting full', (6) resuming work with 'load handoff', 'resume from', 'continue where we left off'. Proactively suggests handoffs after substantial work (multiple file edits, complex debugging, architecture decisions). Solves long-running agent context exhaustion by enabling fresh agents to continue with zero ambiguity."
         },
         {
           "owner": "sundial-org",
           "repo": "awesome-openclaw-skills",
           "name": "ontology",
-          "skill_path": "skills/ontology"
+          "skill_path": "skills/ontology",
+          "description": "Typed knowledge graph for structured agent memory and composable skills. Use when creating/querying entities (Person, Project, Task, Event, Document), linking related objects, enforcing constraints, planning multi-step actions as graph transformations, or when skills need to share state. Trigger on \"remember\", \"what do I know about\", \"link X to Y\", \"show dependencies\", entity CRUD, or cross-skill data access."
         },
         {
           "owner": "thedotmack",
           "repo": "claude-mem",
           "name": "mem-search",
-          "skill_path": "plugin/skills/mem-search"
+          "skill_path": "plugin/skills/mem-search",
+          "description": "Search claude-mem's persistent cross-session memory database. Use when user asks \"did we already solve this?\", \"how did we do X last time?\", or needs work from previous sessions."
         }
       ]
     },
@@ -417,115 +483,134 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "agent-harness-construction",
-          "skill_path": "skills/agent-harness-construction"
+          "skill_path": "skills/agent-harness-construction",
+          "description": "Design and optimize AI agent action spaces, tool definitions, and observation formatting for higher completion rates."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "autonomous-agent-harness",
-          "skill_path": "skills/autonomous-agent-harness"
+          "skill_path": "skills/autonomous-agent-harness",
+          "description": "Transform Claude Code into a fully autonomous agent system with persistent memory, scheduled operations, computer use, and task queuing. Replaces standalone agent frameworks (Hermes, AutoGPT) by leveraging Claude Code's native crons, dispatch, MCP tools, and memory. Use when the user wants continuous autonomous operation, scheduled tasks, or a self-directing agent loop."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "autonomous-loops",
-          "skill_path": "skills/autonomous-loops"
+          "skill_path": "skills/autonomous-loops",
+          "description": "Patterns and architectures for autonomous Claude Code loops — from simple sequential pipelines to RFC-driven multi-agent DAG systems."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "claude-devfleet",
-          "skill_path": "skills/claude-devfleet"
+          "skill_path": "skills/claude-devfleet",
+          "description": "Orchestrate multi-agent coding tasks via Claude DevFleet — plan projects, dispatch parallel agents in isolated worktrees, monitor progress, and read structured reports."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "continuous-agent-loop",
-          "skill_path": "skills/continuous-agent-loop"
+          "skill_path": "skills/continuous-agent-loop",
+          "description": "Patterns for continuous autonomous agent loops with quality gates, evals, and recovery controls."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "dmux-workflows",
-          "skill_path": ".agents/skills/dmux-workflows"
+          "skill_path": ".agents/skills/dmux-workflows",
+          "description": "Multi-agent orchestration using dmux (tmux pane manager for AI agents). Patterns for parallel agent workflows across Claude Code, Codex, OpenCode, and other harnesses. Use when running multiple agent sessions in parallel or coordinating multi-agent development workflows."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "ralphinho-rfc-pipeline",
-          "skill_path": "skills/ralphinho-rfc-pipeline"
+          "skill_path": "skills/ralphinho-rfc-pipeline",
+          "description": "RFC-driven multi-agent DAG execution pattern with quality gates, merge queues, and work unit orchestration."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "team-builder",
-          "skill_path": "skills/team-builder"
+          "skill_path": "skills/team-builder",
+          "description": "Interactive agent picker for composing and dispatching parallel teams"
         },
         {
           "owner": "agentix-cloud",
           "repo": "skills",
           "name": "agentix-ceo",
-          "skill_path": "skills/agentix-ceo"
+          "skill_path": "skills/agentix-ceo",
+          "description": "Manage your team — create roles, assign tasks, spawn workers, and monitor progress"
         },
         {
           "owner": "andrelandgraf",
           "repo": "fullstackrecipes",
           "name": "ralph-loop",
-          "skill_path": "skills/ralph-loop"
+          "skill_path": "skills/ralph-loop",
+          "description": "Complete setup for automated agent-driven development. Define features as user stories with testable acceptance criteria, then run AI agents in a loop until all stories pass."
         },
         {
           "owner": "juliusbrussee",
           "repo": "caveman",
           "name": "cavecrew",
-          "skill_path": ".agents/skills/cavecrew"
+          "skill_path": ".agents/skills/cavecrew",
+          "description": "Decision guide for delegating to caveman-style subagents. Tells the main thread WHEN to spawn `cavecrew-investigator` (locate code), `cavecrew-builder` (1-2 file edit), or `cavecrew-reviewer` (diff review) instead of doing the work inline or using vanilla `Explore`. Subagent output is caveman-compressed so the tool-result injected back into main context is ~60% smaller — main context lasts longer across long sessions. Trigger: \"delegate to subagent\", \"use cavecrew\", \"spawn investigator/builder/reviewer\", \"save context\", \"compressed agent output\".\n"
         },
         {
           "owner": "obra",
           "repo": "superpowers",
           "name": "dispatching-parallel-agents",
-          "skill_path": "skills/dispatching-parallel-agents"
+          "skill_path": "skills/dispatching-parallel-agents",
+          "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies"
         },
         {
           "owner": "obra",
           "repo": "superpowers",
           "name": "subagent-driven-development",
-          "skill_path": "skills/subagent-driven-development"
+          "skill_path": "skills/subagent-driven-development",
+          "description": "Use when executing implementation plans with independent tasks in the current session"
         },
         {
           "owner": "softaworks",
           "repo": "agent-toolkit",
           "name": "codex",
-          "skill_path": "dist/plugins/codex/skills/codex"
+          "skill_path": "dist/plugins/codex/skills/codex",
+          "description": "Use when the user asks to run Codex CLI (codex exec, codex resume) or references OpenAI Codex for code analysis, refactoring, or automated editing. Uses GPT-5.2 by default for state-of-the-art software engineering."
         },
         {
           "owner": "softaworks",
           "repo": "agent-toolkit",
           "name": "gemini",
-          "skill_path": "dist/plugins/gemini/skills/gemini"
+          "skill_path": "dist/plugins/gemini/skills/gemini",
+          "description": "Use when the user asks to run Gemini CLI for code review, plan review, or big context (>200k) processing. Ideal for comprehensive analysis requiring large context windows. Uses Gemini 3 Pro by default for state-of-the-art reasoning and coding."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "parallel-feature-development",
-          "skill_path": "plugins/agent-teams/skills/parallel-feature-development"
+          "skill_path": "plugins/agent-teams/skills/parallel-feature-development",
+          "description": "Coordinate parallel feature development with file ownership strategies, conflict avoidance rules, and integration patterns for multi-agent implementation. Use this skill when decomposing a large feature into independent work streams, when two or more agents need to implement different layers of the same system simultaneously, when establishing file ownership to prevent merge conflicts in a shared codebase, when designing interface contracts so parallel implementers can build against each other's APIs before they are ready, or when deciding whether to use vertical slices versus horizontal layers for a full-stack feature."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "task-coordination-strategies",
-          "skill_path": "plugins/agent-teams/skills/task-coordination-strategies"
+          "skill_path": "plugins/agent-teams/skills/task-coordination-strategies",
+          "description": "Decompose complex tasks, design dependency graphs, and coordinate multi-agent work with proper task descriptions and workload balancing. Use this skill when breaking down work for agent teams, managing task dependencies, or monitoring team progress."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "team-communication-protocols",
-          "skill_path": "plugins/agent-teams/skills/team-communication-protocols"
+          "skill_path": "plugins/agent-teams/skills/team-communication-protocols",
+          "description": "Structured messaging protocols for agent team communication including message type selection, plan approval, shutdown procedures, and anti-patterns to avoid. Use this skill when establishing communication norms for a newly spawned team, when deciding whether to send a direct message or a broadcast, when a team-lead needs to review and approve an implementer's plan before work begins, when orchestrating a graceful team shutdown after all tasks are complete, or when debugging why teammates are not coordinating correctly at integration points."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "team-composition-patterns",
-          "skill_path": "plugins/agent-teams/skills/team-composition-patterns"
+          "skill_path": "plugins/agent-teams/skills/team-composition-patterns",
+          "description": "Design optimal agent team compositions with sizing heuristics, preset configurations, and agent type selection. Use this skill when deciding how many agents to spawn for a task, when choosing between a review team versus a feature team versus a debug team, when selecting the correct subagent_type for each role to ensure agents have the tools they need, when configuring display modes (tmux, iTerm2, in-process) for a CI or local environment, or when building a custom team composition for a non-standard workflow such as a migration or security audit."
         }
       ]
     },
@@ -537,181 +622,211 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "agentic-engineering",
-          "skill_path": ".kiro/skills/agentic-engineering"
+          "skill_path": ".kiro/skills/agentic-engineering",
+          "description": "Operate as an agentic engineer using eval-first execution, decomposition, and cost-aware model routing. Use when AI agents perform most implementation work and humans enforce quality and risk controls.\n"
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "ai-first-engineering",
-          "skill_path": "skills/ai-first-engineering"
+          "skill_path": "skills/ai-first-engineering",
+          "description": "Engineering operating model for teams where AI agents generate a large share of implementation output."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "continuous-learning",
-          "skill_path": "skills/continuous-learning"
+          "skill_path": "skills/continuous-learning",
+          "description": "[DEPRECATED - use continuous-learning-v2] Legacy v1 stop-hook skill extractor. v2 is a strict superset with instinct-based, project-scoped, hook-reliable learning. Do not invoke v1; route continuous learning, session learning, and pattern extraction requests to continuous-learning-v2."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "continuous-learning-v2",
-          "skill_path": "skills/continuous-learning-v2"
+          "skill_path": "skills/continuous-learning-v2",
+          "description": "Instinct-based learning system that observes sessions via hooks, creates atomic instincts with confidence scoring, and evolves them into skills/commands/agents. v2.1 adds project-scoped instincts to prevent cross-project contamination."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "safety-guard",
-          "skill_path": "skills/safety-guard"
+          "skill_path": "skills/safety-guard",
+          "description": "Use this skill to prevent destructive operations when working on production systems or running agents autonomously."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "santa-method",
-          "skill_path": "skills/santa-method"
+          "skill_path": "skills/santa-method",
+          "description": "Multi-agent adversarial verification with convergence loop. Two independent review agents must both pass before output ships."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "verification-loop",
-          "skill_path": ".agents/skills/verification-loop"
+          "skill_path": ".agents/skills/verification-loop",
+          "description": "A comprehensive verification system for Claude Code sessions."
         },
         {
           "owner": "autogame-17",
           "repo": "capability-evolver",
           "name": "capability-evolver",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "A self-evolution engine for AI agents. Analyzes runtime history to identify improvements and applies protocol-constrained evolution. Communicates with EvoMap Hub via local Proxy mailbox."
         },
         {
           "owner": "charon-fan",
           "repo": "agent-playbook",
           "name": "self-improving-agent",
-          "skill_path": "skills/self-improving-agent"
+          "skill_path": "skills/self-improving-agent",
+          "description": "A universal self-improving agent that learns from ALL skill experiences. Uses multi-memory architecture (semantic + episodic + working) to continuously evolve the codebase. Auto-triggers on skill completion/error with hooks-based self-correction."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "remember-interactive-programming",
-          "skill_path": "plugins/clojure-interactive-programming/skills/remember-interactive-programming"
+          "skill_path": "plugins/clojure-interactive-programming/skills/remember-interactive-programming",
+          "description": "A micro-prompt that reminds the agent that it is an interactive programmer. Works great in Clojure when Copilot has access to the REPL (probably via Backseat Driver). Will work with any system that has a live REPL that the agent can use. Adapt the prompt with any specific reminders in your workflow and/or workspace."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "structured-autonomy-generate",
-          "skill_path": "plugins/structured-autonomy/skills/structured-autonomy-generate"
+          "skill_path": "plugins/structured-autonomy/skills/structured-autonomy-generate",
+          "description": "Structured Autonomy Implementation Generator Prompt"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "structured-autonomy-implement",
-          "skill_path": "plugins/structured-autonomy/skills/structured-autonomy-implement"
+          "skill_path": "plugins/structured-autonomy/skills/structured-autonomy-implement",
+          "description": "Structured Autonomy Implementation Prompt"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "structured-autonomy-plan",
-          "skill_path": "plugins/structured-autonomy/skills/structured-autonomy-plan"
+          "skill_path": "plugins/structured-autonomy/skills/structured-autonomy-plan",
+          "description": "Structured Autonomy Planning Prompt"
         },
         {
           "owner": "halthelobster",
           "repo": "proactive-agent",
           "name": "proactive-agent",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "Transform AI agents from task-followers into proactive partners that anticipate needs and continuously improve. Now with WAL Protocol, Working Buffer for context survival, Compaction Recovery, and battle-tested security patterns. Part of the Hal Stack 🦞"
         },
         {
           "owner": "juliusbrussee",
           "repo": "caveman",
           "name": "caveman",
-          "skill_path": "plugins/caveman/skills/caveman"
+          "skill_path": "plugins/caveman/skills/caveman",
+          "description": "Ultra-compressed communication mode. Cuts token usage ~75% by speaking like caveman while keeping full technical accuracy. Supports intensity levels: lite, full (default), ultra, wenyan-lite, wenyan-full, wenyan-ultra. Use when user says \"caveman mode\", \"talk like caveman\", \"use caveman\", \"less tokens\", \"be brief\", or invokes /caveman. Also auto-triggers when token efficiency is requested.\n"
         },
         {
           "owner": "juliusbrussee",
           "repo": "caveman",
           "name": "caveman-help",
-          "skill_path": "skills/caveman-help"
+          "skill_path": "skills/caveman-help",
+          "description": "Quick-reference card for all caveman modes, skills, and commands. One-shot display, not a persistent mode. Trigger: /caveman-help, \"caveman help\", \"what caveman commands\", \"how do I use caveman\".\n"
         },
         {
           "owner": "juliusbrussee",
           "repo": "caveman",
           "name": "caveman-stats",
-          "skill_path": "plugins/caveman/skills/caveman-stats"
+          "skill_path": "plugins/caveman/skills/caveman-stats",
+          "description": "Show real token usage and estimated savings for the current session. Reads directly from the Claude Code session log — no AI estimation. Triggers on /caveman-stats. Output is injected by the mode-tracker hook; the model itself does not compute the numbers.\n"
         },
         {
           "owner": "leonxlnx",
           "repo": "taste-skill",
           "name": "full-output-enforcement",
-          "skill_path": "skills/output-skill"
+          "skill_path": "skills/output-skill",
+          "description": "Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged output."
         },
         {
           "owner": "mattpocock",
           "repo": "skills",
           "name": "caveman",
-          "skill_path": "skills/productivity/caveman"
+          "skill_path": "skills/productivity/caveman",
+          "description": "Ultra-compressed communication mode. Cuts token usage ~75% by dropping filler, articles, and pleasantries while keeping full technical accuracy. Use when user says \"caveman mode\", \"talk like caveman\", \"use caveman\", \"less tokens\", \"be brief\", or invokes /caveman.\n"
         },
         {
           "owner": "mattpocock",
           "repo": "skills",
           "name": "zoom-out",
-          "skill_path": "skills/engineering/zoom-out"
+          "skill_path": "skills/engineering/zoom-out",
+          "description": "Tell the agent to zoom out and give broader context or a higher-level perspective. Use when you're unfamiliar with a section of code or need to understand how it fits into the bigger picture."
         },
         {
           "owner": "obra",
           "repo": "superpowers",
           "name": "executing-plans",
-          "skill_path": "skills/executing-plans"
+          "skill_path": "skills/executing-plans",
+          "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints"
         },
         {
           "owner": "obra",
           "repo": "superpowers",
           "name": "using-superpowers",
-          "skill_path": "skills/using-superpowers"
+          "skill_path": "skills/using-superpowers",
+          "description": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions"
         },
         {
           "owner": "obra",
           "repo": "superpowers",
           "name": "verification-before-completion",
-          "skill_path": "skills/verification-before-completion"
+          "skill_path": "skills/verification-before-completion",
+          "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always"
         },
         {
           "owner": "pskoett",
           "repo": "self-improving-agent",
           "name": "self-improvement",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User corrects Claude ('No, that's wrong...', 'Actually...'), (3) User requests a capability that doesn't exist, (4) An external API or tool fails, (5) Claude realizes its knowledge is outdated or incorrect, (6) A better approach is discovered for a recurring task. Also review learnings before major tasks."
         },
         {
           "owner": "starchild-ai-agent",
           "repo": "official-skills",
           "name": "project-builder",
-          "skill_path": "project-builder"
+          "skill_path": "project-builder",
+          "description": "End-to-end project engineering: design, incremental build, verify, debug systematically.\n\nUse when building software, dashboards, scheduled jobs, or web apps the user has asked for (e.g. build a price monitor, daily summary task, ship an API).\n"
         },
         {
           "owner": "tanweai",
           "repo": "pua",
           "name": "pua",
-          "skill_path": ".trae/skills/pua"
+          "skill_path": ".trae/skills/pua",
+          "description": "Trae-compatible PUA high-agency governance skill. Use only for explicit PUA requests, repeated failures, user frustration, giving-up/passive behavior, or unverified completion. Do not trigger for normal first-attempt tasks."
         },
         {
           "owner": "tw93",
           "repo": "waza",
           "name": "health",
-          "skill_path": "skills/health"
+          "skill_path": "skills/health",
+          "description": "Runs a budget-aware agent-assisted engineering health audit for instruction/config drift, hooks/MCP, verifier surfaces, and AI maintainability. Use when users ask 检查claude/检查codex/检查pi/配置检查/健康度 or report agents ignoring instructions, missing validation, or code becoming hard to maintain. Not for debugging code or reviewing PRs."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "track-management",
-          "skill_path": "plugins/conductor/skills/track-management"
+          "skill_path": "plugins/conductor/skills/track-management",
+          "description": "Use this skill when creating, managing, or working with Conductor tracks - the logical work units for features, bugs, and refactors. Applies to spec.md, plan.md, and track lifecycle operations."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "workflow-patterns",
-          "skill_path": "plugins/conductor/skills/workflow-patterns"
+          "skill_path": "plugins/conductor/skills/workflow-patterns",
+          "description": "Use this skill when implementing tasks according to Conductor's TDD workflow, handling phase checkpoints, managing git commits for tasks, or understanding the verification protocol."
         },
         {
           "owner": "xixu-me",
           "repo": "skills",
           "name": "running-claude-code-via-litellm-copilot",
-          "skill_path": "skills/running-claude-code-via-litellm-copilot"
+          "skill_path": "skills/running-claude-code-via-litellm-copilot",
+          "description": "Use when routing Claude Code through a local LiteLLM proxy to GitHub Copilot, reducing direct Anthropic spend, configuring ANTHROPIC_BASE_URL or ANTHROPIC_MODEL overrides, or troubleshooting Copilot proxy setup failures such as model-not-found, no localhost traffic, or GitHub 401/403 auth errors."
         }
       ]
     },
@@ -723,49 +838,57 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "enterprise-agent-ops",
-          "skill_path": "skills/enterprise-agent-ops"
+          "skill_path": "skills/enterprise-agent-ops",
+          "description": "Operate long-lived agent workloads with observability, security boundaries, and lifecycle management."
         },
         {
           "owner": "agentspace-so",
           "repo": "skills",
           "name": "agentspace",
-          "skill_path": "agentspace"
+          "skill_path": "agentspace",
+          "description": "See what your AI agent is doing, from anywhere. The agent keeps writing — logs, code, generated outputs, screenshots, artifacts. One command turns the folder into a live URL you (or a teammate) open in any browser to watch files evolve, edit in place, or comment — no sync, no zip, no account. Workspaces stay live 24 hours anonymously; one email claim keeps them permanent. Hosted on Cloudflare. Triggers on \"show me what the agent is doing\", \"open the agent's folder\", \"share this folder\", \"give me a link\", \"hand off this workspace\", or any ask to make an agent's local file state visible from another device or to another person.\n"
         },
         {
           "owner": "aradotso",
           "repo": "trending-skills",
           "name": "openclaw-control-center",
-          "skill_path": "skills/openclaw-control-center"
+          "skill_path": "skills/openclaw-control-center",
+          "description": "Local-first, security-first control center for OpenClaw agents — visibility dashboard with readonly defaults, token attribution, collaboration tracing, and safe write operations."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "copilot-usage-metrics",
-          "skill_path": "skills/copilot-usage-metrics"
+          "skill_path": "skills/copilot-usage-metrics",
+          "description": "Retrieve and display GitHub Copilot usage metrics for organizations and enterprises using the GitHub CLI and REST API."
         },
         {
           "owner": "jane-o-o-o-o",
           "repo": "agent-pulse-skills",
           "name": "agent-pulse",
-          "skill_path": "agent-pulse"
+          "skill_path": "agent-pulse",
+          "description": "Use Agent Pulse to inspect local AI-agent activity across Hermes, Claude Code, Codex, DeepSeek, OpenClaw, Copilot, Aider, Qwen, OpenCode, Goose, Cursor, Antigravity, and Amp logs. Use when the user asks about AI-agent sessions, tokens, tool/search calls, model usage, estimated cost, budgets, forecasts, health checks, reports, setup diagnosis, web/API/metrics exports, or MCP integration."
         },
         {
           "owner": "op7418",
           "repo": "claude-to-im-skill",
           "name": "claude-to-im",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "Bridge THIS Claude Code or Codex session to Telegram, Discord, Feishu/Lark, QQ, or WeChat so the\nuser can chat with Claude from their phone. Use for: setting up, starting, stopping,\nor diagnosing the claude-to-im bridge daemon; forwarding Claude replies to a messaging\napp; any phrase like \"claude-to-im\", \"bridge\", \"消息推送\", \"消息转发\", \"桥接\",\n\"连上飞书\", \"手机上看claude\", \"启动后台服务\", \"诊断\", \"查看日志\", \"配置\".\nSubcommands: setup, start, stop, status, logs, reconfigure, doctor.\nDo NOT use for: building standalone bots, webhook integrations, or coding with IM\nplatform SDKs — those are regular programming tasks.\n"
         },
         {
           "owner": "replicas-group",
           "repo": "skill",
           "name": "replicas-agent",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "Guide for background coding agents running inside Replicas cloud workspaces"
         },
         {
           "owner": "rivet-dev",
           "repo": "skills",
           "name": "sandbox-agent",
-          "skill_path": "skills/sandbox-agent"
+          "skill_path": "skills/sandbox-agent",
+          "description": "Deploy, configure, and integrate Sandbox Agent - a universal API for orchestrating AI coding agents (Claude Code, Codex, OpenCode, Amp) in sandboxed environments. Use when setting up sandbox-agent server locally or in cloud sandboxes (E2B, Daytona, Docker), creating and managing agent sessions via SDK or API, streaming agent events and handling human-in-the-loop interactions, building chat UIs for coding agents, or understanding the universal schema for agent responses."
         }
       ]
     },
@@ -777,25 +900,29 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "nanoclaw-repl",
-          "skill_path": "skills/nanoclaw-repl"
+          "skill_path": "skills/nanoclaw-repl",
+          "description": "Operate and extend NanoClaw v2, ECC's zero-dependency session-aware REPL built on claude -p."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "copilot-cli-quickstart",
-          "skill_path": "skills/copilot-cli-quickstart"
+          "skill_path": "skills/copilot-cli-quickstart",
+          "description": "Use this skill when someone wants to learn GitHub Copilot CLI from scratch. Offers interactive step-by-step tutorials with separate Developer and Non-Developer tracks, plus on-demand Q&A. Just say \"start tutorial\" or ask a question! Note: This skill targets GitHub Copilot CLI specifically and uses CLI-specific tools (ask_user, sql, fetch_copilot_cli_documentation).\n"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "noob-mode",
-          "skill_path": "plugins/noob-mode/skills/noob-mode"
+          "skill_path": "plugins/noob-mode/skills/noob-mode",
+          "description": "Plain-English translation layer for non-technical Copilot CLI users. Translates every approval prompt, error message, and technical output into clear, jargon-free English with color-coded risk indicators."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "quasi-coder",
-          "skill_path": "plugins/cms-development/skills/quasi-coder"
+          "skill_path": "plugins/cms-development/skills/quasi-coder",
+          "description": "Expert 10x engineer skill for interpreting and implementing code from shorthand, quasi-code, and natural language descriptions. Use when collaborators provide incomplete code snippets, pseudo-code, or descriptions with potential typos or incorrect terminology. Excels at translating non-technical or semi-technical descriptions into production-quality code."
         }
       ]
     }

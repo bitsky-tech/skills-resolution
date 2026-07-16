@@ -9,187 +9,218 @@
           "owner": "alpic-ai",
           "repo": "skybridge",
           "name": "chatgpt-app-builder",
-          "skill_path": "skills/chatgpt-app-builder"
+          "skill_path": "skills/chatgpt-app-builder",
+          "description": "Guide developers through creating and updating ChatGPT apps.\nCovers the full lifecycle: brainstorming ideas against UX guidelines, bootstrapping projects, implementing tools/views, debugging, running dev servers, deploying and connecting apps to ChatGPT.\nUse when a user wants to create or update a ChatGPT app / MCP server for ChatGPT, or use the Skybridge framework.\n"
         },
         {
           "owner": "cloudflare",
           "repo": "skills",
           "name": "agents-sdk",
-          "skill_path": "skills/agents-sdk"
+          "skill_path": "skills/agents-sdk",
+          "description": "Build AI agents on Cloudflare Workers using the Agents SDK. Load when creating stateful agents, durable workflows, real-time WebSocket apps, scheduled tasks, MCP servers, chat applications, voice agents, or browser automation. Covers Agent class, state management, callable RPC, Workflows, durable execution, queues, retries, observability, and React hooks. Biases towards retrieval from Cloudflare docs over pre-trained knowledge."
         },
         {
           "owner": "composiohq",
           "repo": "skills",
           "name": "composio",
-          "skill_path": "skills/composio"
+          "skill_path": "skills/composio",
+          "description": "Use 1000+ external apps via Composio - either directly through the CLI or by building AI agents and apps with the SDK"
         },
         {
           "owner": "genkit-ai",
           "repo": "skills",
           "name": "developing-genkit-js",
-          "skill_path": "skills/developing-genkit-js"
+          "skill_path": "skills/developing-genkit-js",
+          "description": "Develop AI-powered applications using Genkit in Node.js/TypeScript. Use when the user asks about Genkit, AI agents, flows, or tools in JavaScript/TypeScript, or when encountering Genkit errors, validation issues, type errors, or API problems."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "copilot-sdk",
-          "skill_path": "plugins/copilot-sdk/skills/copilot-sdk"
+          "skill_path": "plugins/copilot-sdk/skills/copilot-sdk",
+          "description": "Build agentic applications with GitHub Copilot SDK. Use when embedding AI agents in apps, creating custom tools, implementing streaming responses, managing sessions, connecting to MCP servers, or creating custom agents. Triggers on Copilot SDK, GitHub SDK, agentic app, embed Copilot, programmable agent, MCP server, custom agent."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "declarative-agents",
-          "skill_path": "skills/declarative-agents"
+          "skill_path": "skills/declarative-agents",
+          "description": "Complete development kit for Microsoft 365 Copilot declarative agents with three comprehensive workflows (basic, advanced, validation), TypeSpec support, and Microsoft 365 Agents Toolkit integration"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "mcp-create-declarative-agent",
-          "skill_path": "plugins/mcp-m365-copilot/skills/mcp-create-declarative-agent"
+          "skill_path": "plugins/mcp-m365-copilot/skills/mcp-create-declarative-agent",
+          "description": "Skill converted from mcp-create-declarative-agent.prompt.md"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "mcp-deploy-manage-agents",
-          "skill_path": "plugins/mcp-m365-copilot/skills/mcp-deploy-manage-agents"
+          "skill_path": "plugins/mcp-m365-copilot/skills/mcp-deploy-manage-agents",
+          "description": "Skill converted from mcp-deploy-manage-agents.prompt.md"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "typespec-create-agent",
-          "skill_path": "plugins/typespec-m365-copilot/skills/typespec-create-agent"
+          "skill_path": "plugins/typespec-m365-copilot/skills/typespec-create-agent",
+          "description": "Generate a complete TypeSpec declarative agent with instructions, capabilities, and conversation starters for Microsoft 365 Copilot"
         },
         {
           "owner": "google",
           "repo": "agents-cli",
           "name": "google-agents-cli-adk-code",
-          "skill_path": "skills/google-agents-cli-adk-code"
+          "skill_path": "skills/google-agents-cli-adk-code",
+          "description": "This skill should be used when the user wants to \"write agent code\", \"build an agent with ADK\", \"add a tool\", \"create a callback\", \"define an agent\", \"use state management\", or needs ADK (Agent Development Kit) Python API patterns and code examples. Part of the Google ADK skills suite. It provides a quick reference for agent types, tool definitions, orchestration patterns, callbacks, and state management. Do NOT use for creating new projects (use google-agents-cli-scaffold) or deployment (use google-agents-cli-deploy).\n"
         },
         {
           "owner": "google",
           "repo": "agents-cli",
           "name": "google-agents-cli-deploy",
-          "skill_path": "skills/google-agents-cli-deploy"
+          "skill_path": "skills/google-agents-cli-deploy",
+          "description": "This skill should be used when the user wants to \"deploy an agent\", \"deploy my ADK agent\", \"set up CI/CD\", \"configure secrets\", \"troubleshoot a deployment\", or needs guidance on Agent Runtime, Cloud Run, or GKE deployment targets. Covers deployment workflows, service accounts, rollback, and production infrastructure. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for API code patterns (use google-agents-cli-adk-code), evaluation (use google-agents-cli-eval), or project scaffolding (use google-agents-cli-scaffold).\n"
         },
         {
           "owner": "google",
           "repo": "agents-cli",
           "name": "google-agents-cli-observability",
-          "skill_path": "skills/google-agents-cli-observability"
+          "skill_path": "skills/google-agents-cli-observability",
+          "description": "This skill should be used when the user wants to \"set up tracing\", \"monitor my ADK agent\", \"configure logging\", \"add observability\", \"debug production traffic\", or needs guidance on monitoring deployed ADK (Agent Development Kit) agents. Covers Cloud Trace, prompt-response logging, BigQuery Agent Analytics, third-party integrations (AgentOps, Phoenix, MLflow, etc.), and troubleshooting. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for deployment setup (use google-agents-cli-deploy) or API code patterns (use google-agents-cli-adk-code).\n"
         },
         {
           "owner": "google",
           "repo": "agents-cli",
           "name": "google-agents-cli-publish",
-          "skill_path": "skills/google-agents-cli-publish"
+          "skill_path": "skills/google-agents-cli-publish",
+          "description": "This skill should be used when the user wants to \"publish an agent\", \"publish my ADK agent\", \"register an agent with Gemini Enterprise\", \"publish to Gemini Enterprise\", or needs guidance on the agents-cli publish gemini-enterprise command. Covers ADK vs A2A registration modes, programmatic and interactive usage, flag reference, auto-detection from deployment metadata, and troubleshooting. Part of the Google ADK (Agent Development Kit) skills suite. Do NOT use for deployment (use google-agents-cli-deploy).\n"
         },
         {
           "owner": "google",
           "repo": "agents-cli",
           "name": "google-agents-cli-scaffold",
-          "skill_path": "skills/google-agents-cli-scaffold"
+          "skill_path": "skills/google-agents-cli-scaffold",
+          "description": "This skill should be used when the user wants to \"create an agent project\", \"start a new ADK project\", \"build me a new agent\", \"add CI/CD to my project\", \"add deployment\", \"enhance my project\", or \"upgrade my project\". Part of the Google ADK (Agent Development Kit) skills suite. Covers `agents-cli scaffold create`, `scaffold enhance`, and `scaffold upgrade` commands, template options, deployment targets, and the prototype-first workflow. Do NOT use for writing agent code (use google-agents-cli-adk-code) or deployment operations (use google-agents-cli-deploy).\n"
         },
         {
           "owner": "google",
           "repo": "agents-cli",
           "name": "google-agents-cli-workflow",
-          "skill_path": "skills/google-agents-cli-workflow"
+          "skill_path": "skills/google-agents-cli-workflow",
+          "description": "This skill should be used when the user wants to \"develop an agent\", \"build an agent using ADK\", \"run the agent locally\", \"debug agent code\", \"test an agent\", \"deploy an agent\", \"publish an agent\", \"monitor an agent\", or needs the ADK (Agent Development Kit) development lifecycle and coding guidelines. Entrypoint for building ADK agents. Always active — provides the full workflow (scaffold, build, evaluate, deploy, publish, observe), code preservation rules, model selection guidance, and troubleshooting steps for ADK or any agent development.\n"
         },
         {
           "owner": "langchain-ai",
           "repo": "deepagents",
           "name": "langgraph-docs",
-          "skill_path": "libs/cli/examples/skills/langgraph-docs"
+          "skill_path": "libs/cli/examples/skills/langgraph-docs",
+          "description": "Fetches and references LangGraph Python documentation to build stateful agents, create multi-agent workflows, and implement human-in-the-loop patterns. Use when the user asks about LangGraph, graph agents, state machines, agent orchestration, LangGraph API, or needs LangGraph implementation guidance."
         },
         {
           "owner": "langchain-ai",
           "repo": "langchain-skills",
           "name": "deep-agents-core",
-          "skill_path": "config/skills/deep-agents-core"
+          "skill_path": "config/skills/deep-agents-core",
+          "description": "INVOKE THIS SKILL when building ANY Deep Agents application. Covers create_deep_agent(), harness architecture, SKILL.md format, and configuration options."
         },
         {
           "owner": "langchain-ai",
           "repo": "langchain-skills",
           "name": "deep-agents-memory",
-          "skill_path": "config/skills/deep-agents-memory"
+          "skill_path": "config/skills/deep-agents-memory",
+          "description": "INVOKE THIS SKILL when your Deep Agent needs memory, persistence, or filesystem access. Covers StateBackend (ephemeral), StoreBackend (persistent), FilesystemMiddleware, and CompositeBackend for routing."
         },
         {
           "owner": "langchain-ai",
           "repo": "langchain-skills",
           "name": "deep-agents-orchestration",
-          "skill_path": "config/skills/deep-agents-orchestration"
+          "skill_path": "config/skills/deep-agents-orchestration",
+          "description": "INVOKE THIS SKILL when using subagents, task planning, or human approval in Deep Agents. Covers SubAgentMiddleware, TodoList for planning, and HITL interrupts."
         },
         {
           "owner": "langchain-ai",
           "repo": "langchain-skills",
           "name": "framework-selection",
-          "skill_path": "config/skills/framework-selection"
+          "skill_path": "config/skills/framework-selection",
+          "description": "INVOKE THIS SKILL at the START of any LangChain/LangGraph/Deep Agents project, before writing any agent code. Determines which framework layer is right for the task: LangChain, LangGraph, Deep Agents, or a combination. Must be consulted before other agent skills."
         },
         {
           "owner": "langchain-ai",
           "repo": "langchain-skills",
           "name": "langchain-dependencies",
-          "skill_path": "config/skills/langchain-dependencies"
+          "skill_path": "config/skills/langchain-dependencies",
+          "description": "INVOKE THIS SKILL when setting up a new project or when asked about package versions, installation, or dependency management for LangChain, LangGraph, LangSmith, or Deep Agents. Covers required packages, minimum versions, environment requirements, versioning best practices, and common community tool packages for both Python and TypeScript."
         },
         {
           "owner": "langchain-ai",
           "repo": "langchain-skills",
           "name": "langchain-fundamentals",
-          "skill_path": "config/skills/langchain-fundamentals"
+          "skill_path": "config/skills/langchain-fundamentals",
+          "description": "Create LangChain agents with create_agent, define tools, and use middleware for human-in-the-loop and error handling."
         },
         {
           "owner": "langchain-ai",
           "repo": "langchain-skills",
           "name": "langchain-middleware",
-          "skill_path": "config/skills/langchain-middleware"
+          "skill_path": "config/skills/langchain-middleware",
+          "description": "INVOKE THIS SKILL when you need human-in-the-loop approval, custom middleware, or structured output. Covers HumanInTheLoopMiddleware for human approval of dangerous tool calls, creating custom middleware with hooks, Command resume patterns, and structured output with Pydantic/Zod."
         },
         {
           "owner": "langchain-ai",
           "repo": "langchain-skills",
           "name": "langgraph-fundamentals",
-          "skill_path": "config/skills/langgraph-fundamentals"
+          "skill_path": "config/skills/langgraph-fundamentals",
+          "description": "INVOKE THIS SKILL when writing ANY LangGraph code. Covers StateGraph, state schemas, nodes, edges, Command, Send, invoke, streaming, and error handling."
         },
         {
           "owner": "langchain-ai",
           "repo": "langchain-skills",
           "name": "langgraph-human-in-the-loop",
-          "skill_path": "config/skills/langgraph-human-in-the-loop"
+          "skill_path": "config/skills/langgraph-human-in-the-loop",
+          "description": "INVOKE THIS SKILL when implementing human-in-the-loop patterns, pausing for approval, or handling errors in LangGraph. Covers interrupt(), Command(resume=...), approval/validation workflows, and the 4-tier error handling strategy."
         },
         {
           "owner": "langchain-ai",
           "repo": "langchain-skills",
           "name": "langgraph-persistence",
-          "skill_path": "config/skills/langgraph-persistence"
+          "skill_path": "config/skills/langgraph-persistence",
+          "description": "INVOKE THIS SKILL when your LangGraph needs to persist state, remember conversations, travel through history, or configure subgraph checkpointer scoping. Covers checkpointers, thread_id, time travel, Store, and subgraph persistence modes."
         },
         {
           "owner": "mastra-ai",
           "repo": "skills",
           "name": "mastra",
-          "skill_path": "skills/mastra"
+          "skill_path": "skills/mastra",
+          "description": "Comprehensive Mastra framework guide for building agents, workflows, tools, memory, workspaces, and storage with current APIs. Use for documentation lookup, API verification, TypeScript setup, common errors, migrations, and `mastra api` CLI tasks: inspect or call resources on local, Mastra platform, or remote servers."
         },
         {
           "owner": "microsoft",
           "repo": "azure-skills",
           "name": "microsoft-foundry",
-          "skill_path": ".github/plugins/azure-skills/skills/microsoft-foundry"
+          "skill_path": ".github/plugins/azure-skills/skills/microsoft-foundry",
+          "description": "Deploy, evaluate, fine-tune, and manage Foundry agents end-to-end: Docker build, ACR push, hosted/prompt agent create, container start, batch eval, continuous eval, prompt optimizer, Agent Optimizer scaffold, agent.yaml, dataset curation from traces, model fine-tuning (SFT/DPO/RFT). USE FOR: deploy agent, hosted agent, create agent, add tool to agent, invoke agent, evaluate agent, continuous eval, continuous monitoring, optimize prompt, improve prompt, optimize agent instructions, deploy model, Foundry project, RBAC, role assignment, permissions, quota, capacity, region, troubleshoot agent, deployment failure, AI Services, create Foundry resource, provision, knowledge index, agent monitoring, customize deployment, onboard, availability, fine-tune, SFT, DPO, RFT, training-data, grader, distillation, fine-tuned model, large file upload. DO NOT USE FOR: Azure Functions, App Service, general Azure deploy (use azure-deploy), general Azure prep (use azure-prepare)."
         },
         {
           "owner": "napoleond",
           "repo": "clawdirect",
           "name": "clawdirect-dev",
-          "skill_path": "skills/clawdirect-dev"
+          "skill_path": "skills/clawdirect-dev",
+          "description": "Build agent-facing web experiences with ATXP-based authentication, following the ClawDirect pattern. Use this skill when building websites that AI agents interact with via MCP tools, implementing cookie-based agent auth, or creating agent skills for web apps. Provides templates using @longrun/turtle, Express, SQLite, and ATXP."
         },
         {
           "owner": "vercel",
           "repo": "ai",
           "name": "ai-sdk",
-          "skill_path": "skills/use-ai-sdk"
+          "skill_path": "skills/use-ai-sdk",
+          "description": "Answer questions about the AI SDK and help build AI-powered features. Use when developers: (1) Ask about AI SDK functions like generateText, streamText, ToolLoopAgent, embed, or tools, (2) Want to build AI agents, chatbots, RAG systems, or text generation features, (3) Have questions about AI providers (OpenAI, Anthropic, Google, etc.), streaming, tool calling, structured output, or embeddings, (4) Use React hooks like useChat or useCompletion. Triggers on: \"AI SDK\", \"Vercel AI SDK\", \"generateText\", \"streamText\", \"add AI to my app\", \"build an agent\", \"tool calling\", \"structured output\", \"useChat\"."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "langchain-architecture",
-          "skill_path": "plugins/llm-application-dev/skills/langchain-architecture"
+          "skill_path": "plugins/llm-application-dev/skills/langchain-architecture",
+          "description": "Design LLM applications using LangChain 1.x and LangGraph for agents, memory, and tool integration. Use when building LangChain applications, implementing AI agents, or creating complex LLM workflows."
         }
       ]
     },
@@ -201,115 +232,134 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "mcp-server-patterns",
-          "skill_path": ".agents/skills/mcp-server-patterns"
+          "skill_path": ".agents/skills/mcp-server-patterns",
+          "description": "Build MCP servers with Node/TypeScript SDK — tools, resources, prompts, Zod validation, stdio vs Streamable HTTP. Use Context7 or official MCP docs for latest API."
         },
         {
           "owner": "anthropics",
           "repo": "skills",
           "name": "mcp-builder",
-          "skill_path": "skills/mcp-builder"
+          "skill_path": "skills/mcp-builder",
+          "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK)."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "flowstudio-power-automate-mcp",
-          "skill_path": "plugins/flowstudio-power-automate/skills/flowstudio-power-automate-mcp"
+          "skill_path": "plugins/flowstudio-power-automate/skills/flowstudio-power-automate-mcp",
+          "description": "Foundation skill for Power Automate via FlowStudio MCP — auth setup, the reusable MCP helper (Python + Node.js), tool discovery via `list_skills` / `tool_search`, and oversized-response handling. Load this skill first when connecting an agent to Power Automate. For specialized workflows, load `flowstudio-power-automate-build`, `flowstudio-power-automate-debug`, `flowstudio-power-automate-monitoring` (Pro+), or `flowstudio-power-automate-governance` (Pro+) — each contains the workflow narrative, this skill provides the plumbing they all rely on. Requires a FlowStudio MCP subscription or compatible server — see https://mcp.flowstudio.app"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "go-mcp-server-generator",
-          "skill_path": "plugins/go-mcp-development/skills/go-mcp-server-generator"
+          "skill_path": "plugins/go-mcp-development/skills/go-mcp-server-generator",
+          "description": "Generate a complete Go MCP server project with proper structure, dependencies, and implementation using the official github.com/modelcontextprotocol/go-sdk."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "java-mcp-server-generator",
-          "skill_path": "plugins/java-mcp-development/skills/java-mcp-server-generator"
+          "skill_path": "plugins/java-mcp-development/skills/java-mcp-server-generator",
+          "description": "Generate a complete Model Context Protocol server project in Java using the official MCP Java SDK with reactive streams and optional Spring Boot integration."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "kotlin-mcp-server-generator",
-          "skill_path": "plugins/kotlin-mcp-development/skills/kotlin-mcp-server-generator"
+          "skill_path": "plugins/kotlin-mcp-development/skills/kotlin-mcp-server-generator",
+          "description": "Generate a complete Kotlin MCP server project with proper structure, dependencies, and implementation using the official io.modelcontextprotocol:kotlin-sdk library."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "mcp-cli",
-          "skill_path": "skills/mcp-cli"
+          "skill_path": "skills/mcp-cli",
+          "description": "Interface for MCP (Model Context Protocol) servers via CLI. Use when you need to interact with external tools, APIs, or data sources through MCP servers, list available MCP servers/tools, or call MCP tools from command line."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "mcp-copilot-studio-server-generator",
-          "skill_path": "plugins/power-platform-mcp-connector-development/skills/mcp-copilot-studio-server-generator"
+          "skill_path": "plugins/power-platform-mcp-connector-development/skills/mcp-copilot-studio-server-generator",
+          "description": "Generate a complete MCP server implementation optimized for Copilot Studio integration with proper schema constraints and streamable HTTP support"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "mcp-create-adaptive-cards",
-          "skill_path": "plugins/mcp-m365-copilot/skills/mcp-create-adaptive-cards"
+          "skill_path": "plugins/mcp-m365-copilot/skills/mcp-create-adaptive-cards",
+          "description": "Skill converted from mcp-create-adaptive-cards.prompt.md"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "php-mcp-server-generator",
-          "skill_path": "plugins/php-mcp-development/skills/php-mcp-server-generator"
+          "skill_path": "plugins/php-mcp-development/skills/php-mcp-server-generator",
+          "description": "Generate a complete PHP Model Context Protocol server project with tools, resources, prompts, and tests using the official PHP SDK"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "power-platform-mcp-connector-suite",
-          "skill_path": "plugins/power-platform-mcp-connector-development/skills/power-platform-mcp-connector-suite"
+          "skill_path": "plugins/power-platform-mcp-connector-development/skills/power-platform-mcp-connector-suite",
+          "description": "Generate complete Power Platform custom connector with MCP integration for Copilot Studio - includes schema generation, troubleshooting, and validation"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "python-mcp-server-generator",
-          "skill_path": "plugins/python-mcp-development/skills/python-mcp-server-generator"
+          "skill_path": "plugins/python-mcp-development/skills/python-mcp-server-generator",
+          "description": "Generate a complete MCP server project in Python with tools, resources, and proper configuration"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "ruby-mcp-server-generator",
-          "skill_path": "plugins/ruby-mcp-development/skills/ruby-mcp-server-generator"
+          "skill_path": "plugins/ruby-mcp-development/skills/ruby-mcp-server-generator",
+          "description": "Generate a complete Model Context Protocol server project in Ruby using the official MCP Ruby SDK gem."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "rust-mcp-server-generator",
-          "skill_path": "plugins/rust-mcp-development/skills/rust-mcp-server-generator"
+          "skill_path": "plugins/rust-mcp-development/skills/rust-mcp-server-generator",
+          "description": "Generate a complete Rust Model Context Protocol server project with tools, prompts, resources, and tests using the official rmcp SDK"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "swift-mcp-server-generator",
-          "skill_path": "plugins/swift-mcp-development/skills/swift-mcp-server-generator"
+          "skill_path": "plugins/swift-mcp-development/skills/swift-mcp-server-generator",
+          "description": "Generate a complete Model Context Protocol server project in Swift using the official MCP Swift SDK package."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "typescript-mcp-server-generator",
-          "skill_path": "plugins/typescript-mcp-development/skills/typescript-mcp-server-generator"
+          "skill_path": "plugins/typescript-mcp-development/skills/typescript-mcp-server-generator",
+          "description": "Generate a complete MCP server project in TypeScript with tools, resources, and proper configuration"
         },
         {
           "owner": "mcp-use",
           "repo": "mcp-use",
           "name": "chatgpt-app-builder",
-          "skill_path": "skills/chatgpt-app-builder"
+          "skill_path": "skills/chatgpt-app-builder",
+          "description": "**MANDATORY for ALL MCP server work** - mcp-use framework best practices and patterns.\n\n**READ THIS FIRST** before any MCP server work, including:\n- Creating new MCP servers\n- Modifying existing MCP servers (adding/updating tools, resources, prompts, widgets)\n- Debugging MCP server issues or errors\n- Reviewing MCP server code for quality, security, or performance\n- Answering questions about MCP development or mcp-use patterns\n- Making ANY changes to server.tool(), server.resource(), server.prompt(), or widgets\n\nThis skill contains critical architecture decisions, security patterns, and common pitfalls.\nAlways consult the relevant reference files BEFORE implementing MCP features.\n"
         },
         {
           "owner": "mcp-use",
           "repo": "mcp-use",
           "name": "mcp-apps-builder",
-          "skill_path": "skills/mcp-apps-builder"
+          "skill_path": "skills/mcp-apps-builder",
+          "description": "**MANDATORY for ALL MCP server work** - mcp-use framework best practices and patterns.\n\n**READ THIS FIRST** before any MCP server work, including:\n- Creating new MCP servers\n- Modifying existing MCP servers (adding/updating tools, resources, prompts, widgets)\n- Debugging MCP server issues or errors\n- Reviewing MCP server code for quality, security, or performance\n- Answering questions about MCP development or mcp-use patterns\n- Making ANY changes to server.tool(), server.resource(), server.prompt(), or widgets\n\nThis skill contains critical architecture decisions, security patterns, and common pitfalls.\nAlways consult the relevant reference files BEFORE implementing MCP features.\n"
         },
         {
           "owner": "mcp-use",
           "repo": "mcp-use",
           "name": "mcp-builder",
-          "skill_path": "skills/mcp-builder"
+          "skill_path": "skills/mcp-builder",
+          "description": "**MANDATORY for ALL MCP server work** - mcp-use framework best practices and patterns.\n\n**READ THIS FIRST** before any MCP server work, including:\n- Creating new MCP servers\n- Modifying existing MCP servers (adding/updating tools, resources, prompts, widgets)\n- Debugging MCP server issues or errors\n- Reviewing MCP server code for quality, security, or performance\n- Answering questions about MCP development or mcp-use patterns\n- Making ANY changes to server.tool(), server.resource(), server.prompt(), or widgets\n\nThis skill contains critical architecture decisions, security patterns, and common pitfalls.\nAlways consult the relevant reference files BEFORE implementing MCP features.\n"
         }
       ]
     },
@@ -321,49 +371,57 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "iterative-retrieval",
-          "skill_path": "skills/iterative-retrieval"
+          "skill_path": "skills/iterative-retrieval",
+          "description": "Pattern for progressively refining context retrieval to solve the subagent context problem"
         },
         {
           "owner": "langchain-ai",
           "repo": "langchain-skills",
           "name": "langchain-rag",
-          "skill_path": "config/skills/langchain-rag"
+          "skill_path": "config/skills/langchain-rag",
+          "description": "INVOKE THIS SKILL when building ANY retrieval-augmented generation (RAG) system. Covers document loaders, RecursiveCharacterTextSplitter, embeddings (OpenAI), and vector stores (Chroma, FAISS, Pinecone)."
         },
         {
           "owner": "nozomio-labs",
           "repo": "nia-skill",
           "name": "Nia",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "Index and search code repositories, documentation, research papers, HuggingFace datasets, local folders, Slack workspaces, Google Drive, X (Twitter), and packages with Nia AI. Includes auth bootstrapping, Oracle autonomous research, GitHub live search, Tracer agent, dependency analysis, context sharing, code advisor, document agent, data extraction, filesystem operations, and generic connectors."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "embedding-strategies",
-          "skill_path": "plugins/llm-application-dev/skills/embedding-strategies"
+          "skill_path": "plugins/llm-application-dev/skills/embedding-strategies",
+          "description": "Select and optimize embedding models for semantic search and RAG applications. Use when choosing embedding models, implementing chunking strategies, or optimizing embedding quality for specific domains."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "hybrid-search-implementation",
-          "skill_path": "plugins/llm-application-dev/skills/hybrid-search-implementation"
+          "skill_path": "plugins/llm-application-dev/skills/hybrid-search-implementation",
+          "description": "Combine vector and keyword search for improved retrieval. Use when implementing RAG systems, building search engines, or when neither approach alone provides sufficient recall."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "rag-implementation",
-          "skill_path": "plugins/llm-application-dev/skills/rag-implementation"
+          "skill_path": "plugins/llm-application-dev/skills/rag-implementation",
+          "description": "Build Retrieval-Augmented Generation (RAG) systems for LLM applications with vector databases and semantic search. Use when implementing knowledge-grounded AI, building document Q&A systems, or integrating LLMs with external knowledge bases."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "similarity-search-patterns",
-          "skill_path": "plugins/llm-application-dev/skills/similarity-search-patterns"
+          "skill_path": "plugins/llm-application-dev/skills/similarity-search-patterns",
+          "description": "Implement efficient similarity search with vector databases. Use when building semantic search, implementing nearest neighbor queries, or optimizing retrieval performance."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "vector-index-tuning",
-          "skill_path": "plugins/llm-application-dev/skills/vector-index-tuning"
+          "skill_path": "plugins/llm-application-dev/skills/vector-index-tuning",
+          "description": "Optimize vector index performance for latency, recall, and memory. Use when tuning HNSW parameters, selecting quantization strategies, or scaling vector search infrastructure."
         }
       ]
     },
@@ -375,79 +433,92 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "agent-eval",
-          "skill_path": "skills/agent-eval"
+          "skill_path": "skills/agent-eval",
+          "description": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics"
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "eval-harness",
-          "skill_path": ".agents/skills/eval-harness"
+          "skill_path": ".agents/skills/eval-harness",
+          "description": "Formal evaluation framework for Claude Code sessions implementing eval-driven development (EDD) principles"
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "prompt-optimizer",
-          "skill_path": "skills/prompt-optimizer"
+          "skill_path": "skills/prompt-optimizer",
+          "description": "Analyze raw prompts, identify intent and gaps, match ECC components (skills/commands/agents/hooks), and output a ready-to-paste optimized prompt. Advisory role only — never executes the task itself. TRIGGER when: user says \"optimize prompt\", \"improve my prompt\", \"how to write a prompt for\", \"help me prompt\", \"rewrite this prompt\", or explicitly asks to enhance prompt quality. Also triggers on Chinese equivalents: \"优化prompt\", \"改进prompt\", \"怎么写prompt\", \"帮我优化这个指令\". DO NOT TRIGGER when: user wants the task executed directly, or says \"just do it\" / \"直接做\". DO NOT TRIGGER when user says \"优化代码\", \"优化性能\", \"optimize performance\", \"optimize this code\" — those are refactoring/performance tasks, not prompt optimization."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "agent-governance",
-          "skill_path": "skills/agent-governance"
+          "skill_path": "skills/agent-governance",
+          "description": "Patterns and techniques for adding governance, safety, and trust controls to AI agent systems. Use this skill when:\n- Building AI agents that call external tools (APIs, databases, file systems)\n- Implementing policy-based access controls for agent tool usage\n- Adding semantic intent classification to detect dangerous prompts\n- Creating trust scoring systems for multi-agent workflows\n- Building audit trails for agent actions and decisions\n- Enforcing rate limits, content filters, or tool restrictions on agents\n- Working with any agent framework (PydanticAI, CrewAI, OpenAI Agents, LangChain, AutoGen)\n"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "agentic-eval",
-          "skill_path": "skills/agentic-eval"
+          "skill_path": "skills/agentic-eval",
+          "description": "Patterns and techniques for evaluating and improving AI agent outputs. Use this skill when:\n- Implementing self-critique and reflection loops\n- Building evaluator-optimizer pipelines for quality-critical generation\n- Creating test-driven code refinement workflows\n- Designing rubric-based or LLM-as-judge evaluation systems\n- Adding iterative improvement to agent outputs (code, reports, analysis)\n- Measuring and improving agent response quality\n"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "ai-prompt-engineering-safety-review",
-          "skill_path": "plugins/security-best-practices/skills/ai-prompt-engineering-safety-review"
+          "skill_path": "plugins/security-best-practices/skills/ai-prompt-engineering-safety-review",
+          "description": "Comprehensive AI prompt engineering safety review and improvement prompt. Analyzes prompts for safety, bias, security vulnerabilities, and effectiveness while providing detailed improvement recommendations with extensive frameworks, testing methodologies, and educational content."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "boost-prompt",
-          "skill_path": "skills/boost-prompt"
+          "skill_path": "skills/boost-prompt",
+          "description": "Interactive prompt refinement workflow: interrogates scope, deliverables, constraints; copies final markdown to clipboard; never writes code. Requires the Joyride extension."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "finalize-agent-prompt",
-          "skill_path": "skills/finalize-agent-prompt"
+          "skill_path": "skills/finalize-agent-prompt",
+          "description": "Finalize prompt file using the role of an AI agent to polish the prompt for the end user."
         },
         {
           "owner": "google",
           "repo": "agents-cli",
           "name": "google-agents-cli-eval",
-          "skill_path": "skills/google-agents-cli-eval"
+          "skill_path": "skills/google-agents-cli-eval",
+          "description": "This skill should be used when the user wants to \"run an evaluation\", \"evaluate my ADK agent\", \"write an eval dataset\", \"analyze eval failures\", \"compare eval results\", \"optimize agent\", or needs guidance on the Agent Platform eval methodology and the Quality Flywheel. Covers eval metrics, dataset schema, LLM-as-judge scoring, and common failure causes. Do NOT use for API code patterns (use google-agents-cli-adk-code), deployment (use google-agents-cli-deploy), or project scaffolding (use google-agents-cli-scaffold).\n"
         },
         {
           "owner": "langfuse",
           "repo": "skills",
           "name": "langfuse",
-          "skill_path": "skills/langfuse"
+          "skill_path": "skills/langfuse",
+          "description": "Interact with Langfuse and access its documentation. Use when needing to (1) query or modify Langfuse data programmatically via the CLI — traces, prompts, datasets, scores, sessions, and any other API resource, (2) look up Langfuse documentation, concepts, integration guides, or SDK usage, or (3) understand how any Langfuse feature works. This skill covers CLI-based API access (via npx) and multiple documentation retrieval methods."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "evaluation-methodology",
-          "skill_path": "plugins/plugin-eval/skills/evaluation-methodology"
+          "skill_path": "plugins/plugin-eval/skills/evaluation-methodology",
+          "description": "PluginEval quality methodology — dimensions, rubrics, statistical methods, and scoring formulas. Use this skill when understanding how plugin quality is measured, when interpreting a low score on a specific dimension, when deciding how to improve a skill's triggering accuracy or orchestration fitness, when calibrating scoring thresholds for your marketplace, or when explaining quality badges to external partners like Neon."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "llm-evaluation",
-          "skill_path": "plugins/llm-application-dev/skills/llm-evaluation"
+          "skill_path": "plugins/llm-application-dev/skills/llm-evaluation",
+          "description": "Implement comprehensive evaluation strategies for LLM applications using automated metrics, human feedback, and benchmarking. Use when testing LLM performance, measuring AI application quality, or establishing evaluation frameworks."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "prompt-engineering-patterns",
-          "skill_path": "plugins/llm-application-dev/skills/prompt-engineering-patterns"
+          "skill_path": "plugins/llm-application-dev/skills/prompt-engineering-patterns",
+          "description": "Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability in production. Use when optimizing prompts, improving LLM outputs, or designing production prompt templates."
         }
       ]
     },
@@ -459,37 +530,43 @@
           "owner": "anthropics",
           "repo": "claude-code",
           "name": "claude-opus-4-5-migration",
-          "skill_path": "plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration"
+          "skill_path": "plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration",
+          "description": "Migrate prompts and code from Claude Sonnet 4.0, Sonnet 4.5, or Opus 4.1 to Opus 4.5. Use when the user wants to update their codebase, prompts, or API calls to use Opus 4.5. Handles model string updates and prompt adjustments for known Opus 4.5 behavioral differences. Does NOT migrate Haiku 4.5."
         },
         {
           "owner": "anthropics",
           "repo": "skills",
           "name": "claude-api",
-          "skill_path": "skills/claude-api"
+          "skill_path": "skills/claude-api",
+          "description": "Build, debug, and optimize Claude API / Anthropic SDK apps. Apps built with this skill should include prompt caching. Also handles migrating existing Claude API code between Claude model versions (4.5 → 4.6, 4.6 → 4.7, retired-model replacements). TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`; user asks for the Claude API, Anthropic SDK, or Managed Agents; user adds/modifies/tunes a Claude feature (caching, thinking, compaction, tool use, batch, files, citations, memory) or model (Opus/Sonnet/Haiku) in a file; questions about prompt caching / cache hit rate in an Anthropic SDK project. SKIP: file imports `openai`/other-provider SDK, filename like `*-openai.py`/`*-generic.py`, provider-neutral code, general programming/ML."
         },
         {
           "owner": "google",
           "repo": "skills",
           "name": "gemini-api",
-          "skill_path": "skills/cloud/gemini-api"
+          "skill_path": "skills/cloud/gemini-api",
+          "description": "Use when the user asks about using Gemini in an enterprise environment or explicitly mentions Vertex AI, Google Cloud, or Agent Platform. Guides the usage of the Gemini API on Agent Platform with the Google Gen AI SDK. Covers SDK usage (Python, JS/TS, Go, Java, C#), capabilities like multimodal inputs, tools, media generation, caching, batch prediction, and Live API."
         },
         {
           "owner": "google-gemini",
           "repo": "gemini-skills",
           "name": "gemini-api-dev",
-          "skill_path": "skills/gemini-api-dev"
+          "skill_path": "skills/gemini-api-dev",
+          "description": "Use this skill when building applications with Gemini API hosted models, including Gemini and Gemma 4, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or needing current model specifications. Covers SDK usage (google-genai for Python, @google/genai for JavaScript/TypeScript, com.google.genai:google-genai for Java, google.golang.org/genai for Go), model selection, and API capabilities."
         },
         {
           "owner": "google-gemini",
           "repo": "gemini-skills",
           "name": "gemini-interactions-api",
-          "skill_path": "skills/gemini-interactions-api"
+          "skill_path": "skills/gemini-interactions-api",
+          "description": "Use this skill when writing code that calls the Gemini API for text generation, multi-turn chat, multimodal understanding, image generation, streaming responses, background research tasks, function calling, structured output, or migrating from the old generateContent API. This skill covers the Interactions API, the recommended way to use Gemini models and agents in Python and TypeScript."
         },
         {
           "owner": "google-gemini",
           "repo": "gemini-skills",
           "name": "gemini-live-api-dev",
-          "skill_path": "skills/gemini-live-api-dev"
+          "skill_path": "skills/gemini-live-api-dev",
+          "description": "Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API. Covers WebSocket-based audio/video/text streaming, voice activity detection (VAD), native audio features, function calling, session management, ephemeral tokens for client-side auth, and all Live API configuration options. SDKs covered - google-genai (Python), @google/genai (JavaScript/TypeScript)."
         }
       ]
     },
@@ -501,19 +578,22 @@
           "owner": "elevenlabs",
           "repo": "skills",
           "name": "agents",
-          "skill_path": "agents"
+          "skill_path": "agents",
+          "description": "Build voice AI agents with ElevenLabs. Use when creating voice assistants, customer service bots, interactive voice characters, or any real-time voice conversation experience."
         },
         {
           "owner": "vercel",
           "repo": "ai-elements",
           "name": "ai-elements",
-          "skill_path": "skills/ai-elements"
+          "skill_path": "skills/ai-elements",
+          "description": "Build AI chat interfaces using ai-elements components — conversations, messages, tool displays, prompt inputs, and more. Use when the user wants to build a chatbot, AI assistant UI, or any AI-powered chat interface."
         },
         {
           "owner": "vercel",
           "repo": "chat",
           "name": "chat-sdk",
-          "skill_path": "apps/docs/public/.well-known/agent-skills/chat-sdk"
+          "skill_path": "apps/docs/public/.well-known/agent-skills/chat-sdk",
+          "description": "Build multi-platform chat bots with Chat SDK (`chat` npm package). Use when developers want to build a Slack, Teams, Google Chat, Discord, Telegram, GitHub, Linear, or WhatsApp bot, handle mentions, direct messages, subscribed threads, reactions, slash commands, cards, modals, files, or AI streaming, set up webhook routes or multi-adapter bots, send rich cards or streamed AI responses to chat platforms, or build a custom adapter or state adapter."
         }
       ]
     },
@@ -525,37 +605,43 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "cost-aware-llm-pipeline",
-          "skill_path": "skills/cost-aware-llm-pipeline"
+          "skill_path": "skills/cost-aware-llm-pipeline",
+          "description": "Cost optimization patterns for LLM API usage — model routing by task complexity, budget tracking, retry logic, and prompt caching."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "regex-vs-llm-structured-text",
-          "skill_path": "skills/regex-vs-llm-structured-text"
+          "skill_path": "skills/regex-vs-llm-structured-text",
+          "description": "Decision framework for choosing between regex and LLM when parsing structured text — start with regex, add LLM only for low-confidence edge cases."
         },
         {
           "owner": "napoleond",
           "repo": "clawdirect",
           "name": "clawdirect",
-          "skill_path": "skills/clawdirect"
+          "skill_path": "skills/clawdirect",
+          "description": "Interact with ClawDirect, a directory of social web experiences for AI agents. Use this skill to browse the directory, like entries, or add new sites. Requires ATXP authentication for MCP tool calls. Triggers: browsing agent-oriented websites, discovering social platforms for agents, liking/voting on directory entries, or submitting new agent-facing sites to ClawDirect."
         },
         {
           "owner": "napoleond",
           "repo": "instaclaw",
           "name": "instaclaw",
-          "skill_path": "skill"
+          "skill_path": "skill",
+          "description": "Photo sharing platform for AI agents. Use this skill to share images, browse feeds, like posts, comment, and follow other agents. Requires ATXP authentication."
         },
         {
           "owner": "skills-shell",
           "repo": "skills",
           "name": "agent-tools",
-          "skill_path": "tools/agent-tools"
+          "skill_path": "tools/agent-tools",
+          "description": "Run 250+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter. Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api, image generation, video generation, openrouter, tavily, exa search, twitter api, grok"
         },
         {
           "owner": "skills-shell",
           "repo": "skills",
           "name": "infsh-cli",
-          "skill_path": "tools/infsh-cli"
+          "skill_path": "tools/infsh-cli",
+          "description": "Run 250+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generating images/videos, calling LLMs, web search, or automating Twitter. Triggers: inference.sh, infsh, ai model, run ai, serverless ai, ai api, flux, veo, claude api, image generation, video generation, openrouter, tavily, exa search, twitter api, grok"
         }
       ]
     }

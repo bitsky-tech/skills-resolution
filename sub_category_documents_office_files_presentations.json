@@ -9,73 +9,85 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "nutrient-document-processing",
-          "skill_path": "skills/nutrient-document-processing"
+          "skill_path": "skills/nutrient-document-processing",
+          "description": "Process, convert, OCR, extract, redact, sign, and fill documents using the Nutrient DWS API. Works with PDFs, DOCX, XLSX, PPTX, HTML, and images."
         },
         {
           "owner": "aidenwu0209",
           "repo": "paddleocr-skills",
           "name": "paddleocr-text-recognition",
-          "skill_path": "skills/paddleocr-text-recognition"
+          "skill_path": "skills/paddleocr-text-recognition",
+          "description": "Use this skill whenever the user wants text extracted from images, photos, scans, screenshots, or scanned PDFs. Returns exact machine-readable strings with line-level text and optional bbox coordinates. Strong accuracy for CJK, small print, and handwritten text. Trigger terms: OCR, 文字识别, 图片转文字, 截图识字, 提取图中文字, 扫描识字, 识字, 纯文字, plain text extraction, 坐标, 检测框, bbox, bounding box, image to text, screenshot, photo scan, recognize text."
         },
         {
           "owner": "anthropics",
           "repo": "knowledge-work-plugins",
           "name": "view-pdf",
-          "skill_path": "pdf-viewer/skills/view-pdf"
+          "skill_path": "pdf-viewer/skills/view-pdf",
+          "description": "Interactive PDF viewer. Use when the user wants to open, show, or view a PDF and collaborate on it visually — annotate, highlight, stamp, fill form fields, place signature/initials, or review markup together. Not for summarization or text extraction (use native Read instead)."
         },
         {
           "owner": "anthropics",
           "repo": "skills",
           "name": "pdf",
-          "skill_path": "skills/pdf"
+          "skill_path": "skills/pdf",
+          "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill."
         },
         {
           "owner": "claude-office-skills",
           "repo": "skills",
           "name": "pdf-extraction",
-          "skill_path": "pdf-extraction"
+          "skill_path": "pdf-extraction",
+          "description": "Extract text, tables, and metadata from PDFs using pdfplumber"
         },
         {
           "owner": "claude-office-skills",
           "repo": "skills",
           "name": "smart-ocr",
-          "skill_path": "smart-ocr"
+          "skill_path": "smart-ocr",
+          "description": ">"
         },
         {
           "owner": "dkyazzentwatwa",
           "repo": "chatgpt-skills",
           "name": "ocr-document-processor",
-          "skill_path": "ocr-document-processor"
+          "skill_path": "ocr-document-processor",
+          "description": "Extract text and structure from scans, images, and scanned PDFs. Use for OCR, searchable PDFs, table extraction, receipt parsing, and business card parsing."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "pdftk-server",
-          "skill_path": "skills/pdftk-server"
+          "skill_path": "skills/pdftk-server",
+          "description": "Skill for using the command-line tool pdftk (PDFtk Server) for working with PDF files. Use when asked to merge PDFs, split PDFs, rotate pages, encrypt or decrypt PDFs, fill PDF forms, apply watermarks, stamp overlays, extract metadata, burst documents into pages, repair corrupted PDFs, attach or extract files, or perform any PDF manipulation from the command line."
         },
         {
           "owner": "openai",
           "repo": "skills",
           "name": "pdf",
-          "skill_path": "skills/.curated/pdf"
+          "skill_path": "skills/.curated/pdf",
+          "description": "Use when tasks involve reading, creating, or reviewing PDF files where rendering and layout matter; prefer visual checks by rendering pages (Poppler) and use Python tools such as `reportlab`, `pdfplumber`, and `pypdf` for generation and extraction."
         },
         {
           "owner": "pilioai",
           "repo": "skills",
           "name": "remove-pdf-watermark",
-          "skill_path": "skills/remove-pdf-watermark"
+          "skill_path": "skills/remove-pdf-watermark",
+          "description": "Remove watermarks from a PDF with the Pilio developer API. Use when the user wants PDF watermark removal, editable PDF cleanup, AI PDF page reconstruction, or automated PDF watermark processing through Pilio."
         },
         {
           "owner": "steipete",
           "repo": "clawdis",
           "name": "nano-pdf",
-          "skill_path": "skills/nano-pdf"
+          "skill_path": "skills/nano-pdf",
+          "description": "Edit PDFs with natural-language instructions using the nano-pdf CLI."
         },
         {
           "owner": "tanis90",
           "repo": "pdf-converter-mineru",
           "name": "pdf-converter",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "PDF converter powered by MinerU — convert PDF to Word, Markdown, HTML, LaTeX, or plain text. Also handles image-to-text OCR, scanned document recognition, and Office formats (DOCX, PPTX, Excel). Supports 80+ languages. Use this skill when the user wants to convert, extract, read, parse, or summarize any PDF or document. Also applies when the user shares a PDF file or link and asks about its content, needs tables or formulas extracted, wants PDF OCR, or says things like 'turn this into a doc' or 'what does this paper say'."
         }
       ]
     },
@@ -87,37 +99,43 @@
           "owner": "anthropics",
           "repo": "skills",
           "name": "docx",
-          "skill_path": "skills/docx"
+          "skill_path": "skills/docx",
+          "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation."
         },
         {
           "owner": "anthropics",
           "repo": "skills",
           "name": "xlsx",
-          "skill_path": "skills/xlsx"
+          "skill_path": "skills/xlsx",
+          "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like \"the xlsx in my downloads\") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved."
         },
         {
           "owner": "claude-office-skills",
           "repo": "skills",
           "name": "docx-manipulation",
-          "skill_path": "docx-manipulation"
+          "skill_path": "docx-manipulation",
+          "description": "Create, edit, and manipulate Word documents programmatically using python-docx"
         },
         {
           "owner": "claude-office-skills",
           "repo": "skills",
           "name": "excel-automation",
-          "skill_path": "excel-automation"
+          "skill_path": "excel-automation",
+          "description": ">"
         },
         {
           "owner": "claude-office-skills",
           "repo": "skills",
           "name": "office-mcp",
-          "skill_path": "office-mcp"
+          "skill_path": "office-mcp",
+          "description": "MCP server with 39 tools for Word, Excel, PowerPoint, PDF, OCR operations"
         },
         {
           "owner": "claude-office-skills",
           "repo": "skills",
           "name": "xlsx-manipulation",
-          "skill_path": "xlsx-manipulation"
+          "skill_path": "xlsx-manipulation",
+          "description": "Create, edit, and manipulate Excel spreadsheets programmatically using openpyxl"
         }
       ]
     },
@@ -129,97 +147,113 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "frontend-slides",
-          "skill_path": ".agents/skills/frontend-slides"
+          "skill_path": ".agents/skills/frontend-slides",
+          "description": "Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic through visual exploration rather than abstract choices."
         },
         {
           "owner": "antfu",
           "repo": "skills",
           "name": "slidev",
-          "skill_path": "skills/slidev"
+          "skill_path": "skills/slidev",
+          "description": "Create and present web-based slidedecks for developers using Slidev with Markdown, Vue components, code highlighting, animations, and interactive features. Use when building technical presentations, conference talks, code walkthroughs, teaching materials, or developer decks."
         },
         {
           "owner": "anthropics",
           "repo": "skills",
           "name": "pptx",
-          "skill_path": "skills/pptx"
+          "skill_path": "skills/pptx",
+          "description": "Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates, layouts, speaker notes, or comments. Trigger whenever the user mentions \"deck,\" \"slides,\" \"presentation,\" or references a .pptx filename, regardless of what they plan to do with the content afterward. If a .pptx file needs to be opened, created, or touched, use this skill."
         },
         {
           "owner": "claude-office-skills",
           "repo": "skills",
           "name": "html-slides",
-          "skill_path": "html-slides"
+          "skill_path": "html-slides",
+          "description": ">"
         },
         {
           "owner": "claude-office-skills",
           "repo": "skills",
           "name": "ppt-visual",
-          "skill_path": "ppt-visual"
+          "skill_path": "ppt-visual",
+          "description": "Design presentation visuals and slide layouts. Create visual concepts, suggest graphics, and provide design specifications for impactful PowerPoint slides."
         },
         {
           "owner": "hugohe3",
           "repo": "ppt-master",
           "name": "ppt-master",
-          "skill_path": "skills/ppt-master"
+          "skill_path": "skills/ppt-master",
+          "description": "AI-driven multi-format SVG content generation system. Converts source documents (PDF/DOCX/URL/Markdown) into high-quality SVG pages and exports to PPTX through multi-role collaboration. Use when user asks to \"create PPT\", \"make presentation\", \"生成PPT\", \"做PPT\", \"制作演示文稿\", or mentions \"ppt-master\".\n"
         },
         {
           "owner": "igorwarzocha",
           "repo": "opencode-workflows",
           "name": "powerpoint",
-          "skill_path": "cowork/.opencode/skill/powerpoint"
+          "skill_path": "cowork/.opencode/skill/powerpoint",
+          "description": "Handle PowerPoint (.pptx) creation, design, and analysis. Use for pitch decks, status updates, and visual storytelling. Use proactively when precise layout positioning and design principles are needed.\n\nExamples:\n- user: \"Create a 10-slide deck for the board meeting\" -> use design principles + html2pptx\n- user: \"Convert this report into a presentation\" -> extract text and map to template\n- user: \"Audit this deck for layout issues\" -> generate thumbnail grid for inspection"
         },
         {
           "owner": "jimliu",
           "repo": "baoyu-skills",
           "name": "baoyu-slide-deck",
-          "skill_path": "skills/baoyu-slide-deck"
+          "skill_path": "skills/baoyu-slide-deck",
+          "description": "Generates professional slide deck images from content. Creates outlines with style instructions, then generates individual slide images. Use when user asks to \"create slides\", \"make a presentation\", \"generate deck\", \"slide deck\", or \"PPT\"."
         },
         {
           "owner": "lewislulu",
           "repo": "html-ppt-skill",
           "name": "html-ppt",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "HTML PPT Studio — author professional static HTML presentations in many styles, layouts, and animations, all driven by templates. Use when the user asks for a presentation, PPT, slides, keynote, deck, slideshow, \"幻灯片\", \"演讲稿\", \"做一份 PPT\", \"做一份 slides\", a reveal-style HTML deck, a 小红书 图文, or any kind of multi-slide pitch/report/sharing document that should look tasteful and be usable with keyboard navigation. Triggers include keywords like \"presentation\", \"ppt\", \"slides\", \"deck\", \"keynote\", \"reveal\", \"slideshow\", \"幻灯片\", \"演讲稿\", \"分享稿\", \"小红书图文\", \"talk slides\", \"pitch deck\", \"tech sharing\", \"technical presentation\"."
         },
         {
           "owner": "minimax-ai",
           "repo": "skills",
           "name": "pptx-generator",
-          "skill_path": "skills/pptx-generator"
+          "skill_path": "skills/pptx-generator",
+          "description": "Generate, edit, and read PowerPoint presentations. Create from scratch with PptxGenJS (cover, TOC, content, section divider, summary slides), edit existing PPTX via XML workflows, or extract text with markitdown. Triggers: PPT, PPTX, PowerPoint, presentation, slide, deck, slides."
         },
         {
           "owner": "nextlevelbuilder",
           "repo": "ui-ux-pro-max-skill",
           "name": "ckm:slides",
-          "skill_path": ".claude/skills/slides"
+          "skill_path": ".claude/skills/slides",
+          "description": "Create strategic HTML presentations with Chart.js, design tokens, responsive layouts, copywriting formulas, and contextual slide strategies."
         },
         {
           "owner": "op7418",
           "repo": "guizang-ppt-skill",
           "name": "guizang-ppt-skill",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "生成横向翻页网页 PPT（单 HTML 文件），含 WebGL 背景、章节幕封、数据大字报、图片网格等模板。提供两种风格：① \"电子杂志 × 电子墨水\"（衬线 + 流体背景 + 暖色） ② \"瑞士国际主义\"（无衬线 + 网格点阵 + IKB/柠檬黄/柠檬绿/安全橙高亮）。当用户需要制作分享 / 演讲 / 发布会风格的网页 PPT，或提到\"杂志风 PPT\"、\"瑞士风 PPT\"、\"Swiss Style\"、\"horizontal swipe deck\"时使用。"
         },
         {
           "owner": "slidevjs",
           "repo": "slidev",
           "name": "slidev",
-          "skill_path": "skills/slidev"
+          "skill_path": "skills/slidev",
+          "description": "Create and present web-based slidedecks for developers using Slidev with Markdown, Vue components, code highlighting, animations, and interactive features. Use when building technical presentations, conference talks, code walkthroughs, teaching materials, or developer decks."
         },
         {
           "owner": "softaworks",
           "repo": "agent-toolkit",
           "name": "marp-slide",
-          "skill_path": "dist/plugins/marp-slide/skills/marp-slide"
+          "skill_path": "dist/plugins/marp-slide/skills/marp-slide",
+          "description": "Create professional Marp presentation slides with 7 beautiful themes (default, minimal, colorful, dark, gradient, tech, business). Use when users request slide creation, presentations, or Marp documents. Supports custom themes, image layouts, and \"make it look good\" requests with automatic quality improvements."
         },
         {
           "owner": "tw93",
           "repo": "kami",
           "name": "kami",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "Typeset professional documents and product landing pages: resumes, one-pagers, white papers, letters, portfolios, slide decks, landing pages. Warm parchment, ink-blue accent, serif-led hierarchy. CN uses TsangerJinKai02, EN uses Charter, JA uses YuMincho (best-effort). Triggers on \"做 PDF / 排版 / 一页纸 / 白皮书 / 作品集 / 简历 / PPT / slides / Marp / markdown slides / マークダウンのスライド / 落地页 / 官网 / landing page / product page\", or \"build me a resume / make a one-pager / design a slide deck / turn this into a PDF / make this presentable / create a landing page\"."
         },
         {
           "owner": "willem4130",
           "repo": "claude-code-skills",
           "name": "elite-powerpoint-designer",
-          "skill_path": "skills/elite-powerpoint-designer"
+          "skill_path": "skills/elite-powerpoint-designer",
+          "description": "Create world-class PowerPoint presentations with professional design, consistent branding, sophisticated animations, and polished visual hierarchy. Use when users request presentations, slide decks, pitches, reports, or want to convert markdown to professionally designed PowerPoint with Apple/Microsoft/Google-level quality."
         }
       ]
     },
@@ -231,31 +265,36 @@
           "owner": "claude-office-skills",
           "repo": "skills",
           "name": "office-to-md",
-          "skill_path": "office-to-md"
+          "skill_path": "office-to-md",
+          "description": ">"
         },
         {
           "owner": "firecrawl",
           "repo": "cli",
           "name": "firecrawl-parse",
-          "skill_path": "skills/firecrawl-parse"
+          "skill_path": "skills/firecrawl-parse",
+          "description": "Efficiently extract and convert the contents of any local file—such as PDF, DOCX, DOC, ODT, RTF, XLSX, XLS, or HTML—into clean, well-formatted markdown saved to disk. Use this skill whenever the user requests to parse, read, or extract information from a file on their computer, including phrases like “parse this PDF”, “convert this document”, “read this file”, “extract text from”, or when a local file path (not a URL) is provided. This skill offers advanced options like generating AI-powered summaries and answering questions based on the file's content. Prefer this tool over `scrape` when handling local files to deliver precise, structured outputs for downstream tasks.\n"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "convert-plaintext-to-md",
-          "skill_path": "skills/convert-plaintext-to-md"
+          "skill_path": "skills/convert-plaintext-to-md",
+          "description": "Convert a text-based document to markdown following instructions from prompt, or if a documented option is passed, follow the instructions for that option."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "markdown-to-html",
-          "skill_path": "plugins/cms-development/skills/markdown-to-html"
+          "skill_path": "plugins/cms-development/skills/markdown-to-html",
+          "description": "Convert Markdown files to HTML similar to `marked.js`, `pandoc`, `gomarkdown/markdown`, or similar tools; or writing custom script to convert markdown to html and/or working on web template systems like `jekyll/jekyll`, `gohugoio/hugo`, or similar web templating systems that utilize markdown documents, converting them to html. Use when asked to \"convert markdown to html\", \"transform md to html\", \"render markdown\", \"generate html from markdown\", or when working with .md files and/or web a templating system that converts markdown to HTML output. Supports CLI and Node.js workflows with GFM, CommonMark, and standard Markdown flavors."
         },
         {
           "owner": "jimliu",
           "repo": "baoyu-skills",
           "name": "baoyu-markdown-to-html",
-          "skill_path": "skills/baoyu-markdown-to-html"
+          "skill_path": "skills/baoyu-markdown-to-html",
+          "description": "Converts Markdown to styled HTML with WeChat-compatible themes. Supports code highlighting, math, Mermaid (rendered to PNG via headless Chrome), PlantUML, footnotes, alerts, infographics, and optional bottom citations for external links. Use when user asks for \"markdown to html\", \"convert md to html\", \"md 转 html\", \"微信外链转底部引用\", or needs styled HTML output from markdown."
         }
       ]
     },

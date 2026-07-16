@@ -9,37 +9,43 @@
           "owner": "adjfks",
           "repo": "corner-skills",
           "name": "write-xiaohongshu",
-          "skill_path": "skills/write-xiaohongshu"
+          "skill_path": "skills/write-xiaohongshu",
+          "description": "Research top-performing Xiaohongshu (小红书 / XHS) image posts, analyze titles/content/comments for patterns and emotional resonance, enrich background via Firecrawl MCP, then write and publish an XHS note via Xiaohongshu MCP. Enforce hard limits: title <= 20 characters, body <= 1000 characters. Use when the user asks for 小红书笔记/种草文案/爆款标题/发布到小红书."
         },
         {
           "owner": "dontbesilent2025",
           "repo": "dbskill",
           "name": "dbs-xhs-title",
-          "skill_path": "skills/dbs-xhs-title"
+          "skill_path": "skills/dbs-xhs-title",
+          "description": "小红书标题公式工具。从 75 个验证过的爆款公式中，帮你挑对的、用对的、理解为什么用这个。\n触发方式：/dbs-xhs-title、/小红书标题、「帮我起个小红书标题」「小红书标题公式」\nXiaohongshu title formula tool. Pick the right formula from 75 proven templates.\nTrigger: /dbs-xhs-title, \"xiaohongshu title\", \"RED title formula\"\n"
         },
         {
           "owner": "jimliu",
           "repo": "baoyu-skills",
           "name": "baoyu-post-to-wechat",
-          "skill_path": "skills/baoyu-post-to-wechat"
+          "skill_path": "skills/baoyu-post-to-wechat",
+          "description": "Posts content to WeChat Official Account (微信公众号) via API or Chrome CDP. Supports article posting (文章) with HTML, markdown, or plain text input, and image-text posting (贴图, formerly 图文) with multiple images. Markdown article workflows default to converting ordinary external links into bottom citations for WeChat-friendly output. Use when user mentions \"发布公众号\", \"post to wechat\", \"微信公众号\", or \"贴图/图文/文章\"."
         },
         {
           "owner": "jimliu",
           "repo": "baoyu-skills",
           "name": "baoyu-post-to-weibo",
-          "skill_path": "skills/baoyu-post-to-weibo"
+          "skill_path": "skills/baoyu-post-to-weibo",
+          "description": "Posts content to Weibo (微博). Supports regular posts with text, images, and videos, and headline articles (头条文章) with Markdown input via Chrome CDP. Use when user asks to \"post to Weibo\", \"发微博\", \"发布微博\", \"publish to Weibo\", \"share on Weibo\", \"写微博\", or \"微博头条文章\"."
         },
         {
           "owner": "xiaoyiv",
           "repo": "douyin-skill",
           "name": "douyin",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "Download Douyin (抖音) videos. Use when user wants to: (1) download Douyin videos, (2) get video info (title, author, stats). Supports short links (v.douyin.com) and full URLs."
         },
         {
           "owner": "zhjiang22",
           "repo": "openclaw-xhs",
           "name": "xiaohongshu",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "小红书（RedNote）内容工具。使用场景：\n- 搜索小红书笔记并获取详情\n- 获取首页推荐列表\n- 获取帖子详情（正文、图片、互动数据、评论）\n- 发表评论 / 回复评论\n- 获取用户主页和笔记列表\n- 点赞、收藏帖子\n- 发布图文或视频笔记\n- 热点话题跟踪与分析报告\n- 帖子导出为长图\n触发词示例：\n- \"搜一下小红书上的XX\"\n- \"跟踪一下小红书上的XX热点\"\n- \"分析小红书上关于XX的讨论\"\n- \"小红书XX话题报告\"\n- \"生成XX的小红书舆情报告\"\n"
         }
       ]
     },
@@ -51,31 +57,36 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "x-api",
-          "skill_path": ".agents/skills/x-api"
+          "skill_path": ".agents/skills/x-api",
+          "description": "X/Twitter API integration for posting tweets, threads, reading timelines, search, and analytics. Covers OAuth auth patterns, rate limits, and platform-native content posting. Use when the user wants to interact with X programmatically."
         },
         {
           "owner": "binance",
           "repo": "binance-skills-hub",
           "name": "square-post",
-          "skill_path": "skills/binance/square-post"
+          "skill_path": "skills/binance/square-post",
+          "description": "Use when the user wants to publish new content to Binance Square — short text, multi-image\nposts (up to 4), long-form articles with an optional cover, or videos with an auto-generated\ncover frame. Trigger on direct phrasings like \"post to Square\", \"publish to Binance Square\",\n\"发广场\", \"发布到广场\", and on near-miss intents where the user clearly wants to share or\npublish content on Square even without naming the skill: \"share this analysis on Square\",\n\"把这篇文章发出去\", \"发个动态\", \"把这个视频上传到广场\", \"publish my chart to Square as an\narticle\". Also use when the user provides media (images, video) plus a caption and asks to\npush it to Square, or asks to turn a draft into a Square article. Do not use for reading,\nsearching, commenting, liking, editing, deleting, scheduling, or managing existing Square\nposts — this skill only creates new posts.\n"
         },
         {
           "owner": "claude-office-skills",
           "repo": "skills",
           "name": "tiktok-marketing",
-          "skill_path": "tiktok-marketing"
+          "skill_path": "tiktok-marketing",
+          "description": "TikTok content strategy, video creation workflows, posting optimization, and analytics. Based on n8n automation templates."
         },
         {
           "owner": "jimliu",
           "repo": "baoyu-skills",
           "name": "baoyu-post-to-x",
-          "skill_path": "skills/baoyu-post-to-x"
+          "skill_path": "skills/baoyu-post-to-x",
+          "description": "Posts content and articles to X (Twitter). Supports regular posts with images/videos and X Articles (long-form Markdown). In Codex, honor explicit requests for the Codex Chrome plugin/@chrome by using the Chrome Extension workflow; otherwise use Chrome Computer Use when available and fall back to real Chrome CDP scripts only when allowed. Use when user asks to \"post to X\", \"tweet\", \"publish to Twitter\", or \"share on X\"."
         },
         {
           "owner": "skills-shell",
           "repo": "skills",
           "name": "twitter-automation",
-          "skill_path": "tools/social/twitter-automation"
+          "skill_path": "tools/social/twitter-automation",
+          "description": "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, retweet, send DMs, follow users, get profiles. Use for: social media automation, content scheduling, engagement bots, audience growth, X API. Triggers: twitter api, x api, tweet automation, post to twitter, twitter bot, social media automation, x automation, tweet scheduler, twitter integration, post tweet, twitter post, x post, send tweet"
         }
       ]
     },
@@ -87,25 +98,29 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "content-engine",
-          "skill_path": ".agents/skills/content-engine"
+          "skill_path": ".agents/skills/content-engine",
+          "description": "Create platform-native content systems for X, LinkedIn, TikTok, YouTube, newsletters, and repurposed multi-platform campaigns. Use when the user wants social posts, threads, scripts, content calendars, or one source asset adapted cleanly across platforms."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "crosspost",
-          "skill_path": ".agents/skills/crosspost"
+          "skill_path": ".agents/skills/crosspost",
+          "description": "Multi-platform content distribution across X, LinkedIn, Threads, and Bluesky. Adapts content per platform using content-engine patterns. Never posts identical content cross-platform. Use when the user wants to distribute content across social platforms."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "social",
-          "skill_path": "skills/social"
+          "skill_path": "skills/social",
+          "description": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' 'grow my following,' 'TikTok video,' 'Reels,' 'Shorts,' 'video script,' 'video hook,' 'short-form video,' or 'create a reel.' Use this for social media content creation, repurposing, scheduling, and short-form video scripting. For broader content strategy, see content-strategy. For paid video ads, see ad-creative."
         },
         {
           "owner": "dontbesilent2025",
           "repo": "dbskill",
           "name": "dbs-hook",
-          "skill_path": "skills/dbs-hook"
+          "skill_path": "skills/dbs-hook",
+          "description": "dontbesilent 短视频开头优化。诊断开头问题 + 生成优化方案。\n触发方式：/dbs-hook、/hook、「帮我优化开头」「开头怎么写」\nShort video opening optimization with diagnosis and solutions.\nTrigger: /dbs-hook, \"optimize my opening\", \"how to write opening\"\n"
         }
       ]
     },

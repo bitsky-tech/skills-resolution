@@ -9,229 +9,267 @@
           "owner": "aaron-he-zhu",
           "repo": "seo-geo-claude-skills",
           "name": "alert-manager",
-          "skill_path": "monitor/alert-manager"
+          "skill_path": "monitor/alert-manager",
+          "description": "Use when the user asks to \"set SEO alerts\"; configures ranking, traffic, technical, competitor, and notification thresholds. SEO预警/排名监控"
         },
         {
           "owner": "aaron-he-zhu",
           "repo": "seo-geo-claude-skills",
           "name": "backlink-analyzer",
-          "skill_path": "monitor/backlink-analyzer"
+          "skill_path": "monitor/backlink-analyzer",
+          "description": "Use when analyzing backlink profiles, link authority, toxic links, link-building opportunities, or competitor link gaps. 外链分析/反向链接"
         },
         {
           "owner": "aaron-he-zhu",
           "repo": "seo-geo-claude-skills",
           "name": "competitor-analysis",
-          "skill_path": "research/competitor-analysis"
+          "skill_path": "research/competitor-analysis",
+          "description": "Use when the user asks to \"compare competitors\" or find SEO/GEO gaps; analyzes keywords, content, backlinks, AI citations, and traffic share. 竞品分析/竞争对手"
         },
         {
           "owner": "aaron-he-zhu",
           "repo": "seo-geo-claude-skills",
           "name": "content-gap-analysis",
-          "skill_path": "research/content-gap-analysis"
+          "skill_path": "research/content-gap-analysis",
+          "description": "Use when the user asks to \"find content gaps\"; maps competitor topics, missing keywords, and editorial calendar opportunities. 内容缺口/选题规划"
         },
         {
           "owner": "aaron-he-zhu",
           "repo": "seo-geo-claude-skills",
           "name": "content-quality-auditor",
-          "skill_path": "cross-cutting/content-quality-auditor"
+          "skill_path": "cross-cutting/content-quality-auditor",
+          "description": "Use when auditing content quality, E-E-A-T, publish readiness, or 内容质量/EEAT评分. Runs 80-item CORE-EEAT scoring with veto checks and fix plan."
         },
         {
           "owner": "aaron-he-zhu",
           "repo": "seo-geo-claude-skills",
           "name": "content-refresher",
-          "skill_path": "optimize/content-refresher"
+          "skill_path": "optimize/content-refresher",
+          "description": "Use when updating outdated content, fixing traffic/ranking decay, refreshing stats, adding new sections, or improving freshness signals. 内容更新/排名恢复"
         },
         {
           "owner": "aaron-he-zhu",
           "repo": "seo-geo-claude-skills",
           "name": "domain-authority-auditor",
-          "skill_path": "cross-cutting/domain-authority-auditor"
+          "skill_path": "cross-cutting/domain-authority-auditor",
+          "description": "Use when auditing domain authority, trust, citations, or 域名权威/网站可信度. Runs 40-item CITE scoring with veto checks."
         },
         {
           "owner": "aaron-he-zhu",
           "repo": "seo-geo-claude-skills",
           "name": "entity-optimizer",
-          "skill_path": "cross-cutting/entity-optimizer"
+          "skill_path": "cross-cutting/entity-optimizer",
+          "description": "Use when the user asks to \"optimize entity presence\"; builds Knowledge Graph, Wikidata, sameAs, and AI recognition signals. 实体优化/知识图谱"
         },
         {
           "owner": "aaron-he-zhu",
           "repo": "seo-geo-claude-skills",
           "name": "geo-content-optimizer",
-          "skill_path": "build/geo-content-optimizer"
+          "skill_path": "build/geo-content-optimizer",
+          "description": "Use when the user asks to \"optimize for AI citations\"; improves citation readiness for ChatGPT, Perplexity, AI Overviews, Gemini, and Claude. AI引用优化/GEO优化/AI搜索"
         },
         {
           "owner": "aaron-he-zhu",
           "repo": "seo-geo-claude-skills",
           "name": "internal-linking-optimizer",
-          "skill_path": "optimize/internal-linking-optimizer"
+          "skill_path": "optimize/internal-linking-optimizer",
+          "description": "Use when improving internal link structure, anchor text, orphan pages, crawl depth, site architecture, or link equity flow. 内链优化/站内架构"
         },
         {
           "owner": "aaron-he-zhu",
           "repo": "seo-geo-claude-skills",
           "name": "keyword-research",
-          "skill_path": "research/keyword-research"
+          "skill_path": "research/keyword-research",
+          "description": "Use when the user asks to \"find keywords\"; prioritizes volume, difficulty, intent, and clusters from provided or connected data. 关键词研究/内容选题"
         },
         {
           "owner": "aaron-he-zhu",
           "repo": "seo-geo-claude-skills",
           "name": "memory-management",
-          "skill_path": "cross-cutting/memory-management"
+          "skill_path": "cross-cutting/memory-management",
+          "description": "Use when the user asks to \"remember project context\"; manages SEO/GEO memory, hot-cache, active work, archive tiers, and privacy cleanup. 项目记忆/跨会话"
         },
         {
           "owner": "aaron-he-zhu",
           "repo": "seo-geo-claude-skills",
           "name": "meta-tags-optimizer",
-          "skill_path": "build/meta-tags-optimizer"
+          "skill_path": "build/meta-tags-optimizer",
+          "description": "Use when the user asks to \"optimize meta tags\"; improves titles, descriptions, Open Graph, Twitter cards, and CTR test variants. 标题优化/元描述/CTR"
         },
         {
           "owner": "aaron-he-zhu",
           "repo": "seo-geo-claude-skills",
           "name": "on-page-seo-auditor",
-          "skill_path": "optimize/on-page-seo-auditor"
+          "skill_path": "optimize/on-page-seo-auditor",
+          "description": "Use when the user asks to \"audit on-page SEO\"; checks titles, headers, images, links, content fit, and fix priorities. 页面SEO审计/排名诊断"
         },
         {
           "owner": "aaron-he-zhu",
           "repo": "seo-geo-claude-skills",
           "name": "performance-reporter",
-          "skill_path": "monitor/performance-reporter"
+          "skill_path": "monitor/performance-reporter",
+          "description": "Use when generating SEO/GEO reports, traffic summaries, ranking reports, KPI dashboards, stakeholder updates, or monthly reports. SEO报告/绩效仪表盘"
         },
         {
           "owner": "aaron-he-zhu",
           "repo": "seo-geo-claude-skills",
           "name": "rank-tracker",
-          "skill_path": "monitor/rank-tracker"
+          "skill_path": "monitor/rank-tracker",
+          "description": "Use when the user asks to \"track rankings\"; monitors keyword/SERP changes from provided exports or connected tools, including AI response checks. 排名追踪/SERP监控"
         },
         {
           "owner": "aaron-he-zhu",
           "repo": "seo-geo-claude-skills",
           "name": "schema-markup-generator",
-          "skill_path": "build/schema-markup-generator"
+          "skill_path": "build/schema-markup-generator",
+          "description": "Use when the user asks to \"generate schema\"; creates JSON-LD for FAQ, HowTo, Article, Product, and LocalBusiness rich-result candidates. Schema标记/结构化数据"
         },
         {
           "owner": "aaron-he-zhu",
           "repo": "seo-geo-claude-skills",
           "name": "seo-content-writer",
-          "skill_path": "build/seo-content-writer"
+          "skill_path": "build/seo-content-writer",
+          "description": "Use when the user asks to \"write SEO content\"; drafts posts, articles, and landing pages with keywords, headers, snippets, and evidence boundaries. SEO文章写作/内容优化"
         },
         {
           "owner": "aaron-he-zhu",
           "repo": "seo-geo-claude-skills",
           "name": "serp-analysis",
-          "skill_path": "research/serp-analysis"
+          "skill_path": "research/serp-analysis",
+          "description": "Use when the user asks to \"analyze SERPs\"; reviews ranking factors, features, intent, AI Overviews, and snippets. SERP分析/搜索结果"
         },
         {
           "owner": "aaron-he-zhu",
           "repo": "seo-geo-claude-skills",
           "name": "technical-seo-checker",
-          "skill_path": "optimize/technical-seo-checker"
+          "skill_path": "optimize/technical-seo-checker",
+          "description": "Use when the user asks to \"check technical SEO\"; audits crawl, indexing, CWV, mobile, security, redirects, and evidence gaps. 技术SEO/网站速度"
         },
         {
           "owner": "addyosmani",
           "repo": "web-quality-skills",
           "name": "seo",
-          "skill_path": "skills/seo"
+          "skill_path": "skills/seo",
+          "description": "Optimize for search engine visibility and ranking. Use when asked to \"improve SEO\", \"optimize for search\", \"fix meta tags\", \"add structured data\", \"sitemap optimization\", or \"search engine optimization\"."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "seo",
-          "skill_path": "skills/seo"
+          "skill_path": "skills/seo",
+          "description": "Audit, plan, and implement SEO improvements across technical SEO, on-page optimization, structured data, Core Web Vitals, and content strategy. Use when the user wants better search visibility, SEO remediation, schema markup, sitemap/robots work, or keyword mapping."
         },
         {
           "owner": "calm-north",
           "repo": "seojuice-skills",
           "name": "audit",
-          "skill_path": "skills/audit"
+          "skill_path": "skills/audit",
+          "description": "Run a comprehensive SEO audit on a website covering technical health, on-page optimization, content quality, and backlink profile. Use when the user asks for an SEO audit, site review, SEO health check, \"what's wrong with my SEO\", website analysis, or a full diagnostic of their site's search performance. For speed-specific issues, see audit-speed. For technical crawl/index issues only, see diagnose-seo.\n"
         },
         {
           "owner": "calm-north",
           "repo": "seojuice-skills",
           "name": "brief",
-          "skill_path": "skills/brief"
+          "skill_path": "skills/brief",
+          "description": "Produce an editor-ready content brief for a target keyword or topic. Use when the user asks for a content brief, writing guidelines, article outline, SEO brief, what to include in a blog post, or how to structure content for a keyword. For choosing which topics to write about, see find-keywords. For a full site-wide SEO audit, see audit.\n"
         },
         {
           "owner": "calm-north",
           "repo": "seojuice-skills",
           "name": "build-links",
-          "skill_path": "skills/build-links"
+          "skill_path": "skills/build-links",
+          "description": "Design a link building campaign with prospect identification, asset creation, and outreach strategy. Use when the user asks about link building, backlinks, domain authority, how to get backlinks, outreach campaigns, digital PR, guest posting, or link acquisition. For internal linking, see fix-linking.\n"
         },
         {
           "owner": "calm-north",
           "repo": "seojuice-skills",
           "name": "find-keywords",
-          "skill_path": "skills/find-keywords"
+          "skill_path": "skills/find-keywords",
+          "description": "Build a prioritized keyword list for a website, topic, or campaign. Use when the user asks about keyword research, finding keywords to target, building a keyword list, search demand, keyword difficulty, intent mapping, or which keywords to prioritize. For writing content around keywords, see brief. For grouping keywords into clusters, see build-clusters.\n"
         },
         {
           "owner": "calm-north",
           "repo": "seojuice-skills",
           "name": "optimize-for-ai",
-          "skill_path": "skills/optimize-for-ai"
+          "skill_path": "skills/optimize-for-ai",
+          "description": "Optimize content for AI search engines — ChatGPT, Perplexity, Claude, Gemini, Google AI Overviews. Use when the user asks about AI SEO, AISO, getting cited by AI, appearing in AI answers, answer engine optimization, AEO, GEO, LLMO, AI Overviews, zero-click search, or how to appear in ChatGPT/Perplexity results. For traditional SEO, see diagnose-seo.\n"
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "ai-seo",
-          "skill_path": "skills/ai-seo"
+          "skill_path": "skills/ai-seo",
+          "description": "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' 'zero-click search,' 'how do I show up in AI answers,' 'LLM mentions,' or 'optimize for Claude/Gemini.' Use this whenever someone wants their content to be cited or surfaced by AI assistants and AI search engines. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "competitors",
-          "skill_path": "skills/competitors"
+          "skill_path": "skills/competitors",
+          "description": "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'how do we compare to X,' 'battle card,' or 'competitor teardown.' Use this for any content that positions your product against competitors. Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. For sales-specific competitor docs, see sales-enablement."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "content-strategy",
-          "skill_path": "skills/content-strategy"
+          "skill_path": "skills/content-strategy",
+          "description": "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \"content strategy,\" \"what should I write about,\" \"content ideas,\" \"blog strategy,\" \"topic clusters,\" \"content planning,\" \"editorial calendar,\" \"content marketing,\" \"content roadmap,\" \"what content should I create,\" \"blog topics,\" \"content pillars,\" or \"I don't know what to write.\" Use this whenever someone needs help deciding what content to produce, not just writing it. For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit. For social media content specifically, see social."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "programmatic-seo",
-          "skill_path": "skills/programmatic-seo"
+          "skill_path": "skills/programmatic-seo",
+          "description": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" \"building many pages for SEO,\" \"pSEO,\" \"generate 100 pages,\" \"data-driven pages,\" or \"templated landing pages.\" Use this whenever someone wants to create many similar pages targeting different keywords or locations. For auditing existing SEO issues, see seo-audit. For content strategy planning, see content-strategy."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "schema",
-          "skill_path": "skills/schema"
+          "skill_path": "skills/schema",
+          "description": "When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions \"schema markup,\" \"structured data,\" \"JSON-LD,\" \"rich snippets,\" \"schema.org,\" \"FAQ schema,\" \"product schema,\" \"review schema,\" \"breadcrumb schema,\" \"Google rich results,\" \"knowledge panel,\" \"star ratings in search,\" or \"add structured data.\" Use this whenever someone wants their pages to show enhanced results in Google. For broader SEO issues, see seo-audit. For AI search optimization, see ai-seo."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "seo-audit",
-          "skill_path": "skills/seo-audit"
+          "skill_path": "skills/seo-audit",
+          "description": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" \"SEO health check,\" \"my traffic dropped,\" \"lost rankings,\" \"not showing up in Google,\" \"site isn't ranking,\" \"Google update hit me,\" \"page speed,\" \"core web vitals,\" \"crawl errors,\" or \"indexing issues.\" Use this even if the user just says something vague like \"my SEO is bad\" or \"help with SEO\" — start with an audit. For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema. For AI search optimization, see ai-seo."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "site-architecture",
-          "skill_path": "skills/site-architecture"
+          "skill_path": "skills/site-architecture",
+          "description": "When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking. Also use when the user mentions \"sitemap,\" \"site map,\" \"visual sitemap,\" \"site structure,\" \"page hierarchy,\" \"information architecture,\" \"IA,\" \"navigation design,\" \"URL structure,\" \"breadcrumbs,\" \"internal linking strategy,\" \"website planning,\" \"what pages do I need,\" \"how should I organize my site,\" or \"site navigation.\" Use this whenever someone is planning what pages a website should have and how they connect. NOT for XML sitemaps (that's technical SEO — see seo-audit). For SEO audits, see seo-audit. For structured data, see schema."
         },
         {
           "owner": "firecrawl",
           "repo": "firecrawl-workflows",
           "name": "firecrawl-seo-audit",
-          "skill_path": "skills/firecrawl-seo-audit"
+          "skill_path": "skills/firecrawl-seo-audit",
+          "description": "Audit a website's SEO with Firecrawl. Use when the user asks for an SEO audit, metadata and heading review, sitemap/site-structure analysis, keyword opportunities, competitor SERP comparison, or prioritized search optimization recommendations."
         },
         {
           "owner": "ibelick",
           "repo": "ui-skills",
           "name": "fixing-metadata",
-          "skill_path": "skills/fixing-metadata"
+          "skill_path": "skills/fixing-metadata",
+          "description": "Audit and fix HTML metadata including page titles, meta descriptions, canonical URLs, Open Graph tags, Twitter cards, favicons, JSON-LD structured data, and robots directives. Use when adding SEO metadata, fixing social share previews, reviewing Open Graph tags, setting up canonical URLs, or shipping new pages that need correct meta tags.\n"
         },
         {
           "owner": "resciencelab",
           "repo": "opc-skills",
           "name": "seo-geo",
-          "skill_path": ".agents/skills/seo-geo"
+          "skill_path": ".agents/skills/seo-geo",
+          "description": "SEO & GEO (Generative Engine Optimization) for websites.\nAnalyze keywords, generate schema markup, optimize for AI search engines\n(ChatGPT, Perplexity, Gemini, Copilot, Claude) and traditional search (Google, Bing).\nUse when user wants to improve search visibility.\n"
         },
         {
           "owner": "sanity-io",
           "repo": "agent-toolkit",
           "name": "seo-aeo-best-practices",
-          "skill_path": "skills/seo-aeo-best-practices"
+          "skill_path": "skills/seo-aeo-best-practices",
+          "description": "SEO and AEO best practices for metadata, Open Graph, sitemaps, robots.txt, hreflang, JSON-LD structured data, EEAT, and content optimized for search engines and AI answer surfaces. Use this skill when implementing page SEO, technical SEO, schema markup, international SEO, AI-overview readiness, or improving content for Google, ChatGPT, Perplexity, and similar assistants."
         }
       ]
     },
@@ -243,103 +281,120 @@
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "ab-testing",
-          "skill_path": "skills/ab-testing"
+          "skill_path": "skills/ab-testing",
+          "description": "When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" \"hypothesis,\" \"should I test this,\" \"which version is better,\" \"test two versions,\" \"statistical significance,\" \"how long should I run this test,\" \"growth experiments,\" \"experiment velocity,\" \"experiment backlog,\" \"ICE score,\" \"experimentation program,\" or \"experiment playbook.\" Use this whenever someone is comparing two approaches and wants to measure which performs better, or when they want to build a systematic experimentation practice. For tracking implementation, see analytics. For page-level conversion optimization, see cro."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "analytics",
-          "skill_path": "skills/analytics"
+          "skill_path": "skills/analytics",
+          "description": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" \"tracking plan,\" \"how do I measure this,\" \"track conversions,\" \"attribution,\" \"Mixpanel,\" \"Segment,\" \"are my events firing,\" or \"analytics isn't working.\" Use this whenever someone asks how to know if something is working or wants to measure marketing results. For A/B test measurement, see ab-testing."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "churn-prevention",
-          "skill_path": "skills/churn-prevention"
+          "skill_path": "skills/churn-prevention",
+          "description": "When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,' 'failed payment recovery,' 'win-back,' 'retention,' 'exit survey,' 'pause subscription,' 'involuntary churn,' 'people keep canceling,' 'churn rate is too high,' 'how do I keep users,' or 'customers are leaving.' Use this whenever someone is losing subscribers or wants to build systems to prevent it. For post-cancel win-back email sequences, see emails. For in-app upgrade paywalls, see paywalls."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "co-marketing",
-          "skill_path": "skills/co-marketing"
+          "skill_path": "skills/co-marketing",
+          "description": "When the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities. Use when the user says 'co-marketing,' 'partner marketing,' 'joint campaign,' 'who should we partner with,' 'integration marketing,' 'cross-promotion,' 'collaborate with another company,' 'partnership ideas,' or 'co-brand.' For customer referral programs, see referrals. For launch-specific partnerships, see launch."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "community-marketing",
-          "skill_path": "skills/community-marketing"
+          "skill_path": "skills/community-marketing",
+          "description": "Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subreddit, build brand advocates, increase word-of-mouth, drive community-led growth, engage users post-signup, or turn customers into evangelists. Trigger phrases: \"build a community,\" \"community strategy,\" \"Discord community,\" \"Slack community,\" \"community-led growth,\" \"brand advocates,\" \"user community,\" \"forum strategy,\" \"community engagement,\" \"grow our community,\" \"ambassador program,\" \"community flywheel.\""
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "cro",
-          "skill_path": "skills/cro"
+          "skill_path": "skills/cro",
+          "description": "When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact forms. Also use when the user says 'CRO,' 'conversion rate optimization,' 'this page isn't converting,' 'improve conversions,' 'why isn't this page working,' 'my landing page sucks,' 'form abandonment,' 'nobody's converting,' 'low conversion rate,' or 'this page needs work.' Use this even if the user just shares a URL and asks for feedback. For signup/registration flows, see signup. For post-signup activation, see onboarding. For popups/modals, see popups."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "free-tools",
-          "skill_path": "skills/free-tools"
+          "skill_path": "skills/free-tools",
+          "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as marketing,\" \"free tool,\" \"marketing tool,\" \"calculator,\" \"generator,\" \"interactive tool,\" \"lead gen tool,\" \"build a tool for leads,\" \"free resource,\" \"ROI calculator,\" \"grader tool,\" \"audit tool,\" \"should I build a free tool,\" or \"tools for lead gen.\" Use this whenever someone wants to build something useful and give it away to attract leads or earn links. For downloadable content lead magnets (ebooks, checklists, templates), see lead-magnets."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "lead-magnets",
-          "skill_path": "skills/lead-magnets"
+          "skill_path": "skills/lead-magnets",
+          "description": "When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the user mentions \"lead magnet,\" \"gated content,\" \"content upgrade,\" \"downloadable,\" \"ebook,\" \"cheat sheet,\" \"checklist,\" \"template download,\" \"opt-in,\" \"freebie,\" \"PDF download,\" \"resource library,\" \"content offer,\" \"email capture content,\" \"Notion template,\" \"spreadsheet template,\" or \"what should I give away for emails.\" Use this for planning what to create and how to distribute it. For interactive tools as lead magnets, see free-tools. For writing the actual content, see copywriting. For the email sequence after capture, see emails."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "marketing-ideas",
-          "skill_path": "skills/marketing-ideas"
+          "skill_path": "skills/marketing-ideas",
+          "description": "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' 'ideas to grow,' 'what else can I try,' 'I don't know how to market this,' 'brainstorm marketing,' or 'what marketing should I do.' Use this as a starting point whenever someone is stuck or looking for inspiration on how to grow. For specific channel execution, see the relevant skill (ads, social, emails, etc.)."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "marketing-psychology",
-          "skill_path": "skills/marketing-psychology"
+          "skill_path": "skills/marketing-psychology",
+          "description": "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' 'consumer behavior,' 'anchoring,' 'social proof,' 'scarcity,' 'loss aversion,' 'framing,' or 'nudge.' Use this whenever someone wants to understand or leverage how people think and make decisions in a marketing context. For applying psychology to specific pages, see cro; for pricing tactics, see pricing; for copy framing, see copywriting."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "onboarding",
-          "skill_path": "skills/onboarding"
+          "skill_path": "skills/onboarding",
+          "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" \"new user experience,\" \"users aren't activating,\" \"nobody completes setup,\" \"low activation rate,\" \"users sign up but don't use the product,\" \"time to value,\" or \"first session experience.\" Use this whenever users are signing up but not sticking around. For signup/registration optimization, see signup. For ongoing email sequences, see emails."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "paywalls",
-          "skill_path": "skills/paywalls"
+          "skill_path": "skills/paywalls",
+          "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit reached screen,\" \"plan upgrade prompt,\" \"in-app pricing,\" \"free users won't upgrade,\" \"trial to paid conversion,\" or \"how do I get users to pay.\" Use this for any in-product moment where you're asking users to upgrade. Distinct from public pricing pages (see cro) — this focuses on in-product upgrade moments where the user has already experienced value. For pricing decisions, see pricing."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "popups",
-          "skill_path": "skills/popups"
+          "skill_path": "skills/popups",
+          "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" \"overlay,\" \"collect emails with a popup,\" \"exit popup,\" \"scroll trigger,\" \"sticky bar,\" or \"notification bar.\" Use this for any overlay or interrupt-style conversion element. For forms outside of popups, see cro. For general page conversion optimization, see cro."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "pricing",
-          "skill_path": "skills/pricing"
+          "skill_path": "skills/pricing",
+          "description": "When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much should I charge,' 'my pricing is wrong,' 'pricing page,' 'annual vs monthly,' 'per seat pricing,' or 'should I offer a free plan.' Use this whenever someone is figuring out what to charge or how to structure their plans. For in-app upgrade screens, see paywalls."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "referrals",
-          "skill_path": "skills/referrals"
+          "skill_path": "skills/referrals",
+          "description": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' or 'affiliate payout.' Use this whenever someone wants existing users or partners to bring in new customers. For launch-specific virality, see launch."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "revops",
-          "skill_path": "skills/revops"
+          "skill_path": "skills/revops",
+          "description": "When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,' 'revenue operations,' 'lead scoring,' 'lead routing,' 'MQL,' 'SQL,' 'pipeline stages,' 'deal desk,' 'CRM automation,' 'marketing-to-sales handoff,' 'data hygiene,' 'leads aren't getting to sales,' 'pipeline management,' 'lead qualification,' or 'when should marketing hand off to sales.' Use this for anything involving the systems and processes that connect marketing to revenue. For cold outreach emails, see cold-email. For email drip campaigns, see emails. For pricing decisions, see pricing."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "signup",
-          "skill_path": "skills/signup"
+          "skill_path": "skills/signup",
+          "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" \"account creation flow,\" \"people aren't signing up,\" \"signup abandonment,\" \"trial conversion rate,\" \"nobody completes registration,\" \"too many steps to sign up,\" or \"simplify our signup.\" Use this whenever the user has a signup or registration flow that isn't performing. For post-signup onboarding, see onboarding. For lead capture forms (not account creation), see cro."
         }
       ]
     },
@@ -351,55 +406,64 @@
           "owner": "claude-office-skills",
           "repo": "skills",
           "name": "google-ads-manager",
-          "skill_path": "google-ads-manager"
+          "skill_path": "google-ads-manager",
+          "description": "Google Ads campaign management - campaign setup, keyword research, bid optimization, and performance reporting"
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "ad-creative",
-          "skill_path": "skills/ad-creative"
+          "skill_path": "skills/ad-creative",
+          "description": "When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising platform. Also use when the user mentions 'ad copy variations,' 'ad creative,' 'generate headlines,' 'RSA headlines,' 'bulk ad copy,' 'ad iterations,' 'creative testing,' 'ad performance optimization,' 'write me some ads,' 'Facebook ad copy,' 'Google ad headlines,' 'LinkedIn ad text,' or 'I need more ad variations.' Use this whenever someone needs to produce ad copy at scale or iterate on existing ads. For campaign strategy and targeting, see ads. For landing page copy, see copywriting."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "ads",
-          "skill_path": "skills/ads"
+          "skill_path": "skills/ads",
+          "description": "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' 'audience targeting,' 'Google Ads,' 'Facebook ads,' 'LinkedIn ads,' 'ad budget,' 'cost per click,' 'ad spend,' or 'should I run ads.' Use this for campaign strategy, audience targeting, bidding, and optimization. For bulk ad creative generation and iteration, see ad-creative. For landing page optimization, see cro."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "cold-email",
-          "skill_path": "skills/cold-email"
+          "skill_path": "skills/cold-email",
+          "description": "Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaigns, sales development emails, or SDR emails. Also use when the user mentions \"cold outreach,\" \"prospecting email,\" \"outbound email,\" \"email to leads,\" \"reach out to prospects,\" \"sales email,\" \"follow-up email sequence,\" \"nobody's replying to my emails,\" or \"how do I write a cold email.\" Covers subject lines, opening lines, body copy, CTAs, personalization, and multi-touch follow-up sequences. For warm/lifecycle email sequences, see emails. For sales collateral beyond emails, see sales-enablement."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "copy-editing",
-          "skill_path": "skills/copy-editing"
+          "skill_path": "skills/copy-editing",
+          "description": "When the user wants to edit, review, or improve existing marketing copy, or refresh outdated content. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' 'copy sweep,' 'tighten this up,' 'this reads awkwardly,' 'clean up this text,' 'too wordy,' 'sharpen the messaging,' 'refresh this content,' 'update this page,' 'this content is outdated,' or 'content audit.' Use this when the user already has copy and wants it improved or refreshed rather than rewritten from scratch. For writing new copy, see copywriting."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "copywriting",
-          "skill_path": "skills/copywriting"
+          "skill_path": "skills/copywriting",
+          "description": "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" \"CTA copy,\" \"value proposition,\" \"tagline,\" \"subheadline,\" \"hero section copy,\" \"above the fold,\" \"this copy is weak,\" \"make this more compelling,\" or \"help me describe my product.\" Use this whenever someone is working on website text that needs to persuade or convert. For email copy, see emails. For popup copy, see popups. For editing existing copy, see copy-editing."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "emails",
-          "skill_path": "skills/emails"
+          "skill_path": "skills/emails",
+          "description": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions \"email sequence,\" \"drip campaign,\" \"nurture sequence,\" \"onboarding emails,\" \"welcome sequence,\" \"re-engagement emails,\" \"email automation,\" \"lifecycle emails,\" \"trigger-based emails,\" \"email funnel,\" \"email workflow,\" \"what emails should I send,\" \"welcome series,\" or \"email cadence.\" Use this for any multi-email automated flow. For cold outreach emails, see cold-email. For in-app onboarding, see onboarding."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "sms",
-          "skill_path": "skills/sms"
+          "skill_path": "skills/sms",
+          "description": "When the user wants to plan, build, or optimize SMS or MMS marketing — including welcome flows, abandoned cart texts, post-purchase, win-back, promotional sends, or transactional/auth SMS. Also use when the user mentions \"SMS marketing,\" \"text message campaigns,\" \"SMS sequence,\" \"SMS automation,\" \"abandoned cart text,\" \"post-purchase SMS,\" \"Klaviyo SMS,\" \"Postscript,\" \"Attentive,\" \"Twilio,\" \"A2P 10DLC,\" \"TCPA,\" \"SMS compliance,\" \"short code,\" \"toll-free SMS,\" \"MMS campaign,\" \"should I do SMS,\" or \"SMS vs email.\" For email sequences, see emails. For SMS copy framing, see copywriting. For opt-in popups that capture phone numbers, see popups."
         },
         {
           "owner": "onewave-ai",
           "repo": "claude-skills",
           "name": "landing-page-copywriter",
-          "skill_path": "landing-page-copywriter"
+          "skill_path": "landing-page-copywriter",
+          "description": "Write high-converting landing page copy using proven frameworks like PAS (Problem-Agitate-Solution), AIDA, and StoryBrand. Creates headlines, value propositions, CTAs, and full page sections optimized for conversion. Use when users need landing page copy, sales page content, or marketing website text."
         }
       ]
     },
@@ -411,43 +475,50 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "market-research",
-          "skill_path": ".agents/skills/market-research"
+          "skill_path": ".agents/skills/market-research",
+          "description": "Conduct market research, competitive analysis, investor due diligence, and industry intelligence with source attribution and decision-oriented summaries. Use when the user wants market sizing, competitor comparisons, fund research, technology scans, or research that informs business decisions."
         },
         {
           "owner": "composiohq",
           "repo": "awesome-claude-skills",
           "name": "lead-research-assistant",
-          "skill_path": "lead-research-assistant"
+          "skill_path": "lead-research-assistant",
+          "description": "Identifies high-quality leads for your product or service by analyzing your business, searching for target companies, and providing actionable contact strategies. Perfect for sales, business development, and marketing professionals."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "competitor-profiling",
-          "skill_path": "skills/competitor-profiling"
+          "skill_path": "skills/competitor-profiling",
+          "description": "When the user wants to research, profile, or analyze competitors from their URLs. Also use when the user mentions 'competitor profile,' 'competitor research,' 'competitor analysis,' 'profile this competitor,' 'analyze competitor,' 'competitive intelligence,' 'competitor deep dive,' 'who are my competitors,' 'competitor landscape,' 'competitor dossier,' 'competitive audit,' or 'research these competitors.' Input is a list of competitor URLs. Output is structured competitor profile markdown files. For creating comparison/alternative pages from profiles, see competitors. For sales-specific battle cards, see sales-enablement."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "customer-research",
-          "skill_path": "skills/customer-research"
+          "skill_path": "skills/customer-research",
+          "description": "When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions \"customer research,\" \"ICP research,\" \"talk to customers,\" \"analyze transcripts,\" \"customer interviews,\" \"survey analysis,\" \"support ticket analysis,\" \"voice of customer,\" \"VOC,\" \"build personas,\" \"customer personas,\" \"jobs to be done,\" \"JTBD,\" \"what do customers say,\" \"what are customers struggling with,\" \"Reddit mining,\" \"G2 reviews,\" \"review mining,\" \"digital watering holes,\" \"community research,\" \"forum research,\" \"competitor reviews,\" \"customer sentiment,\" or \"find out why customers churn/convert/buy.\" Use for both analyzing existing research assets AND gathering new research from online sources. For writing copy informed by research, see copywriting. For acting on research to improve pages, see cro."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "product-marketing",
-          "skill_path": "skills/product-marketing"
+          "skill_path": "skills/product-marketing",
+          "description": "When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/product-marketing.md` that all other skills reference for product, audience, and positioning context."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "prospecting",
-          "skill_path": "skills/prospecting"
+          "skill_path": "skills/prospecting",
+          "description": "When the user wants to find, qualify, and build a list of prospects to reach out to — across B2B SaaS, general B2B, or local small businesses. Also use when the user mentions \"prospecting,\" \"build a prospect list,\" \"find prospects,\" \"find leads,\" \"lead gen list,\" \"find SaaS companies that,\" \"find B2B companies,\" \"find local businesses,\" \"ICP-fit accounts,\" \"who should we go after,\" \"outbound list,\" \"target account list,\" \"find clients near me,\" \"businesses without websites,\" \"prospect research,\" or \"qualified leads.\" Use this for the list-building and qualification phase. For writing the outbound copy after the list is built, see cold-email. For deep competitive research on specific accounts, see competitor-profiling."
         },
         {
           "owner": "skills-shell",
           "repo": "skills",
           "name": "competitor-teardown",
-          "skill_path": "guides/product/competitor-teardown"
+          "skill_path": "guides/product/competitor-teardown",
+          "description": "Structured competitive analysis with feature matrices, SWOT, positioning maps, and UX review. Covers research frameworks, pricing comparison, review mining, and visual deliverables. Use for: market research, competitive intelligence, investor decks, product strategy, sales enablement. Triggers: competitor analysis, competitive analysis, competitor teardown, market research, competitive intelligence, swot analysis, competitor comparison, market landscape, competitor review, competitive landscape, feature comparison, market positioning"
         }
       ]
     },
@@ -459,55 +530,64 @@
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "aso",
-          "skill_path": "skills/aso"
+          "skill_path": "skills/aso",
+          "description": "When the user wants to audit or optimize an App Store or Google Play listing. Also use when the user mentions 'ASO audit,' 'app store optimization,' 'optimize my app listing,' 'improve app visibility,' 'app store ranking,' 'audit my listing,' 'why aren't people downloading my app,' 'improve my app conversion,' 'keyword optimization for app,' or 'compare my app to competitors.' Use when the user shares an App Store or Google Play URL and wants to improve it."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "directory-submissions",
-          "skill_path": "skills/directory-submissions"
+          "skill_path": "skills/directory-submissions",
+          "description": "When the user wants to submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for backlinks, domain rating, and discovery. Also use when the user mentions \"directory submissions,\" \"submit to directories,\" \"backlinks from directories,\" \"list my product,\" \"submit to Product Hunt,\" \"BetaList,\" \"TAAFT,\" \"Futurepedia,\" \"G2 listing,\" \"Capterra listing,\" \"AlternativeTo,\" \"SaaSHub,\" \"AI directories,\" \"MCP registry,\" \"agent directory,\" \"dofollow backlinks,\" \"launch directories,\" or \"directory tracker.\" Use this whenever someone is planning the directory layer of a product launch or an ongoing backlink campaign. For the broader launch moment, see launch. For programmatic SEO pages that should live behind these backlinks, see programmatic-seo. For AI citation optimization, see ai-seo."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "launch",
-          "skill_path": "skills/launch"
+          "skill_path": "skills/launch",
+          "description": "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' 'product update,' 'how do I launch this,' 'launch checklist,' 'GTM plan,' or 'we're about to ship.' Use this whenever someone is preparing to release something publicly. For ongoing marketing after launch, see marketing-ideas."
         },
         {
           "owner": "coreyhaines31",
           "repo": "marketingskills",
           "name": "sales-enablement",
-          "skill_path": "skills/sales-enablement"
+          "skill_path": "skills/sales-enablement",
+          "description": "When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also use when the user mentions 'sales deck,' 'pitch deck,' 'one-pager,' 'leave-behind,' 'objection handling,' 'deal-specific ROI analysis,' 'demo script,' 'talk track,' 'sales playbook,' 'proposal template,' 'buyer persona card,' 'help my sales team,' 'sales materials,' or 'what should I give my sales reps.' Use this for any document or asset that helps a sales team close deals. For competitor comparison pages and battle cards, see competitors. For marketing website copy, see copywriting. For cold outreach emails, see cold-email."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "apple-appstore-reviewer",
-          "skill_path": "skills/apple-appstore-reviewer"
+          "skill_path": "skills/apple-appstore-reviewer",
+          "description": "Serves as a reviewer of the codebase with instructions on looking for Apple App Store optimizations or rejection reasons."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "msstore-cli",
-          "skill_path": "skills/msstore-cli"
+          "skill_path": "skills/msstore-cli",
+          "description": "Microsoft Store Developer CLI (msstore) for publishing Windows applications to the Microsoft Store. Use when asked to configure Store credentials, list Store apps, check submission status, publish submissions, manage package flights, set up CI/CD for Store publishing, or integrate with Partner Center. Supports Windows App SDK/WinUI, UWP, .NET MAUI, Flutter, Electron, React Native, and PWA applications."
         },
         {
           "owner": "parthjadhav",
           "repo": "app-store-screenshots",
           "name": "app-store-screenshots",
-          "skill_path": "skills/app-store-screenshots"
+          "skill_path": "skills/app-store-screenshots",
+          "description": "Use when building App Store or Google Play screenshot pages, generating exportable marketing screenshots for iOS and/or Android apps, or scaffolding a screenshot editor with Next.js. Triggers on app store, play store, screenshots, marketing assets, html-to-image, phone mockup, android screenshots, feature graphic."
         },
         {
           "owner": "skills-shell",
           "repo": "skills",
           "name": "app-store-screenshots",
-          "skill_path": "guides/design/app-store-screenshots"
+          "skill_path": "guides/design/app-store-screenshots",
+          "description": "App Store and Google Play screenshot creation with exact platform specs. Covers iOS/Android dimensions, gallery ordering, device mockups, and preview videos. Use for: app store optimization, ASO, app screenshots, app preview, play store listing. Triggers: app store screenshots, aso, app store optimization, play store screenshots, app preview, app listing, ios screenshots, android screenshots, app store images, app mockup, device mockup, app gallery, store listing"
         },
         {
           "owner": "skills-shell",
           "repo": "skills",
           "name": "product-hunt-launch",
-          "skill_path": "guides/product/product-hunt-launch"
+          "skill_path": "guides/product/product-hunt-launch",
+          "description": "Product Hunt launch optimization with specific specs, timing, and gallery strategy. Covers taglines, gallery images, maker comments, and launch day tactics. Use for: product launches, startup launches, side project launches, Product Hunt optimization. Triggers: product hunt, ph launch, product hunt launch, launch strategy, product launch, startup launch, product hunt tips, product hunt gallery, ph optimization, launch day, product hunt maker"
         }
       ]
     },

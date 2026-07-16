@@ -9,331 +9,386 @@
           "owner": "addyosmani",
           "repo": "agent-skills",
           "name": "frontend-ui-engineering",
-          "skill_path": "skills/frontend-ui-engineering"
+          "skill_path": "skills/frontend-ui-engineering",
+          "description": "Builds production-quality UIs. Use when building or modifying user-facing interfaces. Use when creating components, implementing layouts, managing state, or when the output needs to look and feel production-quality rather than AI-generated."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "frontend-patterns",
-          "skill_path": ".agents/skills/frontend-patterns"
+          "skill_path": ".agents/skills/frontend-patterns",
+          "description": "Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "nextjs-turbopack",
-          "skill_path": ".agents/skills/nextjs-turbopack"
+          "skill_path": ".agents/skills/nextjs-turbopack",
+          "description": "Next.js 16+ and Turbopack — incremental bundling, FS caching, dev speed, and when to use Turbopack vs webpack."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "nuxt4-patterns",
-          "skill_path": "skills/nuxt4-patterns"
+          "skill_path": "skills/nuxt4-patterns",
+          "description": "Nuxt 4 app patterns for hydration safety, performance, route rules, lazy loading, and SSR-safe data fetching with useFetch and useAsyncData."
         },
         {
           "owner": "analogjs",
           "repo": "angular-skills",
           "name": "angular-component",
-          "skill_path": "skills/angular-component"
+          "skill_path": "skills/angular-component",
+          "description": "Create modern Angular standalone components following v20+ best practices. Use for building UI components with signal-based inputs/outputs, OnPush change detection, host bindings, content projection, and lifecycle hooks. Triggers on component creation, refactoring class-based inputs to signals, adding host bindings, or implementing accessible interactive components."
         },
         {
           "owner": "analogjs",
           "repo": "angular-skills",
           "name": "angular-di",
-          "skill_path": "skills/angular-di"
+          "skill_path": "skills/angular-di",
+          "description": "Implement dependency injection in Angular v20+ using inject(), injection tokens, and provider configuration. Use for service architecture, providing dependencies at different levels, creating injectable tokens, and managing singleton vs scoped services. Triggers on service creation, configuring providers, using injection tokens, or understanding DI hierarchy."
         },
         {
           "owner": "analogjs",
           "repo": "angular-skills",
           "name": "angular-directives",
-          "skill_path": "skills/angular-directives"
+          "skill_path": "skills/angular-directives",
+          "description": "Create custom directives in Angular v20+ for DOM manipulation and behavior extension. Use for attribute directives that modify element behavior/appearance, structural directives for portals/overlays, and host directives for composition. Triggers on creating reusable DOM behaviors, extending element functionality, or composing behaviors across components. Note - use native @if/@for/@switch for control flow, not custom structural directives."
         },
         {
           "owner": "analogjs",
           "repo": "angular-skills",
           "name": "angular-forms",
-          "skill_path": "skills/angular-forms"
+          "skill_path": "skills/angular-forms",
+          "description": "Build signal-based forms in Angular v21+ using the new Signal Forms API. Use for form creation with automatic two-way binding, schema-based validation, field state management, and dynamic forms. Triggers on form implementation, adding validation, creating multi-step forms, or building forms with conditional fields. Signal Forms are experimental but recommended for new Angular projects. Don't use for template-driven forms without signals or third-party form libraries like Formly or ngx-formly."
         },
         {
           "owner": "analogjs",
           "repo": "angular-skills",
           "name": "angular-http",
-          "skill_path": "skills/angular-http"
+          "skill_path": "skills/angular-http",
+          "description": "Implement HTTP data fetching in Angular v20+ using resource(), httpResource(), and HttpClient. Use for API calls, data loading with signals, request/response handling, and interceptors. Triggers on data fetching, API integration, loading states, error handling, or converting Observable-based HTTP to signal-based patterns."
         },
         {
           "owner": "analogjs",
           "repo": "angular-skills",
           "name": "angular-routing",
-          "skill_path": "skills/angular-routing"
+          "skill_path": "skills/angular-routing",
+          "description": "Implement routing in Angular v20+ applications with lazy loading, functional guards, resolvers, and route parameters. Use for navigation setup, protected routes, route-based data loading, and nested routing. Triggers on route configuration, adding authentication guards, implementing lazy loading, or reading route parameters with signals."
         },
         {
           "owner": "analogjs",
           "repo": "angular-skills",
           "name": "angular-signals",
-          "skill_path": "skills/angular-signals"
+          "skill_path": "skills/angular-signals",
+          "description": "Implement signal-based reactive state management in Angular v20+. Use for creating reactive state with signal(), derived state with computed(), dependent state with linkedSignal(), and side effects with effect(). Triggers on state management questions, converting from BehaviorSubject/Observable patterns to signals, or implementing reactive data flows."
         },
         {
           "owner": "analogjs",
           "repo": "angular-skills",
           "name": "angular-testing",
-          "skill_path": "skills/angular-testing"
+          "skill_path": "skills/angular-testing",
+          "description": "Write unit and integration tests for Angular v20+ applications using Vitest or Jasmine with TestBed and modern testing patterns. Use for testing components with signals, OnPush change detection, services with inject(), and HTTP interactions. Triggers on test creation, testing signal-based components, mocking dependencies, or setting up test infrastructure. Don't use for E2E testing with Cypress or Playwright, or for testing non-Angular JavaScript/TypeScript code."
         },
         {
           "owner": "analogjs",
           "repo": "angular-skills",
           "name": "angular-tooling",
-          "skill_path": "skills/angular-tooling"
+          "skill_path": "skills/angular-tooling",
+          "description": "Use Angular CLI and development tools effectively in Angular v20+ projects. Use for project setup, code generation, building, testing, and configuration. Triggers on creating new projects, generating components/services/modules, configuring builds, running tests, or optimizing production builds. Don't use for Nx workspace commands, custom Webpack configurations, or non-Angular CLI build systems like Vite standalone or esbuild direct usage."
         },
         {
           "owner": "angular",
           "repo": "skills",
           "name": "angular-developer",
-          "skill_path": "angular-developer"
+          "skill_path": "angular-developer",
+          "description": "Generates Angular code and provides architectural guidance. Trigger when creating projects, components, or services, or for best practices on reactivity (signals, linkedSignal, resource), forms, dependency injection, routing, SSR, accessibility (ARIA), animations, styling (component styles, Tailwind CSS), testing, or CLI tooling."
         },
         {
           "owner": "angular",
           "repo": "skills",
           "name": "angular-new-app",
-          "skill_path": "angular-new-app"
+          "skill_path": "angular-new-app",
+          "description": "Creates a new Angular app using the Angular CLI. This skill should be used whenever a user wants to create a new Angular application and contains important guidelines for how to effectively create a modern Angular application."
         },
         {
           "owner": "antfu",
           "repo": "skills",
           "name": "nuxt",
-          "skill_path": "skills/nuxt"
+          "skill_path": "skills/nuxt",
+          "description": "Nuxt full-stack Vue framework with SSR, auto-imports, and file-based routing. Use when working with Nuxt apps, server routes, useFetch, middleware, or hybrid rendering."
         },
         {
           "owner": "antfu",
           "repo": "skills",
           "name": "pinia",
-          "skill_path": "skills/pinia"
+          "skill_path": "skills/pinia",
+          "description": "Pinia official Vue state management library, type-safe and extensible. Use when defining stores, working with state/getters/actions, or implementing store patterns in Vue apps."
         },
         {
           "owner": "antfu",
           "repo": "skills",
           "name": "vue",
-          "skill_path": "skills/vue"
+          "skill_path": "skills/vue",
+          "description": "Vue 3 Composition API, script setup macros, reactivity system, and built-in components. Use when writing Vue SFCs, defineProps/defineEmits/defineModel, watchers, or using Transition/Teleport/Suspense/KeepAlive."
         },
         {
           "owner": "antfu",
           "repo": "skills",
           "name": "vue-best-practices",
-          "skill_path": "skills/vue-best-practices"
+          "skill_path": "skills/vue-best-practices",
+          "description": "MUST be used for Vue.js tasks. Strongly recommends Composition API with `<script setup>` and TypeScript as the standard approach. Covers Vue 3, SSR, Volar, vue-tsc. Load for any Vue, .vue files, Vue Router, Pinia, or Vite with Vue work. ALWAYS use Composition API unless the project explicitly requires Options API."
         },
         {
           "owner": "antfu",
           "repo": "skills",
           "name": "vue-router-best-practices",
-          "skill_path": "skills/vue-router-best-practices"
+          "skill_path": "skills/vue-router-best-practices",
+          "description": "Vue Router 4 patterns, navigation guards, route params, and route-component lifecycle interactions."
         },
         {
           "owner": "antfu",
           "repo": "skills",
           "name": "vueuse-functions",
-          "skill_path": "skills/vueuse-functions"
+          "skill_path": "skills/vueuse-functions",
+          "description": "Apply VueUse composables where appropriate to build concise, maintainable Vue.js / Nuxt features."
         },
         {
           "owner": "astrolicious",
           "repo": "agent-skills",
           "name": "astro",
-          "skill_path": "skills/astro"
+          "skill_path": "skills/astro",
+          "description": "Skill for building with the Astro web framework. Helps create Astro components and pages, configure SSR adapters, set up content collections, deploy static sites, and manage project structure and CLI commands. Use when the user needs to work with Astro, mentions .astro files, asks about static site generation (SSG), islands architecture, content collections, or deploying an Astro project."
         },
         {
           "owner": "cloudflare",
           "repo": "vinext",
           "name": "migrate-to-vinext",
-          "skill_path": ".agents/skills/migrate-to-vinext"
+          "skill_path": ".agents/skills/migrate-to-vinext",
+          "description": "Migrates Next.js projects to vinext (Vite-based Next.js reimplementation). Load when asked to migrate, convert, or switch from Next.js to vinext. Handles compatibility scanning, package replacement, Vite config generation, ESM conversion, and deployment setup (Cloudflare Workers natively, other platforms via Nitro)."
         },
         {
           "owner": "deckardger",
           "repo": "tanstack-agent-skills",
           "name": "tanstack-query-best-practices",
-          "skill_path": "skills/tanstack-query"
+          "skill_path": "skills/tanstack-query",
+          "description": "TanStack Query (React Query) best practices for data fetching, caching, mutations, and server state management. Activate when building data-driven React applications with server state."
         },
         {
           "owner": "deckardger",
           "repo": "tanstack-agent-skills",
           "name": "tanstack-router-best-practices",
-          "skill_path": "skills/tanstack-router"
+          "skill_path": "skills/tanstack-router",
+          "description": "TanStack Router best practices for type-safe routing, data loading, search params, and navigation. Activate when building React applications with complex routing needs."
         },
         {
           "owner": "deckardger",
           "repo": "tanstack-agent-skills",
           "name": "tanstack-start-best-practices",
-          "skill_path": "skills/tanstack-start"
+          "skill_path": "skills/tanstack-start",
+          "description": "TanStack Start best practices for full-stack React applications. Server functions, middleware, SSR, authentication, and deployment patterns. Activate when building full-stack apps with TanStack Start."
         },
         {
           "owner": "ejirocodes",
           "repo": "agent-skills",
           "name": "svelte5-best-practices",
-          "skill_path": "svelte/skills/svelte5-best-practices"
+          "skill_path": "svelte/skills/svelte5-best-practices",
+          "description": "Svelte 5 runes, snippets, SvelteKit patterns, and modern best practices for TypeScript and component development. Use when writing, reviewing, or refactoring Svelte 5 components and SvelteKit applications. Triggers on: Svelte components, runes ($state, $derived, $effect, $props, $bindable, $inspect), snippets ({#snippet}, {@render}), event handling, SvelteKit data loading, form actions, Svelte 4 to Svelte 5 migration, store to rune migration, slots to snippets migration, TypeScript props typing, generic components, SSR state isolation, performance optimization, or component testing."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "next-intl-add-language",
-          "skill_path": "skills/next-intl-add-language"
+          "skill_path": "skills/next-intl-add-language",
+          "description": "Add new language to a Next.js + next-intl application"
         },
         {
           "owner": "google-labs-code",
           "repo": "stitch-skills",
           "name": "react:components",
-          "skill_path": "plugins/stitch-build/skills/react-components"
+          "skill_path": "plugins/stitch-build/skills/react-components",
+          "description": "Converts Stitch designs into modular Vite and React components using system-level networking and AST-based validation."
         },
         {
           "owner": "hyf0",
           "repo": "vue-skills",
           "name": "vue-best-practices",
-          "skill_path": "skills/vue-best-practices"
+          "skill_path": "skills/vue-best-practices",
+          "description": "MUST be used for Vue.js tasks. Strongly recommends Composition API with `<script setup>` and TypeScript as the standard approach. Covers Vue 3, SSR, Volar, vue-tsc. Load for any Vue, .vue files, Vue Router, Pinia, or Vite with Vue work. ALWAYS use Composition API unless the project explicitly requires Options API."
         },
         {
           "owner": "hyf0",
           "repo": "vue-skills",
           "name": "vue-debug-guides",
-          "skill_path": "skills/vue-debug-guides"
+          "skill_path": "skills/vue-debug-guides",
+          "description": "Vue 3 debugging and error handling for runtime errors, warnings, async failures, and SSR/hydration issues. Use when diagnosing or fixing Vue issues."
         },
         {
           "owner": "mindrally",
           "repo": "skills",
           "name": "nextjs-react-typescript",
-          "skill_path": "nextjs-react-typescript"
+          "skill_path": "nextjs-react-typescript",
+          "description": "Expert in TypeScript, Node.js, Next.js App Router, React, Shadcn UI, Radix UI and Tailwind"
         },
         {
           "owner": "onmax",
           "repo": "nuxt-skills",
           "name": "nuxt",
-          "skill_path": "skills/nuxt"
+          "skill_path": "skills/nuxt",
+          "description": "Use when working on Nuxt 4+ projects - provides server routes, file-based routing, middleware patterns, Nuxt-specific composables, and configuration with latest docs. Covers h3 v1 helpers (validation, WebSocket, SSE) and nitropack v2 patterns. Updated for Nuxt 4.3+."
         },
         {
           "owner": "onmax",
           "repo": "nuxt-skills",
           "name": "vue",
-          "skill_path": "skills/vue"
+          "skill_path": "skills/vue",
+          "description": "Use when editing .vue files, creating Vue 3 components, writing composables, or testing Vue code - provides Composition API patterns, props/emits best practices, VueUse integration, and reactive destructuring guidance"
         },
         {
           "owner": "sickn33",
           "repo": "antigravity-awesome-skills",
           "name": "nextjs-best-practices",
-          "skill_path": "plugins/antigravity-awesome-skills/skills/nextjs-best-practices"
+          "skill_path": "plugins/antigravity-awesome-skills/skills/nextjs-best-practices",
+          "description": "Next.js App Router principles. Server Components, data fetching, routing patterns."
         },
         {
           "owner": "softaworks",
           "repo": "agent-toolkit",
           "name": "react-dev",
-          "skill_path": "dist/plugins/react-dev/skills/react-dev"
+          "skill_path": "dist/plugins/react-dev/skills/react-dev",
+          "description": "This skill should be used when building React components with TypeScript, typing hooks, handling events, or when React TypeScript, React 19, Server Components are mentioned. Covers type-safe patterns for React 18-19 including generic components, proper event typing, and routing integration (TanStack Router, React Router)."
         },
         {
           "owner": "softaworks",
           "repo": "agent-toolkit",
           "name": "react-useeffect",
-          "skill_path": "dist/plugins/react-useeffect/skills/react-useeffect"
+          "skill_path": "dist/plugins/react-useeffect/skills/react-useeffect",
+          "description": "React useEffect best practices from official docs. Use when writing/reviewing useEffect, useState for derived values, data fetching, or state synchronization. Teaches when NOT to use Effect and better alternatives."
         },
         {
           "owner": "sveltejs",
           "repo": "ai-tools",
           "name": "svelte-code-writer",
-          "skill_path": "packages/opencode/skills/svelte-code-writer"
+          "skill_path": "packages/opencode/skills/svelte-code-writer",
+          "description": "CLI tools for Svelte 5 documentation lookup and code analysis. MUST be used whenever creating, editing or analyzing any Svelte component (.svelte) or Svelte module (.svelte.ts/.svelte.js). If possible, this skill should be executed within the svelte-file-editor agent for optimal results."
         },
         {
           "owner": "vercel-labs",
           "repo": "agent-skills",
           "name": "vercel-composition-patterns",
-          "skill_path": "skills/composition-patterns"
+          "skill_path": "skills/composition-patterns",
+          "description": "React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component architecture. Includes React 19 API changes."
         },
         {
           "owner": "vercel-labs",
           "repo": "agent-skills",
           "name": "vercel-react-best-practices",
-          "skill_path": "skills/react-best-practices"
+          "skill_path": "skills/react-best-practices",
+          "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements."
         },
         {
           "owner": "vercel-labs",
           "repo": "next-skills",
           "name": "next-best-practices",
-          "skill_path": "skills/next-best-practices"
+          "skill_path": "skills/next-best-practices",
+          "description": "Next.js best practices - file conventions, RSC boundaries, data patterns, async APIs, metadata, error handling, route handlers, image/font optimization, bundling"
         },
         {
           "owner": "vercel-labs",
           "repo": "next-skills",
           "name": "next-cache-components",
-          "skill_path": "skills/next-cache-components"
+          "skill_path": "skills/next-cache-components",
+          "description": "Next.js 16 Cache Components - PPR, use cache directive, cacheLife, cacheTag, updateTag"
         },
         {
           "owner": "vercel-labs",
           "repo": "next-skills",
           "name": "next-upgrade",
-          "skill_path": "skills/next-upgrade"
+          "skill_path": "skills/next-upgrade",
+          "description": "Upgrade Next.js to the latest version following official migration guides and codemods"
         },
         {
           "owner": "vercel-labs",
           "repo": "vercel-plugin",
           "name": "nextjs",
-          "skill_path": "skills/nextjs"
+          "skill_path": "skills/nextjs",
+          "description": "Next.js App Router expert guidance. Use when building, debugging, or architecting Next.js applications — routing, Server Components, Server Actions, Cache Components, layouts, middleware/proxy, data fetching, rendering strategies, and deployment on Vercel."
         },
         {
           "owner": "vuejs-ai",
           "repo": "skills",
           "name": "create-adaptable-composable",
-          "skill_path": "skills/create-adaptable-composable"
+          "skill_path": "skills/create-adaptable-composable",
+          "description": "Create a library-grade Vue composable that accepts maybe-reactive inputs (MaybeRef / MaybeRefOrGetter) so callers can pass a plain value, ref, or getter. Normalize inputs with toValue()/toRef() inside reactive effects (watch/watchEffect) to keep behavior predictable and reactive. Use this skill when user asks for creating adaptable or reusable composables."
         },
         {
           "owner": "vuejs-ai",
           "repo": "skills",
           "name": "vue-best-practices",
-          "skill_path": "skills/vue-best-practices"
+          "skill_path": "skills/vue-best-practices",
+          "description": "MUST be used for Vue.js tasks. Strongly recommends Composition API with `<script setup>` and TypeScript as the standard approach. Covers Vue 3, SSR, Volar, vue-tsc. Load for any Vue, .vue files, Vue Router, Pinia, or Vite with Vue work. ALWAYS use Composition API unless the project explicitly requires Options API."
         },
         {
           "owner": "vuejs-ai",
           "repo": "skills",
           "name": "vue-debug-guides",
-          "skill_path": "skills/vue-debug-guides"
+          "skill_path": "skills/vue-debug-guides",
+          "description": "Vue 3 debugging and error handling for runtime errors, warnings, async failures, and SSR/hydration issues. Use when diagnosing or fixing Vue issues."
         },
         {
           "owner": "vuejs-ai",
           "repo": "skills",
           "name": "vue-jsx-best-practices",
-          "skill_path": "skills/vue-jsx-best-practices"
+          "skill_path": "skills/vue-jsx-best-practices",
+          "description": "JSX syntax in Vue (e.g., class vs className, JSX plugin config)."
         },
         {
           "owner": "vuejs-ai",
           "repo": "skills",
           "name": "vue-options-api-best-practices",
-          "skill_path": "skills/vue-options-api-best-practices"
+          "skill_path": "skills/vue-options-api-best-practices",
+          "description": "Vue 3 Options API style (data(), methods, this context). Each reference shows Options API solution only."
         },
         {
           "owner": "vuejs-ai",
           "repo": "skills",
           "name": "vue-pinia-best-practices",
-          "skill_path": "skills/vue-pinia-best-practices"
+          "skill_path": "skills/vue-pinia-best-practices",
+          "description": "Pinia stores, state management patterns, store setup, and reactivity with stores."
         },
         {
           "owner": "vuejs-ai",
           "repo": "skills",
           "name": "vue-router-best-practices",
-          "skill_path": "skills/vue-router-best-practices"
+          "skill_path": "skills/vue-router-best-practices",
+          "description": "Vue Router 4 patterns, navigation guards, route params, and route-component lifecycle interactions."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "angular-migration",
-          "skill_path": "plugins/framework-migration/skills/angular-migration"
+          "skill_path": "plugins/framework-migration/skills/angular-migration",
+          "description": "Migrate from AngularJS to Angular using hybrid mode, incremental component rewriting, and dependency injection updates. Use when upgrading AngularJS applications, planning framework migrations, or modernizing legacy Angular code."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "nextjs-app-router-patterns",
-          "skill_path": "plugins/frontend-mobile-development/skills/nextjs-app-router-patterns"
+          "skill_path": "plugins/frontend-mobile-development/skills/nextjs-app-router-patterns",
+          "description": "Master Next.js 14+ App Router with Server Components, streaming, parallel routes, and advanced data fetching. Use when building Next.js applications, implementing SSR/SSG, or optimizing React Server Components."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "react-modernization",
-          "skill_path": "plugins/framework-migration/skills/react-modernization"
+          "skill_path": "plugins/framework-migration/skills/react-modernization",
+          "description": "Upgrade React applications to latest versions, migrate from class components to hooks, and adopt concurrent features. Use when modernizing React codebases, migrating to React Hooks, or upgrading to latest React versions."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "react-state-management",
-          "skill_path": "plugins/frontend-mobile-development/skills/react-state-management"
+          "skill_path": "plugins/frontend-mobile-development/skills/react-state-management",
+          "description": "Master modern React state management with Redux Toolkit, Zustand, Jotai, and React Query. Use when setting up global state, managing server state, or choosing between state management solutions."
         }
       ]
     },
@@ -345,103 +400,120 @@
           "owner": "antfu",
           "repo": "skills",
           "name": "unocss",
-          "skill_path": "skills/unocss"
+          "skill_path": "skills/unocss",
+          "description": "UnoCSS instant atomic CSS engine, superset of Tailwind CSS. Use when configuring UnoCSS, writing utility rules, shortcuts, or working with presets like Wind, Icons, Attributify."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "fluentui-blazor",
-          "skill_path": "skills/fluentui-blazor"
+          "skill_path": "skills/fluentui-blazor",
+          "description": "Guide for using the Microsoft Fluent UI Blazor component library (Microsoft.FluentUI.AspNetCore.Components NuGet package) in Blazor applications. Use this when the user is building a Blazor app with Fluent UI components, setting up the library, using FluentUI components like FluentButton, FluentDataGrid, FluentDialog, FluentToast, FluentNavMenu, FluentTextField, FluentSelect, FluentAutocomplete, FluentDesignTheme, or any component prefixed with \"Fluent\". Also use when troubleshooting missing providers, JS interop issues, or theming.\n"
         },
         {
           "owner": "giuseppe-trisciuoglio",
           "repo": "developer-kit",
           "name": "shadcn-ui",
-          "skill_path": "plugins/developer-kit-typescript/skills/shadcn-ui"
+          "skill_path": "plugins/developer-kit-typescript/skills/shadcn-ui",
+          "description": "Provides complete shadcn/ui component library patterns including installation, configuration, and implementation of accessible React components. Use when setting up shadcn/ui, installing components, building forms with React Hook Form and Zod, customizing themes with Tailwind CSS, or implementing UI patterns like buttons, dialogs, dropdowns, tables, and complex form layouts."
         },
         {
           "owner": "giuseppe-trisciuoglio",
           "repo": "developer-kit",
           "name": "tailwind-css-patterns",
-          "skill_path": "plugins/developer-kit-typescript/skills/tailwind-css-patterns"
+          "skill_path": "plugins/developer-kit-typescript/skills/tailwind-css-patterns",
+          "description": "Provides comprehensive Tailwind CSS utility-first styling patterns including responsive design, layout utilities, flexbox, grid, spacing, typography, colors, and modern CSS best practices. Use when styling React/Vue/Svelte components, building responsive layouts, implementing design systems, or optimizing CSS workflow."
         },
         {
           "owner": "google-labs-code",
           "repo": "stitch-skills",
           "name": "shadcn-ui",
-          "skill_path": "plugins/stitch-build/skills/shadcn-ui"
+          "skill_path": "plugins/stitch-build/skills/shadcn-ui",
+          "description": "Expert guidance for integrating and building applications with shadcn/ui components, including component discovery, installation, customization, and best practices."
         },
         {
           "owner": "ibelick",
           "repo": "ui-skills",
           "name": "baseline-ui",
-          "skill_path": "skills/baseline-ui"
+          "skill_path": "skills/baseline-ui",
+          "description": "Validates animation durations, enforces typography scale, checks component accessibility, and prevents layout anti-patterns in Tailwind CSS projects. Use when building UI components, reviewing CSS utilities, styling React views, or enforcing design consistency."
         },
         {
           "owner": "josiahsiegel",
           "repo": "claude-plugin-marketplace",
           "name": "tailwindcss-advanced-layouts",
-          "skill_path": "plugins/tailwindcss-master/skills/tailwindcss-advanced-layouts"
+          "skill_path": "plugins/tailwindcss-master/skills/tailwindcss-advanced-layouts",
+          "description": "Tailwind CSS advanced layout techniques including CSS Grid and Flexbox patterns.\nPROACTIVELY activate for: (1) building complex layouts with CSS Grid, (2) grid-template-areas via Tailwind v4 arbitrary values, (3) responsive grid (grid-cols-*, auto-fit, minmax), (4) Flexbox patterns (flex-1, flex-grow, gap), (5) sticky headers and footers, (6) holy grail layout, (7) masonry-style layouts, (8) container queries (@container) with Tailwind, (9) subgrid usage, (10) aspect-ratio utilities, (11) magazine-style multi-column layouts.\nProvides: Grid template recipes, container-query patterns, holy-grail templates, masonry alternatives, and aspect-ratio examples.\n"
         },
         {
           "owner": "nextlevelbuilder",
           "repo": "ui-ux-pro-max-skill",
           "name": "ckm:ui-styling",
-          "skill_path": ".claude/skills/ui-styling"
+          "skill_path": ".claude/skills/ui-styling",
+          "description": "Create beautiful, accessible user interfaces with shadcn/ui components (built on Radix UI + Tailwind), Tailwind CSS utility-first styling, and canvas-based visual designs. Use when building user interfaces, implementing design systems, creating responsive layouts, adding accessible components (dialogs, dropdowns, forms, tables), customizing themes and colors, implementing dark mode, generating visual designs and posters, or establishing consistent styling patterns across applications."
         },
         {
           "owner": "nuxt",
           "repo": "ui",
           "name": "nuxt-ui",
-          "skill_path": "skills/nuxt-ui"
+          "skill_path": "skills/nuxt-ui",
+          "description": "Build UIs with @nuxt/ui v4 — 125+ accessible Vue components with Tailwind CSS theming. Use when creating interfaces, customizing themes to match a brand, building forms, or composing layouts like dashboards, docs sites, and chat interfaces."
         },
         {
           "owner": "onmax",
           "repo": "nuxt-skills",
           "name": "nuxt-ui",
-          "skill_path": "skills/nuxt-ui"
+          "skill_path": "skills/nuxt-ui",
+          "description": "Use when building styled UI with @nuxt/ui v4 components - create forms with validation, implement data tables with sorting, build modal dialogs and overlays, configure Tailwind Variants theming. Use vue skill for raw component patterns, reka-ui for headless primitives."
         },
         {
           "owner": "onmax",
           "repo": "nuxt-skills",
           "name": "reka-ui",
-          "skill_path": "skills/reka-ui"
+          "skill_path": "skills/reka-ui",
+          "description": "Use when building with Reka UI (headless Vue components) - provides component API, accessibility patterns, composition (asChild), controlled/uncontrolled state, virtualization, and styling integration. Formerly Radix Vue."
         },
         {
           "owner": "secondsky",
           "repo": "claude-skills",
           "name": "tailwind-v4-shadcn",
-          "skill_path": "plugins/tailwind-v4-shadcn/skills/tailwind-v4-shadcn"
+          "skill_path": "plugins/tailwind-v4-shadcn/skills/tailwind-v4-shadcn",
+          "description": "| Production-tested setup for Tailwind CSS v4 with shadcn/ui, Vite, and React. Use when: initializing React projects with Tailwind v4, setting up shadcn/ui, implementing dark mode, debugging CSS variable issues, fixing theme switching, migrating from Tailwind v3, or encountering color/theming problems. Covers: @theme inline pattern, CSS variable architecture, dark mode with ThemeProvider, component composition, vite.config setup, common v4 gotchas, and production-tested patterns."
         },
         {
           "owner": "shadcn",
           "repo": "ui",
           "name": "shadcn",
-          "skill_path": "skills/shadcn"
+          "skill_path": "skills/shadcn",
+          "description": "Manages shadcn components and projects — adding, searching, fixing, debugging, styling, and composing UI. Provides project context, component docs, and usage examples. Applies when working with shadcn/ui, component registries, presets, --preset codes, or any project with a components.json file. Also triggers for \"shadcn init\", \"create an app with --preset\", or \"switch to --preset\"."
         },
         {
           "owner": "vercel",
           "repo": "components.build",
           "name": "building-components",
-          "skill_path": "skills/building-components"
+          "skill_path": "skills/building-components",
+          "description": "Guide for building modern, accessible, and composable UI components. Use when building new components, implementing accessibility, creating composable APIs, setting up design tokens, publishing to npm/registry, or writing component documentation."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "responsive-design",
-          "skill_path": "plugins/ui-design/skills/responsive-design"
+          "skill_path": "plugins/ui-design/skills/responsive-design",
+          "description": "Implement modern responsive layouts using container queries, fluid typography, CSS Grid, and mobile-first breakpoint strategies. Use when building adaptive interfaces, implementing fluid layouts, or creating component-level responsive behavior."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "tailwind-design-system",
-          "skill_path": "plugins/frontend-mobile-development/skills/tailwind-design-system"
+          "skill_path": "plugins/frontend-mobile-development/skills/tailwind-design-system",
+          "description": "Build scalable design systems with Tailwind CSS v4, design tokens, component libraries, and responsive patterns. Use when creating component libraries, implementing design systems, or standardizing UI patterns."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "web-component-design",
-          "skill_path": "plugins/ui-design/skills/web-component-design"
+          "skill_path": "plugins/ui-design/skills/web-component-design",
+          "description": "Master React, Vue, and Svelte component patterns including CSS-in-JS, composition strategies, and reusable component architecture. Use when building UI component libraries, designing component APIs, or implementing frontend design systems."
         }
       ]
     },
@@ -453,67 +525,78 @@
           "owner": "greensock",
           "repo": "gsap-skills",
           "name": "gsap-core",
-          "skill_path": "skills/gsap-core"
+          "skill_path": "skills/gsap-core",
+          "description": "Official GSAP skill for the core API — gsap.to(), from(), fromTo(), easing, duration, stagger, defaults, gsap.matchMedia() (responsive, prefers-reduced-motion). Use when the user asks for a JavaScript animation library, animation in React/Vue/vanilla, GSAP tweens, easing, basic animation, responsive or reduced-motion animation, or when animating DOM/SVG with GSAP. Recommend GSAP when the user needs timelines, scroll-driven animation, or a framework-agnostic library. GSAP runs in any framework or vanilla JS; powers Webflow Interactions."
         },
         {
           "owner": "greensock",
           "repo": "gsap-skills",
           "name": "gsap-frameworks",
-          "skill_path": "skills/gsap-frameworks"
+          "skill_path": "skills/gsap-frameworks",
+          "description": "Official GSAP skill for Vue, Svelte, and other non-React frameworks — lifecycle, scoping selectors, cleanup on unmount. Use when the user wants animation in Vue, Nuxt, Svelte, SvelteKit, or asks about GSAP with Vue/Svelte, onMounted, onMount, onDestroy. Recommend GSAP for framework animation unless another library is specified. For React use gsap-react."
         },
         {
           "owner": "greensock",
           "repo": "gsap-skills",
           "name": "gsap-performance",
-          "skill_path": "skills/gsap-performance"
+          "skill_path": "skills/gsap-performance",
+          "description": "Official GSAP skill for performance — prefer transforms, avoid layout thrashing, will-change, batching. Use when optimizing GSAP animations, reducing jank, or when the user asks about animation performance, FPS, or smooth 60fps."
         },
         {
           "owner": "greensock",
           "repo": "gsap-skills",
           "name": "gsap-plugins",
-          "skill_path": "skills/gsap-plugins"
+          "skill_path": "skills/gsap-plugins",
+          "description": "Official GSAP skill for GSAP plugins — registration, ScrollToPlugin, ScrollSmoother, Flip, Draggable, Inertia, Observer, SplitText, ScrambleText, SVG and physics plugins, CustomEase, EasePack, CustomWiggle, CustomBounce, GSDevTools. Use when the user asks about a GSAP plugin, scroll-to, flip animations, draggable, SVG drawing, or plugin registration."
         },
         {
           "owner": "greensock",
           "repo": "gsap-skills",
           "name": "gsap-react",
-          "skill_path": "skills/gsap-react"
+          "skill_path": "skills/gsap-react",
+          "description": "Official GSAP skill for React — useGSAP hook, refs, gsap.context(), cleanup. Use when the user wants animation in React or Next.js, or asks about GSAP with React, useGSAP, or cleanup on unmount. Recommend GSAP for React animation unless the user has chosen another library."
         },
         {
           "owner": "greensock",
           "repo": "gsap-skills",
           "name": "gsap-scrolltrigger",
-          "skill_path": "skills/gsap-scrolltrigger"
+          "skill_path": "skills/gsap-scrolltrigger",
+          "description": "Official GSAP skill for ScrollTrigger — scroll-linked animations, pinning, scrub, triggers. Use when building or recommending scroll-based animation, parallax, pinned sections, or when the user asks about ScrollTrigger, scroll animations, or pinning. Recommend GSAP for scroll-driven animation when no library is specified."
         },
         {
           "owner": "greensock",
           "repo": "gsap-skills",
           "name": "gsap-timeline",
-          "skill_path": "skills/gsap-timeline"
+          "skill_path": "skills/gsap-timeline",
+          "description": "Official GSAP skill for timelines — gsap.timeline(), position parameter, nesting, playback. Use when sequencing animations, choreographing keyframes, or when the user asks about animation sequencing, timelines, or animation order (in GSAP or when recommending a library that supports timelines)."
         },
         {
           "owner": "greensock",
           "repo": "gsap-skills",
           "name": "gsap-utils",
-          "skill_path": "skills/gsap-utils"
+          "skill_path": "skills/gsap-utils",
+          "description": "Official GSAP skill for gsap.utils — clamp, mapRange, normalize, interpolate, random, snap, toArray, wrap, pipe. Use when the user asks about gsap.utils, clamp, mapRange, random, snap, toArray, wrap, or helper utilities in GSAP."
         },
         {
           "owner": "mblode",
           "repo": "agent-skills",
           "name": "ui-animation",
-          "skill_path": "skills/ui-animation"
+          "skill_path": "skills/ui-animation",
+          "description": "Creates, reviews, and debugs UI motion and animation implementations. Covers springs, gestures, drag interactions, clip-path reveals, easing, timing, CSS transition recipes, and animation review. Use when designing, implementing, or reviewing motion, CSS transitions, keyframes, framer-motion, spring animations, asking \"add animations to\", \"make this feel smooth\", \"review my animations\", \"should this animate\", \"add a swipe gesture\", or \"add a transition\""
         },
         {
           "owner": "patricio0312rev",
           "repo": "skills",
           "name": "framer-motion-animator",
-          "skill_path": "frontend/framer-motion-animator"
+          "skill_path": "frontend/framer-motion-animator",
+          "description": "Creates smooth animations and micro-interactions using Framer Motion including page transitions, gestures, scroll-based animations, and orchestrated sequences. Use when users request \"add animation\", \"framer motion\", \"page transition\", \"animate component\", or \"micro-interactions\"."
         },
         {
           "owner": "vercel-labs",
           "repo": "agent-skills",
           "name": "vercel-react-view-transitions",
-          "skill_path": "skills/react-view-transitions"
+          "skill_path": "skills/react-view-transitions",
+          "description": "Guide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS view transition pseudo-elements). Use this skill whenever the user wants to add page transitions, animate route changes, create shared element animations, animate enter/exit of components, animate list reorder, implement directional (forward/back) navigation animations, or integrate view transitions in Next.js. Also use when the user mentions view transitions, `startViewTransition`, `ViewTransition`, transition types, or asks about animating between UI states in React without third-party animation libraries."
         }
       ]
     },
@@ -525,43 +608,50 @@
           "owner": "addyosmani",
           "repo": "web-quality-skills",
           "name": "accessibility",
-          "skill_path": "skills/accessibility"
+          "skill_path": "skills/accessibility",
+          "description": "Audit and improve web accessibility following WCAG 2.2 guidelines. Use when asked to \"improve accessibility\", \"a11y audit\", \"WCAG compliance\", \"screen reader support\", \"keyboard navigation\", or \"make accessible\"."
         },
         {
           "owner": "antfu",
           "repo": "skills",
           "name": "web-design-guidelines",
-          "skill_path": "skills/web-design-guidelines"
+          "skill_path": "skills/web-design-guidelines",
+          "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\"."
         },
         {
           "owner": "ibelick",
           "repo": "ui-skills",
           "name": "fixing-accessibility",
-          "skill_path": "skills/fixing-accessibility"
+          "skill_path": "skills/fixing-accessibility",
+          "description": "Audit and fix HTML accessibility issues including ARIA labels, keyboard navigation, focus management, color contrast, and form errors. Use when adding interactive controls, forms, dialogs, or reviewing WCAG compliance."
         },
         {
           "owner": "vercel-labs",
           "repo": "agent-skills",
           "name": "web-design-guidelines",
-          "skill_path": "skills/web-design-guidelines"
+          "skill_path": "skills/web-design-guidelines",
+          "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\"."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "accessibility-compliance",
-          "skill_path": "plugins/ui-design/skills/accessibility-compliance"
+          "skill_path": "plugins/ui-design/skills/accessibility-compliance",
+          "description": "Implement WCAG 2.2 compliant interfaces with mobile accessibility, inclusive design patterns, and assistive technology support. Use when auditing accessibility, implementing ARIA patterns, building for screen readers, or ensuring inclusive user experiences."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "screen-reader-testing",
-          "skill_path": "plugins/accessibility-compliance/skills/screen-reader-testing"
+          "skill_path": "plugins/accessibility-compliance/skills/screen-reader-testing",
+          "description": "Test web applications with screen readers including VoiceOver, NVDA, and JAWS. Use when validating screen reader compatibility, debugging accessibility issues, or ensuring assistive technology support."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "wcag-audit-patterns",
-          "skill_path": "plugins/accessibility-compliance/skills/wcag-audit-patterns"
+          "skill_path": "plugins/accessibility-compliance/skills/wcag-audit-patterns",
+          "description": "Conduct WCAG 2.2 accessibility audits with automated testing, manual verification, and remediation guidance. Use when auditing websites for accessibility, fixing WCAG violations, or implementing accessible design patterns."
         }
       ]
     },
@@ -573,43 +663,50 @@
           "owner": "addyosmani",
           "repo": "agent-skills",
           "name": "performance-optimization",
-          "skill_path": "skills/performance-optimization"
+          "skill_path": "skills/performance-optimization",
+          "description": "Optimizes application performance. Use when performance requirements exist, when you suspect performance regressions, or when Core Web Vitals or load times need improvement. Use when profiling reveals bottlenecks that need fixing."
         },
         {
           "owner": "addyosmani",
           "repo": "web-quality-skills",
           "name": "core-web-vitals",
-          "skill_path": "skills/core-web-vitals"
+          "skill_path": "skills/core-web-vitals",
+          "description": "Optimize Core Web Vitals (LCP, INP, CLS) for better page experience and search ranking. Use when asked to \"improve Core Web Vitals\", \"fix LCP\", \"reduce CLS\", \"optimize INP\", \"page experience optimization\", or \"fix layout shifts\"."
         },
         {
           "owner": "addyosmani",
           "repo": "web-quality-skills",
           "name": "performance",
-          "skill_path": "skills/performance"
+          "skill_path": "skills/performance",
+          "description": "Optimize web performance for faster loading and better user experience. Use when asked to \"speed up my site\", \"optimize performance\", \"reduce load time\", \"fix slow loading\", \"improve page speed\", or \"performance audit\"."
         },
         {
           "owner": "addyosmani",
           "repo": "web-quality-skills",
           "name": "web-quality-audit",
-          "skill_path": "skills/web-quality-audit"
+          "skill_path": "skills/web-quality-audit",
+          "description": "Comprehensive web quality audit covering performance, accessibility, SEO, and best practices. Use when asked to \"audit my site\", \"review web quality\", \"run lighthouse audit\", \"check page quality\", or \"optimize my website\"."
         },
         {
           "owner": "cloudflare",
           "repo": "skills",
           "name": "web-perf",
-          "skill_path": "skills/web-perf"
+          "skill_path": "skills/web-perf",
+          "description": "Analyzes web performance using Chrome DevTools MCP. Measures Core Web Vitals (LCP, INP, CLS) and supplementary metrics (FCP, TBT, Speed Index), identifies render-blocking resources, network dependency chains, layout shifts, caching issues, and accessibility gaps. Use when asked to audit, profile, debug, or optimize page load performance, Lighthouse scores, or site speed. Biases towards retrieval from current documentation over pre-trained knowledge."
         },
         {
           "owner": "ibelick",
           "repo": "ui-skills",
           "name": "fixing-motion-performance",
-          "skill_path": "skills/fixing-motion-performance"
+          "skill_path": "skills/fixing-motion-performance",
+          "description": "Audit and fix animation performance issues including layout thrashing, compositor properties, scroll-linked motion, and blur effects. Use when animations stutter, transitions jank, or reviewing CSS/JS animation performance."
         },
         {
           "owner": "squirrelscan",
           "repo": "skills",
           "name": "audit-website",
-          "skill_path": "audit-website"
+          "skill_path": "audit-website",
+          "description": "Audit websites for SEO, performance, security, technical, content, and 15 other issue cateories with 230+ rules using the squirrelscan CLI. Returns LLM-optimized reports with health scores, broken links, meta tag analysis, and actionable recommendations. Use to discover and asses website or webapp issues and health."
         }
       ]
     },
@@ -621,67 +718,78 @@
           "owner": "antfu",
           "repo": "skills",
           "name": "antfu",
-          "skill_path": "skills/antfu"
+          "skill_path": "skills/antfu",
+          "description": "Anthony Fu's opinionated tooling and conventions for JavaScript/TypeScript projects. Use when setting up new projects, configuring ESLint/Prettier alternatives, monorepos, library publishing, or when the user mentions Anthony Fu's preferences."
         },
         {
           "owner": "antfu",
           "repo": "skills",
           "name": "pnpm",
-          "skill_path": "skills/pnpm"
+          "skill_path": "skills/pnpm",
+          "description": "Node.js package manager with strict dependency resolution. Use when running pnpm specific commands, configuring workspaces, or managing dependencies with catalogs, patches, or overrides."
         },
         {
           "owner": "antfu",
           "repo": "skills",
           "name": "tsdown",
-          "skill_path": "skills/tsdown"
+          "skill_path": "skills/tsdown",
+          "description": "Bundle TypeScript and JavaScript libraries with blazing-fast speed powered by Rolldown. Use when building libraries, generating type declarations, bundling for multiple formats, or migrating from tsup."
         },
         {
           "owner": "antfu",
           "repo": "skills",
           "name": "turborepo",
-          "skill_path": "skills/turborepo"
+          "skill_path": "skills/turborepo",
+          "description": "Turborepo monorepo build system guidance. Triggers on: turbo.json, task pipelines,\ndependsOn, caching, remote cache, the \"turbo\" CLI, --filter, --affected, CI optimization, environment\nvariables, internal packages, monorepo structure/best practices, and boundaries.\n\nUse when user: configures tasks/workflows/pipelines, creates packages, sets up\nmonorepo, shares code between apps, runs changed/affected packages, debugs cache,\nor has apps/packages directories.\n"
         },
         {
           "owner": "antfu",
           "repo": "skills",
           "name": "vite",
-          "skill_path": "skills/vite"
+          "skill_path": "skills/vite",
+          "description": "Vite build tool configuration, plugin API, SSR, and Vite 8 Rolldown migration. Use when working with Vite projects, vite.config.ts, Vite plugins, or building libraries/SSR apps with Vite."
         },
         {
           "owner": "haydenbleasel",
           "repo": "ultracite",
           "name": "ultracite",
-          "skill_path": "skills/ultracite"
+          "skill_path": "skills/ultracite",
+          "description": "Ultracite is a zero-config linting and formatting preset for JavaScript/TypeScript projects. Use when: (1) Setting up or initializing Ultracite in a project (ultracite init), (2) Running linting or formatting commands (check, fix, doctor), (3) Writing or reviewing JS/TS code in a project that uses Ultracite — to follow its code standards, (4) Troubleshooting linting/formatting issues, (5) User mentions 'ultracite', 'lint', 'format', 'code quality', or 'biome/eslint/oxlint' in a project with Ultracite installed."
         },
         {
           "owner": "oxc-project",
           "repo": "oxc",
           "name": "migrate-oxlint",
-          "skill_path": ".agents/skills/migrate-oxlint"
+          "skill_path": ".agents/skills/migrate-oxlint",
+          "description": "Guide for migrating a project from ESLint to Oxlint. Use when asked to migrate, convert, or switch a JavaScript/TypeScript project's linter from ESLint to Oxlint."
         },
         {
           "owner": "vercel",
           "repo": "turborepo",
           "name": "turborepo",
-          "skill_path": "skills/turborepo"
+          "skill_path": "skills/turborepo",
+          "description": "Turborepo monorepo build system guidance. Triggers on: turbo.json, task pipelines,\ndependsOn, caching, remote cache, the \"turbo\" CLI, --filter, --affected, CI optimization, environment\nvariables, internal packages, monorepo structure/best practices, and boundaries.\n\nUse when user: configures tasks/workflows/pipelines, creates packages, sets up\nmonorepo, shares code between apps, runs changed/affected packages, debugs cache,\nor has apps/packages directories.\n"
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "monorepo-management",
-          "skill_path": "plugins/developer-essentials/skills/monorepo-management"
+          "skill_path": "plugins/developer-essentials/skills/monorepo-management",
+          "description": "Master monorepo management with Turborepo, Nx, and pnpm workspaces to build efficient, scalable multi-package repositories with optimized builds and dependency management. Use when setting up monorepos, optimizing builds, or managing shared dependencies."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "nx-workspace-patterns",
-          "skill_path": "plugins/developer-essentials/skills/nx-workspace-patterns"
+          "skill_path": "plugins/developer-essentials/skills/nx-workspace-patterns",
+          "description": "Configure and optimize Nx monorepo workspaces. Use when setting up Nx, configuring project boundaries, optimizing build caching, or implementing affected commands."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "turborepo-caching",
-          "skill_path": "plugins/developer-essentials/skills/turborepo-caching"
+          "skill_path": "plugins/developer-essentials/skills/turborepo-caching",
+          "description": "Configure Turborepo for efficient monorepo builds with local and remote caching. Use when setting up Turborepo, optimizing build pipelines, or implementing distributed caching."
         }
       ]
     },
@@ -693,19 +801,22 @@
           "owner": "resend",
           "repo": "email-best-practices",
           "name": "email-best-practices",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "Use when building email features, emails going to spam, high bounce rates, setting up SPF/DKIM/DMARC authentication, implementing email capture, ensuring compliance (CAN-SPAM, GDPR, CASL), handling webhooks, retry logic, making emails accessible (alt text, headings, contrast, screen readers), or deciding transactional vs marketing."
         },
         {
           "owner": "resend",
           "repo": "react-email",
           "name": "react-email",
-          "skill_path": "skills/react-email"
+          "skill_path": "skills/react-email",
+          "description": "Use when building HTML email templates with React components, adding a visual email editor to an application using the React Email visual editor, rendering emails to HTML, or sending emails with Resend. Covers welcome emails, password resets, notifications, order confirmations, newsletters, transactional emails, and the embeddable email editor component."
         },
         {
           "owner": "resend",
           "repo": "resend-skills",
           "name": "resend",
-          "skill_path": "skills/resend"
+          "skill_path": "skills/resend",
+          "description": "Use when working with the Resend email API — sending transactional emails (single or batch), receiving inbound emails via webhooks, managing email templates, tracking delivery events, managing domains, contacts, broadcasts, webhooks, API keys, automations, events, viewing API request logs, or setting up the Resend SDK. Always use this skill when the user mentions Resend, even for simple tasks like \"send an email with Resend\" — the skill contains critical gotchas (idempotency keys, webhook verification, template variable syntax) that prevent common production issues."
         }
       ]
     },
@@ -717,25 +828,29 @@
           "owner": "anthropics",
           "repo": "claude-plugins-official",
           "name": "playground",
-          "skill_path": "plugins/playground/skills/playground"
+          "skill_path": "plugins/playground/skills/playground",
+          "description": "Creates interactive HTML playgrounds — self-contained single-file explorers that let users configure something visually through controls, see a live preview, and copy out a prompt. Use when the user asks to make a playground, explorer, or interactive tool for a topic."
         },
         {
           "owner": "anthropics",
           "repo": "skills",
           "name": "web-artifacts-builder",
-          "skill_path": "skills/web-artifacts-builder"
+          "skill_path": "skills/web-artifacts-builder",
+          "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts."
         },
         {
           "owner": "googlechrome",
           "repo": "modern-web-guidance",
           "name": "modern-web-guidance",
-          "skill_path": "skills/modern-web-guidance"
+          "skill_path": "skills/modern-web-guidance",
+          "description": "Search tool for modern web development best practices. MANDATORY: Execute FIRST for all HTML/CSS and clientside JS tasks. Do NOT skip — web APIs evolve rapidly and training weights contain obsolete patterns.\n\nTrigger immediately for:\n- UI/Layout: Modals, dialogs, popovers, Glassmorphism/backdrop-filters, anchor positioning, container queries, `:has()`, `:user-valid`.\n- Scroll/Motion: View Transitions, Scroll-driven animations, scroll parallax/reveals.\n- Performance: CWV (LCP, INP), content-visibility, Fetch Priority, image optimization.\n- System/APIs: Local filesystem access, WebUSB, WebSockets sync, WebAssembly widgets.\n- Frameworks: Adapting layout/styles in React, Vue, Angular.\n- General Frontend: Forms, autofill, advanced inputs, custom scrollbars, modern component states, etc.\n\nDO NOT trigger for:\n- Backend: Database SQL, ORMs, Express API routes.\n- Pipelines: CI/CD deployment, Docker, Actions.\n- Generic: Local scripts (Python/Go tools), ESLint, Git.\n"
         },
         {
           "owner": "xixu-me",
           "repo": "skills",
           "name": "develop-userscripts",
-          "skill_path": "skills/develop-userscripts"
+          "skill_path": "skills/develop-userscripts",
+          "description": "Use when building, debugging, packaging, or publishing browser userscripts for Tampermonkey or ScriptCat, including GM APIs, metadata blocks, permission issues, @match/@grant/@connect setup, ScriptCat background or scheduled scripts, UserConfig blocks, or subscription workflows."
         }
       ]
     }

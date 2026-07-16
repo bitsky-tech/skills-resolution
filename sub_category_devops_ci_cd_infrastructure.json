@@ -9,31 +9,36 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "docker-patterns",
-          "skill_path": ".kiro/skills/docker-patterns"
+          "skill_path": ".kiro/skills/docker-patterns",
+          "description": "Docker and Docker Compose patterns for local development, container security, networking, volume strategies, and multi-service orchestration. Use when setting up containerized development environments or reviewing Docker configurations.\n"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "containerize-aspnet-framework",
-          "skill_path": "skills/containerize-aspnet-framework"
+          "skill_path": "skills/containerize-aspnet-framework",
+          "description": "Containerize an ASP.NET .NET Framework project by creating Dockerfile and .dockerfile files customized for the project."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "containerize-aspnetcore",
-          "skill_path": "skills/containerize-aspnetcore"
+          "skill_path": "skills/containerize-aspnetcore",
+          "description": "Containerize an ASP.NET Core project by creating Dockerfile and .dockerfile files customized for the project."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "multi-stage-dockerfile",
-          "skill_path": "plugins/devops-oncall/skills/multi-stage-dockerfile"
+          "skill_path": "plugins/devops-oncall/skills/multi-stage-dockerfile",
+          "description": "Create optimized multi-stage Dockerfiles for any language or framework"
         },
         {
           "owner": "sickn33",
           "repo": "antigravity-awesome-skills",
           "name": "docker-expert",
-          "skill_path": "plugins/antigravity-awesome-skills/skills/docker-expert"
+          "skill_path": "plugins/antigravity-awesome-skills/skills/docker-expert",
+          "description": "You are an advanced Docker containerization expert with comprehensive, practical knowledge of container optimization, security hardening, multi-stage builds, orchestration patterns, and production deployment strategies based on current industry best practices."
         }
       ]
     },
@@ -45,43 +50,50 @@
           "owner": "google",
           "repo": "skills",
           "name": "gke-basics",
-          "skill_path": "skills/cloud/gke-basics"
+          "skill_path": "skills/cloud/gke-basics",
+          "description": "Plan, create, and configure production-ready Google Kubernetes Engine (GKE) clusters using the golden path Autopilot configuration. Covers Day-0 checklist, Autopilot vs Standard, networking (private clusters, VPC-native, Gateway API), security (Workload Identity, Secret Manager, RBAC hardening), observability, scaling, cost optimization, and AI/ML inference. WHEN: create GKE cluster, provision GKE environment, design GKE networking, secure GKE, optimize GKE cost, GKE autoscaling, GKE inference, GKE upgrade, GKE observability, GKE multi-tenancy, GKE batch, GKE HPC, GKE compute class."
         },
         {
           "owner": "jeffallan",
           "repo": "claude-skills",
           "name": "kubernetes-specialist",
-          "skill_path": "skills/kubernetes-specialist"
+          "skill_path": "skills/kubernetes-specialist",
+          "description": "Use when deploying or managing Kubernetes workloads. Invoke to create deployment manifests, configure pod security policies, set up service accounts, define network isolation rules, debug pod crashes, analyze resource limits, inspect container logs, or right-size workloads. Use for Helm charts, RBAC policies, NetworkPolicies, storage configuration, performance optimization, GitOps pipelines, and multi-cluster management."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "helm-chart-scaffolding",
-          "skill_path": "plugins/kubernetes-operations/skills/helm-chart-scaffolding"
+          "skill_path": "plugins/kubernetes-operations/skills/helm-chart-scaffolding",
+          "description": "Design, organize, and manage Helm charts for templating and packaging Kubernetes applications with reusable configurations. Use when creating Helm charts, packaging Kubernetes applications, or implementing templated deployments."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "istio-traffic-management",
-          "skill_path": "plugins/cloud-infrastructure/skills/istio-traffic-management"
+          "skill_path": "plugins/cloud-infrastructure/skills/istio-traffic-management",
+          "description": "Configure Istio traffic management including routing, load balancing, circuit breakers, and canary deployments. Use when implementing service mesh traffic policies, progressive delivery, or resilience patterns."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "k8s-manifest-generator",
-          "skill_path": "plugins/kubernetes-operations/skills/k8s-manifest-generator"
+          "skill_path": "plugins/kubernetes-operations/skills/k8s-manifest-generator",
+          "description": "Create production-ready Kubernetes manifests for Deployments, Services, ConfigMaps, and Secrets following best practices and security standards. Use when generating Kubernetes YAML manifests, creating K8s resources, or implementing production-grade Kubernetes configurations."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "k8s-security-policies",
-          "skill_path": "plugins/kubernetes-operations/skills/k8s-security-policies"
+          "skill_path": "plugins/kubernetes-operations/skills/k8s-security-policies",
+          "description": "Implement Kubernetes security policies including NetworkPolicy, PodSecurityPolicy, and RBAC for production-grade security. Use when securing Kubernetes clusters, implementing network isolation, or enforcing pod security standards."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "linkerd-patterns",
-          "skill_path": "plugins/cloud-infrastructure/skills/linkerd-patterns"
+          "skill_path": "plugins/cloud-infrastructure/skills/linkerd-patterns",
+          "description": "Implement Linkerd service mesh patterns for lightweight, security-focused service mesh deployments. Use when setting up Linkerd, configuring traffic policies, or implementing zero-trust networking with minimal overhead."
         }
       ]
     },
@@ -93,37 +105,43 @@
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "import-infrastructure-as-code",
-          "skill_path": "plugins/azure-cloud-development/skills/import-infrastructure-as-code"
+          "skill_path": "plugins/azure-cloud-development/skills/import-infrastructure-as-code",
+          "description": "Import existing Azure resources into Terraform using Azure CLI discovery and Azure Verified Modules (AVM). Use when asked to reverse-engineer live Azure infrastructure, generate Infrastructure as Code from existing subscriptions/resource groups/resource IDs, map dependencies, derive exact import addresses from downloaded module source, prevent configuration drift, and produce AVM-based Terraform files ready for validation and planning across any Azure resource type."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "terraform-azurerm-set-diff-analyzer",
-          "skill_path": "skills/terraform-azurerm-set-diff-analyzer"
+          "skill_path": "skills/terraform-azurerm-set-diff-analyzer",
+          "description": "Analyze Terraform plan JSON output for AzureRM Provider to distinguish between false-positive diffs (order-only changes in Set-type attributes) and actual resource changes. Use when reviewing terraform plan output for Azure resources like Application Gateway, Load Balancer, Firewall, Front Door, NSG, and other resources with Set-type attributes that cause spurious diffs due to internal ordering changes."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "update-avm-modules-in-bicep",
-          "skill_path": "skills/update-avm-modules-in-bicep"
+          "skill_path": "skills/update-avm-modules-in-bicep",
+          "description": "Update Azure Verified Modules (AVM) to latest versions in Bicep files."
         },
         {
           "owner": "hashicorp",
           "repo": "agent-skills",
           "name": "terraform-style-guide",
-          "skill_path": "terraform/code-generation/skills/terraform-style-guide"
+          "skill_path": "terraform/code-generation/skills/terraform-style-guide",
+          "description": "Generate Terraform HCL code following HashiCorp's official style conventions and best practices. Use when writing, reviewing, or generating Terraform configurations."
         },
         {
           "owner": "hashicorp",
           "repo": "agent-skills",
           "name": "terraform-test",
-          "skill_path": "terraform/code-generation/skills/terraform-test"
+          "skill_path": "terraform/code-generation/skills/terraform-test",
+          "description": "Comprehensive guide for writing and running Terraform tests. Use when creating test files (.tftest.hcl), writing test scenarios with run blocks, validating infrastructure behavior with assertions, mocking providers and data sources, testing module outputs and resource configurations, or troubleshooting Terraform test syntax and execution."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "terraform-module-library",
-          "skill_path": "plugins/cloud-infrastructure/skills/terraform-module-library"
+          "skill_path": "plugins/cloud-infrastructure/skills/terraform-module-library",
+          "description": "Build reusable Terraform modules for AWS, Azure, GCP, and OCI infrastructure following infrastructure-as-code best practices. Use when creating infrastructure modules, standardizing cloud provisioning, or implementing reusable IaC components."
         }
       ]
     },
@@ -135,145 +153,169 @@
           "owner": "addyosmani",
           "repo": "agent-skills",
           "name": "ci-cd-and-automation",
-          "skill_path": "skills/ci-cd-and-automation"
+          "skill_path": "skills/ci-cd-and-automation",
+          "description": "Automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies."
         },
         {
           "owner": "addyosmani",
           "repo": "agent-skills",
           "name": "shipping-and-launch",
-          "skill_path": "skills/shipping-and-launch"
+          "skill_path": "skills/shipping-and-launch",
+          "description": "Prepares production launches. Use when preparing to deploy to production. Use when you need a pre-launch checklist, when setting up monitoring, when planning a staged rollout, or when you need a rollback strategy."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "deployment-patterns",
-          "skill_path": ".kiro/skills/deployment-patterns"
+          "skill_path": ".kiro/skills/deployment-patterns",
+          "description": "Deployment workflows, CI/CD pipeline patterns, Docker containerization, health checks, rollback strategies, and production readiness checklists for web applications. Use when setting up deployment infrastructure or planning releases.\n"
         },
         {
           "owner": "callstackincubator",
           "repo": "agent-skills",
           "name": "github-actions",
-          "skill_path": "skills/github-actions"
+          "skill_path": "skills/github-actions",
+          "description": "GitHub Actions workflow patterns for React Native iOS simulator and Android emulator cloud builds with downloadable artifacts. Use when setting up CI build pipelines or downloading GitHub Actions artifacts via gh CLI and GitHub API."
         },
         {
           "owner": "composiohq",
           "repo": "awesome-claude-skills",
           "name": "changelog-generator",
-          "skill_path": "changelog-generator"
+          "skill_path": "changelog-generator",
+          "description": "Automatically creates user-facing changelogs from git commits by analyzing commit history, categorizing changes, and transforming technical commits into clear, customer-friendly release notes. Turns hours of manual changelog writing into minutes of automated generation."
         },
         {
           "owner": "expo",
           "repo": "skills",
           "name": "expo-cicd-workflows",
-          "skill_path": "plugins/expo/skills/expo-cicd-workflows"
+          "skill_path": "plugins/expo/skills/expo-cicd-workflows",
+          "description": "Helps understand and write EAS workflow YAML files for Expo projects. Use this skill when the user asks about CI/CD or workflows in an Expo or EAS context, mentions .eas/workflows/, or wants help with EAS build pipelines or deployment automation."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "azure-devops-cli",
-          "skill_path": "skills/azure-devops-cli"
+          "skill_path": "skills/azure-devops-cli",
+          "description": "Manage Azure DevOps resources via CLI including projects, repos, pipelines, builds, pull requests, work items, artifacts, and service endpoints. Use when working with Azure DevOps, az commands, devops automation, CI/CD, or when user mentions Azure DevOps CLI."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "create-github-action-workflow-specification",
-          "skill_path": "skills/create-github-action-workflow-specification"
+          "skill_path": "skills/create-github-action-workflow-specification",
+          "description": "Create a formal specification for an existing GitHub Actions CI/CD workflow, optimized for AI consumption and workflow maintenance."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "devops-rollout-plan",
-          "skill_path": "skills/devops-rollout-plan"
+          "skill_path": "skills/devops-rollout-plan",
+          "description": "Generate comprehensive rollout plans with preflight checks, step-by-step deployment, verification signals, rollback procedures, and communication plans for infrastructure and application changes"
         },
         {
           "owner": "jeffallan",
           "repo": "claude-skills",
           "name": "devops-engineer",
-          "skill_path": "skills/devops-engineer"
+          "skill_path": "skills/devops-engineer",
+          "description": "Creates Dockerfiles, configures CI/CD pipelines, writes Kubernetes manifests, and generates Terraform/Pulumi infrastructure templates. Handles deployment automation, GitOps configuration, incident response runbooks, and internal developer platform tooling. Use when setting up CI/CD pipelines, containerizing applications, managing infrastructure as code, deploying to Kubernetes clusters, configuring cloud platforms, automating releases, or responding to production incidents. Invoke for pipelines, Docker, Kubernetes, GitOps, Terraform, GitHub Actions, on-call, or platform engineering."
         },
         {
           "owner": "jimliu",
           "repo": "baoyu-skills",
           "name": "release-skills",
-          "skill_path": ".claude/skills/release-skills"
+          "skill_path": ".claude/skills/release-skills",
+          "description": "Universal release workflow. Auto-detects version files and changelogs. Supports Node.js, Python, Rust, Claude Plugin, GitHub Releases, annotated tags, historical release backfill, and generic projects. Use when user says \"release\", \"发布\", \"new version\", \"bump version\", \"push\", \"推送\", \"release notes\", \"GitHub Release\", or \"回填 Release\"."
         },
         {
           "owner": "mattpocock",
           "repo": "skills",
           "name": "setup-pre-commit",
-          "skill_path": "skills/misc/setup-pre-commit"
+          "skill_path": "skills/misc/setup-pre-commit",
+          "description": "Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo. Use when user wants to add pre-commit hooks, set up Husky, configure lint-staged, or add commit-time formatting/typechecking/testing."
         },
         {
           "owner": "samber",
           "repo": "cc-skills-golang",
           "name": "golang-continuous-integration",
-          "skill_path": "skills/golang-continuous-integration"
+          "skill_path": "skills/golang-continuous-integration",
+          "description": "CI/CD pipeline configuration using GitHub Actions for Golang projects — testing, linting, SAST, security scanning, code coverage, Dependabot, Renovate, GoReleaser, code review automation, and release pipelines. Use when setting up or improving Go project CI, configuring GitHub Actions workflows, adding linters or security scanners, automating dependency updates, or adding quality gates."
         },
         {
           "owner": "softaworks",
           "repo": "agent-toolkit",
           "name": "dependency-updater",
-          "skill_path": "dist/plugins/dependency-updater/skills/dependency-updater"
+          "skill_path": "dist/plugins/dependency-updater/skills/dependency-updater",
+          "description": "Smart dependency management for any language. Auto-detects project type, applies safe updates automatically, prompts for major versions, diagnoses and fixes dependency issues."
         },
         {
           "owner": "warpdotdev",
           "repo": "common-skills",
           "name": "diagnose-ci-failures",
-          "skill_path": ".agents/skills/diagnose-ci-failures"
+          "skill_path": ".agents/skills/diagnose-ci-failures",
+          "description": "Diagnose CI failures for a PR using the GitHub CLI, extract error logs, and generate a plan to fix them. Use when the user asks to check CI status, pull CI issues, triage test failures, or investigate PR build failures."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "bazel-build-optimization",
-          "skill_path": "plugins/developer-essentials/skills/bazel-build-optimization"
+          "skill_path": "plugins/developer-essentials/skills/bazel-build-optimization",
+          "description": "Optimize Bazel builds for large-scale monorepos. Use when configuring Bazel, implementing remote execution, or optimizing build performance for enterprise codebases."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "changelog-automation",
-          "skill_path": "plugins/documentation-generation/skills/changelog-automation"
+          "skill_path": "plugins/documentation-generation/skills/changelog-automation",
+          "description": "Automate changelog generation from commits, PRs, and releases following Keep a Changelog format. Use when setting up release workflows, generating release notes, or standardizing commit conventions."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "dependency-upgrade",
-          "skill_path": "plugins/framework-migration/skills/dependency-upgrade"
+          "skill_path": "plugins/framework-migration/skills/dependency-upgrade",
+          "description": "Manage major dependency version upgrades with compatibility analysis, staged rollout, and comprehensive testing. Use when upgrading framework versions, updating major dependencies, or managing breaking changes in libraries."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "deployment-pipeline-design",
-          "skill_path": "plugins/cicd-automation/skills/deployment-pipeline-design"
+          "skill_path": "plugins/cicd-automation/skills/deployment-pipeline-design",
+          "description": "Design multi-stage CI/CD pipelines with approval gates, security checks, and deployment orchestration. Use this skill when designing zero-downtime deployment pipelines, implementing canary rollout strategies, setting up multi-environment promotion workflows, or debugging failed deployment gates in CI/CD."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "github-actions-templates",
-          "skill_path": "plugins/cicd-automation/skills/github-actions-templates"
+          "skill_path": "plugins/cicd-automation/skills/github-actions-templates",
+          "description": "Create production-ready GitHub Actions workflows for automated testing, building, and deploying applications. Use when setting up CI/CD with GitHub Actions, automating development workflows, or creating reusable workflow templates."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "gitlab-ci-patterns",
-          "skill_path": "plugins/cicd-automation/skills/gitlab-ci-patterns"
+          "skill_path": "plugins/cicd-automation/skills/gitlab-ci-patterns",
+          "description": "Build GitLab CI/CD pipelines with multi-stage workflows, caching, and distributed runners for scalable automation. Use when implementing GitLab CI/CD, optimizing pipeline performance, or setting up automated testing and deployment."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "gitops-workflow",
-          "skill_path": "plugins/kubernetes-operations/skills/gitops-workflow"
+          "skill_path": "plugins/kubernetes-operations/skills/gitops-workflow",
+          "description": "Implement GitOps workflows with ArgoCD and Flux for automated, declarative Kubernetes deployments with continuous reconciliation. Use when implementing GitOps practices, automating Kubernetes deployments, or setting up declarative infrastructure management."
         },
         {
           "owner": "xixu-me",
           "repo": "skills",
           "name": "github-actions-docs",
-          "skill_path": "skills/github-actions-docs"
+          "skill_path": "skills/github-actions-docs",
+          "description": "Use when users ask how to write, explain, customize, migrate, secure, or troubleshoot GitHub Actions workflows, workflow syntax, triggers, matrices, runners, reusable workflows, artifacts, caching, secrets, OIDC, deployments, custom actions, or Actions Runner Controller, especially when they need official GitHub documentation, exact links, or docs-grounded YAML guidance."
         },
         {
           "owner": "xixu-me",
           "repo": "skills",
           "name": "xget",
-          "skill_path": "skills/xget"
+          "skill_path": "skills/xget",
+          "description": "Use when tasks involve Xget URL rewriting, registry/package/container/API acceleration, integrating Xget into Git, download tools, package managers, container builds, AI SDKs, CI/CD, deployment, self-hosting, or adapting commands and config from the live README `Use Cases` section into files, environments, shells, or base URLs."
         }
       ]
     },
@@ -285,103 +327,120 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "canary-watch",
-          "skill_path": "skills/canary-watch"
+          "skill_path": "skills/canary-watch",
+          "description": "Use this skill to monitor and verify a deployed URL after releases — checks HTTP endpoints, SSE streams, static assets, console errors, and performance regressions after deploys, merges, or dependency upgrades. Smoke / canary / post-deploy verification."
         },
         {
           "owner": "boristane",
           "repo": "agent-skills",
           "name": "logging-best-practices",
-          "skill_path": "skills/logging-best-practices"
+          "skill_path": "skills/logging-best-practices",
+          "description": "Logging best practices focused on wide events (canonical log lines) for powerful debugging and analytics"
         },
         {
           "owner": "firebase",
           "repo": "agent-skills",
           "name": "firebase-crashlytics",
-          "skill_path": "skills/firebase-crashlytics"
+          "skill_path": "skills/firebase-crashlytics",
+          "description": "Comprehensive guide for Firebase Crashlytics, including provisioning and SDK usage. Use this skill when the user needs help setting up Crashlytics, adding crash reporting, or using the Crashlytics SDK in their application."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "appinsights-instrumentation",
-          "skill_path": "skills/appinsights-instrumentation"
+          "skill_path": "skills/appinsights-instrumentation",
+          "description": "Instrument a webapp to send useful telemetry data to Azure App Insights"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "azure-resource-health-diagnose",
-          "skill_path": "plugins/azure-cloud-development/skills/azure-resource-health-diagnose"
+          "skill_path": "plugins/azure-cloud-development/skills/azure-resource-health-diagnose",
+          "description": "Analyze Azure resource health, diagnose issues from logs and telemetry, and create a remediation plan for identified problems."
         },
         {
           "owner": "google",
           "repo": "skills",
           "name": "google-cloud-waf-reliability",
-          "skill_path": "skills/cloud/google-cloud-waf-reliability"
+          "skill_path": "skills/cloud/google-cloud-waf-reliability",
+          "description": "Generates reliability-focused guidance for Google Cloud workloads based on the design principles and recommendations in the Google Cloud Well-Architected Framework. Use this skill to evaluate a workload, identify reliability requirements, and provide actionable recommendations for build, deploy, and manage the workload reliably in Google Cloud."
         },
         {
           "owner": "microsoft",
           "repo": "azure-skills",
           "name": "azure-diagnostics",
-          "skill_path": ".github/plugins/azure-skills/skills/azure-diagnostics"
+          "skill_path": ".github/plugins/azure-skills/skills/azure-diagnostics",
+          "description": "Debug Azure production issues on Azure using AppLens, Azure Monitor, resource health, and safe triage. WHEN: debug production issues, troubleshoot app service, app service high CPU, app service deployment failure, troubleshoot container apps, troubleshoot functions, troubleshoot AKS, kubectl cannot connect, kube-system/CoreDNS failures, pod pending, crashloop, node not ready, upgrade failures, analyze logs, KQL, insights, image pull failures, cold start issues, health probe failures, resource health, root cause of errors, troubleshoot event hubs, troubleshoot service bus, messaging SDK error, AMQP connection failure, message lock lost, service bus dead letter."
         },
         {
           "owner": "microsoft",
           "repo": "azure-skills",
           "name": "azure-reliability",
-          "skill_path": ".github/plugins/azure-skills/skills/azure-reliability"
+          "skill_path": ".github/plugins/azure-skills/skills/azure-reliability",
+          "description": "Assess and improve the reliability posture of PaaS Applications (Azure Functions and Azure App Service). Scans deployed resources for zone redundancy, ZRS storage, health probes, and multi-region failover. Presents a feature-pivoted checklist, then drives staged remediation (CLI or IaC patches) end-to-end with user confirmation. WHEN: \"assess reliability\", \"check reliability\", \"zone redundant\", \"multi-region failover\", \"high availability\", \"disaster recovery\", \"single points of failure\", \"reliability posture\", \"resiliency\"."
         },
         {
           "owner": "samber",
           "repo": "cc-skills-golang",
           "name": "golang-observability",
-          "skill_path": "skills/golang-observability"
+          "skill_path": "skills/golang-observability",
+          "description": "Golang everyday observability — the always-on signals in production. Covers structured logging with slog, Prometheus metrics, OpenTelemetry distributed tracing, continuous profiling with pprof/Pyroscope, server-side RUM event tracking, alerting, and Grafana dashboards. Apply when instrumenting Go services for production monitoring, setting up metrics or alerting, adding OpenTelemetry tracing, correlating logs with traces, migrating legacy loggers (zap/logrus/zerolog) to slog, adding observability to new features, or implementing GDPR/CCPA-compliant tracking with Customer Data Platforms (CDP). Not for temporary deep-dive performance investigation (→ See `samber/cc-skills-golang@golang-benchmark` and `samber/cc-skills-golang@golang-performance` skills)."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "distributed-tracing",
-          "skill_path": "plugins/observability-monitoring/skills/distributed-tracing"
+          "skill_path": "plugins/observability-monitoring/skills/distributed-tracing",
+          "description": "Implement distributed tracing with Jaeger and Tempo to track requests across microservices and identify performance bottlenecks. Use when debugging microservices, analyzing request flows, or implementing observability for distributed systems."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "grafana-dashboards",
-          "skill_path": "plugins/observability-monitoring/skills/grafana-dashboards"
+          "skill_path": "plugins/observability-monitoring/skills/grafana-dashboards",
+          "description": "Create and manage production Grafana dashboards for real-time visualization of system and application metrics. Use when building monitoring dashboards, visualizing metrics, or creating operational observability interfaces."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "incident-runbook-templates",
-          "skill_path": "plugins/incident-response/skills/incident-runbook-templates"
+          "skill_path": "plugins/incident-response/skills/incident-runbook-templates",
+          "description": "Create structured incident response runbooks with step-by-step procedures, escalation paths, and recovery actions. Use this skill when building a service outage runbook for a payment processing system; creating database incident procedures covering connection pool exhaustion, replication lag, and disk space alerts; onboarding new on-call engineers who need step-by-step recovery guides written for a 3 AM brain; or standardizing escalation matrices across multiple engineering teams."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "on-call-handoff-patterns",
-          "skill_path": "plugins/incident-response/skills/on-call-handoff-patterns"
+          "skill_path": "plugins/incident-response/skills/on-call-handoff-patterns",
+          "description": "Master on-call shift handoffs with context transfer, escalation procedures, and documentation. Use this skill when transitioning on-call responsibilities between engineers and ensuring the incoming responder has full situational awareness, when writing a shift summary that captures active incidents, ongoing investigations, and recent changes, when handing off mid-incident so a fresh engineer can take over the incident commander role without losing context, when onboarding a new engineer to the on-call rotation for the first time, or when auditing and improving the quality of existing handoff processes across teams."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "postmortem-writing",
-          "skill_path": "plugins/incident-response/skills/postmortem-writing"
+          "skill_path": "plugins/incident-response/skills/postmortem-writing",
+          "description": "Write effective blameless postmortems with root cause analysis, timelines, and action items. Use when conducting incident reviews, writing postmortem documents, or improving incident response processes."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "prometheus-configuration",
-          "skill_path": "plugins/observability-monitoring/skills/prometheus-configuration"
+          "skill_path": "plugins/observability-monitoring/skills/prometheus-configuration",
+          "description": "Set up Prometheus for comprehensive metric collection, storage, and monitoring of infrastructure and applications. Use when implementing metrics collection, setting up monitoring infrastructure, or configuring alerting systems."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "service-mesh-observability",
-          "skill_path": "plugins/cloud-infrastructure/skills/service-mesh-observability"
+          "skill_path": "plugins/cloud-infrastructure/skills/service-mesh-observability",
+          "description": "Implement comprehensive observability for service meshes including distributed tracing, metrics, and visualization. Use when setting up mesh monitoring, debugging latency issues, or implementing SLOs for service communication."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "slo-implementation",
-          "skill_path": "plugins/observability-monitoring/skills/slo-implementation"
+          "skill_path": "plugins/observability-monitoring/skills/slo-implementation",
+          "description": "Define and implement Service Level Indicators (SLIs) and Service Level Objectives (SLOs) with error budgets and alerting. Use when establishing reliability targets, implementing SRE practices, or measuring service performance."
         }
       ]
     },
@@ -393,31 +452,36 @@
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "az-cost-optimize",
-          "skill_path": "plugins/azure-cloud-development/skills/az-cost-optimize"
+          "skill_path": "plugins/azure-cloud-development/skills/az-cost-optimize",
+          "description": "Analyze Azure resources used in the app (IaC files and/or resources in a target rg) and optimize costs - creating GitHub issues for identified optimizations."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "azure-pricing",
-          "skill_path": "plugins/azure-cloud-development/skills/azure-pricing"
+          "skill_path": "plugins/azure-cloud-development/skills/azure-pricing",
+          "description": "Fetches real-time Azure retail pricing using the Azure Retail Prices API (prices.azure.com) and estimates Copilot Studio agent credit consumption. Use when the user asks about the cost of any Azure service, wants to compare SKU prices, needs pricing data for a cost estimate, mentions Azure pricing, Azure costs, Azure billing, or asks about Copilot Studio pricing, Copilot Credits, or agent usage estimation. Covers compute, storage, networking, databases, AI, Copilot Studio, and all other Azure service families."
         },
         {
           "owner": "google",
           "repo": "skills",
           "name": "google-cloud-waf-cost-optimization",
-          "skill_path": "skills/cloud/google-cloud-waf-cost-optimization"
+          "skill_path": "skills/cloud/google-cloud-waf-cost-optimization",
+          "description": "Generates cost optimization guidance for Google Cloud workloads based on the Google Cloud Well-Architected Framework (WAF). Use this skill to evaluate a workload, identify cost requirements and constraints, and provide actionable recommendations for build, deploy, and manage the workload cost-efficiently in Google Cloud."
         },
         {
           "owner": "microsoft",
           "repo": "azure-skills",
           "name": "azure-cost",
-          "skill_path": ".github/plugins/azure-skills/skills/azure-cost"
+          "skill_path": ".github/plugins/azure-skills/skills/azure-cost",
+          "description": "Unified Azure cost management: query historical costs, forecast future spending, and optimize to reduce waste. WHEN: \"Azure costs\", \"Azure spending\", \"Azure bill\", \"cost breakdown\", \"cost by service\", \"cost by resource\", \"how much am I spending\", \"show my bill\", \"monthly cost summary\", \"cost trends\", \"top cost drivers\", \"actual cost\", \"amortized cost\", \"forecast spending\", \"projected costs\", \"estimate bill\", \"future costs\", \"budget forecast\", \"end of month costs\", \"how much will I spend\", \"optimize costs\", \"reduce spending\", \"find cost savings\", \"orphaned resources\", \"rightsize VMs\", \"cost analysis\", \"reduce waste\", \"unused resources\", \"optimize Redis costs\", \"cost by tag\", \"cost by resource group\", \"AKS cost analysis add-on\", \"namespace cost\", \"cost spike\", \"anomaly\", \"budget alert\", \"AKS cost visibility\". DO NOT USE FOR: deploying resources, provisioning infrastructure, diagnostics, security audits, or estimating costs for new resources not yet deployed."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "cost-optimization",
-          "skill_path": "plugins/cloud-infrastructure/skills/cost-optimization"
+          "skill_path": "plugins/cloud-infrastructure/skills/cost-optimization",
+          "description": "Optimize cloud costs across AWS, Azure, GCP, and OCI through resource rightsizing, tagging strategies, reserved instances, and spending analysis. Use when reducing cloud expenses, analyzing infrastructure costs, or implementing cost governance policies."
         }
       ]
     },
@@ -429,25 +493,29 @@
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "arch-linux-triage",
-          "skill_path": "skills/arch-linux-triage"
+          "skill_path": "skills/arch-linux-triage",
+          "description": "Triage and resolve Arch Linux issues with pacman, systemd, and rolling-release best practices."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "centos-linux-triage",
-          "skill_path": "skills/centos-linux-triage"
+          "skill_path": "skills/centos-linux-triage",
+          "description": "Triage and resolve CentOS issues using RHEL-compatible tooling, SELinux-aware practices, and firewalld."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "debian-linux-triage",
-          "skill_path": "skills/debian-linux-triage"
+          "skill_path": "skills/debian-linux-triage",
+          "description": "Triage and resolve Debian Linux issues with apt, systemd, and AppArmor-aware guidance."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "fedora-linux-triage",
-          "skill_path": "skills/fedora-linux-triage"
+          "skill_path": "skills/fedora-linux-triage",
+          "description": "Triage and resolve Fedora issues with dnf, systemd, and SELinux-aware guidance."
         }
       ]
     }

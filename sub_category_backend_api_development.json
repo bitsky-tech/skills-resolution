@@ -9,169 +9,197 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "backend-patterns",
-          "skill_path": ".agents/skills/backend-patterns"
+          "skill_path": ".agents/skills/backend-patterns",
+          "description": "Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "django-patterns",
-          "skill_path": "skills/django-patterns"
+          "skill_path": "skills/django-patterns",
+          "description": "Django architecture patterns, REST API design with DRF, ORM best practices, caching, signals, middleware, and production-grade Django apps."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "kotlin-ktor-patterns",
-          "skill_path": "skills/kotlin-ktor-patterns"
+          "skill_path": "skills/kotlin-ktor-patterns",
+          "description": "Ktor server patterns including routing DSL, plugins, authentication, Koin DI, kotlinx.serialization, WebSockets, and testApplication testing."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "laravel-patterns",
-          "skill_path": "skills/laravel-patterns"
+          "skill_path": "skills/laravel-patterns",
+          "description": "Laravel architecture patterns, routing/controllers, Eloquent ORM, service layers, queues, events, caching, and API resources for production apps."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "laravel-plugin-discovery",
-          "skill_path": "skills/laravel-plugin-discovery"
+          "skill_path": "skills/laravel-plugin-discovery",
+          "description": "Discover and evaluate Laravel packages via LaraPlugins.io MCP. Use when the user wants to find plugins, check package health, or assess Laravel/PHP compatibility."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "nestjs-patterns",
-          "skill_path": "skills/nestjs-patterns"
+          "skill_path": "skills/nestjs-patterns",
+          "description": "NestJS architecture patterns for modules, controllers, providers, DTO validation, guards, interceptors, config, and production-grade TypeScript backends."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "springboot-patterns",
-          "skill_path": "skills/springboot-patterns"
+          "skill_path": "skills/springboot-patterns",
+          "description": "Spring Boot architecture patterns, REST API design, layered services, data access, caching, async processing, and logging. Use for Java Spring Boot backend work."
         },
         {
           "owner": "elysiajs",
           "repo": "skills",
           "name": "elysiajs",
-          "skill_path": "elysia"
+          "skill_path": "elysia",
+          "description": "Create backend with ElysiaJS, a type-safe, high-performance framework."
         },
         {
           "owner": "fastapi",
           "repo": "fastapi",
           "name": "fastapi",
-          "skill_path": "fastapi/.agents/skills/fastapi"
+          "skill_path": "fastapi/.agents/skills/fastapi",
+          "description": "FastAPI best practices and conventions. Use when working with FastAPI APIs and Pydantic models for them. Keeps FastAPI code clean and up to date with the latest features and patterns, updated with new versions. Write new code or refactor and update old code."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "aspnet-minimal-api-openapi",
-          "skill_path": "plugins/csharp-dotnet-development/skills/aspnet-minimal-api-openapi"
+          "skill_path": "plugins/csharp-dotnet-development/skills/aspnet-minimal-api-openapi",
+          "description": "Create ASP.NET Minimal API endpoints with proper OpenAPI documentation"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "create-spring-boot-java-project",
-          "skill_path": "plugins/java-development/skills/create-spring-boot-java-project"
+          "skill_path": "plugins/java-development/skills/create-spring-boot-java-project",
+          "description": "Create Spring Boot Java Project Skeleton"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "create-spring-boot-kotlin-project",
-          "skill_path": "skills/create-spring-boot-kotlin-project"
+          "skill_path": "skills/create-spring-boot-kotlin-project",
+          "description": "Create Spring Boot Kotlin Project Skeleton"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "java-springboot",
-          "skill_path": "plugins/java-development/skills/java-springboot"
+          "skill_path": "plugins/java-development/skills/java-springboot",
+          "description": "Get best practices for developing applications with Spring Boot."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "kotlin-springboot",
-          "skill_path": "skills/kotlin-springboot"
+          "skill_path": "skills/kotlin-springboot",
+          "description": "Get best practices for developing applications with Spring Boot and Kotlin."
         },
         {
           "owner": "jeffallan",
           "repo": "claude-skills",
           "name": "fastapi-expert",
-          "skill_path": "skills/fastapi-expert"
+          "skill_path": "skills/fastapi-expert",
+          "description": "Use when building high-performance async Python APIs with FastAPI and Pydantic V2. Invoke to create REST endpoints, define Pydantic models, implement authentication flows, set up async SQLAlchemy database operations, add JWT authentication, build WebSocket endpoints, or generate OpenAPI documentation. Trigger terms: FastAPI, Pydantic, async Python, Python API, REST API Python, SQLAlchemy async, JWT authentication, OpenAPI, Swagger Python."
         },
         {
           "owner": "jeffallan",
           "repo": "claude-skills",
           "name": "java-architect",
-          "skill_path": "skills/java-architect"
+          "skill_path": "skills/java-architect",
+          "description": "Use when building, configuring, or debugging enterprise Java applications with Spring Boot 3.x, microservices, or reactive programming. Invoke to implement WebFlux endpoints, optimize JPA queries and database performance, configure Spring Security with OAuth2/JWT, or resolve authentication issues and async processing challenges in cloud-native Spring applications."
         },
         {
           "owner": "jeffallan",
           "repo": "claude-skills",
           "name": "laravel-specialist",
-          "skill_path": "skills/laravel-specialist"
+          "skill_path": "skills/laravel-specialist",
+          "description": "Build and configure Laravel 10+ applications, including creating Eloquent models and relationships, implementing Sanctum authentication, configuring Horizon queues, designing RESTful APIs with API resources, and building reactive interfaces with Livewire. Use when creating Laravel models, setting up queue workers, implementing Sanctum auth flows, building Livewire components, optimising Eloquent queries, or writing Pest/PHPUnit tests for Laravel features."
         },
         {
           "owner": "jeffallan",
           "repo": "claude-skills",
           "name": "spring-boot-engineer",
-          "skill_path": "skills/spring-boot-engineer"
+          "skill_path": "skills/spring-boot-engineer",
+          "description": "Generates Spring Boot 3.x configurations, creates REST controllers, implements Spring Security 6 authentication flows, sets up Spring Data JPA repositories, and configures reactive WebFlux endpoints. Use when building Spring Boot 3.x applications, microservices, or reactive Java applications; invoke for Spring Data JPA, Spring Security 6, WebFlux, Spring Cloud integration, Java REST API design, or Microservices Java architecture."
         },
         {
           "owner": "kadajett",
           "repo": "agent-nestjs-skills",
           "name": "nestjs-best-practices",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "NestJS best practices and architecture patterns for building production-ready applications. This skill should be used when writing, reviewing, or refactoring NestJS code to ensure proper patterns for modules, dependency injection, security, and performance."
         },
         {
           "owner": "mcollina",
           "repo": "skills",
           "name": "fastify-best-practices",
-          "skill_path": "skills/fastify"
+          "skill_path": "skills/fastify",
+          "description": "Guides development of Fastify Node.js backend servers and REST APIs using TypeScript or JavaScript. Use when building, configuring, or debugging a Fastify application — including defining routes, implementing plugins, setting up JSON Schema validation, handling errors, optimising performance, managing authentication, configuring CORS and security headers, integrating databases, working with WebSockets, and deploying to production. Covers the full Fastify request lifecycle (hooks, serialization, logging with Pino) and TypeScript integration via strip types. Trigger terms: Fastify, Node.js server, REST API, API routes, backend framework, fastify.config, server.ts, app.ts."
         },
         {
           "owner": "mindrally",
           "repo": "skills",
           "name": "fastapi-python",
-          "skill_path": "fastapi-python"
+          "skill_path": "fastapi-python",
+          "description": "Expert in FastAPI Python development with best practices for APIs and async operations"
         },
         {
           "owner": "pluginagentmarketplace",
           "repo": "custom-plugin-java",
           "name": "java-spring-boot",
-          "skill_path": "skills/java-spring-boot"
+          "skill_path": "skills/java-spring-boot",
+          "description": "Build production Spring Boot applications - REST APIs, Security, Data, Actuator"
         },
         {
           "owner": "shubhamsaboo",
           "repo": "awesome-llm-apps",
           "name": "fullstack-developer",
-          "skill_path": "awesome_agent_skills/fullstack-developer"
+          "skill_path": "awesome_agent_skills/fullstack-developer",
+          "description": "Modern web development expertise covering React, Node.js, databases, and full-stack architecture.\nUse when: building web applications, developing APIs, creating frontends, setting up databases,\ndeploying web apps, or when user mentions React, Next.js, Express, REST API, GraphQL, MongoDB,\nPostgreSQL, or full-stack development.\n"
         },
         {
           "owner": "vintasoftware",
           "repo": "django-ai-plugins",
           "name": "django-expert",
-          "skill_path": "plugins/django-expert/skills"
+          "skill_path": "plugins/django-expert/skills",
+          "description": "Expert Django backend development guidance. Use when creating Django models, views, serializers, or APIs; debugging ORM queries or migrations; optimizing database performance; implementing authentication; writing tests; or working with Django REST Framework. Follows Django best practices and modern patterns."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "dotnet-backend-patterns",
-          "skill_path": "plugins/dotnet-contribution/skills/dotnet-backend-patterns"
+          "skill_path": "plugins/dotnet-contribution/skills/dotnet-backend-patterns",
+          "description": "Master C#/.NET backend development patterns for building robust APIs, MCP servers, and enterprise applications. Covers async/await, dependency injection, Entity Framework Core, Dapper, configuration, caching, and testing with xUnit. Use when developing .NET backends, reviewing C# code, or designing API architectures."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "fastapi-templates",
-          "skill_path": "plugins/api-scaffolding/skills/fastapi-templates"
+          "skill_path": "plugins/api-scaffolding/skills/fastapi-templates",
+          "description": "Create production-ready FastAPI projects with async patterns, dependency injection, and comprehensive error handling. Use when building new FastAPI applications or setting up backend API projects."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "nodejs-backend-patterns",
-          "skill_path": "plugins/javascript-typescript/skills/nodejs-backend-patterns"
+          "skill_path": "plugins/javascript-typescript/skills/nodejs-backend-patterns",
+          "description": "Build production-ready Node.js backend services with Express/Fastify, implementing middleware patterns, error handling, authentication, database integration, and API design best practices. Use when creating Node.js servers, REST APIs, GraphQL backends, or microservices architectures."
         },
         {
           "owner": "yusukebe",
           "repo": "hono-skill",
           "name": "hono",
-          "skill_path": "skills/hono"
+          "skill_path": "skills/hono",
+          "description": "Use when building Hono web applications or when the user asks about Hono APIs, routing, middleware, JSX, validation, testing, or streaming. TRIGGER when code imports from 'hono' or 'hono/*', or user mentions Hono. Use `npx hono request` to test endpoints."
         }
       ]
     },
@@ -183,61 +211,71 @@
           "owner": "addyosmani",
           "repo": "agent-skills",
           "name": "api-and-interface-design",
-          "skill_path": "skills/api-and-interface-design"
+          "skill_path": "skills/api-and-interface-design",
+          "description": "Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries between frontend and backend."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "api-design",
-          "skill_path": ".agents/skills/api-design"
+          "skill_path": ".agents/skills/api-design",
+          "description": "REST API design patterns including resource naming, status codes, pagination, filtering, error responses, versioning, and rate limiting for production APIs."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "openapi-to-application-code",
-          "skill_path": "plugins/openapi-to-application-csharp-dotnet/skills/openapi-to-application-code"
+          "skill_path": "plugins/openapi-to-application-csharp-dotnet/skills/openapi-to-application-code",
+          "description": "Generate a complete, production-ready application from an OpenAPI specification"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "typespec-api-operations",
-          "skill_path": "plugins/typespec-m365-copilot/skills/typespec-api-operations"
+          "skill_path": "plugins/typespec-m365-copilot/skills/typespec-api-operations",
+          "description": "Add GET, POST, PATCH, and DELETE operations to a TypeSpec API plugin with proper routing, parameters, and adaptive cards"
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "typespec-create-api-plugin",
-          "skill_path": "plugins/typespec-m365-copilot/skills/typespec-create-api-plugin"
+          "skill_path": "plugins/typespec-m365-copilot/skills/typespec-create-api-plugin",
+          "description": "Generate a TypeSpec API plugin with REST operations, authentication, and Adaptive Cards for Microsoft 365 Copilot"
         },
         {
           "owner": "jeffallan",
           "repo": "claude-skills",
           "name": "api-designer",
-          "skill_path": "skills/api-designer"
+          "skill_path": "skills/api-designer",
+          "description": "Use when designing REST or GraphQL APIs, creating OpenAPI specifications, or planning API architecture. Invoke for resource modeling, versioning strategies, pagination patterns, error handling standards."
         },
         {
           "owner": "mattpocock",
           "repo": "skills",
           "name": "design-an-interface",
-          "skill_path": "skills/deprecated/design-an-interface"
+          "skill_path": "skills/deprecated/design-an-interface",
+          "description": "Generate multiple radically different interface designs for a module using parallel sub-agents. Use when user wants to design an API, explore interface options, compare module shapes, or mentions \"design it twice\"."
         },
         {
           "owner": "softaworks",
           "repo": "agent-toolkit",
           "name": "openapi-to-typescript",
-          "skill_path": "dist/plugins/openapi-to-typescript/skills/openapi-to-typescript"
+          "skill_path": "dist/plugins/openapi-to-typescript/skills/openapi-to-typescript",
+          "description": "Converts OpenAPI 3.0 JSON/YAML to TypeScript interfaces and type guards. This skill should be used when the user asks to generate types from OpenAPI, convert schema to TS, create API interfaces, or generate TypeScript types from an API specification."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "api-design-principles",
-          "skill_path": "plugins/backend-development/skills/api-design-principles"
+          "skill_path": "plugins/backend-development/skills/api-design-principles",
+          "description": "Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers. Use when designing new APIs, reviewing API specifications, or establishing API design standards."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "openapi-spec-generation",
-          "skill_path": "plugins/documentation-generation/skills/openapi-spec-generation"
+          "skill_path": "plugins/documentation-generation/skills/openapi-spec-generation",
+          "description": "Generate and maintain OpenAPI 3.1 specifications from code, design-first specs, and validation patterns. Use when creating API documentation, generating SDKs, or ensuring API contract compliance."
         }
       ]
     },
@@ -249,121 +287,141 @@
           "owner": "better-auth",
           "repo": "skills",
           "name": "better-auth-best-practices",
-          "skill_path": "better-auth/best-practices"
+          "skill_path": "better-auth/best-practices",
+          "description": "Configure Better Auth server and client, set up database adapters, manage sessions, add plugins, and handle environment variables. Use when users mention Better Auth, betterauth, auth.ts, or need to set up TypeScript authentication with email/password, OAuth, or plugin configuration."
         },
         {
           "owner": "better-auth",
           "repo": "skills",
           "name": "create-auth-skill",
-          "skill_path": "better-auth/create-auth"
+          "skill_path": "better-auth/create-auth",
+          "description": "Scaffold and implement authentication in TypeScript/JavaScript apps using Better Auth. Detect frameworks, configure database adapters, set up route handlers, add OAuth providers, and create auth UI pages. Use when users want to add login, sign-up, or authentication to a new or existing project with Better Auth."
         },
         {
           "owner": "better-auth",
           "repo": "skills",
           "name": "email-and-password-best-practices",
-          "skill_path": "better-auth/emailAndPassword"
+          "skill_path": "better-auth/emailAndPassword",
+          "description": "Configure email verification, implement password reset flows, set password policies, and customise hashing algorithms for Better Auth email/password authentication. Use when users need to set up login, sign-in, sign-up, credential authentication, or password security with Better Auth."
         },
         {
           "owner": "better-auth",
           "repo": "skills",
           "name": "organization-best-practices",
-          "skill_path": "better-auth/organization"
+          "skill_path": "better-auth/organization",
+          "description": "Configure multi-tenant organizations, manage members and invitations, define custom roles and permissions, set up teams, and implement RBAC using Better Auth's organization plugin. Use when users need org setup, team management, member roles, access control, or the Better Auth organization plugin."
         },
         {
           "owner": "better-auth",
           "repo": "skills",
           "name": "two-factor-authentication-best-practices",
-          "skill_path": "better-auth/twoFactor"
+          "skill_path": "better-auth/twoFactor",
+          "description": "Configure TOTP authenticator apps, send OTP codes via email/SMS, manage backup codes, handle trusted devices, and implement 2FA sign-in flows using Better Auth's twoFactor plugin. Use when users need MFA, multi-factor authentication, authenticator setup, or login security with Better Auth."
         },
         {
           "owner": "clerk",
           "repo": "skills",
           "name": "clerk",
-          "skill_path": "skills/core/clerk"
+          "skill_path": "skills/core/clerk",
+          "description": "Clerk authentication router. Use when user asks about Clerk CLI operations, adding authentication, setting up Clerk, custom sign-in flows, Swift or native iOS auth, native Android auth, Next.js patterns, React patterns, Vue patterns, Nuxt patterns, Astro patterns, TanStack Start patterns, Expo patterns, React Router patterns, Chrome Extension patterns, organizations, billing, subscriptions, payments, pricing, plans, seat-based pricing, feature entitlements, syncing users, or testing. Automatically routes to the specific skill based on their task."
         },
         {
           "owner": "clerk",
           "repo": "skills",
           "name": "clerk-android",
-          "skill_path": "skills/mobile/clerk-android"
+          "skill_path": "skills/mobile/clerk-android",
+          "description": "Implement Clerk authentication for native Android apps using Kotlin and Jetpack Compose with clerk-android source-guided patterns. Use for prebuilt AuthView/UserButton or custom API-driven auth flows. Do not use for Expo or React Native projects."
         },
         {
           "owner": "clerk",
           "repo": "skills",
           "name": "clerk-backend-api",
-          "skill_path": "skills/core/clerk-backend-api"
+          "skill_path": "skills/core/clerk-backend-api",
+          "description": "Clerk Backend REST API explorer and executor. Browse tags, inspect endpoint schemas, and execute authenticated requests. Use when listing users, managing organizations, or calling any Clerk API endpoint."
         },
         {
           "owner": "clerk",
           "repo": "skills",
           "name": "clerk-custom-ui",
-          "skill_path": "skills/core/clerk-custom-ui"
+          "skill_path": "skills/core/clerk-custom-ui",
+          "description": "Custom authentication flows and component appearance - hooks (useSignIn, useSignUp), themes, colors, fonts, CSS. Use for custom sign-in/sign-up flows, appearance styling, visual customization, branding."
         },
         {
           "owner": "clerk",
           "repo": "skills",
           "name": "clerk-expo-patterns",
-          "skill_path": "skills/frameworks/clerk-expo-patterns"
+          "skill_path": "skills/frameworks/clerk-expo-patterns",
+          "description": "Expo / React Native patterns with Clerk — SecureStore token cache, OAuth deep linking, useAuth in native, Expo Router protected routes, push notifications with user context. Triggers on: expo clerk, clerk react native, SecureStore token cache, expo router auth, OAuth deep link clerk, mobile auth clerk."
         },
         {
           "owner": "clerk",
           "repo": "skills",
           "name": "clerk-nextjs-patterns",
-          "skill_path": "skills/frameworks/clerk-nextjs-patterns"
+          "skill_path": "skills/frameworks/clerk-nextjs-patterns",
+          "description": "Advanced Next.js patterns - middleware, Server Actions, caching with Clerk."
         },
         {
           "owner": "clerk",
           "repo": "skills",
           "name": "clerk-orgs",
-          "skill_path": "skills/features/clerk-orgs"
+          "skill_path": "skills/features/clerk-orgs",
+          "description": "Clerk Organizations for B2B SaaS - create multi-tenant apps with org switching, role-based access, verified domains, and enterprise SSO. Use for team workspaces, RBAC, org-based routing, member management."
         },
         {
           "owner": "clerk",
           "repo": "skills",
           "name": "clerk-react-patterns",
-          "skill_path": "skills/frameworks/clerk-react-patterns"
+          "skill_path": "skills/frameworks/clerk-react-patterns",
+          "description": "React SPA auth patterns with @clerk/react for Vite/CRA - ClerkProvider setup, useAuth/useUser/useClerk hooks, React Router protected routes, custom sign-in flows. Triggers on: Vite Clerk setup, React Router auth, useAuth hook, protected route, custom sign-in form React."
         },
         {
           "owner": "clerk",
           "repo": "skills",
           "name": "clerk-setup",
-          "skill_path": "skills/core/clerk-setup"
+          "skill_path": "skills/core/clerk-setup",
+          "description": "Add Clerk authentication to any project by following the official quickstart guides."
         },
         {
           "owner": "clerk",
           "repo": "skills",
           "name": "clerk-swift",
-          "skill_path": "skills/mobile/clerk-swift"
+          "skill_path": "skills/mobile/clerk-swift",
+          "description": "Implement Clerk authentication for native Swift and iOS apps using ClerkKit and ClerkKitUI source-guided patterns. Use for prebuilt AuthView or custom native flows. Do not use for Expo or React Native projects."
         },
         {
           "owner": "clerk",
           "repo": "skills",
           "name": "clerk-webhooks",
-          "skill_path": "skills/features/clerk-webhooks"
+          "skill_path": "skills/features/clerk-webhooks",
+          "description": "Clerk webhooks for real-time events and data syncing. Verify with verifyWebhook from the framework-specific package. Handle user, session, organization, billing, and payment events. Build event-driven features like database sync, notifications, and integrations."
         },
         {
           "owner": "firebase",
           "repo": "agent-skills",
           "name": "firebase-auth-basics",
-          "skill_path": "skills/firebase-auth-basics"
+          "skill_path": "skills/firebase-auth-basics",
+          "description": "Guide for setting up and using Firebase Authentication. Use this skill when the user's app requires user sign-in, user management, or secure data access using auth rules."
         },
         {
           "owner": "get-convex",
           "repo": "agent-skills",
           "name": "convex-setup-auth",
-          "skill_path": "skills/convex-setup-auth"
+          "skill_path": "skills/convex-setup-auth",
+          "description": "Sets up Convex auth, identity mapping, and access control. Use for login, auth providers, users tables, protected functions, or roles in a Convex app."
         },
         {
           "owner": "sickn33",
           "repo": "antigravity-awesome-skills",
           "name": "nextjs-supabase-auth",
-          "skill_path": "plugins/antigravity-awesome-skills/skills/nextjs-supabase-auth"
+          "skill_path": "plugins/antigravity-awesome-skills/skills/nextjs-supabase-auth",
+          "description": "Expert integration of Supabase Auth with Next.js App Router"
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "auth-implementation-patterns",
-          "skill_path": "plugins/developer-essentials/skills/auth-implementation-patterns"
+          "skill_path": "plugins/developer-essentials/skills/auth-implementation-patterns",
+          "description": "Master authentication and authorization patterns including JWT, OAuth2, session management, and RBAC to build secure, scalable access control systems. Use when implementing auth systems, securing APIs, or debugging security issues."
         }
       ]
     },
@@ -375,103 +433,120 @@
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "architecture-decision-records",
-          "skill_path": "skills/architecture-decision-records"
+          "skill_path": "skills/architecture-decision-records",
+          "description": "Capture architectural decisions made during Claude Code sessions as structured ADRs. Auto-detects decision moments, records context, alternatives considered, and rationale. Maintains an ADR log so future developers understand why the codebase is shaped the way it is."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "content-hash-cache-pattern",
-          "skill_path": "skills/content-hash-cache-pattern"
+          "skill_path": "skills/content-hash-cache-pattern",
+          "description": "Cache expensive file processing results using SHA-256 content hashes — path-independent, auto-invalidating, with service layer separation."
         },
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
           "name": "hexagonal-architecture",
-          "skill_path": "skills/hexagonal-architecture"
+          "skill_path": "skills/hexagonal-architecture",
+          "description": "Design, implement, and refactor Ports & Adapters systems with clear domain boundaries, dependency inversion, and testable use-case orchestration across TypeScript, Java, Kotlin, and Go services."
         },
         {
           "owner": "anthropics",
           "repo": "knowledge-work-plugins",
           "name": "architecture",
-          "skill_path": "engineering/skills/architecture"
+          "skill_path": "engineering/skills/architecture",
+          "description": "Create or evaluate an architecture decision record (ADR). Use when choosing between technologies (e.g., Kafka vs SQS), documenting a design decision with trade-offs and consequences, reviewing a system design proposal, or designing a new component from requirements and constraints."
         },
         {
           "owner": "anthropics",
           "repo": "knowledge-work-plugins",
           "name": "system-design",
-          "skill_path": "engineering/skills/system-design"
+          "skill_path": "engineering/skills/system-design",
+          "description": "Design systems, services, and architectures. Trigger with \"design a system for\", \"how should we architect\", \"system design for\", \"what's the right architecture for\", or when the user needs help with API design, data modeling, or service boundaries."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "architecture-blueprint-generator",
-          "skill_path": "skills/architecture-blueprint-generator"
+          "skill_path": "skills/architecture-blueprint-generator",
+          "description": "Comprehensive project architecture blueprint generator that analyzes codebases to create detailed architectural documentation. Automatically detects technology stacks and architectural patterns, generates visual diagrams, documents implementation patterns, and provides extensible blueprints for maintaining architectural consistency and guiding new development."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "create-architectural-decision-record",
-          "skill_path": "skills/create-architectural-decision-record"
+          "skill_path": "skills/create-architectural-decision-record",
+          "description": "Create an Architectural Decision Record (ADR) document for AI-optimized decision documentation."
         },
         {
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "project-workflow-analysis-blueprint-generator",
-          "skill_path": "skills/project-workflow-analysis-blueprint-generator"
+          "skill_path": "skills/project-workflow-analysis-blueprint-generator",
+          "description": "Comprehensive technology-agnostic prompt generator for documenting end-to-end application workflows. Automatically detects project architecture patterns, technology stacks, and data flow patterns to generate detailed implementation blueprints covering entry points, service layers, data access, error handling, and testing approaches across multiple technologies including .NET, Java/Spring, React, and microservices architectures."
         },
         {
           "owner": "jeffallan",
           "repo": "claude-skills",
           "name": "architecture-designer",
-          "skill_path": "skills/architecture-designer"
+          "skill_path": "skills/architecture-designer",
+          "description": "Use when designing new high-level system architecture, reviewing existing designs, or making architectural decisions. Invoke to create architecture diagrams, write Architecture Decision Records (ADRs), evaluate technology trade-offs, design component interactions, and plan for scalability. Use for system design, architecture review, microservices structuring, ADR authoring, scalability planning, and infrastructure pattern selection — distinct from code-level design patterns or database-only design tasks."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "architecture-decision-records",
-          "skill_path": "plugins/documentation-generation/skills/architecture-decision-records"
+          "skill_path": "plugins/documentation-generation/skills/architecture-decision-records",
+          "description": "Write and maintain Architecture Decision Records (ADRs) following best practices for technical decision documentation. Use when documenting significant technical decisions, reviewing past architectural choices, or establishing decision processes."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "architecture-patterns",
-          "skill_path": "plugins/backend-development/skills/architecture-patterns"
+          "skill_path": "plugins/backend-development/skills/architecture-patterns",
+          "description": "Implement proven backend architecture patterns including Clean Architecture, Hexagonal Architecture, and Domain-Driven Design. Use this skill when designing clean architecture for a new microservice, when refactoring a monolith to use bounded contexts, when implementing hexagonal or onion architecture patterns, or when debugging dependency cycles between application layers."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "cqrs-implementation",
-          "skill_path": "plugins/backend-development/skills/cqrs-implementation"
+          "skill_path": "plugins/backend-development/skills/cqrs-implementation",
+          "description": "Implement Command Query Responsibility Segregation for scalable architectures. Use when separating read and write models, optimizing query performance, or building event-sourced systems."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "event-store-design",
-          "skill_path": "plugins/backend-development/skills/event-store-design"
+          "skill_path": "plugins/backend-development/skills/event-store-design",
+          "description": "Design and implement event stores for event-sourced systems. Use when building event sourcing infrastructure, choosing event store technologies, or implementing event persistence patterns."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "microservices-patterns",
-          "skill_path": "plugins/backend-development/skills/microservices-patterns"
+          "skill_path": "plugins/backend-development/skills/microservices-patterns",
+          "description": "Design microservices architectures with service boundaries, event-driven communication, and resilience patterns. Use when building distributed systems, decomposing monoliths, or implementing microservices."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "projection-patterns",
-          "skill_path": "plugins/backend-development/skills/projection-patterns"
+          "skill_path": "plugins/backend-development/skills/projection-patterns",
+          "description": "Build read models and projections from event streams. Use when implementing CQRS read sides, building materialized views, or optimizing query performance in event-sourced systems."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "saga-orchestration",
-          "skill_path": "plugins/backend-development/skills/saga-orchestration"
+          "skill_path": "plugins/backend-development/skills/saga-orchestration",
+          "description": "Implement saga patterns for distributed transactions and cross-aggregate workflows. Use this skill when implementing distributed transactions across microservices where 2PC is unavailable, designing compensating actions for failed order workflows that span inventory, payment, and shipping services, building event-driven saga coordinators for travel booking systems that must roll back hotel, flight, and car rental reservations atomically, or debugging stuck saga states in production where compensation steps never complete."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "workflow-orchestration-patterns",
-          "skill_path": "plugins/backend-development/skills/workflow-orchestration-patterns"
+          "skill_path": "plugins/backend-development/skills/workflow-orchestration-patterns",
+          "description": "Design durable workflows with Temporal for distributed systems. Covers workflow vs activity separation, saga patterns, state management, and determinism constraints. Use when building long-running processes, distributed transactions, or microservice orchestration."
         }
       ]
     },
@@ -483,43 +558,50 @@
           "owner": "cloudflare",
           "repo": "skills",
           "name": "durable-objects",
-          "skill_path": "skills/durable-objects"
+          "skill_path": "skills/durable-objects",
+          "description": "Create and review Cloudflare Durable Objects. Use when building stateful coordination (chat rooms, multiplayer games, booking systems), implementing RPC methods, SQLite storage, alarms, WebSockets, or reviewing DO code for best practices. Covers Workers integration, wrangler config, and testing with Vitest. Biases towards retrieval from Cloudflare docs over pre-trained knowledge."
         },
         {
           "owner": "jeffallan",
           "repo": "claude-skills",
           "name": "websocket-engineer",
-          "skill_path": "skills/websocket-engineer"
+          "skill_path": "skills/websocket-engineer",
+          "description": "Use when building real-time communication systems with WebSockets or Socket.IO. Invoke for bidirectional messaging, horizontal scaling with Redis, presence tracking, room management."
         },
         {
           "owner": "rivet-dev",
           "repo": "skills",
           "name": "rivetkit",
-          "skill_path": "rivetkit"
+          "skill_path": "rivetkit",
+          "description": "RivetKit backend and Rivet Actor runtime guidance. Use for building, modifying, debugging, or testing Rivet Actors, registries, serverless/runner modes, deployment, or actor-based workflows."
         },
         {
           "owner": "rivet-dev",
           "repo": "skills",
           "name": "rivetkit-client-javascript",
-          "skill_path": "rivetkit-client-javascript"
+          "skill_path": "rivetkit-client-javascript",
+          "description": "RivetKit JavaScript client guidance. Use for browser, Node.js, or Bun clients that connect to Rivet Actors with rivetkit/client, create clients, call actions, or manage connections."
         },
         {
           "owner": "rivet-dev",
           "repo": "skills",
           "name": "rivetkit-client-react",
-          "skill_path": "rivetkit-client-react"
+          "skill_path": "rivetkit-client-react",
+          "description": "RivetKit React client guidance. Use for React apps that connect to Rivet Actors with @rivetkit/react, create hooks with createRivetKit, or manage realtime state with useActor."
         },
         {
           "owner": "rivet-dev",
           "repo": "skills",
           "name": "rivetkit-client-swift",
-          "skill_path": "rivetkit-client-swift"
+          "skill_path": "rivetkit-client-swift",
+          "description": "RivetKit Swift client guidance. Use for Swift clients that connect to Rivet Actors with RivetKitClient, create actor handles, call actions, or manage connections."
         },
         {
           "owner": "rivet-dev",
           "repo": "skills",
           "name": "rivetkit-client-swiftui",
-          "skill_path": "rivetkit-client-swiftui"
+          "skill_path": "rivetkit-client-swiftui",
+          "description": "RivetKit SwiftUI client guidance. Use for SwiftUI apps that connect to Rivet Actors with RivetKitSwiftUI, @Actor, rivetKit view modifiers, and SwiftUI bindings."
         }
       ]
     },
@@ -531,127 +613,148 @@
           "owner": "jeffallan",
           "repo": "claude-skills",
           "name": "shopify-expert",
-          "skill_path": "skills/shopify-expert"
+          "skill_path": "skills/shopify-expert",
+          "description": "Builds and debugs Shopify themes (.liquid files, theme.json, sections), develops custom Shopify apps (shopify.app.toml, OAuth, webhooks), and implements Storefront API integrations for headless storefronts. Use when building or customizing Shopify themes, creating Hydrogen or custom React storefronts, developing Shopify apps, implementing checkout UI extensions or Shopify Functions, optimizing performance, or integrating third-party services. Invoke for Liquid templating, Storefront API, app development, checkout customization, Shopify Plus features, App Bridge, Polaris, or Shopify CLI workflows."
         },
         {
           "owner": "jeffallan",
           "repo": "claude-skills",
           "name": "wordpress-pro",
-          "skill_path": "skills/wordpress-pro"
+          "skill_path": "skills/wordpress-pro",
+          "description": "Develops custom WordPress themes and plugins, creates and registers Gutenberg blocks and block patterns, configures WooCommerce stores, implements WordPress REST API endpoints, applies security hardening (nonces, sanitization, escaping, capability checks), and optimizes performance through caching and query tuning. Use when building WordPress themes, writing plugins, customizing Gutenberg blocks, extending WooCommerce, working with ACF, using the WordPress REST API, applying hooks and filters, or improving WordPress performance and security."
         },
         {
           "owner": "payloadcms",
           "repo": "skills",
           "name": "payload",
-          "skill_path": "skills/payload"
+          "skill_path": "skills/payload",
+          "description": "Use when working with Payload projects (payload.config.ts, collections, fields, hooks, access control, Payload API). Use when debugging validation errors, security issues, relationship queries, transactions, or hook behavior."
         },
         {
           "owner": "shopify",
           "repo": "shopify-ai-toolkit",
           "name": "shopify-admin",
-          "skill_path": "skills/shopify-admin"
+          "skill_path": "skills/shopify-admin",
+          "description": "Write or explain **Admin GraphQL** queries and mutations for apps and integrations that extend the Shopify admin. Use when the user wants to **understand, design, or generate** the operation itself—even before deciding how to run it. Do **not** choose `admin` first for **app or extension config validation** —use **`use-shopify-cli`**. Do **not** choose `admin` first to **execute** Admin GraphQL **now via Shopify CLI** or for CLI setup/troubleshooting on store workflows—use **`use-shopify-cli`** (store auth/execute, handle/SKU/location lookups, inventory changes)."
         },
         {
           "owner": "shopify",
           "repo": "shopify-ai-toolkit",
           "name": "shopify-app-store-review",
-          "skill_path": "skills/shopify-app-store-review"
+          "skill_path": "skills/shopify-app-store-review",
+          "description": "Run a pre-submission compliance check against your Shopify app's codebase. Reviews App Store requirements and surfaces likely issues before you submit for official review."
         },
         {
           "owner": "shopify",
           "repo": "shopify-ai-toolkit",
           "name": "shopify-custom-data",
-          "skill_path": "skills/shopify-custom-data"
+          "skill_path": "skills/shopify-custom-data",
+          "description": "MUST be used first when prompts mention Metafields or Metaobjects. Use Metafields and Metaobjects to model and store custom data for your app. Metafields extend built-in Shopify data types like products or customers, Metaobjects are custom data types that can be used to store bespoke data structures. Metafield and Metaobject definitions provide a schema and configuration for values to follow."
         },
         {
           "owner": "shopify",
           "repo": "shopify-ai-toolkit",
           "name": "shopify-customer",
-          "skill_path": "skills/shopify-customer"
+          "skill_path": "skills/shopify-customer",
+          "description": "The Customer Account API allows customers to access their own data including orders, payment methods, and addresses."
         },
         {
           "owner": "shopify",
           "repo": "shopify-ai-toolkit",
           "name": "shopify-dev",
-          "skill_path": "skills/shopify-dev"
+          "skill_path": "skills/shopify-dev",
+          "description": "Search Shopify developer documentation across all APIs. Use only when no API-specific skill applies."
         },
         {
           "owner": "shopify",
           "repo": "shopify-ai-toolkit",
           "name": "shopify-functions",
-          "skill_path": "skills/shopify-functions"
+          "skill_path": "skills/shopify-functions",
+          "description": "Shopify Functions allow developers to customize the backend logic that powers parts of Shopify. Available APIs: Discount, Cart and Checkout Validation, Cart Transform, Pickup Point Delivery Option Generator, Delivery Customization, Fulfillment Constraints, Local Pickup Delivery Option Generator, Order Routing Location Rule, Payment Customization"
         },
         {
           "owner": "shopify",
           "repo": "shopify-ai-toolkit",
           "name": "shopify-hydrogen",
-          "skill_path": "skills/shopify-hydrogen"
+          "skill_path": "skills/shopify-hydrogen",
+          "description": "Hydrogen storefront implementation cookbooks. Some of the available recipes are: B2B Commerce, Bundles, Combined Listings, Custom Cart Method, Dynamic Content with Metaobjects, Express Server, Google Tag Manager Integration, Infinite Scroll, Legacy Customer Account Flow, Markets, Partytown + Google Tag Manager, Subscriptions, Third-party API Queries and Caching. MANDATORY: Use this API for ANY Hydrogen storefront question - do NOT use Storefront GraphQL when 'Hydrogen' is mentioned."
         },
         {
           "owner": "shopify",
           "repo": "shopify-ai-toolkit",
           "name": "shopify-liquid",
-          "skill_path": "skills/shopify-liquid"
+          "skill_path": "skills/shopify-liquid",
+          "description": "Liquid is an open-source templating language created by Shopify. It is the backbone of Shopify themes and is used to load dynamic content on storefronts. Keywords: liquid, theme, shopify-theme, liquid-component, liquid-block, liquid-section, liquid-snippet, liquid-schemas, shopify-theme-schemas"
         },
         {
           "owner": "shopify",
           "repo": "shopify-ai-toolkit",
           "name": "shopify-onboarding-dev",
-          "skill_path": "skills/shopify-onboarding-dev"
+          "skill_path": "skills/shopify-onboarding-dev",
+          "description": "Get started building on Shopify. Use when a developer asks to build an app, build a theme, create a dev store, set up a partner account, scaffold a project, or get started developing for Shopify. NOT for merchants managing stores."
         },
         {
           "owner": "shopify",
           "repo": "shopify-ai-toolkit",
           "name": "shopify-partner",
-          "skill_path": "skills/shopify-partner"
+          "skill_path": "skills/shopify-partner",
+          "description": "The Partner API lets you programmatically access data about your Partner Dashboard, including your apps, themes, and affiliate referrals."
         },
         {
           "owner": "shopify",
           "repo": "shopify-ai-toolkit",
           "name": "shopify-payments-apps",
-          "skill_path": "skills/shopify-payments-apps"
+          "skill_path": "skills/shopify-payments-apps",
+          "description": "The Payments Apps API enables payment providers to integrate their payment solutions with Shopify's checkout."
         },
         {
           "owner": "shopify",
           "repo": "shopify-ai-toolkit",
           "name": "shopify-polaris-admin-extensions",
-          "skill_path": "skills/shopify-polaris-admin-extensions"
+          "skill_path": "skills/shopify-polaris-admin-extensions",
+          "description": "Add custom actions and blocks from your app at contextually relevant spots throughout the Shopify Admin. Admin UI Extensions also supports scaffolding new adminextensions using Shopify CLI commands."
         },
         {
           "owner": "shopify",
           "repo": "shopify-ai-toolkit",
           "name": "shopify-polaris-app-home",
-          "skill_path": "skills/shopify-polaris-app-home"
+          "skill_path": "skills/shopify-polaris-app-home",
+          "description": "Build your app's primary user interface embedded in the Shopify admin. If the prompt just mentions `Polaris` and you can't tell based off of the context what API they meant, assume they meant this API."
         },
         {
           "owner": "shopify",
           "repo": "shopify-ai-toolkit",
           "name": "shopify-polaris-checkout-extensions",
-          "skill_path": "skills/shopify-polaris-checkout-extensions"
+          "skill_path": "skills/shopify-polaris-checkout-extensions",
+          "description": "Build custom functionality that merchants can install at defined points in the checkout flow, including product information, shipping, payment, order summary, and Shop Pay. Checkout UI Extensions also supports scaffolding new checkout extensions using Shopify CLI commands."
         },
         {
           "owner": "shopify",
           "repo": "shopify-ai-toolkit",
           "name": "shopify-polaris-customer-account-extensions",
-          "skill_path": "skills/shopify-polaris-customer-account-extensions"
+          "skill_path": "skills/shopify-polaris-customer-account-extensions",
+          "description": "Build custom functionality that merchants can install at defined points on the Order index, Order status, and Profile pages in customer accounts. Customer Account UI Extensions also supports scaffolding new customer account extensions using Shopify CLI commands."
         },
         {
           "owner": "shopify",
           "repo": "shopify-ai-toolkit",
           "name": "shopify-pos-ui",
-          "skill_path": "skills/shopify-pos-ui"
+          "skill_path": "skills/shopify-pos-ui",
+          "description": "Build retail point-of-sale applications using Shopify's POS UI components. These components provide a consistent and familiar interface for POS applications. POS UI Extensions also supports scaffolding new POS extensions using Shopify CLI commands. Keywords: POS, Retail, smart grid"
         },
         {
           "owner": "shopify",
           "repo": "shopify-ai-toolkit",
           "name": "shopify-storefront-graphql",
-          "skill_path": "skills/shopify-storefront-graphql"
+          "skill_path": "skills/shopify-storefront-graphql",
+          "description": "Use for custom storefronts requiring direct GraphQL queries/mutations for data fetching and cart operations. Choose this when you need full control over data fetching and rendering your own UI. NOT for Web Components - if the prompt mentions HTML tags like <shopify-store>, <shopify-cart>, use storefront-web-components instead."
         },
         {
           "owner": "shopify",
           "repo": "shopify-ai-toolkit",
           "name": "shopify-use-shopify-cli",
-          "skill_path": "skills/shopify-use-shopify-cli"
+          "skill_path": "skills/shopify-use-shopify-cli",
+          "description": "Choose when the user needs **Shopify CLI** to run or fix something now: validate app or extension config on disk (`shopify.app.toml`, `shopify.app.<name>.toml`, `shopify.extension.toml`); run or troubleshoot store workflows (`shopify store auth`, `shopify store execute`); inventory or product changes by handle, SKU, or location name; or CLI setup, auth, upgrade issues. Emphasize **commands and operational steps**, not only authoring GraphQL. Skip for API-only understanding or codegen with no CLI execution. Examples: validate configuration before deploy; run an existing query via CLI; list products; missing `shopify store execute`."
         }
       ]
     },
@@ -663,7 +766,8 @@
           "owner": "github",
           "repo": "awesome-copilot",
           "name": "power-apps-code-app-scaffold",
-          "skill_path": "plugins/power-apps-code-apps/skills/power-apps-code-app-scaffold"
+          "skill_path": "plugins/power-apps-code-apps/skills/power-apps-code-app-scaffold",
+          "description": "Scaffold a complete Power Apps Code App project with PAC CLI setup, SDK integration, and connector configuration"
         }
       ]
     }

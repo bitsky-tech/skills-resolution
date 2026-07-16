@@ -204,31 +204,36 @@
           "owner": "homeassistant-ai",
           "repo": "skills",
           "name": "home-assistant-best-practices",
-          "skill_path": "skills/home-assistant-best-practices"
+          "skill_path": "skills/home-assistant-best-practices",
+          "description": "Best practices for HA automations, helpers, scripts, controls, and dashboards.\nTRIGGER THIS SKILL WHEN: - Creating or editing automations, scripts, scenes, or dashboards - Choosing between template sensors and built-in helpers - Restructuring triggers, conditions, or automation modes - Setting up Zigbee button/remote automations - Renaming entities or migrating device_id to entity_id - Configuring dashboard cards or selecting helpers - Looking up card types or domain docs - Writing or reviewing AppDaemon apps\nSYMPTOMS: - Agent uses Jinja2 templates where native options exist - Agent uses device_id instead of entity_id - Agent changes entity IDs without checking consumers - Wrong automation mode - Agent hard-codes values or uses raw sensor over helper - Agent edits .storage, writes YAML, or generates YAML snippets - Agent tells user to edit configuration.yaml for UI integrations\n"
         },
         {
           "owner": "hugmouse",
           "repo": "skills",
           "name": "value",
-          "skill_path": "value"
+          "skill_path": "value",
+          "description": "skill does absolutely nothing, as well as the agent that uses it."
         },
         {
           "owner": "steipete",
           "repo": "clawdis",
           "name": "weather",
-          "skill_path": "skills/weather"
+          "skill_path": "skills/weather",
+          "description": "Current weather and forecasts with wttr.in via curl for locations, rain, temperature, travel planning."
         },
         {
           "owner": "xixu-me",
           "repo": "skills",
           "name": "tzst",
-          "skill_path": "skills/tzst"
+          "skill_path": "skills/tzst",
+          "description": "Use when the user needs to create, extract, flatten, list, test, install, script, or troubleshoot `tzst` CLI workflows for `.tzst` or `.tar.zst` archives, including compression levels, streaming mode, extraction filters, conflict resolution, JSON output, or standalone binary setup, even if they describe the archive task without naming `tzst`."
         },
         {
           "owner": "xixu-me",
           "repo": "skills",
           "name": "xdrop",
-          "skill_path": "skills/xdrop"
+          "skill_path": "skills/xdrop",
+          "description": "Use this skill when the user wants to send or fetch files through an Xdrop server from the terminal, asks to automate encrypted Xdrop share-link workflows, provides an Xdrop `/t/:transferId#k=...` link to download and decrypt locally, or needs Xdrop CLI flags such as `--quiet`, `--json`, `--expires-in`, `--output`, or `--api-url`, even if they do not explicitly mention the skill name."
         }
       ]
     }

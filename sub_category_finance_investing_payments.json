@@ -9,43 +9,50 @@
           "owner": "gracefullight",
           "repo": "stock-checker",
           "name": "yahoo-finance",
-          "skill_path": ".agents/skills/yahoo-finance"
+          "skill_path": ".agents/skills/yahoo-finance",
+          "description": "Get stock prices, quotes, fundamentals, earnings, options, dividends, and analyst ratings using Yahoo Finance. Uses yfinance library - no API key required."
         },
         {
           "owner": "molezzz",
           "repo": "openclaw-stock-skill",
           "name": "akshare-stock",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "A股分析全能 Skill（实时行情、技术面、基本面、板块、衍生品与跨市场），基于 akshare + 自然语言路由"
         },
         {
           "owner": "stanleychanh",
           "repo": "tushare-finance-skill-for-claude-code",
           "name": "tushare-finance",
-          "skill_path": ""
+          "skill_path": "",
+          "description": "获取中国金融市场数据（A股、港股、美股、基金、期货、债券）。支持220+个Tushare Pro接口：股票行情、财务报表、宏观经济指标。当用户请求股价数据、财务分析、指数行情、GDP/CPI等宏观数据时使用。"
         },
         {
           "owner": "starchild-ai-agent",
           "repo": "official-skills",
           "name": "twelvedata",
-          "skill_path": "twelvedata"
+          "skill_path": "twelvedata",
+          "description": "Stocks, forex, and commodities prices: real-time quotes and historical bars.\n\nUse when looking up traditional-market prices (e.g. AAPL quote, EUR/USD chart, gold price, SPY history). Not for crypto.\n"
         },
         {
           "owner": "waditu-tushare",
           "repo": "skills",
           "name": "tushare",
-          "skill_path": "tushare"
+          "skill_path": "tushare",
+          "description": "面向中文自然语言的 Tushare 数据研究技能。用于把“看看这只股票最近怎么样”“帮我查财报趋势”“最近哪个板块最强”“北向资金在买什么”“给我导出一份行情数据”这类请求，转成可执行的数据获取、清洗、对比、筛选、导出与简要分析流程。适用于 A 股、指数、ETF/基金、财务、估值、资金流、公告新闻、板块概念与宏观数据等研究场景。"
         },
         {
           "owner": "wind-information-co-ltd",
           "repo": "wind-skills",
           "name": "wind-find-finance-skill",
-          "skill_path": "skills/wind-find-finance-skill"
+          "skill_path": "skills/wind-find-finance-skill",
+          "description": "万得金融能力发现与安装路由入口。用于金融数据、行情查询、市场分析、今日大盘、市场主线、板块轮动、资金流向、估值、选股、复盘、仓位、交易计划、回测等任务。必须先读取 catalog 判断必需数据 skill / 工作流 skill；缺失时必须展示安装选项，用户确认后由 AI 直接安装，不得只给命令或用通用分析替代。"
         },
         {
           "owner": "wind-information-co-ltd",
           "repo": "wind-skills",
           "name": "wind-mcp-skill",
-          "skill_path": "skills/wind-mcp-skill"
+          "skill_path": "skills/wind-mcp-skill",
+          "description": "用户查询金融数据时触发：A 股选股筛选、行情快照、K 线、分钟行情、财务基本面、股东、事件、技术和风险；港股/美股选股筛选、行情和基本面；基金/ETF/LOF 基金筛选、行情、净值、规模、档案、持仓和业绩；指数/板块行情与基本面；债券档案与估值；上市公司公告、财经新闻、宏观经济和行业指标。不用于欧股、日股、汇率、期货盘口、加密货币或非金融数据。"
         }
       ]
     },
@@ -57,43 +64,50 @@
           "owner": "claude-office-skills",
           "repo": "skills",
           "name": "stock-analysis",
-          "skill_path": "stock-analysis"
+          "skill_path": "stock-analysis",
+          "description": "Analyze stocks with fundamental and technical analysis. Supports US, China A-shares, and Hong Kong markets. Generate investment reports with key metrics."
         },
         {
           "owner": "gracefullight",
           "repo": "stock-checker",
           "name": "stock-analysis",
-          "skill_path": ".agents/skills/stock-analysis"
+          "skill_path": ".agents/skills/stock-analysis",
+          "description": "Analyze stocks and cryptocurrencies using Yahoo Finance data. Supports portfolio management (create, add, remove assets), crypto analysis (Top 20 by market cap), and periodic performance reports (daily/weekly/monthly/quarterly/yearly). 8 analysis dimensions for stocks, 3 for crypto. Use for stock analysis, portfolio tracking, earnings reactions, or crypto monitoring."
         },
         {
           "owner": "jeremylongshore",
           "repo": "claude-code-plugins-plus-skills",
           "name": "backtesting-trading-strategies",
-          "skill_path": "plugins/crypto/trading-strategy-backtester/skills/backtesting-trading-strategies"
+          "skill_path": "plugins/crypto/trading-strategy-backtester/skills/backtesting-trading-strategies",
+          "description": "Backtest crypto and traditional trading strategies against historical data.\nCalculates performance metrics (Sharpe, Sortino, max drawdown), generates equity curves,\nand optimizes strategy parameters. Use when user wants to test a trading strategy,\nvalidate signals, or compare approaches.\nTrigger with phrases like \"backtest strategy\", \"test trading strategy\", \"historical performance\",\n\"simulate trades\", \"optimize parameters\", or \"validate signals\".\n"
         },
         {
           "owner": "lijigang",
           "repo": "ljg-skills",
           "name": "ljg-invest",
-          "skill_path": "skills/ljg-invest"
+          "skill_path": "skills/ljg-invest",
+          "description": "投资分析, 生成一份深度投资分析报告。不做传统投资分析——核心判断是项目是否是一台「秩序创造机器」。Use when user says '投资报告', '投资分析', '分析这个项目', '写投资报告', 'investment report', 'invest analysis', or provides entrepreneur conversation records wanting investment evaluation. Also trigger when user pastes or references meeting notes, pitch decks, or founder interviews and asks for analysis."
         },
         {
           "owner": "sundial-org",
           "repo": "awesome-openclaw-skills",
           "name": "stock-market-pro",
-          "skill_path": "skills/stock-market-pro"
+          "skill_path": "skills/stock-market-pro",
+          "description": "Professional stock price tracking, fundamental analysis, and financial reporting tool. Supports global markets (US, KR, etc.), Crypto, and Forex with real-time data. (1) Real-time quotes, (2) Valuation metrics (PE, EPS, ROE), (3) Earnings calendar and consensus, (4) High-quality Candlestick & Line charts with technical indicators (MA5/20/60)."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "backtesting-frameworks",
-          "skill_path": "plugins/quantitative-trading/skills/backtesting-frameworks"
+          "skill_path": "plugins/quantitative-trading/skills/backtesting-frameworks",
+          "description": "Build robust backtesting systems for trading strategies with proper handling of look-ahead bias, survivorship bias, and transaction costs. Use when developing trading algorithms, validating strategies, or building backtesting infrastructure."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "risk-metrics-calculation",
-          "skill_path": "plugins/quantitative-trading/skills/risk-metrics-calculation"
+          "skill_path": "plugins/quantitative-trading/skills/risk-metrics-calculation",
+          "description": "Calculate portfolio risk metrics including VaR, CVaR, Sharpe, Sortino, and drawdown analysis. Use when measuring portfolio risk, implementing risk limits, or building risk monitoring systems."
         }
       ]
     },
@@ -105,31 +119,36 @@
           "owner": "stripe",
           "repo": "ai",
           "name": "stripe-best-practices",
-          "skill_path": "providers/claude/plugin/skills/stripe-best-practices"
+          "skill_path": "providers/claude/plugin/skills/stripe-best-practices",
+          "description": "Guides Stripe integration decisions — API selection (Checkout Sessions vs PaymentIntents), Connect platform setup (Accounts v2, controller properties), billing/subscriptions, Treasury financial accounts, integration surfaces (Checkout, Payment Element), migrating from deprecated Stripe APIs, and security best practices (API key management, restricted keys, webhooks, OAuth). Use when building, modifying, or reviewing any Stripe integration — including accepting payments, building marketplaces, integrating Stripe, processing payments, setting up subscriptions, creating connected accounts, or implementing secure key handling."
         },
         {
           "owner": "stripe",
           "repo": "ai",
           "name": "upgrade-stripe",
-          "skill_path": "providers/claude/plugin/skills/upgrade-stripe"
+          "skill_path": "providers/claude/plugin/skills/upgrade-stripe",
+          "description": "Guide for upgrading Stripe API versions and SDKs"
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "billing-automation",
-          "skill_path": "plugins/payment-processing/skills/billing-automation"
+          "skill_path": "plugins/payment-processing/skills/billing-automation",
+          "description": "Build automated billing systems for recurring payments, invoicing, subscription lifecycle, and dunning management. Use when implementing subscription billing, automating invoicing, or managing recurring payment systems."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "paypal-integration",
-          "skill_path": "plugins/payment-processing/skills/paypal-integration"
+          "skill_path": "plugins/payment-processing/skills/paypal-integration",
+          "description": "Integrate PayPal payment processing with support for express checkout, subscriptions, and refund management. Use when implementing PayPal payments, processing online transactions, or building e-commerce checkout flows."
         },
         {
           "owner": "wshobson",
           "repo": "agents",
           "name": "stripe-integration",
-          "skill_path": "plugins/payment-processing/skills/stripe-integration"
+          "skill_path": "plugins/payment-processing/skills/stripe-integration",
+          "description": "Implement Stripe payment processing for robust, PCI-compliant payment flows including checkout, subscriptions, and webhooks. Use when integrating Stripe payments, building subscription systems, or implementing secure checkout flows."
         }
       ]
     },
@@ -141,7 +160,8 @@
           "owner": "personamanagmentlayer",
           "repo": "pcl",
           "name": "finance-expert",
-          "skill_path": "stdlib/domains/finance-expert"
+          "skill_path": "stdlib/domains/finance-expert",
+          "description": "Expert-level financial systems, FinTech, banking, payments, and financial technology"
         }
       ]
     }
