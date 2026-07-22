@@ -150,6 +150,13 @@
           "name": "data-storytelling",
           "skill_path": "plugins/business-analytics/skills/data-storytelling",
           "description": "Transform data into compelling narratives using visualization, context, and persuasive structure. Use when presenting analytics to stakeholders, creating data reports, or building executive presentations."
+        },
+        {
+          "owner": "openai",
+          "repo": "skills",
+          "name": "jupyter-notebook",
+          "skill_path": "skills/.curated/jupyter-notebook",
+          "description": "Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and run the helper script `new_notebook.py` to generate a clean starting notebook."
         }
       ]
     },

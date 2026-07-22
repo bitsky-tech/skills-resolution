@@ -567,6 +567,13 @@
           "name": "gemini-live-api-dev",
           "skill_path": "skills/gemini-live-api-dev",
           "description": "Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API. Covers WebSocket-based audio/video/text streaming, voice activity detection (VAD), native audio features, function calling, session management, ephemeral tokens for client-side auth, and all Live API configuration options. SDKs covered - google-genai (Python), @google/genai (JavaScript/TypeScript)."
+        },
+        {
+          "owner": "openai",
+          "repo": "skills",
+          "name": "openai-docs",
+          "skill_path": "skills/.curated/openai-docs",
+          "description": "Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex surfaces, needs up-to-date official documentation with citations, help choosing the latest model for a use case, or model upgrade and prompt-upgrade guidance; use OpenAI docs MCP tools for non-Codex docs questions, use the Codex manual helper first for broad Codex self-knowledge, and restrict fallback browsing to official OpenAI domains."
         }
       ]
     },

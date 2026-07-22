@@ -276,6 +276,34 @@
           "name": "vercel-optimize",
           "skill_path": "skills/vercel-optimize",
           "description": "Use for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKit, Nuxt, and limited Astro apps. Collect Vercel metrics, usage, project config, and code scan results first; investigate only metric-backed candidates; produce ranked recommendations grounded in verified files and version-aware Vercel/framework docs. Trigger for Vercel bill reduction, slow or expensive routes, caching opportunities, Function Invocations, Build Minutes, Fast Data Transfer, Core Web Vitals, Bot Management, Fluid compute, or cost breakdown requests."
+        },
+        {
+          "owner": "openai",
+          "repo": "skills",
+          "name": "cloudflare-deploy",
+          "skill_path": "skills/.curated/cloudflare-deploy",
+          "description": "Deploy applications and infrastructure to Cloudflare using Workers, Pages, and related platform services. Use when the user asks to deploy, host, publish, or set up a project on Cloudflare."
+        },
+        {
+          "owner": "openai",
+          "repo": "skills",
+          "name": "netlify-deploy",
+          "skill_path": "skills/.curated/netlify-deploy",
+          "description": "Deploy web projects to Netlify using the Netlify CLI (`npx netlify`). Use when the user asks to deploy, host, publish, or link a site/repo on Netlify, including preview and production deploys."
+        },
+        {
+          "owner": "openai",
+          "repo": "skills",
+          "name": "render-deploy",
+          "skill_path": "skills/.curated/render-deploy",
+          "description": "Deploy applications to Render by analyzing codebases, generating render.yaml Blueprints, and providing Dashboard deeplinks. Use when the user wants to deploy, host, publish, or set up their application on Render's cloud platform."
+        },
+        {
+          "owner": "openai",
+          "repo": "skills",
+          "name": "vercel-deploy",
+          "skill_path": "skills/.curated/vercel-deploy",
+          "description": "Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\"."
         }
       ]
     },

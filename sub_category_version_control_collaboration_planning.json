@@ -122,6 +122,13 @@
           "name": "create-pr",
           "skill_path": ".agents/skills/create-pr",
           "description": "Create a pull request in the warp repository for the current branch. Use when the user mentions opening a PR, creating a pull request, submitting changes for review, or preparing code for merge."
+        },
+        {
+          "owner": "openai",
+          "repo": "skills",
+          "name": "gh-address-comments",
+          "skill_path": "skills/.curated/gh-address-comments",
+          "description": "Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth first and prompt the user to authenticate if not logged in."
         }
       ]
     },
@@ -191,6 +198,13 @@
           "name": "linear-cli",
           "skill_path": "skills/linear-cli",
           "description": "Manage Linear issues from the command line using the linear cli. This skill allows automating linear management."
+        },
+        {
+          "owner": "openai",
+          "repo": "skills",
+          "name": "linear",
+          "skill_path": "skills/.curated/linear",
+          "description": "Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear."
         }
       ]
     },
@@ -477,6 +491,13 @@
           "name": "context-driven-development",
           "skill_path": "plugins/conductor/skills/context-driven-development",
           "description": "Creates and maintains project context artifacts (product.md, tech-stack.md, workflow.md, tracks.md) in a `conductor/` directory. Scaffolds new projects from scratch, extracts context from existing codebases, validates artifact consistency before implementation, and synchronizes documents as the project evolves. Use when setting up a project, creating or updating product docs, managing a tech stack file, defining development workflows, tracking work units, onboarding to an existing codebase, or running project scaffolding."
+        },
+        {
+          "owner": "openai",
+          "repo": "skills",
+          "name": "notion-spec-to-implementation",
+          "skill_path": "skills/.curated/notion-spec-to-implementation",
+          "description": "Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them."
         }
       ]
     },

@@ -316,6 +316,13 @@
           "name": "xget",
           "skill_path": "skills/xget",
           "description": "Use when tasks involve Xget URL rewriting, registry/package/container/API acceleration, integrating Xget into Git, download tools, package managers, container builds, AI SDKs, CI/CD, deployment, self-hosting, or adapting commands and config from the live README `Use Cases` section into files, environments, shells, or base URLs."
+        },
+        {
+          "owner": "openai",
+          "repo": "skills",
+          "name": "gh-fix-ci",
+          "skill_path": "skills/.curated/gh-fix-ci",
+          "description": "Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions; use `gh` to inspect checks and logs, summarize failure context, draft a fix plan, and implement only after explicit approval. Treat external providers (for example Buildkite) as out of scope and report only the details URL."
         }
       ]
     },
@@ -441,6 +448,13 @@
           "name": "slo-implementation",
           "skill_path": "plugins/observability-monitoring/skills/slo-implementation",
           "description": "Define and implement Service Level Indicators (SLIs) and Service Level Objectives (SLOs) with error budgets and alerting. Use when establishing reliability targets, implementing SRE practices, or measuring service performance."
+        },
+        {
+          "owner": "openai",
+          "repo": "skills",
+          "name": "sentry",
+          "skill_path": "skills/.curated/sentry",
+          "description": "Use when the user asks to inspect Sentry issues or events, summarize recent production errors, or pull basic Sentry health data via the Sentry CLI; perform read-only queries using the `sentry` command."
         }
       ]
     },
