@@ -289,6 +289,13 @@
           "name": "ml-pipeline-workflow",
           "skill_path": "plugins/machine-learning-ops/skills/ml-pipeline-workflow",
           "description": "Build end-to-end MLOps pipelines from data preparation through model training, validation, and production deployment. Use when creating ML pipelines, implementing MLOps practices, or automating model training and deployment workflows."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "weights-and-biases",
+          "skill_path": "skills/mlops/evaluation/weights-and-biases",
+          "description": "W&B: log ML experiments, sweeps, model registry, dashboards."
         }
       ]
     },

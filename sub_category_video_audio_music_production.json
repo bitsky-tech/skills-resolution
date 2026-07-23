@@ -228,6 +228,13 @@
           "name": "image-to-video",
           "skill_path": "tools/video/image-to-video",
           "description": "Still-to-video conversion guide: model selection, motion prompting, and camera movement. Covers Wan 2.5 i2v, Seedance, Fabric, Grok Video with when to use each. Use for: animating images, creating video from stills, adding motion, product animations. Triggers: image to video, i2v, animate image, still to video, add motion to image, image animation, photo to video, animate still, wan i2v, image2video, bring image to life, animate photo, motion from image"
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "manim-video",
+          "skill_path": "skills/creative/manim-video",
+          "description": "Manim CE animations: 3Blue1Brown math/algo videos."
         }
       ]
     },
@@ -500,6 +507,13 @@
           "name": "video-ad-specs",
           "skill_path": "guides/video/video-ad-specs",
           "description": "Video ad creation with exact platform-specific specs for TikTok, Instagram, YouTube, Facebook, LinkedIn. Covers dimensions, duration limits, AIDA framework, and caption requirements. Use for: video ads, social media ads, paid media creative, video marketing, ad production. Triggers: video ad, social media ad, tiktok ad, instagram ad, youtube ad, facebook ad, linkedin ad, video creative, ad specs, paid media, video marketing, ad production, reels ad, stories ad, pre roll, bumper ad"
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "ascii-video",
+          "skill_path": "skills/creative/ascii-video",
+          "description": "ASCII video: convert video/audio to colored ASCII MP4/GIF."
         }
       ]
     },
@@ -555,6 +569,13 @@
           "name": "transcribe",
           "skill_path": "skills/.curated/transcribe",
           "description": "Transcribe audio files to text with optional diarization and known-speaker hints. Use when a user asks to transcribe speech from audio/video, extract text from recordings, or label speakers in interviews or meetings."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "songsee",
+          "skill_path": "skills/media/songsee",
+          "description": "Audio spectrograms/features (mel, chroma, MFCC) via CLI."
         }
       ]
     },
@@ -631,6 +652,27 @@
           "name": "elevenlabs-music-generation",
           "skill_path": "elevenlabs-music-generation",
           "description": "Generate full songs and instrumental tracks with ElevenLabs Music on RunComfy via the `runcomfy` CLI. ElevenLabs Music turns a style description plus structured lyrics into studio-quality 44.1 kHz stereo audio — 5 seconds to 5 minutes — with section-level control (Intro / Verse / Chorus / Bridge), multilingual vocals, and commercial-friendly output. Generate a backing track, a full vocal song, a jingle, a podcast intro, a game loop, or an instrumental bed. Calls `runcomfy run elevenlabs/elevenlabs/music-generation` through the local RunComfy CLI. Triggers on \"generate music\", \"make a song\", \"AI music\", \"background music\", \"instrumental track\", \"ElevenLabs Music\", \"soundtrack\", \"jingle\", \"theme music\", \"royalty-free music\", \"compose\", or any explicit ask to generate music or a song from a text description.\n"
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "songwriting-and-ai-music",
+          "skill_path": "skills/creative/songwriting-and-ai-music",
+          "description": "Songwriting craft and Suno AI music prompts."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "heartmula",
+          "skill_path": "skills/media/heartmula",
+          "description": "HeartMuLa: Suno-like song generation from lyrics + tags."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "audiocraft-audio-generation",
+          "skill_path": "skills/mlops/models/audiocraft",
+          "description": "AudioCraft: MusicGen text-to-music, AudioGen text-to-sound."
         }
       ]
     },

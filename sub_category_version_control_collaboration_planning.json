@@ -129,6 +129,34 @@
           "name": "gh-address-comments",
           "skill_path": "skills/.curated/gh-address-comments",
           "description": "Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth first and prompt the user to authenticate if not logged in."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "github-auth",
+          "skill_path": "skills/github/github-auth",
+          "description": "GitHub auth setup: HTTPS tokens, SSH keys, gh CLI login."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "github-code-review",
+          "skill_path": "skills/github/github-code-review",
+          "description": "Review PRs: diffs, inline comments via gh or REST."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "github-pr-workflow",
+          "skill_path": "skills/github/github-pr-workflow",
+          "description": "GitHub PR lifecycle: branch, commit, open, CI, merge."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "github-repo-management",
+          "skill_path": "skills/github/github-repo-management",
+          "description": "Clone/create/fork repos; manage remotes, releases."
         }
       ]
     },
@@ -205,6 +233,13 @@
           "name": "linear",
           "skill_path": "skills/.curated/linear",
           "description": "Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "github-issues",
+          "skill_path": "skills/github/github-issues",
+          "description": "Create, triage, label, assign GitHub issues via gh or REST."
         }
       ]
     },
@@ -498,6 +533,13 @@
           "name": "notion-spec-to-implementation",
           "skill_path": "skills/.curated/notion-spec-to-implementation",
           "description": "Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "spike",
+          "skill_path": "skills/software-development/spike",
+          "description": "Throwaway experiments to validate an idea before build."
         }
       ]
     },

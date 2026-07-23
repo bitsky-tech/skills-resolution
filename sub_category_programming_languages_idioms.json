@@ -165,6 +165,13 @@
           "name": "uv-package-manager",
           "skill_path": "plugins/python-development/skills/uv-package-manager",
           "description": "Master the uv package manager for fast Python dependency management, virtual environments, and modern Python project workflows. Use when setting up Python projects, managing dependencies, or optimizing Python development workflows with uv."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "jupyter-live-kernel",
+          "skill_path": "skills/data-science/jupyter-live-kernel",
+          "description": "Iterative Python via live Jupyter kernel (hamelnb)."
         }
       ]
     },

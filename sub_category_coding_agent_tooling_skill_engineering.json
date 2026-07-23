@@ -827,6 +827,13 @@
           "name": "running-claude-code-via-litellm-copilot",
           "skill_path": "skills/running-claude-code-via-litellm-copilot",
           "description": "Use when routing Claude Code through a local LiteLLM proxy to GitHub Copilot, reducing direct Anthropic spend, configuring ANTHROPIC_BASE_URL or ANTHROPIC_MODEL overrides, or troubleshooting Copilot proxy setup failures such as model-not-found, no localhost traffic, or GitHub 401/403 auth errors."
+        },
+        {
+          "owner": "juliusbrussee",
+          "repo": "caveman",
+          "name": "caveman",
+          "skill_path": "skills/caveman",
+          "description": "Ultra-compressed communication mode. Cuts output tokens 65% (measured) by speaking like caveman while keeping full technical accuracy. Supports intensity levels: lite, full (default), ultra, wenyan-lite, wenyan-full, wenyan-ultra. Use when user says \"caveman mode\", \"talk like caveman\", \"use caveman\", \"less tokens\", \"be brief\", or invokes /caveman. Also auto-triggers when token efficiency is requested."
         }
       ]
     },

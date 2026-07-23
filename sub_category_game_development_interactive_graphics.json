@@ -121,6 +121,27 @@
           "name": "algorithmic-art",
           "skill_path": "skills/algorithmic-art",
           "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "p5js",
+          "skill_path": "skills/creative/p5js",
+          "description": "p5.js sketches: gen art, shaders, interactive, 3D."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "pretext",
+          "skill_path": "skills/creative/pretext",
+          "description": "Use when building creative browser demos with @chenglou/pretext — DOM-free text layout for ASCII art, typographic flow around obstacles, text-as-geometry games, kinetic typography, and text-powered generative art. Produces single-file HTML demos by default."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "touchdesigner-mcp",
+          "skill_path": "skills/creative/touchdesigner-mcp",
+          "description": "Control a running TouchDesigner instance via twozero MCP — create operators, set parameters, wire connections, execute Python, build real-time visuals. 36 native tools."
         }
       ]
     },

@@ -172,6 +172,13 @@
           "name": "nano-banana-pro-prompts-recommend-skill",
           "skill_path": "",
           "description": "Recommend suitable prompts from 10,000+ Nano Banana Pro image generation prompts based on user needs.\nOptimized for Nano Banana Pro (Gemini), but prompts also work with Nano Banana 2, Seedream 5.0,\nGPT Image 1.5, Midjourney, DALL-E, Flux, Stable Diffusion, and any text-to-image AI model.\n\nUse this skill when users want to:\n- Generate images with AI (any model — Nano Banana Pro, Gemini, GPT Image, Seedream, etc.)\n- Find proven AI image generation prompts and prompt templates\n- Get prompt recommendations for specific use cases (portraits, products, social media, posters, etc.)\n- Create illustrations for articles, videos, podcasts, or marketing content\n- Browse a curated prompt library with sample images\n- Translate and understand prompt techniques\n\nAlso available: \"ai-image-prompts\" skill — a model-agnostic version of this library for universal image generation.\n"
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "comfyui",
+          "skill_path": "skills/creative/comfyui",
+          "description": "Generate images, video, and audio with ComfyUI — install, launch, manage nodes/models, run workflows with parameter injection. Uses the official comfy-cli for lifecycle and direct REST/WebSocket API for execution."
         }
       ]
     },
@@ -395,6 +402,13 @@
           "name": "meme-factory",
           "skill_path": "dist/plugins/meme-factory/skills/meme-factory",
           "description": "Generate memes using the memegen.link API. Use when users request memes, want to add humor to content, or need visual aids for social media. Supports 100+ popular templates with custom text and styling."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "segment-anything-model",
+          "skill_path": "skills/mlops/models/segment-anything",
+          "description": "SAM: zero-shot image segmentation via points, boxes, masks."
         }
       ]
     },

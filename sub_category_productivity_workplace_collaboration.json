@@ -11,6 +11,13 @@
           "name": "calendar-automation",
           "skill_path": "calendar-automation",
           "description": "Google Calendar and Outlook automation - scheduling optimization, meeting workflows, time blocking, and Slack/Sheets integration"
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "himalaya",
+          "skill_path": "skills/email/himalaya",
+          "description": "Himalaya CLI: IMAP/SMTP email from terminal."
         }
       ]
     },
@@ -920,6 +927,13 @@
           "name": "wecomcli-todo",
           "skill_path": "skills/wecomcli-todo",
           "description": "企业微信待办事项管理技能，支持查询待办列表、获取待办详情、创建待办、更新待办、删除待办及变更用户处理进度状态。在用户说\"看看我的待办列表\"、\"我有哪些待办\"、\"帮我创建一个待办\"、\"把这个任务分派给张三\"、\"标记待办完成\"、\"删掉那个待办\"、\"帮我建个提醒\"、\"更新一下待办内容\"、\"把提醒时间改到下周\"、\"接受这个待办\"、\"拒绝这个待办\"、\"这个待办的详情\"、\"待办分派给谁了\"等需要对待办进行读写操作的场景时使用。"
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "google-workspace",
+          "skill_path": "skills/productivity/google-workspace",
+          "description": "Google OAuth2 client credentials (downloaded from Google Cloud Console)"
         }
       ]
     },
@@ -1010,6 +1024,27 @@
           "name": "notion-research-documentation",
           "skill_path": "skills/.curated/notion-research-documentation",
           "description": "Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "apple-notes",
+          "skill_path": "skills/apple/apple-notes",
+          "description": "Manage Apple Notes via memo CLI: create, search, edit."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "obsidian",
+          "skill_path": "skills/note-taking/obsidian",
+          "description": "Read, search, create, and edit notes in the Obsidian vault."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "notion",
+          "skill_path": "skills/productivity/notion",
+          "description": "Notion API + ntn CLI: pages, databases, markdown, Workers."
         }
       ]
     },
@@ -1051,6 +1086,20 @@
           "name": "notion-meeting-intelligence",
           "skill_path": "skills/.curated/notion-meeting-intelligence",
           "description": "Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees."
+        },
+        {
+          "owner": "openclaw",
+          "repo": "openclaw",
+          "name": "trello",
+          "skill_path": "skills/trello",
+          "description": "Manage Trello boards, lists, and cards via the Trello REST API."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "apple-reminders",
+          "skill_path": "skills/apple/apple-reminders",
+          "description": "Apple Reminders via remindctl: add, list, complete."
         }
       ]
     },
@@ -1085,6 +1134,20 @@
           "name": "professional-communication",
           "skill_path": "dist/plugins/professional-communication/skills/professional-communication",
           "description": "Guide technical communication for software developers. Covers email structure, team messaging etiquette, meeting agendas, and adapting messages for technical vs non-technical audiences. Use when drafting professional messages, preparing meeting communications, or improving written communication."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "imessage",
+          "skill_path": "skills/apple/imessage",
+          "description": "Send and receive iMessages/SMS via the imsg CLI on macOS."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "yuanbao",
+          "skill_path": "skills/yuanbao",
+          "description": "Yuanbao (元宝) groups: @mention users, query info/members."
         }
       ]
     },

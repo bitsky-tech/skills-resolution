@@ -185,6 +185,13 @@
           "name": "tmux",
           "skill_path": "skills/tmux",
           "description": "Control tmux sessions/panes for interactive CLIs: list, capture output, send keys, paste text, monitor prompts."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "computer-use",
+          "skill_path": "skills/computer-use",
+          "description": "|"
         }
       ]
     },

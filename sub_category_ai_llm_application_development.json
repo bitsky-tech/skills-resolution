@@ -519,6 +519,13 @@
           "name": "prompt-engineering-patterns",
           "skill_path": "plugins/llm-application-dev/skills/prompt-engineering-patterns",
           "description": "Master advanced prompt engineering techniques to maximize LLM performance, reliability, and controllability in production. Use when optimizing prompts, improving LLM outputs, or designing production prompt templates."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "evaluating-llms-harness",
+          "skill_path": "skills/mlops/evaluation/lm-evaluation-harness",
+          "description": "lm-eval-harness: benchmark LLMs (MMLU, GSM8K, etc.)."
         }
       ]
     },
@@ -574,6 +581,27 @@
           "name": "openai-docs",
           "skill_path": "skills/.curated/openai-docs",
           "description": "Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex surfaces, needs up-to-date official documentation with citations, help choosing the latest model for a use case, or model upgrade and prompt-upgrade guidance; use OpenAI docs MCP tools for non-Codex docs questions, use the Codex manual helper first for broad Codex self-knowledge, and restrict fallback browsing to official OpenAI domains."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "huggingface-hub",
+          "skill_path": "skills/mlops/huggingface-hub",
+          "description": "HuggingFace hf CLI: search/download/upload models, datasets."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "llama-cpp",
+          "skill_path": "skills/mlops/inference/llama-cpp",
+          "description": "llama.cpp local GGUF inference + HF Hub model discovery."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "serving-llms-vllm",
+          "skill_path": "skills/mlops/inference/vllm",
+          "description": "vLLM: high-throughput LLM serving, OpenAI API, quantization."
         }
       ]
     },

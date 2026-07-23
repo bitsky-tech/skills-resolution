@@ -171,6 +171,13 @@
           "name": "readme-i18n",
           "skill_path": "skills/readme-i18n",
           "description": "Use when the user wants to translate a repository README, make a repo multilingual, localize docs, add a language switcher, internationalize the README, or update localized README variants in a GitHub-style repository."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "humanizer",
+          "skill_path": "skills/creative/humanizer",
+          "description": "Humanize text: strip AI-isms and add real voice."
         }
       ]
     },

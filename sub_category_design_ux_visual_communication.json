@@ -284,6 +284,27 @@
           "name": "interaction-design",
           "skill_path": "plugins/ui-design/skills/interaction-design",
           "description": "Design and implement microinteractions, motion design, transitions, and user feedback patterns. Use when adding polish to UI interactions, implementing loading states, or creating delightful user experiences."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "claude-design",
+          "skill_path": "skills/creative/claude-design",
+          "description": "Design one-off HTML artifacts (landing, deck, prototype)."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "popular-web-designs",
+          "skill_path": "skills/creative/popular-web-designs",
+          "description": "54 real design systems (Stripe, Linear, Vercel) as HTML/CSS."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "sketch",
+          "skill_path": "skills/creative/sketch",
+          "description": "Throwaway HTML mockups: 2-3 design variants to compare."
         }
       ]
     },
@@ -374,6 +395,13 @@
           "name": "figma-generate-library",
           "skill_path": "skills/.curated/figma-generate-library",
           "description": "Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create variables/tokens, build component libraries, set up theming (light/dark modes), document foundations, or reconcile gaps between code and Figma. This skill teaches WHAT to build and in WHAT ORDER — it complements the `figma-use` skill which teaches HOW to call the Plugin API. Both skills should be loaded together."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "design-md",
+          "skill_path": "skills/creative/design-md",
+          "description": "Author/validate/export Google's DESIGN.md token spec files."
         }
       ]
     },
@@ -526,6 +554,27 @@
           "name": "fireworks-tech-graph",
           "skill_path": "",
           "description": "Use when the user wants to create any technical diagram - architecture, data flow, flowchart, sequence, agent/memory, or concept map - and export as SVG+PNG. Trigger on: \"画图\" \"帮我画\" \"生成图\" \"做个图\" \"架构图\" \"流程图\" \"可视化一下\" \"出图\" \"generate diagram\" \"draw diagram\" \"visualize\" or any system/flow description the user wants illustrated."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "architecture-diagram",
+          "skill_path": "skills/creative/architecture-diagram",
+          "description": "Dark-themed SVG architecture/cloud/infra diagrams as HTML."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "ascii-art",
+          "skill_path": "skills/creative/ascii-art",
+          "description": "ASCII art: pyfiglet, cowsay, boxes, image-to-ascii."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "excalidraw",
+          "skill_path": "skills/creative/excalidraw",
+          "description": "Hand-drawn Excalidraw JSON diagrams (arch, flow, seq)."
         }
       ]
     },
@@ -560,6 +609,13 @@
           "name": "kpi-dashboard-design",
           "skill_path": "plugins/business-analytics/skills/kpi-dashboard-design",
           "description": "Design effective KPI dashboards with metrics selection, visualization best practices, and real-time monitoring patterns. Use this skill when building an executive SaaS metrics dashboard tracking MRR, churn, and LTV/CAC ratios; designing an operations center with live service health and request throughput; creating a cohort retention analysis view for a product team; or debugging a dashboard where metrics contradict each other due to inconsistent calculation methodology."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "baoyu-infographic",
+          "skill_path": "skills/creative/baoyu-infographic",
+          "description": "Infographics: 21 layouts x 21 styles (信息图, 可视化)."
         }
       ]
     },

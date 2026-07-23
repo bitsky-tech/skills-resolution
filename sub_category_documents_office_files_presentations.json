@@ -88,6 +88,20 @@
           "name": "pdf-converter",
           "skill_path": "",
           "description": "PDF converter powered by MinerU — convert PDF to Word, Markdown, HTML, LaTeX, or plain text. Also handles image-to-text OCR, scanned document recognition, and Office formats (DOCX, PPTX, Excel). Supports 80+ languages. Use this skill when the user wants to convert, extract, read, parse, or summarize any PDF or document. Also applies when the user shares a PDF file or link and asks about its content, needs tables or formulas extracted, wants PDF OCR, or says things like 'turn this into a doc' or 'what does this paper say'."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "nano-pdf",
+          "skill_path": "skills/productivity/nano-pdf",
+          "description": "Edit PDF text/typos/titles via nano-pdf CLI (NL prompts)."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "pdf",
+          "skill_path": "skills/productivity/pdf",
+          "description": "Create, merge, split, fill, and secure PDF files."
         }
       ]
     },
@@ -136,6 +150,20 @@
           "name": "xlsx-manipulation",
           "skill_path": "xlsx-manipulation",
           "description": "Create, edit, and manipulate Excel spreadsheets programmatically using openpyxl"
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "docx",
+          "skill_path": "skills/productivity/docx",
+          "description": "Create, read, edit Word .docx documents and templates."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "xlsx",
+          "skill_path": "skills/productivity/xlsx",
+          "description": "Create, read, edit Excel .xlsx spreadsheets and CSVs."
         }
       ]
     },
@@ -254,6 +282,13 @@
           "name": "elite-powerpoint-designer",
           "skill_path": "skills/elite-powerpoint-designer",
           "description": "Create world-class PowerPoint presentations with professional design, consistent branding, sophisticated animations, and polished visual hierarchy. Use when users request presentations, slide decks, pitches, reports, or want to convert markdown to professionally designed PowerPoint with Apple/Microsoft/Google-level quality."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "powerpoint",
+          "skill_path": "skills/productivity/powerpoint",
+          "description": "Create, read, edit .pptx decks, slides, notes, templates."
         }
       ]
     },
@@ -295,6 +330,13 @@
           "name": "baoyu-markdown-to-html",
           "skill_path": "skills/baoyu-markdown-to-html",
           "description": "Converts Markdown to styled HTML with WeChat-compatible themes. Supports code highlighting, math, Mermaid (rendered to PNG via headless Chrome), PlantUML, footnotes, alerts, infographics, and optional bottom citations for external links. Use when user asks for \"markdown to html\", \"convert md to html\", \"md 转 html\", \"微信外链转底部引用\", or needs styled HTML output from markdown."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "ocr-and-documents",
+          "skill_path": "skills/productivity/ocr-and-documents",
+          "description": "Extract text from PDFs/scans (pymupdf, marker-pdf)."
         }
       ]
     },
