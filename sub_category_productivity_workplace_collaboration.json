@@ -1045,6 +1045,13 @@
           "name": "notion",
           "skill_path": "skills/productivity/notion",
           "description": "Notion API + ntn CLI: pages, databases, markdown, Workers."
+        },
+        {
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "name": "llm-wiki",
+          "skill_path": "skills/research/llm-wiki",
+          "description": "Karpathy's LLM Wiki: build/query interlinked markdown KB."
         }
       ]
     },
