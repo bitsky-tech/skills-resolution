@@ -456,7 +456,7 @@
           "owner": "remotion-dev",
           "repo": "skills",
           "name": "remotion-best-practices",
-          "skill_path": "skills/remotion",
+          "skill_path": "skills/remotion-best-practices",
           "description": "Best practices for Remotion - Video creation in React"
         },
         {
