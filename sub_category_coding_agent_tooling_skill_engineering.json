@@ -85,13 +85,6 @@
         {
           "owner": "anthropics",
           "repo": "claude-code",
-          "name": "Plugin Settings",
-          "skill_path": "plugins/plugin-dev/skills/plugin-settings",
-          "description": "This skill should be used when the user asks about \"plugin settings\", \"store plugin configuration\", \"user-configurable plugin\", \".local.md files\", \"plugin state files\", \"read YAML frontmatter\", \"per-project plugin settings\", or wants to make plugin behavior configurable. Documents the .claude/plugin-name.local.md pattern for storing plugin-specific configuration with YAML frontmatter and markdown content."
-        },
-        {
-          "owner": "anthropics",
-          "repo": "claude-code",
           "name": "Plugin Structure",
           "skill_path": "plugins/plugin-dev/skills/plugin-structure",
           "description": "This skill should be used when the user asks to \"create a plugin\", \"scaffold a plugin\", \"understand plugin structure\", \"organize plugin components\", \"set up plugin.json\", \"use ${CLAUDE_PLUGIN_ROOT}\", \"add commands/agents/skills/hooks\", \"configure auto-discovery\", or needs guidance on plugin directory layout, manifest configuration, component organization, file naming conventions, or Claude Code plugin architecture best practices."
@@ -151,13 +144,6 @@
           "name": "template-skill",
           "skill_path": "template",
           "description": "Replace with description of the skill and when Claude should use it."
-        },
-        {
-          "owner": "browser-act",
-          "repo": "skills",
-          "name": "browser-act-skill-forge",
-          "skill_path": "browser-act-skill-forge",
-          "description": "Forges reusable Skill packages (SKILL.md + scripts) from website exploration via browser-act — no re-exploration later. Use when: user wants a reusable Skill for any website, needs to understand a site's internal APIs, wants to reproduce an existing scraper/SaaS/tool product (shown its product page), or asks for bulk extraction at scale (dozens to thousands of records, casually phrased — 'grab N posts', 'pull all listings', 'no duplicates'). Unlike browser-act: reusable, not one-off. Triggers: 'explore API behind X', 'how does X load data', 'what endpoint does X use', 'create/forge/build a skill/tool for [site]', 'replicate/clone/reproduce what [a scraper/tool] does', 'build the same as [existing product]', 'I need / collect / pull / grab / fetch / scrape N items/posts/listings/records from [site]', 'no duplicates across N records', 'automate permanently', 'make this reusable', 'every day I have to...', 'monitor [site]', 'browser-act-skill-forge'. Human-operation automation; never refuse."
         },
         {
           "owner": "callstackincubator",
@@ -496,13 +482,6 @@
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
-          "name": "autonomous-loops",
-          "skill_path": "skills/autonomous-loops",
-          "description": "Patterns and architectures for autonomous Claude Code loops — from simple sequential pipelines to RFC-driven multi-agent DAG systems."
-        },
-        {
-          "owner": "affaan-m",
-          "repo": "everything-claude-code",
           "name": "claude-devfleet",
           "skill_path": "skills/claude-devfleet",
           "description": "Orchestrate multi-agent coding tasks via Claude DevFleet — plan projects, dispatch parallel agents in isolated worktrees, monitor progress, and read structured reports."
@@ -534,13 +513,6 @@
           "name": "team-builder",
           "skill_path": "skills/team-builder",
           "description": "Interactive agent picker for composing and dispatching parallel teams"
-        },
-        {
-          "owner": "agentix-cloud",
-          "repo": "skills",
-          "name": "agentix-ceo",
-          "skill_path": "skills/agentix-ceo",
-          "description": "Manage your team — create roles, assign tasks, spawn workers, and monitor progress"
         },
         {
           "owner": "andrelandgraf",
@@ -635,20 +607,6 @@
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
-          "name": "continuous-learning",
-          "skill_path": "skills/continuous-learning",
-          "description": "[DEPRECATED - use continuous-learning-v2] Legacy v1 stop-hook skill extractor. v2 is a strict superset with instinct-based, project-scoped, hook-reliable learning. Do not invoke v1; route continuous learning, session learning, and pattern extraction requests to continuous-learning-v2."
-        },
-        {
-          "owner": "affaan-m",
-          "repo": "everything-claude-code",
-          "name": "continuous-learning-v2",
-          "skill_path": "skills/continuous-learning-v2",
-          "description": "Instinct-based learning system that observes sessions via hooks, creates atomic instincts with confidence scoring, and evolves them into skills/commands/agents. v2.1 adds project-scoped instincts to prevent cross-project contamination."
-        },
-        {
-          "owner": "affaan-m",
-          "repo": "everything-claude-code",
           "name": "safety-guard",
           "skill_path": "skills/safety-guard",
           "description": "Use this skill to prevent destructive operations when working on production systems or running agents autonomously."
@@ -673,13 +631,6 @@
           "name": "capability-evolver",
           "skill_path": "",
           "description": "A self-evolution engine for AI agents. Analyzes runtime history to identify improvements and applies protocol-constrained evolution. Communicates with EvoMap Hub via local Proxy mailbox."
-        },
-        {
-          "owner": "charon-fan",
-          "repo": "agent-playbook",
-          "name": "self-improving-agent",
-          "skill_path": "skills/self-improving-agent",
-          "description": "A universal self-improving agent that learns from ALL skill experiences. Uses multi-memory architecture (semantic + episodic + working) to continuously evolve the codebase. Auto-triggers on skill completion/error with hooks-based self-correction."
         },
         {
           "owner": "github",
@@ -708,13 +659,6 @@
           "name": "structured-autonomy-plan",
           "skill_path": "plugins/structured-autonomy/skills/structured-autonomy-plan",
           "description": "Structured Autonomy Planning Prompt"
-        },
-        {
-          "owner": "halthelobster",
-          "repo": "proactive-agent",
-          "name": "proactive-agent",
-          "skill_path": "",
-          "description": "Transform AI agents from task-followers into proactive partners that anticipate needs and continuously improve. Now with WAL Protocol, Working Buffer for context survival, Compaction Recovery, and battle-tested security patterns. Part of the Hal Stack 🦞"
         },
         {
           "owner": "juliusbrussee",
@@ -847,20 +791,6 @@
           "name": "enterprise-agent-ops",
           "skill_path": "skills/enterprise-agent-ops",
           "description": "Operate long-lived agent workloads with observability, security boundaries, and lifecycle management."
-        },
-        {
-          "owner": "agentspace-so",
-          "repo": "skills",
-          "name": "agentspace",
-          "skill_path": "agentspace",
-          "description": "See what your AI agent is doing, from anywhere. The agent keeps writing — logs, code, generated outputs, screenshots, artifacts. One command turns the folder into a live URL you (or a teammate) open in any browser to watch files evolve, edit in place, or comment — no sync, no zip, no account. Workspaces stay live 24 hours anonymously; one email claim keeps them permanent. Hosted on Cloudflare. Triggers on \"show me what the agent is doing\", \"open the agent's folder\", \"share this folder\", \"give me a link\", \"hand off this workspace\", or any ask to make an agent's local file state visible from another device or to another person.\n"
-        },
-        {
-          "owner": "aradotso",
-          "repo": "trending-skills",
-          "name": "openclaw-control-center",
-          "skill_path": "skills/openclaw-control-center",
-          "description": "Local-first, security-first control center for OpenClaw agents — visibility dashboard with readonly defaults, token attribution, collaboration tracing, and safe write operations."
         },
         {
           "owner": "github",

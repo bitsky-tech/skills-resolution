@@ -367,13 +367,6 @@
       "description": "Building blockchain programs and protocols — Solidity, NFTs (ERC-721/1155), DeFi protocol templates and Solana/Anchor development.",
       "skills": [
         {
-          "owner": "solana-foundation",
-          "repo": "solana-dev-skill",
-          "name": "solana-dev",
-          "skill_path": "skill",
-          "description": "Use when user asks to \"build a Solana dapp\", \"write an Anchor program\", \"create a token\", \"debug Solana errors\", \"set up wallet connection\", \"test my Solana program\", \"deploy to devnet\", or \"explain Solana concepts\" (rent, accounts, PDAs, CPIs, etc.). End-to-end Solana development playbook covering wallet connection, Anchor/Pinocchio programs, Codama client generation, LiteSVM/Mollusk/Surfpool testing, and security checklists. Integrates with the Solana MCP server for live documentation search. Prefers framework-kit (@solana/client + @solana/react-hooks) for UI, wallet-standard-first connection (incl. ConnectorKit), @solana/kit for client/RPC code, and @solana/web3-compat for legacy boundaries."
-        },
-        {
           "owner": "wshobson",
           "repo": "agents",
           "name": "defi-protocol-templates",

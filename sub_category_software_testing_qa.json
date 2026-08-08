@@ -397,13 +397,6 @@
         {
           "owner": "affaan-m",
           "repo": "everything-claude-code",
-          "name": "django-verification",
-          "skill_path": "skills/django-verification",
-          "description": "Verification loop for Django projects: migrations, linting, tests with coverage, security scans, and deployment readiness checks before release or PR."
-        },
-        {
-          "owner": "affaan-m",
-          "repo": "everything-claude-code",
           "name": "laravel-verification",
           "skill_path": "skills/laravel-verification",
           "description": "Verification loop for Laravel projects: env checks, linting, static analysis, tests with coverage, security scans, and deployment readiness."

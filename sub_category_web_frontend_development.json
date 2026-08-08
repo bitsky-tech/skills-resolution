@@ -773,13 +773,6 @@
         {
           "owner": "wshobson",
           "repo": "agents",
-          "name": "monorepo-management",
-          "skill_path": "plugins/developer-essentials/skills/monorepo-management",
-          "description": "Master monorepo management with Turborepo, Nx, and pnpm workspaces to build efficient, scalable multi-package repositories with optimized builds and dependency management. Use when setting up monorepos, optimizing builds, or managing shared dependencies."
-        },
-        {
-          "owner": "wshobson",
-          "repo": "agents",
           "name": "nx-workspace-patterns",
           "skill_path": "plugins/developer-essentials/skills/nx-workspace-patterns",
           "description": "Configure and optimize Nx monorepo workspaces. Use when setting up Nx, configuring project boundaries, optimizing build caching, or implementing affected commands."
