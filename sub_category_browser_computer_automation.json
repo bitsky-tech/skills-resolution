@@ -46,6 +46,13 @@
           "name": "computer-use",
           "skill_path": "skills/computer-use",
           "description": "|"
+        },
+        {
+          "name": "findmy",
+          "description": "Track Apple devices/AirTags via FindMy.app on macOS.",
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "skill_path": "skills/apple/findmy"
         }
       ]
     },

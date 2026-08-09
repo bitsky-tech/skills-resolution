@@ -36,37 +36,9 @@
         {
           "owner": "github",
           "repo": "awesome-copilot",
-          "name": "copilot-sdk",
-          "skill_path": "plugins/copilot-sdk/skills/copilot-sdk",
-          "description": "Build agentic applications with GitHub Copilot SDK. Use when embedding AI agents in apps, creating custom tools, implementing streaming responses, managing sessions, connecting to MCP servers, or creating custom agents. Triggers on Copilot SDK, GitHub SDK, agentic app, embed Copilot, programmable agent, MCP server, custom agent."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
           "name": "declarative-agents",
           "skill_path": "skills/declarative-agents",
           "description": "Complete development kit for Microsoft 365 Copilot declarative agents with three comprehensive workflows (basic, advanced, validation), TypeSpec support, and Microsoft 365 Agents Toolkit integration"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "mcp-create-declarative-agent",
-          "skill_path": "plugins/mcp-m365-copilot/skills/mcp-create-declarative-agent",
-          "description": "Skill converted from mcp-create-declarative-agent.prompt.md"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "mcp-deploy-manage-agents",
-          "skill_path": "plugins/mcp-m365-copilot/skills/mcp-deploy-manage-agents",
-          "description": "Skill converted from mcp-deploy-manage-agents.prompt.md"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "typespec-create-agent",
-          "skill_path": "plugins/typespec-m365-copilot/skills/typespec-create-agent",
-          "description": "Generate a complete TypeSpec declarative agent with instructions, capabilities, and conversation starters for Microsoft 365 Copilot"
         },
         {
           "owner": "google",
@@ -245,100 +217,9 @@
         {
           "owner": "github",
           "repo": "awesome-copilot",
-          "name": "flowstudio-power-automate-mcp",
-          "skill_path": "plugins/flowstudio-power-automate/skills/flowstudio-power-automate-mcp",
-          "description": "Foundation skill for Power Automate via FlowStudio MCP — auth setup, the reusable MCP helper (Python + Node.js), tool discovery via `list_skills` / `tool_search`, and oversized-response handling. Load this skill first when connecting an agent to Power Automate. For specialized workflows, load `flowstudio-power-automate-build`, `flowstudio-power-automate-debug`, `flowstudio-power-automate-monitoring` (Pro+), or `flowstudio-power-automate-governance` (Pro+) — each contains the workflow narrative, this skill provides the plumbing they all rely on. Requires a FlowStudio MCP subscription or compatible server — see https://mcp.flowstudio.app"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "go-mcp-server-generator",
-          "skill_path": "plugins/go-mcp-development/skills/go-mcp-server-generator",
-          "description": "Generate a complete Go MCP server project with proper structure, dependencies, and implementation using the official github.com/modelcontextprotocol/go-sdk."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "java-mcp-server-generator",
-          "skill_path": "plugins/java-mcp-development/skills/java-mcp-server-generator",
-          "description": "Generate a complete Model Context Protocol server project in Java using the official MCP Java SDK with reactive streams and optional Spring Boot integration."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "kotlin-mcp-server-generator",
-          "skill_path": "plugins/kotlin-mcp-development/skills/kotlin-mcp-server-generator",
-          "description": "Generate a complete Kotlin MCP server project with proper structure, dependencies, and implementation using the official io.modelcontextprotocol:kotlin-sdk library."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
           "name": "mcp-cli",
           "skill_path": "skills/mcp-cli",
           "description": "Interface for MCP (Model Context Protocol) servers via CLI. Use when you need to interact with external tools, APIs, or data sources through MCP servers, list available MCP servers/tools, or call MCP tools from command line."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "mcp-copilot-studio-server-generator",
-          "skill_path": "plugins/power-platform-mcp-connector-development/skills/mcp-copilot-studio-server-generator",
-          "description": "Generate a complete MCP server implementation optimized for Copilot Studio integration with proper schema constraints and streamable HTTP support"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "mcp-create-adaptive-cards",
-          "skill_path": "plugins/mcp-m365-copilot/skills/mcp-create-adaptive-cards",
-          "description": "Skill converted from mcp-create-adaptive-cards.prompt.md"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "php-mcp-server-generator",
-          "skill_path": "plugins/php-mcp-development/skills/php-mcp-server-generator",
-          "description": "Generate a complete PHP Model Context Protocol server project with tools, resources, prompts, and tests using the official PHP SDK"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "power-platform-mcp-connector-suite",
-          "skill_path": "plugins/power-platform-mcp-connector-development/skills/power-platform-mcp-connector-suite",
-          "description": "Generate complete Power Platform custom connector with MCP integration for Copilot Studio - includes schema generation, troubleshooting, and validation"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "python-mcp-server-generator",
-          "skill_path": "plugins/python-mcp-development/skills/python-mcp-server-generator",
-          "description": "Generate a complete MCP server project in Python with tools, resources, and proper configuration"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "ruby-mcp-server-generator",
-          "skill_path": "plugins/ruby-mcp-development/skills/ruby-mcp-server-generator",
-          "description": "Generate a complete Model Context Protocol server project in Ruby using the official MCP Ruby SDK gem."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "rust-mcp-server-generator",
-          "skill_path": "plugins/rust-mcp-development/skills/rust-mcp-server-generator",
-          "description": "Generate a complete Rust Model Context Protocol server project with tools, prompts, resources, and tests using the official rmcp SDK"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "swift-mcp-server-generator",
-          "skill_path": "plugins/swift-mcp-development/skills/swift-mcp-server-generator",
-          "description": "Generate a complete Model Context Protocol server project in Swift using the official MCP Swift SDK package."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "typescript-mcp-server-generator",
-          "skill_path": "plugins/typescript-mcp-development/skills/typescript-mcp-server-generator",
-          "description": "Generate a complete MCP server project in TypeScript with tools, resources, and proper configuration"
         },
         {
           "owner": "mcp-use",
@@ -463,13 +344,6 @@
           "name": "agentic-eval",
           "skill_path": "skills/agentic-eval",
           "description": "Patterns and techniques for evaluating and improving AI agent outputs. Use this skill when:\n- Implementing self-critique and reflection loops\n- Building evaluator-optimizer pipelines for quality-critical generation\n- Creating test-driven code refinement workflows\n- Designing rubric-based or LLM-as-judge evaluation systems\n- Adding iterative improvement to agent outputs (code, reports, analysis)\n- Measuring and improving agent response quality\n"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "ai-prompt-engineering-safety-review",
-          "skill_path": "plugins/security-best-practices/skills/ai-prompt-engineering-safety-review",
-          "description": "Comprehensive AI prompt engineering safety review and improvement prompt. Analyzes prompts for safety, bias, security vulnerabilities, and effectiveness while providing detailed improvement recommendations with extensive frameworks, testing methodologies, and educational content."
         },
         {
           "owner": "github",

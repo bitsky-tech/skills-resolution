@@ -195,27 +195,6 @@
           "description": "Create agent skills for Microsoft technologies using Learn MCP tools. Use when users want to create a skill that teaches agents about any Microsoft technology, library, framework, or service (Azure, .NET, M365, VS Code, Bicep, etc.). Investigates topics deeply, then generates a hybrid skill storing essential knowledge locally while enabling dynamic deeper investigation."
         },
         {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "suggest-awesome-github-copilot-agents",
-          "skill_path": "plugins/awesome-copilot/skills/suggest-awesome-github-copilot-agents",
-          "description": "Suggest relevant GitHub Copilot Custom Agents files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing custom agents in this repository, and identifying outdated agents that need updates."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "suggest-awesome-github-copilot-instructions",
-          "skill_path": "plugins/awesome-copilot/skills/suggest-awesome-github-copilot-instructions",
-          "description": "Suggest relevant GitHub Copilot instruction files from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing instructions in this repository, and identifying outdated instructions that need updates."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "suggest-awesome-github-copilot-skills",
-          "skill_path": "plugins/awesome-copilot/skills/suggest-awesome-github-copilot-skills",
-          "description": "Suggest relevant GitHub Copilot skills from the awesome-copilot repository based on current repository context and chat history, avoiding duplicates with existing skills in this repository, and identifying outdated skills that need updates."
-        },
-        {
           "owner": "jackwener",
           "repo": "opencli",
           "name": "opencli-adapter-author",
@@ -385,13 +364,6 @@
         {
           "owner": "github",
           "repo": "awesome-copilot",
-          "name": "context-map",
-          "skill_path": "plugins/context-engineering/skills/context-map",
-          "description": "Generate a map of all files relevant to a task before making changes"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
           "name": "copilot-spaces",
           "skill_path": "skills/copilot-spaces",
           "description": "Use Copilot Spaces to provide project-specific context to conversations. Use this skill when users mention a \"Copilot space\", want to load context from a shared knowledge base, discover available spaces, or ask questions grounded in curated project documentation, code, and instructions."
@@ -409,13 +381,6 @@
           "name": "remember",
           "skill_path": "skills/remember",
           "description": "Transforms lessons learned into domain-organized memory instructions (global or workspace). Syntax: `/remember [>domain [scope]] lesson clue` where scope is `global` (default), `user`, `workspace`, or `ws`."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "what-context-needed",
-          "skill_path": "plugins/context-engineering/skills/what-context-needed",
-          "description": "Ask Copilot what files it needs to see before answering a question"
         },
         {
           "owner": "juliusbrussee",
@@ -522,13 +487,6 @@
           "description": "Complete setup for automated agent-driven development. Define features as user stories with testable acceptance criteria, then run AI agents in a loop until all stories pass."
         },
         {
-          "owner": "juliusbrussee",
-          "repo": "caveman",
-          "name": "cavecrew",
-          "skill_path": ".agents/skills/cavecrew",
-          "description": "Decision guide for delegating to caveman-style subagents. Tells the main thread WHEN to spawn `cavecrew-investigator` (locate code), `cavecrew-builder` (1-2 file edit), or `cavecrew-reviewer` (diff review) instead of doing the work inline or using vanilla `Explore`. Subagent output is caveman-compressed so the tool-result injected back into main context is ~60% smaller — main context lasts longer across long sessions. Trigger: \"delegate to subagent\", \"use cavecrew\", \"spawn investigator/builder/reviewer\", \"save context\", \"compressed agent output\".\n"
-        },
-        {
           "owner": "obra",
           "repo": "superpowers",
           "name": "dispatching-parallel-agents",
@@ -631,34 +589,6 @@
           "name": "capability-evolver",
           "skill_path": "",
           "description": "A self-evolution engine for AI agents. Analyzes runtime history to identify improvements and applies protocol-constrained evolution. Communicates with EvoMap Hub via local Proxy mailbox."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "remember-interactive-programming",
-          "skill_path": "plugins/clojure-interactive-programming/skills/remember-interactive-programming",
-          "description": "A micro-prompt that reminds the agent that it is an interactive programmer. Works great in Clojure when Copilot has access to the REPL (probably via Backseat Driver). Will work with any system that has a live REPL that the agent can use. Adapt the prompt with any specific reminders in your workflow and/or workspace."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "structured-autonomy-generate",
-          "skill_path": "plugins/structured-autonomy/skills/structured-autonomy-generate",
-          "description": "Structured Autonomy Implementation Generator Prompt"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "structured-autonomy-implement",
-          "skill_path": "plugins/structured-autonomy/skills/structured-autonomy-implement",
-          "description": "Structured Autonomy Implementation Prompt"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "structured-autonomy-plan",
-          "skill_path": "plugins/structured-autonomy/skills/structured-autonomy-plan",
-          "description": "Structured Autonomy Planning Prompt"
         },
         {
           "owner": "juliusbrussee",
@@ -846,20 +776,6 @@
           "name": "copilot-cli-quickstart",
           "skill_path": "skills/copilot-cli-quickstart",
           "description": "Use this skill when someone wants to learn GitHub Copilot CLI from scratch. Offers interactive step-by-step tutorials with separate Developer and Non-Developer tracks, plus on-demand Q&A. Just say \"start tutorial\" or ask a question! Note: This skill targets GitHub Copilot CLI specifically and uses CLI-specific tools (ask_user, sql, fetch_copilot_cli_documentation).\n"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "noob-mode",
-          "skill_path": "plugins/noob-mode/skills/noob-mode",
-          "description": "Plain-English translation layer for non-technical Copilot CLI users. Translates every approval prompt, error message, and technical output into clear, jargon-free English with color-coded risk indicators."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "quasi-coder",
-          "skill_path": "plugins/cms-development/skills/quasi-coder",
-          "description": "Expert 10x engineer skill for interpreting and implementing code from shorthand, quasi-code, and natural language descriptions. Use when collaborators provide incomplete code snippets, pseudo-code, or descriptions with potential typos or incorrect terminology. Excels at translating non-technical or semi-technical descriptions into production-quality code."
         }
       ]
     }

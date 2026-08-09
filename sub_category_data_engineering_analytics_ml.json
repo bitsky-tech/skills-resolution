@@ -70,34 +70,6 @@
         {
           "owner": "github",
           "repo": "awesome-copilot",
-          "name": "power-bi-dax-optimization",
-          "skill_path": "plugins/power-bi-development/skills/power-bi-dax-optimization",
-          "description": "Comprehensive Power BI DAX formula optimization prompt for improving performance, readability, and maintainability of DAX calculations."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "power-bi-model-design-review",
-          "skill_path": "plugins/power-bi-development/skills/power-bi-model-design-review",
-          "description": "Comprehensive Power BI data model design review prompt for evaluating model architecture, relationships, and optimization opportunities."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "power-bi-performance-troubleshooting",
-          "skill_path": "plugins/power-bi-development/skills/power-bi-performance-troubleshooting",
-          "description": "Systematic Power BI performance troubleshooting prompt for identifying, diagnosing, and resolving performance issues in Power BI models, reports, and queries."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "power-bi-report-design-consultation",
-          "skill_path": "plugins/power-bi-development/skills/power-bi-report-design-consultation",
-          "description": "Power BI report visualization design prompt for creating effective, user-friendly, and accessible reports with optimal chart selection and layout design."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
           "name": "powerbi-modeling",
           "skill_path": "skills/powerbi-modeling",
           "description": "Power BI semantic modeling assistant for building optimized data models. Use when working with Power BI semantic models, creating measures, designing star schemas, configuring relationships, implementing RLS, or optimizing model performance. Triggers on queries about DAX calculations, table relationships, dimension/fact table design, naming conventions, model documentation, cardinality, cross-filter direction, calculation groups, and data model best practices. Always connects to the active model first using power-bi-modeling MCP tools to understand the data structure before providing guidance."

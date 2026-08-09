@@ -303,6 +303,13 @@
           "name": "learn",
           "skill_path": "skills/learn",
           "description": "Runs a six-phase research workflow that turns unfamiliar domains, source bundles, or collected material into publish-ready output. Use when users ask 学习一下/深入研究/研究一下/整理成文章/deep dive/compile sources or need one coherent reference from many inputs. Not for quick lookups or single-file reads."
+        },
+        {
+          "name": "research-paper-writing",
+          "description": "Write ML papers for NeurIPS/ICML/ICLR: design→submit.",
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "skill_path": "skills/research/research-paper-writing"
         }
       ]
     },

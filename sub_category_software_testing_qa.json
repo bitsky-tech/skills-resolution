@@ -99,41 +99,6 @@
         {
           "owner": "github",
           "repo": "awesome-copilot",
-          "name": "csharp-mstest",
-          "skill_path": "plugins/csharp-dotnet-development/skills/csharp-mstest",
-          "description": "Get best practices for MSTest 3.x/4.x unit testing, including modern assertion APIs and data-driven tests"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "csharp-nunit",
-          "skill_path": "plugins/csharp-dotnet-development/skills/csharp-nunit",
-          "description": "Get best practices for NUnit unit testing, including data-driven tests"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "csharp-tunit",
-          "skill_path": "plugins/csharp-dotnet-development/skills/csharp-tunit",
-          "description": "Get best practices for TUnit unit testing, including data-driven tests"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "csharp-xunit",
-          "skill_path": "plugins/csharp-dotnet-development/skills/csharp-xunit",
-          "description": "Get best practices for XUnit unit testing, including data-driven tests"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "java-junit",
-          "skill_path": "plugins/java-development/skills/java-junit",
-          "description": "Get best practices for JUnit 5 unit testing, including data-driven tests"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
           "name": "javascript-typescript-jest",
           "skill_path": "skills/javascript-typescript-jest",
           "description": "Best practices for writing JavaScript/TypeScript tests using Jest, including mocking strategies, test structure, and common patterns."
@@ -255,20 +220,6 @@
           "name": "gstack",
           "skill_path": "",
           "description": "Fast headless browser for QA testing and site dogfooding. (gstack)"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "playwright-explore-website",
-          "skill_path": "plugins/frontend-web-dev/skills/playwright-explore-website",
-          "description": "Website exploration for testing using Playwright MCP"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "playwright-generate-test",
-          "skill_path": "plugins/frontend-web-dev/skills/playwright-generate-test",
-          "description": "Generate a Playwright test based on a scenario using Playwright MCP"
         },
         {
           "owner": "github",

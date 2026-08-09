@@ -13,34 +13,6 @@
           "description": "Python-specific design patterns and best practices including protocols, dataclasses, context managers, decorators, async/await, type hints, and package organization. Use when working with Python code to apply Pythonic patterns.\n"
         },
         {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "dataverse-python-advanced-patterns",
-          "skill_path": "plugins/dataverse-sdk-for-python/skills/dataverse-python-advanced-patterns",
-          "description": "Generate production code for Dataverse SDK using advanced patterns, error handling, and optimization techniques."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "dataverse-python-production-code",
-          "skill_path": "plugins/dataverse-sdk-for-python/skills/dataverse-python-production-code",
-          "description": "Generate production-ready Python code using Dataverse SDK with error handling, optimization, and best practices"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "dataverse-python-quickstart",
-          "skill_path": "plugins/dataverse-sdk-for-python/skills/dataverse-python-quickstart",
-          "description": "Generate Python SDK setup + CRUD + bulk + paging snippets using official patterns."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "dataverse-python-usecase-builder",
-          "skill_path": "plugins/dataverse-sdk-for-python/skills/dataverse-python-usecase-builder",
-          "description": "Generate complete solutions for specific Dataverse SDK use cases with architecture recommendations"
-        },
-        {
           "owner": "jeffallan",
           "repo": "claude-skills",
           "name": "python-pro",
@@ -532,13 +504,6 @@
           "name": "java-add-graalvm-native-image-support",
           "skill_path": "skills/java-add-graalvm-native-image-support",
           "description": "GraalVM Native Image expert that adds native image support to Java applications, builds the project, analyzes build errors, applies fixes, and iterates until successful compilation using Oracle best practices."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "java-docs",
-          "skill_path": "plugins/java-development/skills/java-docs",
-          "description": "Ensure that Java types are documented with Javadoc comments and follow best practices for documentation."
         }
       ]
     },
@@ -624,13 +589,6 @@
         {
           "owner": "github",
           "repo": "awesome-copilot",
-          "name": "csharp-async",
-          "skill_path": "plugins/csharp-dotnet-development/skills/csharp-async",
-          "description": "Get best practices for C# async programming"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
           "name": "csharp-docs",
           "skill_path": "skills/csharp-docs",
           "description": "Ensure that C# types are documented with XML comments and follow best practices for documentation."
@@ -638,23 +596,9 @@
         {
           "owner": "github",
           "repo": "awesome-copilot",
-          "name": "dotnet-best-practices",
-          "skill_path": "plugins/csharp-dotnet-development/skills/dotnet-best-practices",
-          "description": "Ensure .NET/C# code meets best practices for the solution/project."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
           "name": "dotnet-design-pattern-review",
           "skill_path": "skills/dotnet-design-pattern-review",
           "description": "Review the C#/.NET code for design pattern implementation and suggest improvements."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "dotnet-upgrade",
-          "skill_path": "plugins/csharp-dotnet-development/skills/dotnet-upgrade",
-          "description": "Ready-to-use prompts for comprehensive .NET framework upgrade analysis and execution"
         },
         {
           "owner": "github",

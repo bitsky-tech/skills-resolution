@@ -27,13 +27,6 @@
           "description": "Containerize an ASP.NET Core project by creating Dockerfile and .dockerfile files customized for the project."
         },
         {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "multi-stage-dockerfile",
-          "skill_path": "plugins/devops-oncall/skills/multi-stage-dockerfile",
-          "description": "Create optimized multi-stage Dockerfiles for any language or framework"
-        },
-        {
           "owner": "sickn33",
           "repo": "antigravity-awesome-skills",
           "name": "docker-expert",
@@ -101,13 +94,6 @@
       "name": "Infrastructure as Code",
       "description": "Provisioning infrastructure declaratively with Terraform/Bicep/Pulumi — modules, style, testing and importing existing resources.",
       "skills": [
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "import-infrastructure-as-code",
-          "skill_path": "plugins/azure-cloud-development/skills/import-infrastructure-as-code",
-          "description": "Import existing Azure resources into Terraform using Azure CLI discovery and Azure Verified Modules (AVM). Use when asked to reverse-engineer live Azure infrastructure, generate Infrastructure as Code from existing subscriptions/resource groups/resource IDs, map dependencies, derive exact import addresses from downloaded module source, prevent configuration drift, and produce AVM-based Terraform files ready for validation and planning across any Azure resource type."
-        },
         {
           "owner": "github",
           "repo": "awesome-copilot",
@@ -359,13 +345,6 @@
           "description": "Instrument a webapp to send useful telemetry data to Azure App Insights"
         },
         {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "azure-resource-health-diagnose",
-          "skill_path": "plugins/azure-cloud-development/skills/azure-resource-health-diagnose",
-          "description": "Analyze Azure resource health, diagnose issues from logs and telemetry, and create a remediation plan for identified problems."
-        },
-        {
           "owner": "google",
           "repo": "skills",
           "name": "google-cloud-waf-reliability",
@@ -462,20 +441,6 @@
       "name": "Cloud Cost & FinOps",
       "description": "Analyzing and reducing cloud spend through rightsizing, tagging, reservations and well-architected cost guidance.",
       "skills": [
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "az-cost-optimize",
-          "skill_path": "plugins/azure-cloud-development/skills/az-cost-optimize",
-          "description": "Analyze Azure resources used in the app (IaC files and/or resources in a target rg) and optimize costs - creating GitHub issues for identified optimizations."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "azure-pricing",
-          "skill_path": "plugins/azure-cloud-development/skills/azure-pricing",
-          "description": "Fetches real-time Azure retail pricing using the Azure Retail Prices API (prices.azure.com) and estimates Copilot Studio agent credit consumption. Use when the user asks about the cost of any Azure service, wants to compare SKU prices, needs pricing data for a cost estimate, mentions Azure pricing, Azure costs, Azure billing, or asks about Copilot Studio pricing, Copilot Credits, or agent usage estimation. Covers compute, storage, networking, databases, AI, Copilot Studio, and all other Azure service families."
-        },
         {
           "owner": "google",
           "repo": "skills",
