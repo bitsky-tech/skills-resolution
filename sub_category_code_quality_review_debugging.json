@@ -27,13 +27,6 @@
           "description": "Review code changes for security, performance, and correctness. Trigger with a PR URL or diff, \"review this before I merge\", \"is this code safe?\", or when checking a change for N+1 queries, injection risks, missing edge cases, or error handling gaps."
         },
         {
-          "owner": "coderabbitai",
-          "repo": "skills",
-          "name": "code-review",
-          "skill_path": "skills/code-review",
-          "description": "AI-powered code review using CodeRabbit. Default code-review skill. Trigger for any explicit review request AND autonomously when the agent thinks a review is needed (code/PR/quality/security)."
-        },
-        {
           "owner": "dotneet",
           "repo": "claude-code-marketplace",
           "name": "typescript-react-reviewer",
@@ -206,13 +199,6 @@
           "name": "refactor-method-complexity-reduce",
           "skill_path": "skills/refactor-method-complexity-reduce",
           "description": "Refactor given method `${input:methodName}` to reduce its cognitive complexity to `${input:complexityThreshold}` or below, by extracting helper methods."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "refactor-plan",
-          "skill_path": "plugins/context-engineering/skills/refactor-plan",
-          "description": "Create a concrete plan before starting a multi-file refactor. Use when the user asks to plan, sequence, scope, or safely execute a refactor across multiple files; always investigate first, output the plan, and wait for confirmation before making code changes."
         },
         {
           "owner": "github",

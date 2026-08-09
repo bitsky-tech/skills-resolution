@@ -6,34 +6,6 @@
       "description": "Writing and optimizing SQL — indexing, EXPLAIN analysis, query review and performance across MySQL, PostgreSQL, SQL Server and others.",
       "skills": [
         {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "postgresql-code-review",
-          "skill_path": "plugins/database-data-management/skills/postgresql-code-review",
-          "description": "PostgreSQL-specific code review assistant focusing on PostgreSQL best practices, anti-patterns, and unique quality standards. Covers JSONB operations, array usage, custom types, schema design, function optimization, and PostgreSQL-exclusive security features like Row Level Security (RLS)."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "postgresql-optimization",
-          "skill_path": "plugins/database-data-management/skills/postgresql-optimization",
-          "description": "PostgreSQL-specific development assistant focusing on unique PostgreSQL features, advanced data types, and PostgreSQL-exclusive capabilities. Covers JSONB operations, array types, custom types, range/geometric types, full-text search, window functions, and PostgreSQL extensions ecosystem."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "sql-code-review",
-          "skill_path": "plugins/database-data-management/skills/sql-code-review",
-          "description": "Universal SQL code review assistant that performs comprehensive security, maintainability, and code quality analysis across all SQL databases (MySQL, PostgreSQL, SQL Server, Oracle). Focuses on SQL injection prevention, access control, code standards, and anti-pattern detection. Complements SQL optimization prompt for complete development coverage."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "sql-optimization",
-          "skill_path": "plugins/database-data-management/skills/sql-optimization",
-          "description": "Universal SQL performance optimization assistant for comprehensive query tuning, indexing strategies, and database performance analysis across all SQL databases (MySQL, PostgreSQL, SQL Server, Oracle). Provides execution plan analysis, pagination optimization, batch operations, and performance monitoring guidance."
-        },
-        {
           "owner": "jeffallan",
           "repo": "claude-skills",
           "name": "postgres-pro",
@@ -231,7 +203,15 @@
     {
       "name": "Other",
       "description": "Database skills that do not fit the above subcategories.",
-      "skills": []
+      "skills": [
+        {
+          "name": "airtable",
+          "description": "Airtable REST API via curl. Records CRUD, filters, upserts.",
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "skill_path": "skills/productivity/airtable"
+        }
+      ]
     }
   ]
 }

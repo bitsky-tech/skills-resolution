@@ -74,6 +74,13 @@
           "name": "content-creator",
           "skill_path": "awesome_agent_skills/content-creator",
           "description": "Creates engaging content for blogs, social media, and marketing materials with audience focus.\nUse when: writing blog posts, creating social media content, developing marketing copy, crafting\nengaging headlines, or when user mentions content creation, blogging, social media, or\naudience engagement.\n"
+        },
+        {
+          "name": "youtube-content",
+          "description": "YouTube transcripts to summaries, threads, blogs.",
+          "owner": "NousResearch",
+          "repo": "hermes-agent",
+          "skill_path": "skills/media/youtube-content"
         }
       ]
     },

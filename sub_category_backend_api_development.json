@@ -71,30 +71,9 @@
         {
           "owner": "github",
           "repo": "awesome-copilot",
-          "name": "aspnet-minimal-api-openapi",
-          "skill_path": "plugins/csharp-dotnet-development/skills/aspnet-minimal-api-openapi",
-          "description": "Create ASP.NET Minimal API endpoints with proper OpenAPI documentation"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "create-spring-boot-java-project",
-          "skill_path": "plugins/java-development/skills/create-spring-boot-java-project",
-          "description": "Create Spring Boot Java Project Skeleton"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
           "name": "create-spring-boot-kotlin-project",
           "skill_path": "skills/create-spring-boot-kotlin-project",
           "description": "Create Spring Boot Kotlin Project Skeleton"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "java-springboot",
-          "skill_path": "plugins/java-development/skills/java-springboot",
-          "description": "Get best practices for developing applications with Spring Boot."
         },
         {
           "owner": "github",
@@ -220,27 +199,6 @@
           "name": "api-design",
           "skill_path": ".agents/skills/api-design",
           "description": "REST API design patterns including resource naming, status codes, pagination, filtering, error responses, versioning, and rate limiting for production APIs."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "openapi-to-application-code",
-          "skill_path": "plugins/openapi-to-application-csharp-dotnet/skills/openapi-to-application-code",
-          "description": "Generate a complete, production-ready application from an OpenAPI specification"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "typespec-api-operations",
-          "skill_path": "plugins/typespec-m365-copilot/skills/typespec-api-operations",
-          "description": "Add GET, POST, PATCH, and DELETE operations to a TypeSpec API plugin with proper routing, parameters, and adaptive cards"
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "typespec-create-api-plugin",
-          "skill_path": "plugins/typespec-m365-copilot/skills/typespec-create-api-plugin",
-          "description": "Generate a TypeSpec API plugin with REST operations, authentication, and Adaptive Cards for Microsoft 365 Copilot"
         },
         {
           "owner": "jeffallan",
@@ -761,15 +719,7 @@
     {
       "name": "Other",
       "description": "Backend skills that do not fit the above subcategories.",
-      "skills": [
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "power-apps-code-app-scaffold",
-          "skill_path": "plugins/power-apps-code-apps/skills/power-apps-code-app-scaffold",
-          "description": "Scaffold a complete Power Apps Code App project with PAC CLI setup, SDK integration, and connector configuration"
-        }
-      ]
+      "skills": []
     }
   ]
 }

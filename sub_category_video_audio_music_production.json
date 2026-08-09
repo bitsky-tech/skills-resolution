@@ -514,6 +514,62 @@
           "name": "ascii-video",
           "skill_path": "skills/creative/ascii-video",
           "description": "ASCII video: convert video/audio to colored ASCII MP4/GIF."
+        },
+        {
+          "name": "hyperframes-core",
+          "description": "The HyperFrames composition contract — build one renderable project. Use for composition structure, the `data-*` timing attributes, `class=\"clip\"`, tracks, sub-compositions, variables, framework-owned media playback, deterministic-render rules, and validation. Also covers Tailwind projects and the STORYBOARD.md / SCRIPT.md plan formats. Read before writing composition HTML.",
+          "owner": "heygen-com",
+          "repo": "hyperframes",
+          "skill_path": "skills/hyperframes-core"
+        },
+        {
+          "name": "hyperframes-creative",
+          "description": "Non-animation creative direction for HyperFrames videos. Use for design spec (frame.md / design.md) handling, palettes, typography, narration, beat planning, audio-reactive visuals, composition patterns, and brand / style decisions. For atomic motion patterns and scene blueprints, use `hyperframes-animation`.",
+          "owner": "heygen-com",
+          "repo": "hyperframes",
+          "skill_path": "skills/hyperframes-creative"
+        },
+        {
+          "name": "general-video",
+          "description": "Author or edit a custom HyperFrames composition when no specialized workflow fits, or when BRIEF.md sets flow: companion. Use for longer or multi-scene pieces, brand and sizzle reels, montages, static loops, static title cards, footage remixes, and freeform builds. Use motion-graphics instead for a short unnarrated motion-first unit, including an animated title. Route fresh creation through hyperframes before using this skill.",
+          "owner": "heygen-com",
+          "repo": "hyperframes",
+          "skill_path": "skills/general-video"
+        },
+        {
+          "name": "faceless-explainer",
+          "description": "Turn arbitrary text — an article, notes, a topic, a brief — into a faceless explainer video: there is no site or footage to capture, so the visuals are invented per scene (typography, abstract graphics, diagrams, data-viz). Use for topic explainers, concept breakdowns, how-tos, listicles. Not a video built from a website (/product-launch-video — promo or tour). Unclear → /hyperframes.",
+          "owner": "heygen-com",
+          "repo": "hyperframes",
+          "skill_path": "skills/faceless-explainer"
+        },
+        {
+          "name": "product-launch-video",
+          "description": "Turn a product or marketing URL, pasted script, or brief into a product launch / promo video — SaaS promos, feature reveals, product demos, app and company launches. Use when the user wants to market, launch, promote, or reveal a product; the default for any commercial URL. Site tours / showcases of a website route here too — the brief carries the show-it-as-is intent. Unclear → /hyperframes.",
+          "owner": "heygen-com",
+          "repo": "hyperframes",
+          "skill_path": "skills/product-launch-video"
+        },
+        {
+          "name": "hyperframes-keyframes",
+          "description": "Use when a HyperFrames composition needs seek-safe 2D/3D keyframes, GSAP timelines, CSS keyframes, Anime.js, WAAPI, FLIP, paths, masks, SVG morph/draw, text trails, 3D depth, or `hyperframes keyframes` diagnostics. Don't use for broad scene strategy, brand design, media sourcing, captions, or general video planning.",
+          "owner": "heygen-com",
+          "repo": "hyperframes",
+          "skill_path": "skills/hyperframes-keyframes"
+        },
+        {
+          "name": "motion-graphics",
+          "description": "A short, design-led motion graphic where motion is the message — kinetic typography, stat count-up, chart/data-viz hit, logo sting / brand lockup, lower-third / callout / social overlay, animated map (highlight regions, connect places, zoom to a location), animated tweet / news-article / headline, webpage / UI animation (scroll, cursor, callouts), or fusing a real image's geometry into a chart. Usually under 10s (up to ~30s), no narration or live-action subject; renders to MP4 or transparent overlay. Longer / narrated / multi-scene → /general-video. Unclear → /hyperframes.",
+          "owner": "heygen-com",
+          "repo": "hyperframes",
+          "skill_path": "skills/motion-graphics"
+        },
+        {
+          "name": "music-to-video",
+          "description": "Turn a music track (an audio file, a video to pull audio from, or a track generated from a mood brief) into a beat-synced video — lyric video, slideshow, or kinetic promo. The music drives all pacing; any user-supplied images/videos are cut onto the same beat grid, and a complete video needs zero assets. Narrated pieces → the input-matched workflow (see /hyperframes). Unclear → /hyperframes.",
+          "owner": "heygen-com",
+          "repo": "hyperframes",
+          "skill_path": "skills/music-to-video"
         }
       ]
     },
@@ -735,6 +791,13 @@
           "name": "runcomfy-cli",
           "skill_path": "runcomfy-cli",
           "description": "Run any model on RunComfy from the command line. The `runcomfy` CLI is one binary, one auth, hundreds of model endpoints — image generation, image edit, video generation, image-to-video, lip-sync, face swap, video edit, inpainting, outpainting, extend, ControlNet, relight, upscale, LoRA training and more. Submit a request, poll for status, download the output. This skill teaches the agent how to install, authenticate, discover model schemas, invoke models, stream / poll / no-wait, script in JSON output mode, and handle errors. Triggers on \"runcomfy cli\", \"install runcomfy\", \"runcomfy login\", \"runcomfy run\", \"runcomfy whoami\", \"runcomfy api\", or any explicit ask to call a RunComfy model from a script or terminal. Sibling skills (ai-image-generation, ai-video-generation, image-edit, video-edit, face-swap, lipsync, image-to-video, image-inpainting, image-outpainting, video-extend, controlnet-pose, relight) all dispatch through this CLI.\n"
+        },
+        {
+          "name": "media-use",
+          "description": "Agent Media OS, the single skill for every media need in a HyperFrames project. Resolve BGM, SFX, image, icon, brand logo, voice, color grade, or LUT into a frozen local file or paste-ready block + ledger record (one verb, `resolve`); generate via TTS / music / image models when the catalog misses; produce voiceover, transcription, captions, and background removal through one shared audio engine; operate on media (cut / reframe / transform); and reuse assets across projects. Also use for vague feedback that real footage looks dark, flat, boring, should feel retro/camcorder/print/ASCII, needs privacy, or needs a media reveal.",
+          "owner": "heygen-com",
+          "repo": "hyperframes",
+          "skill_path": "skills/media-use"
         }
       ]
     }

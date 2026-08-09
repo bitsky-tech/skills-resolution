@@ -181,13 +181,6 @@
         {
           "owner": "github",
           "repo": "awesome-copilot",
-          "name": "create-github-issues-feature-from-implementation-plan",
-          "skill_path": "plugins/project-planning/skills/create-github-issues-feature-from-implementation-plan",
-          "description": "Create GitHub Issues from implementation plan phases using feature_request.yml or chore_request.yml templates."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
           "name": "create-github-issues-for-unmet-specification-requirements",
           "skill_path": "skills/create-github-issues-for-unmet-specification-requirements",
           "description": "Create GitHub Issues for unimplemented requirements from specification files using feature_request.yml template."
@@ -285,34 +278,6 @@
         {
           "owner": "github",
           "repo": "awesome-copilot",
-          "name": "breakdown-epic-arch",
-          "skill_path": "plugins/project-planning/skills/breakdown-epic-arch",
-          "description": "Prompt for creating the high-level technical architecture for an Epic, based on a Product Requirements Document."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "breakdown-epic-pm",
-          "skill_path": "plugins/project-planning/skills/breakdown-epic-pm",
-          "description": "Prompt for creating an Epic Product Requirements Document (PRD) for a new epic. This PRD will be used as input for generating a technical architecture specification."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "breakdown-feature-implementation",
-          "skill_path": "plugins/project-planning/skills/breakdown-feature-implementation",
-          "description": "Prompt for creating detailed feature implementation plans, following Epoch monorepo structure."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "breakdown-feature-prd",
-          "skill_path": "plugins/project-planning/skills/breakdown-feature-prd",
-          "description": "Prompt for creating Product Requirements Documents (PRDs) for new features, based on an Epic."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
           "name": "breakdown-plan",
           "skill_path": "skills/breakdown-plan",
           "description": "Issue Planning and Automation prompt that generates comprehensive project plans with Epic > Feature > Story/Enabler > Test hierarchy, dependencies, priorities, and automated tracking."
@@ -320,23 +285,9 @@
         {
           "owner": "github",
           "repo": "awesome-copilot",
-          "name": "create-implementation-plan",
-          "skill_path": "plugins/project-planning/skills/create-implementation-plan",
-          "description": "Create a new implementation plan file for new features, refactoring existing code or upgrading packages, design, architecture or infrastructure."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
           "name": "create-specification",
           "skill_path": "skills/create-specification",
           "description": "Create a new specification file for the solution, optimized for Generative AI consumption."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "create-technical-spike",
-          "skill_path": "plugins/project-planning/skills/create-technical-spike",
-          "description": "Create time-boxed technical spike documents for researching and resolving critical development decisions before implementation."
         },
         {
           "owner": "github",
@@ -358,13 +309,6 @@
           "name": "prd",
           "skill_path": "skills/prd",
           "description": "Generate high-quality Product Requirements Documents (PRDs) for software systems and AI-powered features. Includes executive summaries, user stories, technical specifications, and risk analysis."
-        },
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "update-implementation-plan",
-          "skill_path": "plugins/project-planning/skills/update-implementation-plan",
-          "description": "Update an existing implementation plan file with new or update requirements to provide new features, refactoring existing code or upgrading packages, design, architecture or infrastructure."
         },
         {
           "owner": "github",
@@ -546,15 +490,7 @@
     {
       "name": "Other",
       "description": "Collaboration/planning skills that do not fit the above subcategories.",
-      "skills": [
-        {
-          "owner": "github",
-          "repo": "awesome-copilot",
-          "name": "sponsor-finder",
-          "skill_path": "plugins/ospo-sponsorship/skills/sponsor-finder",
-          "description": "Find which of a GitHub repository's dependencies are sponsorable via GitHub Sponsors. Uses deps.dev API for dependency resolution across npm, PyPI, Cargo, Go, RubyGems, Maven, and NuGet. Checks npm funding metadata, FUNDING.yml files, and web search. Verifies every link. Shows direct and transitive dependencies with OSSF Scorecard health data. Invoke with /sponsor followed by a GitHub owner/repo (e.g. \"/sponsor expressjs/express\")."
-        }
-      ]
+      "skills": []
     }
   ]
 }
